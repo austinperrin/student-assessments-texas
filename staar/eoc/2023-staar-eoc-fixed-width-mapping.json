@@ -274,7 +274,7 @@
     {
       "start_pos": "191",
       "end_pos": "200",
-      "column_header": "tsds_id",
+      "column_header": "tx_unique_student_id",
       "column_num": "51"
     },
     {

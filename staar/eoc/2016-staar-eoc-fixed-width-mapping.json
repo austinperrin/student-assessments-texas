@@ -71,7 +71,7 @@
     {
       "start_pos": "74",
       "end_pos": "82",
-      "column_header": "student_id",
+      "column_header": "peims_id",
       "column_num": "10"
     },
     {
@@ -251,7 +251,7 @@
     {
       "start_pos": "191",
       "end_pos": "200",
-      "column_header": "tsds_id",
+      "column_header": "tx_unique_student_id",
       "column_num": "47"
     },
     {
