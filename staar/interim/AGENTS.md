@@ -9,6 +9,7 @@ For each file:
 - use the corresponding TEA PDF in `../../docs`
 - keep `metadata.pdf_url` aligned to the official PDF URL
 - build field definitions from that year's PDF layout
+- omit `metadata.administration_periods`
 
 ## File Naming
 
