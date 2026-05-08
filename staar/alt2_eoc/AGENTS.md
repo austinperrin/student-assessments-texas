@@ -110,7 +110,7 @@ Use these rules for `column_header`:
 Good examples:
 
 - `administration_date`
-- `student_portal_unique_access_code`
+- `family_portal_unique_access_code`
 - `item_reporting_category_numbers`
 - `item_student_responses`
 

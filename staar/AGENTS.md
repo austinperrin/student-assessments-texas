@@ -60,3 +60,14 @@ Keep the existing per-folder file naming conventions:
 - Preserve the separation between assessment families
 - Prefer source-PDF accuracy over forced cross-folder consistency
 - Update the folder-specific docs when a structural convention changes
+
+## Header Consistency Checks
+
+Before committing any mapping file:
+
+- confirm every `column_header` is unique within that JSON file
+- use `peims_id` for PEIMS ID fields
+- use `local_student_id` for Local Student ID fields
+- use `tx_unique_student_id` for TSDS ID, TSDS UID, TX Unique Student ID, or Texas Student Data System Unique Student ID fields
+- use `family_portal_unique_access_code` for Family Portal or Student Portal unique access code fields when that field exists in the source layout
+- do not use legacy variants such as `student_portal_unique_access_code`, `tsds_id`, or raw `student_id` when the source field is one of the normalized identifiers above

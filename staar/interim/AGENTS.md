@@ -40,3 +40,6 @@ The `mapped_fields` entries use:
 - Omit blank fields.
 - Keep `column_num` aligned to the source layout sequence, including omitted blank fields.
 - Normalize field titles into lowercase snake case.
+- Ensure `column_header` values are unique within each JSON file.
+- Normalize identifier headers as `peims_id`, `local_student_id`, and `tx_unique_student_id`.
+- Use `family_portal_unique_access_code` if a future STAAR Interim layout adds a family or student portal unique access code field.
