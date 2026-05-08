@@ -6,10 +6,7 @@
       "file_name": "2023-staar-3-8-fixed-width-mapping.json",
       "school_year": "2022-2023",
       "administration_periods": [
-        {
-          "code": "0523",
-          "label": "May 2023"
-        }
+        { "code": "0523", "label": "May 2023" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2023-staar-3-8-data-file-format.pdf"
     }

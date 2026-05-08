@@ -6,10 +6,7 @@
       "file_name": "2026-staar-3-8-fixed-width-mapping.json",
       "school_year": "2025-2026",
       "administration_periods": [
-        {
-          "code": "0526",
-          "label": "Spring 2026"
-        }
+        { "code": "0526", "label": "Spring 2026" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2026-staar-3-8-data-file-layout-final-tagged.pdf"
     }

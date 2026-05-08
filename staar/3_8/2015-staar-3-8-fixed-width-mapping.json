@@ -6,22 +6,10 @@
       "file_name": "2015-staar-3-8-fixed-width-mapping.json",
       "school_year": "2014-2015",
       "administration_periods": [
-        {
-          "code": "0315",
-          "label": "March 2015"
-        },
-        {
-          "code": "0415",
-          "label": "April 2015"
-        },
-        {
-          "code": "0515",
-          "label": "May 2015"
-        },
-        {
-          "code": "0615",
-          "label": "June 2015"
-        }
+        { "code": "0315", "label": "March 2015" },
+        { "code": "0415", "label": "April 2015" },
+        { "code": "0515", "label": "May 2015" },
+        { "code": "0615", "label": "June 2015" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2015-staar-3-8-data-file-format.pdf"
     }

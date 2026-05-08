@@ -6,14 +6,8 @@
       "file_name": "2021-staar-3-8-fixed-width-mapping.json",
       "school_year": "2020-2021",
       "administration_periods": [
-        {
-          "code": "0421",
-          "label": "April 2021 (grades 5 and 8 mathematics and reading only)"
-        },
-        {
-          "code": "0521",
-          "label": "May 2021 (grades 3-8 excluding grades 5 and 8 mathematics and reading)"
-        }
+        { "code": "0421", "label": "April 2021 (grades 5 and 8 mathematics and reading only)" },
+        { "code": "0521", "label": "May 2021 (grades 3-8 excluding grades 5 and 8 mathematics and reading)" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2021-staar-3-8-data-file-format.pdf"
     }

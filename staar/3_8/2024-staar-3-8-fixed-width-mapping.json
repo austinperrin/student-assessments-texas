@@ -6,10 +6,7 @@
       "file_name": "2024-staar-3-8-fixed-width-mapping.json",
       "school_year": "2023-2024",
       "administration_periods": [
-        {
-          "code": "0524",
-          "label": "Spring 2024"
-        }
+        { "code": "0524", "label": "Spring 2024" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-staar-3-8-data-file.pdf"
     }

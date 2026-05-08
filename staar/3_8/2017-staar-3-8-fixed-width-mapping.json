@@ -6,18 +6,9 @@
       "file_name": "2017-staar-3-8-fixed-width-mapping.json",
       "school_year": "2016-2017",
       "administration_periods": [
-        {
-          "code": "0317",
-          "label": "March 2017"
-        },
-        {
-          "code": "0517",
-          "label": "May 2017"
-        },
-        {
-          "code": "0617",
-          "label": "June 2017"
-        }
+        { "code": "0317", "label": "March 2017" },
+        { "code": "0517", "label": "May 2017" },
+        { "code": "0617", "label": "June 2017" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-3-8-data-file-format.pdf"
     }

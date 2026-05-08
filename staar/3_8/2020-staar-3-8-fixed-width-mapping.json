@@ -6,18 +6,9 @@
       "file_name": "2020-staar-3-8-fixed-width-mapping.json",
       "school_year": "2019-2020",
       "administration_periods": [
-        {
-          "code": "0420",
-          "label": "April 2020"
-        },
-        {
-          "code": "0520",
-          "label": "May 2020"
-        },
-        {
-          "code": "0620",
-          "label": "June 2020"
-        }
+        { "code": "0420", "label": "April 2020" },
+        { "code": "0520", "label": "May 2020" },
+        { "code": "0620", "label": "June 2020" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2020-staar-3-8-data-file-format.pdf"
     }

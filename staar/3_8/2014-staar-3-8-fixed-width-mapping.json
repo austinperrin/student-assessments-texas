@@ -6,18 +6,9 @@
       "file_name": "2014-staar-3-8-fixed-width-mapping.json",
       "school_year": "2013-2014",
       "administration_periods": [
-        {
-          "code": "0414",
-          "label": "April 2014"
-        },
-        {
-          "code": "0514",
-          "label": "May 2014"
-        },
-        {
-          "code": "0614",
-          "label": "June 2014"
-        }
+        { "code": "0414", "label": "April 2014" },
+        { "code": "0514", "label": "May 2014" },
+        { "code": "0614", "label": "June 2014" }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2014-staar-3-8-data-file-format.pdf"
     }
