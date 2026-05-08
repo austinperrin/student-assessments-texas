@@ -1,0 +1,23 @@
+# TELPAS Mapping Maintenance Guide
+
+The `telpas/` directory groups TELPAS fixed-width mapping files by assessment family.
+
+## Directory Structure
+
+- `telpas/telpas/` for TELPAS mapping files
+- `telpas/telpas_alt/` for TELPAS Alternate mapping files
+
+Source layout PDFs remain in `../docs`.
+
+## Naming Rules
+
+- TELPAS: `YYYY-telpas-fixed-width-mapping.json`
+- TELPAS Alternate: `YYYY-telpas-alt-fixed-width-mapping.json`
+
+## Maintenance Principles
+
+- Use the current year's PDF as the source of truth.
+- Omit blank fields from `mapped_fields`.
+- Preserve blank fields in the `column_num` sequence.
+- Normalize field titles into lowercase snake case.
+- Store fixed-width positions and column numbers as strings.

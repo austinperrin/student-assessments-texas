@@ -1,0 +1,712 @@
+{
+    "metadata": [
+        {
+            "author": "Austin Perrin",
+            "date_created": "2026-05-08",
+            "file_name": "2018-telpas-fixed-width-mapping.json",
+            "school_year": "2017-2018",
+            "administration_periods": [
+                { "code": "0318", "label": "Spring 2018" }
+            ],
+            "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-telpas-data-file-format.pdf"
+        }
+    ],
+    "mapped_fields": [
+        {
+            "start_pos": "1",
+            "end_pos": "4",
+            "column_header": "administration_date",
+            "column_num": "1"
+        },
+        {
+            "start_pos": "5",
+            "end_pos": "6",
+            "column_header": "grade_level_code",
+            "column_num": "2"
+        },
+        {
+            "start_pos": "7",
+            "end_pos": "8",
+            "column_header": "esc_region_number",
+            "column_num": "3"
+        },
+        {
+            "start_pos": "9",
+            "end_pos": "17",
+            "column_header": "county_district_campus_number",
+            "column_num": "4"
+        },
+        {
+            "start_pos": "18",
+            "end_pos": "32",
+            "column_header": "district_name",
+            "column_num": "5"
+        },
+        {
+            "start_pos": "33",
+            "end_pos": "47",
+            "column_header": "campus_name",
+            "column_num": "6"
+        },
+        {
+            "start_pos": "48",
+            "end_pos": "62",
+            "column_header": "last_name",
+            "column_num": "7"
+        },
+        {
+            "start_pos": "63",
+            "end_pos": "72",
+            "column_header": "first_name",
+            "column_num": "8"
+        },
+        {
+            "start_pos": "73",
+            "end_pos": "73",
+            "column_header": "middle_initial",
+            "column_num": "9"
+        },
+        {
+            "start_pos": "74",
+            "end_pos": "82",
+            "column_header": "peims_id",
+            "column_num": "10"
+        },
+        {
+            "start_pos": "83",
+            "end_pos": "83",
+            "column_header": "sex_code",
+            "column_num": "11"
+        },
+        {
+            "start_pos": "84",
+            "end_pos": "91",
+            "column_header": "date_of_birth",
+            "column_num": "12"
+        },
+        {
+            "start_pos": "93",
+            "end_pos": "93",
+            "column_header": "hispanic_latino_code",
+            "column_num": "14"
+        },
+        {
+            "start_pos": "94",
+            "end_pos": "94",
+            "column_header": "american_indian_alaska_native_code",
+            "column_num": "15"
+        },
+        {
+            "start_pos": "95",
+            "end_pos": "95",
+            "column_header": "asian_code",
+            "column_num": "16"
+        },
+        {
+            "start_pos": "96",
+            "end_pos": "96",
+            "column_header": "black_african_american_code",
+            "column_num": "17"
+        },
+        {
+            "start_pos": "97",
+            "end_pos": "97",
+            "column_header": "native_hawaiian_pacific_islander_code",
+            "column_num": "18"
+        },
+        {
+            "start_pos": "98",
+            "end_pos": "98",
+            "column_header": "white_code",
+            "column_num": "19"
+        },
+        {
+            "start_pos": "99",
+            "end_pos": "99",
+            "column_header": "ethnicity_race_reporting_category",
+            "column_num": "20"
+        },
+        {
+            "start_pos": "100",
+            "end_pos": "100",
+            "column_header": "economic_disadvantage_code",
+            "column_num": "21"
+        },
+        {
+            "start_pos": "101",
+            "end_pos": "101",
+            "column_header": "title_i_part_a_indicator_code",
+            "column_num": "22"
+        },
+        {
+            "start_pos": "102",
+            "end_pos": "102",
+            "column_header": "migrant_indicator_code",
+            "column_num": "23"
+        },
+        {
+            "start_pos": "107",
+            "end_pos": "107",
+            "column_header": "lep_indicator_code",
+            "column_num": "25"
+        },
+        {
+            "start_pos": "108",
+            "end_pos": "108",
+            "column_header": "bilingual_indicator_code",
+            "column_num": "26"
+        },
+        {
+            "start_pos": "109",
+            "end_pos": "109",
+            "column_header": "esl_indicator_code",
+            "column_num": "27"
+        },
+        {
+            "start_pos": "111",
+            "end_pos": "111",
+            "column_header": "special_ed_indicator_code",
+            "column_num": "29"
+        },
+        {
+            "start_pos": "117",
+            "end_pos": "117",
+            "column_header": "gifted_talented_indicator_code",
+            "column_num": "31"
+        },
+        {
+            "start_pos": "118",
+            "end_pos": "118",
+            "column_header": "at_risk_indicator_code",
+            "column_num": "32"
+        },
+        {
+            "start_pos": "122",
+            "end_pos": "122",
+            "column_header": "career_and_technical_ed_indicator_code_grades_6_12",
+            "column_num": "34"
+        },
+        {
+            "start_pos": "123",
+            "end_pos": "126",
+            "column_header": "local_use",
+            "column_num": "35"
+        },
+        {
+            "start_pos": "131",
+            "end_pos": "131",
+            "column_header": "unschooled_asylee_refugee",
+            "column_num": "37"
+        },
+        {
+            "start_pos": "132",
+            "end_pos": "132",
+            "column_header": "students_with_interrupted_formal_education_sife",
+            "column_num": "38"
+        },
+        {
+            "start_pos": "133",
+            "end_pos": "133",
+            "column_header": "agency_use_e",
+            "column_num": "39"
+        },
+        {
+            "start_pos": "134",
+            "end_pos": "134",
+            "column_header": "agency_use_e_pos_134",
+            "column_num": "40"
+        },
+        {
+            "start_pos": "135",
+            "end_pos": "135",
+            "column_header": "agency_use_e_pos_135",
+            "column_num": "41"
+        },
+        {
+            "start_pos": "136",
+            "end_pos": "136",
+            "column_header": "agency_use_e_pos_136",
+            "column_num": "42"
+        },
+        {
+            "start_pos": "137",
+            "end_pos": "137",
+            "column_header": "agency_use_e_pos_137",
+            "column_num": "43"
+        },
+        {
+            "start_pos": "141",
+            "end_pos": "141",
+            "column_header": "years_in_u_s_schools",
+            "column_num": "45"
+        },
+        {
+            "start_pos": "144",
+            "end_pos": "144",
+            "column_header": "parental_denial",
+            "column_num": "47"
+        },
+        {
+            "start_pos": "145",
+            "end_pos": "153",
+            "column_header": "local_student_id",
+            "column_num": "48"
+        },
+        {
+            "start_pos": "155",
+            "end_pos": "163",
+            "column_header": "county_district_campus_number_pos_155",
+            "column_num": "50"
+        },
+        {
+            "start_pos": "174",
+            "end_pos": "175",
+            "column_header": "fall_2017_tsds_peims_crisis_code_1",
+            "column_num": "52"
+        },
+        {
+            "start_pos": "176",
+            "end_pos": "177",
+            "column_header": "fall_2017_peims_student_attribution_code",
+            "column_num": "53"
+        },
+        {
+            "start_pos": "178",
+            "end_pos": "178",
+            "column_header": "fall_2017_peims_military_connected_student_code",
+            "column_num": "54"
+        },
+        {
+            "start_pos": "185",
+            "end_pos": "190",
+            "column_header": "family_portal_unique_access_code",
+            "column_num": "56"
+        },
+        {
+            "start_pos": "191",
+            "end_pos": "200",
+            "column_header": "tx_unique_student_id",
+            "column_num": "57"
+        },
+        {
+            "start_pos": "201",
+            "end_pos": "201",
+            "column_header": "rater_info_a",
+            "column_num": "58"
+        },
+        {
+            "start_pos": "211",
+            "end_pos": "211",
+            "column_header": "rater_info_b",
+            "column_num": "60"
+        },
+        {
+            "start_pos": "221",
+            "end_pos": "221",
+            "column_header": "designated_supports",
+            "column_num": "62"
+        },
+        {
+            "start_pos": "222",
+            "end_pos": "222",
+            "column_header": "extra_day",
+            "column_num": "63"
+        },
+        {
+            "start_pos": "241",
+            "end_pos": "241",
+            "column_header": "designated_supports_pos_241",
+            "column_num": "65"
+        },
+        {
+            "start_pos": "242",
+            "end_pos": "242",
+            "column_header": "large_print",
+            "column_num": "66"
+        },
+        {
+            "start_pos": "243",
+            "end_pos": "243",
+            "column_header": "extra_day_pos_243",
+            "column_num": "67"
+        },
+        {
+            "start_pos": "261",
+            "end_pos": "261",
+            "column_header": "listening_score_code",
+            "column_num": "69"
+        },
+        {
+            "start_pos": "263",
+            "end_pos": "263",
+            "column_header": "listening_proficiency_rating",
+            "column_num": "71"
+        },
+        {
+            "start_pos": "271",
+            "end_pos": "271",
+            "column_header": "speaking_score_code",
+            "column_num": "73"
+        },
+        {
+            "start_pos": "273",
+            "end_pos": "273",
+            "column_header": "speaking_proficiency_rating",
+            "column_num": "75"
+        },
+        {
+            "start_pos": "281",
+            "end_pos": "281",
+            "column_header": "reading_score_code",
+            "column_num": "77"
+        },
+        {
+            "start_pos": "283",
+            "end_pos": "283",
+            "column_header": "reading_proficiency_rating",
+            "column_num": "79"
+        },
+        {
+            "start_pos": "291",
+            "end_pos": "291",
+            "column_header": "writing_score_code",
+            "column_num": "81"
+        },
+        {
+            "start_pos": "293",
+            "end_pos": "293",
+            "column_header": "writing_proficiency_rating",
+            "column_num": "83"
+        },
+        {
+            "start_pos": "301",
+            "end_pos": "306",
+            "column_header": "listening_reporting_category_score_reporting_category_1",
+            "column_num": "85"
+        },
+        {
+            "start_pos": "307",
+            "end_pos": "308",
+            "column_header": "listening_raw_score",
+            "column_num": "86"
+        },
+        {
+            "start_pos": "309",
+            "end_pos": "312",
+            "column_header": "listening_scale_score",
+            "column_num": "87"
+        },
+        {
+            "start_pos": "313",
+            "end_pos": "313",
+            "column_header": "listening_holistic_rating_test_administration",
+            "column_num": "88"
+        },
+        {
+            "start_pos": "331",
+            "end_pos": "360",
+            "column_header": "listening_reporting_category_numbers_by_item",
+            "column_num": "90"
+        },
+        {
+            "start_pos": "361",
+            "end_pos": "390",
+            "column_header": "listening_points_possible_by_item",
+            "column_num": "91"
+        },
+        {
+            "start_pos": "391",
+            "end_pos": "420",
+            "column_header": "listening_points_achieved_by_item",
+            "column_num": "92"
+        },
+        {
+            "start_pos": "501",
+            "end_pos": "504",
+            "column_header": "speaking_reporting_category_score_reporting_category_1",
+            "column_num": "94"
+        },
+        {
+            "start_pos": "505",
+            "end_pos": "506",
+            "column_header": "speaking_raw_score",
+            "column_num": "95"
+        },
+        {
+            "start_pos": "507",
+            "end_pos": "510",
+            "column_header": "speaking_scale_score",
+            "column_num": "96"
+        },
+        {
+            "start_pos": "511",
+            "end_pos": "511",
+            "column_header": "speaking_holistic_rating_test_administration",
+            "column_num": "97"
+        },
+        {
+            "start_pos": "531",
+            "end_pos": "570",
+            "column_header": "speaking_reporting_category_numbers_by_item",
+            "column_num": "99"
+        },
+        {
+            "start_pos": "571",
+            "end_pos": "610",
+            "column_header": "speaking_points_possible_by_item",
+            "column_num": "100"
+        },
+        {
+            "start_pos": "611",
+            "end_pos": "650",
+            "column_header": "speaking_points_achieved_by_item",
+            "column_num": "101"
+        },
+        {
+            "start_pos": "701",
+            "end_pos": "706",
+            "column_header": "reading_reporting_category_score_reporting_category_1",
+            "column_num": "103"
+        },
+        {
+            "start_pos": "707",
+            "end_pos": "708",
+            "column_header": "reading_raw_score",
+            "column_num": "104"
+        },
+        {
+            "start_pos": "709",
+            "end_pos": "712",
+            "column_header": "reading_scale_score",
+            "column_num": "105"
+        },
+        {
+            "start_pos": "713",
+            "end_pos": "713",
+            "column_header": "reading_paper_test_administration",
+            "column_num": "106"
+        },
+        {
+            "start_pos": "731",
+            "end_pos": "770",
+            "column_header": "reading_reporting_category_numbers_by_item",
+            "column_num": "108"
+        },
+        {
+            "start_pos": "811",
+            "end_pos": "850",
+            "column_header": "reading_student_response_by_item",
+            "column_num": "110"
+        },
+        {
+            "start_pos": "902",
+            "end_pos": "904",
+            "column_header": "telpas_comprehension_score",
+            "column_num": "112"
+        },
+        {
+            "start_pos": "905",
+            "end_pos": "907",
+            "column_header": "telpas_composite_score",
+            "column_num": "113"
+        },
+        {
+            "start_pos": "908",
+            "end_pos": "908",
+            "column_header": "telpas_composite_rating",
+            "column_num": "114"
+        },
+        {
+            "start_pos": "1001",
+            "end_pos": "1002",
+            "column_header": "grade_2013",
+            "column_num": "116"
+        },
+        {
+            "start_pos": "1003",
+            "end_pos": "1011",
+            "column_header": "county_district_campus_number_2013",
+            "column_num": "117"
+        },
+        {
+            "start_pos": "1027",
+            "end_pos": "1027",
+            "column_header": "reading_score_code_2013",
+            "column_num": "119"
+        },
+        {
+            "start_pos": "1028",
+            "end_pos": "1028",
+            "column_header": "reading_proficiency_rating_2013",
+            "column_num": "120"
+        },
+        {
+            "start_pos": "1029",
+            "end_pos": "1032",
+            "column_header": "reading_scale_score_2013",
+            "column_num": "121"
+        },
+        {
+            "start_pos": "1035",
+            "end_pos": "1035",
+            "column_header": "composite_rating_2013",
+            "column_num": "123"
+        },
+        {
+            "start_pos": "1036",
+            "end_pos": "1037",
+            "column_header": "grade_2014",
+            "column_num": "124"
+        },
+        {
+            "start_pos": "1038",
+            "end_pos": "1046",
+            "column_header": "county_district_campus_number_2014",
+            "column_num": "125"
+        },
+        {
+            "start_pos": "1062",
+            "end_pos": "1062",
+            "column_header": "reading_score_code_2014",
+            "column_num": "127"
+        },
+        {
+            "start_pos": "1063",
+            "end_pos": "1063",
+            "column_header": "reading_proficiency_rating_2014",
+            "column_num": "128"
+        },
+        {
+            "start_pos": "1064",
+            "end_pos": "1067",
+            "column_header": "reading_scale_score_2014",
+            "column_num": "129"
+        },
+        {
+            "start_pos": "1070",
+            "end_pos": "1070",
+            "column_header": "composite_rating_2014",
+            "column_num": "131"
+        },
+        {
+            "start_pos": "1071",
+            "end_pos": "1072",
+            "column_header": "grade_2015",
+            "column_num": "132"
+        },
+        {
+            "start_pos": "1073",
+            "end_pos": "1081",
+            "column_header": "county_district_campus_number_2015",
+            "column_num": "133"
+        },
+        {
+            "start_pos": "1097",
+            "end_pos": "1097",
+            "column_header": "reading_score_code_2015",
+            "column_num": "135"
+        },
+        {
+            "start_pos": "1098",
+            "end_pos": "1098",
+            "column_header": "reading_proficiency_rating_2015",
+            "column_num": "136"
+        },
+        {
+            "start_pos": "1099",
+            "end_pos": "1102",
+            "column_header": "reading_scale_score_2015",
+            "column_num": "137"
+        },
+        {
+            "start_pos": "1105",
+            "end_pos": "1105",
+            "column_header": "composite_rating_2015",
+            "column_num": "139"
+        },
+        {
+            "start_pos": "1106",
+            "end_pos": "1107",
+            "column_header": "grade_2016",
+            "column_num": "140"
+        },
+        {
+            "start_pos": "1108",
+            "end_pos": "1116",
+            "column_header": "county_district_campus_number_2016",
+            "column_num": "141"
+        },
+        {
+            "start_pos": "1132",
+            "end_pos": "1132",
+            "column_header": "reading_score_code_2016",
+            "column_num": "143"
+        },
+        {
+            "start_pos": "1133",
+            "end_pos": "1133",
+            "column_header": "reading_proficiency_rating_2016",
+            "column_num": "144"
+        },
+        {
+            "start_pos": "1134",
+            "end_pos": "1137",
+            "column_header": "reading_scale_score_2016",
+            "column_num": "145"
+        },
+        {
+            "start_pos": "1140",
+            "end_pos": "1140",
+            "column_header": "composite_rating_2016",
+            "column_num": "147"
+        },
+        {
+            "start_pos": "1141",
+            "end_pos": "1142",
+            "column_header": "grade_2017",
+            "column_num": "148"
+        },
+        {
+            "start_pos": "1143",
+            "end_pos": "1151",
+            "column_header": "county_district_campus_number_2017",
+            "column_num": "149"
+        },
+        {
+            "start_pos": "1152",
+            "end_pos": "1152",
+            "column_header": "years_in_u_s_schools_pos_1152",
+            "column_num": "150"
+        },
+        {
+            "start_pos": "1167",
+            "end_pos": "1167",
+            "column_header": "reading_score_code_2017",
+            "column_num": "152"
+        },
+        {
+            "start_pos": "1168",
+            "end_pos": "1168",
+            "column_header": "reading_proficiency_rating_2017",
+            "column_num": "153"
+        },
+        {
+            "start_pos": "1169",
+            "end_pos": "1172",
+            "column_header": "reading_scale_score_2017",
+            "column_num": "154"
+        },
+        {
+            "start_pos": "1175",
+            "end_pos": "1175",
+            "column_header": "composite_rating_2017",
+            "column_num": "156"
+        },
+        {
+            "start_pos": "1200",
+            "end_pos": "1200",
+            "column_header": "period",
+            "column_num": "158"
+        }
+    ]
+}
