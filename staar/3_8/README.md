@@ -47,3 +47,10 @@ Mappings in this folder should be curated against the corresponding PDF layout i
 - Header names should be normalized into lowercase snake case
 - Blank fields from the published layout should be omitted from `mapped_fields`
 - `column_num` should still preserve the original source column order
+- Use normalized identifier names when applicable:
+  - `peims_id`
+  - `local_student_id`
+  - `tx_unique_student_id`
+- Use `family_portal_unique_access_code` as the normalized name for portal access code fields
+- Use `reading_language_arts` as the canonical subject key for reading / RLA subject fields across years
+- Use `previous_year_reading_language_arts_*` for previous-year RLA history fields

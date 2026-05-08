@@ -70,6 +70,17 @@ Each file should contain:
 - Preserve original TEA column order in `column_num`
 - Normalize `column_header` values into lowercase snake case
 
+## Normalization Rules
+
+- Normalize student identifier fields to:
+  - `peims_id`
+  - `local_student_id`
+  - `tx_unique_student_id`
+- Normalize portal access code fields to `family_portal_unique_access_code`
+- When subject names vary across years, prefer stable subject namespaces
+  - Example: use `reading_language_arts` instead of a shorter legacy `reading` namespace when both refer to the same subject lineage
+- Do not collapse fields that have meaningfully different TEA definitions across years unless the schema decision is explicit and documented
+
 ## Workflow For Creating A New Year
 
 1. Obtain the official TEA STAAR Alternate 2 grades 3-8 PDF for that school year.

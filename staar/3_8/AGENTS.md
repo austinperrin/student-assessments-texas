@@ -70,6 +70,21 @@ Each file should contain:
 - Preserve original TEA column order in `column_num`
 - Normalize `column_header` values into lowercase snake case
 
+## Normalization Rules
+
+- Normalize student identifier fields to:
+  - `peims_id`
+  - `local_student_id`
+  - `tx_unique_student_id`
+- Normalize portal access code fields to `family_portal_unique_access_code`
+- Use `reading_language_arts` as the canonical subject namespace for grades 3-8 reading / RLA fields, even when older PDFs say `reading`
+- Use `previous_year_reading_language_arts_*` for previous-year RLA history fields
+- Keep descriptive phrase fields as written when `reading` is part of the label rather than the subject namespace
+  - Example: `approaches_grade_level_in_reading`
+- Do not normalize distinct program concepts into one field name when TEA changed the meaning
+  - Examples: `lep_indicator_code` vs `emergent_bilingual_indicator_code`
+  - Examples: `spell_check_*` vs `spelling_assistance_*`
+
 ## Workflow For Creating A New Year
 
 1. Obtain the official TEA STAAR 3-8 PDF for that school year.
