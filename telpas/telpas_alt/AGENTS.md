@@ -1,6 +1,6 @@
-# TELPAS Mapping Maintenance Guide
+# TELPAS Alternate Mapping Maintenance Guide
 
-This folder contains year-specific fixed-width mapping files for TELPAS reporting student data files.
+This folder contains year-specific fixed-width mapping files for TELPAS Alternate reporting student data files.
 
 ## Source of Truth
 
@@ -14,11 +14,11 @@ For each file:
 
 Use:
 
-`YYYY-telpas-fixed-width-mapping.json`
+`YYYY-telpas-alt-fixed-width-mapping.json`
 
 Example:
 
-`2026-telpas-fixed-width-mapping.json`
+`2026-telpas-alt-fixed-width-mapping.json`
 
 ## Required JSON Structure
 

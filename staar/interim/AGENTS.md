@@ -1,6 +1,6 @@
-# TELPAS Mapping Maintenance Guide
+# STAAR Interim Mapping Maintenance Guide
 
-This folder contains year-specific fixed-width mapping files for TELPAS reporting student data files.
+This folder contains year-specific fixed-width mapping files for STAAR Interim data files.
 
 ## Source of Truth
 
@@ -12,13 +12,13 @@ For each file:
 
 ## File Naming
 
-Use:
+Use the ending school year:
 
-`YYYY-telpas-fixed-width-mapping.json`
+`YYYY-staar-interim-fixed-width-mapping.json`
 
 Example:
 
-`2026-telpas-fixed-width-mapping.json`
+`2026-staar-interim-fixed-width-mapping.json`
 
 ## Required JSON Structure
 
@@ -42,4 +42,4 @@ The `mapped_fields` entries use:
 - Normalize field titles into lowercase snake case.
 - Ensure `column_header` values are unique within each JSON file.
 - Normalize identifier headers as `peims_id`, `local_student_id`, and `tx_unique_student_id`.
-- Use `family_portal_unique_access_code` for Family Portal or Student Portal unique access code fields.
+- Use `family_portal_unique_access_code` if a future STAAR Interim layout adds a family or student portal unique access code field.

@@ -1,12 +1,12 @@
-# TELPAS Mapping Maintenance Guide
+# TFAR Mapping Maintenance Guide
 
-This folder contains year-specific fixed-width mapping files for TELPAS reporting student data files.
+This folder contains year-specific fixed-width mapping files for TFAR data files.
 
 ## Source of Truth
 
 For each file:
 
-- use the corresponding TEA PDF in `../../docs`
+- use the corresponding TEA PDF in `../docs`
 - keep `metadata.pdf_url` aligned to the official PDF URL
 - build field definitions from that year's PDF layout
 
@@ -14,25 +14,11 @@ For each file:
 
 Use:
 
-`YYYY-telpas-fixed-width-mapping.json`
+`YYYY-tfar-fixed-width-mapping.json`
 
 Example:
 
-`2026-telpas-fixed-width-mapping.json`
-
-## Required JSON Structure
-
-Each file contains:
-
-- `metadata`
-- `mapped_fields`
-
-The `mapped_fields` entries use:
-
-- `start_pos`
-- `end_pos`
-- `column_header`
-- `column_num`
+`2025-tfar-fixed-width-mapping.json`
 
 ## Field Rules
 
@@ -42,4 +28,4 @@ The `mapped_fields` entries use:
 - Normalize field titles into lowercase snake case.
 - Ensure `column_header` values are unique within each JSON file.
 - Normalize identifier headers as `peims_id`, `local_student_id`, and `tx_unique_student_id`.
-- Use `family_portal_unique_access_code` for Family Portal or Student Portal unique access code fields.
+- Use `family_portal_unique_access_code` if a future TFAR layout adds a family or student portal unique access code field.

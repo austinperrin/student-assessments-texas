@@ -14,6 +14,7 @@ The current structure is:
 - `staar/eoc/` for STAAR End-of-Course mapping files
 - `staar/alt2_3_8/` for STAAR Alternate 2 grades 3-8 mapping files
 - `staar/alt2_eoc/` for STAAR Alternate 2 End-of-Course mapping files
+- `staar/interim/` for STAAR Interim mapping files
 
 Each subdirectory contains its own:
 
@@ -39,6 +40,7 @@ Use these rules when deciding where a file belongs:
 - STAAR EOC files belong in `staar/eoc/`
 - STAAR Alternate 2 grades 3-8 files belong in `staar/alt2_3_8/`
 - STAAR Alternate 2 EOC files belong in `staar/alt2_eoc/`
+- STAAR Interim files belong in `staar/interim/`
 
 Do not mix EOC and Alt 2 EOC mapping files in the same folder.
 
@@ -50,6 +52,7 @@ Keep the existing per-folder file naming conventions:
 - `staar/eoc/`: `YYYY-staar-eoc-fixed-width-mapping.json`
 - `staar/alt2_3_8/`: `YYYY-staar-alt2-3-8-fixed-width-mapping.json`
 - `staar/alt2_eoc/`: `YYYY-staar-alt2-eoc-fixed-width-mapping.json`
+- `staar/interim/`: `YYYY-staar-interim-fixed-width-mapping.json`
 
 ## Maintenance Principles
 
@@ -57,3 +60,14 @@ Keep the existing per-folder file naming conventions:
 - Preserve the separation between assessment families
 - Prefer source-PDF accuracy over forced cross-folder consistency
 - Update the folder-specific docs when a structural convention changes
+
+## Header Consistency Checks
+
+Before committing any mapping file:
+
+- confirm every `column_header` is unique within that JSON file
+- use `peims_id` for PEIMS ID fields
+- use `local_student_id` for Local Student ID fields
+- use `tx_unique_student_id` for TSDS ID, TSDS UID, TX Unique Student ID, or Texas Student Data System Unique Student ID fields
+- use `family_portal_unique_access_code` for Family Portal or Student Portal unique access code fields when that field exists in the source layout
+- do not use legacy variants such as `student_portal_unique_access_code`, `tsds_id`, or raw `student_id` when the source field is one of the normalized identifiers above
