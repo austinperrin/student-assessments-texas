@@ -1,0 +1,508 @@
+{
+    "metadata": [
+        {
+            "author": "Austin Perrin",
+            "date_created": "2026-05-08",
+            "file_name": "2023-ttap-fixed-width-mapping.json",
+            "school_year": "2022-2023",
+            "administration_periods": [
+                { "code": "TTAP", "label": "2022-2023 TTAP" }
+            ],
+            "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-2023-ttap-data-file-layout.pdf"
+        }
+    ],
+    "mapped_fields": [
+        {
+            "start_pos": "1",
+            "end_pos": "4",
+            "column_header": "assessment_type",
+            "column_num": "1"
+        },
+        {
+            "start_pos": "5",
+            "end_pos": "17",
+            "column_header": "administration",
+            "column_num": "2"
+        },
+        {
+            "start_pos": "18",
+            "end_pos": "25",
+            "column_header": "test_date",
+            "column_num": "3"
+        },
+        {
+            "start_pos": "26",
+            "end_pos": "33",
+            "column_header": "time_taken",
+            "column_num": "4"
+        },
+        {
+            "start_pos": "34",
+            "end_pos": "35",
+            "column_header": "esc_region_number",
+            "column_num": "5"
+        },
+        {
+            "start_pos": "36",
+            "end_pos": "44",
+            "column_header": "county_district_campus_number",
+            "column_num": "6"
+        },
+        {
+            "start_pos": "45",
+            "end_pos": "144",
+            "column_header": "district_name",
+            "column_num": "7"
+        },
+        {
+            "start_pos": "145",
+            "end_pos": "244",
+            "column_header": "campus_name",
+            "column_num": "8"
+        },
+        {
+            "start_pos": "245",
+            "end_pos": "304",
+            "column_header": "last_name",
+            "column_num": "9"
+        },
+        {
+            "start_pos": "305",
+            "end_pos": "364",
+            "column_header": "first_name",
+            "column_num": "10"
+        },
+        {
+            "start_pos": "365",
+            "end_pos": "424",
+            "column_header": "middle_name",
+            "column_num": "11"
+        },
+        {
+            "start_pos": "425",
+            "end_pos": "433",
+            "column_header": "peims_id",
+            "column_num": "12"
+        },
+        {
+            "start_pos": "434",
+            "end_pos": "434",
+            "column_header": "sex_code",
+            "column_num": "13"
+        },
+        {
+            "start_pos": "435",
+            "end_pos": "442",
+            "column_header": "date_of_birth",
+            "column_num": "14"
+        },
+        {
+            "start_pos": "443",
+            "end_pos": "452",
+            "column_header": "tx_unique_student_id",
+            "column_num": "15"
+        },
+        {
+            "start_pos": "453",
+            "end_pos": "453",
+            "column_header": "hispanic_latino_code",
+            "column_num": "16"
+        },
+        {
+            "start_pos": "454",
+            "end_pos": "454",
+            "column_header": "american_indian_alaska_native_code",
+            "column_num": "17"
+        },
+        {
+            "start_pos": "455",
+            "end_pos": "455",
+            "column_header": "asian_code",
+            "column_num": "18"
+        },
+        {
+            "start_pos": "456",
+            "end_pos": "456",
+            "column_header": "black_african_american_code",
+            "column_num": "19"
+        },
+        {
+            "start_pos": "457",
+            "end_pos": "457",
+            "column_header": "native_hawaiian_pacific_islander_code",
+            "column_num": "20"
+        },
+        {
+            "start_pos": "458",
+            "end_pos": "458",
+            "column_header": "white_code",
+            "column_num": "21"
+        },
+        {
+            "start_pos": "459",
+            "end_pos": "459",
+            "column_header": "ethnicity_race_reporting_category",
+            "column_num": "22"
+        },
+        {
+            "start_pos": "460",
+            "end_pos": "460",
+            "column_header": "economic_disadvantage_code",
+            "column_num": "23"
+        },
+        {
+            "start_pos": "461",
+            "end_pos": "461",
+            "column_header": "title_i_part_a_indicator_code",
+            "column_num": "24"
+        },
+        {
+            "start_pos": "462",
+            "end_pos": "462",
+            "column_header": "migrant_indicator_code",
+            "column_num": "25"
+        },
+        {
+            "start_pos": "463",
+            "end_pos": "463",
+            "column_header": "lep_indicator_code",
+            "column_num": "26"
+        },
+        {
+            "start_pos": "464",
+            "end_pos": "464",
+            "column_header": "bilingual_indicator_code",
+            "column_num": "27"
+        },
+        {
+            "start_pos": "465",
+            "end_pos": "465",
+            "column_header": "esl_indicator_code",
+            "column_num": "28"
+        },
+        {
+            "start_pos": "466",
+            "end_pos": "466",
+            "column_header": "special_ed_indicator_code",
+            "column_num": "29"
+        },
+        {
+            "start_pos": "467",
+            "end_pos": "467",
+            "column_header": "gifted_talented_indicator_code",
+            "column_num": "30"
+        },
+        {
+            "start_pos": "468",
+            "end_pos": "468",
+            "column_header": "at_risk_indicator_code",
+            "column_num": "31"
+        },
+        {
+            "start_pos": "469",
+            "end_pos": "469",
+            "column_header": "local_use_1",
+            "column_num": "32"
+        },
+        {
+            "start_pos": "470",
+            "end_pos": "470",
+            "column_header": "local_use_2",
+            "column_num": "33"
+        },
+        {
+            "start_pos": "471",
+            "end_pos": "471",
+            "column_header": "local_use_3",
+            "column_num": "34"
+        },
+        {
+            "start_pos": "472",
+            "end_pos": "472",
+            "column_header": "local_use_4",
+            "column_num": "35"
+        },
+        {
+            "start_pos": "473",
+            "end_pos": "481",
+            "column_header": "local_student_id",
+            "column_num": "36"
+        },
+        {
+            "start_pos": "482",
+            "end_pos": "483",
+            "column_header": "enrolled_grade",
+            "column_num": "37"
+        },
+        {
+            "start_pos": "484",
+            "end_pos": "484",
+            "column_header": "text_to_speech_accommodations",
+            "column_num": "38"
+        },
+        {
+            "start_pos": "485",
+            "end_pos": "485",
+            "column_header": "auto_tts_accommodations",
+            "column_num": "39"
+        },
+        {
+            "start_pos": "486",
+            "end_pos": "486",
+            "column_header": "content_language",
+            "column_num": "40"
+        },
+        {
+            "start_pos": "487",
+            "end_pos": "487",
+            "column_header": "braille_refreshable_braille_device",
+            "column_num": "41"
+        },
+        {
+            "start_pos": "488",
+            "end_pos": "488",
+            "column_header": "basic_calculator_accommodations",
+            "column_num": "42"
+        },
+        {
+            "start_pos": "509",
+            "end_pos": "511",
+            "column_header": "test_code",
+            "column_num": "44"
+        },
+        {
+            "start_pos": "512",
+            "end_pos": "513",
+            "column_header": "grade_level_tested",
+            "column_num": "45"
+        },
+        {
+            "start_pos": "514",
+            "end_pos": "517",
+            "column_header": "opportunity_scale_score",
+            "column_num": "46"
+        },
+        {
+            "start_pos": "518",
+            "end_pos": "518",
+            "column_header": "opportunity_performance_level",
+            "column_num": "47"
+        },
+        {
+            "start_pos": "519",
+            "end_pos": "538",
+            "column_header": "item_student_scores_segment_1",
+            "column_num": "48"
+        },
+        {
+            "start_pos": "539",
+            "end_pos": "558",
+            "column_header": "points_possible_by_item_segment_1",
+            "column_num": "49"
+        },
+        {
+            "start_pos": "559",
+            "end_pos": "578",
+            "column_header": "item_difficulty_segment_1",
+            "column_num": "50"
+        },
+        {
+            "start_pos": "579",
+            "end_pos": "598",
+            "column_header": "item_student_scores_segment_2",
+            "column_num": "51"
+        },
+        {
+            "start_pos": "599",
+            "end_pos": "618",
+            "column_header": "points_possible_by_item_segment_2",
+            "column_num": "52"
+        },
+        {
+            "start_pos": "619",
+            "end_pos": "638",
+            "column_header": "item_difficulty_segment_2",
+            "column_num": "53"
+        },
+        {
+            "start_pos": "639",
+            "end_pos": "658",
+            "column_header": "item_student_scores_segment_3",
+            "column_num": "54"
+        },
+        {
+            "start_pos": "659",
+            "end_pos": "678",
+            "column_header": "points_possible_by_item_segment_3",
+            "column_num": "55"
+        },
+        {
+            "start_pos": "679",
+            "end_pos": "698",
+            "column_header": "item_difficulty_segment_3",
+            "column_num": "56"
+        },
+        {
+            "start_pos": "699",
+            "end_pos": "718",
+            "column_header": "item_student_scores_segment_4",
+            "column_num": "57"
+        },
+        {
+            "start_pos": "719",
+            "end_pos": "738",
+            "column_header": "points_possible_by_item_segment_4",
+            "column_num": "58"
+        },
+        {
+            "start_pos": "739",
+            "end_pos": "758",
+            "column_header": "item_difficulty_segment_4",
+            "column_num": "59"
+        },
+        {
+            "start_pos": "759",
+            "end_pos": "778",
+            "column_header": "item_student_scores_segment_5",
+            "column_num": "60"
+        },
+        {
+            "start_pos": "779",
+            "end_pos": "798",
+            "column_header": "points_possible_by_item_segment_5",
+            "column_num": "61"
+        },
+        {
+            "start_pos": "799",
+            "end_pos": "818",
+            "column_header": "item_difficulty_segment_5",
+            "column_num": "62"
+        },
+        {
+            "start_pos": "819",
+            "end_pos": "838",
+            "column_header": "item_student_scores_segment_6",
+            "column_num": "63"
+        },
+        {
+            "start_pos": "839",
+            "end_pos": "858",
+            "column_header": "points_possible_by_item_segment_6",
+            "column_num": "64"
+        },
+        {
+            "start_pos": "859",
+            "end_pos": "878",
+            "column_header": "item_difficulty_segment_6",
+            "column_num": "65"
+        },
+        {
+            "start_pos": "879",
+            "end_pos": "898",
+            "column_header": "item_student_scores_segment_7",
+            "column_num": "66"
+        },
+        {
+            "start_pos": "899",
+            "end_pos": "918",
+            "column_header": "points_possible_by_item_segment_7",
+            "column_num": "67"
+        },
+        {
+            "start_pos": "919",
+            "end_pos": "938",
+            "column_header": "item_difficulty_segment_7",
+            "column_num": "68"
+        },
+        {
+            "start_pos": "939",
+            "end_pos": "947",
+            "column_header": "gain_loss_opportunity_1_2",
+            "column_num": "69"
+        },
+        {
+            "start_pos": "948",
+            "end_pos": "950",
+            "column_header": "difference_opportunity_1_2",
+            "column_num": "70"
+        },
+        {
+            "start_pos": "951",
+            "end_pos": "959",
+            "column_header": "gain_loss_opportunity_1_3",
+            "column_num": "71"
+        },
+        {
+            "start_pos": "960",
+            "end_pos": "962",
+            "column_header": "difference_opportunity_1_3",
+            "column_num": "72"
+        },
+        {
+            "start_pos": "963",
+            "end_pos": "971",
+            "column_header": "gain_loss_opportunity_2_3",
+            "column_num": "73"
+        },
+        {
+            "start_pos": "972",
+            "end_pos": "974",
+            "column_header": "difference_opportunity_2_3",
+            "column_num": "74"
+        },
+        {
+            "start_pos": "975",
+            "end_pos": "1274",
+            "column_header": "se_alignment_segment_1",
+            "column_num": "75"
+        },
+        {
+            "start_pos": "1275",
+            "end_pos": "1574",
+            "column_header": "se_alignment_segment_2",
+            "column_num": "76"
+        },
+        {
+            "start_pos": "1575",
+            "end_pos": "1874",
+            "column_header": "se_alignment_segment_3",
+            "column_num": "77"
+        },
+        {
+            "start_pos": "1875",
+            "end_pos": "2174",
+            "column_header": "se_alignment_segment_4",
+            "column_num": "78"
+        },
+        {
+            "start_pos": "2175",
+            "end_pos": "2474",
+            "column_header": "se_alignment_segment_5",
+            "column_num": "79"
+        },
+        {
+            "start_pos": "2475",
+            "end_pos": "2774",
+            "column_header": "se_alignment_segment_6",
+            "column_num": "80"
+        },
+        {
+            "start_pos": "2775",
+            "end_pos": "3074",
+            "column_header": "se_alignment_segment_7",
+            "column_num": "81"
+        },
+        {
+            "start_pos": "3075",
+            "end_pos": "3110",
+            "column_header": "opportunity_key",
+            "column_num": "82"
+        },
+        {
+            "start_pos": "3111",
+            "end_pos": "3112",
+            "column_header": "end_of_record",
+            "column_num": "83"
+        }
+    ]
+}
