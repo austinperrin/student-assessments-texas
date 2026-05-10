@@ -13,6 +13,7 @@ For each file:
 - the corresponding TEA PDF is the source of truth
 - the local PDF in `../../docs` should match the `pdf_url` stored in the JSON `metadata`
 - do not infer field names from neighboring JSON files unless the current year's PDF is unclear
+- the first confirmed official STAAR Alternate 2 grades 3-8 data file format in this repo is `2016`; do not create `2015` or earlier mappings without a year-specific PDF
 
 When updating a file, review the current year's PDF only.
 
