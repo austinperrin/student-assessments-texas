@@ -1,0 +1,4088 @@
+{
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-10",
+      "file_name": "2025-staar-consolidated-accountability-fixed-width-mapping.json",
+      "school_year": "2024-2025",
+      "administration_periods": [],
+      "pdf_url": "https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/2024-2025-consolidated-accountability-file-data-format.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "4",
+      "column_header": "year",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "5",
+      "end_pos": "6",
+      "column_header": "esc_region_number",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "7",
+      "end_pos": "12",
+      "column_header": "district_number",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "13",
+      "end_pos": "27",
+      "column_header": "district_name",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "28",
+      "end_pos": "36",
+      "column_header": "peims_id",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "37",
+      "end_pos": "51",
+      "column_header": "last_name",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "52",
+      "end_pos": "61",
+      "column_header": "first_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "62",
+      "end_pos": "62",
+      "column_header": "middle_initial",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "63",
+      "end_pos": "70",
+      "column_header": "date_of_birth",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "91",
+      "end_pos": "91",
+      "column_header": "assessment_demographic_sex_code",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "92",
+      "end_pos": "92",
+      "column_header": "assessment_demographic_hispanic_latino_code",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "93",
+      "end_pos": "93",
+      "column_header": "assessment_demographic_american_indian_alaska_native_code",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "94",
+      "end_pos": "94",
+      "column_header": "assessment_demographic_asian_code",
+      "column_num": "13"
+    },
+    {
+      "start_pos": "95",
+      "end_pos": "95",
+      "column_header": "assessment_demographic_black_african_american_code",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "96",
+      "end_pos": "96",
+      "column_header": "assessment_demographic_native_hawaiian_pacific_islander_code",
+      "column_num": "15"
+    },
+    {
+      "start_pos": "97",
+      "end_pos": "97",
+      "column_header": "assessment_demographic_white_code",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "98",
+      "end_pos": "98",
+      "column_header": "assessment_demographic_ethnicity_race_reporting_category",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "99",
+      "end_pos": "99",
+      "column_header": "assessment_demographic_special_ed_indicator_code",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "100",
+      "end_pos": "100",
+      "column_header": "assessment_demographic_economic_disadvantage_code",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "101",
+      "end_pos": "101",
+      "column_header": "assessment_demographic_title_i_part_a_indicator_code",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "102",
+      "end_pos": "102",
+      "column_header": "assessment_demographic_migrant_indicator_code",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "103",
+      "end_pos": "103",
+      "column_header": "assessment_demographic_emergent_bilingual_indicator_code",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "104",
+      "end_pos": "104",
+      "column_header": "assessment_demographic_bilingual_indicator_code",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "105",
+      "end_pos": "105",
+      "column_header": "assessment_demographic_esl_indicator_code",
+      "column_num": "24"
+    },
+    {
+      "start_pos": "106",
+      "end_pos": "106",
+      "column_header": "assessment_demographic_gifted_and_talented_indicator_code",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "107",
+      "end_pos": "107",
+      "column_header": "assessment_demographic_at_risk_indicator_code",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "108",
+      "end_pos": "108",
+      "column_header": "assessment_demographic_new_to_texas",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "109",
+      "end_pos": "117",
+      "column_header": "local_student_id",
+      "column_num": "28"
+    },
+    {
+      "start_pos": "118",
+      "end_pos": "118",
+      "column_header": "assessment_demographic_section_504_indicator_code",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "119",
+      "end_pos": "119",
+      "column_header": "assessment_demographic_ada_eligibility",
+      "column_num": "30"
+    },
+    {
+      "start_pos": "120",
+      "end_pos": "121",
+      "column_header": "assessment_demographic_alternate_language_code",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "138",
+      "end_pos": "138",
+      "column_header": "peims_demographic_sex_code",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "139",
+      "end_pos": "139",
+      "column_header": "peims_demographic_hispanic_latino_code",
+      "column_num": "33"
+    },
+    {
+      "start_pos": "140",
+      "end_pos": "140",
+      "column_header": "peims_demographic_american_indian_alaska_native_code",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "141",
+      "end_pos": "141",
+      "column_header": "peims_demographic_asian_code",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "142",
+      "end_pos": "142",
+      "column_header": "peims_demographic_black_african_american_code",
+      "column_num": "36"
+    },
+    {
+      "start_pos": "143",
+      "end_pos": "143",
+      "column_header": "peims_demographic_native_hawaiian_pacific_islander_code",
+      "column_num": "37"
+    },
+    {
+      "start_pos": "144",
+      "end_pos": "144",
+      "column_header": "peims_demographic_white_code",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "145",
+      "end_pos": "145",
+      "column_header": "peims_demographic_ethnicity_race_reporting_category",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "146",
+      "end_pos": "146",
+      "column_header": "peims_demographic_special_ed_indicator_code",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "147",
+      "end_pos": "147",
+      "column_header": "peims_demographic_economic_disadvantage_code",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "148",
+      "end_pos": "148",
+      "column_header": "peims_demographic_title_i_part_a_indicator_code",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "149",
+      "end_pos": "149",
+      "column_header": "peims_demographic_migrant_indicator_code",
+      "column_num": "43"
+    },
+    {
+      "start_pos": "150",
+      "end_pos": "150",
+      "column_header": "peims_demographic_emergent_bilingual_indicator_code",
+      "column_num": "44"
+    },
+    {
+      "start_pos": "151",
+      "end_pos": "151",
+      "column_header": "peims_demographic_bilingual_indicator_code",
+      "column_num": "45"
+    },
+    {
+      "start_pos": "152",
+      "end_pos": "152",
+      "column_header": "peims_demographic_esl_indicator_code",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "153",
+      "end_pos": "153",
+      "column_header": "peims_demographic_gifted_and_talented_indicator_code",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "154",
+      "end_pos": "154",
+      "column_header": "peims_demographic_at_risk_indicator_code",
+      "column_num": "48"
+    },
+    {
+      "start_pos": "155",
+      "end_pos": "155",
+      "column_header": "peims_demographic_ada_eligibility",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "156",
+      "end_pos": "156",
+      "column_header": "peims_demographic_fall_2024_tsds_peims_military_connected_student_code",
+      "column_num": "50"
+    },
+    {
+      "start_pos": "157",
+      "end_pos": "158",
+      "column_header": "peims_demographic_alternative_language_programs",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "159",
+      "end_pos": "159",
+      "column_header": "peims_demographic_section_504_indicator_code",
+      "column_num": "52"
+    },
+    {
+      "start_pos": "179",
+      "end_pos": "180",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_grade",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "181",
+      "end_pos": "189",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_county_district_campus_number",
+      "column_num": "54"
+    },
+    {
+      "start_pos": "190",
+      "end_pos": "198",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2023_county_district_campus_number",
+      "column_num": "55"
+    },
+    {
+      "start_pos": "199",
+      "end_pos": "200",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_crisis_code",
+      "column_num": "56"
+    },
+    {
+      "start_pos": "201",
+      "end_pos": "202",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_attribution_code",
+      "column_num": "57"
+    },
+    {
+      "start_pos": "203",
+      "end_pos": "203",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_parental_denial_code",
+      "column_num": "58"
+    },
+    {
+      "start_pos": "204",
+      "end_pos": "204",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_homeless_status_code",
+      "column_num": "59"
+    },
+    {
+      "start_pos": "205",
+      "end_pos": "205",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_unaccompanied_youth_status_code",
+      "column_num": "60"
+    },
+    {
+      "start_pos": "206",
+      "end_pos": "206",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_foster_care_indicator",
+      "column_num": "61"
+    },
+    {
+      "start_pos": "207",
+      "end_pos": "207",
+      "column_header": "other_peims_elements_tsds_peims_snapshot_2024_dyslexia_indicator_code",
+      "column_num": "62"
+    },
+    {
+      "start_pos": "218",
+      "end_pos": "223",
+      "column_header": "family_portal_unique_access_code",
+      "column_num": "63"
+    },
+    {
+      "start_pos": "224",
+      "end_pos": "233",
+      "column_header": "tx_unique_student_id",
+      "column_num": "64"
+    },
+    {
+      "start_pos": "234",
+      "end_pos": "234",
+      "column_header": "other_student_elements_taks_taas_teams_tester_indicator",
+      "column_num": "65"
+    },
+    {
+      "start_pos": "245",
+      "end_pos": "248",
+      "column_header": "staar_end_of_course_2024_summer_eoc_current_accountability_year_administration_date",
+      "column_num": "66"
+    },
+    {
+      "start_pos": "249",
+      "end_pos": "249",
+      "column_header": "staar_end_of_course_2024_summer_eoc_current_accountability_year_record_update_indicator",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "260",
+      "end_pos": "268",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number",
+      "column_num": "68"
+    },
+    {
+      "start_pos": "269",
+      "end_pos": "270",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade",
+      "column_num": "69"
+    },
+    {
+      "start_pos": "271",
+      "end_pos": "271",
+      "column_header": "staar_end_of_course_algebra_1_test_version",
+      "column_num": "70"
+    },
+    {
+      "start_pos": "272",
+      "end_pos": "272",
+      "column_header": "staar_end_of_course_algebra_1_score_code",
+      "column_num": "71"
+    },
+    {
+      "start_pos": "273",
+      "end_pos": "273",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default",
+      "column_num": "72"
+    },
+    {
+      "start_pos": "274",
+      "end_pos": "274",
+      "column_header": "staar_end_of_course_algebra_1_test_administration_indicator",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "275",
+      "end_pos": "278",
+      "column_header": "staar_end_of_course_algebra_1_scale_score",
+      "column_num": "74"
+    },
+    {
+      "start_pos": "280",
+      "end_pos": "280",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level",
+      "column_num": "75"
+    },
+    {
+      "start_pos": "281",
+      "end_pos": "281",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level",
+      "column_num": "76"
+    },
+    {
+      "start_pos": "282",
+      "end_pos": "283",
+      "column_header": "staar_end_of_course_algebra_1_raw_score",
+      "column_num": "77"
+    },
+    {
+      "start_pos": "284",
+      "end_pos": "284",
+      "column_header": "staar_end_of_course_algebra_1_staar_progress_measure",
+      "column_num": "78"
+    },
+    {
+      "start_pos": "285",
+      "end_pos": "285",
+      "column_header": "staar_end_of_course_algebra_1_el_performance_measure",
+      "column_num": "79"
+    },
+    {
+      "start_pos": "286",
+      "end_pos": "287",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator",
+      "column_num": "80"
+    },
+    {
+      "start_pos": "289",
+      "end_pos": "289",
+      "column_header": "staar_end_of_course_algebra_1_accommodations_used",
+      "column_num": "81"
+    },
+    {
+      "start_pos": "295",
+      "end_pos": "303",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "304",
+      "end_pos": "305",
+      "column_header": "staar_end_of_course_biology_enrolled_grade",
+      "column_num": "83"
+    },
+    {
+      "start_pos": "306",
+      "end_pos": "306",
+      "column_header": "staar_end_of_course_biology_test_version",
+      "column_num": "84"
+    },
+    {
+      "start_pos": "307",
+      "end_pos": "307",
+      "column_header": "staar_end_of_course_biology_score_code",
+      "column_num": "85"
+    },
+    {
+      "start_pos": "308",
+      "end_pos": "308",
+      "column_header": "staar_end_of_course_biology_score_code_default",
+      "column_num": "86"
+    },
+    {
+      "start_pos": "309",
+      "end_pos": "309",
+      "column_header": "staar_end_of_course_biology_test_administration_indicator",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "310",
+      "end_pos": "313",
+      "column_header": "staar_end_of_course_biology_scale_score",
+      "column_num": "88"
+    },
+    {
+      "start_pos": "315",
+      "end_pos": "315",
+      "column_header": "staar_end_of_course_biology_meets_grade_level",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "316",
+      "end_pos": "316",
+      "column_header": "staar_end_of_course_biology_masters_grade_level",
+      "column_num": "90"
+    },
+    {
+      "start_pos": "317",
+      "end_pos": "317",
+      "column_header": "staar_end_of_course_biology_el_performance_measure",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "320",
+      "end_pos": "321",
+      "column_header": "staar_end_of_course_biology_performance_level_indicator",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "325",
+      "end_pos": "333",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "334",
+      "end_pos": "335",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade",
+      "column_num": "94"
+    },
+    {
+      "start_pos": "336",
+      "end_pos": "336",
+      "column_header": "staar_end_of_course_english_1_test_version",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "337",
+      "end_pos": "337",
+      "column_header": "staar_end_of_course_english_1_score_code",
+      "column_num": "96"
+    },
+    {
+      "start_pos": "338",
+      "end_pos": "338",
+      "column_header": "staar_end_of_course_english_1_score_code_default",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "339",
+      "end_pos": "339",
+      "column_header": "staar_end_of_course_english_1_test_administration_indicator",
+      "column_num": "98"
+    },
+    {
+      "start_pos": "340",
+      "end_pos": "343",
+      "column_header": "staar_end_of_course_english_1_scale_score",
+      "column_num": "99"
+    },
+    {
+      "start_pos": "345",
+      "end_pos": "345",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level",
+      "column_num": "100"
+    },
+    {
+      "start_pos": "346",
+      "end_pos": "346",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "347",
+      "end_pos": "348",
+      "column_header": "staar_end_of_course_english_1_raw_score",
+      "column_num": "102"
+    },
+    {
+      "start_pos": "349",
+      "end_pos": "349",
+      "column_header": "staar_end_of_course_english_1_el_performance_measure",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "350",
+      "end_pos": "351",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "353",
+      "end_pos": "353",
+      "column_header": "staar_end_of_course_english_1_accommodations_used",
+      "column_num": "105"
+    },
+    {
+      "start_pos": "354",
+      "end_pos": "354",
+      "column_header": "staar_end_of_course_english_1_staar_progress_measure",
+      "column_num": "106"
+    },
+    {
+      "start_pos": "359",
+      "end_pos": "367",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_2",
+      "column_num": "107"
+    },
+    {
+      "start_pos": "368",
+      "end_pos": "369",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_2",
+      "column_num": "108"
+    },
+    {
+      "start_pos": "370",
+      "end_pos": "370",
+      "column_header": "staar_end_of_course_english_1_test_version_2",
+      "column_num": "109"
+    },
+    {
+      "start_pos": "371",
+      "end_pos": "371",
+      "column_header": "staar_end_of_course_english_1_score_code_2",
+      "column_num": "110"
+    },
+    {
+      "start_pos": "372",
+      "end_pos": "372",
+      "column_header": "staar_end_of_course_english_1_score_code_default_2",
+      "column_num": "111"
+    },
+    {
+      "start_pos": "373",
+      "end_pos": "373",
+      "column_header": "staar_end_of_course_english_1_test_administration_indicator_2",
+      "column_num": "112"
+    },
+    {
+      "start_pos": "374",
+      "end_pos": "377",
+      "column_header": "staar_end_of_course_english_1_scale_score_2",
+      "column_num": "113"
+    },
+    {
+      "start_pos": "379",
+      "end_pos": "379",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_2",
+      "column_num": "114"
+    },
+    {
+      "start_pos": "380",
+      "end_pos": "380",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_2",
+      "column_num": "115"
+    },
+    {
+      "start_pos": "381",
+      "end_pos": "382",
+      "column_header": "staar_end_of_course_english_1_raw_score_2",
+      "column_num": "116"
+    },
+    {
+      "start_pos": "383",
+      "end_pos": "383",
+      "column_header": "staar_end_of_course_english_2_staar_progress_measure",
+      "column_num": "117"
+    },
+    {
+      "start_pos": "384",
+      "end_pos": "384",
+      "column_header": "staar_end_of_course_english_1_el_performance_measure_2",
+      "column_num": "118"
+    },
+    {
+      "start_pos": "385",
+      "end_pos": "386",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_2",
+      "column_num": "119"
+    },
+    {
+      "start_pos": "388",
+      "end_pos": "388",
+      "column_header": "staar_end_of_course_english_1_accommodations_used_2",
+      "column_num": "120"
+    },
+    {
+      "start_pos": "394",
+      "end_pos": "402",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number",
+      "column_num": "121"
+    },
+    {
+      "start_pos": "403",
+      "end_pos": "404",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade",
+      "column_num": "122"
+    },
+    {
+      "start_pos": "405",
+      "end_pos": "405",
+      "column_header": "staar_end_of_course_us_history_test_version",
+      "column_num": "123"
+    },
+    {
+      "start_pos": "406",
+      "end_pos": "406",
+      "column_header": "staar_end_of_course_us_history_score_code",
+      "column_num": "124"
+    },
+    {
+      "start_pos": "407",
+      "end_pos": "407",
+      "column_header": "staar_end_of_course_us_history_score_code_default",
+      "column_num": "125"
+    },
+    {
+      "start_pos": "408",
+      "end_pos": "408",
+      "column_header": "staar_end_of_course_us_history_test_administration_indicator",
+      "column_num": "126"
+    },
+    {
+      "start_pos": "409",
+      "end_pos": "412",
+      "column_header": "staar_end_of_course_us_history_scale_score",
+      "column_num": "127"
+    },
+    {
+      "start_pos": "414",
+      "end_pos": "414",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level",
+      "column_num": "128"
+    },
+    {
+      "start_pos": "415",
+      "end_pos": "415",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level",
+      "column_num": "129"
+    },
+    {
+      "start_pos": "416",
+      "end_pos": "416",
+      "column_header": "staar_end_of_course_us_history_el_performance_measure",
+      "column_num": "130"
+    },
+    {
+      "start_pos": "418",
+      "end_pos": "418",
+      "column_header": "staar_end_of_course_us_history_accommodations_used",
+      "column_num": "131"
+    },
+    {
+      "start_pos": "419",
+      "end_pos": "420",
+      "column_header": "staar_end_of_course_us_history_performance_level_indicator",
+      "column_num": "132"
+    },
+    {
+      "start_pos": "424",
+      "end_pos": "427",
+      "column_header": "staar_end_of_course_2024_fall_eoc_current_accountability_year_administration_date",
+      "column_num": "133"
+    },
+    {
+      "start_pos": "428",
+      "end_pos": "428",
+      "column_header": "staar_end_of_course_2024_fall_eoc_current_accountability_year_record_update_indicator",
+      "column_num": "134"
+    },
+    {
+      "start_pos": "439",
+      "end_pos": "447",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number_2",
+      "column_num": "135"
+    },
+    {
+      "start_pos": "448",
+      "end_pos": "449",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade_2",
+      "column_num": "136"
+    },
+    {
+      "start_pos": "450",
+      "end_pos": "450",
+      "column_header": "staar_end_of_course_algebra_1_test_version_2",
+      "column_num": "137"
+    },
+    {
+      "start_pos": "451",
+      "end_pos": "451",
+      "column_header": "staar_end_of_course_algebra_1_score_code_2",
+      "column_num": "138"
+    },
+    {
+      "start_pos": "452",
+      "end_pos": "452",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default_2",
+      "column_num": "139"
+    },
+    {
+      "start_pos": "453",
+      "end_pos": "453",
+      "column_header": "staar_end_of_course_algebra_1_test_administration_indicator_2",
+      "column_num": "140"
+    },
+    {
+      "start_pos": "454",
+      "end_pos": "457",
+      "column_header": "staar_end_of_course_algebra_1_scale_score_2",
+      "column_num": "141"
+    },
+    {
+      "start_pos": "459",
+      "end_pos": "459",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_2",
+      "column_num": "142"
+    },
+    {
+      "start_pos": "460",
+      "end_pos": "460",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_2",
+      "column_num": "143"
+    },
+    {
+      "start_pos": "461",
+      "end_pos": "462",
+      "column_header": "staar_end_of_course_algebra_1_raw_score_2",
+      "column_num": "144"
+    },
+    {
+      "start_pos": "463",
+      "end_pos": "463",
+      "column_header": "staar_end_of_course_algebra_1_staar_progress_measure_2",
+      "column_num": "145"
+    },
+    {
+      "start_pos": "464",
+      "end_pos": "464",
+      "column_header": "staar_end_of_course_algebra_1_el_performance_measure_2",
+      "column_num": "146"
+    },
+    {
+      "start_pos": "465",
+      "end_pos": "466",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator_2",
+      "column_num": "147"
+    },
+    {
+      "start_pos": "468",
+      "end_pos": "468",
+      "column_header": "staar_end_of_course_algebra_1_accommodations_used_2",
+      "column_num": "148"
+    },
+    {
+      "start_pos": "474",
+      "end_pos": "482",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number_2",
+      "column_num": "149"
+    },
+    {
+      "start_pos": "483",
+      "end_pos": "484",
+      "column_header": "staar_end_of_course_biology_enrolled_grade_2",
+      "column_num": "150"
+    },
+    {
+      "start_pos": "485",
+      "end_pos": "485",
+      "column_header": "staar_end_of_course_biology_test_version_2",
+      "column_num": "151"
+    },
+    {
+      "start_pos": "486",
+      "end_pos": "486",
+      "column_header": "staar_end_of_course_biology_score_code_2",
+      "column_num": "152"
+    },
+    {
+      "start_pos": "487",
+      "end_pos": "487",
+      "column_header": "staar_end_of_course_biology_score_code_default_2",
+      "column_num": "153"
+    },
+    {
+      "start_pos": "488",
+      "end_pos": "488",
+      "column_header": "staar_end_of_course_biology_test_administration_indicator_2",
+      "column_num": "154"
+    },
+    {
+      "start_pos": "489",
+      "end_pos": "492",
+      "column_header": "staar_end_of_course_biology_scale_score_2",
+      "column_num": "155"
+    },
+    {
+      "start_pos": "494",
+      "end_pos": "494",
+      "column_header": "staar_end_of_course_biology_meets_grade_level_2",
+      "column_num": "156"
+    },
+    {
+      "start_pos": "495",
+      "end_pos": "495",
+      "column_header": "staar_end_of_course_biology_masters_grade_level_2",
+      "column_num": "157"
+    },
+    {
+      "start_pos": "496",
+      "end_pos": "496",
+      "column_header": "staar_end_of_course_biology_el_performance_measure_2",
+      "column_num": "158"
+    },
+    {
+      "start_pos": "498",
+      "end_pos": "498",
+      "column_header": "staar_end_of_course_biology_accommodations_used",
+      "column_num": "159"
+    },
+    {
+      "start_pos": "499",
+      "end_pos": "500",
+      "column_header": "staar_end_of_course_biology_performance_level_indicator_2",
+      "column_num": "160"
+    },
+    {
+      "start_pos": "504",
+      "end_pos": "512",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_3",
+      "column_num": "161"
+    },
+    {
+      "start_pos": "513",
+      "end_pos": "514",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_3",
+      "column_num": "162"
+    },
+    {
+      "start_pos": "515",
+      "end_pos": "515",
+      "column_header": "staar_end_of_course_english_1_test_version_3",
+      "column_num": "163"
+    },
+    {
+      "start_pos": "516",
+      "end_pos": "516",
+      "column_header": "staar_end_of_course_english_1_score_code_3",
+      "column_num": "164"
+    },
+    {
+      "start_pos": "517",
+      "end_pos": "517",
+      "column_header": "staar_end_of_course_english_1_score_code_default_3",
+      "column_num": "165"
+    },
+    {
+      "start_pos": "518",
+      "end_pos": "518",
+      "column_header": "staar_end_of_course_english_1_test_administration_indicator_3",
+      "column_num": "166"
+    },
+    {
+      "start_pos": "519",
+      "end_pos": "522",
+      "column_header": "staar_end_of_course_english_1_scale_score_3",
+      "column_num": "167"
+    },
+    {
+      "start_pos": "524",
+      "end_pos": "524",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_3",
+      "column_num": "168"
+    },
+    {
+      "start_pos": "525",
+      "end_pos": "525",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_3",
+      "column_num": "169"
+    },
+    {
+      "start_pos": "526",
+      "end_pos": "527",
+      "column_header": "staar_end_of_course_english_1_raw_score_3",
+      "column_num": "170"
+    },
+    {
+      "start_pos": "528",
+      "end_pos": "528",
+      "column_header": "staar_end_of_course_english_1_el_performance_measure_3",
+      "column_num": "171"
+    },
+    {
+      "start_pos": "529",
+      "end_pos": "530",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_3",
+      "column_num": "172"
+    },
+    {
+      "start_pos": "532",
+      "end_pos": "532",
+      "column_header": "staar_end_of_course_english_1_accommodations_used_3",
+      "column_num": "173"
+    },
+    {
+      "start_pos": "533",
+      "end_pos": "533",
+      "column_header": "staar_end_of_course_english_1_staar_progress_measure_2",
+      "column_num": "174"
+    },
+    {
+      "start_pos": "538",
+      "end_pos": "546",
+      "column_header": "staar_end_of_course_english_2_county_district_campus_number_4",
+      "column_num": "175"
+    },
+    {
+      "start_pos": "547",
+      "end_pos": "548",
+      "column_header": "staar_end_of_course_english_2_enrolled_grade_4",
+      "column_num": "176"
+    },
+    {
+      "start_pos": "549",
+      "end_pos": "549",
+      "column_header": "staar_end_of_course_english_2_test_version_4",
+      "column_num": "177"
+    },
+    {
+      "start_pos": "550",
+      "end_pos": "550",
+      "column_header": "staar_end_of_course_english_2_score_code_4",
+      "column_num": "178"
+    },
+    {
+      "start_pos": "551",
+      "end_pos": "551",
+      "column_header": "staar_end_of_course_english_2_score_code_default_4",
+      "column_num": "179"
+    },
+    {
+      "start_pos": "552",
+      "end_pos": "552",
+      "column_header": "staar_end_of_course_english_2_test_administration_indicator_4",
+      "column_num": "180"
+    },
+    {
+      "start_pos": "553",
+      "end_pos": "556",
+      "column_header": "staar_end_of_course_english_2_scale_score_4",
+      "column_num": "181"
+    },
+    {
+      "start_pos": "558",
+      "end_pos": "558",
+      "column_header": "staar_end_of_course_english_2_meets_grade_level_4",
+      "column_num": "182"
+    },
+    {
+      "start_pos": "559",
+      "end_pos": "559",
+      "column_header": "staar_end_of_course_english_2_masters_grade_level_4",
+      "column_num": "183"
+    },
+    {
+      "start_pos": "560",
+      "end_pos": "561",
+      "column_header": "staar_end_of_course_english_2_raw_score_4",
+      "column_num": "184"
+    },
+    {
+      "start_pos": "562",
+      "end_pos": "562",
+      "column_header": "staar_end_of_course_english_2_staar_progress_measure_2",
+      "column_num": "185"
+    },
+    {
+      "start_pos": "563",
+      "end_pos": "563",
+      "column_header": "staar_end_of_course_english_2_el_performance_measure_4",
+      "column_num": "186"
+    },
+    {
+      "start_pos": "564",
+      "end_pos": "565",
+      "column_header": "staar_end_of_course_english_2_performance_level_indicator_4",
+      "column_num": "187"
+    },
+    {
+      "start_pos": "567",
+      "end_pos": "567",
+      "column_header": "staar_end_of_course_english_2_accommodations_used_4",
+      "column_num": "188"
+    },
+    {
+      "start_pos": "573",
+      "end_pos": "581",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number_2",
+      "column_num": "189"
+    },
+    {
+      "start_pos": "582",
+      "end_pos": "583",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade_2",
+      "column_num": "190"
+    },
+    {
+      "start_pos": "584",
+      "end_pos": "584",
+      "column_header": "staar_end_of_course_us_history_test_version_2",
+      "column_num": "191"
+    },
+    {
+      "start_pos": "585",
+      "end_pos": "585",
+      "column_header": "staar_end_of_course_us_history_score_code_2",
+      "column_num": "192"
+    },
+    {
+      "start_pos": "586",
+      "end_pos": "586",
+      "column_header": "staar_end_of_course_us_history_score_code_default_2",
+      "column_num": "193"
+    },
+    {
+      "start_pos": "587",
+      "end_pos": "587",
+      "column_header": "staar_end_of_course_us_history_test_administration_indicator_2",
+      "column_num": "194"
+    },
+    {
+      "start_pos": "588",
+      "end_pos": "591",
+      "column_header": "staar_end_of_course_us_history_scale_score_2",
+      "column_num": "195"
+    },
+    {
+      "start_pos": "593",
+      "end_pos": "593",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level_2",
+      "column_num": "196"
+    },
+    {
+      "start_pos": "594",
+      "end_pos": "594",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level_2",
+      "column_num": "197"
+    },
+    {
+      "start_pos": "595",
+      "end_pos": "595",
+      "column_header": "staar_end_of_course_us_history_el_performance_measure_2",
+      "column_num": "198"
+    },
+    {
+      "start_pos": "597",
+      "end_pos": "597",
+      "column_header": "staar_end_of_course_us_history_accommodations_used_2",
+      "column_num": "199"
+    },
+    {
+      "start_pos": "598",
+      "end_pos": "599",
+      "column_header": "staar_end_of_course_us_history_performance_level_indicator_2",
+      "column_num": "200"
+    },
+    {
+      "start_pos": "603",
+      "end_pos": "606",
+      "column_header": "staar_end_of_course_2025_spring_eoc_current_accountability_year_administration_date",
+      "column_num": "201"
+    },
+    {
+      "start_pos": "607",
+      "end_pos": "607",
+      "column_header": "staar_end_of_course_2025_spring_eoc_current_accountability_year_record_update_indicator",
+      "column_num": "202"
+    },
+    {
+      "start_pos": "618",
+      "end_pos": "626",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number_3",
+      "column_num": "203"
+    },
+    {
+      "start_pos": "627",
+      "end_pos": "628",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade_3",
+      "column_num": "204"
+    },
+    {
+      "start_pos": "629",
+      "end_pos": "629",
+      "column_header": "staar_end_of_course_algebra_1_test_version_3",
+      "column_num": "205"
+    },
+    {
+      "start_pos": "630",
+      "end_pos": "630",
+      "column_header": "staar_end_of_course_algebra_1_score_code_3",
+      "column_num": "206"
+    },
+    {
+      "start_pos": "631",
+      "end_pos": "631",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default_3",
+      "column_num": "207"
+    },
+    {
+      "start_pos": "632",
+      "end_pos": "632",
+      "column_header": "staar_end_of_course_algebra_1_test_administration_indicator_3",
+      "column_num": "208"
+    },
+    {
+      "start_pos": "633",
+      "end_pos": "636",
+      "column_header": "staar_end_of_course_algebra_1_scale_score_3",
+      "column_num": "209"
+    },
+    {
+      "start_pos": "638",
+      "end_pos": "638",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "210"
+    },
+    {
+      "start_pos": "639",
+      "end_pos": "639",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "211"
+    },
+    {
+      "start_pos": "640",
+      "end_pos": "641",
+      "column_header": "staar_end_of_course_algebra_1_raw_score_3",
+      "column_num": "212"
+    },
+    {
+      "start_pos": "642",
+      "end_pos": "642",
+      "column_header": "staar_end_of_course_algebra_1_staar_or_staar_alternate_2_progress_measure",
+      "column_num": "213"
+    },
+    {
+      "start_pos": "643",
+      "end_pos": "643",
+      "column_header": "staar_end_of_course_algebra_1_el_performance_measure_3",
+      "column_num": "214"
+    },
+    {
+      "start_pos": "644",
+      "end_pos": "645",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator_3",
+      "column_num": "215"
+    },
+    {
+      "start_pos": "647",
+      "end_pos": "647",
+      "column_header": "staar_end_of_course_algebra_1_accommodations_used_3",
+      "column_num": "216"
+    },
+    {
+      "start_pos": "653",
+      "end_pos": "661",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number_3",
+      "column_num": "217"
+    },
+    {
+      "start_pos": "662",
+      "end_pos": "663",
+      "column_header": "staar_end_of_course_biology_enrolled_grade_3",
+      "column_num": "218"
+    },
+    {
+      "start_pos": "664",
+      "end_pos": "664",
+      "column_header": "staar_end_of_course_biology_test_version_3",
+      "column_num": "219"
+    },
+    {
+      "start_pos": "665",
+      "end_pos": "665",
+      "column_header": "staar_end_of_course_biology_score_code_3",
+      "column_num": "220"
+    },
+    {
+      "start_pos": "666",
+      "end_pos": "666",
+      "column_header": "staar_end_of_course_biology_score_code_default_3",
+      "column_num": "221"
+    },
+    {
+      "start_pos": "667",
+      "end_pos": "667",
+      "column_header": "staar_end_of_course_biology_test_administration_indicator_3",
+      "column_num": "222"
+    },
+    {
+      "start_pos": "668",
+      "end_pos": "671",
+      "column_header": "staar_end_of_course_biology_scale_score_3",
+      "column_num": "223"
+    },
+    {
+      "start_pos": "673",
+      "end_pos": "673",
+      "column_header": "staar_end_of_course_biology_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "224"
+    },
+    {
+      "start_pos": "674",
+      "end_pos": "674",
+      "column_header": "staar_end_of_course_biology_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "225"
+    },
+    {
+      "start_pos": "675",
+      "end_pos": "675",
+      "column_header": "staar_end_of_course_biology_el_performance_measure_3",
+      "column_num": "226"
+    },
+    {
+      "start_pos": "677",
+      "end_pos": "677",
+      "column_header": "staar_end_of_course_biology_accommodations_used_2",
+      "column_num": "227"
+    },
+    {
+      "start_pos": "678",
+      "end_pos": "679",
+      "column_header": "staar_end_of_course_biology_performance_level_indicator_3",
+      "column_num": "228"
+    },
+    {
+      "start_pos": "683",
+      "end_pos": "691",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_5",
+      "column_num": "229"
+    },
+    {
+      "start_pos": "692",
+      "end_pos": "693",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_5",
+      "column_num": "230"
+    },
+    {
+      "start_pos": "694",
+      "end_pos": "694",
+      "column_header": "staar_end_of_course_english_1_test_version_5",
+      "column_num": "231"
+    },
+    {
+      "start_pos": "695",
+      "end_pos": "695",
+      "column_header": "staar_end_of_course_english_1_score_code_5",
+      "column_num": "232"
+    },
+    {
+      "start_pos": "696",
+      "end_pos": "696",
+      "column_header": "staar_end_of_course_english_1_score_code_default_5",
+      "column_num": "233"
+    },
+    {
+      "start_pos": "697",
+      "end_pos": "697",
+      "column_header": "staar_end_of_course_english_1_test_administration_indicator_5",
+      "column_num": "234"
+    },
+    {
+      "start_pos": "698",
+      "end_pos": "701",
+      "column_header": "staar_end_of_course_english_1_scale_score_5",
+      "column_num": "235"
+    },
+    {
+      "start_pos": "703",
+      "end_pos": "703",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "236"
+    },
+    {
+      "start_pos": "704",
+      "end_pos": "704",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "237"
+    },
+    {
+      "start_pos": "705",
+      "end_pos": "706",
+      "column_header": "staar_end_of_course_english_1_raw_score_5",
+      "column_num": "238"
+    },
+    {
+      "start_pos": "707",
+      "end_pos": "707",
+      "column_header": "staar_end_of_course_english_1_el_performance_measure_5",
+      "column_num": "239"
+    },
+    {
+      "start_pos": "710",
+      "end_pos": "711",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_5",
+      "column_num": "240"
+    },
+    {
+      "start_pos": "713",
+      "end_pos": "713",
+      "column_header": "staar_end_of_course_english_1_accommodations_used_5",
+      "column_num": "241"
+    },
+    {
+      "start_pos": "714",
+      "end_pos": "714",
+      "column_header": "staar_end_of_course_english_1_staar_or_staar_alternate_2_progress_measure",
+      "column_num": "242"
+    },
+    {
+      "start_pos": "719",
+      "end_pos": "727",
+      "column_header": "staar_end_of_course_english_2_county_district_campus_number_6",
+      "column_num": "243"
+    },
+    {
+      "start_pos": "728",
+      "end_pos": "279",
+      "column_header": "staar_end_of_course_english_2_enrolled_grade_6",
+      "column_num": "244"
+    },
+    {
+      "start_pos": "730",
+      "end_pos": "730",
+      "column_header": "staar_end_of_course_english_2_test_version_6",
+      "column_num": "245"
+    },
+    {
+      "start_pos": "731",
+      "end_pos": "731",
+      "column_header": "staar_end_of_course_english_2_score_code_6",
+      "column_num": "246"
+    },
+    {
+      "start_pos": "732",
+      "end_pos": "732",
+      "column_header": "staar_end_of_course_english_2_score_code_default_6",
+      "column_num": "247"
+    },
+    {
+      "start_pos": "733",
+      "end_pos": "733",
+      "column_header": "staar_end_of_course_english_2_test_administration_indicator_6",
+      "column_num": "248"
+    },
+    {
+      "start_pos": "734",
+      "end_pos": "737",
+      "column_header": "staar_end_of_course_english_2_scale_score_6",
+      "column_num": "249"
+    },
+    {
+      "start_pos": "739",
+      "end_pos": "739",
+      "column_header": "staar_end_of_course_english_2_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "250"
+    },
+    {
+      "start_pos": "740",
+      "end_pos": "740",
+      "column_header": "staar_end_of_course_english_2_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "251"
+    },
+    {
+      "start_pos": "741",
+      "end_pos": "742",
+      "column_header": "staar_end_of_course_english_2_raw_score_6",
+      "column_num": "252"
+    },
+    {
+      "start_pos": "743",
+      "end_pos": "743",
+      "column_header": "staar_end_of_course_english_2_staar_or_staar_alternate_2_progress_measure",
+      "column_num": "253"
+    },
+    {
+      "start_pos": "744",
+      "end_pos": "744",
+      "column_header": "staar_end_of_course_english_2_el_performance_measure_6",
+      "column_num": "254"
+    },
+    {
+      "start_pos": "748",
+      "end_pos": "749",
+      "column_header": "staar_end_of_course_english_2_performance_level_indicator_6",
+      "column_num": "255"
+    },
+    {
+      "start_pos": "751",
+      "end_pos": "751",
+      "column_header": "staar_end_of_course_english_2_accommodations_used_6",
+      "column_num": "256"
+    },
+    {
+      "start_pos": "757",
+      "end_pos": "765",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number_3",
+      "column_num": "257"
+    },
+    {
+      "start_pos": "766",
+      "end_pos": "767",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade_3",
+      "column_num": "258"
+    },
+    {
+      "start_pos": "768",
+      "end_pos": "768",
+      "column_header": "staar_end_of_course_us_history_test_version_3",
+      "column_num": "259"
+    },
+    {
+      "start_pos": "769",
+      "end_pos": "769",
+      "column_header": "staar_end_of_course_us_history_score_code_3",
+      "column_num": "260"
+    },
+    {
+      "start_pos": "770",
+      "end_pos": "770",
+      "column_header": "staar_end_of_course_us_history_score_code_default_3",
+      "column_num": "261"
+    },
+    {
+      "start_pos": "771",
+      "end_pos": "771",
+      "column_header": "staar_end_of_course_us_history_test_administration_indicator_3",
+      "column_num": "262"
+    },
+    {
+      "start_pos": "772",
+      "end_pos": "775",
+      "column_header": "staar_end_of_course_us_history_scale_score_3",
+      "column_num": "263"
+    },
+    {
+      "start_pos": "777",
+      "end_pos": "777",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "264"
+    },
+    {
+      "start_pos": "778",
+      "end_pos": "778",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "265"
+    },
+    {
+      "start_pos": "779",
+      "end_pos": "779",
+      "column_header": "staar_end_of_course_us_history_el_performance_measure_3",
+      "column_num": "266"
+    },
+    {
+      "start_pos": "781",
+      "end_pos": "781",
+      "column_header": "staar_end_of_course_us_history_accommodations_used_3",
+      "column_num": "267"
+    },
+    {
+      "start_pos": "782",
+      "end_pos": "783",
+      "column_header": "staar_end_of_course_us_history_performance_level_indicator_3",
+      "column_num": "268"
+    },
+    {
+      "start_pos": "787",
+      "end_pos": "790",
+      "column_header": "staar_end_of_course_us_history_administration_date",
+      "column_num": "269"
+    },
+    {
+      "start_pos": "801",
+      "end_pos": "809",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number_4",
+      "column_num": "270"
+    },
+    {
+      "start_pos": "810",
+      "end_pos": "811",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade_4",
+      "column_num": "271"
+    },
+    {
+      "start_pos": "812",
+      "end_pos": "812",
+      "column_header": "staar_end_of_course_algebra_1_test_version_4",
+      "column_num": "272"
+    },
+    {
+      "start_pos": "813",
+      "end_pos": "813",
+      "column_header": "staar_end_of_course_algebra_1_score_code_4",
+      "column_num": "273"
+    },
+    {
+      "start_pos": "814",
+      "end_pos": "814",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default_4",
+      "column_num": "274"
+    },
+    {
+      "start_pos": "815",
+      "end_pos": "818",
+      "column_header": "staar_end_of_course_algebra_1_scale_score_4",
+      "column_num": "275"
+    },
+    {
+      "start_pos": "820",
+      "end_pos": "820",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_3",
+      "column_num": "276"
+    },
+    {
+      "start_pos": "821",
+      "end_pos": "821",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_3",
+      "column_num": "277"
+    },
+    {
+      "start_pos": "822",
+      "end_pos": "823",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator_4",
+      "column_num": "278"
+    },
+    {
+      "start_pos": "824",
+      "end_pos": "825",
+      "column_header": "staar_end_of_course_algebra_1_raw_score_4",
+      "column_num": "279"
+    },
+    {
+      "start_pos": "826",
+      "end_pos": "826",
+      "column_header": "staar_end_of_course_algebra_1_staar_progress_measure_3",
+      "column_num": "280"
+    },
+    {
+      "start_pos": "829",
+      "end_pos": "837",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number_4",
+      "column_num": "281"
+    },
+    {
+      "start_pos": "838",
+      "end_pos": "839",
+      "column_header": "staar_end_of_course_biology_enrolled_grade_4",
+      "column_num": "282"
+    },
+    {
+      "start_pos": "840",
+      "end_pos": "840",
+      "column_header": "staar_end_of_course_biology_test_version_4",
+      "column_num": "283"
+    },
+    {
+      "start_pos": "841",
+      "end_pos": "841",
+      "column_header": "staar_end_of_course_biology_score_code_4",
+      "column_num": "284"
+    },
+    {
+      "start_pos": "842",
+      "end_pos": "842",
+      "column_header": "staar_end_of_course_biology_score_code_default_4",
+      "column_num": "285"
+    },
+    {
+      "start_pos": "843",
+      "end_pos": "846",
+      "column_header": "staar_end_of_course_biology_scale_score_4",
+      "column_num": "286"
+    },
+    {
+      "start_pos": "848",
+      "end_pos": "848",
+      "column_header": "staar_end_of_course_biology_meets_grade_level_3",
+      "column_num": "287"
+    },
+    {
+      "start_pos": "849",
+      "end_pos": "849",
+      "column_header": "staar_end_of_course_biology_masters_grade_level_3",
+      "column_num": "288"
+    },
+    {
+      "start_pos": "855",
+      "end_pos": "863",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_7",
+      "column_num": "289"
+    },
+    {
+      "start_pos": "864",
+      "end_pos": "865",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_7",
+      "column_num": "290"
+    },
+    {
+      "start_pos": "866",
+      "end_pos": "866",
+      "column_header": "staar_end_of_course_english_1_test_version_7",
+      "column_num": "291"
+    },
+    {
+      "start_pos": "867",
+      "end_pos": "867",
+      "column_header": "staar_end_of_course_english_1_score_code_7",
+      "column_num": "292"
+    },
+    {
+      "start_pos": "868",
+      "end_pos": "868",
+      "column_header": "staar_end_of_course_english_1_score_code_default_7",
+      "column_num": "293"
+    },
+    {
+      "start_pos": "869",
+      "end_pos": "872",
+      "column_header": "staar_end_of_course_english_1_scale_score_7",
+      "column_num": "294"
+    },
+    {
+      "start_pos": "874",
+      "end_pos": "874",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_5",
+      "column_num": "295"
+    },
+    {
+      "start_pos": "875",
+      "end_pos": "875",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_5",
+      "column_num": "296"
+    },
+    {
+      "start_pos": "876",
+      "end_pos": "877",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_7",
+      "column_num": "297"
+    },
+    {
+      "start_pos": "878",
+      "end_pos": "879",
+      "column_header": "staar_end_of_course_english_1_raw_score_7",
+      "column_num": "298"
+    },
+    {
+      "start_pos": "880",
+      "end_pos": "880",
+      "column_header": "staar_end_of_course_english_1_staar_progress_measure_3",
+      "column_num": "299"
+    },
+    {
+      "start_pos": "883",
+      "end_pos": "891",
+      "column_header": "staar_end_of_course_english_2_county_district_campus_number_8",
+      "column_num": "300"
+    },
+    {
+      "start_pos": "892",
+      "end_pos": "893",
+      "column_header": "staar_end_of_course_english_2_enrolled_grade_8",
+      "column_num": "301"
+    },
+    {
+      "start_pos": "894",
+      "end_pos": "894",
+      "column_header": "staar_end_of_course_english_2_test_version_8",
+      "column_num": "302"
+    },
+    {
+      "start_pos": "895",
+      "end_pos": "895",
+      "column_header": "staar_end_of_course_english_2_score_code_8",
+      "column_num": "303"
+    },
+    {
+      "start_pos": "896",
+      "end_pos": "896",
+      "column_header": "staar_end_of_course_english_2_score_code_default_8",
+      "column_num": "304"
+    },
+    {
+      "start_pos": "897",
+      "end_pos": "900",
+      "column_header": "staar_end_of_course_english_2_scale_score_8",
+      "column_num": "305"
+    },
+    {
+      "start_pos": "902",
+      "end_pos": "902",
+      "column_header": "staar_end_of_course_english_2_meets_grade_level_6",
+      "column_num": "306"
+    },
+    {
+      "start_pos": "903",
+      "end_pos": "903",
+      "column_header": "staar_end_of_course_english_2_masters_grade_level_6",
+      "column_num": "307"
+    },
+    {
+      "start_pos": "904",
+      "end_pos": "905",
+      "column_header": "staar_end_of_course_english_2_performance_level_indicator_8",
+      "column_num": "308"
+    },
+    {
+      "start_pos": "906",
+      "end_pos": "907",
+      "column_header": "staar_end_of_course_english_2_raw_score_8",
+      "column_num": "309"
+    },
+    {
+      "start_pos": "908",
+      "end_pos": "908",
+      "column_header": "staar_end_of_course_english_2_staar_progress_measure_4",
+      "column_num": "310"
+    },
+    {
+      "start_pos": "911",
+      "end_pos": "919",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number_4",
+      "column_num": "311"
+    },
+    {
+      "start_pos": "920",
+      "end_pos": "921",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade_4",
+      "column_num": "312"
+    },
+    {
+      "start_pos": "922",
+      "end_pos": "922",
+      "column_header": "staar_end_of_course_us_history_test_version_4",
+      "column_num": "313"
+    },
+    {
+      "start_pos": "923",
+      "end_pos": "923",
+      "column_header": "staar_end_of_course_us_history_score_code_4",
+      "column_num": "314"
+    },
+    {
+      "start_pos": "924",
+      "end_pos": "924",
+      "column_header": "staar_end_of_course_us_history_score_code_default_4",
+      "column_num": "315"
+    },
+    {
+      "start_pos": "925",
+      "end_pos": "928",
+      "column_header": "staar_end_of_course_us_history_scale_score_4",
+      "column_num": "316"
+    },
+    {
+      "start_pos": "930",
+      "end_pos": "930",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level_3",
+      "column_num": "317"
+    },
+    {
+      "start_pos": "931",
+      "end_pos": "931",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level_3",
+      "column_num": "318"
+    },
+    {
+      "start_pos": "937",
+      "end_pos": "940",
+      "column_header": "staar_end_of_course_2023_fall_eoc_previous_accountability_year_administration_date",
+      "column_num": "319"
+    },
+    {
+      "start_pos": "951",
+      "end_pos": "959",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number_5",
+      "column_num": "320"
+    },
+    {
+      "start_pos": "960",
+      "end_pos": "961",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade_5",
+      "column_num": "321"
+    },
+    {
+      "start_pos": "962",
+      "end_pos": "962",
+      "column_header": "staar_end_of_course_algebra_1_test_version_5",
+      "column_num": "322"
+    },
+    {
+      "start_pos": "963",
+      "end_pos": "963",
+      "column_header": "staar_end_of_course_algebra_1_score_code_5",
+      "column_num": "323"
+    },
+    {
+      "start_pos": "964",
+      "end_pos": "964",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default_5",
+      "column_num": "324"
+    },
+    {
+      "start_pos": "965",
+      "end_pos": "968",
+      "column_header": "staar_end_of_course_algebra_1_scale_score_5",
+      "column_num": "325"
+    },
+    {
+      "start_pos": "970",
+      "end_pos": "970",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_4",
+      "column_num": "326"
+    },
+    {
+      "start_pos": "971",
+      "end_pos": "971",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_4",
+      "column_num": "327"
+    },
+    {
+      "start_pos": "972",
+      "end_pos": "973",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator_5",
+      "column_num": "328"
+    },
+    {
+      "start_pos": "974",
+      "end_pos": "975",
+      "column_header": "staar_end_of_course_algebra_1_raw_score_5",
+      "column_num": "329"
+    },
+    {
+      "start_pos": "976",
+      "end_pos": "976",
+      "column_header": "staar_end_of_course_algebra_1_staar_progress_measure_4",
+      "column_num": "330"
+    },
+    {
+      "start_pos": "979",
+      "end_pos": "987",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number_5",
+      "column_num": "331"
+    },
+    {
+      "start_pos": "988",
+      "end_pos": "989",
+      "column_header": "staar_end_of_course_biology_enrolled_grade_5",
+      "column_num": "332"
+    },
+    {
+      "start_pos": "990",
+      "end_pos": "990",
+      "column_header": "staar_end_of_course_biology_test_version_5",
+      "column_num": "333"
+    },
+    {
+      "start_pos": "991",
+      "end_pos": "991",
+      "column_header": "staar_end_of_course_biology_score_code_5",
+      "column_num": "334"
+    },
+    {
+      "start_pos": "992",
+      "end_pos": "992",
+      "column_header": "staar_end_of_course_biology_score_code_default_5",
+      "column_num": "335"
+    },
+    {
+      "start_pos": "993",
+      "end_pos": "996",
+      "column_header": "staar_end_of_course_biology_scale_score_5",
+      "column_num": "336"
+    },
+    {
+      "start_pos": "998",
+      "end_pos": "998",
+      "column_header": "staar_end_of_course_biology_meets_grade_level_4",
+      "column_num": "337"
+    },
+    {
+      "start_pos": "999",
+      "end_pos": "999",
+      "column_header": "staar_end_of_course_biology_masters_grade_level_4",
+      "column_num": "338"
+    },
+    {
+      "start_pos": "1005",
+      "end_pos": "1013",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_9",
+      "column_num": "339"
+    },
+    {
+      "start_pos": "1014",
+      "end_pos": "1015",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_9",
+      "column_num": "340"
+    },
+    {
+      "start_pos": "1016",
+      "end_pos": "1016",
+      "column_header": "staar_end_of_course_english_1_test_version_9",
+      "column_num": "341"
+    },
+    {
+      "start_pos": "1017",
+      "end_pos": "1017",
+      "column_header": "staar_end_of_course_english_1_score_code_9",
+      "column_num": "342"
+    },
+    {
+      "start_pos": "1018",
+      "end_pos": "1018",
+      "column_header": "staar_end_of_course_english_1_score_code_default_9",
+      "column_num": "343"
+    },
+    {
+      "start_pos": "1019",
+      "end_pos": "1022",
+      "column_header": "staar_end_of_course_english_1_scale_score_9",
+      "column_num": "344"
+    },
+    {
+      "start_pos": "1024",
+      "end_pos": "1024",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_7",
+      "column_num": "345"
+    },
+    {
+      "start_pos": "1025",
+      "end_pos": "1025",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_7",
+      "column_num": "346"
+    },
+    {
+      "start_pos": "1026",
+      "end_pos": "1027",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_9",
+      "column_num": "347"
+    },
+    {
+      "start_pos": "1028",
+      "end_pos": "1029",
+      "column_header": "staar_end_of_course_english_1_raw_score_9",
+      "column_num": "348"
+    },
+    {
+      "start_pos": "1030",
+      "end_pos": "1030",
+      "column_header": "staar_end_of_course_english_1_staar_progress_measure_4",
+      "column_num": "349"
+    },
+    {
+      "start_pos": "1033",
+      "end_pos": "1041",
+      "column_header": "staar_end_of_course_english_2_county_district_campus_number_10",
+      "column_num": "350"
+    },
+    {
+      "start_pos": "1042",
+      "end_pos": "1043",
+      "column_header": "staar_end_of_course_english_2_enrolled_grade_10",
+      "column_num": "351"
+    },
+    {
+      "start_pos": "1044",
+      "end_pos": "1044",
+      "column_header": "staar_end_of_course_english_2_test_version_10",
+      "column_num": "352"
+    },
+    {
+      "start_pos": "1045",
+      "end_pos": "1045",
+      "column_header": "staar_end_of_course_english_2_score_code_10",
+      "column_num": "353"
+    },
+    {
+      "start_pos": "1046",
+      "end_pos": "1046",
+      "column_header": "staar_end_of_course_english_2_score_code_default_10",
+      "column_num": "354"
+    },
+    {
+      "start_pos": "1047",
+      "end_pos": "1050",
+      "column_header": "staar_end_of_course_english_2_scale_score_10",
+      "column_num": "355"
+    },
+    {
+      "start_pos": "1052",
+      "end_pos": "1052",
+      "column_header": "staar_end_of_course_english_2_meets_grade_level_8",
+      "column_num": "356"
+    },
+    {
+      "start_pos": "1053",
+      "end_pos": "1053",
+      "column_header": "staar_end_of_course_english_2_masters_grade_level_8",
+      "column_num": "357"
+    },
+    {
+      "start_pos": "1054",
+      "end_pos": "1055",
+      "column_header": "staar_end_of_course_english_2_performance_level_indicator_10",
+      "column_num": "358"
+    },
+    {
+      "start_pos": "1056",
+      "end_pos": "1057",
+      "column_header": "staar_end_of_course_english_2_raw_score_10",
+      "column_num": "359"
+    },
+    {
+      "start_pos": "1058",
+      "end_pos": "1058",
+      "column_header": "staar_end_of_course_english_2_staar_progress_measure_5",
+      "column_num": "360"
+    },
+    {
+      "start_pos": "1061",
+      "end_pos": "1069",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number_5",
+      "column_num": "361"
+    },
+    {
+      "start_pos": "1070",
+      "end_pos": "1071",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade_5",
+      "column_num": "362"
+    },
+    {
+      "start_pos": "1072",
+      "end_pos": "1072",
+      "column_header": "staar_end_of_course_us_history_test_version_5",
+      "column_num": "363"
+    },
+    {
+      "start_pos": "1073",
+      "end_pos": "1073",
+      "column_header": "staar_end_of_course_us_history_score_code_5",
+      "column_num": "364"
+    },
+    {
+      "start_pos": "1074",
+      "end_pos": "1074",
+      "column_header": "staar_end_of_course_us_history_score_code_default_5",
+      "column_num": "365"
+    },
+    {
+      "start_pos": "1075",
+      "end_pos": "1078",
+      "column_header": "staar_end_of_course_us_history_scale_score_5",
+      "column_num": "366"
+    },
+    {
+      "start_pos": "1080",
+      "end_pos": "1080",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level_4",
+      "column_num": "367"
+    },
+    {
+      "start_pos": "1081",
+      "end_pos": "1081",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level_4",
+      "column_num": "368"
+    },
+    {
+      "start_pos": "1087",
+      "end_pos": "1090",
+      "column_header": "staar_end_of_course_2024_spring_eoc_previous_accountability_year_administration_date",
+      "column_num": "369"
+    },
+    {
+      "start_pos": "1101",
+      "end_pos": "1109",
+      "column_header": "staar_end_of_course_algebra_1_county_district_campus_number_6",
+      "column_num": "370"
+    },
+    {
+      "start_pos": "1110",
+      "end_pos": "1111",
+      "column_header": "staar_end_of_course_algebra_1_enrolled_grade_6",
+      "column_num": "371"
+    },
+    {
+      "start_pos": "1112",
+      "end_pos": "1112",
+      "column_header": "staar_end_of_course_algebra_1_test_version_6",
+      "column_num": "372"
+    },
+    {
+      "start_pos": "1113",
+      "end_pos": "1113",
+      "column_header": "staar_end_of_course_algebra_1_score_code_6",
+      "column_num": "373"
+    },
+    {
+      "start_pos": "1114",
+      "end_pos": "1114",
+      "column_header": "staar_end_of_course_algebra_1_score_code_default_6",
+      "column_num": "374"
+    },
+    {
+      "start_pos": "1115",
+      "end_pos": "1118",
+      "column_header": "staar_end_of_course_algebra_1_scale_score_6",
+      "column_num": "375"
+    },
+    {
+      "start_pos": "1120",
+      "end_pos": "1120",
+      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "376"
+    },
+    {
+      "start_pos": "1121",
+      "end_pos": "1121",
+      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "377"
+    },
+    {
+      "start_pos": "1122",
+      "end_pos": "1123",
+      "column_header": "staar_end_of_course_algebra_1_performance_level_indicator_6",
+      "column_num": "378"
+    },
+    {
+      "start_pos": "1124",
+      "end_pos": "1125",
+      "column_header": "staar_end_of_course_algebra_1_raw_score_6",
+      "column_num": "379"
+    },
+    {
+      "start_pos": "1126",
+      "end_pos": "1126",
+      "column_header": "staar_end_of_course_algebra_1_staar_progress_measure_5",
+      "column_num": "380"
+    },
+    {
+      "start_pos": "1129",
+      "end_pos": "1137",
+      "column_header": "staar_end_of_course_biology_county_district_campus_number_6",
+      "column_num": "381"
+    },
+    {
+      "start_pos": "1138",
+      "end_pos": "1139",
+      "column_header": "staar_end_of_course_biology_enrolled_grade_6",
+      "column_num": "382"
+    },
+    {
+      "start_pos": "1140",
+      "end_pos": "1140",
+      "column_header": "staar_end_of_course_biology_test_version_6",
+      "column_num": "383"
+    },
+    {
+      "start_pos": "1141",
+      "end_pos": "1141",
+      "column_header": "staar_end_of_course_biology_score_code_6",
+      "column_num": "384"
+    },
+    {
+      "start_pos": "1142",
+      "end_pos": "1142",
+      "column_header": "staar_end_of_course_biology_score_code_default_6",
+      "column_num": "385"
+    },
+    {
+      "start_pos": "1143",
+      "end_pos": "1146",
+      "column_header": "staar_end_of_course_biology_scale_score_6",
+      "column_num": "386"
+    },
+    {
+      "start_pos": "1148",
+      "end_pos": "1148",
+      "column_header": "staar_end_of_course_biology_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "387"
+    },
+    {
+      "start_pos": "1149",
+      "end_pos": "1149",
+      "column_header": "staar_end_of_course_biology_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "388"
+    },
+    {
+      "start_pos": "1155",
+      "end_pos": "1163",
+      "column_header": "staar_end_of_course_english_1_county_district_campus_number_11",
+      "column_num": "389"
+    },
+    {
+      "start_pos": "1164",
+      "end_pos": "1165",
+      "column_header": "staar_end_of_course_english_1_enrolled_grade_11",
+      "column_num": "390"
+    },
+    {
+      "start_pos": "1166",
+      "end_pos": "1166",
+      "column_header": "staar_end_of_course_english_1_test_version_11",
+      "column_num": "391"
+    },
+    {
+      "start_pos": "1167",
+      "end_pos": "1167",
+      "column_header": "staar_end_of_course_english_1_score_code_11",
+      "column_num": "392"
+    },
+    {
+      "start_pos": "1168",
+      "end_pos": "1168",
+      "column_header": "staar_end_of_course_english_1_score_code_default_11",
+      "column_num": "393"
+    },
+    {
+      "start_pos": "1169",
+      "end_pos": "1172",
+      "column_header": "staar_end_of_course_english_1_scale_score_11",
+      "column_num": "394"
+    },
+    {
+      "start_pos": "1174",
+      "end_pos": "1174",
+      "column_header": "staar_end_of_course_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_num": "395"
+    },
+    {
+      "start_pos": "1175",
+      "end_pos": "1175",
+      "column_header": "staar_end_of_course_english_1_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_num": "396"
+    },
+    {
+      "start_pos": "1176",
+      "end_pos": "1177",
+      "column_header": "staar_end_of_course_english_1_performance_level_indicator_11",
+      "column_num": "397"
+    },
+    {
+      "start_pos": "1178",
+      "end_pos": "1179",
+      "column_header": "staar_end_of_course_english_1_raw_score_11",
+      "column_num": "398"
+    },
+    {
+      "start_pos": "1180",
+      "end_pos": "1180",
+      "column_header": "staar_end_of_course_english_1_staar_progress_measure_5",
+      "column_num": "399"
+    },
+    {
+      "start_pos": "1183",
+      "end_pos": "1191",
+      "column_header": "staar_end_of_course_english_2_county_district_campus_number_12",
+      "column_num": "400"
+    },
+    {
+      "start_pos": "1192",
+      "end_pos": "1193",
+      "column_header": "staar_end_of_course_english_2_enrolled_grade_12",
+      "column_num": "401"
+    },
+    {
+      "start_pos": "1194",
+      "end_pos": "1194",
+      "column_header": "staar_end_of_course_english_2_test_version_12",
+      "column_num": "402"
+    },
+    {
+      "start_pos": "1195",
+      "end_pos": "1195",
+      "column_header": "staar_end_of_course_english_2_score_code_12",
+      "column_num": "403"
+    },
+    {
+      "start_pos": "1196",
+      "end_pos": "1196",
+      "column_header": "staar_end_of_course_english_2_score_code_default_12",
+      "column_num": "404"
+    },
+    {
+      "start_pos": "1197",
+      "end_pos": "1200",
+      "column_header": "staar_end_of_course_english_2_scale_score_12",
+      "column_num": "405"
+    },
+    {
+      "start_pos": "1202",
+      "end_pos": "1202",
+      "column_header": "staar_end_of_course_english_2_meets_grade_level_or_level_2_satisfactory_academic_performance_4",
+      "column_num": "406"
+    },
+    {
+      "start_pos": "1203",
+      "end_pos": "1203",
+      "column_header": "staar_end_of_course_english_2_masters_grade_level_or_accomplished_academic_performance_4",
+      "column_num": "407"
+    },
+    {
+      "start_pos": "1204",
+      "end_pos": "1205",
+      "column_header": "staar_end_of_course_english_2_performance_level_indicator_12",
+      "column_num": "408"
+    },
+    {
+      "start_pos": "1206",
+      "end_pos": "1207",
+      "column_header": "staar_end_of_course_english_2_raw_score_12",
+      "column_num": "409"
+    },
+    {
+      "start_pos": "1208",
+      "end_pos": "1208",
+      "column_header": "staar_end_of_course_english_2_staar_progress_measure_6",
+      "column_num": "410"
+    },
+    {
+      "start_pos": "1211",
+      "end_pos": "1219",
+      "column_header": "staar_end_of_course_us_history_county_district_campus_number_6",
+      "column_num": "411"
+    },
+    {
+      "start_pos": "1220",
+      "end_pos": "1221",
+      "column_header": "staar_end_of_course_us_history_enrolled_grade_6",
+      "column_num": "412"
+    },
+    {
+      "start_pos": "1222",
+      "end_pos": "1222",
+      "column_header": "staar_end_of_course_us_history_test_version_6",
+      "column_num": "413"
+    },
+    {
+      "start_pos": "1223",
+      "end_pos": "1223",
+      "column_header": "staar_end_of_course_us_history_score_code_6",
+      "column_num": "414"
+    },
+    {
+      "start_pos": "1224",
+      "end_pos": "1224",
+      "column_header": "staar_end_of_course_us_history_score_code_default_6",
+      "column_num": "415"
+    },
+    {
+      "start_pos": "1225",
+      "end_pos": "1228",
+      "column_header": "staar_end_of_course_us_history_scale_score_6",
+      "column_num": "416"
+    },
+    {
+      "start_pos": "1230",
+      "end_pos": "1230",
+      "column_header": "staar_end_of_course_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "417"
+    },
+    {
+      "start_pos": "1231",
+      "end_pos": "1231",
+      "column_header": "staar_end_of_course_us_history_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "418"
+    },
+    {
+      "start_pos": "1243",
+      "end_pos": "1246",
+      "column_header": "eoc_cumulative_history_algebra_1_administration_date",
+      "column_num": "419"
+    },
+    {
+      "start_pos": "1247",
+      "end_pos": "1247",
+      "column_header": "eoc_cumulative_history_algebra_1_test_version",
+      "column_num": "420"
+    },
+    {
+      "start_pos": "1248",
+      "end_pos": "1248",
+      "column_header": "eoc_cumulative_history_algebra_1_score_code",
+      "column_num": "421"
+    },
+    {
+      "start_pos": "1256",
+      "end_pos": "1259",
+      "column_header": "eoc_cumulative_history_algebra_1_administration_date_2",
+      "column_num": "422"
+    },
+    {
+      "start_pos": "1260",
+      "end_pos": "1260",
+      "column_header": "eoc_cumulative_history_algebra_1_test_version_2",
+      "column_num": "423"
+    },
+    {
+      "start_pos": "1266",
+      "end_pos": "1269",
+      "column_header": "eoc_cumulative_history_algebra_1_administration_date_3",
+      "column_num": "424"
+    },
+    {
+      "start_pos": "1270",
+      "end_pos": "1278",
+      "column_header": "eoc_cumulative_history_algebra_1_county_district_campus_number",
+      "column_num": "425"
+    },
+    {
+      "start_pos": "1284",
+      "end_pos": "1287",
+      "column_header": "eoc_cumulative_history_algebra_1_administration_date_4",
+      "column_num": "426"
+    },
+    {
+      "start_pos": "1288",
+      "end_pos": "1296",
+      "column_header": "eoc_cumulative_history_algebra_1_county_district_campus_number_2",
+      "column_num": "427"
+    },
+    {
+      "start_pos": "1297",
+      "end_pos": "1297",
+      "column_header": "eoc_cumulative_history_algebra_1_test_version_3",
+      "column_num": "428"
+    },
+    {
+      "start_pos": "1298",
+      "end_pos": "1298",
+      "column_header": "eoc_cumulative_history_algebra_1_score_code_2",
+      "column_num": "429"
+    },
+    {
+      "start_pos": "1301",
+      "end_pos": "1301",
+      "column_header": "eoc_cumulative_history_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "430"
+    },
+    {
+      "start_pos": "1302",
+      "end_pos": "1302",
+      "column_header": "eoc_cumulative_history_algebra_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "431"
+    },
+    {
+      "start_pos": "1303",
+      "end_pos": "1306",
+      "column_header": "eoc_cumulative_history_algebra_1_scale_score",
+      "column_num": "432"
+    },
+    {
+      "start_pos": "1313",
+      "end_pos": "1316",
+      "column_header": "eoc_cumulative_history_biology_administration_date",
+      "column_num": "433"
+    },
+    {
+      "start_pos": "1317",
+      "end_pos": "1317",
+      "column_header": "eoc_cumulative_history_biology_test_version",
+      "column_num": "434"
+    },
+    {
+      "start_pos": "1318",
+      "end_pos": "1318",
+      "column_header": "eoc_cumulative_history_biology_score_code",
+      "column_num": "435"
+    },
+    {
+      "start_pos": "1326",
+      "end_pos": "1329",
+      "column_header": "eoc_cumulative_history_biology_administration_date_2",
+      "column_num": "436"
+    },
+    {
+      "start_pos": "1330",
+      "end_pos": "1330",
+      "column_header": "eoc_cumulative_history_biology_test_version_2",
+      "column_num": "437"
+    },
+    {
+      "start_pos": "1336",
+      "end_pos": "1339",
+      "column_header": "eoc_cumulative_history_biology_administration_date_3",
+      "column_num": "438"
+    },
+    {
+      "start_pos": "1340",
+      "end_pos": "1348",
+      "column_header": "eoc_cumulative_history_biology_county_district_campus_number",
+      "column_num": "439"
+    },
+    {
+      "start_pos": "1354",
+      "end_pos": "1357",
+      "column_header": "eoc_cumulative_history_biology_administration_date_4",
+      "column_num": "440"
+    },
+    {
+      "start_pos": "1358",
+      "end_pos": "1366",
+      "column_header": "eoc_cumulative_history_biology_county_district_campus_number_2",
+      "column_num": "441"
+    },
+    {
+      "start_pos": "1367",
+      "end_pos": "1367",
+      "column_header": "eoc_cumulative_history_biology_test_version_3",
+      "column_num": "442"
+    },
+    {
+      "start_pos": "1368",
+      "end_pos": "1368",
+      "column_header": "eoc_cumulative_history_biology_score_code_2",
+      "column_num": "443"
+    },
+    {
+      "start_pos": "1371",
+      "end_pos": "1371",
+      "column_header": "eoc_cumulative_history_biology_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "444"
+    },
+    {
+      "start_pos": "1372",
+      "end_pos": "1372",
+      "column_header": "eoc_cumulative_history_biology_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "445"
+    },
+    {
+      "start_pos": "1373",
+      "end_pos": "1376",
+      "column_header": "eoc_cumulative_history_biology_scale_score",
+      "column_num": "446"
+    },
+    {
+      "start_pos": "1383",
+      "end_pos": "1386",
+      "column_header": "eoc_cumulative_history_english_1_administration_date",
+      "column_num": "447"
+    },
+    {
+      "start_pos": "1387",
+      "end_pos": "1387",
+      "column_header": "eoc_cumulative_history_english_1_test_version",
+      "column_num": "448"
+    },
+    {
+      "start_pos": "1388",
+      "end_pos": "1388",
+      "column_header": "eoc_cumulative_history_english_1_score_code",
+      "column_num": "449"
+    },
+    {
+      "start_pos": "1396",
+      "end_pos": "1399",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_2",
+      "column_num": "450"
+    },
+    {
+      "start_pos": "1400",
+      "end_pos": "1400",
+      "column_header": "eoc_cumulative_history_english_1_test_version_2",
+      "column_num": "451"
+    },
+    {
+      "start_pos": "1406",
+      "end_pos": "1409",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_3",
+      "column_num": "452"
+    },
+    {
+      "start_pos": "1410",
+      "end_pos": "1418",
+      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number",
+      "column_num": "453"
+    },
+    {
+      "start_pos": "1424",
+      "end_pos": "1427",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_4",
+      "column_num": "454"
+    },
+    {
+      "start_pos": "1428",
+      "end_pos": "1436",
+      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_2",
+      "column_num": "455"
+    },
+    {
+      "start_pos": "1437",
+      "end_pos": "1437",
+      "column_header": "eoc_cumulative_history_english_1_test_version_3",
+      "column_num": "456"
+    },
+    {
+      "start_pos": "1438",
+      "end_pos": "1438",
+      "column_header": "eoc_cumulative_history_english_1_score_code_2",
+      "column_num": "457"
+    },
+    {
+      "start_pos": "1441",
+      "end_pos": "1441",
+      "column_header": "eoc_cumulative_history_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "458"
+    },
+    {
+      "start_pos": "1442",
+      "end_pos": "1442",
+      "column_header": "eoc_cumulative_history_english_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "459"
+    },
+    {
+      "start_pos": "1443",
+      "end_pos": "1446",
+      "column_header": "eoc_cumulative_history_english_1_scale_score",
+      "column_num": "460"
+    },
+    {
+      "start_pos": "1453",
+      "end_pos": "1456",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_5",
+      "column_num": "461"
+    },
+    {
+      "start_pos": "1457",
+      "end_pos": "1457",
+      "column_header": "eoc_cumulative_history_english_1_test_version_4",
+      "column_num": "462"
+    },
+    {
+      "start_pos": "1458",
+      "end_pos": "1458",
+      "column_header": "eoc_cumulative_history_english_1_score_code_3",
+      "column_num": "463"
+    },
+    {
+      "start_pos": "1466",
+      "end_pos": "1469",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_6",
+      "column_num": "464"
+    },
+    {
+      "start_pos": "1470",
+      "end_pos": "1470",
+      "column_header": "eoc_cumulative_history_english_1_test_version_5",
+      "column_num": "465"
+    },
+    {
+      "start_pos": "1476",
+      "end_pos": "1479",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_7",
+      "column_num": "466"
+    },
+    {
+      "start_pos": "1480",
+      "end_pos": "1488",
+      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_3",
+      "column_num": "467"
+    },
+    {
+      "start_pos": "1494",
+      "end_pos": "1497",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_8",
+      "column_num": "468"
+    },
+    {
+      "start_pos": "1498",
+      "end_pos": "1506",
+      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_4",
+      "column_num": "469"
+    },
+    {
+      "start_pos": "1507",
+      "end_pos": "1507",
+      "column_header": "eoc_cumulative_history_english_1_test_version_6",
+      "column_num": "470"
+    },
+    {
+      "start_pos": "1508",
+      "end_pos": "1508",
+      "column_header": "eoc_cumulative_history_english_1_score_code_4",
+      "column_num": "471"
+    },
+    {
+      "start_pos": "1511",
+      "end_pos": "1511",
+      "column_header": "eoc_cumulative_history_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "472"
+    },
+    {
+      "start_pos": "1512",
+      "end_pos": "1512",
+      "column_header": "eoc_cumulative_history_english_1_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "473"
+    },
+    {
+      "start_pos": "1513",
+      "end_pos": "1516",
+      "column_header": "eoc_cumulative_history_english_1_scale_score_2",
+      "column_num": "474"
+    },
+    {
+      "start_pos": "1523",
+      "end_pos": "1526",
+      "column_header": "eoc_cumulative_history_us_history_administration_date",
+      "column_num": "475"
+    },
+    {
+      "start_pos": "1527",
+      "end_pos": "1527",
+      "column_header": "eoc_cumulative_history_us_history_test_version",
+      "column_num": "476"
+    },
+    {
+      "start_pos": "1528",
+      "end_pos": "1528",
+      "column_header": "eoc_cumulative_history_us_history_score_code",
+      "column_num": "477"
+    },
+    {
+      "start_pos": "1536",
+      "end_pos": "1539",
+      "column_header": "eoc_cumulative_history_us_history_administration_date_2",
+      "column_num": "478"
+    },
+    {
+      "start_pos": "1540",
+      "end_pos": "1540",
+      "column_header": "eoc_cumulative_history_us_history_test_version_2",
+      "column_num": "479"
+    },
+    {
+      "start_pos": "1546",
+      "end_pos": "1549",
+      "column_header": "eoc_cumulative_history_us_history_administration_date_3",
+      "column_num": "480"
+    },
+    {
+      "start_pos": "1550",
+      "end_pos": "1558",
+      "column_header": "eoc_cumulative_history_us_history_county_district_campus_number",
+      "column_num": "481"
+    },
+    {
+      "start_pos": "1564",
+      "end_pos": "1567",
+      "column_header": "eoc_cumulative_history_us_history_administration_date_4",
+      "column_num": "482"
+    },
+    {
+      "start_pos": "1568",
+      "end_pos": "1576",
+      "column_header": "eoc_cumulative_history_us_history_county_district_campus_number_2",
+      "column_num": "483"
+    },
+    {
+      "start_pos": "1577",
+      "end_pos": "1577",
+      "column_header": "eoc_cumulative_history_us_history_test_version_3",
+      "column_num": "484"
+    },
+    {
+      "start_pos": "1578",
+      "end_pos": "1578",
+      "column_header": "eoc_cumulative_history_us_history_score_code_2",
+      "column_num": "485"
+    },
+    {
+      "start_pos": "1581",
+      "end_pos": "1581",
+      "column_header": "eoc_cumulative_history_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "486"
+    },
+    {
+      "start_pos": "1582",
+      "end_pos": "1582",
+      "column_header": "eoc_cumulative_history_us_history_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "487"
+    },
+    {
+      "start_pos": "1583",
+      "end_pos": "1586",
+      "column_header": "eoc_cumulative_history_us_history_scale_score",
+      "column_num": "488"
+    },
+    {
+      "start_pos": "1593",
+      "end_pos": "1596",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_9",
+      "column_num": "489"
+    },
+    {
+      "start_pos": "1597",
+      "end_pos": "1597",
+      "column_header": "eoc_cumulative_history_english_1_test_version_7",
+      "column_num": "490"
+    },
+    {
+      "start_pos": "1598",
+      "end_pos": "1598",
+      "column_header": "eoc_cumulative_history_english_1_score_code_5",
+      "column_num": "491"
+    },
+    {
+      "start_pos": "1604",
+      "end_pos": "1607",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_10",
+      "column_num": "492"
+    },
+    {
+      "start_pos": "1608",
+      "end_pos": "1608",
+      "column_header": "eoc_cumulative_history_english_1_test_version_8",
+      "column_num": "493"
+    },
+    {
+      "start_pos": "1614",
+      "end_pos": "1617",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_11",
+      "column_num": "494"
+    },
+    {
+      "start_pos": "1618",
+      "end_pos": "1618",
+      "column_header": "eoc_cumulative_history_english_1_test_version_9",
+      "column_num": "495"
+    },
+    {
+      "start_pos": "1619",
+      "end_pos": "1619",
+      "column_header": "eoc_cumulative_history_english_1_score_code_6",
+      "column_num": "496"
+    },
+    {
+      "start_pos": "1625",
+      "end_pos": "1628",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_12",
+      "column_num": "497"
+    },
+    {
+      "start_pos": "1629",
+      "end_pos": "1629",
+      "column_header": "eoc_cumulative_history_english_1_test_version_10",
+      "column_num": "498"
+    },
+    {
+      "start_pos": "1635",
+      "end_pos": "1638",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_13",
+      "column_num": "499"
+    },
+    {
+      "start_pos": "1639",
+      "end_pos": "1639",
+      "column_header": "eoc_cumulative_history_english_1_test_version_11",
+      "column_num": "500"
+    },
+    {
+      "start_pos": "1640",
+      "end_pos": "1640",
+      "column_header": "eoc_cumulative_history_english_1_score_code_7",
+      "column_num": "501"
+    },
+    {
+      "start_pos": "1646",
+      "end_pos": "1649",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_14",
+      "column_num": "502"
+    },
+    {
+      "start_pos": "1650",
+      "end_pos": "1650",
+      "column_header": "eoc_cumulative_history_english_1_test_version_12",
+      "column_num": "503"
+    },
+    {
+      "start_pos": "1656",
+      "end_pos": "1659",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_15",
+      "column_num": "504"
+    },
+    {
+      "start_pos": "1660",
+      "end_pos": "1660",
+      "column_header": "eoc_cumulative_history_english_1_test_version_13",
+      "column_num": "505"
+    },
+    {
+      "start_pos": "1661",
+      "end_pos": "1661",
+      "column_header": "eoc_cumulative_history_english_1_score_code_8",
+      "column_num": "506"
+    },
+    {
+      "start_pos": "1667",
+      "end_pos": "1670",
+      "column_header": "eoc_cumulative_history_english_1_administration_date_16",
+      "column_num": "507"
+    },
+    {
+      "start_pos": "1671",
+      "end_pos": "1671",
+      "column_header": "eoc_cumulative_history_english_1_test_version_14",
+      "column_num": "508"
+    },
+    {
+      "start_pos": "1677",
+      "end_pos": "1680",
+      "column_header": "staar_grades_3_8_2025_grades_3_8_current_accountability_year_administration_date",
+      "column_num": "509"
+    },
+    {
+      "start_pos": "1681",
+      "end_pos": "1681",
+      "column_header": "staar_grades_3_8_2025_grades_3_8_current_accountability_year_record_update_indicator",
+      "column_num": "510"
+    },
+    {
+      "start_pos": "1692",
+      "end_pos": "1700",
+      "column_header": "staar_grades_3_8_reading_county_district_campus_number",
+      "column_num": "511"
+    },
+    {
+      "start_pos": "1701",
+      "end_pos": "1702",
+      "column_header": "staar_grades_3_8_reading_tested_grade",
+      "column_num": "512"
+    },
+    {
+      "start_pos": "1703",
+      "end_pos": "1703",
+      "column_header": "staar_grades_3_8_reading_test_version",
+      "column_num": "513"
+    },
+    {
+      "start_pos": "1704",
+      "end_pos": "1704",
+      "column_header": "staar_grades_3_8_reading_language",
+      "column_num": "514"
+    },
+    {
+      "start_pos": "1705",
+      "end_pos": "1705",
+      "column_header": "staar_grades_3_8_reading_score_code",
+      "column_num": "515"
+    },
+    {
+      "start_pos": "1706",
+      "end_pos": "1706",
+      "column_header": "staar_grades_3_8_reading_score_code_default",
+      "column_num": "516"
+    },
+    {
+      "start_pos": "1707",
+      "end_pos": "1707",
+      "column_header": "staar_grades_3_8_reading_test_administration_indicator",
+      "column_num": "517"
+    },
+    {
+      "start_pos": "1708",
+      "end_pos": "1711",
+      "column_header": "staar_grades_3_8_reading_scale_score",
+      "column_num": "518"
+    },
+    {
+      "start_pos": "1713",
+      "end_pos": "1713",
+      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "519"
+    },
+    {
+      "start_pos": "1714",
+      "end_pos": "1714",
+      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "520"
+    },
+    {
+      "start_pos": "1715",
+      "end_pos": "1716",
+      "column_header": "staar_grades_3_8_reading_enrolled_grade",
+      "column_num": "521"
+    },
+    {
+      "start_pos": "1717",
+      "end_pos": "1717",
+      "column_header": "staar_grades_3_8_reading_above_grade",
+      "column_num": "522"
+    },
+    {
+      "start_pos": "1718",
+      "end_pos": "1719",
+      "column_header": "staar_grades_3_8_reading_raw_score",
+      "column_num": "523"
+    },
+    {
+      "start_pos": "1720",
+      "end_pos": "1720",
+      "column_header": "staar_grades_3_8_reading_staar_progress_measure",
+      "column_num": "524"
+    },
+    {
+      "start_pos": "1721",
+      "end_pos": "1721",
+      "column_header": "staar_grades_3_8_reading_el_performance_measure",
+      "column_num": "525"
+    },
+    {
+      "start_pos": "1722",
+      "end_pos": "1722",
+      "column_header": "staar_grades_3_8_reading_accommodations_used",
+      "column_num": "526"
+    },
+    {
+      "start_pos": "1723",
+      "end_pos": "1724",
+      "column_header": "staar_grades_3_8_reading_performance_level_indicator",
+      "column_num": "527"
+    },
+    {
+      "start_pos": "1735",
+      "end_pos": "1743",
+      "column_header": "staar_grades_3_8_mathematics_county_district_campus_number",
+      "column_num": "528"
+    },
+    {
+      "start_pos": "1744",
+      "end_pos": "1745",
+      "column_header": "staar_grades_3_8_mathematics_tested_grade",
+      "column_num": "529"
+    },
+    {
+      "start_pos": "1746",
+      "end_pos": "1746",
+      "column_header": "staar_grades_3_8_mathematics_test_version",
+      "column_num": "530"
+    },
+    {
+      "start_pos": "1747",
+      "end_pos": "1747",
+      "column_header": "staar_grades_3_8_mathematics_language",
+      "column_num": "531"
+    },
+    {
+      "start_pos": "1748",
+      "end_pos": "1748",
+      "column_header": "staar_grades_3_8_mathematics_score_code",
+      "column_num": "532"
+    },
+    {
+      "start_pos": "1749",
+      "end_pos": "1749",
+      "column_header": "staar_grades_3_8_mathematics_score_code_default",
+      "column_num": "533"
+    },
+    {
+      "start_pos": "1750",
+      "end_pos": "1750",
+      "column_header": "staar_grades_3_8_mathematics_test_administration_indicator",
+      "column_num": "534"
+    },
+    {
+      "start_pos": "1751",
+      "end_pos": "1754",
+      "column_header": "staar_grades_3_8_mathematics_scale_score",
+      "column_num": "535"
+    },
+    {
+      "start_pos": "1756",
+      "end_pos": "1756",
+      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "536"
+    },
+    {
+      "start_pos": "1757",
+      "end_pos": "1757",
+      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "537"
+    },
+    {
+      "start_pos": "1758",
+      "end_pos": "1759",
+      "column_header": "staar_grades_3_8_mathematics_enrolled_grade",
+      "column_num": "538"
+    },
+    {
+      "start_pos": "1760",
+      "end_pos": "1760",
+      "column_header": "staar_grades_3_8_mathematics_above_grade",
+      "column_num": "539"
+    },
+    {
+      "start_pos": "1761",
+      "end_pos": "1762",
+      "column_header": "staar_grades_3_8_mathematics_raw_score",
+      "column_num": "540"
+    },
+    {
+      "start_pos": "1763",
+      "end_pos": "1763",
+      "column_header": "staar_grades_3_8_mathematics_staar_progress_measure",
+      "column_num": "541"
+    },
+    {
+      "start_pos": "1764",
+      "end_pos": "1764",
+      "column_header": "staar_grades_3_8_mathematics_el_performance_measure",
+      "column_num": "542"
+    },
+    {
+      "start_pos": "1765",
+      "end_pos": "1765",
+      "column_header": "staar_grades_3_8_mathematics_accommodations_used",
+      "column_num": "543"
+    },
+    {
+      "start_pos": "1766",
+      "end_pos": "1767",
+      "column_header": "staar_grades_3_8_mathematics_performance_level_indicator",
+      "column_num": "544"
+    },
+    {
+      "start_pos": "1768",
+      "end_pos": "1768",
+      "column_header": "staar_grades_3_8_mathematics_mathematics_badge_indicator",
+      "column_num": "545"
+    },
+    {
+      "start_pos": "1779",
+      "end_pos": "1787",
+      "column_header": "staar_grades_3_8_social_studies_county_district_campus_number",
+      "column_num": "546"
+    },
+    {
+      "start_pos": "1788",
+      "end_pos": "1789",
+      "column_header": "staar_grades_3_8_social_studies_tested_grade",
+      "column_num": "547"
+    },
+    {
+      "start_pos": "1790",
+      "end_pos": "1790",
+      "column_header": "staar_grades_3_8_social_studies_test_version",
+      "column_num": "548"
+    },
+    {
+      "start_pos": "1791",
+      "end_pos": "1791",
+      "column_header": "staar_grades_3_8_social_studies_language",
+      "column_num": "549"
+    },
+    {
+      "start_pos": "1792",
+      "end_pos": "1792",
+      "column_header": "staar_grades_3_8_social_studies_score_code",
+      "column_num": "550"
+    },
+    {
+      "start_pos": "1793",
+      "end_pos": "1793",
+      "column_header": "staar_grades_3_8_social_studies_score_code_default",
+      "column_num": "551"
+    },
+    {
+      "start_pos": "1794",
+      "end_pos": "1794",
+      "column_header": "staar_grades_3_8_social_studies_test_administration_indicator",
+      "column_num": "552"
+    },
+    {
+      "start_pos": "1795",
+      "end_pos": "1798",
+      "column_header": "staar_grades_3_8_social_studies_scale_score",
+      "column_num": "553"
+    },
+    {
+      "start_pos": "1800",
+      "end_pos": "1800",
+      "column_header": "staar_grades_3_8_social_studies_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "554"
+    },
+    {
+      "start_pos": "1801",
+      "end_pos": "1801",
+      "column_header": "staar_grades_3_8_social_studies_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "555"
+    },
+    {
+      "start_pos": "1802",
+      "end_pos": "1803",
+      "column_header": "staar_grades_3_8_social_studies_enrolled_grade",
+      "column_num": "556"
+    },
+    {
+      "start_pos": "1804",
+      "end_pos": "1804",
+      "column_header": "staar_grades_3_8_social_studies_above_grade",
+      "column_num": "557"
+    },
+    {
+      "start_pos": "1805",
+      "end_pos": "1805",
+      "column_header": "staar_grades_3_8_social_studies_el_performance_measure",
+      "column_num": "558"
+    },
+    {
+      "start_pos": "1806",
+      "end_pos": "1806",
+      "column_header": "staar_grades_3_8_social_studies_accommodations_used",
+      "column_num": "559"
+    },
+    {
+      "start_pos": "1807",
+      "end_pos": "1808",
+      "column_header": "staar_grades_3_8_social_studies_performance_level_indicator",
+      "column_num": "560"
+    },
+    {
+      "start_pos": "1817",
+      "end_pos": "1825",
+      "column_header": "staar_grades_3_8_science_county_district_campus_number",
+      "column_num": "561"
+    },
+    {
+      "start_pos": "1826",
+      "end_pos": "1827",
+      "column_header": "staar_grades_3_8_science_tested_grade",
+      "column_num": "562"
+    },
+    {
+      "start_pos": "1828",
+      "end_pos": "1828",
+      "column_header": "staar_grades_3_8_science_test_version",
+      "column_num": "563"
+    },
+    {
+      "start_pos": "1829",
+      "end_pos": "1829",
+      "column_header": "staar_grades_3_8_science_language",
+      "column_num": "564"
+    },
+    {
+      "start_pos": "1830",
+      "end_pos": "1830",
+      "column_header": "staar_grades_3_8_science_score_code",
+      "column_num": "565"
+    },
+    {
+      "start_pos": "1831",
+      "end_pos": "1831",
+      "column_header": "staar_grades_3_8_science_score_code_default",
+      "column_num": "566"
+    },
+    {
+      "start_pos": "1832",
+      "end_pos": "1832",
+      "column_header": "staar_grades_3_8_science_test_administration_indicator",
+      "column_num": "567"
+    },
+    {
+      "start_pos": "1833",
+      "end_pos": "1836",
+      "column_header": "staar_grades_3_8_science_scale_score",
+      "column_num": "568"
+    },
+    {
+      "start_pos": "1838",
+      "end_pos": "1838",
+      "column_header": "staar_grades_3_8_science_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_num": "569"
+    },
+    {
+      "start_pos": "1839",
+      "end_pos": "1839",
+      "column_header": "staar_grades_3_8_science_masters_grade_level_or_accomplished_academic_performance",
+      "column_num": "570"
+    },
+    {
+      "start_pos": "1840",
+      "end_pos": "1841",
+      "column_header": "staar_grades_3_8_science_enrolled_grade",
+      "column_num": "571"
+    },
+    {
+      "start_pos": "1842",
+      "end_pos": "1842",
+      "column_header": "staar_grades_3_8_science_above_grade",
+      "column_num": "572"
+    },
+    {
+      "start_pos": "1843",
+      "end_pos": "1843",
+      "column_header": "staar_grades_3_8_science_el_performance_measure",
+      "column_num": "573"
+    },
+    {
+      "start_pos": "1844",
+      "end_pos": "1844",
+      "column_header": "staar_grades_3_8_science_accommodations_used",
+      "column_num": "574"
+    },
+    {
+      "start_pos": "1845",
+      "end_pos": "1846",
+      "column_header": "staar_grades_3_8_science_performance_level_indicator",
+      "column_num": "575"
+    },
+    {
+      "start_pos": "1855",
+      "end_pos": "1858",
+      "column_header": "staar_grades_3_8_2024_grades_3_8_previous_accountability_year_administration_date",
+      "column_num": "576"
+    },
+    {
+      "start_pos": "1869",
+      "end_pos": "1877",
+      "column_header": "staar_grades_3_8_reading_county_district_campus_number_2",
+      "column_num": "577"
+    },
+    {
+      "start_pos": "1878",
+      "end_pos": "1879",
+      "column_header": "staar_grades_3_8_reading_enrolled_grade_2",
+      "column_num": "578"
+    },
+    {
+      "start_pos": "1880",
+      "end_pos": "1881",
+      "column_header": "staar_grades_3_8_reading_tested_grade_2",
+      "column_num": "579"
+    },
+    {
+      "start_pos": "1882",
+      "end_pos": "1882",
+      "column_header": "staar_grades_3_8_reading_test_version_2",
+      "column_num": "580"
+    },
+    {
+      "start_pos": "1883",
+      "end_pos": "1883",
+      "column_header": "staar_grades_3_8_reading_language_2",
+      "column_num": "581"
+    },
+    {
+      "start_pos": "1884",
+      "end_pos": "1884",
+      "column_header": "staar_grades_3_8_reading_score_code_2",
+      "column_num": "582"
+    },
+    {
+      "start_pos": "1885",
+      "end_pos": "1888",
+      "column_header": "staar_grades_3_8_reading_scale_score_2",
+      "column_num": "583"
+    },
+    {
+      "start_pos": "1890",
+      "end_pos": "1890",
+      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "584"
+    },
+    {
+      "start_pos": "1891",
+      "end_pos": "1891",
+      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "585"
+    },
+    {
+      "start_pos": "1892",
+      "end_pos": "1893",
+      "column_header": "staar_grades_3_8_reading_performance_level_indicator_2",
+      "column_num": "586"
+    },
+    {
+      "start_pos": "1894",
+      "end_pos": "1895",
+      "column_header": "staar_grades_3_8_reading_raw_score_2",
+      "column_num": "587"
+    },
+    {
+      "start_pos": "1896",
+      "end_pos": "1896",
+      "column_header": "staar_grades_3_8_reading_staar_progress_measure_2",
+      "column_num": "588"
+    },
+    {
+      "start_pos": "1899",
+      "end_pos": "1907",
+      "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_2",
+      "column_num": "589"
+    },
+    {
+      "start_pos": "1908",
+      "end_pos": "1909",
+      "column_header": "staar_grades_3_8_mathematics_enrolled_grade_2",
+      "column_num": "590"
+    },
+    {
+      "start_pos": "1910",
+      "end_pos": "1911",
+      "column_header": "staar_grades_3_8_mathematics_tested_grade_2",
+      "column_num": "591"
+    },
+    {
+      "start_pos": "1912",
+      "end_pos": "1912",
+      "column_header": "staar_grades_3_8_mathematics_test_version_2",
+      "column_num": "592"
+    },
+    {
+      "start_pos": "1913",
+      "end_pos": "1913",
+      "column_header": "staar_grades_3_8_mathematics_language_2",
+      "column_num": "593"
+    },
+    {
+      "start_pos": "1914",
+      "end_pos": "1914",
+      "column_header": "staar_grades_3_8_mathematics_score_code_2",
+      "column_num": "594"
+    },
+    {
+      "start_pos": "1915",
+      "end_pos": "1918",
+      "column_header": "staar_grades_3_8_mathematics_scale_score_2",
+      "column_num": "595"
+    },
+    {
+      "start_pos": "1920",
+      "end_pos": "1920",
+      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_num": "596"
+    },
+    {
+      "start_pos": "1921",
+      "end_pos": "1921",
+      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_num": "597"
+    },
+    {
+      "start_pos": "1922",
+      "end_pos": "1923",
+      "column_header": "staar_grades_3_8_mathematics_performance_level_indicator_2",
+      "column_num": "598"
+    },
+    {
+      "start_pos": "1924",
+      "end_pos": "1925",
+      "column_header": "staar_grades_3_8_mathematics_raw_score_2",
+      "column_num": "599"
+    },
+    {
+      "start_pos": "1926",
+      "end_pos": "1926",
+      "column_header": "staar_grades_3_8_mathematics_staar_progress_measure_2",
+      "column_num": "600"
+    },
+    {
+      "start_pos": "1929",
+      "end_pos": "1932",
+      "column_header": "staar_grades_3_8_mathematics_administration_date",
+      "column_num": "601"
+    },
+    {
+      "start_pos": "1943",
+      "end_pos": "1951",
+      "column_header": "staar_grades_3_8_reading_county_district_campus_number_3",
+      "column_num": "602"
+    },
+    {
+      "start_pos": "1952",
+      "end_pos": "1953",
+      "column_header": "staar_grades_3_8_reading_enrolled_grade_3",
+      "column_num": "603"
+    },
+    {
+      "start_pos": "1954",
+      "end_pos": "1955",
+      "column_header": "staar_grades_3_8_reading_tested_grade_3",
+      "column_num": "604"
+    },
+    {
+      "start_pos": "1956",
+      "end_pos": "1956",
+      "column_header": "staar_grades_3_8_reading_test_version_3",
+      "column_num": "605"
+    },
+    {
+      "start_pos": "1957",
+      "end_pos": "1957",
+      "column_header": "staar_grades_3_8_reading_language_3",
+      "column_num": "606"
+    },
+    {
+      "start_pos": "1958",
+      "end_pos": "1958",
+      "column_header": "staar_grades_3_8_reading_score_code_3",
+      "column_num": "607"
+    },
+    {
+      "start_pos": "1959",
+      "end_pos": "1962",
+      "column_header": "staar_grades_3_8_reading_scale_score_3",
+      "column_num": "608"
+    },
+    {
+      "start_pos": "1964",
+      "end_pos": "1964",
+      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_num": "609"
+    },
+    {
+      "start_pos": "1965",
+      "end_pos": "1965",
+      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_num": "610"
+    },
+    {
+      "start_pos": "1971",
+      "end_pos": "1979",
+      "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_3",
+      "column_num": "611"
+    },
+    {
+      "start_pos": "1980",
+      "end_pos": "1981",
+      "column_header": "staar_grades_3_8_mathematics_enrolled_grade_3",
+      "column_num": "612"
+    },
+    {
+      "start_pos": "1982",
+      "end_pos": "1983",
+      "column_header": "staar_grades_3_8_mathematics_tested_grade_3",
+      "column_num": "613"
+    },
+    {
+      "start_pos": "1984",
+      "end_pos": "1984",
+      "column_header": "staar_grades_3_8_mathematics_test_version_3",
+      "column_num": "614"
+    },
+    {
+      "start_pos": "1985",
+      "end_pos": "1985",
+      "column_header": "staar_grades_3_8_mathematics_language_3",
+      "column_num": "615"
+    },
+    {
+      "start_pos": "1986",
+      "end_pos": "1986",
+      "column_header": "staar_grades_3_8_mathematics_score_code_3",
+      "column_num": "616"
+    },
+    {
+      "start_pos": "1987",
+      "end_pos": "1990",
+      "column_header": "staar_grades_3_8_mathematics_scale_score_3",
+      "column_num": "617"
+    },
+    {
+      "start_pos": "1992",
+      "end_pos": "1992",
+      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_num": "618"
+    },
+    {
+      "start_pos": "1993",
+      "end_pos": "1993",
+      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_num": "619"
+    },
+    {
+      "start_pos": "1999",
+      "end_pos": "2002",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_administration_date",
+      "column_num": "620"
+    },
+    {
+      "start_pos": "2003",
+      "end_pos": "2003",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_record_update_indicator",
+      "column_num": "621"
+    },
+    {
+      "start_pos": "2004",
+      "end_pos": "2004",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_unschooled_asylee_or_refugee",
+      "column_num": "622"
+    },
+    {
+      "start_pos": "2005",
+      "end_pos": "2005",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_students_with_interrupted_formal_education",
+      "column_num": "623"
+    },
+    {
+      "start_pos": "2006",
+      "end_pos": "2006",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_years_in_us_schools",
+      "column_num": "624"
+    },
+    {
+      "start_pos": "2007",
+      "end_pos": "2007",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_parental_denial",
+      "column_num": "625"
+    },
+    {
+      "start_pos": "2008",
+      "end_pos": "2008",
+      "column_header": "telpas_telpas_alt_2025_current_accountability_year_test_version",
+      "column_num": "626"
+    },
+    {
+      "start_pos": "2019",
+      "end_pos": "2019",
+      "column_header": "telpas_telpas_alt_reading_score_code",
+      "column_num": "627"
+    },
+    {
+      "start_pos": "2020",
+      "end_pos": "2020",
+      "column_header": "telpas_telpas_alt_reading_proficiency_level",
+      "column_num": "628"
+    },
+    {
+      "start_pos": "2021",
+      "end_pos": "2022",
+      "column_header": "telpas_telpas_alt_reading_grade",
+      "column_num": "629"
+    },
+    {
+      "start_pos": "2023",
+      "end_pos": "2026",
+      "column_header": "telpas_telpas_alt_reading_scale_score",
+      "column_num": "630"
+    },
+    {
+      "start_pos": "2027",
+      "end_pos": "2028",
+      "column_header": "telpas_telpas_alt_reading_tested_grade",
+      "column_num": "631"
+    },
+    {
+      "start_pos": "2037",
+      "end_pos": "2037",
+      "column_header": "telpas_telpas_alt_writing_score_code",
+      "column_num": "632"
+    },
+    {
+      "start_pos": "2038",
+      "end_pos": "2038",
+      "column_header": "telpas_telpas_alt_writing_proficiency_level",
+      "column_num": "633"
+    },
+    {
+      "start_pos": "2039",
+      "end_pos": "2040",
+      "column_header": "telpas_telpas_alt_writing_grade",
+      "column_num": "634"
+    },
+    {
+      "start_pos": "2041",
+      "end_pos": "2044",
+      "column_header": "telpas_telpas_alt_writing_scale_score",
+      "column_num": "635"
+    },
+    {
+      "start_pos": "2045",
+      "end_pos": "2046",
+      "column_header": "telpas_telpas_alt_writing_tested_grade",
+      "column_num": "636"
+    },
+    {
+      "start_pos": "2055",
+      "end_pos": "2055",
+      "column_header": "telpas_telpas_alt_listening_score_code",
+      "column_num": "637"
+    },
+    {
+      "start_pos": "2056",
+      "end_pos": "2056",
+      "column_header": "telpas_telpas_alt_listening_proficiency_level",
+      "column_num": "638"
+    },
+    {
+      "start_pos": "2057",
+      "end_pos": "2058",
+      "column_header": "telpas_telpas_alt_listening_grade",
+      "column_num": "639"
+    },
+    {
+      "start_pos": "2059",
+      "end_pos": "2062",
+      "column_header": "telpas_telpas_alt_listening_scale_score",
+      "column_num": "640"
+    },
+    {
+      "start_pos": "2063",
+      "end_pos": "2064",
+      "column_header": "telpas_telpas_alt_listening_tested_grade",
+      "column_num": "641"
+    },
+    {
+      "start_pos": "2073",
+      "end_pos": "2073",
+      "column_header": "telpas_telpas_alt_speaking_score_code",
+      "column_num": "642"
+    },
+    {
+      "start_pos": "2074",
+      "end_pos": "2074",
+      "column_header": "telpas_telpas_alt_speaking_proficiency_level",
+      "column_num": "643"
+    },
+    {
+      "start_pos": "2075",
+      "end_pos": "2076",
+      "column_header": "telpas_telpas_alt_speaking_grade",
+      "column_num": "644"
+    },
+    {
+      "start_pos": "2077",
+      "end_pos": "2080",
+      "column_header": "telpas_telpas_alt_speaking_scale_score",
+      "column_num": "645"
+    },
+    {
+      "start_pos": "2081",
+      "end_pos": "2082",
+      "column_header": "telpas_telpas_alt_speaking_tested_grade",
+      "column_num": "646"
+    },
+    {
+      "start_pos": "2091",
+      "end_pos": "2093",
+      "column_header": "telpas_telpas_alt_composite_information_composite_score",
+      "column_num": "647"
+    },
+    {
+      "start_pos": "2094",
+      "end_pos": "2094",
+      "column_header": "telpas_telpas_alt_composite_information_composite_rating",
+      "column_num": "648"
+    },
+    {
+      "start_pos": "2095",
+      "end_pos": "2103",
+      "column_header": "telpas_telpas_alt_composite_information_county_district_campus_number",
+      "column_num": "649"
+    },
+    {
+      "start_pos": "2114",
+      "end_pos": "2117",
+      "column_header": "telpas_telpas_alt_2024_previous_accountability_year_administration_date",
+      "column_num": "650"
+    },
+    {
+      "start_pos": "2118",
+      "end_pos": "2118",
+      "column_header": "telpas_telpas_alt_2024_previous_accountability_year_test_version",
+      "column_num": "651"
+    },
+    {
+      "start_pos": "2129",
+      "end_pos": "2129",
+      "column_header": "telpas_telpas_alt_reading_score_code_2",
+      "column_num": "652"
+    },
+    {
+      "start_pos": "2130",
+      "end_pos": "2130",
+      "column_header": "telpas_telpas_alt_reading_proficiency_level_2",
+      "column_num": "653"
+    },
+    {
+      "start_pos": "2131",
+      "end_pos": "2132",
+      "column_header": "telpas_telpas_alt_reading_grade_2",
+      "column_num": "654"
+    },
+    {
+      "start_pos": "2133",
+      "end_pos": "2136",
+      "column_header": "telpas_telpas_alt_reading_scale_score_2",
+      "column_num": "655"
+    },
+    {
+      "start_pos": "2137",
+      "end_pos": "2138",
+      "column_header": "telpas_telpas_alt_reading_tested_grade_2",
+      "column_num": "656"
+    },
+    {
+      "start_pos": "2142",
+      "end_pos": "2142",
+      "column_header": "telpas_telpas_alt_writing_score_code_2",
+      "column_num": "657"
+    },
+    {
+      "start_pos": "2143",
+      "end_pos": "2143",
+      "column_header": "telpas_telpas_alt_writing_proficiency_level_2",
+      "column_num": "658"
+    },
+    {
+      "start_pos": "2144",
+      "end_pos": "2145",
+      "column_header": "telpas_telpas_alt_writing_grade_2",
+      "column_num": "659"
+    },
+    {
+      "start_pos": "2146",
+      "end_pos": "2149",
+      "column_header": "telpas_telpas_alt_writing_scale_score_2",
+      "column_num": "660"
+    },
+    {
+      "start_pos": "2150",
+      "end_pos": "2151",
+      "column_header": "telpas_telpas_alt_writing_tested_grade_2",
+      "column_num": "661"
+    },
+    {
+      "start_pos": "2155",
+      "end_pos": "2155",
+      "column_header": "telpas_telpas_alt_listening_score_code_2",
+      "column_num": "662"
+    },
+    {
+      "start_pos": "2156",
+      "end_pos": "2156",
+      "column_header": "telpas_telpas_alt_listening_proficiency_level_2",
+      "column_num": "663"
+    },
+    {
+      "start_pos": "2157",
+      "end_pos": "2158",
+      "column_header": "telpas_telpas_alt_listening_grade_2",
+      "column_num": "664"
+    },
+    {
+      "start_pos": "2159",
+      "end_pos": "2162",
+      "column_header": "telpas_telpas_alt_listening_scale_score_2",
+      "column_num": "665"
+    },
+    {
+      "start_pos": "2163",
+      "end_pos": "2164",
+      "column_header": "telpas_telpas_alt_listening_tested_grade_2",
+      "column_num": "666"
+    },
+    {
+      "start_pos": "2168",
+      "end_pos": "2168",
+      "column_header": "telpas_telpas_alt_speaking_score_code_2",
+      "column_num": "667"
+    },
+    {
+      "start_pos": "2169",
+      "end_pos": "2169",
+      "column_header": "telpas_telpas_alt_speaking_proficiency_level_2",
+      "column_num": "668"
+    },
+    {
+      "start_pos": "2170",
+      "end_pos": "2171",
+      "column_header": "telpas_telpas_alt_speaking_grade_2",
+      "column_num": "669"
+    },
+    {
+      "start_pos": "2172",
+      "end_pos": "2175",
+      "column_header": "telpas_telpas_alt_speaking_scale_score_2",
+      "column_num": "670"
+    },
+    {
+      "start_pos": "2176",
+      "end_pos": "2177",
+      "column_header": "telpas_telpas_alt_speaking_tested_grade_2",
+      "column_num": "671"
+    },
+    {
+      "start_pos": "2181",
+      "end_pos": "2183",
+      "column_header": "telpas_telpas_alt_composite_information_composite_score_2",
+      "column_num": "672"
+    },
+    {
+      "start_pos": "2184",
+      "end_pos": "2184",
+      "column_header": "telpas_telpas_alt_composite_information_composite_rating_2",
+      "column_num": "673"
+    },
+    {
+      "start_pos": "2185",
+      "end_pos": "2193",
+      "column_header": "telpas_telpas_alt_composite_information_county_district_campus_number_2",
+      "column_num": "674"
+    },
+    {
+      "start_pos": "2194",
+      "end_pos": "2194",
+      "column_header": "english_learner_performance_measure_plan_el_performance_measure_plan_non_english_1_or_2",
+      "column_num": "675"
+    },
+    {
+      "start_pos": "2195",
+      "end_pos": "2195",
+      "column_header": "english_learner_performance_measure_plan_el_performance_measure_plan_english_i_or_ii",
+      "column_num": "676"
+    },
+    {
+      "start_pos": "2196",
+      "end_pos": "2199",
+      "column_header": "english_learner_performance_measure_plan_year_elpm_plan_determined",
+      "column_num": "677"
+    },
+    {
+      "start_pos": "2200",
+      "end_pos": "2200",
+      "column_header": "english_learner_performance_measure_plan_plan_year_telpas_composite_rating",
+      "column_num": "678"
+    },
+    {
+      "start_pos": "2206",
+      "end_pos": "2206",
+      "column_header": "english_learner_performance_measure_plan_period",
+      "column_num": "679"
+    }
+  ]
+}

@@ -14,6 +14,7 @@ The current structure is:
 - `staar/eoc/` for STAAR End-of-Course mapping files
 - `staar/alt2_3_8/` for STAAR Alternate 2 grades 3-8 mapping files
 - `staar/alt2_eoc/` for STAAR Alternate 2 End-of-Course mapping files
+- `staar/consolidated_accountability/` for STAAR consolidated accountability mapping files
 - `staar/interim/` for STAAR Interim mapping files
 
 Each subdirectory contains its own:
@@ -40,6 +41,7 @@ Use these rules when deciding where a file belongs:
 - STAAR EOC files belong in `staar/eoc/`
 - STAAR Alternate 2 grades 3-8 files belong in `staar/alt2_3_8/`
 - STAAR Alternate 2 EOC files belong in `staar/alt2_eoc/`
+- STAAR consolidated accountability files belong in `staar/consolidated_accountability/`
 - STAAR Interim files belong in `staar/interim/`
 
 Do not mix EOC and Alt 2 EOC mapping files in the same folder.
@@ -52,6 +54,7 @@ Keep the existing per-folder file naming conventions:
 - `staar/eoc/`: `YYYY-staar-eoc-fixed-width-mapping.json`
 - `staar/alt2_3_8/`: `YYYY-staar-alt2-3-8-fixed-width-mapping.json`
 - `staar/alt2_eoc/`: `YYYY-staar-alt2-eoc-fixed-width-mapping.json`
+- `staar/consolidated_accountability/`: `YYYY-staar-consolidated-accountability-fixed-width-mapping.json`
 - `staar/interim/`: `YYYY-staar-interim-fixed-width-mapping.json`
 
 ## Maintenance Principles
