@@ -8,6 +8,20 @@ The TEA and Texas Assessments PDF archive is stored under:
 
 - [tea-data-file-formats-archive](./tea-data-file-formats-archive/)
 
+## Standards
+
+Shared human-readable standards live under:
+
+- [standards](./standards/)
+
+## Additional Documentation Areas
+
+The docs folder also includes:
+
+- [overview](./overview/)
+- [roadmap](./roadmap/)
+- [adr](./adr/)
+
 ## Archive Rules
 
 PDFs in the TEA archive are organized into year-based subfolders to mirror the way the source documents are grouped online.

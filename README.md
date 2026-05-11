@@ -18,6 +18,12 @@ The mappings are built from official TEA and Texas Assessments PDF layouts and n
   CRS Custom data file mappings
 - [docs](./docs/)  
   Local project documentation and reference materials, including the TEA data file format archive
+- [services](./services/)  
+  Reserved for future application or runtime services
+- [packages](./packages/)  
+  Reserved for future shared libraries, schemas, and reusable tooling
+- [infra](./infra/)  
+  Shared infrastructure and environment-oriented repository artifacts
 
 ## Mapping File Shape
 
@@ -104,6 +110,13 @@ Examples:
 
 The local archive is for reference and maintenance. The official TEA URL for each mapping should remain in that file's `metadata.pdf_url`.
 
+The docs area also includes human-readable working standards under:
+
+- [docs/standards](./docs/standards/)
+- [docs/overview](./docs/overview/)
+- [docs/roadmap](./docs/roadmap/)
+- [docs/adr](./docs/adr/)
+
 ## Working In This Repo
 
 When adding or updating mappings:
@@ -114,3 +127,28 @@ When adding or updating mappings:
 4. Validate that the JSON parses cleanly and that `column_header` values remain unique.
 
 Most families include their own `README.md` files with family-specific exceptions, year gaps, and naming notes.
+
+## Validation And Tooling
+
+Repository-level checks live under [scripts](./scripts/), with shared config in [configs](./configs/) and GitHub automation in [.github](./.github/).
+
+Run the baseline checks locally with:
+
+```powershell
+python scripts/validate_repo.py
+```
+
+The current baseline validates:
+
+- mapping JSON structure and duplicate `column_header` values
+- metadata and filename consistency
+- documentation for machine-specific absolute paths
+
+## Platform-Ready Structure
+
+The repository is still mapping-first, but a few top-level areas are reserved so
+future application work can land cleanly:
+
+- [services](./services/)
+- [packages](./packages/)
+- [infra](./infra/)

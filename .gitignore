@@ -115,6 +115,7 @@ docker-cache/
 # ======================================================================
 notes/
 *.local.md
+tmp_*.txt
 
 # pnpm store
 .pnpm-store/

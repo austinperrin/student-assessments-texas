@@ -4,8 +4,18 @@ This folder holds local reference material used to support the mapping files in 
 
 ## Current Sections
 
+- [Overview](./overview/)
+  Repository purpose, current scope, and long-term direction.
+- [Roadmap](./roadmap/)
+  Milestone-level view of repository growth and scaffolding priorities.
+- [Standards](./standards/)
+  Human-readable repository standards for coding, commits, scripts, and ADR usage.
+- [ADRs](./adr/)
+  Architecture Decision Records for durable repository and platform decisions.
 - [TEA Data File Formats Archive](./tea-data-file-formats-archive/)
   Year-based local archive of TEA and Texas Assessments PDF layouts used to curate the JSON mappings.
+- [GitHub Workflow Overview](../.github/overview.md)
+  Repository workflow automation and contribution-template overview.
 
 ## Archive Layout
 

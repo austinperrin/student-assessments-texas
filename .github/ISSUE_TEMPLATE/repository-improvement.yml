@@ -1,0 +1,40 @@
+name: Repository improvement
+description: Track standards, tooling, docs, workflow, or scaffold improvements.
+title: "[repo] "
+labels:
+  - repository
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - docs
+        - standards
+        - scripts
+        - github
+        - configs
+        - infra
+        - structure
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What needs to improve or what should be established early?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+      description: Describe the approach or desired outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include references, related files, or migration concerns.

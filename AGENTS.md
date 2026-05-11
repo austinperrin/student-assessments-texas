@@ -33,7 +33,7 @@ Use the family-specific `AGENTS.md` files inside those folders for family-level 
 ## Documentation Link Rules
 
 - use repo-relative links in repository documentation
-- do not write machine-specific absolute paths such as `C:/Users/...` into `README.md`, `AGENTS.md`, or other tracked docs
+- do not write machine-specific absolute paths into `README.md`, `AGENTS.md`, or other tracked docs
 - keep documentation portable across users, machines, and environments
 
 ## Shared Mapping Rules
@@ -77,3 +77,21 @@ After editing or adding mappings:
 2. confirm `column_header` values are unique
 3. confirm the file still reflects the current year's PDF rather than a neighboring year
 4. keep folder-specific `README.md` and `AGENTS.md` guidance aligned when the local doc layout changes
+5. run the repository validation scripts when the change touches shared docs, structure, or multiple mapping files
+
+## Repository Tooling
+
+- shared validation scripts live under `scripts/`
+- shared config and schema reference files live under `configs/`
+- GitHub automation lives under `.github/`
+- `infra/` is reserved for future shared infrastructure artifacts if the repo grows beyond script and document workflows
+- `services/` is reserved for future application or runtime services
+- `packages/` is reserved for future shared libraries, schemas, or reusable tooling modules
+
+## Documentation System
+
+- `docs/overview/` explains repository intent and current scope
+- `docs/roadmap/` tracks milestone-level repository evolution
+- `docs/adr/` stores durable repository and platform decisions
+- `docs/standards/` holds human-facing working standards
+- `.github/overview.md` explains repository workflow automation and templates
