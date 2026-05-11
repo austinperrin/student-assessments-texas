@@ -12,13 +12,18 @@ For each file:
 
 ## File Naming
 
-Use:
+Use the ending school year:
 
 `YYYY-ttap-fixed-width-mapping.json`
 
 Example:
 
 `2025-ttap-fixed-width-mapping.json`
+
+Examples:
+
+- `2022-2023-ttap-data-file-layout.pdf` -> `2023-ttap-fixed-width-mapping.json`
+- `2023-2024-ttap-data-file-layout.pdf` -> `2024-ttap-fixed-width-mapping.json`
 
 ## Field Rules
 
