@@ -21,6 +21,11 @@ Example:
 
 `2026-staar-interim-fixed-width-mapping.json`
 
+## Routing Note
+
+Treat `2023-crs-layout-interim-boy.pdf` as interim-related source material if it is ever mapped.
+Do not route official `CRS Custom Data File Layout` / `CRS Data File Format` PDFs into this folder; those belong in the top-level `crs/` family.
+
 ## Required JSON Structure
 
 Each file contains:
