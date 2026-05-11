@@ -6,17 +6,17 @@ The mappings are built from official TEA and Texas Assessments PDF layouts and n
 
 ## Repository Structure
 
-- [staar](/C:/Users/austin.perrin/Dev/texas-assessments/staar)  
+- [staar](./staar/)  
   STAAR mapping families, including grades `3_8`, `eoc`, `alt2_3_8`, `alt2_eoc`, `interim`, and `consolidated_accountability`
-- [telpas](/C:/Users/austin.perrin/Dev/texas-assessments/telpas)  
+- [telpas](./telpas/)  
   TELPAS and TELPAS Alternate mapping families
-- [tfar](/C:/Users/austin.perrin/Dev/texas-assessments/tfar)  
+- [tfar](./tfar/)  
   TFAR mapping files
-- [ttap](/C:/Users/austin.perrin/Dev/texas-assessments/ttap)  
+- [ttap](./ttap/)  
   TTAP mapping files
-- [crs](/C:/Users/austin.perrin/Dev/texas-assessments/crs)  
+- [crs](./crs/)  
   CRS Custom data file mappings
-- [docs](/C:/Users/austin.perrin/Dev/texas-assessments/docs)  
+- [docs](./docs/)  
   Local project documentation and reference materials, including the TEA data file format archive
 
 ## Mapping File Shape
@@ -90,17 +90,17 @@ Notes:
 
 ## Local Reference Documents
 
-The [docs](/C:/Users/austin.perrin/Dev/texas-assessments/docs) folder is the home for local project documentation and reference materials.
+The [docs](./docs/) folder is the home for local project documentation and reference materials.
 
 The TEA and Texas Assessments PDF archive currently lives under:
 
-- [docs/tea-data-file-formats-archive](/C:/Users/austin.perrin/Dev/texas-assessments/docs/tea-data-file-formats-archive)
+- [docs/tea-data-file-formats-archive](./docs/tea-data-file-formats-archive/)
 
 Examples:
 
-- [docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf](/C:/Users/austin.perrin/Dev/texas-assessments/docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf:1)
-- [docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf](/C:/Users/austin.perrin/Dev/texas-assessments/docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf:1)
-- [docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf](/C:/Users/austin.perrin/Dev/texas-assessments/docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf:1)
+- [docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf](./docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf)
+- [docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf](./docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf)
+- [docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf](./docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf)
 
 The local archive is for reference and maintenance. The official TEA URL for each mapping should remain in that file's `metadata.pdf_url`.
 

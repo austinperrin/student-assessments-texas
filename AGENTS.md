@@ -30,6 +30,12 @@ Use the family-specific `AGENTS.md` files inside those folders for family-level 
 - do not infer field names from neighboring years when the current PDF is clear
 - do not create local `tmp_*.txt`, extracted plain-text PDF dumps, or similar scratch files in the repo when reviewing PDFs
 
+## Documentation Link Rules
+
+- use repo-relative links in repository documentation
+- do not write machine-specific absolute paths such as `C:/Users/...` into `README.md`, `AGENTS.md`, or other tracked docs
+- keep documentation portable across users, machines, and environments
+
 ## Shared Mapping Rules
 
 - preserve the repository-wide JSON shape of `metadata` plus `mapped_fields`

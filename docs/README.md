@@ -6,7 +6,7 @@ This folder stores local project documentation and reference material used to su
 
 The TEA and Texas Assessments PDF archive is stored under:
 
-- [tea-data-file-formats-archive](/C:/Users/austin.perrin/Dev/texas-assessments/docs/tea-data-file-formats-archive)
+- [tea-data-file-formats-archive](./tea-data-file-formats-archive/)
 
 ## Archive Rules
 
@@ -29,4 +29,4 @@ Examples:
 
 The source of truth for each mapping file's official document link should remain the `metadata.pdf_url` value stored in the JSON.
 
-See [index.md](/C:/Users/austin.perrin/Dev/texas-assessments/docs/index.md:1) for a lightweight directory of what lives in this folder.
+See [index.md](./index.md) for a lightweight directory of what lives in this folder.
