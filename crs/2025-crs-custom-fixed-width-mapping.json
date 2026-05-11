@@ -1,0 +1,331 @@
+{
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-11",
+      "file_name": "2025-crs-custom-fixed-width-mapping.json",
+      "school_year": "2024-2025",
+      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-2025-crs-data-file-format.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "8",
+      "column_header": "test_date",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "9",
+      "end_pos": "24",
+      "column_header": "assessment_type",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "25",
+      "end_pos": "144",
+      "column_header": "test_name",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "145",
+      "end_pos": "146",
+      "column_header": "student_enrolled_grade_code",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "147",
+      "end_pos": "148",
+      "column_header": "esc_region_number",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "149",
+      "end_pos": "157",
+      "column_header": "county_district_campus_number",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "158",
+      "end_pos": "172",
+      "column_header": "district_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "173",
+      "end_pos": "187",
+      "column_header": "campus_name",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "188",
+      "end_pos": "202",
+      "column_header": "last_name",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "203",
+      "end_pos": "212",
+      "column_header": "first_name",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "213",
+      "end_pos": "213",
+      "column_header": "middle_initial",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "214",
+      "end_pos": "222",
+      "column_header": "peims_id",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "223",
+      "end_pos": "223",
+      "column_header": "sex_code",
+      "column_num": "13"
+    },
+    {
+      "start_pos": "224",
+      "end_pos": "231",
+      "column_header": "date_of_birth",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "237",
+      "end_pos": "237",
+      "column_header": "hispanic_latino_code",
+      "column_num": "15"
+    },
+    {
+      "start_pos": "238",
+      "end_pos": "238",
+      "column_header": "american_indian_alaska_native_code",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "239",
+      "end_pos": "239",
+      "column_header": "asian_code",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "240",
+      "end_pos": "240",
+      "column_header": "black_african_american_code",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "241",
+      "end_pos": "241",
+      "column_header": "native_hawaiian_other_pacific_islander_code",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "242",
+      "end_pos": "242",
+      "column_header": "white_code",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "243",
+      "end_pos": "243",
+      "column_header": "ethnicity_race_reporting_category",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "244",
+      "end_pos": "244",
+      "column_header": "economic_disadvantage_code",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "245",
+      "end_pos": "245",
+      "column_header": "title_i_part_a_indicator_code",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "246",
+      "end_pos": "246",
+      "column_header": "migrant_indicator_code",
+      "column_num": "24"
+    },
+    {
+      "start_pos": "251",
+      "end_pos": "251",
+      "column_header": "emergent_bilingual_indicator_code",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "252",
+      "end_pos": "252",
+      "column_header": "bilingual_indicator_code",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "253",
+      "end_pos": "253",
+      "column_header": "esl_indicator_code",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "259",
+      "end_pos": "259",
+      "column_header": "special_ed_indicator_code",
+      "column_num": "28"
+    },
+    {
+      "start_pos": "260",
+      "end_pos": "260",
+      "column_header": "section_504_indicator_code",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "261",
+      "end_pos": "261",
+      "column_header": "gifted_and_talented_indicator_code",
+      "column_num": "30"
+    },
+    {
+      "start_pos": "262",
+      "end_pos": "262",
+      "column_header": "at_risk_indicator_code",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "263",
+      "end_pos": "263",
+      "column_header": "local_use_1",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "264",
+      "end_pos": "264",
+      "column_header": "local_use_2",
+      "column_num": "33"
+    },
+    {
+      "start_pos": "265",
+      "end_pos": "265",
+      "column_header": "local_use_3",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "266",
+      "end_pos": "266",
+      "column_header": "local_use_4",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "272",
+      "end_pos": "280",
+      "column_header": "local_student_id",
+      "column_num": "36"
+    },
+    {
+      "start_pos": "281",
+      "end_pos": "290",
+      "column_header": "tx_unique_student_id",
+      "column_num": "37"
+    },
+    {
+      "start_pos": "296",
+      "end_pos": "297",
+      "column_header": "reporting_category_1_raw_score",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "298",
+      "end_pos": "299",
+      "column_header": "reporting_category_2_raw_score",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "300",
+      "end_pos": "301",
+      "column_header": "reporting_category_3_raw_score",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "302",
+      "end_pos": "303",
+      "column_header": "reporting_category_4_raw_score",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "304",
+      "end_pos": "305",
+      "column_header": "reporting_category_5_raw_score",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "306",
+      "end_pos": "307",
+      "column_header": "reporting_category_6_raw_score",
+      "column_num": "43"
+    },
+    {
+      "start_pos": "310",
+      "end_pos": "311",
+      "column_header": "total_raw_score",
+      "column_num": "45"
+    },
+    {
+      "start_pos": "312",
+      "end_pos": "315",
+      "column_header": "scale_score",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "316",
+      "end_pos": "316",
+      "column_header": "overall_performance_level",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "317",
+      "end_pos": "346",
+      "column_header": "telpas_composite_rating",
+      "column_num": "48"
+    },
+    {
+      "start_pos": "347",
+      "end_pos": "376",
+      "column_header": "telpas_reading_proficiency_rating",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "377",
+      "end_pos": "406",
+      "column_header": "telpas_writing_proficiency_rating",
+      "column_num": "50"
+    },
+    {
+      "start_pos": "407",
+      "end_pos": "436",
+      "column_header": "telpas_speaking_proficiency_rating",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "437",
+      "end_pos": "466",
+      "column_header": "telpas_listening_proficiency_rating",
+      "column_num": "52"
+    },
+    {
+      "start_pos": "467",
+      "end_pos": "502",
+      "column_header": "opportunity_key",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "513",
+      "end_pos": "513",
+      "column_header": "period",
+      "column_num": "55"
+    }
+  ]
+}
