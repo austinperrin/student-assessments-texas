@@ -6,7 +6,7 @@ This folder contains year-specific fixed-width mapping files for STAAR Interim d
 
 For each file:
 
-- use the corresponding TEA PDF in `../../docs`
+- use the corresponding TEA PDF in the appropriate year-based subfolder under `../../docs`
 - keep `metadata.pdf_url` aligned to the official PDF URL
 - build field definitions from that year's PDF layout
 - omit `metadata.administration_periods`
@@ -23,7 +23,7 @@ Example:
 
 ## Routing Note
 
-Treat `2023-crs-layout-interim-boy.pdf` as interim-related source material if it is ever mapped.
+Treat `docs/2023/2023-crs-layout-interim-boy.pdf` as interim-related source material if it is ever mapped.
 Do not route official `CRS Custom Data File Layout` / `CRS Data File Format` PDFs into this folder; those belong in the top-level `crs/` family.
 
 ## Required JSON Structure

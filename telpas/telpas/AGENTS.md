@@ -6,7 +6,7 @@ This folder contains year-specific fixed-width mapping files for TELPAS reportin
 
 For each file:
 
-- use the corresponding TEA PDF in `../../docs`
+- use the corresponding TEA PDF in the appropriate year-based subfolder under `../../docs`
 - keep `metadata.pdf_url` aligned to the official PDF URL
 - build field definitions from that year's PDF layout
 

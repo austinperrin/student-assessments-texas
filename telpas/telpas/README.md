@@ -8,7 +8,7 @@ This folder contains year-specific fixed-width mapping files for TELPAS reportin
 
 ## Source PDFs
 
-Mappings are curated from the matching TELPAS data file layout PDFs in [docs](../../docs) and the official TEA PDF URL stored in each file's `metadata`.
+Mappings are curated from the matching TELPAS data file layout PDFs in the appropriate year-based subfolder under [docs](../../docs) and the official TEA PDF URL stored in each file's `metadata`.
 
 ## Notes
 

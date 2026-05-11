@@ -11,7 +11,7 @@ The files in this folder are year-specific JSON mappings for STAAR consolidated 
 For each file:
 
 - the corresponding TEA PDF is the source of truth
-- the local PDF in `../../docs` should match the `pdf_url` stored in the JSON `metadata`
+- the local PDF in the appropriate year-based subfolder under `../../docs` should match the `pdf_url` stored in the JSON `metadata`
 - do not infer field names from neighboring JSON files unless the current year's PDF is unclear
 
 When updating a file, review the current year's PDF only.
@@ -83,7 +83,7 @@ Each file should contain:
 ## Workflow For Creating A New Year
 
 1. Obtain the official TEA STAAR consolidated accountability PDF for that school year.
-2. Save the PDF into `../../docs`.
+2. Save the PDF into the appropriate year-based subfolder under `../../docs`.
 3. Create the new file using the naming pattern:
    `YYYY-staar-consolidated-accountability-fixed-width-mapping.json`
 4. Add the `metadata` block with the correct file name, school year, PDF URL, and current date.

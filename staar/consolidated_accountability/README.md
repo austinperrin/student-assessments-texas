@@ -40,7 +40,7 @@ The `mapped_fields` section should contain the fixed-width column definitions:
 
 ## Source of Truth
 
-Mappings in this folder should be curated against the corresponding PDF layout in [docs](../../docs) and the official TEA/Texas Assessments PDF URL stored in each file's `metadata`.
+Mappings in this folder should be curated against the corresponding PDF layout in the appropriate year-based subfolder under [docs](../../docs) and the official TEA/Texas Assessments PDF URL stored in each file's `metadata`.
 
 ## Notes
 

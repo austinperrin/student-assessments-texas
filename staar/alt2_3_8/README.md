@@ -40,12 +40,12 @@ The `mapped_fields` section should contain the fixed-width column definitions:
 
 ## Source of Truth
 
-Mappings in this folder should be curated against the corresponding PDF layout in [docs](../../docs) and the official TEA/Texas Assessments PDF URL stored in each file's `metadata`.
+Mappings in this folder should be curated against the corresponding PDF layout in the appropriate year-based subfolder under [docs](../../docs) and the official TEA/Texas Assessments PDF URL stored in each file's `metadata`.
 
 ## Notes
 
 - The first confirmed official STAAR Alternate 2 grades 3-8 data file format currently supported in this folder is `2016`
-- TEA materials indicate STAAR Alternate 2 existed in the `2014-2015` school year, but no `2015` grades 3-8 data file format PDF is currently present in `../../docs` or confirmed on the TEA archive page
+- TEA materials indicate STAAR Alternate 2 existed in the `2014-2015` school year, but no `2015` grades 3-8 data file format PDF is currently present anywhere under `../../docs` or confirmed on the TEA archive page
 - Header names should be normalized into lowercase snake case
 - Blank fields from the published layout should be omitted from `mapped_fields`
 - `column_num` should still preserve the original source column order

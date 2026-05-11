@@ -13,7 +13,7 @@ These mappings are intended to be maintained manually against the source PDF for
 For each file:
 
 - the corresponding TEA PDF is the source of truth
-- the local PDF in `../../docs` should match the `pdf_url` stored in the JSON `metadata`
+- the local PDF in the appropriate year-based subfolder under `../../docs` should match the `pdf_url` stored in the JSON `metadata`
 - do not infer field names from neighboring JSON files unless the current year's PDF is unclear
 
 When updating a file, review the current year's PDF only.
@@ -148,7 +148,7 @@ Examples of problems to fix:
 When maintaining an existing year:
 
 1. Open the JSON file in this folder.
-2. Open the corresponding PDF in `../../docs`.
+2. Open the corresponding PDF in the appropriate year-based subfolder under `../../docs`.
 3. Review the PDF field title for each suspicious or wrapped field.
 4. Confirm that `column_header` reflects the field title only.
 5. Remove any note spillover.
@@ -162,7 +162,7 @@ Do not rename fields only to match nearby years if the current year's PDF uses d
 When adding a new year, follow this process:
 
 1. Obtain the official TEA EOC PDF for that school year.
-2. Save the PDF into `../../docs`.
+2. Save the PDF into the appropriate year-based subfolder under `../../docs`.
 3. Create the new file using the naming pattern:
    `YYYY-staar-eoc-fixed-width-mapping.json`
 4. Add the `metadata` block with:

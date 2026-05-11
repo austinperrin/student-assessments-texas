@@ -11,7 +11,7 @@ The files in this folder are year-specific JSON mappings for STAAR Alternate 2 g
 For each file:
 
 - the corresponding TEA PDF is the source of truth
-- the local PDF in `../../docs` should match the `pdf_url` stored in the JSON `metadata`
+- the local PDF in the appropriate year-based subfolder under `../../docs` should match the `pdf_url` stored in the JSON `metadata`
 - do not infer field names from neighboring JSON files unless the current year's PDF is unclear
 - the first confirmed official STAAR Alternate 2 grades 3-8 data file format in this repo is `2016`; do not create `2015` or earlier mappings without a year-specific PDF
 
@@ -85,7 +85,7 @@ Each file should contain:
 ## Workflow For Creating A New Year
 
 1. Obtain the official TEA STAAR Alternate 2 grades 3-8 PDF for that school year.
-2. Save the PDF into `../../docs`.
+2. Save the PDF into the appropriate year-based subfolder under `../../docs`.
 3. Create the new file using the naming pattern:
    `YYYY-staar-alt2-3-8-fixed-width-mapping.json`
 4. Add the `metadata` block with the correct file name, school year, PDF URL, and current date.

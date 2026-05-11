@@ -51,7 +51,7 @@ Example:
 
 ## Source of Truth
 
-These mappings are curated against the corresponding PDF layout for each year in the [docs](../../docs) folder and the official TEA/Texas Assessments PDF URLs stored in each file's `metadata`. The `administration_periods` metadata should also be sourced from that same PDF's administration date legend.
+These mappings are curated against the corresponding PDF layout for each year in the appropriate year-based subfolder under [docs](../../docs) and the official TEA/Texas Assessments PDF URLs stored in each file's `metadata`. The `administration_periods` metadata should also be sourced from that same PDF's administration date legend.
 
 The mappings should be maintained manually as layout changes are introduced for a given year.
 
