@@ -8,11 +8,11 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 FAMILY_DIRS = [
-    REPO_ROOT / "staar",
-    REPO_ROOT / "telpas",
-    REPO_ROOT / "tfar",
-    REPO_ROOT / "ttap",
-    REPO_ROOT / "crs",
+    REPO_ROOT / "assessments" / "tea" / "staar",
+    REPO_ROOT / "assessments" / "tea" / "telpas",
+    REPO_ROOT / "assessments" / "tea" / "tfar",
+    REPO_ROOT / "assessments" / "tea" / "ttap",
+    REPO_ROOT / "assessments" / "tea" / "crs",
 ]
 SCHOOL_YEAR_RE = re.compile(r"^\d{4}-\d{4}$")
 INT_STRING_RE = re.compile(r"^\d+$")

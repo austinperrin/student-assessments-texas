@@ -11,6 +11,7 @@ Status: `Completed`
 - organize local TEA source documents
 - normalize recurring field names across families where appropriate
 - add family-level `README.md` and `AGENTS.md` guidance
+- establish `assessments/` as the long-term source-of-truth root for vendor-specific mapping groups
 
 ## Milestone 1: Repository Guardrails
 
@@ -36,6 +37,7 @@ Status: `Planned`
 - reserve `services/` for future application services
 - reserve `packages/` for shared libraries and schemas
 - expand `infra/` as deployment and runtime needs become concrete
+- keep `assessments/` platform-neutral so future web, CLI, or desktop tooling can consume the same source corpus
 - keep scaffolding lightweight until real code paths exist
 
 ## Milestone 4: Assessment Tooling Baseline
@@ -44,6 +46,7 @@ Status: `Planned`
 
 - introduce application or service code only when a clear workflow needs it
 - support mapping validation, inspection, or ingestion workflows programmatically
+- support future vendor expansion beyond TEA without another top-level assessment reorganization
 - define runtime and framework decisions through ADRs before large-scale code is added
 
 ## Working Rule

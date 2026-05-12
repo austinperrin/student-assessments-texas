@@ -9,7 +9,7 @@ body:
     attributes:
       label: Family
       description: Which mapping family does this work belong to?
-      placeholder: staar/eoc
+      placeholder: assessments/tea/staar/eoc
     validations:
       required: true
   - type: input

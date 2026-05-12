@@ -2,6 +2,8 @@
 
 This folder holds local reference material used to support the mapping files in this repository.
 
+The current active assessment corpus lives under [`../assessments`](../assessments/), with supporting standards, ADRs, and source-document archive material collected here under `docs/`.
+
 ## Current Sections
 
 - [Overview](./overview/)

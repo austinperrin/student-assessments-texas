@@ -8,24 +8,24 @@ This repository stores fixed-width JSON mapping files for Texas assessment data 
 
 Primary mapping families:
 
-- `staar/3_8`
-- `staar/eoc`
-- `staar/alt2_3_8`
-- `staar/alt2_eoc`
-- `staar/interim`
-- `staar/consolidated_accountability`
-- `telpas/telpas`
-- `telpas/telpas_alt`
-- `tfar`
-- `ttap`
-- `crs`
+- `assessments/tea/staar/3_8`
+- `assessments/tea/staar/eoc`
+- `assessments/tea/staar/alt2_3_8`
+- `assessments/tea/staar/alt2_eoc`
+- `assessments/tea/staar/interim`
+- `assessments/tea/staar/consolidated_accountability`
+- `assessments/tea/telpas/telpas`
+- `assessments/tea/telpas/telpas_alt`
+- `assessments/tea/tfar`
+- `assessments/tea/ttap`
+- `assessments/tea/crs`
 
 Use the family-specific `AGENTS.md` files inside those folders for family-level rules and exceptions.
 
 ## Source Material
 
-- the official TEA PDF for the current mapping year is the source of truth
-- local reference PDFs live under `docs/tea-data-file-formats-archive/<year>/`
+- the official online TEA or Texas Assessments documentation for the current mapping year is the source of truth
+- local reference PDFs live under `docs/tea-data-file-formats-archive/<year>/` and should be kept up to date with the current online source
 - `metadata.pdf_url` should remain aligned to the official source URL
 - do not infer field names from neighboring years when the current PDF is clear
 - do not create local `tmp_*.txt`, extracted plain-text PDF dumps, or similar scratch files in the repo when reviewing PDFs
@@ -75,13 +75,14 @@ After editing or adding mappings:
 
 1. confirm the JSON parses cleanly
 2. confirm `column_header` values are unique
-3. confirm the file still reflects the current year's PDF rather than a neighboring year
+3. confirm the file still reflects the current year's official online documentation rather than a neighboring year
 4. keep folder-specific `README.md` and `AGENTS.md` guidance aligned when the local doc layout changes
 5. run the repository validation scripts when the change touches shared docs, structure, or multiple mapping files
 
 ## Repository Tooling
 
-- shared validation scripts live under `scripts/`
+- shared repository scripts live under `scripts/`, with CI validation scripts under `scripts/ci/`
+- assessment mappings currently live under `assessments/`, with TEA-specific families under `assessments/tea/`
 - shared config and schema reference files live under `configs/`
 - GitHub automation lives under `.github/`
 - `infra/` is reserved for future shared infrastructure artifacts if the repo grows beyond script and document workflows
