@@ -1,0 +1,41 @@
+name: Mapping year or family work
+description: Track a new mapping year, family gap, or mapping cleanup request.
+title: "[mapping] "
+labels:
+  - mapping
+body:
+  - type: input
+    id: family
+    attributes:
+      label: Family
+      description: Which mapping family does this work belong to?
+      placeholder: staar/eoc
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Mapping year
+      description: What ending year or file year is being added or updated?
+      placeholder: "2026"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source material
+      description: Link the official PDF or describe the local source document.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe the requested mapping addition, cleanup, or validation work.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add any year-specific differences, gaps, or known risks.

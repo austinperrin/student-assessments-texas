@@ -1,0 +1,570 @@
+{
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-04",
+      "file_name": "2012-staar-eoc-fixed-width-mapping.json",
+      "school_year": "2011-2012",
+      "administration_periods": [
+        { "code": "1312", "label": "Fall 2012" },
+        { "code": "1512", "label": "Spring 2012" },
+        { "code": "1612", "label": "Summer 2012" }
+      ],
+      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2012-staar-eoc-assessments-data-file-format.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "4",
+      "column_header": "administration_date",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "5",
+      "end_pos": "6",
+      "column_header": "grade_level_code",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "7",
+      "end_pos": "8",
+      "column_header": "esc_region_number",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "9",
+      "end_pos": "17",
+      "column_header": "county_district_campus_number",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "18",
+      "end_pos": "32",
+      "column_header": "district_name",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "33",
+      "end_pos": "47",
+      "column_header": "campus_name",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "48",
+      "end_pos": "62",
+      "column_header": "last_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "63",
+      "end_pos": "72",
+      "column_header": "first_name",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "73",
+      "end_pos": "73",
+      "column_header": "middle_initial",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "74",
+      "end_pos": "82",
+      "column_header": "peims_id",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "83",
+      "end_pos": "83",
+      "column_header": "sex_code",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "84",
+      "end_pos": "91",
+      "column_header": "date_of_birth",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "93",
+      "end_pos": "93",
+      "column_header": "hispanic_latino_code",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "94",
+      "end_pos": "94",
+      "column_header": "american_indian_alaska_native_code",
+      "column_num": "15"
+    },
+    {
+      "start_pos": "95",
+      "end_pos": "95",
+      "column_header": "asian_code",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "96",
+      "end_pos": "96",
+      "column_header": "black_african_american_code",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "97",
+      "end_pos": "97",
+      "column_header": "native_hawaiian_pacific_islander_code",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "98",
+      "end_pos": "98",
+      "column_header": "white_code",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "99",
+      "end_pos": "99",
+      "column_header": "ethnicity_race_reporting_category",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "100",
+      "end_pos": "100",
+      "column_header": "economic_disadvantage_code",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "101",
+      "end_pos": "101",
+      "column_header": "title_i_part_a_indicator_code",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "102",
+      "end_pos": "102",
+      "column_header": "migrant_indicator_code",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "107",
+      "end_pos": "107",
+      "column_header": "lep_indicator_code",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "108",
+      "end_pos": "108",
+      "column_header": "bilingual_indicator_code",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "109",
+      "end_pos": "109",
+      "column_header": "esl_indicator_code",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "111",
+      "end_pos": "111",
+      "column_header": "special_ed_indicator_code",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "117",
+      "end_pos": "117",
+      "column_header": "gifted_talented_indicator_code",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "118",
+      "end_pos": "118",
+      "column_header": "at_risk_indicator_code",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "122",
+      "end_pos": "122",
+      "column_header": "career_and_technical_ed_indicator_code",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "123",
+      "end_pos": "131",
+      "column_header": "local_student_id",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "132",
+      "end_pos": "140",
+      "column_header": "document_number",
+      "column_num": "36"
+    },
+    {
+      "start_pos": "143",
+      "end_pos": "143",
+      "column_header": "record_update_indicator",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "144",
+      "end_pos": "152",
+      "column_header": "fall_prior_year_peims_county_district_campus_number",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "153",
+      "end_pos": "154",
+      "column_header": "fall_prior_year_peims_crisis_code",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "155",
+      "end_pos": "156",
+      "column_header": "fall_prior_year_peims_student_attribution_code",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "157",
+      "end_pos": "162",
+      "column_header": "student_portal_unique_access_code",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "163",
+      "end_pos": "163",
+      "column_header": "migrant_student_in_texas_migrant_interstate_program",
+      "column_num": "43"
+    },
+    {
+      "start_pos": "164",
+      "end_pos": "164",
+      "column_header": "high_school_equivalency_program",
+      "column_num": "44"
+    },
+    {
+      "start_pos": "201",
+      "end_pos": "202",
+      "column_header": "end_of_course_code",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "203",
+      "end_pos": "206",
+      "column_header": "local_use",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "215",
+      "end_pos": "219",
+      "column_header": "agency_use",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "230",
+      "end_pos": "231",
+      "column_header": "test_date",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "251",
+      "end_pos": "251",
+      "column_header": "type_1",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "252",
+      "end_pos": "252",
+      "column_header": "type_2",
+      "column_num": "54"
+    },
+    {
+      "start_pos": "253",
+      "end_pos": "253",
+      "column_header": "type_2_braille",
+      "column_num": "55"
+    },
+    {
+      "start_pos": "254",
+      "end_pos": "254",
+      "column_header": "type_2_large_print",
+      "column_num": "56"
+    },
+    {
+      "start_pos": "255",
+      "end_pos": "255",
+      "column_header": "type_2_oral_administration",
+      "column_num": "57"
+    },
+    {
+      "start_pos": "256",
+      "end_pos": "256",
+      "column_header": "type_2_extra_time",
+      "column_num": "58"
+    },
+    {
+      "start_pos": "257",
+      "end_pos": "257",
+      "column_header": "type_3",
+      "column_num": "59"
+    },
+    {
+      "start_pos": "258",
+      "end_pos": "258",
+      "column_header": "type_3_extra_day",
+      "column_num": "60"
+    },
+    {
+      "start_pos": "271",
+      "end_pos": "271",
+      "column_header": "bilingual_dictionary",
+      "column_num": "62"
+    },
+    {
+      "start_pos": "272",
+      "end_pos": "272",
+      "column_header": "clarification_of_word_meaning_in_english",
+      "column_num": "63"
+    },
+    {
+      "start_pos": "273",
+      "end_pos": "273",
+      "column_header": "reading_aloud_of_text",
+      "column_num": "64"
+    },
+    {
+      "start_pos": "274",
+      "end_pos": "274",
+      "column_header": "clarification_in_english_of_words_in_writing_prompt",
+      "column_num": "65"
+    },
+    {
+      "start_pos": "275",
+      "end_pos": "275",
+      "column_header": "clarification_in_english_of_words_in_reading_questions",
+      "column_num": "66"
+    },
+    {
+      "start_pos": "276",
+      "end_pos": "276",
+      "column_header": "oral_translation",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "277",
+      "end_pos": "277",
+      "column_header": "bilingual_glossary",
+      "column_num": "68"
+    },
+    {
+      "start_pos": "278",
+      "end_pos": "278",
+      "column_header": "extra_time",
+      "column_num": "69"
+    },
+    {
+      "start_pos": "291",
+      "end_pos": "291",
+      "column_header": "score_code",
+      "column_num": "71"
+    },
+    {
+      "start_pos": "296",
+      "end_pos": "296",
+      "column_header": "score_code_default",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "301",
+      "end_pos": "301",
+      "column_header": "test_administration_mode",
+      "column_num": "75"
+    },
+    {
+      "start_pos": "306",
+      "end_pos": "306",
+      "column_header": "test_version",
+      "column_num": "77"
+    },
+    {
+      "start_pos": "351",
+      "end_pos": "364",
+      "column_header": "reporting_category_scores",
+      "column_num": "79"
+    },
+    {
+      "start_pos": "365",
+      "end_pos": "366",
+      "column_header": "raw_score",
+      "column_num": "80"
+    },
+    {
+      "start_pos": "367",
+      "end_pos": "370",
+      "column_header": "scale_score",
+      "column_num": "81"
+    },
+    {
+      "start_pos": "371",
+      "end_pos": "371",
+      "column_header": "reading_short_answer_item_single_selection",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "372",
+      "end_pos": "372",
+      "column_header": "reading_short_answer_item_paired_selections",
+      "column_num": "83"
+    },
+    {
+      "start_pos": "373",
+      "end_pos": "373",
+      "column_header": "written_composition_score_1",
+      "column_num": "84"
+    },
+    {
+      "start_pos": "374",
+      "end_pos": "374",
+      "column_header": "written_composition_score_2",
+      "column_num": "85"
+    },
+    {
+      "start_pos": "392",
+      "end_pos": "392",
+      "column_header": "level_i_achieved_minimum_score_at_the_phase_in_1_standard",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "393",
+      "end_pos": "393",
+      "column_header": "level_ii_satisfactory_academic_performance_at_the_phase_in_standard",
+      "column_num": "88"
+    },
+    {
+      "start_pos": "394",
+      "end_pos": "394",
+      "column_header": "level_iii_advanced_academic_performance_at_the_phase_in_standard",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "396",
+      "end_pos": "396",
+      "column_header": "level_i_achieved_minimum_score_at_the_recommended_standard",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "397",
+      "end_pos": "397",
+      "column_header": "level_ii_satisfactory_academic_performance_at_the_recommended_standard",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "398",
+      "end_pos": "398",
+      "column_header": "met_equivalent_standard_in_taks",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "429",
+      "end_pos": "430",
+      "column_header": "staar_modified_test_form_number",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "431",
+      "end_pos": "498",
+      "column_header": "item_reporting_category_numbers",
+      "column_num": "96"
+    },
+    {
+      "start_pos": "499",
+      "end_pos": "566",
+      "column_header": "item_student_responses",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "701",
+      "end_pos": "704",
+      "column_header": "reporting_category_assessed",
+      "column_num": "99"
+    },
+    {
+      "start_pos": "705",
+      "end_pos": "708",
+      "column_header": "level_of_complexity",
+      "column_num": "100"
+    },
+    {
+      "start_pos": "709",
+      "end_pos": "720",
+      "column_header": "demonstration_of_skill_scores",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "721",
+      "end_pos": "724",
+      "column_header": "level_of_support_scores",
+      "column_num": "102"
+    },
+    {
+      "start_pos": "725",
+      "end_pos": "728",
+      "column_header": "generalization_of_skill_scores",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "729",
+      "end_pos": "744",
+      "column_header": "score_points_achieved",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "745",
+      "end_pos": "746",
+      "column_header": "total_score_points_achieved",
+      "column_num": "105"
+    },
+    {
+      "start_pos": "747",
+      "end_pos": "747",
+      "column_header": "assessment_category",
+      "column_num": "106"
+    },
+    {
+      "start_pos": "748",
+      "end_pos": "748",
+      "column_header": "no_response_observed_reason",
+      "column_num": "107"
+    },
+    {
+      "start_pos": "749",
+      "end_pos": "749",
+      "column_header": "level_ii_satisfactory_academic_performance_at_phase_in_standard",
+      "column_num": "108"
+    },
+    {
+      "start_pos": "750",
+      "end_pos": "750",
+      "column_header": "level_ii_satisfactory_academic_performance_at_recommended_standard",
+      "column_num": "109"
+    },
+    {
+      "start_pos": "751",
+      "end_pos": "751",
+      "column_header": "level_iii_accomplished_academic_performance",
+      "column_num": "110"
+    },
+    {
+      "start_pos": "752",
+      "end_pos": "752",
+      "column_header": "met_equivalent_standard_in_taks_alt",
+      "column_num": "111"
+    },
+    {
+      "start_pos": "1000",
+      "end_pos": "1000",
+      "column_header": "period",
+      "column_num": "113"
+    }
+  ]
+}

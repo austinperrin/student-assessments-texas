@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/texas-assessments/mapping-file.schema.json",
+  "title": "Texas Assessment Mapping File",
+  "type": "object",
+  "required": ["metadata", "mapped_fields"],
+  "properties": {
+    "metadata": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["author", "date_created", "file_name", "school_year", "pdf_url"],
+        "properties": {
+          "author": { "type": "string" },
+          "date_created": { "type": "string" },
+          "file_name": { "type": "string" },
+          "school_year": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{4}$"
+          },
+          "pdf_url": { "type": "string" },
+          "administration_periods": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["code", "label"],
+              "properties": {
+                "code": { "type": "string" },
+                "label": { "type": "string" }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "mapped_fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["start_pos", "end_pos", "column_header", "column_num"],
+        "properties": {
+          "start_pos": {
+            "type": "string",
+            "pattern": "^\\d+$"
+          },
+          "end_pos": {
+            "type": "string",
+            "pattern": "^\\d+$"
+          },
+          "column_header": { "type": "string" },
+          "column_num": {
+            "type": "string",
+            "pattern": "^\\d+$"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
+

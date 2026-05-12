@@ -1,0 +1,1024 @@
+{
+    "metadata": [
+        {
+            "author": "Austin Perrin",
+            "date_created": "2026-05-08",
+            "file_name": "2025-telpas-fixed-width-mapping.json",
+            "school_year": "2024-2025",
+            "administration_periods": [
+                { "code": "0325", "label": "Spring 2025" }
+            ],
+            "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-telpas-data-file-format.pdf"
+        }
+    ],
+    "mapped_fields": [
+        {
+            "start_pos": "1",
+            "end_pos": "4",
+            "column_header": "administration_date",
+            "column_num": "1"
+        },
+        {
+            "start_pos": "5",
+            "end_pos": "6",
+            "column_header": "enrolled_grade_level_code",
+            "column_num": "2"
+        },
+        {
+            "start_pos": "7",
+            "end_pos": "8",
+            "column_header": "esc_region_number",
+            "column_num": "3"
+        },
+        {
+            "start_pos": "9",
+            "end_pos": "17",
+            "column_header": "county_district_campus_number",
+            "column_num": "4"
+        },
+        {
+            "start_pos": "18",
+            "end_pos": "32",
+            "column_header": "district_name",
+            "column_num": "5"
+        },
+        {
+            "start_pos": "33",
+            "end_pos": "47",
+            "column_header": "campus_name",
+            "column_num": "6"
+        },
+        {
+            "start_pos": "48",
+            "end_pos": "62",
+            "column_header": "last_name",
+            "column_num": "7"
+        },
+        {
+            "start_pos": "63",
+            "end_pos": "72",
+            "column_header": "first_name",
+            "column_num": "8"
+        },
+        {
+            "start_pos": "73",
+            "end_pos": "73",
+            "column_header": "middle_initial",
+            "column_num": "9"
+        },
+        {
+            "start_pos": "74",
+            "end_pos": "82",
+            "column_header": "peims_id",
+            "column_num": "10"
+        },
+        {
+            "start_pos": "83",
+            "end_pos": "83",
+            "column_header": "sex_code",
+            "column_num": "11"
+        },
+        {
+            "start_pos": "84",
+            "end_pos": "91",
+            "column_header": "date_of_birth",
+            "column_num": "12"
+        },
+        {
+            "start_pos": "93",
+            "end_pos": "93",
+            "column_header": "hispanic_latino_code",
+            "column_num": "14"
+        },
+        {
+            "start_pos": "94",
+            "end_pos": "94",
+            "column_header": "american_indian_alaska_native_code",
+            "column_num": "15"
+        },
+        {
+            "start_pos": "95",
+            "end_pos": "95",
+            "column_header": "asian_code",
+            "column_num": "16"
+        },
+        {
+            "start_pos": "96",
+            "end_pos": "96",
+            "column_header": "black_african_american_code",
+            "column_num": "17"
+        },
+        {
+            "start_pos": "97",
+            "end_pos": "97",
+            "column_header": "native_hawaiian_pacific_islander_code",
+            "column_num": "18"
+        },
+        {
+            "start_pos": "98",
+            "end_pos": "98",
+            "column_header": "white_code",
+            "column_num": "19"
+        },
+        {
+            "start_pos": "99",
+            "end_pos": "99",
+            "column_header": "ethnicity_race_reporting_category",
+            "column_num": "20"
+        },
+        {
+            "start_pos": "100",
+            "end_pos": "100",
+            "column_header": "economic_disadvantage_code",
+            "column_num": "21"
+        },
+        {
+            "start_pos": "101",
+            "end_pos": "101",
+            "column_header": "title_i_part_a_indicator_code",
+            "column_num": "22"
+        },
+        {
+            "start_pos": "102",
+            "end_pos": "102",
+            "column_header": "migrant_indicator_code",
+            "column_num": "23"
+        },
+        {
+            "start_pos": "107",
+            "end_pos": "107",
+            "column_header": "emergent_bilingual_indicator_code",
+            "column_num": "25"
+        },
+        {
+            "start_pos": "108",
+            "end_pos": "108",
+            "column_header": "bilingual_indicator_code",
+            "column_num": "26"
+        },
+        {
+            "start_pos": "109",
+            "end_pos": "109",
+            "column_header": "esl_indicator_code",
+            "column_num": "27"
+        },
+        {
+            "start_pos": "110",
+            "end_pos": "110",
+            "column_header": "fall_2024_tsds_peims_homeless_status_code",
+            "column_num": "28"
+        },
+        {
+            "start_pos": "111",
+            "end_pos": "111",
+            "column_header": "special_ed_indicator_code",
+            "column_num": "29"
+        },
+        {
+            "start_pos": "112",
+            "end_pos": "112",
+            "column_header": "section_504_indicator_code",
+            "column_num": "30"
+        },
+        {
+            "start_pos": "117",
+            "end_pos": "117",
+            "column_header": "gifted_talented_indicator_code",
+            "column_num": "32"
+        },
+        {
+            "start_pos": "118",
+            "end_pos": "118",
+            "column_header": "at_risk_indicator_code",
+            "column_num": "33"
+        },
+        {
+            "start_pos": "123",
+            "end_pos": "126",
+            "column_header": "local_use",
+            "column_num": "35"
+        },
+        {
+            "start_pos": "131",
+            "end_pos": "131",
+            "column_header": "unschooled_asylee_refugee",
+            "column_num": "37"
+        },
+        {
+            "start_pos": "132",
+            "end_pos": "132",
+            "column_header": "students_with_interrupted_formal_education_sife",
+            "column_num": "38"
+        },
+        {
+            "start_pos": "133",
+            "end_pos": "133",
+            "column_header": "agency_use_a",
+            "column_num": "39"
+        },
+        {
+            "start_pos": "134",
+            "end_pos": "134",
+            "column_header": "agency_use_b",
+            "column_num": "40"
+        },
+        {
+            "start_pos": "135",
+            "end_pos": "135",
+            "column_header": "agency_use_c",
+            "column_num": "41"
+        },
+        {
+            "start_pos": "136",
+            "end_pos": "136",
+            "column_header": "agency_use_d",
+            "column_num": "42"
+        },
+        {
+            "start_pos": "137",
+            "end_pos": "137",
+            "column_header": "agency_use_e",
+            "column_num": "43"
+        },
+        {
+            "start_pos": "141",
+            "end_pos": "141",
+            "column_header": "years_in_u_s_schools",
+            "column_num": "45"
+        },
+        {
+            "start_pos": "144",
+            "end_pos": "144",
+            "column_header": "parental_denial",
+            "column_num": "47"
+        },
+        {
+            "start_pos": "145",
+            "end_pos": "153",
+            "column_header": "local_student_id",
+            "column_num": "48"
+        },
+        {
+            "start_pos": "155",
+            "end_pos": "163",
+            "column_header": "fall_2024_tsds_peims_county_district_campus_number",
+            "column_num": "50"
+        },
+        {
+            "start_pos": "176",
+            "end_pos": "177",
+            "column_header": "fall_2024_tsds_peims_student_attribution_code",
+            "column_num": "52"
+        },
+        {
+            "start_pos": "178",
+            "end_pos": "178",
+            "column_header": "fall_2024_tsds_peims_military_connected_student_code",
+            "column_num": "53"
+        },
+        {
+            "start_pos": "179",
+            "end_pos": "179",
+            "column_header": "fall_2024_tsds_peims_foster_care_indicator_code",
+            "column_num": "54"
+        },
+        {
+            "start_pos": "180",
+            "end_pos": "180",
+            "column_header": "fall_2024_tsds_peims_dyslexia_indicator_code",
+            "column_num": "55"
+        },
+        {
+            "start_pos": "185",
+            "end_pos": "190",
+            "column_header": "family_portal_unique_access_code",
+            "column_num": "57"
+        },
+        {
+            "start_pos": "191",
+            "end_pos": "200",
+            "column_header": "tx_unique_student_id",
+            "column_num": "58"
+        },
+        {
+            "start_pos": "201",
+            "end_pos": "201",
+            "column_header": "rater_info_a",
+            "column_num": "59"
+        },
+        {
+            "start_pos": "211",
+            "end_pos": "211",
+            "column_header": "rater_info_b",
+            "column_num": "61"
+        },
+        {
+            "start_pos": "221",
+            "end_pos": "221",
+            "column_header": "listening_and_speaking_designated_supports",
+            "column_num": "63"
+        },
+        {
+            "start_pos": "222",
+            "end_pos": "222",
+            "column_header": "listening_and_speaking_extra_day",
+            "column_num": "64"
+        },
+        {
+            "start_pos": "241",
+            "end_pos": "241",
+            "column_header": "reading_and_writing_designated_supports",
+            "column_num": "66"
+        },
+        {
+            "start_pos": "242",
+            "end_pos": "242",
+            "column_header": "large_print_reading_and_writing",
+            "column_num": "67"
+        },
+        {
+            "start_pos": "243",
+            "end_pos": "243",
+            "column_header": "reading_and_writing_extra_day",
+            "column_num": "68"
+        },
+        {
+            "start_pos": "244",
+            "end_pos": "244",
+            "column_header": "reading_braille_language",
+            "column_num": "69"
+        },
+        {
+            "start_pos": "245",
+            "end_pos": "245",
+            "column_header": "writing_speech_to_text",
+            "column_num": "70"
+        },
+        {
+            "start_pos": "261",
+            "end_pos": "261",
+            "column_header": "listening_score_code",
+            "column_num": "72"
+        },
+        {
+            "start_pos": "263",
+            "end_pos": "263",
+            "column_header": "listening_proficiency_rating",
+            "column_num": "74"
+        },
+        {
+            "start_pos": "264",
+            "end_pos": "265",
+            "column_header": "listening_tested_grade",
+            "column_num": "75"
+        },
+        {
+            "start_pos": "271",
+            "end_pos": "271",
+            "column_header": "speaking_score_code",
+            "column_num": "77"
+        },
+        {
+            "start_pos": "273",
+            "end_pos": "273",
+            "column_header": "speaking_proficiency_rating",
+            "column_num": "79"
+        },
+        {
+            "start_pos": "274",
+            "end_pos": "275",
+            "column_header": "speaking_tested_grade",
+            "column_num": "80"
+        },
+        {
+            "start_pos": "281",
+            "end_pos": "281",
+            "column_header": "reading_score_code",
+            "column_num": "82"
+        },
+        {
+            "start_pos": "283",
+            "end_pos": "283",
+            "column_header": "reading_proficiency_rating",
+            "column_num": "84"
+        },
+        {
+            "start_pos": "284",
+            "end_pos": "285",
+            "column_header": "reading_tested_grade",
+            "column_num": "85"
+        },
+        {
+            "start_pos": "291",
+            "end_pos": "291",
+            "column_header": "writing_score_code",
+            "column_num": "87"
+        },
+        {
+            "start_pos": "293",
+            "end_pos": "293",
+            "column_header": "writing_proficiency_rating",
+            "column_num": "89"
+        },
+        {
+            "start_pos": "294",
+            "end_pos": "295",
+            "column_header": "writing_tested_grade",
+            "column_num": "90"
+        },
+        {
+            "start_pos": "301",
+            "end_pos": "302",
+            "column_header": "listening_reporting_category_score_reporting_category_1",
+            "column_num": "92"
+        },
+        {
+            "start_pos": "303",
+            "end_pos": "304",
+            "column_header": "listening_reporting_category_score_reporting_category_2",
+            "column_num": "93"
+        },
+        {
+            "start_pos": "305",
+            "end_pos": "306",
+            "column_header": "listening_reporting_category_score_reporting_category_3",
+            "column_num": "94"
+        },
+        {
+            "start_pos": "307",
+            "end_pos": "308",
+            "column_header": "listening_raw_score",
+            "column_num": "95"
+        },
+        {
+            "start_pos": "309",
+            "end_pos": "312",
+            "column_header": "listening_scale_score",
+            "column_num": "96"
+        },
+        {
+            "start_pos": "313",
+            "end_pos": "313",
+            "column_header": "listening_holistic_rating_test_administration",
+            "column_num": "97"
+        },
+        {
+            "start_pos": "331",
+            "end_pos": "360",
+            "column_header": "listening_reporting_category_numbers_by_item",
+            "column_num": "99"
+        },
+        {
+            "start_pos": "361",
+            "end_pos": "390",
+            "column_header": "listening_points_possible_by_item",
+            "column_num": "100"
+        },
+        {
+            "start_pos": "391",
+            "end_pos": "420",
+            "column_header": "listening_points_achieved_by_item",
+            "column_num": "101"
+        },
+        {
+            "start_pos": "431",
+            "end_pos": "432",
+            "column_header": "writing_reporting_category_score_for_reporting_category_1",
+            "column_num": "103"
+        },
+        {
+            "start_pos": "433",
+            "end_pos": "434",
+            "column_header": "writing_reporting_category_score_for_reporting_category_2",
+            "column_num": "104"
+        },
+        {
+            "start_pos": "435",
+            "end_pos": "436",
+            "column_header": "writing_raw_score",
+            "column_num": "105"
+        },
+        {
+            "start_pos": "437",
+            "end_pos": "440",
+            "column_header": "writing_scale_score",
+            "column_num": "106"
+        },
+        {
+            "start_pos": "441",
+            "end_pos": "441",
+            "column_header": "writing_holistic_rating_test_administration",
+            "column_num": "107"
+        },
+        {
+            "start_pos": "447",
+            "end_pos": "455",
+            "column_header": "writing_reporting_category_numbers_by_item",
+            "column_num": "109"
+        },
+        {
+            "start_pos": "457",
+            "end_pos": "474",
+            "column_header": "writing_points_possible_by_item",
+            "column_num": "111"
+        },
+        {
+            "start_pos": "477",
+            "end_pos": "494",
+            "column_header": "writing_points_achieved_by_item",
+            "column_num": "113"
+        },
+        {
+            "start_pos": "501",
+            "end_pos": "502",
+            "column_header": "speaking_reporting_category_score_reporting_category_1",
+            "column_num": "115"
+        },
+        {
+            "start_pos": "503",
+            "end_pos": "504",
+            "column_header": "speaking_reporting_category_score_reporting_category_2",
+            "column_num": "116"
+        },
+        {
+            "start_pos": "505",
+            "end_pos": "506",
+            "column_header": "speaking_raw_score",
+            "column_num": "117"
+        },
+        {
+            "start_pos": "507",
+            "end_pos": "510",
+            "column_header": "speaking_scale_score",
+            "column_num": "118"
+        },
+        {
+            "start_pos": "511",
+            "end_pos": "511",
+            "column_header": "speaking_holistic_rating_test_administration",
+            "column_num": "119"
+        },
+        {
+            "start_pos": "531",
+            "end_pos": "570",
+            "column_header": "speaking_reporting_category_numbers_by_item",
+            "column_num": "121"
+        },
+        {
+            "start_pos": "571",
+            "end_pos": "610",
+            "column_header": "speaking_points_possible_by_item",
+            "column_num": "122"
+        },
+        {
+            "start_pos": "611",
+            "end_pos": "650",
+            "column_header": "speaking_points_achieved_by_item",
+            "column_num": "123"
+        },
+        {
+            "start_pos": "701",
+            "end_pos": "702",
+            "column_header": "reading_reporting_category_score_reporting_category_1",
+            "column_num": "125"
+        },
+        {
+            "start_pos": "703",
+            "end_pos": "704",
+            "column_header": "reading_reporting_category_score_reporting_category_2",
+            "column_num": "126"
+        },
+        {
+            "start_pos": "705",
+            "end_pos": "706",
+            "column_header": "reading_reporting_category_score_reporting_category_3",
+            "column_num": "127"
+        },
+        {
+            "start_pos": "707",
+            "end_pos": "708",
+            "column_header": "reading_raw_score",
+            "column_num": "128"
+        },
+        {
+            "start_pos": "709",
+            "end_pos": "712",
+            "column_header": "reading_scale_score",
+            "column_num": "129"
+        },
+        {
+            "start_pos": "713",
+            "end_pos": "713",
+            "column_header": "reading_paper_test_administration",
+            "column_num": "130"
+        },
+        {
+            "start_pos": "731",
+            "end_pos": "767",
+            "column_header": "reading_reporting_category_numbers_by_item",
+            "column_num": "132"
+        },
+        {
+            "start_pos": "771",
+            "end_pos": "807",
+            "column_header": "reading_correct_response_by_item",
+            "column_num": "134"
+        },
+        {
+            "start_pos": "811",
+            "end_pos": "847",
+            "column_header": "reading_student_response_by_item",
+            "column_num": "136"
+        },
+        {
+            "start_pos": "851",
+            "end_pos": "880",
+            "column_header": "listening_student_response_by_item",
+            "column_num": "138"
+        },
+        {
+            "start_pos": "901",
+            "end_pos": "901",
+            "column_header": "yearly_progress_indicator",
+            "column_num": "140"
+        },
+        {
+            "start_pos": "905",
+            "end_pos": "907",
+            "column_header": "telpas_composite_score",
+            "column_num": "142"
+        },
+        {
+            "start_pos": "908",
+            "end_pos": "908",
+            "column_header": "telpas_composite_rating",
+            "column_num": "143"
+        },
+        {
+            "start_pos": "910",
+            "end_pos": "912",
+            "column_header": "fall_2024_tsds_peims_crisis_code",
+            "column_num": "145"
+        },
+        {
+            "start_pos": "1001",
+            "end_pos": "1002",
+            "column_header": "grade_2022",
+            "column_num": "147"
+        },
+        {
+            "start_pos": "1003",
+            "end_pos": "1011",
+            "column_header": "county_district_campus_cdc_number_2022",
+            "column_num": "148"
+        },
+        {
+            "start_pos": "1012",
+            "end_pos": "1012",
+            "column_header": "years_in_u_s_schools_2022",
+            "column_num": "149"
+        },
+        {
+            "start_pos": "1015",
+            "end_pos": "1015",
+            "column_header": "listening_score_code_2022",
+            "column_num": "151"
+        },
+        {
+            "start_pos": "1016",
+            "end_pos": "1016",
+            "column_header": "listening_proficiency_rating_2022",
+            "column_num": "152"
+        },
+        {
+            "start_pos": "1017",
+            "end_pos": "1020",
+            "column_header": "listening_scale_score_2022",
+            "column_num": "153"
+        },
+        {
+            "start_pos": "1023",
+            "end_pos": "1023",
+            "column_header": "speaking_score_code_2022",
+            "column_num": "155"
+        },
+        {
+            "start_pos": "1024",
+            "end_pos": "1024",
+            "column_header": "speaking_proficiency_rating_2022",
+            "column_num": "156"
+        },
+        {
+            "start_pos": "1025",
+            "end_pos": "1028",
+            "column_header": "speaking_scale_score_2022",
+            "column_num": "157"
+        },
+        {
+            "start_pos": "1031",
+            "end_pos": "1031",
+            "column_header": "reading_score_code_2022",
+            "column_num": "159"
+        },
+        {
+            "start_pos": "1032",
+            "end_pos": "1032",
+            "column_header": "reading_proficiency_rating_2022",
+            "column_num": "160"
+        },
+        {
+            "start_pos": "1033",
+            "end_pos": "1036",
+            "column_header": "reading_scale_score_2022",
+            "column_num": "161"
+        },
+        {
+            "start_pos": "1039",
+            "end_pos": "1039",
+            "column_header": "writing_score_code_2022",
+            "column_num": "163"
+        },
+        {
+            "start_pos": "1040",
+            "end_pos": "1040",
+            "column_header": "writing_proficiency_rating_2022",
+            "column_num": "164"
+        },
+        {
+            "start_pos": "1045",
+            "end_pos": "1045",
+            "column_header": "composite_rating_2022",
+            "column_num": "166"
+        },
+        {
+            "start_pos": "1046",
+            "end_pos": "1047",
+            "column_header": "grade_2023",
+            "column_num": "167"
+        },
+        {
+            "start_pos": "1048",
+            "end_pos": "1056",
+            "column_header": "county_district_campus_cdc_number_2023",
+            "column_num": "168"
+        },
+        {
+            "start_pos": "1057",
+            "end_pos": "1057",
+            "column_header": "years_in_u_s_schools_2023",
+            "column_num": "169"
+        },
+        {
+            "start_pos": "1058",
+            "end_pos": "1059",
+            "column_header": "listening_tested_grade_2023",
+            "column_num": "170"
+        },
+        {
+            "start_pos": "1060",
+            "end_pos": "1060",
+            "column_header": "listening_score_code_2023",
+            "column_num": "171"
+        },
+        {
+            "start_pos": "1061",
+            "end_pos": "1061",
+            "column_header": "listening_proficiency_rating_2023",
+            "column_num": "172"
+        },
+        {
+            "start_pos": "1062",
+            "end_pos": "1065",
+            "column_header": "listening_scale_score_2023",
+            "column_num": "173"
+        },
+        {
+            "start_pos": "1066",
+            "end_pos": "1067",
+            "column_header": "speaking_tested_grade_2023",
+            "column_num": "174"
+        },
+        {
+            "start_pos": "1068",
+            "end_pos": "1068",
+            "column_header": "speaking_score_code_2023",
+            "column_num": "175"
+        },
+        {
+            "start_pos": "1069",
+            "end_pos": "1069",
+            "column_header": "speaking_proficiency_rating_2023",
+            "column_num": "176"
+        },
+        {
+            "start_pos": "1070",
+            "end_pos": "1073",
+            "column_header": "speaking_scale_score_2023",
+            "column_num": "177"
+        },
+        {
+            "start_pos": "1074",
+            "end_pos": "1075",
+            "column_header": "reading_tested_grade_2023",
+            "column_num": "178"
+        },
+        {
+            "start_pos": "1076",
+            "end_pos": "1076",
+            "column_header": "reading_score_code_2023",
+            "column_num": "179"
+        },
+        {
+            "start_pos": "1077",
+            "end_pos": "1077",
+            "column_header": "reading_proficiency_rating_2023",
+            "column_num": "180"
+        },
+        {
+            "start_pos": "1078",
+            "end_pos": "1081",
+            "column_header": "reading_scale_score_2023",
+            "column_num": "181"
+        },
+        {
+            "start_pos": "1082",
+            "end_pos": "1083",
+            "column_header": "writing_tested_grade_2023",
+            "column_num": "182"
+        },
+        {
+            "start_pos": "1084",
+            "end_pos": "1084",
+            "column_header": "writing_score_code_2023",
+            "column_num": "183"
+        },
+        {
+            "start_pos": "1085",
+            "end_pos": "1085",
+            "column_header": "writing_proficiency_rating_2023",
+            "column_num": "184"
+        },
+        {
+            "start_pos": "1086",
+            "end_pos": "1089",
+            "column_header": "writing_scale_score_2023",
+            "column_num": "185"
+        },
+        {
+            "start_pos": "1090",
+            "end_pos": "1090",
+            "column_header": "composite_rating_2023",
+            "column_num": "186"
+        },
+        {
+            "start_pos": "1091",
+            "end_pos": "1092",
+            "column_header": "grade_2024",
+            "column_num": "187"
+        },
+        {
+            "start_pos": "1093",
+            "end_pos": "1101",
+            "column_header": "county_district_campus_cdc_number_2024",
+            "column_num": "188"
+        },
+        {
+            "start_pos": "1102",
+            "end_pos": "1102",
+            "column_header": "years_in_u_s_schools_2024",
+            "column_num": "189"
+        },
+        {
+            "start_pos": "1103",
+            "end_pos": "1104",
+            "column_header": "listening_tested_grade_2024",
+            "column_num": "190"
+        },
+        {
+            "start_pos": "1105",
+            "end_pos": "1105",
+            "column_header": "listening_score_code_2024",
+            "column_num": "191"
+        },
+        {
+            "start_pos": "1106",
+            "end_pos": "1106",
+            "column_header": "listening_proficiency_rating_2024",
+            "column_num": "192"
+        },
+        {
+            "start_pos": "1107",
+            "end_pos": "1110",
+            "column_header": "listening_scale_score_2024",
+            "column_num": "193"
+        },
+        {
+            "start_pos": "1111",
+            "end_pos": "1112",
+            "column_header": "speaking_tested_grade_2024",
+            "column_num": "194"
+        },
+        {
+            "start_pos": "1113",
+            "end_pos": "1113",
+            "column_header": "speaking_score_code_2024",
+            "column_num": "195"
+        },
+        {
+            "start_pos": "1114",
+            "end_pos": "1114",
+            "column_header": "speaking_proficiency_rating_2024",
+            "column_num": "196"
+        },
+        {
+            "start_pos": "1115",
+            "end_pos": "1118",
+            "column_header": "speaking_scale_score_2024",
+            "column_num": "197"
+        },
+        {
+            "start_pos": "1119",
+            "end_pos": "1120",
+            "column_header": "reading_tested_grade_2024",
+            "column_num": "198"
+        },
+        {
+            "start_pos": "1121",
+            "end_pos": "1121",
+            "column_header": "reading_score_code_2024",
+            "column_num": "199"
+        },
+        {
+            "start_pos": "1122",
+            "end_pos": "1122",
+            "column_header": "reading_proficiency_rating_2024",
+            "column_num": "200"
+        },
+        {
+            "start_pos": "1123",
+            "end_pos": "1126",
+            "column_header": "reading_scale_score_2024",
+            "column_num": "201"
+        },
+        {
+            "start_pos": "1127",
+            "end_pos": "1128",
+            "column_header": "writing_tested_grade_2024",
+            "column_num": "202"
+        },
+        {
+            "start_pos": "1129",
+            "end_pos": "1129",
+            "column_header": "writing_score_code_2024",
+            "column_num": "203"
+        },
+        {
+            "start_pos": "1130",
+            "end_pos": "1130",
+            "column_header": "writing_proficiency_rating_2024",
+            "column_num": "204"
+        },
+        {
+            "start_pos": "1131",
+            "end_pos": "1134",
+            "column_header": "writing_scale_score_2024",
+            "column_num": "205"
+        },
+        {
+            "start_pos": "1135",
+            "end_pos": "1135",
+            "column_header": "composite_rating_2024",
+            "column_num": "206"
+        },
+        {
+            "start_pos": "1136",
+            "end_pos": "1171",
+            "column_header": "opportunity_key",
+            "column_num": "208"
+        },
+        {
+            "start_pos": "1172",
+            "end_pos": "1180",
+            "column_header": "test_result_id",
+            "column_num": "209"
+        },
+        {
+            "start_pos": "1181",
+            "end_pos": "1181",
+            "column_header": "non_participant_listening_speaking",
+            "column_num": "210"
+        },
+        {
+            "start_pos": "1182",
+            "end_pos": "1182",
+            "column_header": "non_participant_reading_writing",
+            "column_num": "211"
+        },
+        {
+            "start_pos": "1200",
+            "end_pos": "1200",
+            "column_header": "period",
+            "column_num": "213"
+        }
+    ]
+}

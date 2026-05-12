@@ -1,0 +1,1276 @@
+{
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-08",
+      "file_name": "2018-staar-alt2-3-8-fixed-width-mapping.json",
+      "school_year": "2017-2018",
+      "administration_periods": [
+        { "code": "0418", "label": "Spring 2018" }
+      ],
+      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-staar-alt2-3-8-data-file-format.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "4",
+      "column_header": "administration_date",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "5",
+      "end_pos": "6",
+      "column_header": "grade_level_tested",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "7",
+      "end_pos": "8",
+      "column_header": "esc_region_number",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "9",
+      "end_pos": "17",
+      "column_header": "county_district_campus_number",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "18",
+      "end_pos": "32",
+      "column_header": "district_name",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "33",
+      "end_pos": "47",
+      "column_header": "campus_name",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "48",
+      "end_pos": "62",
+      "column_header": "last_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "63",
+      "end_pos": "72",
+      "column_header": "first_name",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "73",
+      "end_pos": "73",
+      "column_header": "middle_initial",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "74",
+      "end_pos": "82",
+      "column_header": "peims_id",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "83",
+      "end_pos": "83",
+      "column_header": "sex_code",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "84",
+      "end_pos": "91",
+      "column_header": "date_of_birth",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "93",
+      "end_pos": "93",
+      "column_header": "hispanic_latino_code",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "94",
+      "end_pos": "94",
+      "column_header": "american_indian_alaska_native_code",
+      "column_num": "15"
+    },
+    {
+      "start_pos": "95",
+      "end_pos": "95",
+      "column_header": "asian_code",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "96",
+      "end_pos": "96",
+      "column_header": "black_african_american_code",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "97",
+      "end_pos": "97",
+      "column_header": "native_hawaiian_pacific_islander_code",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "98",
+      "end_pos": "98",
+      "column_header": "white_code",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "99",
+      "end_pos": "99",
+      "column_header": "ethnicity_race_reporting_category",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "100",
+      "end_pos": "100",
+      "column_header": "economic_disadvantage_code",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "101",
+      "end_pos": "101",
+      "column_header": "title_i_part_a_indicator_code",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "102",
+      "end_pos": "102",
+      "column_header": "migrant_indicator_code",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "107",
+      "end_pos": "107",
+      "column_header": "emergent_bilingual_indicator_code",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "108",
+      "end_pos": "108",
+      "column_header": "bilingual_indicator_code",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "109",
+      "end_pos": "109",
+      "column_header": "esl_indicator_code",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "111",
+      "end_pos": "111",
+      "column_header": "special_ed_indicator_code",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "117",
+      "end_pos": "117",
+      "column_header": "gifted_talented_indicator_code",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "118",
+      "end_pos": "118",
+      "column_header": "at_risk_indicator_code",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "122",
+      "end_pos": "122",
+      "column_header": "career_and_technical_ed_indicator_code",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "123",
+      "end_pos": "131",
+      "column_header": "local_student_id",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "144",
+      "end_pos": "152",
+      "column_header": "fall_2017_tsds_peims_county_district_campus_number",
+      "column_num": "37"
+    },
+    {
+      "start_pos": "153",
+      "end_pos": "154",
+      "column_header": "fall_2017_tsds_peims_crisis_code",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "155",
+      "end_pos": "156",
+      "column_header": "fall_2017_tsds_peims_student_attribution_code",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "157",
+      "end_pos": "162",
+      "column_header": "family_portal_unique_access_code",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "163",
+      "end_pos": "163",
+      "column_header": "migrant_student_in_texas_migrant_interstate_program",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "164",
+      "end_pos": "164",
+      "column_header": "fall_2017_tsds_peims_military_connected_student_code",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "190",
+      "end_pos": "190",
+      "column_header": "new_to_texas",
+      "column_num": "44"
+    },
+    {
+      "start_pos": "191",
+      "end_pos": "200",
+      "column_header": "tx_unique_student_id",
+      "column_num": "45"
+    },
+    {
+      "start_pos": "201",
+      "end_pos": "204",
+      "column_header": "local_use_reading_language_arts",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "205",
+      "end_pos": "208",
+      "column_header": "local_use_mathematics",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "209",
+      "end_pos": "212",
+      "column_header": "local_use_writing",
+      "column_num": "48"
+    },
+    {
+      "start_pos": "213",
+      "end_pos": "216",
+      "column_header": "local_use_social_studies",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "217",
+      "end_pos": "220",
+      "column_header": "local_use_science",
+      "column_num": "50"
+    },
+    {
+      "start_pos": "221",
+      "end_pos": "225",
+      "column_header": "agency_use_reading_language_arts",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "226",
+      "end_pos": "230",
+      "column_header": "agency_use_mathematics",
+      "column_num": "52"
+    },
+    {
+      "start_pos": "231",
+      "end_pos": "235",
+      "column_header": "agency_use_writing",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "236",
+      "end_pos": "240",
+      "column_header": "agency_use_social_studies",
+      "column_num": "54"
+    },
+    {
+      "start_pos": "241",
+      "end_pos": "245",
+      "column_header": "agency_use_science",
+      "column_num": "55"
+    },
+    {
+      "start_pos": "351",
+      "end_pos": "351",
+      "column_header": "score_code_reading_language_arts",
+      "column_num": "57"
+    },
+    {
+      "start_pos": "352",
+      "end_pos": "352",
+      "column_header": "score_code_mathematics",
+      "column_num": "58"
+    },
+    {
+      "start_pos": "353",
+      "end_pos": "353",
+      "column_header": "score_code_writing",
+      "column_num": "59"
+    },
+    {
+      "start_pos": "354",
+      "end_pos": "354",
+      "column_header": "score_code_social_studies",
+      "column_num": "60"
+    },
+    {
+      "start_pos": "355",
+      "end_pos": "355",
+      "column_header": "score_code_science",
+      "column_num": "61"
+    },
+    {
+      "start_pos": "401",
+      "end_pos": "406",
+      "column_header": "reading_language_arts_reporting_category_scores",
+      "column_num": "63"
+    },
+    {
+      "start_pos": "407",
+      "end_pos": "408",
+      "column_header": "reading_language_arts_raw_score",
+      "column_num": "64"
+    },
+    {
+      "start_pos": "409",
+      "end_pos": "412",
+      "column_header": "reading_language_arts_scale_score",
+      "column_num": "65"
+    },
+    {
+      "start_pos": "414",
+      "end_pos": "414",
+      "column_header": "reading_language_arts_test_version",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "416",
+      "end_pos": "416",
+      "column_header": "translated_student_materials_reading_language_arts",
+      "column_num": "69"
+    },
+    {
+      "start_pos": "424",
+      "end_pos": "424",
+      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_num": "71"
+    },
+    {
+      "start_pos": "425",
+      "end_pos": "425",
+      "column_header": "reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_num": "72"
+    },
+    {
+      "start_pos": "426",
+      "end_pos": "426",
+      "column_header": "staar_alternate_2_progress_measure_reading_language_arts",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "429",
+      "end_pos": "429",
+      "column_header": "on_track_to_level_ii_satisfactory_academic_performance_reading_language_arts",
+      "column_num": "75"
+    },
+    {
+      "start_pos": "430",
+      "end_pos": "433",
+      "column_header": "progress_measure_previous_year_reading_language_arts_administration_date",
+      "column_num": "76"
+    },
+    {
+      "start_pos": "434",
+      "end_pos": "437",
+      "column_header": "progress_measure_previous_year_reading_language_arts_scale_score",
+      "column_num": "77"
+    },
+    {
+      "start_pos": "440",
+      "end_pos": "440",
+      "column_header": "progress_measure_previous_year_reading_language_arts_score_code",
+      "column_num": "79"
+    },
+    {
+      "start_pos": "441",
+      "end_pos": "441",
+      "column_header": "progress_measure_previous_year_reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_num": "80"
+    },
+    {
+      "start_pos": "442",
+      "end_pos": "442",
+      "column_header": "progress_measure_previous_year_reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_num": "81"
+    },
+    {
+      "start_pos": "443",
+      "end_pos": "444",
+      "column_header": "progress_measure_previous_year_reading_language_arts_tested_grade",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "651",
+      "end_pos": "651",
+      "column_header": "color_or_highlight_reading_language_arts",
+      "column_num": "84"
+    },
+    {
+      "start_pos": "652",
+      "end_pos": "652",
+      "column_header": "color_overlays_reading_language_arts",
+      "column_num": "85"
+    },
+    {
+      "start_pos": "654",
+      "end_pos": "654",
+      "column_header": "photographs_or_objects_reading_language_arts",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "655",
+      "end_pos": "655",
+      "column_header": "textured_materials_reading_language_arts",
+      "column_num": "88"
+    },
+    {
+      "start_pos": "656",
+      "end_pos": "656",
+      "column_header": "demonstrate_reading_language_arts",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "657",
+      "end_pos": "657",
+      "column_header": "raise_or_darken_outline_reading_language_arts",
+      "column_num": "90"
+    },
+    {
+      "start_pos": "658",
+      "end_pos": "658",
+      "column_header": "enlarge_reading_language_arts",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "659",
+      "end_pos": "659",
+      "column_header": "braille_reading_language_arts",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "660",
+      "end_pos": "660",
+      "column_header": "describe_images_reading_language_arts",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "661",
+      "end_pos": "661",
+      "column_header": "provide_images_or_text_separately_reading_language_arts",
+      "column_num": "94"
+    },
+    {
+      "start_pos": "662",
+      "end_pos": "662",
+      "column_header": "isolate_images_reading_language_arts",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "663",
+      "end_pos": "663",
+      "column_header": "picture_representations_reading_language_arts",
+      "column_num": "96"
+    },
+    {
+      "start_pos": "664",
+      "end_pos": "664",
+      "column_header": "reread_text_reading_language_arts",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "665",
+      "end_pos": "665",
+      "column_header": "use_calculator_manipulatives_or_mathematics_tools_reading_language_arts",
+      "column_num": "98"
+    },
+    {
+      "start_pos": "666",
+      "end_pos": "666",
+      "column_header": "provide_structured_reminders_reading_language_arts",
+      "column_num": "99"
+    },
+    {
+      "start_pos": "751",
+      "end_pos": "758",
+      "column_header": "mathematics_reporting_category_scores",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "761",
+      "end_pos": "762",
+      "column_header": "mathematics_raw_score",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "763",
+      "end_pos": "766",
+      "column_header": "mathematics_scale_score",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "768",
+      "end_pos": "768",
+      "column_header": "mathematics_test_version",
+      "column_num": "106"
+    },
+    {
+      "start_pos": "770",
+      "end_pos": "770",
+      "column_header": "translated_student_materials_mathematics",
+      "column_num": "108"
+    },
+    {
+      "start_pos": "778",
+      "end_pos": "778",
+      "column_header": "mathematics_level_ii_satisfactory_academic_performance",
+      "column_num": "110"
+    },
+    {
+      "start_pos": "779",
+      "end_pos": "779",
+      "column_header": "mathematics_level_iii_accomplished_academic_performance",
+      "column_num": "111"
+    },
+    {
+      "start_pos": "780",
+      "end_pos": "780",
+      "column_header": "staar_alternate_2_progress_measure_mathematics",
+      "column_num": "112"
+    },
+    {
+      "start_pos": "782",
+      "end_pos": "782",
+      "column_header": "on_track_to_level_ii_satisfactory_academic_performance_mathematics",
+      "column_num": "114"
+    },
+    {
+      "start_pos": "783",
+      "end_pos": "786",
+      "column_header": "progress_measure_previous_year_mathematics_administration_date",
+      "column_num": "115"
+    },
+    {
+      "start_pos": "787",
+      "end_pos": "790",
+      "column_header": "progress_measure_previous_year_mathematics_scale_score",
+      "column_num": "116"
+    },
+    {
+      "start_pos": "793",
+      "end_pos": "793",
+      "column_header": "progress_measure_previous_year_mathematics_score_code",
+      "column_num": "118"
+    },
+    {
+      "start_pos": "794",
+      "end_pos": "794",
+      "column_header": "progress_measure_previous_year_mathematics_level_ii_satisfactory_academic_performance",
+      "column_num": "119"
+    },
+    {
+      "start_pos": "795",
+      "end_pos": "795",
+      "column_header": "progress_measure_previous_year_mathematics_level_iii_accomplished_academic_performance",
+      "column_num": "120"
+    },
+    {
+      "start_pos": "796",
+      "end_pos": "797",
+      "column_header": "progress_measure_previous_year_mathematics_tested_grade",
+      "column_num": "121"
+    },
+    {
+      "start_pos": "1001",
+      "end_pos": "1001",
+      "column_header": "color_or_highlight_mathematics",
+      "column_num": "123"
+    },
+    {
+      "start_pos": "1002",
+      "end_pos": "1002",
+      "column_header": "color_overlays_mathematics",
+      "column_num": "124"
+    },
+    {
+      "start_pos": "1004",
+      "end_pos": "1004",
+      "column_header": "photographs_or_objects_mathematics",
+      "column_num": "126"
+    },
+    {
+      "start_pos": "1005",
+      "end_pos": "1005",
+      "column_header": "textured_materials_mathematics",
+      "column_num": "127"
+    },
+    {
+      "start_pos": "1006",
+      "end_pos": "1006",
+      "column_header": "demonstrate_mathematics",
+      "column_num": "128"
+    },
+    {
+      "start_pos": "1007",
+      "end_pos": "1007",
+      "column_header": "raise_or_darken_outline_mathematics",
+      "column_num": "129"
+    },
+    {
+      "start_pos": "1008",
+      "end_pos": "1008",
+      "column_header": "enlarge_mathematics",
+      "column_num": "130"
+    },
+    {
+      "start_pos": "1009",
+      "end_pos": "1009",
+      "column_header": "braille_mathematics",
+      "column_num": "131"
+    },
+    {
+      "start_pos": "1010",
+      "end_pos": "1010",
+      "column_header": "describe_images_mathematics",
+      "column_num": "132"
+    },
+    {
+      "start_pos": "1011",
+      "end_pos": "1011",
+      "column_header": "provide_images_or_text_separately_mathematics",
+      "column_num": "133"
+    },
+    {
+      "start_pos": "1012",
+      "end_pos": "1012",
+      "column_header": "isolate_images_mathematics",
+      "column_num": "134"
+    },
+    {
+      "start_pos": "1013",
+      "end_pos": "1013",
+      "column_header": "picture_representations_mathematics",
+      "column_num": "135"
+    },
+    {
+      "start_pos": "1014",
+      "end_pos": "1014",
+      "column_header": "reread_text_mathematics",
+      "column_num": "136"
+    },
+    {
+      "start_pos": "1015",
+      "end_pos": "1015",
+      "column_header": "use_calculator_manipulatives_or_mathematics_tools_mathematics",
+      "column_num": "137"
+    },
+    {
+      "start_pos": "1016",
+      "end_pos": "1016",
+      "column_header": "provide_structured_reminders_mathematics",
+      "column_num": "138"
+    },
+    {
+      "start_pos": "1101",
+      "end_pos": "1106",
+      "column_header": "writing_reporting_category_scores",
+      "column_num": "140"
+    },
+    {
+      "start_pos": "1107",
+      "end_pos": "1108",
+      "column_header": "writing_raw_score",
+      "column_num": "141"
+    },
+    {
+      "start_pos": "1109",
+      "end_pos": "1112",
+      "column_header": "writing_scale_score",
+      "column_num": "142"
+    },
+    {
+      "start_pos": "1114",
+      "end_pos": "1114",
+      "column_header": "writing_test_version",
+      "column_num": "144"
+    },
+    {
+      "start_pos": "1116",
+      "end_pos": "1116",
+      "column_header": "translated_student_materials_writing",
+      "column_num": "146"
+    },
+    {
+      "start_pos": "1124",
+      "end_pos": "1124",
+      "column_header": "writing_level_ii_satisfactory_academic_performance",
+      "column_num": "148"
+    },
+    {
+      "start_pos": "1125",
+      "end_pos": "1125",
+      "column_header": "writing_level_iii_accomplished_academic_performance",
+      "column_num": "149"
+    },
+    {
+      "start_pos": "1401",
+      "end_pos": "1401",
+      "column_header": "color_or_highlight_writing",
+      "column_num": "151"
+    },
+    {
+      "start_pos": "1402",
+      "end_pos": "1402",
+      "column_header": "color_overlays_writing",
+      "column_num": "152"
+    },
+    {
+      "start_pos": "1404",
+      "end_pos": "1404",
+      "column_header": "photographs_or_objects_writing",
+      "column_num": "154"
+    },
+    {
+      "start_pos": "1405",
+      "end_pos": "1405",
+      "column_header": "textured_materials_writing",
+      "column_num": "155"
+    },
+    {
+      "start_pos": "1406",
+      "end_pos": "1406",
+      "column_header": "demonstrate_writing",
+      "column_num": "156"
+    },
+    {
+      "start_pos": "1407",
+      "end_pos": "1407",
+      "column_header": "raise_or_darken_outline_writing",
+      "column_num": "157"
+    },
+    {
+      "start_pos": "1408",
+      "end_pos": "1408",
+      "column_header": "enlarge_writing",
+      "column_num": "158"
+    },
+    {
+      "start_pos": "1409",
+      "end_pos": "1409",
+      "column_header": "braille_writing",
+      "column_num": "159"
+    },
+    {
+      "start_pos": "1410",
+      "end_pos": "1410",
+      "column_header": "describe_images_writing",
+      "column_num": "160"
+    },
+    {
+      "start_pos": "1411",
+      "end_pos": "1411",
+      "column_header": "provide_images_or_text_separately_writing",
+      "column_num": "161"
+    },
+    {
+      "start_pos": "1412",
+      "end_pos": "1412",
+      "column_header": "isolate_images_writing",
+      "column_num": "162"
+    },
+    {
+      "start_pos": "1413",
+      "end_pos": "1413",
+      "column_header": "picture_representations_writing",
+      "column_num": "163"
+    },
+    {
+      "start_pos": "1414",
+      "end_pos": "1414",
+      "column_header": "reread_text_writing",
+      "column_num": "164"
+    },
+    {
+      "start_pos": "1415",
+      "end_pos": "1415",
+      "column_header": "use_calculator_manipulatives_or_mathematics_tools_writing",
+      "column_num": "165"
+    },
+    {
+      "start_pos": "1416",
+      "end_pos": "1416",
+      "column_header": "provide_structured_reminders_writing",
+      "column_num": "166"
+    },
+    {
+      "start_pos": "1501",
+      "end_pos": "1508",
+      "column_header": "social_studies_reporting_category_scores",
+      "column_num": "168"
+    },
+    {
+      "start_pos": "1509",
+      "end_pos": "1510",
+      "column_header": "social_studies_raw_score",
+      "column_num": "169"
+    },
+    {
+      "start_pos": "1511",
+      "end_pos": "1514",
+      "column_header": "social_studies_scale_score",
+      "column_num": "170"
+    },
+    {
+      "start_pos": "1516",
+      "end_pos": "1516",
+      "column_header": "social_studies_test_version",
+      "column_num": "172"
+    },
+    {
+      "start_pos": "1518",
+      "end_pos": "1518",
+      "column_header": "translated_student_materials_social_studies",
+      "column_num": "174"
+    },
+    {
+      "start_pos": "1526",
+      "end_pos": "1526",
+      "column_header": "social_studies_level_ii_satisfactory_academic_performance",
+      "column_num": "176"
+    },
+    {
+      "start_pos": "1527",
+      "end_pos": "1527",
+      "column_header": "social_studies_level_iii_accomplished_academic_performance",
+      "column_num": "177"
+    },
+    {
+      "start_pos": "1801",
+      "end_pos": "1801",
+      "column_header": "color_or_highlight_social_studies",
+      "column_num": "179"
+    },
+    {
+      "start_pos": "1802",
+      "end_pos": "1802",
+      "column_header": "color_overlays_social_studies",
+      "column_num": "180"
+    },
+    {
+      "start_pos": "1804",
+      "end_pos": "1804",
+      "column_header": "photographs_or_objects_social_studies",
+      "column_num": "182"
+    },
+    {
+      "start_pos": "1805",
+      "end_pos": "1805",
+      "column_header": "textured_materials_social_studies",
+      "column_num": "183"
+    },
+    {
+      "start_pos": "1806",
+      "end_pos": "1806",
+      "column_header": "demonstrate_social_studies",
+      "column_num": "184"
+    },
+    {
+      "start_pos": "1807",
+      "end_pos": "1807",
+      "column_header": "raise_or_darken_outline_social_studies",
+      "column_num": "185"
+    },
+    {
+      "start_pos": "1808",
+      "end_pos": "1808",
+      "column_header": "enlarge_social_studies",
+      "column_num": "186"
+    },
+    {
+      "start_pos": "1809",
+      "end_pos": "1809",
+      "column_header": "braille_social_studies",
+      "column_num": "187"
+    },
+    {
+      "start_pos": "1810",
+      "end_pos": "1810",
+      "column_header": "describe_images_social_studies",
+      "column_num": "188"
+    },
+    {
+      "start_pos": "1811",
+      "end_pos": "1811",
+      "column_header": "provide_images_or_text_separately_social_studies",
+      "column_num": "189"
+    },
+    {
+      "start_pos": "1812",
+      "end_pos": "1812",
+      "column_header": "isolate_images_social_studies",
+      "column_num": "190"
+    },
+    {
+      "start_pos": "1813",
+      "end_pos": "1813",
+      "column_header": "picture_representations_social_studies",
+      "column_num": "191"
+    },
+    {
+      "start_pos": "1814",
+      "end_pos": "1814",
+      "column_header": "reread_text_social_studies",
+      "column_num": "192"
+    },
+    {
+      "start_pos": "1815",
+      "end_pos": "1815",
+      "column_header": "use_calculator_manipulatives_or_mathematics_tools_social_studies",
+      "column_num": "193"
+    },
+    {
+      "start_pos": "1816",
+      "end_pos": "1816",
+      "column_header": "provide_structured_reminders_social_studies",
+      "column_num": "194"
+    },
+    {
+      "start_pos": "1901",
+      "end_pos": "1908",
+      "column_header": "science_reporting_category_scores",
+      "column_num": "196"
+    },
+    {
+      "start_pos": "1909",
+      "end_pos": "1910",
+      "column_header": "science_raw_score",
+      "column_num": "197"
+    },
+    {
+      "start_pos": "1911",
+      "end_pos": "1914",
+      "column_header": "science_scale_score",
+      "column_num": "198"
+    },
+    {
+      "start_pos": "1916",
+      "end_pos": "1916",
+      "column_header": "science_test_version",
+      "column_num": "200"
+    },
+    {
+      "start_pos": "1918",
+      "end_pos": "1918",
+      "column_header": "translated_student_materials_science",
+      "column_num": "202"
+    },
+    {
+      "start_pos": "1926",
+      "end_pos": "1926",
+      "column_header": "science_level_ii_satisfactory_academic_performance",
+      "column_num": "204"
+    },
+    {
+      "start_pos": "1927",
+      "end_pos": "1927",
+      "column_header": "science_level_iii_accomplished_academic_performance",
+      "column_num": "205"
+    },
+    {
+      "start_pos": "2201",
+      "end_pos": "2201",
+      "column_header": "color_or_highlight_science",
+      "column_num": "207"
+    },
+    {
+      "start_pos": "2202",
+      "end_pos": "2202",
+      "column_header": "color_overlays_science",
+      "column_num": "208"
+    },
+    {
+      "start_pos": "2204",
+      "end_pos": "2204",
+      "column_header": "photographs_or_objects_science",
+      "column_num": "210"
+    },
+    {
+      "start_pos": "2205",
+      "end_pos": "2205",
+      "column_header": "textured_materials_science",
+      "column_num": "211"
+    },
+    {
+      "start_pos": "2206",
+      "end_pos": "2206",
+      "column_header": "demonstrate_science",
+      "column_num": "212"
+    },
+    {
+      "start_pos": "2207",
+      "end_pos": "2207",
+      "column_header": "raise_or_darken_outline_science",
+      "column_num": "213"
+    },
+    {
+      "start_pos": "2208",
+      "end_pos": "2208",
+      "column_header": "enlarge_science",
+      "column_num": "214"
+    },
+    {
+      "start_pos": "2209",
+      "end_pos": "2209",
+      "column_header": "braille_science",
+      "column_num": "215"
+    },
+    {
+      "start_pos": "2210",
+      "end_pos": "2210",
+      "column_header": "describe_images_science",
+      "column_num": "216"
+    },
+    {
+      "start_pos": "2211",
+      "end_pos": "2211",
+      "column_header": "provide_images_or_text_separately_science",
+      "column_num": "217"
+    },
+    {
+      "start_pos": "2212",
+      "end_pos": "2212",
+      "column_header": "isolate_images_science",
+      "column_num": "218"
+    },
+    {
+      "start_pos": "2213",
+      "end_pos": "2213",
+      "column_header": "picture_representations_science",
+      "column_num": "219"
+    },
+    {
+      "start_pos": "2214",
+      "end_pos": "2214",
+      "column_header": "reread_text_science",
+      "column_num": "220"
+    },
+    {
+      "start_pos": "2215",
+      "end_pos": "2215",
+      "column_header": "use_calculator_manipulatives_or_mathematics_tools_science",
+      "column_num": "221"
+    },
+    {
+      "start_pos": "2216",
+      "end_pos": "2216",
+      "column_header": "provide_structured_reminders_science",
+      "column_num": "222"
+    },
+    {
+      "start_pos": "2531",
+      "end_pos": "2539",
+      "column_header": "previous_year_reading_language_arts_county_district_campus_number",
+      "column_num": "224"
+    },
+    {
+      "start_pos": "2542",
+      "end_pos": "2542",
+      "column_header": "previous_year_reading_language_arts_score_code",
+      "column_num": "226"
+    },
+    {
+      "start_pos": "2543",
+      "end_pos": "2543",
+      "column_header": "previous_year_reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_num": "227"
+    },
+    {
+      "start_pos": "2544",
+      "end_pos": "2544",
+      "column_header": "previous_year_reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_num": "228"
+    },
+    {
+      "start_pos": "2545",
+      "end_pos": "2548",
+      "column_header": "previous_year_reading_language_arts_scale_score",
+      "column_num": "229"
+    },
+    {
+      "start_pos": "2549",
+      "end_pos": "2550",
+      "column_header": "previous_year_reading_language_arts_tested_grade",
+      "column_num": "230"
+    },
+    {
+      "start_pos": "2651",
+      "end_pos": "2659",
+      "column_header": "previous_year_mathematics_county_district_campus_number",
+      "column_num": "232"
+    },
+    {
+      "start_pos": "2662",
+      "end_pos": "2662",
+      "column_header": "previous_year_mathematics_score_code",
+      "column_num": "234"
+    },
+    {
+      "start_pos": "2663",
+      "end_pos": "2663",
+      "column_header": "previous_year_mathematics_level_ii_satisfactory_academic_performance",
+      "column_num": "235"
+    },
+    {
+      "start_pos": "2664",
+      "end_pos": "2664",
+      "column_header": "previous_year_mathematics_level_iii_accomplished_academic_performance",
+      "column_num": "236"
+    },
+    {
+      "start_pos": "2665",
+      "end_pos": "2668",
+      "column_header": "previous_year_mathematics_scale_score",
+      "column_num": "237"
+    },
+    {
+      "start_pos": "2669",
+      "end_pos": "2670",
+      "column_header": "previous_year_mathematics_tested_grade",
+      "column_num": "238"
+    },
+    {
+      "start_pos": "2741",
+      "end_pos": "2749",
+      "column_header": "previous_year_writing_county_district_campus_number",
+      "column_num": "240"
+    },
+    {
+      "start_pos": "2752",
+      "end_pos": "2752",
+      "column_header": "previous_year_writing_score_code",
+      "column_num": "242"
+    },
+    {
+      "start_pos": "2753",
+      "end_pos": "2753",
+      "column_header": "previous_year_writing_level_ii_satisfactory_academic_performance",
+      "column_num": "243"
+    },
+    {
+      "start_pos": "2754",
+      "end_pos": "2754",
+      "column_header": "previous_year_writing_level_iii_accomplished_academic_performance",
+      "column_num": "244"
+    },
+    {
+      "start_pos": "2755",
+      "end_pos": "2758",
+      "column_header": "previous_year_writing_scale_score",
+      "column_num": "245"
+    },
+    {
+      "start_pos": "2759",
+      "end_pos": "2760",
+      "column_header": "previous_year_writing_tested_grade",
+      "column_num": "246"
+    },
+    {
+      "start_pos": "2771",
+      "end_pos": "2779",
+      "column_header": "previous_year_social_studies_county_district_campus_number",
+      "column_num": "248"
+    },
+    {
+      "start_pos": "2782",
+      "end_pos": "2782",
+      "column_header": "previous_year_social_studies_score_code",
+      "column_num": "250"
+    },
+    {
+      "start_pos": "2783",
+      "end_pos": "2783",
+      "column_header": "previous_year_social_studies_level_ii_satisfactory_academic_performance",
+      "column_num": "251"
+    },
+    {
+      "start_pos": "2784",
+      "end_pos": "2784",
+      "column_header": "previous_year_social_studies_level_iii_accomplished_academic_performance",
+      "column_num": "252"
+    },
+    {
+      "start_pos": "2785",
+      "end_pos": "2788",
+      "column_header": "previous_year_social_studies_scale_score",
+      "column_num": "253"
+    },
+    {
+      "start_pos": "2789",
+      "end_pos": "2790",
+      "column_header": "previous_year_social_studies_tested_grade",
+      "column_num": "254"
+    },
+    {
+      "start_pos": "2801",
+      "end_pos": "2809",
+      "column_header": "previous_year_science_county_district_campus_number",
+      "column_num": "256"
+    },
+    {
+      "start_pos": "2812",
+      "end_pos": "2812",
+      "column_header": "previous_year_science_score_code",
+      "column_num": "258"
+    },
+    {
+      "start_pos": "2813",
+      "end_pos": "2813",
+      "column_header": "previous_year_science_level_ii_satisfactory_academic_performance",
+      "column_num": "259"
+    },
+    {
+      "start_pos": "2814",
+      "end_pos": "2814",
+      "column_header": "previous_year_science_level_iii_accomplished_academic_performance",
+      "column_num": "260"
+    },
+    {
+      "start_pos": "2815",
+      "end_pos": "2818",
+      "column_header": "previous_year_science_scale_score",
+      "column_num": "261"
+    },
+    {
+      "start_pos": "2819",
+      "end_pos": "2820",
+      "column_header": "previous_year_science_tested_grade",
+      "column_num": "262"
+    },
+    {
+      "start_pos": "4000",
+      "end_pos": "4000",
+      "column_header": "period",
+      "column_num": "264"
+    }
+  ]
+}
