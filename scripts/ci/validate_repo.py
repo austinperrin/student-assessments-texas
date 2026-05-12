@@ -5,11 +5,11 @@ import sys
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def run(script_name: str) -> int:
-    script_path = REPO_ROOT / "scripts" / script_name
+    script_path = REPO_ROOT / "scripts" / "ci" / script_name
     result = subprocess.run([sys.executable, str(script_path)], cwd=REPO_ROOT)
     return result.returncode
 
@@ -31,4 +31,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

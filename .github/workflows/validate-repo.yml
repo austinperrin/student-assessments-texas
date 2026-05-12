@@ -23,5 +23,4 @@ jobs:
           python-version: "3.11"
 
       - name: Validate repository
-        run: python scripts/validate_repo.py
-
+        run: python scripts/ci/validate_repo.py

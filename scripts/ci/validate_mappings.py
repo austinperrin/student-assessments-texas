@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 FAMILY_DIRS = [
     REPO_ROOT / "staar",
     REPO_ROOT / "telpas",
@@ -16,6 +16,7 @@ FAMILY_DIRS = [
 ]
 SCHOOL_YEAR_RE = re.compile(r"^\d{4}-\d{4}$")
 INT_STRING_RE = re.compile(r"^\d+$")
+HEADER_RE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*$")
 
 
 def iter_mapping_files() -> list[Path]:
@@ -55,7 +56,6 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
 
     seen_headers: set[str] = set()
     duplicate_headers: set[str] = set()
-
     for idx, field in enumerate(mapped_fields):
         if not isinstance(field, dict):
             errors.append(f"{path}: mapped_fields[{idx}] must be an object")
@@ -66,22 +66,35 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
                 errors.append(f"{path}: mapped_fields[{idx}].{key} must be a non-empty string")
 
         column_num = field.get("column_num")
-        if "column_num" in field and (not isinstance(column_num, str)):
+        numeric_values: dict[str, int] = {}
+        if "column_num" in field and not isinstance(column_num, str):
             errors.append(f"{path}: mapped_fields[{idx}].column_num must be a string when present")
 
-        for key in ["start_pos", "end_pos"]:
+        for key in ["start_pos", "end_pos", "column_num"]:
             value = field.get(key)
-            if isinstance(value, str) and not INT_STRING_RE.match(value):
-                errors.append(f"{path}: mapped_fields[{idx}].{key} must contain only digits")
-
-        if isinstance(column_num, str) and column_num.strip() and not INT_STRING_RE.match(column_num):
-            errors.append(f"{path}: mapped_fields[{idx}].column_num must contain only digits when populated")
+            if isinstance(value, str) and value.strip():
+                if not INT_STRING_RE.match(value):
+                    errors.append(f"{path}: mapped_fields[{idx}].{key} must contain only digits")
+                else:
+                    numeric_values[key] = int(value)
 
         header = field.get("column_header")
         if isinstance(header, str):
+            if not HEADER_RE.match(header):
+                errors.append(
+                    f"{path}: mapped_fields[{idx}].column_header '{header}' must be lowercase snake case"
+                )
             if header in seen_headers:
                 duplicate_headers.add(header)
             seen_headers.add(header)
+
+        start_pos = numeric_values.get("start_pos")
+        end_pos = numeric_values.get("end_pos")
+
+        if start_pos is not None and end_pos is not None and end_pos < start_pos:
+            errors.append(
+                f"{path}: mapped_fields[{idx}] has end_pos '{end_pos}' before start_pos '{start_pos}'"
+            )
 
     for header in sorted(duplicate_headers):
         errors.append(f"{path}: duplicate column_header '{header}'")

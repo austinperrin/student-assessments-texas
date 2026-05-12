@@ -40,7 +40,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["start_pos", "end_pos", "column_header", "column_num"],
+        "required": ["start_pos", "end_pos", "column_header"],
         "properties": {
           "start_pos": {
             "type": "string",
@@ -62,4 +62,3 @@
   },
   "additionalProperties": true
 }
-
