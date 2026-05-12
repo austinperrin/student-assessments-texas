@@ -41,14 +41,14 @@ Do not normalize fields across years when TEA changed the field concept rather t
 
 ## Working Standards
 
-- use the current-year PDF as the source of truth
+- use the current-year official online documentation as the source of truth, and keep the local PDF archive aligned to it
 - do not infer changes from neighboring years unless the current PDF is unclear
 - do not create local `tmp_*.txt` or similar extracted scratch files in the repo when reviewing PDFs
 - validate changes after editing, especially when touching multiple mapping files or shared docs
 
 ## Tooling Standards
 
-- use the shared scripts in `scripts/` for repo-wide checks
+- use the shared scripts in `scripts/`, especially `scripts/ci/` for repo-wide checks
 - keep shared rules and contracts in `configs/`
 - prefer small, reviewable repo scaffolding over heavyweight tooling that does not fit the project
 - use ADRs for structural or long-term platform decisions rather than burying them in commits alone

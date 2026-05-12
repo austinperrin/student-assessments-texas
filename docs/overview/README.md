@@ -14,6 +14,7 @@ mapping files.
 - apply stable normalization standards where the field meaning truly matches
 - keep family-level documentation and repository standards aligned
 - maintain a clean local archive of TEA and Texas Assessments source documents
+- keep the assessment corpus grouped under `assessments/` so future vendors can be added without reshaping the repo again
 
 ## Planned Direction
 
@@ -25,7 +26,7 @@ Expected future expansion areas include:
 - `services/` for application or runtime services
 - `packages/` for shared libraries, schemas, or reusable tooling
 - `infra/` for deployment, runtime, or environment artifacts
-- `scripts/` for repository automation and validation workflows
+- `scripts/` for repository automation grouped by purpose, including CI validation under `scripts/ci/`
 
 Until those areas are actively used, the mapping families and their supporting
 docs remain the primary working surface of the repository.

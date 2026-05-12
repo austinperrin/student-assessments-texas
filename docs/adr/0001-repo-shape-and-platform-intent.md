@@ -21,8 +21,10 @@ That future direction creates a structural tension:
 
 ## Decision
 
-- Keep the existing assessment-family folders as the primary source-of-truth
-  data structure for mappings.
+- Keep `assessments/` as the primary source-of-truth root for canonical
+  assessment mappings.
+- Group assessment assets by vendor or source system under `assessments/`
+  so future non-TEA vendors can be added without another top-level reorganization.
 - Treat the repository as data-first today and platform-ready for later growth.
 - Reserve top-level areas for future implementation work:
   - `services/` for application or runtime services
@@ -37,6 +39,8 @@ That future direction creates a structural tension:
 
 - Positive:
   - preserves the current mapping workflow without unnecessary app complexity
+  - keeps canonical assessment assets decoupled from any single runtime surface
+  - makes future vendor expansion easier to introduce incrementally
   - reduces future restructuring when services or packages are introduced
   - makes documentation, standards, and tooling easier to scale
 - Tradeoffs:
@@ -55,6 +59,7 @@ That future direction creates a structural tension:
 ## Follow-Up
 
 - add lightweight placeholders for future `services/` and `packages/`
+- keep `assessments/` and vendor-level docs aligned as new vendors or families are introduced
 - continue expanding documentation for standards, roadmap, and ADR usage
 - record future runtime or framework choices in separate ADRs when they become concrete
 

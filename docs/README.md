@@ -8,6 +8,8 @@ The TEA and Texas Assessments PDF archive is stored under:
 
 - [tea-data-file-formats-archive](./tea-data-file-formats-archive/)
 
+The official online TEA or Texas Assessments documentation remains the source of truth. The local archive is a synced working reference and should be kept current with the online source whenever a document changes.
+
 ## Standards
 
 Shared human-readable standards live under:
@@ -41,6 +43,6 @@ Examples:
 - `docs/tea-data-file-formats-archive/2018/2018-staar-eoc-data-file-format.pdf`
 - `docs/tea-data-file-formats-archive/2024/2024-tfar-data-file.pdf`
 
-The source of truth for each mapping file's official document link should remain the `metadata.pdf_url` value stored in the JSON.
+The authoritative source link for each mapping file should remain the `metadata.pdf_url` value stored in the JSON.
 
 See [index.md](./index.md) for a lightweight directory of what lives in this folder.

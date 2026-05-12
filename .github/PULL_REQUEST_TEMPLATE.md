@@ -8,7 +8,7 @@
 
 ## Validation
 
-- [ ] Ran `python scripts/validate_repo.py`
+- [ ] Ran `python scripts/ci/validate_repo.py`
 - [ ] Confirmed updated mapping files parse as valid JSON
 - [ ] Confirmed `column_header` values remain unique where files changed
 - [ ] Confirmed documentation changes use repo-relative links
@@ -18,4 +18,3 @@
 
 - [ ] Verified changes against the current-year source PDF(s)
 - [ ] Preserved year-specific terminology where the source meaning differs
-
