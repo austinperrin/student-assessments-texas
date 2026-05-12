@@ -11,3 +11,6 @@ Potential future uses:
 - ingestion services for fixed-width files
 - validation or transformation services
 - APIs or UI backends that use the mapping files operationally
+
+Service code should consume the canonical corpus under `assessments/` rather
+than becoming the source-of-truth location for mappings.
