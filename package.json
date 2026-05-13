@@ -1,0 +1,41 @@
+{
+  "name": "texas-assessments",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fixed-width mapping files and repository tooling for Texas assessment data layouts.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write \"README.md\" \"AGENTS.md\" \".github/**/*.{md,yml,yaml}\" \"docs/**/*.md\" \"scripts/**/*.md\" \"assessments/**/*.json\" \"package.json\" \"package-lock.json\" \"commitlint.config.cjs\" \".prettierrc.json\"",
+    "format:check": "prettier --check \"README.md\" \"AGENTS.md\" \".github/**/*.{md,yml,yaml}\" \"docs/**/*.md\" \"scripts/**/*.md\" \"assessments/**/*.json\" \"package.json\" \"package-lock.json\" \"commitlint.config.cjs\" \".prettierrc.json\"",
+    "lint:repo": "python scripts/ci/validate_repo.py",
+    "lint": "npm run format:check && npm run lint:repo",
+    "commitlint": "commitlint --edit"
+  },
+  "lint-staged": {
+    "{README.md,AGENTS.md,package.json,package-lock.json,commitlint.config.cjs,.prettierrc.json}": [
+      "prettier --write"
+    ],
+    ".github/**/*.{md,yml,yaml}": [
+      "prettier --write"
+    ],
+    "assessments/**/*.json": [
+      "prettier --write"
+    ],
+    "docs/**/*.md": [
+      "prettier --write"
+    ],
+    "scripts/**/*.md": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.1.0",
+    "@commitlint/config-conventional": "20.0.0",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.0",
+    "prettier": "3.6.2"
+  }
+}

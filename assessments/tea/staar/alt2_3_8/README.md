@@ -20,6 +20,7 @@ Examples:
 Each mapping file should contain:
 
 - `metadata`
+- `filename_patterns` when the file also documents supported delivered filename styles
 - `mapped_fields`
 
 The `metadata` section is expected to include:
@@ -30,6 +31,11 @@ The `metadata` section is expected to include:
 - `school_year`
 - `administration_periods`
 - `pdf_url`
+
+When `filename_patterns` is present, each entry should include:
+
+- `regex`
+- `references`
 
 The `mapped_fields` section should contain the fixed-width column definitions:
 

@@ -13,6 +13,53 @@
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-staar-3-8-data-file-format.pdf"
     }
   ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0[34]18_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1518_3-8_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0518_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0618_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^0418_G0?[58]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^0518_G0?[3-8]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^0618_G0?[58]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    }
+  ],
   "mapped_fields": [
     {
       "start_pos": "1",

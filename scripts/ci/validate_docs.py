@@ -15,7 +15,7 @@ FORBIDDEN_PATTERNS = [
     re.compile(r"/home/"),
     re.compile(r"file://", re.IGNORECASE),
 ]
-SKIP_PARTS = {".git", ".venv", ".tmp", "focus_file_parsers"}
+SKIP_PARTS = {".git", ".venv", ".tmp", "focus_file_parsers", "node_modules"}
 
 
 def iter_markdown_files() -> list[Path]:

@@ -14,6 +14,60 @@
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2015-staar-3-8-data-file-format.pdf"
     }
   ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0[34]15_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1515_3-8_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0515_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0615_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^0315_G0?[58]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^0415_G0?[58]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^0515_G0?[3-8]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^0615_G0?[58]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    }
+  ],
   "mapped_fields": [
     {
       "start_pos": "1",

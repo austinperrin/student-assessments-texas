@@ -21,6 +21,8 @@ That file is an Interim and Beginning of Year student-results layout and should 
 Each mapping file in this folder should follow the same structure used elsewhere in the repo:
 
 - `metadata`
+- `filename_patterns` when the file also documents supported delivered filename styles
 - `mapped_fields`
 
 Blank fields from the published layouts should be omitted from `mapped_fields`, while `column_num` should preserve the source layout order including omitted blanks.
+When `filename_patterns` is present, each entry should include a `regex` string and a `references` array that ties the pattern back to source documentation.

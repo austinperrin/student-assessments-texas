@@ -13,6 +13,47 @@
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-staar-eoc-data-file-format.pdf"
     }
   ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_1321_EOC_(A1|BI|E1|E2|US)(?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1522_EOC_(A1|BI|E1|E2|US)(?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1622_EOC_(A1|BI|E1|E2|US)(?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^1321_(A1|BI|E1|E2|US)_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^1522_(A1|BI|E1|E2|US)_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^1622_(A1|BI|E1|E2|US)_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    }
+  ],
   "mapped_fields": [
     {
       "start_pos": "1",

@@ -5,10 +5,41 @@
       "date_created": "2026-05-07",
       "file_name": "2024-staar-3-8-fixed-width-mapping.json",
       "school_year": "2023-2024",
-      "administration_periods": [
-        { "code": "0524", "label": "Spring 2024" }
-      ],
+      "administration_periods": [{ "code": "0524", "label": "Spring 2024" }],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-staar-3-8-data-file.pdf"
+    }
+  ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0[34]24_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1524_3-8_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0524_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0624_5_8_G0[58](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^0524_G0?[3-8]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
     }
   ],
   "mapped_fields": [

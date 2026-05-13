@@ -100,6 +100,40 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
         errors.append(f"{path}: duplicate column_header '{header}'")
 
 
+def validate_filename_patterns(path: Path, filename_patterns: object, errors: list[str]) -> None:
+    if filename_patterns is None:
+        return
+
+    if not isinstance(filename_patterns, list):
+        errors.append(f"{path}: filename_patterns must be an array when present")
+        return
+
+    for idx, pattern in enumerate(filename_patterns):
+        if not isinstance(pattern, dict):
+            errors.append(f"{path}: filename_patterns[{idx}] must be an object")
+            continue
+
+        regex = pattern.get("regex")
+        if not isinstance(regex, str) or not regex.strip():
+            errors.append(f"{path}: filename_patterns[{idx}].regex must be a non-empty string")
+        else:
+            try:
+                re.compile(regex)
+            except re.error as exc:
+                errors.append(f"{path}: filename_patterns[{idx}].regex is invalid ({exc})")
+
+        references = pattern.get("references")
+        if not isinstance(references, list) or not references:
+            errors.append(f"{path}: filename_patterns[{idx}].references must be a non-empty array")
+            continue
+
+        for ref_idx, reference in enumerate(references):
+            if not isinstance(reference, str) or not reference.strip():
+                errors.append(
+                    f"{path}: filename_patterns[{idx}].references[{ref_idx}] must be a non-empty string"
+                )
+
+
 def main() -> int:
     errors: list[str] = []
     files = iter_mapping_files()
@@ -120,6 +154,7 @@ def main() -> int:
             continue
 
         validate_metadata(path, data.get("metadata"), errors)
+        validate_filename_patterns(path, data.get("filename_patterns"), errors)
         validate_mapped_fields(path, data.get("mapped_fields"), errors)
 
     if errors:

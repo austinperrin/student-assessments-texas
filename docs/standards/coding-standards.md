@@ -11,13 +11,14 @@ This repository is mostly a mapping and documentation repository rather than an 
 
 ## Mapping File Standards
 
-- keep the top-level JSON shape consistent: `metadata` plus `mapped_fields`
+- keep the top-level JSON shape consistent: `metadata` plus `mapped_fields`, with optional `filename_patterns`
 - store mapping values as strings
 - omit blank source fields from `mapped_fields`
 - preserve source ordering in `column_num`, including gaps caused by omitted blanks
 - use lowercase snake case for `column_header`
 - do not allow duplicate `column_header` values in a file
 - remove note spillover, wrapped-title spillover, and OCR debris from field names
+- when `filename_patterns` is present, each entry should contain a `regex` string plus a `references` array of source-truth strings
 
 ## Normalization Standards
 

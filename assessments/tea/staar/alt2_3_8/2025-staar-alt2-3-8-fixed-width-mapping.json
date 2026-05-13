@@ -5,10 +5,33 @@
       "date_created": "2026-05-08",
       "file_name": "2025-staar-alt2-3-8-fixed-width-mapping.json",
       "school_year": "2024-2025",
-      "administration_periods": [
-        { "code": "0425", "label": "Spring 2025" }
-      ],
+      "administration_periods": [{ "code": "0425", "label": "Spring 2025" }],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-staar-alt2-3-8-data-file-layout.pdf"
+    }
+  ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0425_ALT_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_0425_3-8ALT_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^0425_ALT_G0?[3-8]_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^SDR_STAAR_ALT_2025_\\d{8}(?:\\.txt)?$",
+      "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     }
   ],
   "mapped_fields": [

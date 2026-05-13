@@ -38,13 +38,14 @@ Use the family-specific `AGENTS.md` files inside those folders for family-level 
 
 ## Shared Mapping Rules
 
-- preserve the repository-wide JSON shape of `metadata` plus `mapped_fields`
+- preserve the repository-wide JSON shape of `metadata` plus `mapped_fields`, with optional top-level `filename_patterns`
 - store mapping values as strings
 - omit blank source fields from `mapped_fields`
 - preserve source ordering in `column_num`, including gaps caused by omitted blank fields
 - use lowercase snake case for `column_header`
 - remove note spillover, wrapped-title spillover, and OCR debris from field names
 - do not allow duplicate `column_header` values in a file
+- when `filename_patterns` is present, store it as an array of objects with `regex` and `references`
 
 ## Shared Normalization Rules
 
