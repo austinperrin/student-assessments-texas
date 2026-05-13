@@ -17,10 +17,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      - name: Install repo tooling
+        run: npm install --no-audit --no-fund
+
       - name: Validate repository
-        run: python scripts/ci/validate_repo.py
+        run: npm run lint

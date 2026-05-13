@@ -139,6 +139,27 @@ The current baseline validates:
 - lowercase snake case headers and basic numeric position sanity checks
 - documentation for machine-specific absolute paths and broken repo-relative links
 
+For repo-wide formatting and commit consistency, install the Node tooling once:
+
+```powershell
+npm install
+```
+
+Then use:
+
+```powershell
+npm run format
+npm run lint
+```
+
+The Node tooling provides:
+
+- `prettier` for consistent formatting of JSON, Markdown, and YAML
+- `husky` plus `lint-staged` to format staged files before commit
+- `commitlint` to enforce conventional commit messages through the `commit-msg` hook
+
+After `npm install`, Husky will install the Git hooks automatically through the `prepare` script.
+
 ## Platform-Ready Structure
 
 The repository is still mapping-first, but a few top-level areas are reserved so
