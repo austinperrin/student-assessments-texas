@@ -1,712 +1,710 @@
 {
-    "metadata": [
-        {
-            "author": "Austin Perrin",
-            "date_created": "2026-05-08",
-            "file_name": "2025-ttap-fixed-width-mapping.json",
-            "school_year": "2024-2025",
-            "administration_periods": [
-                { "code": "TTAP", "label": "2024-2025 TTAP" }
-            ],
-            "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-2025-ttap-data-file-format.pdf"
-        }
-    ],
-    "mapped_fields": [
-        {
-            "start_pos": "1",
-            "end_pos": "4",
-            "column_header": "assessment_type",
-            "column_num": "1"
-        },
-        {
-            "start_pos": "5",
-            "end_pos": "17",
-            "column_header": "administration",
-            "column_num": "2"
-        },
-        {
-            "start_pos": "18",
-            "end_pos": "25",
-            "column_header": "test_date",
-            "column_num": "3"
-        },
-        {
-            "start_pos": "26",
-            "end_pos": "33",
-            "column_header": "time_taken",
-            "column_num": "4"
-        },
-        {
-            "start_pos": "34",
-            "end_pos": "35",
-            "column_header": "esc_region_number",
-            "column_num": "5"
-        },
-        {
-            "start_pos": "36",
-            "end_pos": "44",
-            "column_header": "county_district_campus_number",
-            "column_num": "6"
-        },
-        {
-            "start_pos": "45",
-            "end_pos": "144",
-            "column_header": "district_name",
-            "column_num": "7"
-        },
-        {
-            "start_pos": "145",
-            "end_pos": "244",
-            "column_header": "campus_name",
-            "column_num": "8"
-        },
-        {
-            "start_pos": "245",
-            "end_pos": "304",
-            "column_header": "last_name",
-            "column_num": "9"
-        },
-        {
-            "start_pos": "305",
-            "end_pos": "364",
-            "column_header": "first_name",
-            "column_num": "10"
-        },
-        {
-            "start_pos": "365",
-            "end_pos": "424",
-            "column_header": "middle_name",
-            "column_num": "11"
-        },
-        {
-            "start_pos": "425",
-            "end_pos": "433",
-            "column_header": "peims_id",
-            "column_num": "12"
-        },
-        {
-            "start_pos": "434",
-            "end_pos": "436",
-            "column_header": "test_code",
-            "column_num": "13"
-        },
-        {
-            "start_pos": "437",
-            "end_pos": "438",
-            "column_header": "grade_level_tested",
-            "column_num": "14"
-        },
-        {
-            "start_pos": "443",
-            "end_pos": "446",
-            "column_header": "opportunity_scale_score",
-            "column_num": "16"
-        },
-        {
-            "start_pos": "447",
-            "end_pos": "481",
-            "column_header": "opportunity_performance_level",
-            "column_num": "17"
-        },
-        {
-            "start_pos": "482",
-            "end_pos": "486",
-            "column_header": "change_opportunity_1_2",
-            "column_num": "18"
-        },
-        {
-            "start_pos": "487",
-            "end_pos": "491",
-            "column_header": "change_opportunity_1_3",
-            "column_num": "19"
-        },
-        {
-            "start_pos": "492",
-            "end_pos": "496",
-            "column_header": "change_opportunity_2_3",
-            "column_num": "20"
-        },
-        {
-            "start_pos": "497",
-            "end_pos": "537",
-            "column_header": "predicted_staar_performance",
-            "column_num": "21"
-        },
-        {
-            "start_pos": "538",
-            "end_pos": "539",
-            "column_header": "overall_did_not_meet_points_earned",
-            "column_num": "22"
-        },
-        {
-            "start_pos": "540",
-            "end_pos": "541",
-            "column_header": "overall_did_not_meet_points_possible",
-            "column_num": "23"
-        },
-        {
-            "start_pos": "542",
-            "end_pos": "545",
-            "column_header": "overall_did_not_meet_percent_correct",
-            "column_num": "24"
-        },
-        {
-            "start_pos": "546",
-            "end_pos": "547",
-            "column_header": "overall_approaches_points_earned",
-            "column_num": "25"
-        },
-        {
-            "start_pos": "548",
-            "end_pos": "549",
-            "column_header": "overall_approaches_points_possible",
-            "column_num": "26"
-        },
-        {
-            "start_pos": "550",
-            "end_pos": "553",
-            "column_header": "overall_approaches_percent_correct",
-            "column_num": "27"
-        },
-        {
-            "start_pos": "554",
-            "end_pos": "555",
-            "column_header": "overall_meets_points_earned",
-            "column_num": "28"
-        },
-        {
-            "start_pos": "556",
-            "end_pos": "557",
-            "column_header": "overall_meets_points_possible",
-            "column_num": "29"
-        },
-        {
-            "start_pos": "558",
-            "end_pos": "561",
-            "column_header": "overall_meets_percent_correct",
-            "column_num": "30"
-        },
-        {
-            "start_pos": "562",
-            "end_pos": "563",
-            "column_header": "overall_masters_points_earned",
-            "column_num": "31"
-        },
-        {
-            "start_pos": "564",
-            "end_pos": "565",
-            "column_header": "overall_masters_points_possible",
-            "column_num": "32"
-        },
-        {
-            "start_pos": "566",
-            "end_pos": "569",
-            "column_header": "overall_masters_percent_correct",
-            "column_num": "33"
-        },
-        {
-            "start_pos": "570",
-            "end_pos": "571",
-            "column_header": "rc1_did_not_meet_points_earned",
-            "column_num": "34"
-        },
-        {
-            "start_pos": "572",
-            "end_pos": "573",
-            "column_header": "rc1_did_not_meet_points_possible",
-            "column_num": "35"
-        },
-        {
-            "start_pos": "574",
-            "end_pos": "577",
-            "column_header": "rc1_did_not_meet_percent_correct",
-            "column_num": "36"
-        },
-        {
-            "start_pos": "578",
-            "end_pos": "579",
-            "column_header": "rc1_approaches_points_earned",
-            "column_num": "37"
-        },
-        {
-            "start_pos": "580",
-            "end_pos": "581",
-            "column_header": "rc1_approaches_points_possible",
-            "column_num": "38"
-        },
-        {
-            "start_pos": "582",
-            "end_pos": "585",
-            "column_header": "rc1_approaches_percent_correct",
-            "column_num": "39"
-        },
-        {
-            "start_pos": "586",
-            "end_pos": "587",
-            "column_header": "rc1_meets_points_earned",
-            "column_num": "40"
-        },
-        {
-            "start_pos": "588",
-            "end_pos": "589",
-            "column_header": "rc1_meets_points_possible",
-            "column_num": "41"
-        },
-        {
-            "start_pos": "590",
-            "end_pos": "593",
-            "column_header": "rc1_meets_percent_correct",
-            "column_num": "42"
-        },
-        {
-            "start_pos": "594",
-            "end_pos": "595",
-            "column_header": "rc1_masters_points_earned",
-            "column_num": "43"
-        },
-        {
-            "start_pos": "596",
-            "end_pos": "597",
-            "column_header": "rc1_masters_points_possible",
-            "column_num": "44"
-        },
-        {
-            "start_pos": "598",
-            "end_pos": "601",
-            "column_header": "rc1_masters_percent_correct",
-            "column_num": "45"
-        },
-        {
-            "start_pos": "602",
-            "end_pos": "603",
-            "column_header": "rc2_did_not_meet_points_earned",
-            "column_num": "46"
-        },
-        {
-            "start_pos": "604",
-            "end_pos": "605",
-            "column_header": "rc2_did_not_meet_points_possible",
-            "column_num": "47"
-        },
-        {
-            "start_pos": "606",
-            "end_pos": "609",
-            "column_header": "rc2_did_not_meet_percent_correct",
-            "column_num": "48"
-        },
-        {
-            "start_pos": "610",
-            "end_pos": "611",
-            "column_header": "rc2_approaches_points_earned",
-            "column_num": "49"
-        },
-        {
-            "start_pos": "612",
-            "end_pos": "613",
-            "column_header": "rc2_approaches_points_possible",
-            "column_num": "50"
-        },
-        {
-            "start_pos": "614",
-            "end_pos": "617",
-            "column_header": "rc2_approaches_percent_correct",
-            "column_num": "51"
-        },
-        {
-            "start_pos": "618",
-            "end_pos": "619",
-            "column_header": "rc2_meets_points_earned",
-            "column_num": "52"
-        },
-        {
-            "start_pos": "620",
-            "end_pos": "621",
-            "column_header": "rc2_meets_points_possible",
-            "column_num": "53"
-        },
-        {
-            "start_pos": "622",
-            "end_pos": "625",
-            "column_header": "rc2_meets_percent_correct",
-            "column_num": "54"
-        },
-        {
-            "start_pos": "626",
-            "end_pos": "627",
-            "column_header": "rc2_masters_points_earned",
-            "column_num": "55"
-        },
-        {
-            "start_pos": "628",
-            "end_pos": "629",
-            "column_header": "rc2_masters_points_possible",
-            "column_num": "56"
-        },
-        {
-            "start_pos": "630",
-            "end_pos": "633",
-            "column_header": "rc2_masters_percent_correct",
-            "column_num": "57"
-        },
-        {
-            "start_pos": "634",
-            "end_pos": "635",
-            "column_header": "rc3_did_not_meet_points_earned",
-            "column_num": "58"
-        },
-        {
-            "start_pos": "636",
-            "end_pos": "637",
-            "column_header": "rc3_did_not_meet_points_possible",
-            "column_num": "59"
-        },
-        {
-            "start_pos": "638",
-            "end_pos": "641",
-            "column_header": "rc3_did_not_meet_percent_correct",
-            "column_num": "60"
-        },
-        {
-            "start_pos": "642",
-            "end_pos": "643",
-            "column_header": "rc3_approaches_points_earned",
-            "column_num": "61"
-        },
-        {
-            "start_pos": "644",
-            "end_pos": "645",
-            "column_header": "rc3_approaches_points_possible",
-            "column_num": "62"
-        },
-        {
-            "start_pos": "646",
-            "end_pos": "649",
-            "column_header": "rc3_approaches_percent_correct",
-            "column_num": "63"
-        },
-        {
-            "start_pos": "650",
-            "end_pos": "651",
-            "column_header": "rc3_meets_points_earned",
-            "column_num": "64"
-        },
-        {
-            "start_pos": "652",
-            "end_pos": "653",
-            "column_header": "rc3_meets_points_possible",
-            "column_num": "65"
-        },
-        {
-            "start_pos": "654",
-            "end_pos": "657",
-            "column_header": "rc3_meets_percent_correct",
-            "column_num": "66"
-        },
-        {
-            "start_pos": "658",
-            "end_pos": "659",
-            "column_header": "rc3_masters_points_earned",
-            "column_num": "67"
-        },
-        {
-            "start_pos": "660",
-            "end_pos": "661",
-            "column_header": "rc3_masters_points_possible",
-            "column_num": "68"
-        },
-        {
-            "start_pos": "662",
-            "end_pos": "665",
-            "column_header": "rc3_masters_percent_correct",
-            "column_num": "69"
-        },
-        {
-            "start_pos": "666",
-            "end_pos": "667",
-            "column_header": "rc4_did_not_meet_points_earned",
-            "column_num": "70"
-        },
-        {
-            "start_pos": "668",
-            "end_pos": "669",
-            "column_header": "rc4_did_not_meet_points_possible",
-            "column_num": "71"
-        },
-        {
-            "start_pos": "670",
-            "end_pos": "673",
-            "column_header": "rc4_did_not_meet_percent_correct",
-            "column_num": "72"
-        },
-        {
-            "start_pos": "674",
-            "end_pos": "675",
-            "column_header": "rc4_approaches_points_earned",
-            "column_num": "73"
-        },
-        {
-            "start_pos": "676",
-            "end_pos": "677",
-            "column_header": "rc4_approaches_points_possible",
-            "column_num": "74"
-        },
-        {
-            "start_pos": "678",
-            "end_pos": "681",
-            "column_header": "rc4_approaches_percent_correct",
-            "column_num": "75"
-        },
-        {
-            "start_pos": "682",
-            "end_pos": "683",
-            "column_header": "rc4_meets_points_earned",
-            "column_num": "76"
-        },
-        {
-            "start_pos": "684",
-            "end_pos": "685",
-            "column_header": "rc4_meets_points_possible",
-            "column_num": "77"
-        },
-        {
-            "start_pos": "686",
-            "end_pos": "689",
-            "column_header": "rc4_meets_percent_correct",
-            "column_num": "78"
-        },
-        {
-            "start_pos": "690",
-            "end_pos": "691",
-            "column_header": "rc4_masters_points_earned",
-            "column_num": "79"
-        },
-        {
-            "start_pos": "692",
-            "end_pos": "693",
-            "column_header": "rc4_masters_points_possible",
-            "column_num": "80"
-        },
-        {
-            "start_pos": "694",
-            "end_pos": "697",
-            "column_header": "rc4_masters_percent_correct",
-            "column_num": "81"
-        },
-        {
-            "start_pos": "698",
-            "end_pos": "817",
-            "column_header": "points_earned_by_item",
-            "column_num": "82"
-        },
-        {
-            "start_pos": "818",
-            "end_pos": "937",
-            "column_header": "points_possible_by_item",
-            "column_num": "83"
-        },
-        {
-            "start_pos": "938",
-            "end_pos": "1057",
-            "column_header": "item_difficulty",
-            "column_num": "84"
-        },
-        {
-            "start_pos": "1058",
-            "end_pos": "2857",
-            "column_header": "se_alignment",
-            "column_num": "85"
-        },
-        {
-            "start_pos": "2858",
-            "end_pos": "2858",
-            "column_header": "sex_code",
-            "column_num": "86"
-        },
-        {
-            "start_pos": "2859",
-            "end_pos": "2866",
-            "column_header": "date_of_birth",
-            "column_num": "87"
-        },
-        {
-            "start_pos": "2867",
-            "end_pos": "2876",
-            "column_header": "tx_unique_student_id",
-            "column_num": "88"
-        },
-        {
-            "start_pos": "2877",
-            "end_pos": "2877",
-            "column_header": "hispanic_latino_code",
-            "column_num": "89"
-        },
-        {
-            "start_pos": "2878",
-            "end_pos": "2878",
-            "column_header": "american_indian_alaska_native_code",
-            "column_num": "90"
-        },
-        {
-            "start_pos": "2879",
-            "end_pos": "2879",
-            "column_header": "asian_code",
-            "column_num": "91"
-        },
-        {
-            "start_pos": "2880",
-            "end_pos": "2880",
-            "column_header": "black_african_american_code",
-            "column_num": "92"
-        },
-        {
-            "start_pos": "2881",
-            "end_pos": "2881",
-            "column_header": "native_hawaiian_pacific_islander_code",
-            "column_num": "93"
-        },
-        {
-            "start_pos": "2882",
-            "end_pos": "2882",
-            "column_header": "white_code",
-            "column_num": "94"
-        },
-        {
-            "start_pos": "2883",
-            "end_pos": "2883",
-            "column_header": "ethnicity_race_reporting_category",
-            "column_num": "95"
-        },
-        {
-            "start_pos": "2884",
-            "end_pos": "2884",
-            "column_header": "economic_disadvantage_code",
-            "column_num": "96"
-        },
-        {
-            "start_pos": "2885",
-            "end_pos": "2885",
-            "column_header": "title_i_part_a_indicator_code",
-            "column_num": "97"
-        },
-        {
-            "start_pos": "2886",
-            "end_pos": "2886",
-            "column_header": "migrant_indicator_code",
-            "column_num": "98"
-        },
-        {
-            "start_pos": "2887",
-            "end_pos": "2887",
-            "column_header": "emergent_bilingual_indicator_code",
-            "column_num": "99"
-        },
-        {
-            "start_pos": "2888",
-            "end_pos": "2888",
-            "column_header": "bilingual_indicator_code",
-            "column_num": "100"
-        },
-        {
-            "start_pos": "2889",
-            "end_pos": "2889",
-            "column_header": "esl_indicator_code",
-            "column_num": "101"
-        },
-        {
-            "start_pos": "2890",
-            "end_pos": "2890",
-            "column_header": "special_ed_indicator_code",
-            "column_num": "102"
-        },
-        {
-            "start_pos": "2891",
-            "end_pos": "2891",
-            "column_header": "gifted_talented_indicator_code",
-            "column_num": "103"
-        },
-        {
-            "start_pos": "2892",
-            "end_pos": "2892",
-            "column_header": "at_risk_indicator_code",
-            "column_num": "104"
-        },
-        {
-            "start_pos": "2893",
-            "end_pos": "2901",
-            "column_header": "local_student_id",
-            "column_num": "105"
-        },
-        {
-            "start_pos": "2902",
-            "end_pos": "2903",
-            "column_header": "enrolled_grade",
-            "column_num": "106"
-        },
-        {
-            "start_pos": "2904",
-            "end_pos": "2904",
-            "column_header": "text_to_speech_accommodations",
-            "column_num": "107"
-        },
-        {
-            "start_pos": "2905",
-            "end_pos": "2905",
-            "column_header": "auto_tts_accommodations",
-            "column_num": "108"
-        },
-        {
-            "start_pos": "2906",
-            "end_pos": "2906",
-            "column_header": "content_language",
-            "column_num": "109"
-        },
-        {
-            "start_pos": "2907",
-            "end_pos": "2907",
-            "column_header": "braille_refreshable_braille_device",
-            "column_num": "110"
-        },
-        {
-            "start_pos": "2908",
-            "end_pos": "2908",
-            "column_header": "basic_calculator_accommodations",
-            "column_num": "111"
-        },
-        {
-            "start_pos": "2909",
-            "end_pos": "2909",
-            "column_header": "local_use_1",
-            "column_num": "112"
-        },
-        {
-            "start_pos": "2910",
-            "end_pos": "2910",
-            "column_header": "local_use_2",
-            "column_num": "113"
-        },
-        {
-            "start_pos": "2911",
-            "end_pos": "2911",
-            "column_header": "local_use_3",
-            "column_num": "114"
-        },
-        {
-            "start_pos": "2912",
-            "end_pos": "2912",
-            "column_header": "local_use_4",
-            "column_num": "115"
-        },
-        {
-            "start_pos": "2933",
-            "end_pos": "2968",
-            "column_header": "opportunity_key",
-            "column_num": "117"
-        },
-        {
-            "start_pos": "2969",
-            "end_pos": "2970",
-            "column_header": "end_of_record",
-            "column_num": "118"
-        }
-    ]
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-08",
+      "file_name": "2025-ttap-fixed-width-mapping.json",
+      "school_year": "2024-2025",
+      "administration_periods": [{ "code": "TTAP", "label": "2024-2025 TTAP" }],
+      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-2025-ttap-data-file-format.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "4",
+      "column_header": "assessment_type",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "5",
+      "end_pos": "17",
+      "column_header": "administration",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "18",
+      "end_pos": "25",
+      "column_header": "test_date",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "26",
+      "end_pos": "33",
+      "column_header": "time_taken",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "34",
+      "end_pos": "35",
+      "column_header": "esc_region_number",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "36",
+      "end_pos": "44",
+      "column_header": "county_district_campus_number",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "45",
+      "end_pos": "144",
+      "column_header": "district_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "145",
+      "end_pos": "244",
+      "column_header": "campus_name",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "245",
+      "end_pos": "304",
+      "column_header": "last_name",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "305",
+      "end_pos": "364",
+      "column_header": "first_name",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "365",
+      "end_pos": "424",
+      "column_header": "middle_name",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "425",
+      "end_pos": "433",
+      "column_header": "peims_id",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "434",
+      "end_pos": "436",
+      "column_header": "test_code",
+      "column_num": "13"
+    },
+    {
+      "start_pos": "437",
+      "end_pos": "438",
+      "column_header": "grade_level_tested",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "443",
+      "end_pos": "446",
+      "column_header": "opportunity_scale_score",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "447",
+      "end_pos": "481",
+      "column_header": "opportunity_performance_level",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "482",
+      "end_pos": "486",
+      "column_header": "change_opportunity_1_2",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "487",
+      "end_pos": "491",
+      "column_header": "change_opportunity_1_3",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "492",
+      "end_pos": "496",
+      "column_header": "change_opportunity_2_3",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "497",
+      "end_pos": "537",
+      "column_header": "predicted_staar_performance",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "538",
+      "end_pos": "539",
+      "column_header": "overall_did_not_meet_points_earned",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "540",
+      "end_pos": "541",
+      "column_header": "overall_did_not_meet_points_possible",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "542",
+      "end_pos": "545",
+      "column_header": "overall_did_not_meet_percent_correct",
+      "column_num": "24"
+    },
+    {
+      "start_pos": "546",
+      "end_pos": "547",
+      "column_header": "overall_approaches_points_earned",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "548",
+      "end_pos": "549",
+      "column_header": "overall_approaches_points_possible",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "550",
+      "end_pos": "553",
+      "column_header": "overall_approaches_percent_correct",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "554",
+      "end_pos": "555",
+      "column_header": "overall_meets_points_earned",
+      "column_num": "28"
+    },
+    {
+      "start_pos": "556",
+      "end_pos": "557",
+      "column_header": "overall_meets_points_possible",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "558",
+      "end_pos": "561",
+      "column_header": "overall_meets_percent_correct",
+      "column_num": "30"
+    },
+    {
+      "start_pos": "562",
+      "end_pos": "563",
+      "column_header": "overall_masters_points_earned",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "564",
+      "end_pos": "565",
+      "column_header": "overall_masters_points_possible",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "566",
+      "end_pos": "569",
+      "column_header": "overall_masters_percent_correct",
+      "column_num": "33"
+    },
+    {
+      "start_pos": "570",
+      "end_pos": "571",
+      "column_header": "rc1_did_not_meet_points_earned",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "572",
+      "end_pos": "573",
+      "column_header": "rc1_did_not_meet_points_possible",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "574",
+      "end_pos": "577",
+      "column_header": "rc1_did_not_meet_percent_correct",
+      "column_num": "36"
+    },
+    {
+      "start_pos": "578",
+      "end_pos": "579",
+      "column_header": "rc1_approaches_points_earned",
+      "column_num": "37"
+    },
+    {
+      "start_pos": "580",
+      "end_pos": "581",
+      "column_header": "rc1_approaches_points_possible",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "582",
+      "end_pos": "585",
+      "column_header": "rc1_approaches_percent_correct",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "586",
+      "end_pos": "587",
+      "column_header": "rc1_meets_points_earned",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "588",
+      "end_pos": "589",
+      "column_header": "rc1_meets_points_possible",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "590",
+      "end_pos": "593",
+      "column_header": "rc1_meets_percent_correct",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "594",
+      "end_pos": "595",
+      "column_header": "rc1_masters_points_earned",
+      "column_num": "43"
+    },
+    {
+      "start_pos": "596",
+      "end_pos": "597",
+      "column_header": "rc1_masters_points_possible",
+      "column_num": "44"
+    },
+    {
+      "start_pos": "598",
+      "end_pos": "601",
+      "column_header": "rc1_masters_percent_correct",
+      "column_num": "45"
+    },
+    {
+      "start_pos": "602",
+      "end_pos": "603",
+      "column_header": "rc2_did_not_meet_points_earned",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "604",
+      "end_pos": "605",
+      "column_header": "rc2_did_not_meet_points_possible",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "606",
+      "end_pos": "609",
+      "column_header": "rc2_did_not_meet_percent_correct",
+      "column_num": "48"
+    },
+    {
+      "start_pos": "610",
+      "end_pos": "611",
+      "column_header": "rc2_approaches_points_earned",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "612",
+      "end_pos": "613",
+      "column_header": "rc2_approaches_points_possible",
+      "column_num": "50"
+    },
+    {
+      "start_pos": "614",
+      "end_pos": "617",
+      "column_header": "rc2_approaches_percent_correct",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "618",
+      "end_pos": "619",
+      "column_header": "rc2_meets_points_earned",
+      "column_num": "52"
+    },
+    {
+      "start_pos": "620",
+      "end_pos": "621",
+      "column_header": "rc2_meets_points_possible",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "622",
+      "end_pos": "625",
+      "column_header": "rc2_meets_percent_correct",
+      "column_num": "54"
+    },
+    {
+      "start_pos": "626",
+      "end_pos": "627",
+      "column_header": "rc2_masters_points_earned",
+      "column_num": "55"
+    },
+    {
+      "start_pos": "628",
+      "end_pos": "629",
+      "column_header": "rc2_masters_points_possible",
+      "column_num": "56"
+    },
+    {
+      "start_pos": "630",
+      "end_pos": "633",
+      "column_header": "rc2_masters_percent_correct",
+      "column_num": "57"
+    },
+    {
+      "start_pos": "634",
+      "end_pos": "635",
+      "column_header": "rc3_did_not_meet_points_earned",
+      "column_num": "58"
+    },
+    {
+      "start_pos": "636",
+      "end_pos": "637",
+      "column_header": "rc3_did_not_meet_points_possible",
+      "column_num": "59"
+    },
+    {
+      "start_pos": "638",
+      "end_pos": "641",
+      "column_header": "rc3_did_not_meet_percent_correct",
+      "column_num": "60"
+    },
+    {
+      "start_pos": "642",
+      "end_pos": "643",
+      "column_header": "rc3_approaches_points_earned",
+      "column_num": "61"
+    },
+    {
+      "start_pos": "644",
+      "end_pos": "645",
+      "column_header": "rc3_approaches_points_possible",
+      "column_num": "62"
+    },
+    {
+      "start_pos": "646",
+      "end_pos": "649",
+      "column_header": "rc3_approaches_percent_correct",
+      "column_num": "63"
+    },
+    {
+      "start_pos": "650",
+      "end_pos": "651",
+      "column_header": "rc3_meets_points_earned",
+      "column_num": "64"
+    },
+    {
+      "start_pos": "652",
+      "end_pos": "653",
+      "column_header": "rc3_meets_points_possible",
+      "column_num": "65"
+    },
+    {
+      "start_pos": "654",
+      "end_pos": "657",
+      "column_header": "rc3_meets_percent_correct",
+      "column_num": "66"
+    },
+    {
+      "start_pos": "658",
+      "end_pos": "659",
+      "column_header": "rc3_masters_points_earned",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "660",
+      "end_pos": "661",
+      "column_header": "rc3_masters_points_possible",
+      "column_num": "68"
+    },
+    {
+      "start_pos": "662",
+      "end_pos": "665",
+      "column_header": "rc3_masters_percent_correct",
+      "column_num": "69"
+    },
+    {
+      "start_pos": "666",
+      "end_pos": "667",
+      "column_header": "rc4_did_not_meet_points_earned",
+      "column_num": "70"
+    },
+    {
+      "start_pos": "668",
+      "end_pos": "669",
+      "column_header": "rc4_did_not_meet_points_possible",
+      "column_num": "71"
+    },
+    {
+      "start_pos": "670",
+      "end_pos": "673",
+      "column_header": "rc4_did_not_meet_percent_correct",
+      "column_num": "72"
+    },
+    {
+      "start_pos": "674",
+      "end_pos": "675",
+      "column_header": "rc4_approaches_points_earned",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "676",
+      "end_pos": "677",
+      "column_header": "rc4_approaches_points_possible",
+      "column_num": "74"
+    },
+    {
+      "start_pos": "678",
+      "end_pos": "681",
+      "column_header": "rc4_approaches_percent_correct",
+      "column_num": "75"
+    },
+    {
+      "start_pos": "682",
+      "end_pos": "683",
+      "column_header": "rc4_meets_points_earned",
+      "column_num": "76"
+    },
+    {
+      "start_pos": "684",
+      "end_pos": "685",
+      "column_header": "rc4_meets_points_possible",
+      "column_num": "77"
+    },
+    {
+      "start_pos": "686",
+      "end_pos": "689",
+      "column_header": "rc4_meets_percent_correct",
+      "column_num": "78"
+    },
+    {
+      "start_pos": "690",
+      "end_pos": "691",
+      "column_header": "rc4_masters_points_earned",
+      "column_num": "79"
+    },
+    {
+      "start_pos": "692",
+      "end_pos": "693",
+      "column_header": "rc4_masters_points_possible",
+      "column_num": "80"
+    },
+    {
+      "start_pos": "694",
+      "end_pos": "697",
+      "column_header": "rc4_masters_percent_correct",
+      "column_num": "81"
+    },
+    {
+      "start_pos": "698",
+      "end_pos": "817",
+      "column_header": "points_earned_by_item",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "818",
+      "end_pos": "937",
+      "column_header": "points_possible_by_item",
+      "column_num": "83"
+    },
+    {
+      "start_pos": "938",
+      "end_pos": "1057",
+      "column_header": "item_difficulty",
+      "column_num": "84"
+    },
+    {
+      "start_pos": "1058",
+      "end_pos": "2857",
+      "column_header": "se_alignment",
+      "column_num": "85"
+    },
+    {
+      "start_pos": "2858",
+      "end_pos": "2858",
+      "column_header": "sex_code",
+      "column_num": "86"
+    },
+    {
+      "start_pos": "2859",
+      "end_pos": "2866",
+      "column_header": "date_of_birth",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "2867",
+      "end_pos": "2876",
+      "column_header": "tx_unique_student_id",
+      "column_num": "88"
+    },
+    {
+      "start_pos": "2877",
+      "end_pos": "2877",
+      "column_header": "hispanic_latino_code",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "2878",
+      "end_pos": "2878",
+      "column_header": "american_indian_alaska_native_code",
+      "column_num": "90"
+    },
+    {
+      "start_pos": "2879",
+      "end_pos": "2879",
+      "column_header": "asian_code",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "2880",
+      "end_pos": "2880",
+      "column_header": "black_african_american_code",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "2881",
+      "end_pos": "2881",
+      "column_header": "native_hawaiian_pacific_islander_code",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "2882",
+      "end_pos": "2882",
+      "column_header": "white_code",
+      "column_num": "94"
+    },
+    {
+      "start_pos": "2883",
+      "end_pos": "2883",
+      "column_header": "ethnicity_race_reporting_category",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "2884",
+      "end_pos": "2884",
+      "column_header": "economic_disadvantage_code",
+      "column_num": "96"
+    },
+    {
+      "start_pos": "2885",
+      "end_pos": "2885",
+      "column_header": "title_i_part_a_indicator_code",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "2886",
+      "end_pos": "2886",
+      "column_header": "migrant_indicator_code",
+      "column_num": "98"
+    },
+    {
+      "start_pos": "2887",
+      "end_pos": "2887",
+      "column_header": "emergent_bilingual_indicator_code",
+      "column_num": "99"
+    },
+    {
+      "start_pos": "2888",
+      "end_pos": "2888",
+      "column_header": "bilingual_indicator_code",
+      "column_num": "100"
+    },
+    {
+      "start_pos": "2889",
+      "end_pos": "2889",
+      "column_header": "esl_indicator_code",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "2890",
+      "end_pos": "2890",
+      "column_header": "special_ed_indicator_code",
+      "column_num": "102"
+    },
+    {
+      "start_pos": "2891",
+      "end_pos": "2891",
+      "column_header": "gifted_talented_indicator_code",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "2892",
+      "end_pos": "2892",
+      "column_header": "at_risk_indicator_code",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "2893",
+      "end_pos": "2901",
+      "column_header": "local_student_id",
+      "column_num": "105"
+    },
+    {
+      "start_pos": "2902",
+      "end_pos": "2903",
+      "column_header": "enrolled_grade",
+      "column_num": "106"
+    },
+    {
+      "start_pos": "2904",
+      "end_pos": "2904",
+      "column_header": "text_to_speech_accommodations",
+      "column_num": "107"
+    },
+    {
+      "start_pos": "2905",
+      "end_pos": "2905",
+      "column_header": "auto_tts_accommodations",
+      "column_num": "108"
+    },
+    {
+      "start_pos": "2906",
+      "end_pos": "2906",
+      "column_header": "content_language",
+      "column_num": "109"
+    },
+    {
+      "start_pos": "2907",
+      "end_pos": "2907",
+      "column_header": "braille_refreshable_braille_device",
+      "column_num": "110"
+    },
+    {
+      "start_pos": "2908",
+      "end_pos": "2908",
+      "column_header": "basic_calculator_accommodations",
+      "column_num": "111"
+    },
+    {
+      "start_pos": "2909",
+      "end_pos": "2909",
+      "column_header": "local_use_1",
+      "column_num": "112"
+    },
+    {
+      "start_pos": "2910",
+      "end_pos": "2910",
+      "column_header": "local_use_2",
+      "column_num": "113"
+    },
+    {
+      "start_pos": "2911",
+      "end_pos": "2911",
+      "column_header": "local_use_3",
+      "column_num": "114"
+    },
+    {
+      "start_pos": "2912",
+      "end_pos": "2912",
+      "column_header": "local_use_4",
+      "column_num": "115"
+    },
+    {
+      "start_pos": "2933",
+      "end_pos": "2968",
+      "column_header": "opportunity_key",
+      "column_num": "117"
+    },
+    {
+      "start_pos": "2969",
+      "end_pos": "2970",
+      "column_header": "end_of_record",
+      "column_num": "118"
+    }
+  ]
 }

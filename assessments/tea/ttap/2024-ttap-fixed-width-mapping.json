@@ -1,784 +1,782 @@
 {
-    "metadata": [
-        {
-            "author": "Austin Perrin",
-            "date_created": "2026-05-08",
-            "file_name": "2024-ttap-fixed-width-mapping.json",
-            "school_year": "2023-2024",
-            "administration_periods": [
-                { "code": "TTAP", "label": "2023-2024 TTAP" }
-            ],
-            "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2023-2024-ttap-data-file-layout.pdf"
-        }
-    ],
-    "mapped_fields": [
-        {
-            "start_pos": "1",
-            "end_pos": "4",
-            "column_header": "assessment_type",
-            "column_num": "1"
-        },
-        {
-            "start_pos": "5",
-            "end_pos": "17",
-            "column_header": "administration",
-            "column_num": "2"
-        },
-        {
-            "start_pos": "18",
-            "end_pos": "25",
-            "column_header": "test_date",
-            "column_num": "3"
-        },
-        {
-            "start_pos": "26",
-            "end_pos": "33",
-            "column_header": "time_taken",
-            "column_num": "4"
-        },
-        {
-            "start_pos": "34",
-            "end_pos": "35",
-            "column_header": "esc_region_number",
-            "column_num": "5"
-        },
-        {
-            "start_pos": "36",
-            "end_pos": "44",
-            "column_header": "county_district_campus_number",
-            "column_num": "6"
-        },
-        {
-            "start_pos": "45",
-            "end_pos": "144",
-            "column_header": "district_name",
-            "column_num": "7"
-        },
-        {
-            "start_pos": "145",
-            "end_pos": "244",
-            "column_header": "campus_name",
-            "column_num": "8"
-        },
-        {
-            "start_pos": "245",
-            "end_pos": "304",
-            "column_header": "last_name",
-            "column_num": "9"
-        },
-        {
-            "start_pos": "305",
-            "end_pos": "364",
-            "column_header": "first_name",
-            "column_num": "10"
-        },
-        {
-            "start_pos": "365",
-            "end_pos": "424",
-            "column_header": "middle_name",
-            "column_num": "11"
-        },
-        {
-            "start_pos": "425",
-            "end_pos": "433",
-            "column_header": "peims_id",
-            "column_num": "12"
-        },
-        {
-            "start_pos": "434",
-            "end_pos": "436",
-            "column_header": "test_code",
-            "column_num": "13"
-        },
-        {
-            "start_pos": "437",
-            "end_pos": "438",
-            "column_header": "grade_level_tested",
-            "column_num": "14"
-        },
-        {
-            "start_pos": "443",
-            "end_pos": "446",
-            "column_header": "opportunity_scale_score",
-            "column_num": "16"
-        },
-        {
-            "start_pos": "447",
-            "end_pos": "481",
-            "column_header": "opportunity_performance_level",
-            "column_num": "17"
-        },
-        {
-            "start_pos": "482",
-            "end_pos": "485",
-            "column_header": "gain_loss_opportunity_1_2",
-            "column_num": "18"
-        },
-        {
-            "start_pos": "486",
-            "end_pos": "489",
-            "column_header": "difference_opportunity_1_2",
-            "column_num": "19"
-        },
-        {
-            "start_pos": "490",
-            "end_pos": "493",
-            "column_header": "gain_loss_opportunity_1_3",
-            "column_num": "20"
-        },
-        {
-            "start_pos": "494",
-            "end_pos": "497",
-            "column_header": "difference_opportunity_1_3",
-            "column_num": "21"
-        },
-        {
-            "start_pos": "498",
-            "end_pos": "501",
-            "column_header": "gain_loss_opportunity_2_3",
-            "column_num": "22"
-        },
-        {
-            "start_pos": "502",
-            "end_pos": "505",
-            "column_header": "difference_opportunity_2_3",
-            "column_num": "23"
-        },
-        {
-            "start_pos": "506",
-            "end_pos": "546",
-            "column_header": "predicted_staar_performance",
-            "column_num": "24"
-        },
-        {
-            "start_pos": "547",
-            "end_pos": "548",
-            "column_header": "rc1_low_points_earned",
-            "column_num": "25"
-        },
-        {
-            "start_pos": "549",
-            "end_pos": "550",
-            "column_header": "rc1_low_points_possible",
-            "column_num": "26"
-        },
-        {
-            "start_pos": "551",
-            "end_pos": "553",
-            "column_header": "rc1_low_percent_correct",
-            "column_num": "27"
-        },
-        {
-            "start_pos": "554",
-            "end_pos": "555",
-            "column_header": "rc1_medium_points_earned",
-            "column_num": "28"
-        },
-        {
-            "start_pos": "556",
-            "end_pos": "557",
-            "column_header": "rc1_medium_points_possible",
-            "column_num": "29"
-        },
-        {
-            "start_pos": "558",
-            "end_pos": "560",
-            "column_header": "rc1_medium_percent_correct",
-            "column_num": "30"
-        },
-        {
-            "start_pos": "561",
-            "end_pos": "562",
-            "column_header": "rc1_high_points_earned",
-            "column_num": "31"
-        },
-        {
-            "start_pos": "563",
-            "end_pos": "564",
-            "column_header": "rc1_high_points_possible",
-            "column_num": "32"
-        },
-        {
-            "start_pos": "565",
-            "end_pos": "567",
-            "column_header": "rc1_high_percent_correct",
-            "column_num": "33"
-        },
-        {
-            "start_pos": "568",
-            "end_pos": "569",
-            "column_header": "rc2_low_points_earned",
-            "column_num": "34"
-        },
-        {
-            "start_pos": "570",
-            "end_pos": "571",
-            "column_header": "rc2_low_points_possible",
-            "column_num": "35"
-        },
-        {
-            "start_pos": "572",
-            "end_pos": "574",
-            "column_header": "rc2_low_percent_correct",
-            "column_num": "36"
-        },
-        {
-            "start_pos": "575",
-            "end_pos": "576",
-            "column_header": "rc2_medium_points_earned",
-            "column_num": "37"
-        },
-        {
-            "start_pos": "577",
-            "end_pos": "578",
-            "column_header": "rc2_medium_points_possible",
-            "column_num": "38"
-        },
-        {
-            "start_pos": "579",
-            "end_pos": "581",
-            "column_header": "rc2_medium_percent_correct",
-            "column_num": "39"
-        },
-        {
-            "start_pos": "582",
-            "end_pos": "583",
-            "column_header": "rc2_high_points_earned",
-            "column_num": "40"
-        },
-        {
-            "start_pos": "584",
-            "end_pos": "585",
-            "column_header": "rc2_high_points_possible",
-            "column_num": "41"
-        },
-        {
-            "start_pos": "586",
-            "end_pos": "588",
-            "column_header": "rc2_high_percent_correct",
-            "column_num": "42"
-        },
-        {
-            "start_pos": "589",
-            "end_pos": "590",
-            "column_header": "rc3_low_points_earned",
-            "column_num": "43"
-        },
-        {
-            "start_pos": "591",
-            "end_pos": "592",
-            "column_header": "rc3_low_points_possible",
-            "column_num": "44"
-        },
-        {
-            "start_pos": "593",
-            "end_pos": "595",
-            "column_header": "rc3_low_percent_correct",
-            "column_num": "45"
-        },
-        {
-            "start_pos": "596",
-            "end_pos": "597",
-            "column_header": "rc3_medium_points_earned",
-            "column_num": "46"
-        },
-        {
-            "start_pos": "598",
-            "end_pos": "599",
-            "column_header": "rc3_medium_points_possible",
-            "column_num": "47"
-        },
-        {
-            "start_pos": "600",
-            "end_pos": "602",
-            "column_header": "rc3_medium_percent_correct",
-            "column_num": "48"
-        },
-        {
-            "start_pos": "603",
-            "end_pos": "604",
-            "column_header": "rc3_high_points_earned",
-            "column_num": "49"
-        },
-        {
-            "start_pos": "605",
-            "end_pos": "606",
-            "column_header": "rc3_high_points_possible",
-            "column_num": "50"
-        },
-        {
-            "start_pos": "607",
-            "end_pos": "609",
-            "column_header": "rc3_high_percent_correct",
-            "column_num": "51"
-        },
-        {
-            "start_pos": "610",
-            "end_pos": "611",
-            "column_header": "rc4_low_points_earned",
-            "column_num": "52"
-        },
-        {
-            "start_pos": "612",
-            "end_pos": "613",
-            "column_header": "rc4_low_points_possible",
-            "column_num": "53"
-        },
-        {
-            "start_pos": "614",
-            "end_pos": "616",
-            "column_header": "rc4_low_percent_correct",
-            "column_num": "54"
-        },
-        {
-            "start_pos": "617",
-            "end_pos": "618",
-            "column_header": "rc4_medium_points_earned",
-            "column_num": "55"
-        },
-        {
-            "start_pos": "619",
-            "end_pos": "620",
-            "column_header": "rc4_medium_points_possible",
-            "column_num": "56"
-        },
-        {
-            "start_pos": "621",
-            "end_pos": "623",
-            "column_header": "rc4_medium_percent_correct",
-            "column_num": "57"
-        },
-        {
-            "start_pos": "624",
-            "end_pos": "625",
-            "column_header": "rc4_high_points_earned",
-            "column_num": "58"
-        },
-        {
-            "start_pos": "626",
-            "end_pos": "627",
-            "column_header": "rc4_high_points_possible",
-            "column_num": "59"
-        },
-        {
-            "start_pos": "628",
-            "end_pos": "630",
-            "column_header": "rc4_high_percent_correct",
-            "column_num": "60"
-        },
-        {
-            "start_pos": "631",
-            "end_pos": "632",
-            "column_header": "overall_low_points_earned",
-            "column_num": "61"
-        },
-        {
-            "start_pos": "633",
-            "end_pos": "634",
-            "column_header": "overall_low_points_possible",
-            "column_num": "62"
-        },
-        {
-            "start_pos": "635",
-            "end_pos": "637",
-            "column_header": "overall_low_percent_correct",
-            "column_num": "63"
-        },
-        {
-            "start_pos": "638",
-            "end_pos": "639",
-            "column_header": "overall_medium_points_earned",
-            "column_num": "64"
-        },
-        {
-            "start_pos": "640",
-            "end_pos": "641",
-            "column_header": "overall_medium_points_possible",
-            "column_num": "65"
-        },
-        {
-            "start_pos": "642",
-            "end_pos": "644",
-            "column_header": "overall_medium_percent_correct",
-            "column_num": "66"
-        },
-        {
-            "start_pos": "645",
-            "end_pos": "646",
-            "column_header": "overall_high_points_earned",
-            "column_num": "67"
-        },
-        {
-            "start_pos": "647",
-            "end_pos": "648",
-            "column_header": "overall_high_points_possible",
-            "column_num": "68"
-        },
-        {
-            "start_pos": "649",
-            "end_pos": "651",
-            "column_header": "overall_high_percent_correct",
-            "column_num": "69"
-        },
-        {
-            "start_pos": "652",
-            "end_pos": "671",
-            "column_header": "item_student_scores_segment_1",
-            "column_num": "70"
-        },
-        {
-            "start_pos": "672",
-            "end_pos": "691",
-            "column_header": "points_possible_by_item_segment_1",
-            "column_num": "71"
-        },
-        {
-            "start_pos": "692",
-            "end_pos": "711",
-            "column_header": "item_difficulty_segment_1",
-            "column_num": "72"
-        },
-        {
-            "start_pos": "712",
-            "end_pos": "1011",
-            "column_header": "se_alignment_segment_1",
-            "column_num": "73"
-        },
-        {
-            "start_pos": "1012",
-            "end_pos": "1031",
-            "column_header": "item_student_scores_segment_2",
-            "column_num": "74"
-        },
-        {
-            "start_pos": "1032",
-            "end_pos": "1051",
-            "column_header": "points_possible_by_item_segment_2",
-            "column_num": "75"
-        },
-        {
-            "start_pos": "1052",
-            "end_pos": "1071",
-            "column_header": "item_difficulty_segment_2",
-            "column_num": "76"
-        },
-        {
-            "start_pos": "1072",
-            "end_pos": "1371",
-            "column_header": "se_alignment_segment_2",
-            "column_num": "77"
-        },
-        {
-            "start_pos": "1372",
-            "end_pos": "1391",
-            "column_header": "item_student_scores_segment_3",
-            "column_num": "78"
-        },
-        {
-            "start_pos": "1392",
-            "end_pos": "1411",
-            "column_header": "points_possible_by_item_segment_3",
-            "column_num": "79"
-        },
-        {
-            "start_pos": "1412",
-            "end_pos": "1431",
-            "column_header": "item_difficulty_segment_3",
-            "column_num": "80"
-        },
-        {
-            "start_pos": "1432",
-            "end_pos": "1731",
-            "column_header": "se_alignment_segment_3",
-            "column_num": "81"
-        },
-        {
-            "start_pos": "1732",
-            "end_pos": "1751",
-            "column_header": "item_student_scores_segment_4",
-            "column_num": "82"
-        },
-        {
-            "start_pos": "1752",
-            "end_pos": "1771",
-            "column_header": "points_possible_by_item_segment_4",
-            "column_num": "83"
-        },
-        {
-            "start_pos": "1772",
-            "end_pos": "1791",
-            "column_header": "item_difficulty_segment_4",
-            "column_num": "84"
-        },
-        {
-            "start_pos": "1792",
-            "end_pos": "2091",
-            "column_header": "se_alignment_segment_4",
-            "column_num": "85"
-        },
-        {
-            "start_pos": "2092",
-            "end_pos": "2111",
-            "column_header": "item_student_scores_segment_5",
-            "column_num": "86"
-        },
-        {
-            "start_pos": "2112",
-            "end_pos": "2131",
-            "column_header": "points_possible_by_item_segment_5",
-            "column_num": "87"
-        },
-        {
-            "start_pos": "2132",
-            "end_pos": "2151",
-            "column_header": "item_difficulty_segment_5",
-            "column_num": "88"
-        },
-        {
-            "start_pos": "2152",
-            "end_pos": "2451",
-            "column_header": "se_alignment_segment_5",
-            "column_num": "89"
-        },
-        {
-            "start_pos": "2452",
-            "end_pos": "2471",
-            "column_header": "item_student_scores_segment_6",
-            "column_num": "90"
-        },
-        {
-            "start_pos": "2472",
-            "end_pos": "2491",
-            "column_header": "points_possible_by_item_segment_6",
-            "column_num": "91"
-        },
-        {
-            "start_pos": "2492",
-            "end_pos": "2511",
-            "column_header": "item_difficulty_segment_6",
-            "column_num": "92"
-        },
-        {
-            "start_pos": "2512",
-            "end_pos": "2811",
-            "column_header": "se_alignment_segment_6",
-            "column_num": "93"
-        },
-        {
-            "start_pos": "2812",
-            "end_pos": "2831",
-            "column_header": "item_student_scores_segment_7",
-            "column_num": "94"
-        },
-        {
-            "start_pos": "2832",
-            "end_pos": "2851",
-            "column_header": "points_possible_by_item_segment_7",
-            "column_num": "95"
-        },
-        {
-            "start_pos": "2852",
-            "end_pos": "2871",
-            "column_header": "item_difficulty_segment_7",
-            "column_num": "96"
-        },
-        {
-            "start_pos": "2872",
-            "end_pos": "3171",
-            "column_header": "se_alignment_segment_7",
-            "column_num": "97"
-        },
-        {
-            "start_pos": "3172",
-            "end_pos": "3172",
-            "column_header": "sex_code",
-            "column_num": "98"
-        },
-        {
-            "start_pos": "3173",
-            "end_pos": "3180",
-            "column_header": "date_of_birth",
-            "column_num": "99"
-        },
-        {
-            "start_pos": "3181",
-            "end_pos": "3190",
-            "column_header": "tx_unique_student_id",
-            "column_num": "100"
-        },
-        {
-            "start_pos": "3191",
-            "end_pos": "3191",
-            "column_header": "hispanic_latino_code",
-            "column_num": "101"
-        },
-        {
-            "start_pos": "3192",
-            "end_pos": "3192",
-            "column_header": "american_indian_alaska_native_code",
-            "column_num": "102"
-        },
-        {
-            "start_pos": "3193",
-            "end_pos": "3193",
-            "column_header": "asian_code",
-            "column_num": "103"
-        },
-        {
-            "start_pos": "3194",
-            "end_pos": "3194",
-            "column_header": "black_african_american_code",
-            "column_num": "104"
-        },
-        {
-            "start_pos": "3195",
-            "end_pos": "3195",
-            "column_header": "native_hawaiian_pacific_islander_code",
-            "column_num": "105"
-        },
-        {
-            "start_pos": "3196",
-            "end_pos": "3196",
-            "column_header": "white_code",
-            "column_num": "106"
-        },
-        {
-            "start_pos": "3197",
-            "end_pos": "3197",
-            "column_header": "ethnicity_race_reporting_category",
-            "column_num": "107"
-        },
-        {
-            "start_pos": "3198",
-            "end_pos": "3198",
-            "column_header": "economic_disadvantage_code",
-            "column_num": "108"
-        },
-        {
-            "start_pos": "3199",
-            "end_pos": "3199",
-            "column_header": "title_i_part_a_indicator_code",
-            "column_num": "109"
-        },
-        {
-            "start_pos": "3200",
-            "end_pos": "3200",
-            "column_header": "migrant_indicator_code",
-            "column_num": "110"
-        },
-        {
-            "start_pos": "3201",
-            "end_pos": "3201",
-            "column_header": "lep_indicator_code",
-            "column_num": "111"
-        },
-        {
-            "start_pos": "3202",
-            "end_pos": "3202",
-            "column_header": "bilingual_indicator_code",
-            "column_num": "112"
-        },
-        {
-            "start_pos": "3203",
-            "end_pos": "3203",
-            "column_header": "esl_indicator_code",
-            "column_num": "113"
-        },
-        {
-            "start_pos": "3204",
-            "end_pos": "3204",
-            "column_header": "special_ed_indicator_code",
-            "column_num": "114"
-        },
-        {
-            "start_pos": "3205",
-            "end_pos": "3205",
-            "column_header": "gifted_talented_indicator_code",
-            "column_num": "115"
-        },
-        {
-            "start_pos": "3206",
-            "end_pos": "3206",
-            "column_header": "at_risk_indicator_code",
-            "column_num": "116"
-        },
-        {
-            "start_pos": "3207",
-            "end_pos": "3215",
-            "column_header": "local_student_id",
-            "column_num": "117"
-        },
-        {
-            "start_pos": "3216",
-            "end_pos": "3217",
-            "column_header": "enrolled_grade",
-            "column_num": "118"
-        },
-        {
-            "start_pos": "3218",
-            "end_pos": "3218",
-            "column_header": "text_to_speech_accommodations",
-            "column_num": "119"
-        },
-        {
-            "start_pos": "3219",
-            "end_pos": "3219",
-            "column_header": "auto_tts_accommodations",
-            "column_num": "120"
-        },
-        {
-            "start_pos": "3220",
-            "end_pos": "3220",
-            "column_header": "content_language",
-            "column_num": "121"
-        },
-        {
-            "start_pos": "3221",
-            "end_pos": "3221",
-            "column_header": "braille_refreshable_braille_device",
-            "column_num": "122"
-        },
-        {
-            "start_pos": "3222",
-            "end_pos": "3222",
-            "column_header": "basic_calculator_accommodations",
-            "column_num": "123"
-        },
-        {
-            "start_pos": "3223",
-            "end_pos": "3223",
-            "column_header": "local_use_1",
-            "column_num": "124"
-        },
-        {
-            "start_pos": "3224",
-            "end_pos": "3224",
-            "column_header": "local_use_2",
-            "column_num": "125"
-        },
-        {
-            "start_pos": "3225",
-            "end_pos": "3225",
-            "column_header": "local_use_3",
-            "column_num": "126"
-        },
-        {
-            "start_pos": "3226",
-            "end_pos": "3226",
-            "column_header": "local_use_4",
-            "column_num": "127"
-        },
-        {
-            "start_pos": "3247",
-            "end_pos": "3282",
-            "column_header": "opportunity_key",
-            "column_num": "129"
-        },
-        {
-            "start_pos": "3283",
-            "end_pos": "3284",
-            "column_header": "end_of_record",
-            "column_num": "130"
-        }
-    ]
+  "metadata": [
+    {
+      "author": "Austin Perrin",
+      "date_created": "2026-05-08",
+      "file_name": "2024-ttap-fixed-width-mapping.json",
+      "school_year": "2023-2024",
+      "administration_periods": [{ "code": "TTAP", "label": "2023-2024 TTAP" }],
+      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2023-2024-ttap-data-file-layout.pdf"
+    }
+  ],
+  "mapped_fields": [
+    {
+      "start_pos": "1",
+      "end_pos": "4",
+      "column_header": "assessment_type",
+      "column_num": "1"
+    },
+    {
+      "start_pos": "5",
+      "end_pos": "17",
+      "column_header": "administration",
+      "column_num": "2"
+    },
+    {
+      "start_pos": "18",
+      "end_pos": "25",
+      "column_header": "test_date",
+      "column_num": "3"
+    },
+    {
+      "start_pos": "26",
+      "end_pos": "33",
+      "column_header": "time_taken",
+      "column_num": "4"
+    },
+    {
+      "start_pos": "34",
+      "end_pos": "35",
+      "column_header": "esc_region_number",
+      "column_num": "5"
+    },
+    {
+      "start_pos": "36",
+      "end_pos": "44",
+      "column_header": "county_district_campus_number",
+      "column_num": "6"
+    },
+    {
+      "start_pos": "45",
+      "end_pos": "144",
+      "column_header": "district_name",
+      "column_num": "7"
+    },
+    {
+      "start_pos": "145",
+      "end_pos": "244",
+      "column_header": "campus_name",
+      "column_num": "8"
+    },
+    {
+      "start_pos": "245",
+      "end_pos": "304",
+      "column_header": "last_name",
+      "column_num": "9"
+    },
+    {
+      "start_pos": "305",
+      "end_pos": "364",
+      "column_header": "first_name",
+      "column_num": "10"
+    },
+    {
+      "start_pos": "365",
+      "end_pos": "424",
+      "column_header": "middle_name",
+      "column_num": "11"
+    },
+    {
+      "start_pos": "425",
+      "end_pos": "433",
+      "column_header": "peims_id",
+      "column_num": "12"
+    },
+    {
+      "start_pos": "434",
+      "end_pos": "436",
+      "column_header": "test_code",
+      "column_num": "13"
+    },
+    {
+      "start_pos": "437",
+      "end_pos": "438",
+      "column_header": "grade_level_tested",
+      "column_num": "14"
+    },
+    {
+      "start_pos": "443",
+      "end_pos": "446",
+      "column_header": "opportunity_scale_score",
+      "column_num": "16"
+    },
+    {
+      "start_pos": "447",
+      "end_pos": "481",
+      "column_header": "opportunity_performance_level",
+      "column_num": "17"
+    },
+    {
+      "start_pos": "482",
+      "end_pos": "485",
+      "column_header": "gain_loss_opportunity_1_2",
+      "column_num": "18"
+    },
+    {
+      "start_pos": "486",
+      "end_pos": "489",
+      "column_header": "difference_opportunity_1_2",
+      "column_num": "19"
+    },
+    {
+      "start_pos": "490",
+      "end_pos": "493",
+      "column_header": "gain_loss_opportunity_1_3",
+      "column_num": "20"
+    },
+    {
+      "start_pos": "494",
+      "end_pos": "497",
+      "column_header": "difference_opportunity_1_3",
+      "column_num": "21"
+    },
+    {
+      "start_pos": "498",
+      "end_pos": "501",
+      "column_header": "gain_loss_opportunity_2_3",
+      "column_num": "22"
+    },
+    {
+      "start_pos": "502",
+      "end_pos": "505",
+      "column_header": "difference_opportunity_2_3",
+      "column_num": "23"
+    },
+    {
+      "start_pos": "506",
+      "end_pos": "546",
+      "column_header": "predicted_staar_performance",
+      "column_num": "24"
+    },
+    {
+      "start_pos": "547",
+      "end_pos": "548",
+      "column_header": "rc1_low_points_earned",
+      "column_num": "25"
+    },
+    {
+      "start_pos": "549",
+      "end_pos": "550",
+      "column_header": "rc1_low_points_possible",
+      "column_num": "26"
+    },
+    {
+      "start_pos": "551",
+      "end_pos": "553",
+      "column_header": "rc1_low_percent_correct",
+      "column_num": "27"
+    },
+    {
+      "start_pos": "554",
+      "end_pos": "555",
+      "column_header": "rc1_medium_points_earned",
+      "column_num": "28"
+    },
+    {
+      "start_pos": "556",
+      "end_pos": "557",
+      "column_header": "rc1_medium_points_possible",
+      "column_num": "29"
+    },
+    {
+      "start_pos": "558",
+      "end_pos": "560",
+      "column_header": "rc1_medium_percent_correct",
+      "column_num": "30"
+    },
+    {
+      "start_pos": "561",
+      "end_pos": "562",
+      "column_header": "rc1_high_points_earned",
+      "column_num": "31"
+    },
+    {
+      "start_pos": "563",
+      "end_pos": "564",
+      "column_header": "rc1_high_points_possible",
+      "column_num": "32"
+    },
+    {
+      "start_pos": "565",
+      "end_pos": "567",
+      "column_header": "rc1_high_percent_correct",
+      "column_num": "33"
+    },
+    {
+      "start_pos": "568",
+      "end_pos": "569",
+      "column_header": "rc2_low_points_earned",
+      "column_num": "34"
+    },
+    {
+      "start_pos": "570",
+      "end_pos": "571",
+      "column_header": "rc2_low_points_possible",
+      "column_num": "35"
+    },
+    {
+      "start_pos": "572",
+      "end_pos": "574",
+      "column_header": "rc2_low_percent_correct",
+      "column_num": "36"
+    },
+    {
+      "start_pos": "575",
+      "end_pos": "576",
+      "column_header": "rc2_medium_points_earned",
+      "column_num": "37"
+    },
+    {
+      "start_pos": "577",
+      "end_pos": "578",
+      "column_header": "rc2_medium_points_possible",
+      "column_num": "38"
+    },
+    {
+      "start_pos": "579",
+      "end_pos": "581",
+      "column_header": "rc2_medium_percent_correct",
+      "column_num": "39"
+    },
+    {
+      "start_pos": "582",
+      "end_pos": "583",
+      "column_header": "rc2_high_points_earned",
+      "column_num": "40"
+    },
+    {
+      "start_pos": "584",
+      "end_pos": "585",
+      "column_header": "rc2_high_points_possible",
+      "column_num": "41"
+    },
+    {
+      "start_pos": "586",
+      "end_pos": "588",
+      "column_header": "rc2_high_percent_correct",
+      "column_num": "42"
+    },
+    {
+      "start_pos": "589",
+      "end_pos": "590",
+      "column_header": "rc3_low_points_earned",
+      "column_num": "43"
+    },
+    {
+      "start_pos": "591",
+      "end_pos": "592",
+      "column_header": "rc3_low_points_possible",
+      "column_num": "44"
+    },
+    {
+      "start_pos": "593",
+      "end_pos": "595",
+      "column_header": "rc3_low_percent_correct",
+      "column_num": "45"
+    },
+    {
+      "start_pos": "596",
+      "end_pos": "597",
+      "column_header": "rc3_medium_points_earned",
+      "column_num": "46"
+    },
+    {
+      "start_pos": "598",
+      "end_pos": "599",
+      "column_header": "rc3_medium_points_possible",
+      "column_num": "47"
+    },
+    {
+      "start_pos": "600",
+      "end_pos": "602",
+      "column_header": "rc3_medium_percent_correct",
+      "column_num": "48"
+    },
+    {
+      "start_pos": "603",
+      "end_pos": "604",
+      "column_header": "rc3_high_points_earned",
+      "column_num": "49"
+    },
+    {
+      "start_pos": "605",
+      "end_pos": "606",
+      "column_header": "rc3_high_points_possible",
+      "column_num": "50"
+    },
+    {
+      "start_pos": "607",
+      "end_pos": "609",
+      "column_header": "rc3_high_percent_correct",
+      "column_num": "51"
+    },
+    {
+      "start_pos": "610",
+      "end_pos": "611",
+      "column_header": "rc4_low_points_earned",
+      "column_num": "52"
+    },
+    {
+      "start_pos": "612",
+      "end_pos": "613",
+      "column_header": "rc4_low_points_possible",
+      "column_num": "53"
+    },
+    {
+      "start_pos": "614",
+      "end_pos": "616",
+      "column_header": "rc4_low_percent_correct",
+      "column_num": "54"
+    },
+    {
+      "start_pos": "617",
+      "end_pos": "618",
+      "column_header": "rc4_medium_points_earned",
+      "column_num": "55"
+    },
+    {
+      "start_pos": "619",
+      "end_pos": "620",
+      "column_header": "rc4_medium_points_possible",
+      "column_num": "56"
+    },
+    {
+      "start_pos": "621",
+      "end_pos": "623",
+      "column_header": "rc4_medium_percent_correct",
+      "column_num": "57"
+    },
+    {
+      "start_pos": "624",
+      "end_pos": "625",
+      "column_header": "rc4_high_points_earned",
+      "column_num": "58"
+    },
+    {
+      "start_pos": "626",
+      "end_pos": "627",
+      "column_header": "rc4_high_points_possible",
+      "column_num": "59"
+    },
+    {
+      "start_pos": "628",
+      "end_pos": "630",
+      "column_header": "rc4_high_percent_correct",
+      "column_num": "60"
+    },
+    {
+      "start_pos": "631",
+      "end_pos": "632",
+      "column_header": "overall_low_points_earned",
+      "column_num": "61"
+    },
+    {
+      "start_pos": "633",
+      "end_pos": "634",
+      "column_header": "overall_low_points_possible",
+      "column_num": "62"
+    },
+    {
+      "start_pos": "635",
+      "end_pos": "637",
+      "column_header": "overall_low_percent_correct",
+      "column_num": "63"
+    },
+    {
+      "start_pos": "638",
+      "end_pos": "639",
+      "column_header": "overall_medium_points_earned",
+      "column_num": "64"
+    },
+    {
+      "start_pos": "640",
+      "end_pos": "641",
+      "column_header": "overall_medium_points_possible",
+      "column_num": "65"
+    },
+    {
+      "start_pos": "642",
+      "end_pos": "644",
+      "column_header": "overall_medium_percent_correct",
+      "column_num": "66"
+    },
+    {
+      "start_pos": "645",
+      "end_pos": "646",
+      "column_header": "overall_high_points_earned",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "647",
+      "end_pos": "648",
+      "column_header": "overall_high_points_possible",
+      "column_num": "68"
+    },
+    {
+      "start_pos": "649",
+      "end_pos": "651",
+      "column_header": "overall_high_percent_correct",
+      "column_num": "69"
+    },
+    {
+      "start_pos": "652",
+      "end_pos": "671",
+      "column_header": "item_student_scores_segment_1",
+      "column_num": "70"
+    },
+    {
+      "start_pos": "672",
+      "end_pos": "691",
+      "column_header": "points_possible_by_item_segment_1",
+      "column_num": "71"
+    },
+    {
+      "start_pos": "692",
+      "end_pos": "711",
+      "column_header": "item_difficulty_segment_1",
+      "column_num": "72"
+    },
+    {
+      "start_pos": "712",
+      "end_pos": "1011",
+      "column_header": "se_alignment_segment_1",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "1012",
+      "end_pos": "1031",
+      "column_header": "item_student_scores_segment_2",
+      "column_num": "74"
+    },
+    {
+      "start_pos": "1032",
+      "end_pos": "1051",
+      "column_header": "points_possible_by_item_segment_2",
+      "column_num": "75"
+    },
+    {
+      "start_pos": "1052",
+      "end_pos": "1071",
+      "column_header": "item_difficulty_segment_2",
+      "column_num": "76"
+    },
+    {
+      "start_pos": "1072",
+      "end_pos": "1371",
+      "column_header": "se_alignment_segment_2",
+      "column_num": "77"
+    },
+    {
+      "start_pos": "1372",
+      "end_pos": "1391",
+      "column_header": "item_student_scores_segment_3",
+      "column_num": "78"
+    },
+    {
+      "start_pos": "1392",
+      "end_pos": "1411",
+      "column_header": "points_possible_by_item_segment_3",
+      "column_num": "79"
+    },
+    {
+      "start_pos": "1412",
+      "end_pos": "1431",
+      "column_header": "item_difficulty_segment_3",
+      "column_num": "80"
+    },
+    {
+      "start_pos": "1432",
+      "end_pos": "1731",
+      "column_header": "se_alignment_segment_3",
+      "column_num": "81"
+    },
+    {
+      "start_pos": "1732",
+      "end_pos": "1751",
+      "column_header": "item_student_scores_segment_4",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "1752",
+      "end_pos": "1771",
+      "column_header": "points_possible_by_item_segment_4",
+      "column_num": "83"
+    },
+    {
+      "start_pos": "1772",
+      "end_pos": "1791",
+      "column_header": "item_difficulty_segment_4",
+      "column_num": "84"
+    },
+    {
+      "start_pos": "1792",
+      "end_pos": "2091",
+      "column_header": "se_alignment_segment_4",
+      "column_num": "85"
+    },
+    {
+      "start_pos": "2092",
+      "end_pos": "2111",
+      "column_header": "item_student_scores_segment_5",
+      "column_num": "86"
+    },
+    {
+      "start_pos": "2112",
+      "end_pos": "2131",
+      "column_header": "points_possible_by_item_segment_5",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "2132",
+      "end_pos": "2151",
+      "column_header": "item_difficulty_segment_5",
+      "column_num": "88"
+    },
+    {
+      "start_pos": "2152",
+      "end_pos": "2451",
+      "column_header": "se_alignment_segment_5",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "2452",
+      "end_pos": "2471",
+      "column_header": "item_student_scores_segment_6",
+      "column_num": "90"
+    },
+    {
+      "start_pos": "2472",
+      "end_pos": "2491",
+      "column_header": "points_possible_by_item_segment_6",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "2492",
+      "end_pos": "2511",
+      "column_header": "item_difficulty_segment_6",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "2512",
+      "end_pos": "2811",
+      "column_header": "se_alignment_segment_6",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "2812",
+      "end_pos": "2831",
+      "column_header": "item_student_scores_segment_7",
+      "column_num": "94"
+    },
+    {
+      "start_pos": "2832",
+      "end_pos": "2851",
+      "column_header": "points_possible_by_item_segment_7",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "2852",
+      "end_pos": "2871",
+      "column_header": "item_difficulty_segment_7",
+      "column_num": "96"
+    },
+    {
+      "start_pos": "2872",
+      "end_pos": "3171",
+      "column_header": "se_alignment_segment_7",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "3172",
+      "end_pos": "3172",
+      "column_header": "sex_code",
+      "column_num": "98"
+    },
+    {
+      "start_pos": "3173",
+      "end_pos": "3180",
+      "column_header": "date_of_birth",
+      "column_num": "99"
+    },
+    {
+      "start_pos": "3181",
+      "end_pos": "3190",
+      "column_header": "tx_unique_student_id",
+      "column_num": "100"
+    },
+    {
+      "start_pos": "3191",
+      "end_pos": "3191",
+      "column_header": "hispanic_latino_code",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "3192",
+      "end_pos": "3192",
+      "column_header": "american_indian_alaska_native_code",
+      "column_num": "102"
+    },
+    {
+      "start_pos": "3193",
+      "end_pos": "3193",
+      "column_header": "asian_code",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "3194",
+      "end_pos": "3194",
+      "column_header": "black_african_american_code",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "3195",
+      "end_pos": "3195",
+      "column_header": "native_hawaiian_pacific_islander_code",
+      "column_num": "105"
+    },
+    {
+      "start_pos": "3196",
+      "end_pos": "3196",
+      "column_header": "white_code",
+      "column_num": "106"
+    },
+    {
+      "start_pos": "3197",
+      "end_pos": "3197",
+      "column_header": "ethnicity_race_reporting_category",
+      "column_num": "107"
+    },
+    {
+      "start_pos": "3198",
+      "end_pos": "3198",
+      "column_header": "economic_disadvantage_code",
+      "column_num": "108"
+    },
+    {
+      "start_pos": "3199",
+      "end_pos": "3199",
+      "column_header": "title_i_part_a_indicator_code",
+      "column_num": "109"
+    },
+    {
+      "start_pos": "3200",
+      "end_pos": "3200",
+      "column_header": "migrant_indicator_code",
+      "column_num": "110"
+    },
+    {
+      "start_pos": "3201",
+      "end_pos": "3201",
+      "column_header": "lep_indicator_code",
+      "column_num": "111"
+    },
+    {
+      "start_pos": "3202",
+      "end_pos": "3202",
+      "column_header": "bilingual_indicator_code",
+      "column_num": "112"
+    },
+    {
+      "start_pos": "3203",
+      "end_pos": "3203",
+      "column_header": "esl_indicator_code",
+      "column_num": "113"
+    },
+    {
+      "start_pos": "3204",
+      "end_pos": "3204",
+      "column_header": "special_ed_indicator_code",
+      "column_num": "114"
+    },
+    {
+      "start_pos": "3205",
+      "end_pos": "3205",
+      "column_header": "gifted_talented_indicator_code",
+      "column_num": "115"
+    },
+    {
+      "start_pos": "3206",
+      "end_pos": "3206",
+      "column_header": "at_risk_indicator_code",
+      "column_num": "116"
+    },
+    {
+      "start_pos": "3207",
+      "end_pos": "3215",
+      "column_header": "local_student_id",
+      "column_num": "117"
+    },
+    {
+      "start_pos": "3216",
+      "end_pos": "3217",
+      "column_header": "enrolled_grade",
+      "column_num": "118"
+    },
+    {
+      "start_pos": "3218",
+      "end_pos": "3218",
+      "column_header": "text_to_speech_accommodations",
+      "column_num": "119"
+    },
+    {
+      "start_pos": "3219",
+      "end_pos": "3219",
+      "column_header": "auto_tts_accommodations",
+      "column_num": "120"
+    },
+    {
+      "start_pos": "3220",
+      "end_pos": "3220",
+      "column_header": "content_language",
+      "column_num": "121"
+    },
+    {
+      "start_pos": "3221",
+      "end_pos": "3221",
+      "column_header": "braille_refreshable_braille_device",
+      "column_num": "122"
+    },
+    {
+      "start_pos": "3222",
+      "end_pos": "3222",
+      "column_header": "basic_calculator_accommodations",
+      "column_num": "123"
+    },
+    {
+      "start_pos": "3223",
+      "end_pos": "3223",
+      "column_header": "local_use_1",
+      "column_num": "124"
+    },
+    {
+      "start_pos": "3224",
+      "end_pos": "3224",
+      "column_header": "local_use_2",
+      "column_num": "125"
+    },
+    {
+      "start_pos": "3225",
+      "end_pos": "3225",
+      "column_header": "local_use_3",
+      "column_num": "126"
+    },
+    {
+      "start_pos": "3226",
+      "end_pos": "3226",
+      "column_header": "local_use_4",
+      "column_num": "127"
+    },
+    {
+      "start_pos": "3247",
+      "end_pos": "3282",
+      "column_header": "opportunity_key",
+      "column_num": "129"
+    },
+    {
+      "start_pos": "3283",
+      "end_pos": "3284",
+      "column_header": "end_of_record",
+      "column_num": "130"
+    }
+  ]
 }
