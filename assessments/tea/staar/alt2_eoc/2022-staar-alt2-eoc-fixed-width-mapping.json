@@ -5,10 +5,30 @@
       "date_created": "2026-05-04",
       "file_name": "2022-staar-alt2-eoc-fixed-width-mapping.json",
       "school_year": "2021-2022",
-      "administration_periods": [
-        { "code": "1522", "label": "Spring 2022" }
-      ],
+      "administration_periods": [{ "code": "1522", "label": "Spring 2022" }],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-staar-alt2-eoc-student-data-file-format.pdf"
+    }
+  ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_1522_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
+      ]
+    },
+    {
+      "regex": "^SF_1522_EOCALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.txt)?$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^1522_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])_ProductionExaminee_.*$",
+      "references": [
+        "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
+        "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
     }
   ],
   "mapped_fields": [
