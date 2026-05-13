@@ -12,9 +12,11 @@ This TELPAS family currently lives under `assessments/tea/telpas/`.
 Each mapping uses the same top-level structure as the STAAR mapping files:
 
 - `metadata`
+- `filename_patterns` when the file also documents supported delivered filename styles
 - `mapped_fields`
 
 Blank fields from the published layouts are intentionally omitted from `mapped_fields`, while `column_num` preserves the source layout sequence including those blanks.
+When `filename_patterns` is present, each entry should include a `regex` string and a `references` array that ties the pattern back to source documentation.
 
 ## Header Conventions
 

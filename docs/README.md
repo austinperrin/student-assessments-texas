@@ -44,5 +44,6 @@ Examples:
 - `docs/tea-data-file-formats-archive/2024/2024-tfar-data-file.pdf`
 
 The authoritative source link for each mapping file should remain the `metadata.pdf_url` value stored in the JSON.
+When a mapping file also defines `filename_patterns`, each pattern's `references` array should point to the naming-convention or layout sources that justify that regex.
 
 See [index.md](./index.md) for a lightweight directory of what lives in this folder.

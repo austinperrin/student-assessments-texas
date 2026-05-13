@@ -28,6 +28,7 @@ Examples:
 Each file should contain:
 
 - `metadata`
+- `filename_patterns` when filename matching guidance is stored in the same file
 - `mapped_fields`
 
 Each `mapped_fields` entry should contain:
@@ -42,6 +43,12 @@ Each `mapped_fields` entry should contain:
 - store metadata values as strings unless the family already uses a structured array such as `administration_periods`
 - keep `author`, `date_created`, `file_name`, `school_year`, and `pdf_url` accurate
 - preserve `administration_periods` for this family and source it from the PDF's administration legend
+
+## Filename Pattern Rules
+
+- use `filename_patterns` only when the mapping file needs to document supported delivered filename formats
+- store each `filename_patterns` entry as an object with `regex` and `references`
+- keep `references` tied to the source documents that justify the pattern, such as the TEA naming convention PDF or the family layout PDF
 
 ## Field Mapping Rules
 
