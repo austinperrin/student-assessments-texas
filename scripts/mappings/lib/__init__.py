@@ -1,1 +1,1 @@
-"""TEA assessment sorter support."""
+"""TEA assessment mapping script support."""
