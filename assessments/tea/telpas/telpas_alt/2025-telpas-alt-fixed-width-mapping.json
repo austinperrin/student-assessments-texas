@@ -5,7 +5,12 @@
       "date_created": "2026-05-08",
       "file_name": "2025-telpas-alt-fixed-width-mapping.json",
       "school_year": "2024-2025",
-      "administration_periods": [{ "code": "0325", "label": "Spring 2025" }],
+      "administration_periods": [
+        {
+          "code": "0325",
+          "label": "Spring 2025"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-telpas-alt-data-file-format.pdf"
     }
   ],
@@ -28,6 +33,12 @@
     {
       "regex": "^[A-Za-z0-9]+_0325_[Tt][Ee][Ll][Pp][Aa][Ss]_[Aa][Ll][Tt]_[0-9K-]+(?:\\.txt)?$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
+    },
+    {
+      "regex": "^S[FP]_0325_[Tt][Ee][Ll][Pp][Aa][Ss][Aa][Ll][Tt]_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
+      ]
     }
   ],
   "mapped_fields": [

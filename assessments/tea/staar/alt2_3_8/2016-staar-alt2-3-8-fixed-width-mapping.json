@@ -5,7 +5,12 @@
       "date_created": "2026-05-10",
       "file_name": "2016-staar-alt2-3-8-fixed-width-mapping.json",
       "school_year": "2015-2016",
-      "administration_periods": [{ "code": "0416", "label": "Spring 2016" }],
+      "administration_periods": [
+        {
+          "code": "0416",
+          "label": "Spring 2016"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2016-staar-alt2-3-8-data-file-format.pdf"
     }
   ],
@@ -32,6 +37,12 @@
     {
       "regex": "^SDR_STAAR_ALT_2016_\\d{8}(?:\\.txt)?$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
+    },
+    {
+      "regex": "^S[FP]_(?:0416|2016)_3[-_]8ALT_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
+      ]
     }
   ],
   "mapped_fields": [

@@ -5,7 +5,12 @@
       "date_created": "2026-05-08",
       "file_name": "2015-telpas-fixed-width-mapping.json",
       "school_year": "2014-2015",
-      "administration_periods": [{ "code": "0315", "label": "Spring 2015" }],
+      "administration_periods": [
+        {
+          "code": "0315",
+          "label": "Spring 2015"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2015-telpas-data-file-format.pdf"
     }
   ],
@@ -24,6 +29,12 @@
     {
       "regex": "^SDR_[Tt][Ee][Ll][Pp][Aa][Ss]_2015_\\d{8}(?:\\.txt)?$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
+    },
+    {
+      "regex": "^S[FP]_(?:0315|2015)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
+      ]
     }
   ],
   "mapped_fields": [

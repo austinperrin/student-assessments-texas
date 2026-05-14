@@ -6,9 +6,18 @@
       "file_name": "2022-staar-eoc-fixed-width-mapping.json",
       "school_year": "2021-2022",
       "administration_periods": [
-        { "code": "1321", "label": "Fall 2021" },
-        { "code": "1522", "label": "Spring 2022" },
-        { "code": "1622", "label": "Summer 2022" }
+        {
+          "code": "1321",
+          "label": "Fall 2021"
+        },
+        {
+          "code": "1522",
+          "label": "Spring 2022"
+        },
+        {
+          "code": "1622",
+          "label": "Summer 2022"
+        }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-staar-eoc-data-file-format.pdf"
     }
@@ -51,6 +60,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_(?:1321|1522|1622)_EOC_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],

@@ -5,7 +5,12 @@
       "date_created": "2026-05-04",
       "file_name": "2021-staar-alt2-eoc-fixed-width-mapping.json",
       "school_year": "2020-2021",
-      "administration_periods": [{ "code": "1521", "label": "Spring 2021" }],
+      "administration_periods": [
+        {
+          "code": "1521",
+          "label": "Spring 2021"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2021-staar-alt2-data-file-format.pdf"
     }
   ],
@@ -28,6 +33,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_1521_EOCALT_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],
