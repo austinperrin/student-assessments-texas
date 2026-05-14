@@ -18,7 +18,7 @@
       ]
     },
     {
-      "regex": "^0326_[Tt][Ee][Ll][Pp][Aa][Ss][Aa][Ll][Tt]_Production[ _]Examinee_.*$",
+      "regex": "^0326_[Tt][Ee][Ll][Pp][Aa][Ss][Aa][Ll][Tt]_ProductionExaminee_.*$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
