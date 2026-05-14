@@ -126,7 +126,7 @@ Most families include their own `README.md` files with family-specific exception
 
 Repository-level scripts live under [scripts](./scripts/), with CI validation in [scripts/ci](./scripts/ci/), shared config in [configs](./configs/), and GitHub automation in [.github](./.github/).
 
-Mapping-specific helper scripts live under [scripts/mappings](./scripts/mappings/), including the ZIP sorter documented in [scripts/mappings/README.md](./scripts/mappings/README.md) for classifying TEA assessment data extracts from `.tmp/uploads/` into timestamped output batches under `.tmp/exports/`.
+Mapping-specific helper scripts live under [scripts/mappings](./scripts/mappings/), including the TEA assessment sorter documented in [scripts/mappings/README.md](./scripts/mappings/README.md) for classifying loose TEA assessment files from `.tmp/uploads/` and optionally archive batches into timestamped output folders under `.tmp/exports/`.
 
 Run the baseline checks locally with:
 
