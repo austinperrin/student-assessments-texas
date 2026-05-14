@@ -10,8 +10,12 @@ with assessment mapping maintenance outside the top-level CI entrypoints.
 - `python scripts/mappings/sort_tea_assessments.py [input_dir]`
   Processes TEA assessment files from `.tmp/`, classifies files using mapping
   `filename_patterns`, and writes sorted output archives plus run artifacts.
+- `python scripts/mappings/merge_tea_assessment_files.py [input_dir]`
+  Processes TEA assessment files from `.tmp/`, classifies files using mapping
+  `filename_patterns`, and merges one fixed-width text file per assessment bucket.
 
 The reusable sorter logic lives in `scripts/mappings/lib/tea_assessment_sorter.py`.
+The reusable merger logic lives in `scripts/mappings/lib/tea_assessment_merger.py`.
 
 ## ZIP Sorter
 
@@ -89,3 +93,69 @@ Each run creates a timestamped folder under `.tmp/exports/` containing:
   directly from source archives into output archives where possible
 - use `--keep-extracted` only when you need extracted working files for
   debugging, since that path keeps more on-disk artifacts and is slower
+
+## Merge Tool
+
+### Default workflow
+
+Run the merger from the repo root:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py
+```
+
+By default it uses:
+
+- input: `.tmp/uploads/`
+- output runs: `.tmp/exports/<run_timestamp>/`
+- processed source inputs: `.tmp/processed_files/<run_timestamp>/`
+
+You can also point it at another `.tmp` subdirectory:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py .tmp/my-batch
+```
+
+To also include archive `.zip` files from the base input directory:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py --include-archives
+```
+
+### Behavior
+
+- input directories must live under `.tmp/`
+- top-level non-`.zip` files in the input directory are processed by default
+- top-level `.zip` files are ignored by default and can be included with
+  `--include-archives`
+- when `--include-archives` is used, both loose files and top-level `.zip`
+  files directly inside the input directory are processed
+- nested `.zip` files are processed recursively
+- files are matched against every mapping JSON under `assessments/tea/` that
+  exposes `filename_patterns`
+- matching is deterministic and produces one merged output text file per
+  mapping file, for example `2026-staar-3-8.txt`
+- merged outputs preserve source bytes exactly; the tool concatenates matched
+  file contents without adding separators or extra newlines
+- known metadata files and unmatched files are excluded from merged outputs and
+  are recorded in run artifacts instead
+- once a run completes, processed source files are moved out of uploads so the
+  default workflow is safe to run multiple times per day
+
+### Run artifacts
+
+Each run creates a timestamped folder under `.tmp/exports/` containing:
+
+- merged assessment text files
+- `summary.json`
+- `run-<run_timestamp>.log`
+
+`summary.json` and the run log include:
+
+- processed source archives
+- processed loose files
+- nested archives encountered
+- created merged output files
+- metadata files and unmatched files
+- ambiguous multi-match classifications
+- start time, end time, and total execution time
