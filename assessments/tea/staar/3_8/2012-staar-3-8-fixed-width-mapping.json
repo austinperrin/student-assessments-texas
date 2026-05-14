@@ -6,8 +6,14 @@
       "file_name": "2012-staar-3-8-fixed-width-mapping.json",
       "school_year": "2011-2012",
       "administration_periods": [
-        { "code": "0312", "label": "March 2012" },
-        { "code": "0412", "label": "April 2012" }
+        {
+          "code": "0312",
+          "label": "March 2012"
+        },
+        {
+          "code": "0412",
+          "label": "April 2012"
+        }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2012-staar-3-8-data-file.pdf"
     }
@@ -49,6 +55,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_(?:1512|0512|0612|0312|0412)_3[-_]8_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],

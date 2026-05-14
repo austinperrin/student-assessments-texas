@@ -6,7 +6,10 @@
       "file_name": "2021-staar-3-8-fixed-width-mapping.json",
       "school_year": "2020-2021",
       "administration_periods": [
-        { "code": "0421", "label": "April 2021 (grades 5 and 8 mathematics and reading only)" },
+        {
+          "code": "0421",
+          "label": "April 2021 (grades 5 and 8 mathematics and reading only)"
+        },
         {
           "code": "0521",
           "label": "May 2021 (grades 3-8 excluding grades 5 and 8 mathematics and reading)"
@@ -52,6 +55,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_(?:1521|0521|0621|0421)_3[-_]8_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],

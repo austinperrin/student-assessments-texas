@@ -6,9 +6,18 @@
       "file_name": "2012-staar-eoc-fixed-width-mapping.json",
       "school_year": "2011-2012",
       "administration_periods": [
-        { "code": "1312", "label": "Fall 2012" },
-        { "code": "1512", "label": "Spring 2012" },
-        { "code": "1612", "label": "Summer 2012" }
+        {
+          "code": "1312",
+          "label": "Fall 2012"
+        },
+        {
+          "code": "1512",
+          "label": "Spring 2012"
+        },
+        {
+          "code": "1612",
+          "label": "Summer 2012"
+        }
       ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2012-staar-eoc-assessments-data-file-format.pdf"
     }
@@ -51,6 +60,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_(?:1311|1512|1612)_EOC_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],

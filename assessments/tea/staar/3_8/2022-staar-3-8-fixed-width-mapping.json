@@ -5,7 +5,12 @@
       "date_created": "2026-05-07",
       "file_name": "2022-staar-3-8-fixed-width-mapping.json",
       "school_year": "2021-2022",
-      "administration_periods": [{ "code": "0522", "label": "May 2022" }],
+      "administration_periods": [
+        {
+          "code": "0522",
+          "label": "May 2022"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-staar-3-8-data-file-format.pdf"
     }
   ],
@@ -39,6 +44,12 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
+      ]
+    },
+    {
+      "regex": "^S[FP]_(?:1522|0522|0622)_3[-_]8_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "references": [
+        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],
