@@ -1,33 +1,37 @@
 # Docs
 
-This folder stores local project documentation and reference material used to support the mapping files in this repository.
+This folder stores the human-facing documentation system for the repository,
+including standards, roadmap material, durable decisions, and the local archive
+of source reference documents.
 
-## Current Primary Archive
+## Start Here
 
-The TEA and Texas Assessments PDF archive is stored under:
-
-- [tea-data-file-formats-archive](./tea-data-file-formats-archive/)
-
-The official online TEA or Texas Assessments documentation remains the source of truth. The local archive is a synced working reference and should be kept current with the online source whenever a document changes.
-
-## Standards
-
-Shared human-readable standards live under:
-
-- [standards](./standards/)
-
-## Additional Documentation Areas
-
-The docs folder also includes:
-
-- [overview](./overview/)
+- [index.md](./index.md)
+  Main documentation directory and navigation index.
+- [overview/README.md](./overview/README.md)
+  Repository purpose, current scope, and long-term direction.
+- [overview/repository-navigation.md](./overview/repository-navigation.md)
+  Navigation guide for major repository areas and their responsibilities.
 - [overview/scripts-and-commands.md](./overview/scripts-and-commands.md)
-- [roadmap](./roadmap/)
-- [adr](./adr/)
+  Script glossary and common command patterns.
+
+## Documentation Areas
+
+- [overview/](./overview/)
+  Repository intent, navigation, and operational reference docs.
+- [standards/](./standards/)
+  Human-readable standards for coding, commits, scripts, and ADR usage.
+- [roadmap/](./roadmap/)
+  Milestone-level repository evolution and priority tracking.
+- [adr/](./adr/)
+  Architecture Decision Records and ADR usage guidance.
+- [tea-data-file-formats-archive/](./tea-data-file-formats-archive/)
+  Local TEA and Texas Assessments PDF archive used to curate mappings.
 
 ## Archive Rules
 
-PDFs in the TEA archive are organized into year-based subfolders to mirror the way the source documents are grouped online.
+PDFs in the TEA archive are organized into year-based folders to mirror the
+way source documents are grouped online.
 
 Use the ending year when a PDF is labeled by school year.
 
@@ -44,7 +48,16 @@ Examples:
 - `docs/tea-data-file-formats-archive/2018/2018-staar-eoc-data-file-format.pdf`
 - `docs/tea-data-file-formats-archive/2024/2024-tfar-data-file.pdf`
 
-The authoritative source link for each mapping file should remain the `metadata.pdf_url` value stored in the JSON.
-When a mapping file also defines `filename_patterns`, each pattern's `references` array should point to the naming-convention or layout sources that justify that regex.
+The authoritative source link for each mapping file should remain the
+`metadata.pdf_url` value stored in the JSON. When a mapping file also defines
+`filename_patterns`, each pattern's `references` array should point to the
+naming-convention or layout sources that justify that regex.
 
-See [index.md](./index.md) for a lightweight directory of what lives in this folder.
+## Related References
+
+- [../README.md](../README.md)
+  Repository-level overview and working expectations.
+- [../assessments/README.md](../assessments/README.md)
+  Entry point for the canonical mapping corpus.
+- [../scripts/README.md](../scripts/README.md)
+  Automation and validation entrypoints used by the repository.

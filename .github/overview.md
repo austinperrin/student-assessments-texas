@@ -4,11 +4,11 @@ This folder holds repository workflow automation and contribution templates.
 
 ## Current Contents
 
-- `workflows/`
+- [workflows/](./workflows/)
   CI-style validation for repository changes
-- `PULL_REQUEST_TEMPLATE.md`
+- [PULL_REQUEST_TEMPLATE.md](./PULL_REQUEST_TEMPLATE.md)
   Pull request checklist aligned to mapping and documentation work
-- `ISSUE_TEMPLATE/`
+- [ISSUE_TEMPLATE/](./ISSUE_TEMPLATE/)
   Lightweight intake forms for mapping and repository improvement work
 
 ## Current Automation Baseline
@@ -22,3 +22,12 @@ The repository currently favors a lightweight validation model:
 As the repository grows into services or packages, this folder can expand to
 include additional workflows for linting, tests, security checks, packaging, or
 deployment.
+
+## Related References
+
+- [../README.md](../README.md)
+  Repository overview and top-level navigation.
+- [../scripts/ci/README.md](../scripts/ci/README.md)
+  Current CI validation tooling.
+- [../docs/overview/scripts-and-commands.md](../docs/overview/scripts-and-commands.md)
+  Common repository command reference.

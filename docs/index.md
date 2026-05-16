@@ -1,15 +1,31 @@
 # Docs Index
 
-This folder holds local reference material used to support the mapping files in this repository.
+This folder is the main navigation index for the repository's human-facing
+documentation system.
 
-The current active assessment corpus lives under [`../assessments`](../assessments/), with supporting standards, ADRs, and source-document archive material collected here under `docs/`.
+The current assessment corpus lives under
+[../assessments/](../assessments/), while standards, ADRs, roadmap material,
+workflow references, and local source-document archives live here under
+`docs/`.
+
+## Primary Entry Points
+
+- [README.md](./README.md)
+  Documentation system overview.
+- [overview/README.md](./overview/README.md)
+  Repository purpose and long-term direction.
+- [overview/repository-navigation.md](./overview/repository-navigation.md)
+  Guide to the top-level repository areas and how they fit together.
 
 ## Current Sections
 
 - [Overview](./overview/)
   Repository purpose, current scope, and long-term direction.
+- [Repository Navigation](./overview/repository-navigation.md)
+  Top-level navigation guide and repository area responsibilities.
 - [Scripts And Commands Reference](./overview/scripts-and-commands.md)
-  Quick glossary for repository entrypoints, sorter terms, and common command patterns.
+  Quick glossary for repository entrypoints, sorter terms, and common command
+  patterns.
 - [Roadmap](./roadmap/)
   Milestone-level view of repository growth and scaffolding priorities.
 - [Standards](./standards/)

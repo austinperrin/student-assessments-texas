@@ -14,7 +14,17 @@ mapping files.
 - apply stable normalization standards where the field meaning truly matches
 - keep family-level documentation and repository standards aligned
 - maintain a clean local archive of TEA and Texas Assessments source documents
-- keep the assessment corpus grouped under `assessments/` so future vendors can be added without reshaping the repo again
+- keep the assessment corpus grouped under `assessments/` so future vendors can
+  be added without reshaping the repo again
+
+## Navigation
+
+- [repository-navigation.md](./repository-navigation.md)
+  Guide to the major repository areas and how to move between them.
+- [scripts-and-commands.md](./scripts-and-commands.md)
+  Command glossary for the active automation surface.
+- [../index.md](../index.md)
+  Central docs index.
 
 ## Planned Direction
 

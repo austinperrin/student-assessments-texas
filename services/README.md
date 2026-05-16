@@ -14,3 +14,12 @@ Potential future uses:
 
 Service code should consume the canonical corpus under `assessments/` rather
 than becoming the source-of-truth location for mappings.
+
+## Related References
+
+- [../README.md](../README.md)
+  Repository overview and platform intent.
+- [../assessments/README.md](../assessments/README.md)
+  Canonical mapping corpus entrypoint.
+- [../docs/roadmap/index.md](../docs/roadmap/index.md)
+  Repository growth milestones and future platform direction.

@@ -14,3 +14,12 @@ Until then, infrastructure expectations for this repository are intentionally mi
 - repository validation is handled through `scripts/` and `.github/workflows/`
 - canonical assessment mappings remain under `assessments/`
 - assessment source PDFs remain local reference material under `docs/tea-data-file-formats-archive/`
+
+## Related References
+
+- [../README.md](../README.md)
+  Repository overview and top-level navigation.
+- [../scripts/README.md](../scripts/README.md)
+  Automation and validation entrypoints.
+- [../.github/overview.md](../.github/overview.md)
+  Current workflow automation baseline.

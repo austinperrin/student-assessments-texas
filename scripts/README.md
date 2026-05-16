@@ -40,8 +40,16 @@ categories that do not fit this project yet.
 - `python scripts/mappings/merge_tea_assessment_files.py`
   Merges matched TEA assessment files into one text output per mapping bucket.
 
-For the full glossary of repository commands and sorter terminology, see
-[docs/overview/scripts-and-commands.md](../docs/overview/scripts-and-commands.md).
+## Navigation
+
+- [../docs/overview/scripts-and-commands.md](../docs/overview/scripts-and-commands.md)
+  Full glossary of repository commands and sorter terminology.
+- [ci/README.md](./ci/README.md)
+  CI validation tooling and repo checks.
+- [mappings/README.md](./mappings/README.md)
+  Sorter, merger, and mapping-maintenance workflows.
+- [../README.md](../README.md)
+  Repository overview and working expectations.
 
 Add future script families as purpose-based subdirectories instead of growing a
 flat list at the top of `scripts/`.
