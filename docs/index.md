@@ -8,6 +8,8 @@ The current active assessment corpus lives under [`../assessments`](../assessmen
 
 - [Overview](./overview/)
   Repository purpose, current scope, and long-term direction.
+- [Scripts And Commands Reference](./overview/scripts-and-commands.md)
+  Quick glossary for repository entrypoints, sorter terms, and common command patterns.
 - [Roadmap](./roadmap/)
   Milestone-level view of repository growth and scaffolding priorities.
 - [Standards](./standards/)

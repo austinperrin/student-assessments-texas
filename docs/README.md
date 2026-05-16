@@ -21,6 +21,7 @@ Shared human-readable standards live under:
 The docs folder also includes:
 
 - [overview](./overview/)
+- [overview/scripts-and-commands.md](./overview/scripts-and-commands.md)
 - [roadmap](./roadmap/)
 - [adr](./adr/)
 

@@ -21,14 +21,25 @@ repository's current mapping-first scope.
 
 ## Current Bias
 
-This repo is still primarily a mapping and documentation repository, so only
-`ci/` is active today. The other folders establish a clean growth path without
-forcing application-oriented categories that do not fit this project yet.
+This repo is still primarily a mapping and documentation repository, so `ci/`
+and `mappings/` are the primary active script families today. The other
+folders establish a clean growth path without forcing application-oriented
+categories that do not fit this project yet.
 
 ## Current Entry Points
 
 - `python scripts/ci/validate_repo.py`
   Runs the baseline repository validation suite.
+- `python scripts/mappings/sort_tea_assessments.py`
+  Sorts TEA assessment files into assessment buckets with configurable input,
+  output, and grouping behavior.
+- `python scripts/mappings/sort_archive_outputs.py`
+  Runs the sorter with archive output selected by default.
+- `python scripts/mappings/merge_tea_assessment_files.py`
+  Merges matched TEA assessment files into one text output per mapping bucket.
+
+For the full glossary of repository commands and sorter terminology, see
+[docs/overview/scripts-and-commands.md](../docs/overview/scripts-and-commands.md).
 
 Add future script families as purpose-based subdirectories instead of growing a
 flat list at the top of `scripts/`.
