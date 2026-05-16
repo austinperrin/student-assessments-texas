@@ -1,12 +1,14 @@
-# STAAR 3-8 Mapping Maintenance Guide
+# STAAR 3-8 AI Agent Guide
+
+This file guides AI agents working inside `assessments/tea/staar/3_8/`.
 
 ## Purpose
 
 This folder contains year-specific JSON mappings for STAAR grades 3-8 reporting student data files published by the Texas Education Agency.
 
-## Source of Truth
+## Source Reference Rules
 
-- the corresponding official online TEA documentation is the source of truth
+- the current official online TEA documentation is the governing reference
 - the local PDF should come from the matching year folder under `../../../../docs/tea-data-file-formats-archive/` and should match the current online source
 - keep `metadata.pdf_url` aligned to the official source URL
 - do not infer field names from neighboring JSON files unless the current year's PDF is genuinely unclear

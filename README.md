@@ -1,27 +1,69 @@
-# Texas Assessments Fixed-Width Mappings
+# Texas Student Assessments
 
-This repository curates year-specific JSON mapping files for assessment data layouts, with current coverage focused on Texas assessment families from TEA and Texas Assessments.
+This project curates year-specific JSON mappings, reference materials, and
+supporting tooling for Texas student assessment data workflows.
 
-The mappings are built from official source layouts and normalized into a consistent JSON structure so the files can be reviewed, maintained, and used programmatically across assessment families and years. Today the active corpus is TEA-specific, but the repository structure is intentionally prepared for future non-TEA vendors under `assessments/`.
+The current working focus is TEA and Texas Assessments fixed-width layouts, but
+the project is structured so future assessment programs, tooling, and
+runtime consumers can be added without another top-level reorganization.
 
-## Repository Structure
+## Start Here
 
-- [assessments](./assessments/)
-  Canonical assessment mappings and maintenance docs grouped by vendor or source system
-- [assessments/tea](./assessments/tea/)
-  Current TEA and Texas Assessments mapping families, including `staar`, `telpas`, `tfar`, `ttap`, and `crs`
-- [docs](./docs/)  
-  Local project documentation and reference materials, including the TEA data file format archive
-- [services](./services/)  
-  Reserved for future application or runtime services
-- [packages](./packages/)  
-  Reserved for future shared libraries, schemas, and reusable tooling
-- [infra](./infra/)  
-  Shared infrastructure and environment-oriented repository artifacts
+- [assessments/](./assessments/)
+  Assessment mappings grouped by vendor or source system.
+- [docs/index.md](./docs/index.md)
+  Documentation index for standards, roadmap, ADRs, workflow references, and
+  the TEA source-document archive.
+- [scripts/](./scripts/)
+  Shared automation for validation, sorting, merging, and project
+  maintenance.
+- [configs/](./configs/)
+  Shared schema and project-level configuration references.
 
-## Mapping File Shape
+## Project Structure
 
-Each mapping file follows the same high-level structure:
+The project is organized around a few durable responsibilities:
+
+- [assessments/](./assessments/)
+  Stores the current assessment mapping corpus.
+- [docs/](./docs/)
+  Stores human-facing documentation, standards, roadmap material, and source
+  reference archives.
+- [scripts/](./scripts/)
+  Stores shared automation and maintenance tooling.
+- [configs/](./configs/)
+  Stores shared schemas and validation contracts.
+- [services/](./services/)
+  Reserved for future application or runtime services.
+- [packages/](./packages/)
+  Reserved for future shared libraries, loaders, or reusable tooling modules.
+- [infra/](./infra/)
+  Reserved for future infrastructure and environment-oriented artifacts.
+
+## Navigate The Corpus
+
+Assessment mappings currently live under [assessments/tea/](./assessments/tea/)
+with the following families:
+
+- [assessments/tea/staar/3_8](./assessments/tea/staar/3_8/)
+- [assessments/tea/staar/eoc](./assessments/tea/staar/eoc/)
+- [assessments/tea/staar/alt2_3_8](./assessments/tea/staar/alt2_3_8/)
+- [assessments/tea/staar/alt2_eoc](./assessments/tea/staar/alt2_eoc/)
+- [assessments/tea/staar/interim](./assessments/tea/staar/interim/)
+- [assessments/tea/staar/consolidated_accountability](./assessments/tea/staar/consolidated_accountability/)
+- [assessments/tea/telpas/telpas](./assessments/tea/telpas/telpas/)
+- [assessments/tea/telpas/telpas_alt](./assessments/tea/telpas/telpas_alt/)
+- [assessments/tea/tfar](./assessments/tea/tfar/)
+- [assessments/tea/ttap](./assessments/tea/ttap/)
+- [assessments/tea/crs](./assessments/tea/crs/)
+
+Most family folders include their own `README.md` files for year coverage
+notes, naming expectations, and local maintenance guidance.
+
+## TEA Mapping File Shape
+
+The current TEA assessment mappings in this project generally follow this
+high-level shape:
 
 ```json
 {
@@ -32,6 +74,12 @@ Each mapping file follows the same high-level structure:
       "file_name": "2026-example-fixed-width-mapping.json",
       "school_year": "2025-2026",
       "pdf_url": "https://tea.texas.gov/..."
+    }
+  ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0526_.*\\.txt$",
+      "references": ["https://www.texasassessment.gov/..."]
     }
   ],
   "mapped_fields": [
@@ -45,128 +93,92 @@ Each mapping file follows the same high-level structure:
 }
 ```
 
-Common rules used across the repo:
+This example is TEA-specific. Other assessment programs added in the future may
+use a different JSON shape when their source materials or workflow needs differ.
+
+Shared TEA mapping rules include:
 
 - store mapping values as strings
 - omit blank source fields from `mapped_fields`
-- preserve original source ordering in `column_num`, including gaps caused by omitted blanks
+- preserve original source ordering in `column_num`, including gaps caused by
+  omitted blanks
 - normalize headers to lowercase snake case
-- use the official `metadata.pdf_url` as the canonical source link
+- keep `metadata.pdf_url` aligned to the official source document
 
-## Normalization Conventions
+## Coverage Snapshot
 
-Recurring identifiers and shared concepts are normalized where the source meaning is the same:
+Current TEA mapping coverage in the project:
 
-- `peims_id`
-- `local_student_id`
-- `tx_unique_student_id`
-- `family_portal_unique_access_code`
-- `emergent_bilingual_indicator_code`
-- `gifted_and_talented_indicator_code`
-
-Year-specific terminology is preserved when TEA changed the actual field meaning rather than just the label.
-
-## Coverage
-
-Current mapping coverage in the repo:
-
-- `assessments/tea/staar/3_8`: `2012`-`2026`
-- `assessments/tea/staar/eoc`: `2012`-`2026`
-- `assessments/tea/staar/alt2_3_8`: `2016`-`2019`, `2021`-`2026`
-- `assessments/tea/staar/alt2_eoc`: `2016`-`2019`, `2021`-`2026`
-- `assessments/tea/staar/interim`: `2023`, `2024`, `2026`
-- `assessments/tea/staar/consolidated_accountability`: `2014`-`2019`, `2021`-`2025`
-- `assessments/tea/telpas/telpas`: `2012`-`2026`
-- `assessments/tea/telpas/telpas_alt`: `2019`-`2026`
-- `assessments/tea/tfar`: `2024`-`2025`
-- `assessments/tea/ttap`: `2023`-`2025`
-- `assessments/tea/crs`: `2023`-`2026`
+- `staar/3_8`: `2012`-`2026`
+- `staar/eoc`: `2012`-`2026`
+- `staar/alt2_3_8`: `2016`-`2019`, `2021`-`2026`
+- `staar/alt2_eoc`: `2016`-`2019`, `2021`-`2026`
+- `staar/interim`: `2023`, `2024`, `2026`
+- `staar/consolidated_accountability`: `2014`-`2019`, `2021`-`2025`
+- `telpas/telpas`: `2012`-`2026`
+- `telpas/telpas_alt`: `2019`-`2026`
+- `tfar`: `2024`-`2025`
+- `ttap`: `2023`-`2025`
+- `crs`: `2023`-`2026`
 
 Notes:
 
-- school-year PDFs use the ending year as the mapping filename year
-- some families intentionally skip years where no official PDF could be confirmed locally or online
-- `assessments/tea/staar/interim` includes the separate `2022-2023` interim and BOY student-results layout under the `2023` mapping year
+- school-year PDFs use the ending year in the mapping filename
+- some families intentionally skip years where no official source could be
+  confirmed
+- `staar/interim` includes the separate `2022-2023` interim and BOY
+  student-results layout under the `2023` mapping year
 
-## Local Reference Documents
+## Documentation System
 
-The [docs](./docs/) folder is the home for local project documentation and reference materials.
+The documentation hub is [docs/index.md](./docs/index.md). The most useful
+entrypoints are:
 
-The TEA and Texas Assessments PDF archive currently lives under:
+- [docs/overview/README.md](./docs/overview/README.md)
+  Project purpose and long-term direction.
+- [docs/overview/repository-navigation.md](./docs/overview/repository-navigation.md)
+  Navigation guide for the top-level project areas and documentation system.
+- [docs/overview/scripts-and-commands.md](./docs/overview/scripts-and-commands.md)
+  Script glossary and common command patterns.
+- [docs/standards/](./docs/standards/)
+  Human-readable project standards.
+- [docs/roadmap/index.md](./docs/roadmap/index.md)
+  Milestone-level project roadmap.
+- [docs/adr/README.md](./docs/adr/README.md)
+  Architecture Decision Record guidance.
+- [docs/tea-data-file-formats-archive/](./docs/tea-data-file-formats-archive/)
+  Local PDF archive of TEA and Texas Assessments source layouts.
 
-- [docs/tea-data-file-formats-archive](./docs/tea-data-file-formats-archive/)
-
-Examples:
-
-- [docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf](./docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf)
-- [docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf](./docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf)
-- [docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf](./docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf)
-
-The local archive is for reference and maintenance. The official online TEA or Texas Assessments documentation remains the source of truth, and the local PDF copy should be kept up to date with that source. The official source URL for each mapping should remain in that file's `metadata.pdf_url`.
-
-The docs area also includes human-readable working standards under:
-
-- [docs/standards](./docs/standards/)
-- [docs/overview](./docs/overview/)
-- [docs/roadmap](./docs/roadmap/)
-- [docs/adr](./docs/adr/)
-
-## Working In This Repo
-
-When adding or updating mappings:
-
-1. Start with the current year's official online documentation as the source of truth, and make sure the local archived PDF matches it.
-2. Check the relevant folder-level documentation before making changes.
-3. Apply the established normalization rules only when the source meaning truly matches.
-4. Validate that the JSON parses cleanly and that `column_header` values remain unique.
-
-Most families include their own `README.md` files with family-specific exceptions, year gaps, and naming notes.
+The local archive is for maintenance and reference. The official online TEA or
+Texas Assessments documentation remains the governing reference, and each
+mapping's `metadata.pdf_url` should stay aligned to that official source.
 
 ## Validation And Tooling
 
-Repository-level scripts live under [scripts](./scripts/), with CI validation in [scripts/ci](./scripts/ci/), shared config in [configs](./configs/), and GitHub automation in [.github](./.github/).
+Validation and automation are documented in
+[scripts/README.md](./scripts/README.md). Common entrypoints include:
 
-Mapping-specific helper scripts live under [scripts/mappings](./scripts/mappings/). The TEA assessment sorter documented in [scripts/mappings/README.md](./scripts/mappings/README.md) classifies loose TEA assessment files from `.tmp/uploads/` and can optionally process archive batches into timestamped output folders under `.tmp/exports/`. The TEA assessment merger documented there uses the same mapping `filename_patterns` workflow to concatenate matched fixed-width files into one `.txt` output per assessment bucket.
+- `python scripts/ci/validate_repo.py`
+- `npm run format`
+- `npm run lint`
+- `python scripts/mappings/sort_tea_assessments.py`
+- `python scripts/mappings/merge_tea_assessment_files.py`
 
-Run the baseline checks locally with:
+The sorter and merger workflows are documented in
+[scripts/mappings/README.md](./scripts/mappings/README.md).
 
-```powershell
-python scripts/ci/validate_repo.py
-```
+## Working Expectations
 
-The current baseline validates:
+When adding or updating mappings:
 
-- mapping JSON structure and duplicate `column_header` values
-- metadata and filename consistency
-- lowercase snake case headers and basic numeric position sanity checks
-- documentation for machine-specific absolute paths and broken repo-relative links
+1. Start from the current-year official source documentation.
+2. Check the relevant folder-level guidance before editing.
+3. Preserve real year-specific meaning changes instead of normalizing them away.
+4. Validate JSON shape, header uniqueness, and documentation portability after
+   edits.
 
-For repo-wide formatting and commit consistency, install the Node tooling once:
+For shared project standards and workflow expectations, see:
 
-```powershell
-npm install
-```
-
-Then use:
-
-```powershell
-npm run format
-npm run lint
-```
-
-The Node tooling provides:
-
-- `prettier` for consistent formatting of JSON, Markdown, and YAML
-- `husky` plus `lint-staged` to format staged files before commit
-- `commitlint` to enforce conventional commit messages through the `commit-msg` hook
-
-After `npm install`, Husky will install the Git hooks automatically through the `prepare` script.
-
-## Platform-Ready Structure
-
-The repository is still mapping-first, but a few top-level areas are reserved so
-future application work can land cleanly:
-
-- [services](./services/)
-- [packages](./packages/)
-- [infra](./infra/)
+- [docs/standards/coding-standards.md](./docs/standards/coding-standards.md)
+- [docs/standards/commits.md](./docs/standards/commits.md)
+- [docs/standards/scripts.md](./docs/standards/scripts.md)

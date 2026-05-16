@@ -9,7 +9,17 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from lib.tea_assessment_sorter import classify_file, load_mapping_buckets, process_input_dir
+from lib.tea_assessment_sorter import (
+    GROUPING_ASSESSMENT,
+    GROUPING_ASSESSMENT_BY_YEAR,
+    INPUT_MODE_ALL,
+    INPUT_MODE_ARCHIVE,
+    OUTPUT_MODE_ARCHIVE,
+    OUTPUT_MODE_DIRECTORY,
+    classify_file,
+    load_mapping_buckets,
+    process_input_dir,
+)
 
 
 def write_json(path: Path, payload: dict) -> None:
@@ -93,7 +103,7 @@ class TeaAssessmentSorterTests(unittest.TestCase):
             self.assertEqual("2026-a", winner.output_stem)
             self.assertEqual(["2026-a", "2026-b"], matching_buckets)
 
-    def test_process_input_dir_extracts_nested_archives_and_creates_unsorted_zip(self) -> None:
+    def test_process_input_dir_extracts_nested_archives_and_creates_unsorted_archive(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_root = Path(temp_dir)
             tmp_root = temp_root / ".tmp"
@@ -126,7 +136,9 @@ class TeaAssessmentSorterTests(unittest.TestCase):
                 input_dir=input_dir,
                 output_root=output_root,
                 keep_extracted=False,
-                include_archives=True,
+                input_mode=INPUT_MODE_ARCHIVE,
+                output_mode=OUTPUT_MODE_ARCHIVE,
+                grouping=GROUPING_ASSESSMENT_BY_YEAR,
                 mapping_root=mapping_root,
                 tmp_root=tmp_root,
                 processed_root=processed_root,
@@ -171,7 +183,7 @@ class TeaAssessmentSorterTests(unittest.TestCase):
             with zipfile.ZipFile(unsorted_zip) as zf:
                 self.assertEqual(["notes.txt"], zf.namelist())
 
-    def test_process_input_dir_processes_loose_files_by_default(self) -> None:
+    def test_process_input_dir_processes_loose_files_into_directories_by_default(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_root = Path(temp_dir)
             tmp_root = temp_root / ".tmp"
@@ -200,11 +212,13 @@ class TeaAssessmentSorterTests(unittest.TestCase):
             )
 
             outputs_root = run_dir / "outputs"
-            matched_zip = outputs_root / "2026-staar-eoc.zip"
-            metadata_zip = outputs_root / "metadata.zip"
-            unsorted_zip = outputs_root / "unsorted.zip"
+            matched_dir = outputs_root / "2026-staar-eoc"
+            metadata_dir = outputs_root / "metadata"
+            unsorted_dir = outputs_root / "unsorted"
             summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
 
+            self.assertEqual(OUTPUT_MODE_DIRECTORY, summary["output_mode"])
+            self.assertEqual(GROUPING_ASSESSMENT_BY_YEAR, summary["grouping"])
             self.assertEqual([], summary["processed_archives"])
             self.assertEqual(
                 ["notes.txt", "Readme.txt", "SF_1326_DISTRICT_A_V01.txt"],
@@ -212,18 +226,9 @@ class TeaAssessmentSorterTests(unittest.TestCase):
             )
             self.assertEqual(3, len(summary["processed_input_destinations"]))
             self.assertTrue((processed_root / run_dir.name / "SF_1326_DISTRICT_A_V01.txt").exists())
-            self.assertTrue(matched_zip.exists())
-            self.assertTrue(metadata_zip.exists())
-            self.assertTrue(unsorted_zip.exists())
-
-            with zipfile.ZipFile(matched_zip) as zf:
-                self.assertEqual(["SF_1326_DISTRICT_A_V01.txt"], zf.namelist())
-
-            with zipfile.ZipFile(metadata_zip) as zf:
-                self.assertEqual(["uploads/Readme.txt"], zf.namelist())
-
-            with zipfile.ZipFile(unsorted_zip) as zf:
-                self.assertEqual(["notes.txt"], zf.namelist())
+            self.assertTrue((matched_dir / "SF_1326_DISTRICT_A_V01.txt").exists())
+            self.assertTrue((metadata_dir / "uploads" / "Readme.txt").exists())
+            self.assertTrue((unsorted_dir / "notes.txt").exists())
 
     def test_duplicate_names_use_source_archive_stem_suffix(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -246,7 +251,9 @@ class TeaAssessmentSorterTests(unittest.TestCase):
                 input_dir=input_dir,
                 output_root=output_root,
                 keep_extracted=False,
-                include_archives=True,
+                input_mode=INPUT_MODE_ARCHIVE,
+                output_mode=OUTPUT_MODE_ARCHIVE,
+                grouping=GROUPING_ASSESSMENT_BY_YEAR,
                 mapping_root=mapping_root,
                 tmp_root=tmp_root,
                 processed_root=processed_root,
@@ -303,6 +310,8 @@ class TeaAssessmentSorterTests(unittest.TestCase):
                 mapping_root=mapping_root,
                 tmp_root=tmp_root,
                 processed_root=processed_root,
+                output_mode=OUTPUT_MODE_ARCHIVE,
+                grouping=GROUPING_ASSESSMENT_BY_YEAR,
             )
 
             summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
@@ -310,6 +319,95 @@ class TeaAssessmentSorterTests(unittest.TestCase):
             self.assertEqual(["SF_1326_DISTRICT_A_V01.txt"], summary["processed_loose_files"])
             self.assertTrue((input_dir / "batch.zip").exists())
             self.assertTrue((processed_root / run_dir.name / "SF_1326_DISTRICT_A_V01.txt").exists())
+
+    def test_process_input_dir_can_write_plain_directories(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_root = Path(temp_dir)
+            tmp_root = temp_root / ".tmp"
+            input_dir = tmp_root / "uploads"
+            output_root = tmp_root / "exports"
+            processed_root = tmp_root / "processed_files"
+            mapping_root = temp_root / "assessments" / "tea"
+
+            make_mapping(
+                mapping_root / "staar" / "2026-staar-eoc-fixed-width-mapping.json",
+                [r"^SF_1326_.*\.txt$"],
+            )
+
+            input_dir.mkdir(parents=True, exist_ok=True)
+            (input_dir / "SF_1326_DISTRICT_A_V01.txt").write_bytes(b"matched loose")
+            (input_dir / "Readme.txt").write_bytes(b"metadata loose")
+            (input_dir / "notes.txt").write_bytes(b"unmatched loose")
+
+            run_dir = process_input_dir(
+                input_dir=input_dir,
+                output_root=output_root,
+                keep_extracted=False,
+                mapping_root=mapping_root,
+                tmp_root=tmp_root,
+                processed_root=processed_root,
+                output_mode=OUTPUT_MODE_DIRECTORY,
+                grouping=GROUPING_ASSESSMENT_BY_YEAR,
+            )
+
+            outputs_root = run_dir / "outputs"
+            matched_dir = outputs_root / "2026-staar-eoc"
+            metadata_dir = outputs_root / "metadata"
+            unsorted_dir = outputs_root / "unsorted"
+            summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
+
+            self.assertEqual(OUTPUT_MODE_DIRECTORY, summary["output_mode"])
+            self.assertEqual(3, summary["created_output_count"])
+            self.assertTrue((matched_dir / "SF_1326_DISTRICT_A_V01.txt").exists())
+            self.assertTrue((metadata_dir / "uploads" / "Readme.txt").exists())
+            self.assertTrue((unsorted_dir / "notes.txt").exists())
+            self.assertEqual(
+                ["2026-staar-eoc", "metadata", "unsorted"],
+                sorted(item["output"] for item in summary["created_outputs"]),
+            )
+
+    def test_process_input_dir_can_group_by_assessment_across_years(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_root = Path(temp_dir)
+            tmp_root = temp_root / ".tmp"
+            input_dir = tmp_root / "uploads"
+            output_root = tmp_root / "exports"
+            processed_root = tmp_root / "processed_files"
+            mapping_root = temp_root / "assessments" / "tea"
+
+            make_mapping(
+                mapping_root / "staar" / "eoc" / "2025-staar-eoc-fixed-width-mapping.json",
+                [r"^SF_1325_.*\.txt$"],
+            )
+            make_mapping(
+                mapping_root / "staar" / "eoc" / "2026-staar-eoc-fixed-width-mapping.json",
+                [r"^SF_1326_.*\.txt$"],
+            )
+
+            input_dir.mkdir(parents=True, exist_ok=True)
+            (input_dir / "SF_1325_DISTRICT_A_V01.txt").write_bytes(b"matched 2025")
+            (input_dir / "SF_1326_DISTRICT_B_V01.txt").write_bytes(b"matched 2026")
+
+            run_dir = process_input_dir(
+                input_dir=input_dir,
+                output_root=output_root,
+                keep_extracted=False,
+                input_mode=INPUT_MODE_ALL,
+                output_mode=OUTPUT_MODE_DIRECTORY,
+                grouping=GROUPING_ASSESSMENT,
+                mapping_root=mapping_root,
+                tmp_root=tmp_root,
+                processed_root=processed_root,
+            )
+
+            outputs_root = run_dir / "outputs"
+            assessment_dir = outputs_root / "staar" / "eoc"
+            summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
+
+            self.assertEqual(GROUPING_ASSESSMENT, summary["grouping"])
+            self.assertTrue((assessment_dir / "SF_1325_DISTRICT_A_V01.txt").exists())
+            self.assertTrue((assessment_dir / "SF_1326_DISTRICT_B_V01.txt").exists())
+            self.assertEqual(["staar/eoc"], [item["output"] for item in summary["created_outputs"]])
 
 
 if __name__ == "__main__":

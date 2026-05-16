@@ -10,8 +10,9 @@
     "prepare": "husky",
     "format": "prettier --write \"README.md\" \"AGENTS.md\" \".github/**/*.{md,yml,yaml}\" \"docs/**/*.md\" \"scripts/**/*.md\" \"assessments/**/*.json\" \"package.json\" \"package-lock.json\" \"commitlint.config.cjs\" \".prettierrc.json\"",
     "format:check": "prettier --check \"README.md\" \"AGENTS.md\" \".github/**/*.{md,yml,yaml}\" \"docs/**/*.md\" \"scripts/**/*.md\" \"assessments/**/*.json\" \"package.json\" \"package-lock.json\" \"commitlint.config.cjs\" \".prettierrc.json\"",
+    "lint:format": "npm run format:check",
     "lint:repo": "python scripts/ci/validate_repo.py",
-    "lint": "npm run format:check && npm run lint:repo",
+    "lint": "npm run lint:format && npm run lint:repo",
     "commitlint": "commitlint --edit"
   },
   "lint-staged": {

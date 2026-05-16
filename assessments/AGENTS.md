@@ -1,22 +1,24 @@
-# Assessments Agent Guide
+# Assessments AI Agent Guide
 
-This folder stores canonical assessment mappings and maintenance docs grouped by
-vendor or source system.
+This file guides AI agents working inside `assessments/`.
 
 ## Scope
 
-Use this area for source-of-truth assessment assets such as:
+Use this area for maintained assessment mapping assets such as:
 
 - mapping JSON files
-- family-level `README.md` and `AGENTS.md` guidance
+- family-level `README.md` and `AGENTS.md` files
 - vendor- or assessment-specific organizational structure
 
 ## Working Rules
 
 - keep canonical assessment assets under `assessments/` rather than under `services/`
 - group content first by vendor or source system
-- keep platform-specific code in `services/` or `packages/`, not alongside the source mappings
+- keep platform-specific code in `services/` or `packages/`, not alongside
+  maintained mappings
 - update nearby docs when folder structure or vendor grouping changes
+- use the nearest deeper `AGENTS.md` before changing a specific vendor or
+  family folder
 
 Current active vendor grouping:
 

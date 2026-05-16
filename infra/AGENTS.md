@@ -1,10 +1,11 @@
-# Infra Agent Guide
+# Infra AI Agent Guide
 
-This folder is reserved for future infrastructure artifacts.
+This file guides AI agents working inside `infra/`.
 
 ## Scope
 
-Do not place current source-of-truth mappings or shared repository docs here.
+Do not place active mappings, shared human docs, or general project contracts
+here.
 
 Use this area only when the project gains real infrastructure needs such as:
 
@@ -16,3 +17,4 @@ Use this area only when the project gains real infrastructure needs such as:
 
 - keep infra additions lightweight until a concrete runtime need exists
 - prefer documenting why an infra artifact exists when the folder begins to fill out
+- do not create speculative deployment structure without a real execution need

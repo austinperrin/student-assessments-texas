@@ -1,6 +1,6 @@
-# STAAR Mapping Maintenance Guide
+# STAAR AI Agent Guide
 
-This file documents how to work within the `assessments/tea/staar/` directory and how the STAAR mapping sets are organized.
+This file guides AI agents working inside `assessments/tea/staar/` and explains how the STAAR mapping sets are organized.
 
 ## Purpose
 
@@ -32,6 +32,8 @@ When maintaining a mapping in a STAAR subdirectory:
 - use the PDF that matches that mapping's `pdf_url`
 - follow the folder-specific maintenance guidance in that subdirectory's `AGENTS.md`
 - keep metadata and field definitions aligned to the source PDF for that specific year
+- treat the current official online TEA documentation as the governing
+  reference when the local PDF and online source ever diverge
 
 ## Routing Rules
 

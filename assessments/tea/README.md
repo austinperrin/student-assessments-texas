@@ -1,18 +1,32 @@
 # TEA Assessments
 
-This folder stores the current Texas assessment mapping families curated from TEA and Texas Assessments source layouts.
+This folder stores the current TEA and Texas Assessments mapping families
+within the broader Texas student assessments project scope.
 
-## Current Families
+## Navigate Families
 
-- `staar/`
-  STAAR mapping families including grades `3_8`, `eoc`, `alt2_3_8`, `alt2_eoc`, `interim`, and `consolidated_accountability`
-- `telpas/`
+- [staar/](./staar/)
+  STAAR mapping families including grades `3_8`, `eoc`, `alt2_3_8`,
+  `alt2_eoc`, `interim`, and `consolidated_accountability`.
+- [telpas/](./telpas/)
   TELPAS and TELPAS Alternate mapping families
-- `tfar/`
+- [tfar/](./tfar/)
   TFAR mapping files
-- `ttap/`
+- [ttap/](./ttap/)
   TTAP mapping files
-- `crs/`
+- [crs/](./crs/)
   CRS Custom mapping files
 
-Use the family-specific `README.md` and `AGENTS.md` files inside each folder for maintenance guidance.
+## Working Rule
+
+Use the family-specific `README.md` files inside each folder for year coverage
+notes, naming expectations, and maintenance guidance.
+
+## Related References
+
+- [../README.md](../README.md)
+  Vendor-level corpus entrypoint for assessments.
+- [../../docs/tea-data-file-formats-archive/](../../docs/tea-data-file-formats-archive/)
+  Local TEA and Texas Assessments PDF source archive.
+- [../../docs/standards/coding-standards.md](../../docs/standards/coding-standards.md)
+  Shared project standards for mappings and documentation.
