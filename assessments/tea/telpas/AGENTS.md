@@ -1,6 +1,9 @@
-# TELPAS Mapping Maintenance Guide
+# TELPAS AI Agent Guide
 
-The `assessments/tea/telpas/` directory groups TELPAS fixed-width mapping files by assessment family.
+This file guides AI agents working inside `assessments/tea/telpas/`.
+
+The `assessments/tea/telpas/` directory groups TELPAS fixed-width mapping files
+by assessment family.
 
 ## Directory Structure
 
@@ -16,7 +19,8 @@ Source layout PDFs remain in `../../../docs`.
 
 ## Maintenance Principles
 
-- Use the current year's official online documentation as the source of truth, and keep the local archived PDF aligned to it.
+- Use the current year's official online documentation as the governing
+  reference, and keep the local archived PDF aligned to it.
 - Omit blank fields from `mapped_fields`.
 - Preserve blank fields in the `column_num` sequence.
 - Normalize field titles into lowercase snake case.
@@ -25,3 +29,5 @@ Source layout PDFs remain in `../../../docs`.
 - Normalize identifier headers as `peims_id`, `local_student_id`, and `tx_unique_student_id`.
 - Use `family_portal_unique_access_code` for Family Portal or Student Portal unique access code fields.
 - Do not use legacy variants such as `student_portal_unique_access_code`, `tsds_id`, or raw `student_id` when the source field is one of the normalized identifiers above.
+- Use the deeper family-specific `AGENTS.md` before changing `telpas/` or
+  `telpas_alt/` files directly.

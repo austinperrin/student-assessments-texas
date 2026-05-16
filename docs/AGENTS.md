@@ -1,12 +1,12 @@
-# Docs Agent Guide
+# Docs AI Agent Guide
 
-This folder stores human-facing repository documentation and local reference material.
+This file guides AI agents working inside `docs/`.
 
 ## Scope
 
 Use this area for:
 
-- repository overview and roadmap docs
+- project overview and roadmap docs
 - standards and ADRs
 - local source-document archives used to maintain mappings
 
@@ -16,3 +16,6 @@ Use this area for:
 - keep human-facing docs aligned with the current repository structure
 - store local reference PDFs under `tea-data-file-formats-archive/` and keep them aligned with the current official online source
 - record durable structural decisions in `adr/` instead of scattering them across multiple docs
+- keep AI-agent-specific instructions in `AGENTS.md`, not in `README.md`
+- add or update local `AGENTS.md` files in deeper doc hubs when a sub-area
+  develops distinct agent workflows

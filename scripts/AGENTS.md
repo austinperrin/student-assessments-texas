@@ -1,6 +1,6 @@
-# Scripts Agent Guide
+# Scripts AI Agent Guide
 
-This folder stores repository automation grouped by intent.
+This file guides AI agents working inside `scripts/`.
 
 ## Structure
 
@@ -24,5 +24,7 @@ This folder stores repository automation grouped by intent.
 - validate inputs explicitly and fail with actionable output
 - document new script entrypoints in the nearest `README.md`
 - keep this folder structure aligned with `docs/standards/scripts.md`
+- add deeper `AGENTS.md` files when a script sub-area develops distinct agent
+  routing or safety rules
 
 Do not add app- or platform-specific script categories unless the repository actually grows into those workflows.

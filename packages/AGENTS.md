@@ -1,4 +1,4 @@
-# Packages Agent Guide
+# Packages AI Agent Guide
 
 This folder is reserved for future shared libraries, schemas, and reusable modules.
 

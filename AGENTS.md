@@ -1,12 +1,15 @@
-# Repository Agent Guide
+# AI Agent Guide
 
-This file is the top-level maintenance guide for AI agents working in this repository.
+This file is the top-level working guide for AI agents operating in this
+project.
 
 ## Scope
 
-This repository stores fixed-width JSON mapping files for Texas assessment data layouts plus the local reference documents used to curate them.
+This project currently focuses on Texas student assessment mappings,
+documentation, and maintenance tooling, with active work centered on TEA and
+Texas Assessments fixed-width layouts.
 
-Primary mapping families:
+Primary active mapping families:
 
 - `assessments/tea/staar/3_8`
 - `assessments/tea/staar/eoc`
@@ -20,36 +23,47 @@ Primary mapping families:
 - `assessments/tea/ttap`
 - `assessments/tea/crs`
 
-Use the family-specific `AGENTS.md` files inside those folders for family-level rules and exceptions.
+Use the nearest folder-level `AGENTS.md` before making changes inside a more
+specific area.
 
-## Source Material
+## Agent Priorities
 
-- the official online TEA or Texas Assessments documentation for the current mapping year is the source of truth
-- local reference PDFs live under `docs/tea-data-file-formats-archive/<year>/` and should be kept up to date with the current online source
+- preserve source-document accuracy over cross-year uniformity
+- keep tracked docs portable with repo-relative links only
+- keep human-facing `README.md` files scoped to human readers
+- use `AGENTS.md` files for AI-agent-specific instructions, routing, and guardrails
+- prefer focused, reviewable changes over broad speculative restructuring
+
+## Source Material Rules
+
+- the current official online TEA or Texas Assessments documentation is the
+  governing reference for active TEA mappings
+- local reference PDFs live under `docs/tea-data-file-formats-archive/<year>/`
+  and should stay aligned to the current online source
 - `metadata.pdf_url` should remain aligned to the official source URL
-- do not infer field names from neighboring years when the current PDF is clear
-- do not create local `tmp_*.txt`, extracted plain-text PDF dumps, or similar scratch files in the repo when reviewing PDFs
-
-## Documentation Link Rules
-
-- use repo-relative links in repository documentation
-- do not write machine-specific absolute paths into `README.md`, `AGENTS.md`, or other tracked docs
-- keep documentation portable across users, machines, and environments
+- do not infer field names from neighboring years when the current source is
+  clear
+- do not create tracked scratch artifacts such as extracted PDF text dumps
 
 ## Shared Mapping Rules
 
-- preserve the repository-wide JSON shape of `metadata` plus `mapped_fields`, with optional top-level `filename_patterns`
+- preserve the current TEA mapping JSON shape of `metadata` plus
+  `mapped_fields`, with optional top-level `filename_patterns`
 - store mapping values as strings
 - omit blank source fields from `mapped_fields`
-- preserve source ordering in `column_num`, including gaps caused by omitted blank fields
+- preserve source ordering in `column_num`, including gaps caused by omitted
+  blank fields
 - use lowercase snake case for `column_header`
-- remove note spillover, wrapped-title spillover, and OCR debris from field names
+- remove note spillover, wrapped-title spillover, and OCR debris from field
+  names
 - do not allow duplicate `column_header` values in a file
-- when `filename_patterns` is present, store it as an array of objects with `regex` and `references`
+- when `filename_patterns` is present, store it as an array of objects with
+  `regex` and `references`
 
 ## Shared Normalization Rules
 
-Normalize these identifiers and recurring concepts when the source meaning matches:
+Normalize these identifiers and recurring concepts when the source meaning
+matches:
 
 - `peims_id`
 - `local_student_id`
@@ -58,42 +72,40 @@ Normalize these identifiers and recurring concepts when the source meaning match
 - `emergent_bilingual_indicator_code`
 - `gifted_and_talented_indicator_code`
 
-Do not normalize away real meaning changes when TEA changed the field concept rather than just the label.
+Do not normalize away real meaning changes when TEA changed the field concept
+rather than just the label.
 
-## Year Naming
+## Documentation Rules
 
-- for single-year PDFs, use that year in the mapping filename
-- for school-year PDFs, use the ending year in the mapping filename
-
-Examples:
-
-- `2023-2024-staar-interim-data-file-format.pdf` -> `2024-staar-interim-fixed-width-mapping.json`
-- `2024-2025-crs-data-file-format.pdf` -> `2025-crs-custom-fixed-width-mapping.json`
+- use repo-relative links in tracked documentation
+- do not write machine-specific absolute paths into tracked docs
+- keep human-facing docs aligned with the current project structure
+- keep AI-agent-specific instructions in `AGENTS.md`, not in `README.md`
+- update nearby docs when folder structure, commands, or workflow expectations
+  change
 
 ## Validation
 
-After editing or adding mappings:
+After editing mappings, shared docs, or project structure:
 
-1. confirm the JSON parses cleanly
-2. confirm `column_header` values are unique
-3. confirm the file still reflects the current year's official online documentation rather than a neighboring year
-4. keep folder-specific `README.md` and `AGENTS.md` guidance aligned when the local doc layout changes
-5. run the repository validation scripts when the change touches shared docs, structure, or multiple mapping files
+1. confirm JSON files still parse cleanly
+2. confirm `column_header` values remain unique where relevant
+3. confirm docs still use valid repo-relative links
+4. run `npm run lint` when the change touches tracked docs, shared structure, or
+   multiple mappings
 
-## Repository Tooling
+## Project Areas
 
-- shared repository scripts live under `scripts/`, with CI validation scripts under `scripts/ci/`
-- assessment mappings currently live under `assessments/`, with TEA-specific families under `assessments/tea/`
-- shared config and schema reference files live under `configs/`
-- GitHub automation lives under `.github/`
-- `infra/` is reserved for future shared infrastructure artifacts if the repo grows beyond script and document workflows
-- `services/` is reserved for future application or runtime services
-- `packages/` is reserved for future shared libraries, schemas, or reusable tooling modules
-
-## Documentation System
-
-- `docs/overview/` explains repository intent and current scope
-- `docs/roadmap/` tracks milestone-level repository evolution
-- `docs/adr/` stores durable repository and platform decisions
-- `docs/standards/` holds human-facing working standards
-- `.github/overview.md` explains repository workflow automation and templates
+- `assessments/`
+  Assessment mappings and area-specific maintenance guidance.
+- `docs/`
+  Human-facing project documentation and local reference archives.
+- `scripts/`
+  Validation, sorting, merging, and maintenance automation.
+- `configs/`
+  Shared schemas and validation contracts.
+- `.github/`
+  Workflow automation and contribution templates.
+- `services/`, `packages/`, `infra/`
+  Reserved for future implementation areas and should stay lightweight until
+  concrete needs exist.
