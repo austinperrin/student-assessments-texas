@@ -24,8 +24,8 @@ The source layout PDFs remain in
 
 ## Maintenance Guides
 
-- See [AGENTS.md](./AGENTS.md) for top-level STAAR structure guidance
-- Each subdirectory also includes its own `README.md` and `AGENTS.md`
+- Each subdirectory includes its own `README.md` with local coverage notes and
+  maintenance guidance
 
 ## Header Conventions
 
@@ -39,4 +39,4 @@ fields should use the shared names `peims_id`, `local_student_id`, and
 - [../README.md](../README.md)
   TEA assessment family overview.
 - [../../../docs/standards/coding-standards.md](../../../docs/standards/coding-standards.md)
-  Shared repository mapping and documentation standards.
+  Shared project mapping and documentation standards.

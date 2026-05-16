@@ -1,6 +1,6 @@
 # Docs Index
 
-This folder is the main navigation index for the repository's human-facing
+This folder is the main navigation index for the project's human-facing
 documentation system.
 
 The current assessment corpus lives under
@@ -13,29 +13,29 @@ workflow references, and local source-document archives live here under
 - [README.md](./README.md)
   Documentation system overview.
 - [overview/README.md](./overview/README.md)
-  Repository purpose and long-term direction.
+  Project purpose and long-term direction.
 - [overview/repository-navigation.md](./overview/repository-navigation.md)
-  Guide to the top-level repository areas and how they fit together.
+  Guide to the top-level project areas and how they fit together.
 
 ## Current Sections
 
 - [Overview](./overview/)
-  Repository purpose, current scope, and long-term direction.
-- [Repository Navigation](./overview/repository-navigation.md)
-  Top-level navigation guide and repository area responsibilities.
+  Project purpose, current scope, and long-term direction.
+- [Project Navigation](./overview/repository-navigation.md)
+  Top-level navigation guide and project area responsibilities.
 - [Scripts And Commands Reference](./overview/scripts-and-commands.md)
-  Quick glossary for repository entrypoints, sorter terms, and common command
+  Quick glossary for project entrypoints, sorter terms, and common command
   patterns.
 - [Roadmap](./roadmap/)
-  Milestone-level view of repository growth and scaffolding priorities.
+  Milestone-level view of project growth and scaffolding priorities.
 - [Standards](./standards/)
-  Human-readable repository standards for coding, commits, scripts, and ADR usage.
+  Human-readable project standards for coding, commits, scripts, and ADR usage.
 - [ADRs](./adr/)
-  Architecture Decision Records for durable repository and platform decisions.
+  Architecture Decision Records for durable project and platform decisions.
 - [TEA Data File Formats Archive](./tea-data-file-formats-archive/)
   Year-based local archive of TEA and Texas Assessments PDF layouts used to curate the JSON mappings.
 - [GitHub Workflow Overview](../.github/overview.md)
-  Repository workflow automation and contribution-template overview.
+  Workflow automation and contribution-template overview.
 
 ## Archive Layout
 

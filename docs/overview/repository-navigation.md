@@ -1,12 +1,12 @@
-# Repository Navigation
+# Project Navigation
 
-This guide describes the responsibility of each major repository area and the
+This guide describes the responsibility of each major project area and the
 best entrypoint for navigating it.
 
 ## Top-Level Areas
 
 - [../..](../../)
-  Repository root and primary overview.
+  Project root and primary overview.
 - [../../assessments/](../../assessments/)
   Canonical assessment mappings grouped by vendor or source system.
 - [../../docs/](../../docs/)
@@ -27,7 +27,7 @@ best entrypoint for navigating it.
 
 ## Recommended Navigation Paths
 
-If you are trying to understand the repository:
+If you are trying to understand the project:
 
 - start at [../../README.md](../../README.md)
 - move to [../README.md](../README.md)
@@ -54,7 +54,7 @@ If you are trying to understand policies and durable decisions:
 
 ## Documentation Design Rules
 
-The repository documentation system follows a few navigation rules:
+The documentation system follows a few navigation rules:
 
 - major folders should expose a local `README.md`
 - top-level and shared-system docs should link laterally, not only downward
@@ -67,8 +67,6 @@ The repository documentation system follows a few navigation rules:
 ## Related References
 
 - [README.md](./README.md)
-  Repository purpose and scope.
+  Project purpose and scope.
 - [scripts-and-commands.md](./scripts-and-commands.md)
   Command glossary for the active automation surface.
-- [../../AGENTS.md](../../AGENTS.md)
-  Repository maintenance rules for automated contributors.

@@ -1,36 +1,36 @@
-# Texas Assessments Fixed-Width Mappings
+# Texas Student Assessments
 
-This repository is the source of truth for year-specific JSON mappings of Texas
-assessment fixed-width data layouts.
+This project curates year-specific JSON mappings, reference materials, and
+supporting tooling for Texas student assessment data workflows.
 
-The current working corpus is TEA-specific, but the repository is structured so
-future vendors, tooling, and runtime consumers can be added without another
-top-level reorganization.
+The current working focus is TEA and Texas Assessments fixed-width layouts, but
+the project is structured so future assessment programs, tooling, and
+runtime consumers can be added without another top-level reorganization.
 
 ## Start Here
 
 - [assessments/](./assessments/)
-  Canonical assessment mappings grouped by vendor or source system.
+  Assessment mappings grouped by vendor or source system.
 - [docs/index.md](./docs/index.md)
   Documentation index for standards, roadmap, ADRs, workflow references, and
   the TEA source-document archive.
 - [scripts/](./scripts/)
-  Shared automation for validation, sorting, merging, and repository
+  Shared automation for validation, sorting, merging, and project
   maintenance.
 - [configs/](./configs/)
-  Shared schema and repository-level configuration references.
+  Shared schema and project-level configuration references.
 
-## Repository Model
+## Project Structure
 
-The repository is organized around a few durable responsibilities:
+The project is organized around a few durable responsibilities:
 
 - [assessments/](./assessments/)
-  Stores the authoritative mapping corpus.
+  Stores the current assessment mapping corpus.
 - [docs/](./docs/)
   Stores human-facing documentation, standards, roadmap material, and source
   reference archives.
 - [scripts/](./scripts/)
-  Stores repository automation and maintenance tooling.
+  Stores shared automation and maintenance tooling.
 - [configs/](./configs/)
   Stores shared schemas and validation contracts.
 - [services/](./services/)
@@ -57,12 +57,13 @@ with the following families:
 - [assessments/tea/ttap](./assessments/tea/ttap/)
 - [assessments/tea/crs](./assessments/tea/crs/)
 
-Most family folders include their own `README.md` and, where needed, `AGENTS.md`
-files for local rules, year coverage notes, and maintenance exceptions.
+Most family folders include their own `README.md` files for year coverage
+notes, naming expectations, and local maintenance guidance.
 
-## Mapping File Shape
+## TEA Mapping File Shape
 
-Each mapping file follows the same high-level structure:
+The current TEA assessment mappings in this project generally follow this
+high-level shape:
 
 ```json
 {
@@ -73,6 +74,12 @@ Each mapping file follows the same high-level structure:
       "file_name": "2026-example-fixed-width-mapping.json",
       "school_year": "2025-2026",
       "pdf_url": "https://tea.texas.gov/..."
+    }
+  ],
+  "filename_patterns": [
+    {
+      "regex": "^SF_0526_.*\\.txt$",
+      "references": ["https://www.texasassessment.gov/..."]
     }
   ],
   "mapped_fields": [
@@ -86,7 +93,10 @@ Each mapping file follows the same high-level structure:
 }
 ```
 
-Shared repository rules include:
+This example is TEA-specific. Other assessment programs added in the future may
+use a different JSON shape when their source materials or workflow needs differ.
+
+Shared TEA mapping rules include:
 
 - store mapping values as strings
 - omit blank source fields from `mapped_fields`
@@ -97,7 +107,7 @@ Shared repository rules include:
 
 ## Coverage Snapshot
 
-Current TEA mapping coverage in the repository:
+Current TEA mapping coverage in the project:
 
 - `staar/3_8`: `2012`-`2026`
 - `staar/eoc`: `2012`-`2026`
@@ -125,27 +135,27 @@ The documentation hub is [docs/index.md](./docs/index.md). The most useful
 entrypoints are:
 
 - [docs/overview/README.md](./docs/overview/README.md)
-  Repository purpose and long-term direction.
+  Project purpose and long-term direction.
 - [docs/overview/repository-navigation.md](./docs/overview/repository-navigation.md)
-  Navigation guide for the top-level repository areas and documentation system.
+  Navigation guide for the top-level project areas and documentation system.
 - [docs/overview/scripts-and-commands.md](./docs/overview/scripts-and-commands.md)
   Script glossary and common command patterns.
 - [docs/standards/](./docs/standards/)
-  Human-readable repository standards.
+  Human-readable project standards.
 - [docs/roadmap/index.md](./docs/roadmap/index.md)
-  Milestone-level repository roadmap.
+  Milestone-level project roadmap.
 - [docs/adr/README.md](./docs/adr/README.md)
   Architecture Decision Record guidance.
 - [docs/tea-data-file-formats-archive/](./docs/tea-data-file-formats-archive/)
   Local PDF archive of TEA and Texas Assessments source layouts.
 
 The local archive is for maintenance and reference. The official online TEA or
-Texas Assessments documentation remains the source of truth, and each mapping's
-`metadata.pdf_url` should stay aligned to that official source.
+Texas Assessments documentation remains the governing reference, and each
+mapping's `metadata.pdf_url` should stay aligned to that official source.
 
 ## Validation And Tooling
 
-Repository validation and automation are documented in
+Validation and automation are documented in
 [scripts/README.md](./scripts/README.md). Common entrypoints include:
 
 - `python scripts/ci/validate_repo.py`
@@ -167,9 +177,8 @@ When adding or updating mappings:
 4. Validate JSON shape, header uniqueness, and documentation portability after
    edits.
 
-For shared repository standards and workflow expectations, see:
+For shared project standards and workflow expectations, see:
 
-- [AGENTS.md](./AGENTS.md)
 - [docs/standards/coding-standards.md](./docs/standards/coding-standards.md)
 - [docs/standards/commits.md](./docs/standards/commits.md)
 - [docs/standards/scripts.md](./docs/standards/scripts.md)

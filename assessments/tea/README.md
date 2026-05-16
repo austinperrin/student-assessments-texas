@@ -1,7 +1,7 @@
 # TEA Assessments
 
-This folder stores the current Texas assessment mapping families curated from
-TEA and Texas Assessments source layouts.
+This folder stores the current TEA and Texas Assessments mapping families
+within the broader Texas student assessments project scope.
 
 ## Navigate Families
 
@@ -19,8 +19,8 @@ TEA and Texas Assessments source layouts.
 
 ## Working Rule
 
-Use the family-specific `README.md` and `AGENTS.md` files inside each folder
-for year coverage notes, naming expectations, and maintenance guidance.
+Use the family-specific `README.md` files inside each folder for year coverage
+notes, naming expectations, and maintenance guidance.
 
 ## Related References
 
@@ -29,4 +29,4 @@ for year coverage notes, naming expectations, and maintenance guidance.
 - [../../docs/tea-data-file-formats-archive/](../../docs/tea-data-file-formats-archive/)
   Local TEA and Texas Assessments PDF source archive.
 - [../../docs/standards/coding-standards.md](../../docs/standards/coding-standards.md)
-  Shared repository standards for mappings and documentation.
+  Shared project standards for mappings and documentation.

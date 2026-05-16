@@ -1,6 +1,6 @@
 # Docs
 
-This folder stores the human-facing documentation system for the repository,
+This folder stores the human-facing documentation system for the project,
 including standards, roadmap material, durable decisions, and the local archive
 of source reference documents.
 
@@ -9,20 +9,20 @@ of source reference documents.
 - [index.md](./index.md)
   Main documentation directory and navigation index.
 - [overview/README.md](./overview/README.md)
-  Repository purpose, current scope, and long-term direction.
+  Project purpose, current scope, and long-term direction.
 - [overview/repository-navigation.md](./overview/repository-navigation.md)
-  Navigation guide for major repository areas and their responsibilities.
+  Navigation guide for major project areas and their responsibilities.
 - [overview/scripts-and-commands.md](./overview/scripts-and-commands.md)
   Script glossary and common command patterns.
 
 ## Documentation Areas
 
 - [overview/](./overview/)
-  Repository intent, navigation, and operational reference docs.
+  Project intent, navigation, and operational reference docs.
 - [standards/](./standards/)
   Human-readable standards for coding, commits, scripts, and ADR usage.
 - [roadmap/](./roadmap/)
-  Milestone-level repository evolution and priority tracking.
+  Milestone-level project evolution and priority tracking.
 - [adr/](./adr/)
   Architecture Decision Records and ADR usage guidance.
 - [tea-data-file-formats-archive/](./tea-data-file-formats-archive/)
@@ -56,8 +56,8 @@ naming-convention or layout sources that justify that regex.
 ## Related References
 
 - [../README.md](../README.md)
-  Repository-level overview and working expectations.
+  Project-level overview and working expectations.
 - [../assessments/README.md](../assessments/README.md)
   Entry point for the canonical mapping corpus.
 - [../scripts/README.md](../scripts/README.md)
-  Automation and validation entrypoints used by the repository.
+  Automation and validation entrypoints used by the project.

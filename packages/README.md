@@ -14,7 +14,7 @@ tooling modules.
 ## Related References
 
 - [../README.md](../README.md)
-  Repository overview and platform intent.
+  Project overview and platform intent.
 - [../configs/README.md](../configs/README.md)
   Shared schema and configuration references that future packages may consume.
 - [../docs/adr/README.md](../docs/adr/README.md)
