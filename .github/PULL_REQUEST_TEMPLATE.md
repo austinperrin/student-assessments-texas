@@ -8,6 +8,8 @@
 
 ## Validation
 
+- [ ] Ran `npm run lint`
+- [ ] Confirmed formatting-sensitive files pass `npm run format:check`
 - [ ] Ran `python scripts/ci/validate_repo.py`
 - [ ] Confirmed updated mapping files parse as valid JSON
 - [ ] Confirmed `column_header` values remain unique where files changed

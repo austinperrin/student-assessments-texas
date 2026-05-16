@@ -15,7 +15,9 @@ Node-based repo tooling complements these scripts:
 
 - `npm run format`
   Applies `prettier` formatting across repo-managed text files.
+- `npm run lint:format`
+  Runs the formatting gate used by CI with `prettier --check`.
 - `npm run lint`
-  Runs `prettier --check` plus `validate_repo.py`.
+  Runs the formatting gate plus `validate_repo.py`.
 - `npm run commitlint -- --edit <path>`
   Validates a commit message against the conventional commit rules used by the Git hook.

@@ -30,6 +30,8 @@ categories that do not fit this project yet.
 
 - `python scripts/ci/validate_repo.py`
   Runs the baseline repository validation suite.
+- `npm run lint:format`
+  Runs the formatting gate used by CI.
 - `python scripts/mappings/sort_tea_assessments.py`
   Sorts TEA assessment files into assessment buckets with configurable input,
   output, and grouping behavior.

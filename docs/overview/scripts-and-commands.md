@@ -9,8 +9,10 @@ commands, and sorter terminology.
   Formats tracked repository docs, JSON, and config files with Prettier.
 - `npm run format:check`
   Checks formatting without rewriting files.
+- `npm run lint:format`
+  Runs the formatting gate used by CI.
 - `npm run lint`
-  Runs repository formatting checks plus the repository validation suite.
+  Runs the formatting gate plus the repository validation suite.
 - `npm run lint:repo`
   Runs `python scripts/ci/validate_repo.py`.
 - `python scripts/ci/validate_repo.py`

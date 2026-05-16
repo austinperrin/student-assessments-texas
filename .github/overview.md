@@ -15,7 +15,7 @@ This folder holds repository workflow automation and contribution templates.
 
 The repository currently favors a lightweight validation model:
 
-- run repository validation on pull requests
+- run formatting checks and repository validation on pull requests
 - run the same validation on pushes to main working branches
 - keep automation aligned to the repository's current data-first scope
 

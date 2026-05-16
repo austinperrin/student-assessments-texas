@@ -30,5 +30,8 @@ jobs:
       - name: Install repo tooling
         run: npm install --no-audit --no-fund
 
-      - name: Validate repository
-        run: npm run lint
+      - name: Check formatting baseline
+        run: npm run lint:format
+
+      - name: Validate repository rules
+        run: npm run lint:repo

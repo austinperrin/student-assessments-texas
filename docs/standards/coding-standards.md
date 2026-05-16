@@ -50,6 +50,8 @@ Do not normalize fields across years when TEA changed the field concept rather t
 ## Tooling Standards
 
 - use the shared scripts in `scripts/`, especially `scripts/ci/` for repo-wide checks
+- treat `prettier` as the formatting source of truth for tracked docs, JSON, and repo config files
+- run `npm run lint` before opening or merging a PR when your change touches formatted files
 - keep shared rules and contracts in `configs/`
 - prefer small, reviewable repo scaffolding over heavyweight tooling that does not fit the project
 - use ADRs for structural or long-term platform decisions rather than burying them in commits alone
