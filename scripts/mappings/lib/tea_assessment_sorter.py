@@ -16,9 +16,9 @@ from pathlib import Path, PurePosixPath
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_INPUT_ROOT = REPO_ROOT / ".tmp"
-DEFAULT_UPLOADS_DIR = DEFAULT_INPUT_ROOT / "uploads"
-DEFAULT_OUTPUT_ROOT = REPO_ROOT / ".tmp" / "exports"
-DEFAULT_PROCESSED_ROOT = REPO_ROOT / ".tmp" / "processed_files"
+DEFAULT_UPLOADS_DIR = DEFAULT_INPUT_ROOT / "uploads" / "tea"
+DEFAULT_OUTPUT_ROOT = REPO_ROOT / ".tmp" / "exports" / "tea"
+DEFAULT_PROCESSED_ROOT = REPO_ROOT / ".tmp" / "processed_files" / "tea"
 DEFAULT_MAPPING_ROOT = REPO_ROOT / "assessments" / "tea"
 KNOWN_METADATA_PATTERNS = (
     re.compile(r"^readme(?:\..+)?$", re.IGNORECASE),

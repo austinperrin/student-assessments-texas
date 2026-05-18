@@ -24,18 +24,19 @@ commands, and sorter terminology.
 - `python scripts/mappings/sort_archive_outputs.py [input_dir]`
   Runs the sorter with archive output selected by default.
 - `python scripts/mappings/merge_tea_assessment_files.py [input_dir]`
-  Merges matched TEA assessment files into one `.txt` output per mapping file.
+  Merges matched TEA assessment files into one `.txt` output per mapping file,
+  with optional `--unique` row deduplication.
 
 ## Sorter defaults
 
 The main sorter defaults are:
 
-- input directory: `.tmp/uploads/`
+- input directory: `.tmp/uploads/tea/`
 - input mode: `loose`
 - output mode: `directory`
 - grouping: `assessment-by-year`
-- output root: `.tmp/exports/`
-- processed inputs root: `.tmp/processed_files/`
+- output root: `.tmp/exports/tea/`
+- processed inputs root: `.tmp/processed_files/tea/`
 
 ## Sorter option glossary
 
@@ -104,3 +105,5 @@ python scripts/mappings/sort_archive_outputs.py --input-mode all
   shortcut for `--input-mode all`.
 - The merger currently keeps its older archive-selection model and does not yet
   support the sorter's new grouping or output-mode concepts.
+- The merger's `--unique` option deduplicates rows within each merged output
+  while preserving the first occurrence encountered during processing.

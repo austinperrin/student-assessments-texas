@@ -35,9 +35,9 @@ python scripts/mappings/sort_tea_assessments.py
 
 By default it uses:
 
-- input: `.tmp/uploads/`
-- output runs: `.tmp/exports/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/<run_timestamp>/`
+- input: `.tmp/uploads/tea/`
+- output runs: `.tmp/exports/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
 - input mode: `loose`
 - output mode: `directory`
 - grouping: `assessment-by-year`
@@ -133,7 +133,7 @@ python scripts/mappings/sort_archive_outputs.py --input-mode all
 
 ### Run artifacts
 
-Each run creates a timestamped folder under `.tmp/exports/` containing:
+Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - sorted output directories or archives, depending on `--output-mode`
 - `metadata` output when known metadata files are found
@@ -172,9 +172,9 @@ python scripts/mappings/merge_tea_assessment_files.py
 
 By default it uses:
 
-- input: `.tmp/uploads/`
-- output runs: `.tmp/exports/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/<run_timestamp>/`
+- input: `.tmp/uploads/tea/`
+- output runs: `.tmp/exports/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
 
 You can also point it at another `.tmp` subdirectory:
 
@@ -186,6 +186,12 @@ To also include archive `.zip` files from the base input directory:
 
 ```powershell
 python scripts/mappings/merge_tea_assessment_files.py --include-archives
+```
+
+To keep only the first occurrence of each row in every merged output:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py --unique
 ```
 
 ### Behavior
@@ -203,6 +209,9 @@ python scripts/mappings/merge_tea_assessment_files.py --include-archives
   mapping file, for example `2026-staar-3-8.txt`
 - merged outputs preserve source bytes exactly; the tool concatenates matched
   file contents without adding separators or extra newlines
+- `--unique` switches the merge to row-level deduplication within each output
+  file, preserving the first occurrence of each logical row and skipping later
+  duplicates
 - known metadata files and unmatched files are excluded from merged outputs and
   are recorded in run artifacts instead
 - once a run completes, processed source files are moved out of uploads so the
@@ -210,7 +219,7 @@ python scripts/mappings/merge_tea_assessment_files.py --include-archives
 
 ### Run artifacts
 
-Each run creates a timestamped folder under `.tmp/exports/` containing:
+Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - merged assessment text files
 - `summary.json`
@@ -222,6 +231,7 @@ Each run creates a timestamped folder under `.tmp/exports/` containing:
 - processed loose files
 - nested archives encountered
 - created merged output files
+- written rows and skipped duplicate rows
 - metadata files and unmatched files
 - ambiguous multi-match classifications
 - start time, end time, and total execution time
