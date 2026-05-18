@@ -60,14 +60,24 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
             "Only flat files directly inside the input directory are processed by default."
         ),
     )
+    parser.add_argument(
+        "--unique",
+        action="store_true",
+        help=(
+            "Keep only the first occurrence of each logical row in every merged output file. "
+            "Duplicate rows are skipped."
+        ),
+    )
     return parser.parse_args(argv)
 
 
 class MergedOutputManager:
-    def __init__(self, outputs_root: Path):
+    def __init__(self, outputs_root: Path, unique_rows: bool = False):
         self.outputs_root = outputs_root
+        self.unique_rows = unique_rows
         self.handles: dict[str, io.BufferedWriter] = {}
         self.files_written: dict[str, dict[str, object]] = {}
+        self.seen_rows: dict[str, set[bytes]] = {}
 
     def append_bytes(self, output_name: str, src, source_path: str) -> None:
         handle = self.handles.get(output_name)
@@ -79,12 +89,46 @@ class MergedOutputManager:
             self.files_written[output_name] = {
                 "file": output_name,
                 "matched_files": [],
+                "written_row_count": 0,
+                "skipped_duplicate_row_count": 0,
             }
+            self.seen_rows[output_name] = set()
 
-        handle.write(src.read())
+        if self.unique_rows:
+            self._append_unique_rows(output_name, src)
+        else:
+            self._append_all_bytes(output_name, src)
         matched_files = self.files_written[output_name]["matched_files"]
         assert isinstance(matched_files, list)
         matched_files.append(source_path)
+
+    def _append_all_bytes(self, output_name: str, src) -> None:
+        handle = self.handles[output_name]
+        output_info = self.files_written[output_name]
+        data = src.read()
+        handle.write(data)
+        output_info["written_row_count"] += self._count_logical_rows(data)
+
+    def _append_unique_rows(self, output_name: str, src) -> None:
+        handle = self.handles[output_name]
+        seen_rows = self.seen_rows[output_name]
+        output_info = self.files_written[output_name]
+
+        for line in src:
+            row_key = line.rstrip(b"\r\n")
+            if row_key in seen_rows:
+                output_info["skipped_duplicate_row_count"] += 1
+                continue
+
+            seen_rows.add(row_key)
+            handle.write(line)
+            output_info["written_row_count"] += 1
+
+    @staticmethod
+    def _count_logical_rows(data: bytes) -> int:
+        if not data:
+            return 0
+        return len(data.splitlines())
 
     def build_created_outputs(self) -> list[dict[str, object]]:
         return [self.files_written[name] for name in sorted(self.files_written)]
@@ -108,6 +152,8 @@ def build_log_lines(summary: dict[str, object]) -> list[str]:
         f"Created merged file count: {summary['created_merged_file_count']}",
         f"Nested archive count: {len(summary['nested_archives'])}",
         f"Matched file count: {summary['matched_file_count']}",
+        f"Written row count: {summary['written_row_count']}",
+        f"Skipped duplicate row count: {summary['skipped_duplicate_row_count']}",
         f"Metadata file count: {summary['metadata_file_count']}",
         f"Unmatched file count: {summary['unmatched_file_count']}",
         "",
@@ -124,7 +170,11 @@ def build_log_lines(summary: dict[str, object]) -> list[str]:
         lines.append("")
         lines.append("Created merged files:")
         for item in summary["created_merged_files"]:
-            lines.append(f"- {item['file']} ({len(item['matched_files'])} source files)")
+            lines.append(
+                f"- {item['file']} ({len(item['matched_files'])} source files, "
+                f"{item['written_row_count']} rows written, "
+                f"{item['skipped_duplicate_row_count']} duplicate rows skipped)"
+            )
 
     if summary["metadata_files"]:
         lines.append("")
@@ -154,13 +204,14 @@ def process_archives_streaming(
     outputs_root: Path,
     loose_files: list[Path] | None = None,
     loose_source_label: str | None = None,
+    unique_rows: bool = False,
 ) -> tuple[list[dict[str, object]], list[str], list[str], list[str], list[dict[str, object]]]:
     nested_archives: list[str] = []
     metadata_files: list[str] = []
     unmatched_files: list[str] = []
     ambiguous_matches: list[dict[str, object]] = []
     queue: deque[tuple[Path | None, bytes | None, tuple[str, ...], str, str]] = deque()
-    writer = MergedOutputManager(outputs_root)
+    writer = MergedOutputManager(outputs_root, unique_rows=unique_rows)
 
     for source_archive in source_archives:
         queue.append(
@@ -268,6 +319,7 @@ def process_input_dir(
     input_dir: Path,
     output_root: Path,
     include_archives: bool = False,
+    unique_rows: bool = False,
     mapping_root: Path = DEFAULT_MAPPING_ROOT,
     tmp_root: Path = DEFAULT_INPUT_ROOT,
     processed_root: Path = DEFAULT_PROCESSED_ROOT,
@@ -305,6 +357,7 @@ def process_input_dir(
             outputs_root,
             loose_files=loose_files,
             loose_source_label=sanitize_name(input_dir.name),
+            unique_rows=unique_rows,
         )
     )
 
@@ -335,8 +388,13 @@ def process_input_dir(
         "ambiguous_matches": ambiguous_matches,
         "mapping_count": len(buckets),
         "matched_file_count": sum(len(item["matched_files"]) for item in created_merged_files),
+        "written_row_count": sum(item["written_row_count"] for item in created_merged_files),
+        "skipped_duplicate_row_count": sum(
+            item["skipped_duplicate_row_count"] for item in created_merged_files
+        ),
         "metadata_file_count": len(metadata_files),
         "unmatched_file_count": len(unmatched_files),
+        "unique_rows": unique_rows,
     }
     (run_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (run_dir / f"run-{run_dir.name}.log").write_text(
@@ -355,6 +413,7 @@ def main(argv: list[str] | None = None) -> int:
             input_dir=args.input_dir,
             output_root=args.output_root,
             include_archives=args.include_archives,
+            unique_rows=args.unique,
         )
     except Exception as exc:
         print(f"TEA assessment merge failed: {exc}", file=sys.stderr)

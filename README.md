@@ -163,6 +163,7 @@ Validation and automation are documented in
 - `npm run lint`
 - `python scripts/mappings/sort_tea_assessments.py`
 - `python scripts/mappings/merge_tea_assessment_files.py`
+  Supports `--include-archives` and optional `--unique` row deduplication.
 
 The sorter and merger workflows are documented in
 [scripts/mappings/README.md](./scripts/mappings/README.md).

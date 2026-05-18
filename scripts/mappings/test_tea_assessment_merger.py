@@ -144,6 +144,8 @@ class TeaAssessmentMergerTests(unittest.TestCase):
             )
             self.assertEqual(1, summary["created_merged_file_count"])
             self.assertEqual(2, summary["matched_file_count"])
+            self.assertEqual(2, summary["written_row_count"])
+            self.assertEqual(0, summary["skipped_duplicate_row_count"])
             self.assertEqual(1, summary["metadata_file_count"])
             self.assertEqual(1, summary["unmatched_file_count"])
             self.assertEqual(["uploads/Readme.txt"], summary["metadata_files"])
@@ -234,6 +236,8 @@ class TeaAssessmentMergerTests(unittest.TestCase):
             self.assertEqual(b"FIRST\r\nSECOND\r\n", merged_file.read_bytes())
             self.assertEqual(1, summary["created_merged_file_count"])
             self.assertEqual(2, summary["matched_file_count"])
+            self.assertEqual(2, summary["written_row_count"])
+            self.assertEqual(0, summary["skipped_duplicate_row_count"])
             self.assertEqual(
                 ["first-source/SAME_NAME.txt", "second-source/SAME_NAME.txt"],
                 summary["created_merged_files"][0]["matched_files"],
@@ -271,6 +275,45 @@ class TeaAssessmentMergerTests(unittest.TestCase):
             self.assertEqual(["SF_1326_DISTRICT_A_V01.txt"], summary["processed_loose_files"])
             self.assertTrue((input_dir / "batch.zip").exists())
             self.assertTrue((processed_root / run_dir.name / "SF_1326_DISTRICT_A_V01.txt").exists())
+
+    def test_process_input_dir_unique_rows_skips_duplicate_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_root = Path(temp_dir)
+            tmp_root = temp_root / ".tmp"
+            input_dir = tmp_root / "uploads"
+            output_root = tmp_root / "exports"
+            processed_root = tmp_root / "processed_files"
+            mapping_root = temp_root / "assessments" / "tea"
+
+            make_mapping(
+                mapping_root / "staar" / "2026-staar-eoc-fixed-width-mapping.json",
+                [r"^SF_1326_.*\.txt$"],
+            )
+
+            input_dir.mkdir(parents=True, exist_ok=True)
+            (input_dir / "SF_1326_DISTRICT_A_V01.txt").write_bytes(b"ROW0001\r\nROW0002\r\n")
+            (input_dir / "SF_1326_DISTRICT_B_V01.txt").write_bytes(b"ROW0002\r\nROW0003\r\n")
+
+            run_dir = process_input_dir(
+                input_dir=input_dir,
+                output_root=output_root,
+                include_archives=False,
+                unique_rows=True,
+                mapping_root=mapping_root,
+                tmp_root=tmp_root,
+                processed_root=processed_root,
+            )
+
+            merged_file = run_dir / "outputs" / "2026-staar-eoc.txt"
+            summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
+
+            self.assertEqual(b"ROW0001\r\nROW0002\r\nROW0003\r\n", merged_file.read_bytes())
+            self.assertTrue(summary["unique_rows"])
+            self.assertEqual(2, summary["matched_file_count"])
+            self.assertEqual(3, summary["written_row_count"])
+            self.assertEqual(1, summary["skipped_duplicate_row_count"])
+            self.assertEqual(3, summary["created_merged_files"][0]["written_row_count"])
+            self.assertEqual(1, summary["created_merged_files"][0]["skipped_duplicate_row_count"])
 
 
 if __name__ == "__main__":

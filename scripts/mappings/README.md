@@ -188,6 +188,12 @@ To also include archive `.zip` files from the base input directory:
 python scripts/mappings/merge_tea_assessment_files.py --include-archives
 ```
 
+To keep only the first occurrence of each row in every merged output:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py --unique
+```
+
 ### Behavior
 
 - input directories must live under `.tmp/`
@@ -203,6 +209,9 @@ python scripts/mappings/merge_tea_assessment_files.py --include-archives
   mapping file, for example `2026-staar-3-8.txt`
 - merged outputs preserve source bytes exactly; the tool concatenates matched
   file contents without adding separators or extra newlines
+- `--unique` switches the merge to row-level deduplication within each output
+  file, preserving the first occurrence of each logical row and skipping later
+  duplicates
 - known metadata files and unmatched files are excluded from merged outputs and
   are recorded in run artifacts instead
 - once a run completes, processed source files are moved out of uploads so the
@@ -222,6 +231,7 @@ Each run creates a timestamped folder under `.tmp/exports/` containing:
 - processed loose files
 - nested archives encountered
 - created merged output files
+- written rows and skipped duplicate rows
 - metadata files and unmatched files
 - ambiguous multi-match classifications
 - start time, end time, and total execution time
