@@ -10,6 +10,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from lib.tea_assessment_sorter import (
+    DEFAULT_OUTPUT_ROOT,
+    DEFAULT_PROCESSED_ROOT,
+    DEFAULT_UPLOADS_DIR,
     GROUPING_ASSESSMENT,
     GROUPING_ASSESSMENT_BY_YEAR,
     INPUT_MODE_ALL,
@@ -18,6 +21,7 @@ from lib.tea_assessment_sorter import (
     OUTPUT_MODE_DIRECTORY,
     classify_file,
     load_mapping_buckets,
+    parse_args,
     process_input_dir,
 )
 
@@ -56,6 +60,15 @@ def write_zip(path: Path, members: dict[str, bytes]) -> None:
 
 
 class TeaAssessmentSorterTests(unittest.TestCase):
+    def test_parse_args_defaults_to_tea_tmp_directories(self) -> None:
+        args = parse_args([])
+
+        self.assertEqual(DEFAULT_UPLOADS_DIR, args.input_dir)
+        self.assertEqual(DEFAULT_OUTPUT_ROOT, args.output_root)
+        self.assertTrue(str(DEFAULT_UPLOADS_DIR).endswith(".tmp\\uploads\\tea"))
+        self.assertTrue(str(DEFAULT_OUTPUT_ROOT).endswith(".tmp\\exports\\tea"))
+        self.assertTrue(str(DEFAULT_PROCESSED_ROOT).endswith(".tmp\\processed_files\\tea"))
+
     def test_load_mapping_buckets_only_includes_mappings_with_filename_patterns(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_root = Path(temp_dir)

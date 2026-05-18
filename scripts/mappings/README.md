@@ -35,9 +35,9 @@ python scripts/mappings/sort_tea_assessments.py
 
 By default it uses:
 
-- input: `.tmp/uploads/`
-- output runs: `.tmp/exports/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/<run_timestamp>/`
+- input: `.tmp/uploads/tea/`
+- output runs: `.tmp/exports/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
 - input mode: `loose`
 - output mode: `directory`
 - grouping: `assessment-by-year`
@@ -133,7 +133,7 @@ python scripts/mappings/sort_archive_outputs.py --input-mode all
 
 ### Run artifacts
 
-Each run creates a timestamped folder under `.tmp/exports/` containing:
+Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - sorted output directories or archives, depending on `--output-mode`
 - `metadata` output when known metadata files are found
@@ -172,9 +172,9 @@ python scripts/mappings/merge_tea_assessment_files.py
 
 By default it uses:
 
-- input: `.tmp/uploads/`
-- output runs: `.tmp/exports/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/<run_timestamp>/`
+- input: `.tmp/uploads/tea/`
+- output runs: `.tmp/exports/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
 
 You can also point it at another `.tmp` subdirectory:
 
@@ -219,7 +219,7 @@ python scripts/mappings/merge_tea_assessment_files.py --unique
 
 ### Run artifacts
 
-Each run creates a timestamped folder under `.tmp/exports/` containing:
+Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - merged assessment text files
 - `summary.json`

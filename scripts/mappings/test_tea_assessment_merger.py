@@ -9,8 +9,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from lib.tea_assessment_merger import process_input_dir
-from lib.tea_assessment_sorter import classify_file, load_mapping_buckets
+from lib.tea_assessment_merger import parse_args, process_input_dir
+from lib.tea_assessment_sorter import DEFAULT_OUTPUT_ROOT, DEFAULT_UPLOADS_DIR, classify_file, load_mapping_buckets
 
 
 def write_json(path: Path, payload: dict) -> None:
@@ -47,6 +47,14 @@ def write_zip(path: Path, members: dict[str, bytes]) -> None:
 
 
 class TeaAssessmentMergerTests(unittest.TestCase):
+    def test_parse_args_defaults_to_tea_tmp_directories(self) -> None:
+        args = parse_args([])
+
+        self.assertEqual(DEFAULT_UPLOADS_DIR, args.input_dir)
+        self.assertEqual(DEFAULT_OUTPUT_ROOT, args.output_root)
+        self.assertTrue(str(DEFAULT_UPLOADS_DIR).endswith(".tmp\\uploads\\tea"))
+        self.assertTrue(str(DEFAULT_OUTPUT_ROOT).endswith(".tmp\\exports\\tea"))
+
     def test_load_mapping_buckets_only_includes_mappings_with_filename_patterns(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_root = Path(temp_dir)

@@ -31,12 +31,12 @@ commands, and sorter terminology.
 
 The main sorter defaults are:
 
-- input directory: `.tmp/uploads/`
+- input directory: `.tmp/uploads/tea/`
 - input mode: `loose`
 - output mode: `directory`
 - grouping: `assessment-by-year`
-- output root: `.tmp/exports/`
-- processed inputs root: `.tmp/processed_files/`
+- output root: `.tmp/exports/tea/`
+- processed inputs root: `.tmp/processed_files/tea/`
 
 ## Sorter option glossary
 
