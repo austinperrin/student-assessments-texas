@@ -26,8 +26,6 @@ Typical College Board programs include:
   delivery families when the reporting outputs differ
 - separate AP K-12 and higher-ed score-report families when the source docs
   describe different delivered files
-- treat TSIA2 as a College Board subfamily only when the College Board
-  ACCUPLACER materials are the governing source
 - keep vendor-specific workflow assumptions in this folder and family-level
   docs
 - update nearby docs in `docs/` when the vendor grouping or archive structure

@@ -34,5 +34,20 @@ are downloaded and validated.
 
 ## Current Status
 
-This archive is currently empty. Add College Board format files for current and
-historic products once the official sources are confirmed.
+Archived source documents currently include:
+
+- SAT Suite K-12 electronic score report layouts for `2025-26` and `2024-25`
+- SAT Suite higher-ed electronic score report layouts for `2025-26` and
+  `2024-25`
+- AP K-12 datafile layouts for `2026`, `2025`, and `2024`
+- AP higher-ed student data record layouts for `2026` and `2025` in both TXT
+  and CSV variants
+
+Known gaps:
+
+- older SAT Suite `2023-24` PDFs still appear in public search indexing, but
+  College Board's current public `media/pdf`, `media/xlsx`, and sample-file
+  URLs returned `404 Not Found` during checks on May 20, 2026
+- the remaining likely official source for those retired SAT Suite files is the
+  authenticated K-12 Reporting Portal or Higher Education Reporting Portal
+- no public Pre-AP result-file layout documents have been archived yet

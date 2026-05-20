@@ -1,11 +1,11 @@
 # ACCUPLACER Source Archive
 
-This folder stores ACCUPLACER source documents organized by delivered file
-family.
+This folder is a top-level placeholder for future official ACCUPLACER source
+documents.
 
-## Structure
+## Current Status
 
-- `platform_reports/`
-- `tsia2/`
+No ACCUPLACER source documents are archived here right now.
 
-Store year-specific source documents beneath the matching delivery family.
+Keep this folder minimal until we confirm official College Board source files
+that justify a more specific archive structure.

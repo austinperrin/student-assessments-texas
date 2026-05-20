@@ -24,8 +24,6 @@ Current scaffolded families include:
 - `pre_ap/`
   - `pre_ap/classroom_assessments/`
 - `accuplacer/`
-  - `accuplacer/platform_reports/`
-  - `accuplacer/tsia2/`
 
 This scaffold combines two rules:
 

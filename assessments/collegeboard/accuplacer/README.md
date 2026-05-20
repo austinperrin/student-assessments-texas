@@ -1,30 +1,18 @@
 # Accuplacer
 
-This folder stores College Board ACCUPLACER mapping files and maintenance
-guidance.
+This folder is a top-level placeholder for future College Board ACCUPLACER
+mapping work.
 
 ## Purpose
 
-Use this family for ACCUPLACER result files and related College Board platform
-outputs.
-
-Current scaffolded delivery families include:
-
-- `platform_reports/`
-- `tsia2/`
+Keep ACCUPLACER-related mapping notes or future result-format scaffolding here
+if College Board source materials later justify adding this family.
 
 ## Current Status
 
-This folder is a scaffold. Add mapping files once the relevant ACCUPLACER
-source formats are confirmed and archived in the matching delivery-family
-archive under `docs/source-archives/collegeboard/accuplacer/`.
-
-## Working Notes
-
-- Use this family for ACCUPLACER platform reports, score exports, and related
-  implementation documents.
-- Keep TSIA2 nested here when College Board is the source of record because
-  College Board administers TSIA2 through the ACCUPLACER platform for Texas.
+This folder is intentionally minimal. Do not add nested delivery-family folders
+until official source documents confirm a stable ACCUPLACER file family we need
+to model.
 
 ## Related References
 
