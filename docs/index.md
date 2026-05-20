@@ -1,4 +1,4 @@
-# Docs Index
+﻿# Docs Index
 
 This folder is the main navigation index for the project's human-facing
 documentation system.
@@ -32,29 +32,39 @@ workflow references, and local source-document archives live here under
   Human-readable project standards for coding, commits, scripts, and ADR usage.
 - [ADRs](./adr/)
   Architecture Decision Records for durable project and platform decisions.
-- [TEA Data File Formats Archive](./tea-data-file-formats-archive/)
-  Year-based local archive of TEA and Texas Assessments PDF layouts used to curate the JSON mappings.
+- [Source Archives](./source-archives/)
+  Shared local archive root for vendor-specific source documents.
+- [TEA Source Archive](./source-archives/tea/)
+  TEA and Texas Assessments source document archives.
+- [College Board Data File Formats Archive](./source-archives/collegeboard/)
+  Local archive for College Board source-format documents, grouped by
+  delivery/reporting family where appropriate.
 - [GitHub Workflow Overview](../.github/overview.md)
   Workflow automation and contribution-template overview.
 
 ## Archive Layout
 
-The TEA archive is organized into year folders:
+The TEA source archive is organized into year folders under
+`docs/source-archives/tea/`:
 
-- [2012](./tea-data-file-formats-archive/2012/)
-- [2013](./tea-data-file-formats-archive/2013/)
-- [2014](./tea-data-file-formats-archive/2014/)
-- [2015](./tea-data-file-formats-archive/2015/)
-- [2016](./tea-data-file-formats-archive/2016/)
-- [2017](./tea-data-file-formats-archive/2017/)
-- [2018](./tea-data-file-formats-archive/2018/)
-- [2019](./tea-data-file-formats-archive/2019/)
-- [2020](./tea-data-file-formats-archive/2020/)
-- [2021](./tea-data-file-formats-archive/2021/)
-- [2022](./tea-data-file-formats-archive/2022/)
-- [2023](./tea-data-file-formats-archive/2023/)
-- [2024](./tea-data-file-formats-archive/2024/)
-- [2025](./tea-data-file-formats-archive/2025/)
-- [2026](./tea-data-file-formats-archive/2026/)
+- [2012](./source-archives/tea/2012/)
+- [2013](./source-archives/tea/2013/)
+- [2014](./source-archives/tea/2014/)
+- [2015](./source-archives/tea/2015/)
+- [2016](./source-archives/tea/2016/)
+- [2017](./source-archives/tea/2017/)
+- [2018](./source-archives/tea/2018/)
+- [2019](./source-archives/tea/2019/)
+- [2020](./source-archives/tea/2020/)
+- [2021](./source-archives/tea/2021/)
+- [2022](./source-archives/tea/2022/)
+- [2023](./source-archives/tea/2023/)
+- [2024](./source-archives/tea/2024/)
+- [2025](./source-archives/tea/2025/)
+- [2026](./source-archives/tea/2026/)
+
+Other vendors should add their own archive folders under
+`docs/source-archives/` and may choose a delivery-family, product, or year
+layout as appropriate for the assessment workflow.
 
 This area can expand over time to include non-PDF reference material without mixing it directly into the TEA PDF archive.

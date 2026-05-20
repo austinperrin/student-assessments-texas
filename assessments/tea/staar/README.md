@@ -20,7 +20,7 @@ This directory groups STAAR fixed-width mapping sets by assessment family.
 ## Source PDFs
 
 The source layout PDFs remain in
-[../../../docs/tea-data-file-formats-archive/](../../../docs/tea-data-file-formats-archive/).
+[../../../docs/source-archives/tea/](../../../docs/source-archives/tea/).
 
 ## Maintenance Guides
 

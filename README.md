@@ -7,6 +7,13 @@ The current working focus is TEA and Texas Assessments fixed-width layouts, but
 the project is structured so future assessment programs, tooling, and
 runtime consumers can be added without another top-level reorganization.
 
+As the corpus expands, the default organizational model is:
+
+- vendor or source system
+- result-delivery or reporting family
+- assessment variant when needed
+- year- or effective-period-specific mapping files
+
 ## Start Here
 
 - [assessments/](./assessments/)
@@ -25,7 +32,8 @@ runtime consumers can be added without another top-level reorganization.
 The project is organized around a few durable responsibilities:
 
 - [assessments/](./assessments/)
-  Stores the current assessment mapping corpus.
+  Stores the current assessment mapping corpus for delivered result-file
+  formats.
 - [docs/](./docs/)
   Stores human-facing documentation, standards, roadmap material, and source
   reference archives.
@@ -43,7 +51,9 @@ The project is organized around a few durable responsibilities:
 ## Navigate The Corpus
 
 Assessment mappings currently live under [assessments/tea/](./assessments/tea/)
-with the following families:
+and [assessments/collegeboard/](./assessments/collegeboard/).
+
+Current TEA families include:
 
 - [assessments/tea/staar/3_8](./assessments/tea/staar/3_8/)
 - [assessments/tea/staar/eoc](./assessments/tea/staar/eoc/)
@@ -56,9 +66,14 @@ with the following families:
 - [assessments/tea/tfar](./assessments/tea/tfar/)
 - [assessments/tea/ttap](./assessments/tea/ttap/)
 - [assessments/tea/crs](./assessments/tea/crs/)
+- [assessments/collegeboard/](./assessments/collegeboard/)
 
-Most family folders include their own `README.md` files for year coverage
-notes, naming expectations, and local maintenance guidance.
+Most vendor and delivery-family folders include their own `README.md` files for
+year coverage notes, naming expectations, and local maintenance guidance.
+
+For non-TEA vendors such as College Board, folders may be organized around
+result-delivery or reporting families first, with assessment variants and
+year-specific mappings nested beneath that delivery family.
 
 ## TEA Mapping File Shape
 
@@ -94,7 +109,10 @@ high-level shape:
 ```
 
 This example is TEA-specific. Other assessment programs added in the future may
-use a different JSON shape when their source materials or workflow needs differ.
+use a different JSON shape when their source materials or workflow needs differ,
+but they should still preserve the same repo-level idea of current and historic
+result-file mappings living together inside a stable vendor/delivery-family
+structure.
 
 Shared TEA mapping rules include:
 
@@ -146,12 +164,13 @@ entrypoints are:
   Milestone-level project roadmap.
 - [docs/adr/README.md](./docs/adr/README.md)
   Architecture Decision Record guidance.
-- [docs/tea-data-file-formats-archive/](./docs/tea-data-file-formats-archive/)
-  Local PDF archive of TEA and Texas Assessments source layouts.
+- [docs/source-archives/](./docs/source-archives/)
+  Shared local archive root for vendor-specific source documents.
 
 The local archive is for maintenance and reference. The official online TEA or
 Texas Assessments documentation remains the governing reference, and each
-mapping's `metadata.pdf_url` should stay aligned to that official source.
+mapping's `metadata.pdf_url` should stay aligned to that official source. For
+other vendors, use the same rule with the vendor's official source materials.
 
 ## Validation And Tooling
 
@@ -174,8 +193,10 @@ When adding or updating mappings:
 
 1. Start from the current-year official source documentation.
 2. Check the relevant folder-level guidance before editing.
-3. Preserve real year-specific meaning changes instead of normalizing them away.
-4. Validate JSON shape, header uniqueness, and documentation portability after
+3. Choose the correct vendor and result-delivery family before choosing the
+   assessment variant or year-specific file.
+4. Preserve real year-specific meaning changes instead of normalizing them away.
+5. Validate JSON shape, header uniqueness, and documentation portability after
    edits.
 
 For shared project standards and workflow expectations, see:

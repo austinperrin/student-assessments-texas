@@ -5,7 +5,8 @@ This folder stores shared project configuration and validation reference files.
 ## Current Contents
 
 - [mapping-file.schema.json](./mapping-file.schema.json)
-  High-level schema reference for mapping JSON files across assessment families.
+  High-level schema reference for mapping JSON files across assessment and
+  delivery families.
 
 ## Role In The Project
 

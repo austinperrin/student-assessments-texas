@@ -26,7 +26,7 @@ notes, naming expectations, and maintenance guidance.
 
 - [../README.md](../README.md)
   Vendor-level corpus entrypoint for assessments.
-- [../../docs/tea-data-file-formats-archive/](../../docs/tea-data-file-formats-archive/)
+- [../../docs/source-archives/tea/](../../docs/source-archives/tea/)
   Local TEA and Texas Assessments PDF source archive.
 - [../../docs/standards/coding-standards.md](../../docs/standards/coding-standards.md)
   Shared project standards for mappings and documentation.

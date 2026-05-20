@@ -25,6 +25,8 @@ That future direction creates a structural tension:
   assessment mappings.
 - Group assessment assets by vendor or source system under `assessments/`
   so future non-TEA vendors can be added without another top-level reorganization.
+- Within a vendor, allow delivery-family or reporting-system folders when those
+  are the stable units for current and historic result-file layouts.
 - Treat the repository as data-first today and platform-ready for later growth.
 - Reserve top-level areas for future implementation work:
   - `services/` for application or runtime services
@@ -59,7 +61,8 @@ That future direction creates a structural tension:
 ## Follow-Up
 
 - add lightweight placeholders for future `services/` and `packages/`
-- keep `assessments/` and vendor-level docs aligned as new vendors or families are introduced
+- keep `assessments/` and vendor-level docs aligned as new vendors, delivery
+  families, or mapping families are introduced
 - continue expanding documentation for standards, roadmap, and ADR usage
 - record future runtime or framework choices in separate ADRs when they become concrete
 
