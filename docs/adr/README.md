@@ -24,6 +24,7 @@ Use sequential numbering and a concise slug:
 ## Status Values
 
 - `Proposed`
+- `In Progress`
 - `Accepted`
 - `Superseded`
 - `Rejected`
@@ -40,3 +41,10 @@ Use sequential numbering and a concise slug:
 
 See [0001-repo-shape-and-platform-intent.md](./0001-repo-shape-and-platform-intent.md)
 for the initial example.
+
+## Current ADRs
+
+- [0001: Repository Shape and Platform Intent](./0001-repo-shape-and-platform-intent.md)
+- [0002: College Board Vendor Structure](./0002-collegeboard-vendor-structure.md)
+- [0003: NWEA Vendor Structure](./0003-nwea-vendor-structure.md)
+- [0004: i-Ready Vendor Structure](./0004-iready-vendor-structure.md)

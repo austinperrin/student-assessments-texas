@@ -29,5 +29,5 @@ confirmed and archived in the matching delivery-family archive under
 
 - [../README.md](../README.md)
   College Board vendor overview.
-- [../../docs/source-archives/collegeboard/](../../docs/source-archives/collegeboard/)
+- [../../../docs/source-archives/collegeboard/](../../../docs/source-archives/collegeboard/)
   College Board source archive.
