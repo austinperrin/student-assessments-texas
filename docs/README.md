@@ -1,4 +1,4 @@
-# Docs
+﻿# Docs
 
 This folder stores the human-facing documentation system for the project,
 including standards, roadmap material, durable decisions, and the local archive
@@ -25,28 +25,37 @@ of source reference documents.
   Milestone-level project evolution and priority tracking.
 - [adr/](./adr/)
   Architecture Decision Records and ADR usage guidance.
-- [tea-data-file-formats-archive/](./tea-data-file-formats-archive/)
-  Local TEA and Texas Assessments PDF archive used to curate mappings.
+- [source-archives/](./source-archives/)
+  Shared local source archives for vendor-specific reference documents.
 
 ## Archive Rules
 
-PDFs in the TEA archive are organized into year-based folders to mirror the
-way source documents are grouped online.
+Archive rules are vendor-specific, but should follow a common pattern:
+
+- keep source files under the matching vendor subtree in `docs/source-archives/`
+- preserve the source grouping that best explains the delivered result files
+- prefer delivery-family or reporting-family folders when those are more stable
+  than assessment branding alone
+- keep current and historic source files together under the same durable family
+  unless the emitting system itself changed
+
+TEA PDFs are organized into year-based folders to mirror the way source
+documents are grouped online.
 
 Use the ending year when a PDF is labeled by school year.
 
 Examples:
 
-- `docs/tea-data-file-formats-archive/2024/2023-2024-staar-interim-data-file-format.pdf`
-- `docs/tea-data-file-formats-archive/2025/2024-2025-crs-data-file-format.pdf`
-- `docs/tea-data-file-formats-archive/2026/2025-2026-file-naming-convention.pdf`
+- `docs/source-archives/tea/2024/2023-2024-staar-interim-data-file-format.pdf`
+- `docs/source-archives/tea/2025/2024-2025-crs-data-file-format.pdf`
+- `docs/source-archives/tea/2026/2025-2026-file-naming-convention.pdf`
 
 For single-year PDFs, use that same year as the folder name.
 
 Examples:
 
-- `docs/tea-data-file-formats-archive/2018/2018-staar-eoc-data-file-format.pdf`
-- `docs/tea-data-file-formats-archive/2024/2024-tfar-data-file.pdf`
+- `docs/source-archives/tea/2018/2018-staar-eoc-data-file-format.pdf`
+- `docs/source-archives/tea/2024/2024-tfar-data-file.pdf`
 
 The authoritative source link for each mapping file should remain the
 `metadata.pdf_url` value stored in the JSON. When a mapping file also defines

@@ -13,7 +13,8 @@ Until then, infrastructure expectations for this project are intentionally minim
 - local maintenance is script-driven
 - validation is handled through `scripts/` and `.github/workflows/`
 - canonical assessment mappings remain under `assessments/`
-- assessment source PDFs remain local reference material under `docs/tea-data-file-formats-archive/`
+- assessment source documents remain local reference material under
+  `docs/source-archives/`
 
 ## Related References
 

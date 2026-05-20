@@ -9,6 +9,9 @@ This project currently focuses on Texas student assessment mappings,
 documentation, and maintenance tooling, with active work centered on TEA and
 Texas Assessments fixed-width layouts.
 
+The broader repository direction is to model vendor-delivered assessment result
+files across time, including both current and historic layouts.
+
 Primary active mapping families:
 
 - `assessments/tea/staar/3_8`
@@ -38,7 +41,7 @@ specific area.
 
 - the current official online TEA or Texas Assessments documentation is the
   governing reference for active TEA mappings
-- local reference PDFs live under `docs/tea-data-file-formats-archive/<year>/`
+- local reference PDFs live under `docs/source-archives/tea/<year>/`
   and should stay aligned to the current online source
 - `metadata.pdf_url` should remain aligned to the official source URL
 - do not infer field names from neighboring years when the current source is
@@ -80,6 +83,8 @@ rather than just the label.
 - use repo-relative links in tracked documentation
 - do not write machine-specific absolute paths into tracked docs
 - keep human-facing docs aligned with the current project structure
+- describe future vendor structures in terms of delivered file families when
+  that is more durable than assessment branding alone
 - keep AI-agent-specific instructions in `AGENTS.md`, not in `README.md`
 - update nearby docs when folder structure, commands, or workflow expectations
   change
@@ -97,7 +102,7 @@ After editing mappings, shared docs, or project structure:
 ## Project Areas
 
 - `assessments/`
-  Assessment mappings and area-specific maintenance guidance.
+  Canonical assessment mappings and area-specific maintenance guidance.
 - `docs/`
   Human-facing project documentation and local reference archives.
 - `scripts/`

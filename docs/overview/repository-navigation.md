@@ -8,7 +8,8 @@ best entrypoint for navigating it.
 - [../..](../../)
   Project root and primary overview.
 - [../../assessments/](../../assessments/)
-  Canonical assessment mappings grouped by vendor or source system.
+  Canonical assessment mappings grouped by vendor or source system, then by
+  delivery family when needed.
 - [../../docs/](../../docs/)
   Human-facing documentation, standards, roadmap material, ADRs, and source
   archives.
@@ -36,8 +37,9 @@ If you are trying to understand the project:
 If you are trying to work on mappings:
 
 - start at [../../assessments/README.md](../../assessments/README.md)
-- move to [../../assessments/tea/README.md](../../assessments/tea/README.md)
-- then open the family-specific `README.md` for the folder you plan to edit
+- move to a vendor-level README such as [../../assessments/tea/README.md](../../assessments/tea/README.md) or [../../assessments/collegeboard/README.md](../../assessments/collegeboard/README.md)
+- then open the delivery-family or family-specific `README.md` for the folder
+  you plan to edit
 
 If you are trying to understand validation or tooling:
 
@@ -63,6 +65,8 @@ The documentation system follows a few navigation rules:
   files
 - family-specific guidance should stay close to the family folder rather than
   being buried in central docs
+- when a vendor has multiple distinct delivered result-file families, that
+  structure should be visible in the docs and folder tree
 
 ## Related References
 

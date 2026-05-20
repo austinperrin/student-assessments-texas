@@ -9,7 +9,7 @@ This folder contains year-specific JSON mappings for TELPAS Alternate reporting 
 ## Source Reference Rules
 
 - the current official online TEA documentation is the governing reference
-- the local PDF should come from the matching year folder under `../../../../docs/tea-data-file-formats-archive/` and should match the current online source
+- the local PDF should come from the matching year folder under `../../../../docs/source-archives/tea/` and should match the current online source
 - keep `metadata.pdf_url` aligned to the official source URL
 - do not infer field names from neighboring JSON files unless the current year's PDF is genuinely unclear
 - do not create local `tmp_*.txt`, extracted plain-text PDF dumps, or similar scratch files in the repo when reviewing PDFs
@@ -75,7 +75,7 @@ Each `mapped_fields` entry should contain:
 ## Workflow For Existing Files
 
 1. Open the JSON file in this folder.
-2. Review the matching PDF from `../../../../docs/tea-data-file-formats-archive/<year>/`.
+2. Review the matching PDF from `../../../../docs/source-archives/tea/<year>/`.
 3. Confirm suspicious or wrapped fields directly against that PDF.
 4. Remove note spillover or OCR artifacts from headers.
 5. Keep `start_pos`, `end_pos`, and `column_num` aligned to the PDF.
@@ -84,7 +84,7 @@ Each `mapped_fields` entry should contain:
 ## Workflow For Creating A New Year
 
 1. Obtain the official TEA TELPAS Alternate online source for that year.
-2. Save the PDF into the matching year folder under `../../../../docs/tea-data-file-formats-archive/`.
+2. Save the PDF into the matching year folder under `../../../../docs/source-archives/tea/`.
 3. Create the new JSON file using the family naming pattern.
 4. Add accurate `metadata` values.
 5. Build `mapped_fields` directly from the PDF layout.

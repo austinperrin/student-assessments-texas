@@ -14,7 +14,10 @@ Use this area for:
 
 - keep docs portable and use repo-relative links
 - keep human-facing docs aligned with the current repository structure
-- store local reference PDFs under `tea-data-file-formats-archive/` and keep them aligned with the current official online source
+- store local reference source documents under the matching vendor subtree in
+  `docs/source-archives/`
+- for future vendors, describe archive structure in terms of delivery families
+  when those families are more stable than product branding alone
 - record durable structural decisions in `adr/` instead of scattering them across multiple docs
 - keep AI-agent-specific instructions in `AGENTS.md`, not in `README.md`
 - add or update local `AGENTS.md` files in deeper doc hubs when a sub-area

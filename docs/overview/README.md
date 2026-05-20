@@ -8,14 +8,20 @@ fixed-width layouts. Over time, it is expected to grow into a broader
 assessment tooling platform that can validate, inspect, transform, and
 operationalize these mappings and related artifacts.
 
+The intended data-model direction for the corpus is to represent the assessment
+result files districts, schools, and higher-ed institutions actually receive,
+including both current and historic layouts.
+
 ## Current Focus
 
 - preserve PDF-to-JSON mapping accuracy
 - apply stable normalization standards where the field meaning truly matches
 - keep family-level documentation and project standards aligned
-- maintain a clean local archive of TEA and Texas Assessments source documents
+- maintain a clean local archive of vendor source documents under `docs/source-archives/`
 - keep the assessment corpus grouped under `assessments/` so future vendors can
   be added without reshaping the repo again
+- organize non-TEA vendors around durable delivery or reporting families when
+  those better explain the emitted files than assessment branding alone
 
 ## Navigation
 
