@@ -15,6 +15,8 @@ added.
   TEA and Texas Assessments source document archives.
 - `collegeboard/`
   College Board delivery-family and product-format archives.
+- `nwea/`
+  NWEA assessment-family and export-format archives.
 
 ## Usage
 
@@ -32,5 +34,8 @@ added.
 - `collegeboard/`
   should use delivery-family and year folders as needed, for example
   `docs/source-archives/collegeboard/sat_suite/k12_reporting/sat/2026/`
+- `nwea/`
+  should use assessment-family and delivery-format folders such as
+  `docs/source-archives/nwea/map_growth/data_exports/`
 - add new vendor folders under `docs/source-archives/` rather than creating
   archive directories directly under `docs/`
