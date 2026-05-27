@@ -39,6 +39,8 @@ workflow references, and local source-document archives live here under
 - [College Board Data File Formats Archive](./source-archives/collegeboard/)
   Local archive for College Board source-format documents, grouped by
   delivery/reporting family where appropriate.
+- [i-Ready Source Archive](./source-archives/iready/)
+  Local archive for i-Ready source references and export-family scaffolding.
 - [NWEA Source Archive](./source-archives/nwea/)
   Local archive for NWEA MAP Suite source references and export-format
   materials.

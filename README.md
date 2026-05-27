@@ -51,7 +51,8 @@ The project is organized around a few durable responsibilities:
 ## Navigate The Corpus
 
 Assessment mappings currently live under [assessments/tea/](./assessments/tea/),
-[assessments/collegeboard/](./assessments/collegeboard/), and
+[assessments/collegeboard/](./assessments/collegeboard/),
+[assessments/iready/](./assessments/iready/), and
 [assessments/nwea/](./assessments/nwea/).
 
 Current TEA families include:
@@ -67,7 +68,10 @@ Current TEA families include:
 - [assessments/tea/tfar](./assessments/tea/tfar/)
 - [assessments/tea/ttap](./assessments/tea/ttap/)
 - [assessments/tea/crs](./assessments/tea/crs/)
+  Other scaffolded vendor roots include:
+
 - [assessments/collegeboard/](./assessments/collegeboard/)
+- [assessments/iready/](./assessments/iready/)
 - [assessments/nwea/](./assessments/nwea/)
 
 Most vendor and delivery-family folders include their own `README.md` files for

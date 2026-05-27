@@ -1,6 +1,6 @@
 # ADR 0004: i-Ready Vendor Structure
 
-- **Status**: In Progress
+- **Status**: Accepted
 - **Date**: 2026-05-20
 - **Owners**: Repository Maintainers
 

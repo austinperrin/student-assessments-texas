@@ -11,6 +11,8 @@ vendor or source system.
 - [collegeboard/](./collegeboard/)
   College Board result-delivery families, assessment variants, and associated
   mapping guidance.
+- [iready/](./iready/)
+  i-Ready assessment scaffolding and future export-family mapping guidance.
 - [nwea/](./nwea/)
   NWEA MAP Suite assessment families and source-aligned delivery-format
   scaffolding.

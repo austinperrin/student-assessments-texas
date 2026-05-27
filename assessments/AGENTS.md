@@ -27,6 +27,7 @@ Current active vendor grouping:
 
 - `tea/`
 - `collegeboard/`
+- `iready/`
 - `nwea/`
 
 Future vendors should be added alongside existing vendor roots rather than at
