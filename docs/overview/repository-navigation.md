@@ -37,7 +37,7 @@ If you are trying to understand the project:
 If you are trying to work on mappings:
 
 - start at [../../assessments/README.md](../../assessments/README.md)
-- move to a vendor-level README such as [../../assessments/tea/README.md](../../assessments/tea/README.md) or [../../assessments/collegeboard/README.md](../../assessments/collegeboard/README.md)
+- move to a vendor-level README such as [../../assessments/tea/README.md](../../assessments/tea/README.md), [../../assessments/collegeboard/README.md](../../assessments/collegeboard/README.md), or [../../assessments/iready/README.md](../../assessments/iready/README.md)
 - then open the delivery-family or family-specific `README.md` for the folder
   you plan to edit
 
