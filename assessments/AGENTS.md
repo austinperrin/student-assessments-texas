@@ -27,6 +27,7 @@ Current active vendor grouping:
 
 - `tea/`
 - `collegeboard/`
+- `nwea/`
 
 Future vendors should be added alongside existing vendor roots rather than at
 the repo root.

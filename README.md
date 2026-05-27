@@ -50,8 +50,9 @@ The project is organized around a few durable responsibilities:
 
 ## Navigate The Corpus
 
-Assessment mappings currently live under [assessments/tea/](./assessments/tea/)
-and [assessments/collegeboard/](./assessments/collegeboard/).
+Assessment mappings currently live under [assessments/tea/](./assessments/tea/),
+[assessments/collegeboard/](./assessments/collegeboard/), and
+[assessments/nwea/](./assessments/nwea/).
 
 Current TEA families include:
 
@@ -67,13 +68,14 @@ Current TEA families include:
 - [assessments/tea/ttap](./assessments/tea/ttap/)
 - [assessments/tea/crs](./assessments/tea/crs/)
 - [assessments/collegeboard/](./assessments/collegeboard/)
+- [assessments/nwea/](./assessments/nwea/)
 
 Most vendor and delivery-family folders include their own `README.md` files for
 year coverage notes, naming expectations, and local maintenance guidance.
 
-For non-TEA vendors such as College Board, folders may be organized around
-result-delivery or reporting families first, with assessment variants and
-year-specific mappings nested beneath that delivery family.
+For non-TEA vendors such as College Board and NWEA, folders may be organized
+around result-delivery or reporting families first, with assessment variants
+and year-specific mappings nested beneath that delivery family.
 
 ## TEA Mapping File Shape
 

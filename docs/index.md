@@ -39,6 +39,9 @@ workflow references, and local source-document archives live here under
 - [College Board Data File Formats Archive](./source-archives/collegeboard/)
   Local archive for College Board source-format documents, grouped by
   delivery/reporting family where appropriate.
+- [NWEA Source Archive](./source-archives/nwea/)
+  Local archive for NWEA MAP Suite source references and export-format
+  materials.
 - [GitHub Workflow Overview](../.github/overview.md)
   Workflow automation and contribution-template overview.
 
