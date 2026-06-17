@@ -18,7 +18,7 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_INPUT_ROOT = REPO_ROOT / ".tmp"
 DEFAULT_UPLOADS_DIR = DEFAULT_INPUT_ROOT / "uploads" / "tea"
 DEFAULT_OUTPUT_ROOT = REPO_ROOT / ".tmp" / "exports" / "tea"
-DEFAULT_PROCESSED_ROOT = REPO_ROOT / ".tmp" / "processed_files" / "tea"
+DEFAULT_PROCESSED_DIR_NAME = "processed_files"
 DEFAULT_MAPPING_ROOT = REPO_ROOT / "assessments" / "tea"
 KNOWN_METADATA_PATTERNS = (
     re.compile(r"^readme(?:\..+)?$", re.IGNORECASE),
@@ -209,6 +209,21 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help=(
             "Group outputs by assessment and year, or by assessment across all years. "
             "Defaults to assessment-by-year."
+        ),
+    )
+    parser.add_argument(
+        "--zip-outputs",
+        action="store_true",
+        help=(
+            "Package everything created inside the run's outputs directory into one .zip file "
+            "after processing completes."
+        ),
+    )
+    parser.add_argument(
+        "--zip-output-name",
+        default=None,
+        help=(
+            "Optional file name for --zip-outputs. Defaults to tea-assessment-outputs-<run_timestamp>.zip."
         ),
     )
     args = parser.parse_args(argv)
@@ -665,6 +680,31 @@ def create_run_dir(output_root: Path, run_stamp: str) -> Path:
     return candidate
 
 
+def build_summary_file_name(run_timestamp: str) -> str:
+    return f"summary-{run_timestamp}.json"
+
+
+def normalize_bundle_name(bundle_name: str | None, run_timestamp: str) -> str:
+    if bundle_name:
+        candidate = sanitize_name(Path(bundle_name).name)
+    else:
+        candidate = f"tea-assessment-outputs-{run_timestamp}.zip"
+
+    if not candidate.lower().endswith(".zip"):
+        candidate = f"{candidate}.zip"
+    return candidate
+
+
+def create_output_bundle(outputs_root: Path, bundle_name: str) -> Path:
+    bundle_path = outputs_root / bundle_name
+    with zipfile.ZipFile(bundle_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for path in sorted(outputs_root.rglob("*")):
+            if path == bundle_path or not path.is_file():
+                continue
+            zf.write(path, arcname=path.relative_to(outputs_root).as_posix())
+    return bundle_path
+
+
 def copy_loose_files_for_debug(
     loose_files: list[Path], extracted_root: Path, source_prefix: str
 ) -> list[ExtractedFile]:
@@ -690,10 +730,8 @@ def copy_loose_files_for_debug(
 def move_processed_inputs(
     source_archives: list[Path],
     loose_files: list[Path],
-    processed_root: Path,
-    run_dir_name: str,
+    processed_run_dir: Path,
 ) -> list[str]:
-    processed_run_dir = processed_root / run_dir_name
     processed_run_dir.mkdir(parents=True, exist_ok=False)
 
     moved_paths: list[str] = []
@@ -715,9 +753,11 @@ def build_log_lines(summary: dict[str, object]) -> list[str]:
         f"Input directory: {summary['input_dir']}",
         f"Output root: {summary['output_root']}",
         f"Run directory: {summary['run_dir']}",
+        f"Processed run directory: {summary['processed_run_dir']}",
         f"Input mode: {summary['input_mode']}",
         f"Output mode: {summary['output_mode']}",
         f"Grouping: {summary['grouping']}",
+        f"Zip outputs: {summary['zip_outputs']}",
         f"Processed archive count: {len(summary['processed_archives'])}",
         f"Processed loose file count: {len(summary['processed_loose_files'])}",
         f"Created {output_label} count: {summary['created_output_count']}",
@@ -739,6 +779,10 @@ def build_log_lines(summary: dict[str, object]) -> list[str]:
     lines.append(f"Created {output_label}s:")
     for item in summary["created_outputs"]:
         lines.append(f"- {item['output']} ({item['file_count']} files)")
+
+    if summary["bundled_output"]:
+        lines.append("")
+        lines.append(f"Bundled output archive: {summary['bundled_output']}")
 
     if summary["metadata_files"]:
         lines.append("")
@@ -763,7 +807,9 @@ def process_input_dir(
     grouping: str = GROUPING_ASSESSMENT_BY_YEAR,
     mapping_root: Path = DEFAULT_MAPPING_ROOT,
     tmp_root: Path = DEFAULT_INPUT_ROOT,
-    processed_root: Path = DEFAULT_PROCESSED_ROOT,
+    processed_root: Path | None = None,
+    zip_outputs: bool = False,
+    zip_output_name: str | None = None,
 ) -> Path:
     start_dt = datetime.now()
     start_perf = time.perf_counter()
@@ -773,8 +819,6 @@ def process_input_dir(
 
     output_root = output_root.expanduser().resolve()
     output_root.mkdir(parents=True, exist_ok=True)
-    processed_root = processed_root.expanduser().resolve()
-    processed_root.mkdir(parents=True, exist_ok=True)
 
     if include_archives and input_mode == INPUT_MODE_LOOSE:
         input_mode = INPUT_MODE_ALL
@@ -801,6 +845,11 @@ def process_input_dir(
 
     extracted_root = run_dir / "extracted"
     outputs_root = run_dir / "outputs"
+    processed_run_dir = (
+        run_dir / DEFAULT_PROCESSED_DIR_NAME
+        if processed_root is None
+        else processed_root.expanduser().resolve() / run_dir.name
+    )
     outputs_root.mkdir(parents=True, exist_ok=True)
 
     if keep_extracted:
@@ -884,20 +933,28 @@ def process_input_dir(
             )
         )
 
-    moved_inputs = move_processed_inputs(source_archives, loose_files, processed_root, run_dir.name)
+    moved_inputs = move_processed_inputs(source_archives, loose_files, processed_run_dir)
     moved_archive_destinations = moved_inputs[: len(source_archives)]
     moved_loose_file_destinations = moved_inputs[len(source_archives) :]
+    bundled_output_path = None
+    if zip_outputs:
+        bundled_output_path = create_output_bundle(
+            outputs_root,
+            normalize_bundle_name(zip_output_name, run_dir.name),
+        )
     end_dt = datetime.now()
     execution_seconds = round(time.perf_counter() - start_perf, 3)
 
     summary = {
         "run_timestamp": run_dir.name,
+        "summary_file": build_summary_file_name(run_dir.name),
         "start_time": start_dt.isoformat(timespec="seconds"),
         "end_time": end_dt.isoformat(timespec="seconds"),
         "execution_seconds": execution_seconds,
         "input_dir": str(input_dir),
         "output_root": str(output_root),
         "run_dir": str(run_dir),
+        "processed_run_dir": str(processed_run_dir),
         "input_mode": input_mode,
         "output_mode": output_mode,
         "grouping": grouping,
@@ -924,10 +981,12 @@ def process_input_dir(
         ),
         "metadata_file_count": len(metadata_files),
         "unmatched_file_count": len(unmatched_files),
+        "zip_outputs": zip_outputs,
+        "bundled_output": None if bundled_output_path is None else bundled_output_path.name,
     }
     summary["created_archives"] = created_outputs
     summary["created_archive_count"] = len(created_outputs)
-    (run_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (run_dir / summary["summary_file"]).write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (run_dir / f"run-{run_dir.name}.log").write_text(
         "\n".join(build_log_lines(summary)) + "\n",
         encoding="utf-8",
@@ -951,6 +1010,8 @@ def main(argv: list[str] | None = None) -> int:
             input_mode=args.input_mode,
             output_mode=args.output_mode,
             grouping=args.grouping,
+            zip_outputs=args.zip_outputs,
+            zip_output_name=args.zip_output_name,
         )
     except Exception as exc:
         print(f"TEA assessment sorting failed: {exc}", file=sys.stderr)
