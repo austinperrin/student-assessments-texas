@@ -37,7 +37,7 @@ By default it uses:
 
 - input: `.tmp/uploads/tea/`
 - output runs: `.tmp/exports/tea/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/exports/tea/<run_timestamp>/processed_files/`
 - input mode: `loose`
 - output mode: `directory`
 - grouping: `assessment-by-year`
@@ -72,6 +72,12 @@ Sort loose files and archive contents into archive outputs by assessment and yea
 
 ```powershell
 python scripts/mappings/sort_tea_assessments.py --input-mode all --output-mode archive
+```
+
+Sort loose files and also package the full `outputs/` directory into one zip file:
+
+```powershell
+python scripts/mappings/sort_tea_assessments.py --zip-outputs
 ```
 
 Sort loose files into directories by assessment across all years:
@@ -109,6 +115,10 @@ python scripts/mappings/sort_archive_outputs.py --input-mode all
   Keep extracted working files in the run directory for debugging.
 - `--include-archives`
   Compatibility shortcut for `--input-mode all`.
+- `--zip-outputs`
+  Package everything created in `outputs/` into one `.zip` file.
+- `--zip-output-name`
+  Override the `--zip-outputs` archive file name.
 
 ### Behavior
 
@@ -130,18 +140,24 @@ python scripts/mappings/sort_archive_outputs.py --input-mode all
   output in the selected mode
 - once a run completes, processed source files are moved out of uploads so the
   default workflow is safe to run multiple times per day
+- processed inputs for each run live beside `outputs/` inside the same
+  timestamped export folder
+- `--zip-outputs` adds a single archive such as
+  `outputs/tea-assessment-outputs-<run_timestamp>.zip` that bundles the
+  generated output files for that run
 
 ### Run artifacts
 
 Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - sorted output directories or archives, depending on `--output-mode`
+- `processed_files/` with the moved source uploads for that specific run
 - `metadata` output when known metadata files are found
 - `unsorted` output when unmatched files remain
-- `summary.json`
+- `summary-<run_timestamp>.json`
 - `run-<run_timestamp>.log`
 
-`summary.json` and the run log include:
+`summary-<run_timestamp>.json` and the run log include:
 
 - input mode, output mode, and grouping
 - processed source archives
@@ -174,7 +190,7 @@ By default it uses:
 
 - input: `.tmp/uploads/tea/`
 - output runs: `.tmp/exports/tea/<run_timestamp>/`
-- processed source inputs: `.tmp/processed_files/tea/<run_timestamp>/`
+- processed source inputs: `.tmp/exports/tea/<run_timestamp>/processed_files/`
 
 You can also point it at another `.tmp` subdirectory:
 
@@ -188,10 +204,22 @@ To also include archive `.zip` files from the base input directory:
 python scripts/mappings/merge_tea_assessment_files.py --include-archives
 ```
 
-To keep only the first occurrence of each row in every merged output:
+By default the merger keeps only the first occurrence of each logical row in
+every merged output.
+
+The legacy `--unique` flag is still accepted for compatibility, but it is now
+redundant because deduplication is already on by default.
+
+To keep duplicate rows instead:
 
 ```powershell
-python scripts/mappings/merge_tea_assessment_files.py --unique
+python scripts/mappings/merge_tea_assessment_files.py --allow-duplicates
+```
+
+To also package the merged outputs into one zip file:
+
+```powershell
+python scripts/mappings/merge_tea_assessment_files.py --zip-outputs
 ```
 
 ### Behavior
@@ -209,23 +237,33 @@ python scripts/mappings/merge_tea_assessment_files.py --unique
   mapping file, for example `2026-staar-3-8.txt`
 - merged outputs preserve source bytes exactly; the tool concatenates matched
   file contents without adding separators or extra newlines
-- `--unique` switches the merge to row-level deduplication within each output
-  file, preserving the first occurrence of each logical row and skipping later
-  duplicates
+- row-level deduplication is the default behavior for merged outputs
+- `--unique` is retained as a compatibility flag and keeps the default
+  deduplication behavior enabled
+- `--allow-duplicates` keeps all rows, including duplicates, instead of
+  deduplicating by logical row
+- `--zip-outputs` packages the merged outputs in `outputs/` into a single
+  archive such as `tea-assessment-outputs-<run_timestamp>.zip`
+- when `--zip-outputs` is used, the merged `.txt` files are written inside that
+  archive and `outputs/` contains only the single bundled zip file
 - known metadata files and unmatched files are excluded from merged outputs and
   are recorded in run artifacts instead
 - once a run completes, processed source files are moved out of uploads so the
   default workflow is safe to run multiple times per day
+- processed inputs for each run live beside `outputs/` inside the same
+  timestamped export folder
 
 ### Run artifacts
 
 Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
 
 - merged assessment text files
-- `summary.json`
+- optional bundled zip output when `--zip-outputs` is used
+- `processed_files/` with the moved source uploads for that specific run
+- `summary-<run_timestamp>.json`
 - `run-<run_timestamp>.log`
 
-`summary.json` and the run log include:
+`summary-<run_timestamp>.json` and the run log include:
 
 - processed source archives
 - processed loose files
