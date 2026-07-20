@@ -397,13 +397,13 @@
     {
       "start_pos": "424",
       "end_pos": "424",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_header": "rla_lvl_ii_sat_perf",
       "column_num": "71"
     },
     {
       "start_pos": "425",
       "end_pos": "425",
-      "column_header": "reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_header": "rla_lvl_iii_accomp_perf",
       "column_num": "72"
     },
     {
@@ -415,19 +415,19 @@
     {
       "start_pos": "429",
       "end_pos": "429",
-      "column_header": "on_track_to_level_ii_satisfactory_academic_performance_reading_language_arts",
+      "column_header": "on_track_to_lvl_ii_sat_perf_rla",
       "column_num": "75"
     },
     {
       "start_pos": "430",
       "end_pos": "433",
-      "column_header": "progress_measure_previous_year_reading_language_arts_administration_date",
+      "column_header": "pm_py_rla_admin_date",
       "column_num": "76"
     },
     {
       "start_pos": "434",
       "end_pos": "437",
-      "column_header": "progress_measure_previous_year_reading_language_arts_scale_score",
+      "column_header": "pm_py_rla_scale_score",
       "column_num": "77"
     },
     {
@@ -439,19 +439,19 @@
     {
       "start_pos": "441",
       "end_pos": "441",
-      "column_header": "progress_measure_previous_year_reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_header": "pm_py_rla_lvl_ii_sat_perf",
       "column_num": "80"
     },
     {
       "start_pos": "442",
       "end_pos": "442",
-      "column_header": "progress_measure_previous_year_reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_header": "pm_py_rla_lvl_iii_accomp_perf",
       "column_num": "81"
     },
     {
       "start_pos": "443",
       "end_pos": "444",
-      "column_header": "progress_measure_previous_year_reading_language_arts_tested_grade",
+      "column_header": "pm_py_rla_tested_gr",
       "column_num": "82"
     },
     {
@@ -535,7 +535,7 @@
     {
       "start_pos": "665",
       "end_pos": "665",
-      "column_header": "use_calculator_manipulatives_or_mathematics_tools_reading_language_arts",
+      "column_header": "use_calculator_manipulatives_or_math_tools_rla",
       "column_num": "98"
     },
     {
@@ -595,7 +595,7 @@
     {
       "start_pos": "782",
       "end_pos": "782",
-      "column_header": "on_track_to_level_ii_satisfactory_academic_performance_mathematics",
+      "column_header": "on_track_to_lvl_ii_sat_perf_math",
       "column_num": "114"
     },
     {
@@ -619,13 +619,13 @@
     {
       "start_pos": "794",
       "end_pos": "794",
-      "column_header": "progress_measure_previous_year_mathematics_level_ii_satisfactory_academic_performance",
+      "column_header": "pm_py_math_lvl_ii_sat_perf",
       "column_num": "119"
     },
     {
       "start_pos": "795",
       "end_pos": "795",
-      "column_header": "progress_measure_previous_year_mathematics_level_iii_accomplished_academic_performance",
+      "column_header": "pm_py_math_lvl_iii_accomp_perf",
       "column_num": "120"
     },
     {
@@ -979,7 +979,7 @@
     {
       "start_pos": "1815",
       "end_pos": "1815",
-      "column_header": "use_calculator_manipulatives_or_mathematics_tools_social_studies",
+      "column_header": "use_calculator_manipulatives_or_math_tools_soc_studies",
       "column_num": "193"
     },
     {
@@ -1123,7 +1123,7 @@
     {
       "start_pos": "2531",
       "end_pos": "2539",
-      "column_header": "previous_year_reading_language_arts_county_district_campus_number",
+      "column_header": "py_rla_cdc_num",
       "column_num": "224"
     },
     {
@@ -1135,13 +1135,13 @@
     {
       "start_pos": "2543",
       "end_pos": "2543",
-      "column_header": "previous_year_reading_language_arts_level_ii_satisfactory_academic_performance",
+      "column_header": "py_rla_lvl_ii_sat_perf",
       "column_num": "227"
     },
     {
       "start_pos": "2544",
       "end_pos": "2544",
-      "column_header": "previous_year_reading_language_arts_level_iii_accomplished_academic_performance",
+      "column_header": "py_rla_lvl_iii_accomp_perf",
       "column_num": "228"
     },
     {
@@ -1171,13 +1171,13 @@
     {
       "start_pos": "2663",
       "end_pos": "2663",
-      "column_header": "previous_year_mathematics_level_ii_satisfactory_academic_performance",
+      "column_header": "py_math_lvl_ii_sat_perf",
       "column_num": "235"
     },
     {
       "start_pos": "2664",
       "end_pos": "2664",
-      "column_header": "previous_year_mathematics_level_iii_accomplished_academic_performance",
+      "column_header": "py_math_lvl_iii_accomp_perf",
       "column_num": "236"
     },
     {
@@ -1207,13 +1207,13 @@
     {
       "start_pos": "2753",
       "end_pos": "2753",
-      "column_header": "previous_year_writing_level_ii_satisfactory_academic_performance",
+      "column_header": "py_writing_lvl_ii_sat_perf",
       "column_num": "243"
     },
     {
       "start_pos": "2754",
       "end_pos": "2754",
-      "column_header": "previous_year_writing_level_iii_accomplished_academic_performance",
+      "column_header": "py_writing_lvl_iii_accomp_perf",
       "column_num": "244"
     },
     {
@@ -1243,13 +1243,13 @@
     {
       "start_pos": "2783",
       "end_pos": "2783",
-      "column_header": "previous_year_social_studies_level_ii_satisfactory_academic_performance",
+      "column_header": "py_soc_studies_lvl_ii_sat_perf",
       "column_num": "251"
     },
     {
       "start_pos": "2784",
       "end_pos": "2784",
-      "column_header": "previous_year_social_studies_level_iii_accomplished_academic_performance",
+      "column_header": "py_soc_studies_lvl_iii_accomp_perf",
       "column_num": "252"
     },
     {
@@ -1279,13 +1279,13 @@
     {
       "start_pos": "2813",
       "end_pos": "2813",
-      "column_header": "previous_year_science_level_ii_satisfactory_academic_performance",
+      "column_header": "py_sci_lvl_ii_sat_perf",
       "column_num": "259"
     },
     {
       "start_pos": "2814",
       "end_pos": "2814",
-      "column_header": "previous_year_science_level_iii_accomplished_academic_performance",
+      "column_header": "py_sci_lvl_iii_accomp_perf",
       "column_num": "260"
     },
     {

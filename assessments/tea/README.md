@@ -22,6 +22,9 @@ within the broader Texas student assessments project scope.
 Use the family-specific `README.md` files inside each folder for year coverage
 notes, naming expectations, and maintenance guidance.
 
+Across TEA families, `column_header` values should remain in lowercase snake
+case and stay at or below 63 characters.
+
 ## Related References
 
 - [../README.md](../README.md)

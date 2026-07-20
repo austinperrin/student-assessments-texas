@@ -53,6 +53,7 @@ Mappings in this folder should be curated against the corresponding PDF layout i
 - The first confirmed official STAAR Alternate 2 grades 3-8 data file format currently supported in this folder is `2016`
 - TEA materials indicate STAAR Alternate 2 existed in the `2014-2015` school year, but no `2015` grades 3-8 data file format PDF is currently present anywhere under `../../../../docs` or confirmed on the TEA archive page
 - Header names should be normalized into lowercase snake case
+- Header names should stay at or below 63 characters
 - Blank fields from the published layout should be omitted from `mapped_fields`
 - `column_num` should still preserve the original source column order
 - Use normalized identifier names when applicable:

@@ -64,5 +64,6 @@ The mappings should be maintained manually as layout changes are introduced for 
 ## Notes
 
 - Header names are normalized into lowercase snake case
+- Header names should stay at or below 63 characters
 - Field titles are based on the PDF field title, not the descriptive note text
 - When a PDF title wraps across lines, the header is reconstructed from the field title only

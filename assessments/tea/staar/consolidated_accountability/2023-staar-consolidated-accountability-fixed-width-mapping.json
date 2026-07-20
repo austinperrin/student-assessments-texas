@@ -307,7 +307,7 @@
     {
       "start_pos": "156",
       "end_pos": "156",
-      "column_header": "peims_demographic_fall_2022_tsds_peims_military_connected_student_code",
+      "column_header": "peims_demo_fall_2022_tsds_peims_military_connected_student_code",
       "column_num": "50"
     },
     {
@@ -331,13 +331,13 @@
     {
       "start_pos": "181",
       "end_pos": "189",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_county_district_campus_number",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_cdc_num",
       "column_num": "54"
     },
     {
       "start_pos": "190",
       "end_pos": "198",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2021_county_district_campus_number",
+      "column_header": "other_peims_tsds_peims_snapshot_2021_cdc_num",
       "column_num": "55"
     },
     {
@@ -355,31 +355,31 @@
     {
       "start_pos": "203",
       "end_pos": "203",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_parental_denial_code",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_parental_denial_code",
       "column_num": "58"
     },
     {
       "start_pos": "204",
       "end_pos": "204",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_homeless_status_code",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_homeless_status_code",
       "column_num": "59"
     },
     {
       "start_pos": "205",
       "end_pos": "205",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_unaccompanied_youth_status_code",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_unaccompanied_youth_65bccc",
       "column_num": "60"
     },
     {
       "start_pos": "206",
       "end_pos": "206",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_foster_care_indicator",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_foster_care_ind",
       "column_num": "61"
     },
     {
       "start_pos": "207",
       "end_pos": "207",
-      "column_header": "other_peims_elements_tsds_peims_snapshot_2022_dyslexia_indicator_code",
+      "column_header": "other_peims_tsds_peims_snapshot_2022_dyslexia_ind_code",
       "column_num": "62"
     },
     {
@@ -403,13 +403,13 @@
     {
       "start_pos": "245",
       "end_pos": "248",
-      "column_header": "staar_end_of_course_2022_summer_eoc_current_accountability_year_administration_date",
+      "column_header": "staar_end_of_course_2022_summer_eoc_cy_accountability_yr_981437",
       "column_num": "66"
     },
     {
       "start_pos": "249",
       "end_pos": "249",
-      "column_header": "staar_end_of_course_2022_summer_eoc_current_accountability_year_record_update_indicator",
+      "column_header": "staar_end_of_course_2022_summer_eoc_cy_accountability_yr_237023",
       "column_num": "67"
     },
     {
@@ -787,13 +787,13 @@
     {
       "start_pos": "424",
       "end_pos": "427",
-      "column_header": "staar_end_of_course_2022_fall_eoc_current_accountability_year_administration_date",
+      "column_header": "staar_end_of_course_2022_fall_eoc_cy_accountability_yr_a_ad6949",
       "column_num": "130"
     },
     {
       "start_pos": "428",
       "end_pos": "428",
-      "column_header": "staar_end_of_course_2022_fall_eoc_current_accountability_year_record_update_indicator",
+      "column_header": "staar_end_of_course_2022_fall_eoc_cy_accountability_yr_r_7799c7",
       "column_num": "131"
     },
     {
@@ -1177,13 +1177,13 @@
     {
       "start_pos": "603",
       "end_pos": "606",
-      "column_header": "staar_end_of_course_2023_spring_eoc_current_accountability_year_administration_date",
+      "column_header": "staar_end_of_course_2023_spring_eoc_cy_accountability_yr_f9d89f",
       "column_num": "195"
     },
     {
       "start_pos": "607",
       "end_pos": "607",
-      "column_header": "staar_end_of_course_2023_spring_eoc_current_accountability_year_record_update_indicator",
+      "column_header": "staar_end_of_course_2023_spring_eoc_cy_accountability_yr_5b13e1",
       "column_num": "196"
     },
     {
@@ -1231,13 +1231,13 @@
     {
       "start_pos": "638",
       "end_pos": "638",
-      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_end_of_course_alg_1_meets_gl_or_lvl_2_sat_perf",
       "column_num": "204"
     },
     {
       "start_pos": "639",
       "end_pos": "639",
-      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_end_of_course_alg_1_masters_gl_or_accomp_perf",
       "column_num": "205"
     },
     {
@@ -1249,7 +1249,7 @@
     {
       "start_pos": "642",
       "end_pos": "642",
-      "column_header": "staar_end_of_course_algebra_1_staar_or_staar_alternate_2_progress_measure",
+      "column_header": "staar_end_of_course_alg_1_staar_or_staar_alt_2_progress_measure",
       "column_num": "207"
     },
     {
@@ -1315,13 +1315,13 @@
     {
       "start_pos": "673",
       "end_pos": "673",
-      "column_header": "staar_end_of_course_biology_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_end_of_course_bio_meets_gl_or_lvl_2_sat_perf",
       "column_num": "218"
     },
     {
       "start_pos": "674",
       "end_pos": "674",
-      "column_header": "staar_end_of_course_biology_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_end_of_course_bio_masters_gl_or_accomp_perf",
       "column_num": "219"
     },
     {
@@ -1381,13 +1381,13 @@
     {
       "start_pos": "703",
       "end_pos": "703",
-      "column_header": "staar_end_of_course_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_end_of_course_eng_1_meets_gl_or_lvl_2_sat_perf",
       "column_num": "229"
     },
     {
       "start_pos": "704",
       "end_pos": "704",
-      "column_header": "staar_end_of_course_english_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_end_of_course_eng_1_masters_gl_or_accomp_perf",
       "column_num": "230"
     },
     {
@@ -1459,13 +1459,13 @@
     {
       "start_pos": "739",
       "end_pos": "739",
-      "column_header": "staar_end_of_course_english_2_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_end_of_course_eng_2_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "242"
     },
     {
       "start_pos": "740",
       "end_pos": "740",
-      "column_header": "staar_end_of_course_english_2_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_end_of_course_eng_2_masters_gl_or_accomp_perf_2",
       "column_num": "243"
     },
     {
@@ -1477,7 +1477,7 @@
     {
       "start_pos": "743",
       "end_pos": "743",
-      "column_header": "staar_end_of_course_english_2_staar_or_staar_alternate_2_progress_measure",
+      "column_header": "staar_end_of_course_eng_2_staar_or_staar_alt_2_progress_measure",
       "column_num": "245"
     },
     {
@@ -1543,13 +1543,13 @@
     {
       "start_pos": "777",
       "end_pos": "777",
-      "column_header": "staar_end_of_course_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_end_of_course_us_hist_meets_gl_or_lvl_2_sat_perf",
       "column_num": "256"
     },
     {
       "start_pos": "778",
       "end_pos": "778",
-      "column_header": "staar_end_of_course_us_history_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_end_of_course_us_hist_masters_gl_or_accomp_perf",
       "column_num": "257"
     },
     {
@@ -1849,7 +1849,7 @@
     {
       "start_pos": "937",
       "end_pos": "940",
-      "column_header": "staar_end_of_course_2021_fall_eoc_previous_accountability_year_administration_date",
+      "column_header": "staar_end_of_course_2021_fall_eoc_py_accountability_yr_a_14e584",
       "column_num": "307"
     },
     {
@@ -2131,7 +2131,7 @@
     {
       "start_pos": "1087",
       "end_pos": "1090",
-      "column_header": "staar_end_of_course_2022_spring_eoc_previous_accountability_year_administration_date",
+      "column_header": "staar_end_of_course_2022_spring_eoc_py_accountability_yr_a85326",
       "column_num": "354"
     },
     {
@@ -2173,13 +2173,13 @@
     {
       "start_pos": "1120",
       "end_pos": "1120",
-      "column_header": "staar_end_of_course_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_end_of_course_alg_1_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "361"
     },
     {
       "start_pos": "1121",
       "end_pos": "1121",
-      "column_header": "staar_end_of_course_algebra_1_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_end_of_course_alg_1_masters_gl_or_accomp_perf_2",
       "column_num": "362"
     },
     {
@@ -2233,13 +2233,13 @@
     {
       "start_pos": "1148",
       "end_pos": "1148",
-      "column_header": "staar_end_of_course_biology_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_end_of_course_bio_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "371"
     },
     {
       "start_pos": "1149",
       "end_pos": "1149",
-      "column_header": "staar_end_of_course_biology_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_end_of_course_bio_masters_gl_or_accomp_perf_2",
       "column_num": "372"
     },
     {
@@ -2281,13 +2281,13 @@
     {
       "start_pos": "1174",
       "end_pos": "1174",
-      "column_header": "staar_end_of_course_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_header": "staar_end_of_course_eng_1_meets_gl_or_lvl_2_sat_perf_3",
       "column_num": "379"
     },
     {
       "start_pos": "1175",
       "end_pos": "1175",
-      "column_header": "staar_end_of_course_english_1_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_header": "staar_end_of_course_eng_1_masters_gl_or_accomp_perf_3",
       "column_num": "380"
     },
     {
@@ -2341,13 +2341,13 @@
     {
       "start_pos": "1202",
       "end_pos": "1202",
-      "column_header": "staar_end_of_course_english_2_meets_grade_level_or_level_2_satisfactory_academic_performance_4",
+      "column_header": "staar_end_of_course_eng_2_meets_gl_or_lvl_2_sat_perf_4",
       "column_num": "389"
     },
     {
       "start_pos": "1203",
       "end_pos": "1203",
-      "column_header": "staar_end_of_course_english_2_masters_grade_level_or_accomplished_academic_performance_4",
+      "column_header": "staar_end_of_course_eng_2_masters_gl_or_accomp_perf_4",
       "column_num": "390"
     },
     {
@@ -2401,13 +2401,13 @@
     {
       "start_pos": "1230",
       "end_pos": "1230",
-      "column_header": "staar_end_of_course_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_end_of_course_us_hist_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "399"
     },
     {
       "start_pos": "1231",
       "end_pos": "1231",
-      "column_header": "staar_end_of_course_us_history_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_end_of_course_us_hist_masters_gl_or_accomp_perf_2",
       "column_num": "400"
     },
     {
@@ -2461,7 +2461,7 @@
     {
       "start_pos": "1288",
       "end_pos": "1296",
-      "column_header": "eoc_cumulative_history_algebra_1_county_district_campus_number_2",
+      "column_header": "eoc_cum_hist_alg_1_cdc_num_2",
       "column_num": "409"
     },
     {
@@ -2479,13 +2479,13 @@
     {
       "start_pos": "1301",
       "end_pos": "1301",
-      "column_header": "eoc_cumulative_history_algebra_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "eoc_cum_hist_alg_1_meets_gl_or_lvl_2_sat_perf",
       "column_num": "412"
     },
     {
       "start_pos": "1302",
       "end_pos": "1302",
-      "column_header": "eoc_cumulative_history_algebra_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "eoc_cum_hist_alg_1_masters_gl_or_accomp_perf",
       "column_num": "413"
     },
     {
@@ -2563,13 +2563,13 @@
     {
       "start_pos": "1371",
       "end_pos": "1371",
-      "column_header": "eoc_cumulative_history_biology_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "eoc_cum_hist_bio_meets_gl_or_lvl_2_sat_perf",
       "column_num": "426"
     },
     {
       "start_pos": "1372",
       "end_pos": "1372",
-      "column_header": "eoc_cumulative_history_biology_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "eoc_cum_hist_bio_masters_gl_or_accomp_perf",
       "column_num": "427"
     },
     {
@@ -2629,7 +2629,7 @@
     {
       "start_pos": "1428",
       "end_pos": "1436",
-      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_2",
+      "column_header": "eoc_cum_hist_eng_1_cdc_num_2",
       "column_num": "437"
     },
     {
@@ -2647,13 +2647,13 @@
     {
       "start_pos": "1441",
       "end_pos": "1441",
-      "column_header": "eoc_cumulative_history_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "eoc_cum_hist_eng_1_meets_gl_or_lvl_2_sat_perf",
       "column_num": "440"
     },
     {
       "start_pos": "1442",
       "end_pos": "1442",
-      "column_header": "eoc_cumulative_history_english_1_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "eoc_cum_hist_eng_1_masters_gl_or_accomp_perf",
       "column_num": "441"
     },
     {
@@ -2701,7 +2701,7 @@
     {
       "start_pos": "1480",
       "end_pos": "1488",
-      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_3",
+      "column_header": "eoc_cum_hist_eng_1_cdc_num_3",
       "column_num": "449"
     },
     {
@@ -2713,7 +2713,7 @@
     {
       "start_pos": "1498",
       "end_pos": "1506",
-      "column_header": "eoc_cumulative_history_english_1_county_district_campus_number_4",
+      "column_header": "eoc_cum_hist_eng_1_cdc_num_4",
       "column_num": "451"
     },
     {
@@ -2731,13 +2731,13 @@
     {
       "start_pos": "1511",
       "end_pos": "1511",
-      "column_header": "eoc_cumulative_history_english_1_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "eoc_cum_hist_eng_1_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "454"
     },
     {
       "start_pos": "1512",
       "end_pos": "1512",
-      "column_header": "eoc_cumulative_history_english_1_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "eoc_cum_hist_eng_1_masters_gl_or_accomp_perf_2",
       "column_num": "455"
     },
     {
@@ -2797,7 +2797,7 @@
     {
       "start_pos": "1568",
       "end_pos": "1576",
-      "column_header": "eoc_cumulative_history_us_history_county_district_campus_number_2",
+      "column_header": "eoc_cum_hist_us_hist_cdc_num_2",
       "column_num": "465"
     },
     {
@@ -2815,13 +2815,13 @@
     {
       "start_pos": "1581",
       "end_pos": "1581",
-      "column_header": "eoc_cumulative_history_us_history_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "eoc_cum_hist_us_hist_meets_gl_or_lvl_2_sat_perf",
       "column_num": "468"
     },
     {
       "start_pos": "1582",
       "end_pos": "1582",
-      "column_header": "eoc_cumulative_history_us_history_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "eoc_cum_hist_us_hist_masters_gl_or_accomp_perf",
       "column_num": "469"
     },
     {
@@ -2953,13 +2953,13 @@
     {
       "start_pos": "1677",
       "end_pos": "1680",
-      "column_header": "staar_grades_3_8_2023_grades_3_8_current_accountability_year_administration_date",
+      "column_header": "staar_gr_3_8_2023_gr_3_8_cy_accountability_yr_admin_date",
       "column_num": "491"
     },
     {
       "start_pos": "1681",
       "end_pos": "1681",
-      "column_header": "staar_grades_3_8_2023_grades_3_8_current_accountability_year_record_update_indicator",
+      "column_header": "staar_gr_3_8_2023_gr_3_8_cy_accountability_yr_record_update_ind",
       "column_num": "492"
     },
     {
@@ -3013,13 +3013,13 @@
     {
       "start_pos": "1713",
       "end_pos": "1713",
-      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_gr_3_8_reading_meets_gl_or_lvl_2_sat_perf",
       "column_num": "501"
     },
     {
       "start_pos": "1714",
       "end_pos": "1714",
-      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_gr_3_8_reading_masters_gl_or_accomp_perf",
       "column_num": "502"
     },
     {
@@ -3043,7 +3043,7 @@
     {
       "start_pos": "1720",
       "end_pos": "1720",
-      "column_header": "staar_grades_3_8_reading_staar_or_staar_alternate_2_progress_measure",
+      "column_header": "staar_gr_3_8_reading_staar_or_staar_alt_2_progress_measure",
       "column_num": "506"
     },
     {
@@ -3115,13 +3115,13 @@
     {
       "start_pos": "1756",
       "end_pos": "1756",
-      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_gr_3_8_math_meets_gl_or_lvl_2_sat_perf",
       "column_num": "518"
     },
     {
       "start_pos": "1757",
       "end_pos": "1757",
-      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_gr_3_8_math_masters_gl_or_accomp_perf",
       "column_num": "519"
     },
     {
@@ -3145,7 +3145,7 @@
     {
       "start_pos": "1763",
       "end_pos": "1763",
-      "column_header": "staar_grades_3_8_mathematics_staar_or_staar_alternate_2_progress_measure",
+      "column_header": "staar_gr_3_8_math_staar_or_staar_alt_2_progress_measure",
       "column_num": "523"
     },
     {
@@ -3223,13 +3223,13 @@
     {
       "start_pos": "1800",
       "end_pos": "1800",
-      "column_header": "staar_grades_3_8_social_studies_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_gr_3_8_social_studies_meets_gl_or_lvl_2_sat_perf",
       "column_num": "536"
     },
     {
       "start_pos": "1801",
       "end_pos": "1801",
-      "column_header": "staar_grades_3_8_social_studies_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_gr_3_8_social_studies_masters_gl_or_accomp_perf",
       "column_num": "537"
     },
     {
@@ -3307,13 +3307,13 @@
     {
       "start_pos": "1838",
       "end_pos": "1838",
-      "column_header": "staar_grades_3_8_science_meets_grade_level_or_level_2_satisfactory_academic_performance",
+      "column_header": "staar_gr_3_8_sci_meets_gl_or_lvl_2_sat_perf",
       "column_num": "550"
     },
     {
       "start_pos": "1839",
       "end_pos": "1839",
-      "column_header": "staar_grades_3_8_science_masters_grade_level_or_accomplished_academic_performance",
+      "column_header": "staar_gr_3_8_sci_masters_gl_or_accomp_perf",
       "column_num": "551"
     },
     {
@@ -3343,7 +3343,7 @@
     {
       "start_pos": "1855",
       "end_pos": "1858",
-      "column_header": "staar_grades_3_8_2022_grades_3_8_previous_accountability_year_administration_date",
+      "column_header": "staar_gr_3_8_2022_gr_3_8_py_accountability_yr_admin_date",
       "column_num": "556"
     },
     {
@@ -3391,13 +3391,13 @@
     {
       "start_pos": "1890",
       "end_pos": "1890",
-      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_gr_3_8_reading_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "564"
     },
     {
       "start_pos": "1891",
       "end_pos": "1891",
-      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_gr_3_8_reading_masters_gl_or_accomp_perf_2",
       "column_num": "565"
     },
     {
@@ -3457,13 +3457,13 @@
     {
       "start_pos": "1920",
       "end_pos": "1920",
-      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance_2",
+      "column_header": "staar_gr_3_8_math_meets_gl_or_lvl_2_sat_perf_2",
       "column_num": "575"
     },
     {
       "start_pos": "1921",
       "end_pos": "1921",
-      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance_2",
+      "column_header": "staar_gr_3_8_math_masters_gl_or_accomp_perf_2",
       "column_num": "576"
     },
     {
@@ -3529,13 +3529,13 @@
     {
       "start_pos": "1964",
       "end_pos": "1964",
-      "column_header": "staar_grades_3_8_reading_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_header": "staar_gr_3_8_reading_meets_gl_or_lvl_2_sat_perf_3",
       "column_num": "587"
     },
     {
       "start_pos": "1965",
       "end_pos": "1965",
-      "column_header": "staar_grades_3_8_reading_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_header": "staar_gr_3_8_reading_masters_gl_or_accomp_perf_3",
       "column_num": "588"
     },
     {
@@ -3583,49 +3583,49 @@
     {
       "start_pos": "1992",
       "end_pos": "1992",
-      "column_header": "staar_grades_3_8_mathematics_meets_grade_level_or_level_2_satisfactory_academic_performance_3",
+      "column_header": "staar_gr_3_8_math_meets_gl_or_lvl_2_sat_perf_3",
       "column_num": "596"
     },
     {
       "start_pos": "1993",
       "end_pos": "1993",
-      "column_header": "staar_grades_3_8_mathematics_masters_grade_level_or_accomplished_academic_performance_3",
+      "column_header": "staar_gr_3_8_math_masters_gl_or_accomp_perf_3",
       "column_num": "597"
     },
     {
       "start_pos": "1999",
       "end_pos": "2002",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_administration_date",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_admin_date",
       "column_num": "598"
     },
     {
       "start_pos": "2003",
       "end_pos": "2003",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_record_update_indicator",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_record_update_ind",
       "column_num": "599"
     },
     {
       "start_pos": "2004",
       "end_pos": "2004",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_unschooled_asylee_or_refugee",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_unsch_asyl_or_ref",
       "column_num": "600"
     },
     {
       "start_pos": "2005",
       "end_pos": "2005",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_students_with_interrupted_formal_education",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_students_wit_f6f313",
       "column_num": "601"
     },
     {
       "start_pos": "2006",
       "end_pos": "2006",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_years_in_us_schools",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_years_in_us_schools",
       "column_num": "602"
     },
     {
       "start_pos": "2007",
       "end_pos": "2007",
-      "column_header": "telpas_telpas_alt_2023_current_accountability_year_parental_denial",
+      "column_header": "telpas_telpas_alt_2023_cy_accountability_yr_parental_denial",
       "column_num": "603"
     },
     {
@@ -3769,19 +3769,19 @@
     {
       "start_pos": "2095",
       "end_pos": "2103",
-      "column_header": "telpas_telpas_alt_composite_information_county_district_campus_number",
+      "column_header": "telpas_telpas_alt_comp_information_cdc_num",
       "column_num": "627"
     },
     {
       "start_pos": "2114",
       "end_pos": "2117",
-      "column_header": "telpas_telpas_alt_2022_previous_accountability_year_administration_date",
+      "column_header": "telpas_telpas_alt_2022_py_accountability_yr_admin_date",
       "column_num": "628"
     },
     {
       "start_pos": "2118",
       "end_pos": "2118",
-      "column_header": "telpas_telpas_alt_2022_previous_accountability_year_test_version",
+      "column_header": "telpas_telpas_alt_2022_py_accountability_yr_test_ver",
       "column_num": "629"
     },
     {
@@ -3919,31 +3919,31 @@
     {
       "start_pos": "2185",
       "end_pos": "2193",
-      "column_header": "telpas_telpas_alt_composite_information_county_district_campus_number_2",
+      "column_header": "telpas_telpas_alt_comp_information_cdc_num_2",
       "column_num": "652"
     },
     {
       "start_pos": "2194",
       "end_pos": "2194",
-      "column_header": "english_learner_performance_measure_plan_el_performance_measure_plan_non_english_1_or_2",
+      "column_header": "elpm_plan_el_perf_measure_plan_non_eng_1_or_2",
       "column_num": "653"
     },
     {
       "start_pos": "2195",
       "end_pos": "2195",
-      "column_header": "english_learner_performance_measure_plan_el_performance_measure_plan_english_i_or_ii",
+      "column_header": "elpm_plan_el_perf_measure_plan_eng_i_or_ii",
       "column_num": "654"
     },
     {
       "start_pos": "2196",
       "end_pos": "2199",
-      "column_header": "english_learner_performance_measure_plan_year_elpm_plan_determined",
+      "column_header": "elpm_plan_yr_elpm_plan_det",
       "column_num": "655"
     },
     {
       "start_pos": "2200",
       "end_pos": "2200",
-      "column_header": "english_learner_performance_measure_plan_plan_year_telpas_composite_rating",
+      "column_header": "elpm_plan_plan_yr_telpas_comp_rating",
       "column_num": "656"
     },
     {

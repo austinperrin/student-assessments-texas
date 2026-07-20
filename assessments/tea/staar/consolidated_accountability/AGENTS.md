@@ -58,6 +58,7 @@ Each `mapped_fields` entry should contain:
 - omit blank source fields from `mapped_fields`
 - preserve source ordering in `column_num`, including gaps caused by omitted blanks
 - normalize `column_header` values to lowercase snake case
+- keep `column_header` values at or below 63 characters
 - remove note spillover, wrapped-title spillover, and OCR debris from field names
 - do not allow duplicate `column_header` values
 
@@ -113,4 +114,5 @@ Get-ChildItem assessments/tea/staar/consolidated_accountability -Filter '*-staar
 
 - prefer PDF accuracy over forced cross-year consistency
 - keep headers readable and stable
+- keep headers within the shared 63-character limit
 - preserve year-specific terminology when the PDF clearly uses it

@@ -51,6 +51,7 @@ Mappings in this folder should be curated against the corresponding PDF layout i
 ## Notes
 
 - Header names should be normalized into lowercase snake case
+- Header names should stay at or below 63 characters
 - Blank fields from the published layout should be omitted from `mapped_fields`
 - `column_num` should still preserve the original source column order
 - Use normalized identifier names when applicable:

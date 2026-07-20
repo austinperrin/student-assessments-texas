@@ -57,6 +57,8 @@ specific area.
 - preserve source ordering in `column_num`, including gaps caused by omitted
   blank fields
 - use lowercase snake case for `column_header`
+- keep `column_header` values at or below 63 characters so the shared mapping
+  assets remain compatible with common database and warehouse identifier limits
 - remove note spillover, wrapped-title spillover, and OCR debris from field
   names
 - do not allow duplicate `column_header` values in a file
@@ -95,8 +97,10 @@ After editing mappings, shared docs, or project structure:
 
 1. confirm JSON files still parse cleanly
 2. confirm `column_header` values remain unique where relevant
-3. confirm docs still use valid repo-relative links
-4. run `npm run lint` when the change touches tracked docs, shared structure, or
+3. confirm `column_header` values stay within the 63-character limit where
+   relevant
+4. confirm docs still use valid repo-relative links
+5. run `npm run lint` when the change touches tracked docs, shared structure, or
    multiple mappings
 
 ## Project Areas

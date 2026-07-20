@@ -805,7 +805,7 @@
     {
       "start_pos": "1016",
       "end_pos": "1016",
-      "column_header": "algebra_i_level_ii_satisfactory_academic_performance_at_the_students_standard_approaches_grade_level",
+      "column_header": "alg_i_lvl_ii_sat_perf_students_std_approaches_grade_lvl",
       "column_num": "149"
     },
     {
@@ -817,7 +817,7 @@
     {
       "start_pos": "1018",
       "end_pos": "1018",
-      "column_header": "algebra_i_level_iii_advanced_academic_performance_masters_grade_level",
+      "column_header": "alg_i_lvl_iii_adv_perf_masters_grade_lvl",
       "column_num": "151"
     },
     {
@@ -919,7 +919,7 @@
     {
       "start_pos": "1116",
       "end_pos": "1116",
-      "column_header": "biology_level_ii_satisfactory_academic_performance_at_the_students_standard_approaches_grade_level",
+      "column_header": "bio_lvl_ii_sat_perf_students_std_approaches_grade_lvl",
       "column_num": "170"
     },
     {
@@ -931,7 +931,7 @@
     {
       "start_pos": "1118",
       "end_pos": "1118",
-      "column_header": "biology_level_iii_advanced_academic_performance_masters_grade_level",
+      "column_header": "bio_lvl_iii_adv_perf_masters_grade_lvl",
       "column_num": "172"
     },
     {
@@ -1027,7 +1027,7 @@
     {
       "start_pos": "1216",
       "end_pos": "1216",
-      "column_header": "english_i_level_ii_satisfactory_academic_performance_at_the_students_standard_approaches_grade_level",
+      "column_header": "eng_i_lvl_ii_sat_perf_students_std_approaches_grade_lvl",
       "column_num": "190"
     },
     {
@@ -1039,7 +1039,7 @@
     {
       "start_pos": "1218",
       "end_pos": "1218",
-      "column_header": "english_i_level_iii_advanced_academic_performance_masters_grade_level",
+      "column_header": "eng_i_lvl_iii_adv_perf_masters_grade_lvl",
       "column_num": "192"
     },
     {
@@ -1153,7 +1153,7 @@
     {
       "start_pos": "1316",
       "end_pos": "1316",
-      "column_header": "english_ii_level_ii_satisfactory_academic_performance_at_the_students_standard_approaches_grade_level",
+      "column_header": "eng_ii_lvl_ii_sat_perf_students_std_approaches_grade_lvl",
       "column_num": "215"
     },
     {
@@ -1165,7 +1165,7 @@
     {
       "start_pos": "1318",
       "end_pos": "1318",
-      "column_header": "english_ii_level_iii_advanced_academic_performance_masters_grade_level",
+      "column_header": "eng_ii_lvl_iii_adv_perf_masters_grade_lvl",
       "column_num": "217"
     },
     {
@@ -1279,7 +1279,7 @@
     {
       "start_pos": "1416",
       "end_pos": "1416",
-      "column_header": "u_s_history_level_ii_satisfactory_academic_performance_at_the_students_standard_approaches_grade_level",
+      "column_header": "u_s_hist_lvl_ii_sat_perf_students_std_approaches_grade_lvl",
       "column_num": "239"
     },
     {
@@ -1291,7 +1291,7 @@
     {
       "start_pos": "1418",
       "end_pos": "1418",
-      "column_header": "u_s_history_level_iii_advanced_academic_performance_masters_grade_level",
+      "column_header": "u_s_hist_lvl_iii_adv_perf_masters_grade_lvl",
       "column_num": "241"
     },
     {

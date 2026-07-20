@@ -367,7 +367,7 @@
     {
       "start_pos": "253",
       "end_pos": "253",
-      "column_header": "braille_refreshable_braille_device_and_screen_reader_reading_language_arts",
+      "column_header": "braille_refreshable_device_screen_reader_rla",
       "column_num": "62"
     },
     {
@@ -547,7 +547,7 @@
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "braille_refreshable_braille_device_and_screen_reader_social_studies",
+      "column_header": "braille_refreshable_device_screen_reader_soc_studies",
       "column_num": "88"
     },
     {
@@ -728,17 +728,17 @@
     {
       "start_pos": "416",
       "end_pos": "416",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "rla_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "417",
       "end_pos": "417",
-      "column_header": "reading_language_arts_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "rla_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "419",
       "end_pos": "419",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "rla_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "420",
@@ -833,17 +833,17 @@
     {
       "start_pos": "770",
       "end_pos": "770",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "math_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "771",
       "end_pos": "771",
-      "column_header": "mathematics_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "math_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "773",
       "end_pos": "773",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "math_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "774",
@@ -938,7 +938,7 @@
     {
       "start_pos": "1116",
       "end_pos": "1116",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "writing_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1117",
@@ -948,7 +948,7 @@
     {
       "start_pos": "1119",
       "end_pos": "1119",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "writing_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1121",
@@ -1048,17 +1048,17 @@
     {
       "start_pos": "1518",
       "end_pos": "1518",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1519",
       "end_pos": "1519",
-      "column_header": "social_studies_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "soc_studies_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "1521",
       "end_pos": "1521",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1523",
@@ -1138,7 +1138,7 @@
     {
       "start_pos": "1918",
       "end_pos": "1918",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "sci_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1919",
@@ -1148,7 +1148,7 @@
     {
       "start_pos": "1921",
       "end_pos": "1921",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "sci_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1923",

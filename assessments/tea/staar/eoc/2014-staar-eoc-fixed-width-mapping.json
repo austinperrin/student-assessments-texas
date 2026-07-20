@@ -445,37 +445,37 @@
     {
       "start_pos": "390",
       "end_pos": "390",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "lvl_ii_sat_perf_students_std",
       "column_num": "81"
     },
     {
       "start_pos": "391",
       "end_pos": "391",
-      "column_header": "level_iii_advanced_accomplished_academic_performance_at_the_students_standard",
+      "column_header": "lvl_iii_adv_accomp_perf_students_std",
       "column_num": "82"
     },
     {
       "start_pos": "395",
       "end_pos": "395",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard",
+      "column_header": "lvl_ii_sat_perf_phase1_std",
       "column_num": "84"
     },
     {
       "start_pos": "396",
       "end_pos": "396",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard",
+      "column_header": "lvl_ii_sat_perf_phase2_std",
       "column_num": "85"
     },
     {
       "start_pos": "397",
       "end_pos": "397",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_recommended_standard",
+      "column_header": "lvl_ii_sat_perf_rec_std",
       "column_num": "86"
     },
     {
       "start_pos": "399",
       "end_pos": "399",
-      "column_header": "level_iii_advanced_accomplished_academic_performance_at_the_recommended_standard",
+      "column_header": "lvl_iii_adv_accomp_perf_rec_std",
       "column_num": "88"
     },
     {
@@ -523,7 +523,7 @@
     {
       "start_pos": "414",
       "end_pos": "414",
-      "column_header": "previous_year_level_iii_advanced_accomplished_academic_performance",
+      "column_header": "py_lvl_iii_adv_accomp_perf",
       "column_num": "97"
     },
     {
@@ -667,7 +667,7 @@
     {
       "start_pos": "816",
       "end_pos": "816",
-      "column_header": "algebra_i_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "alg_i_lvl_ii_sat_perf_students_std",
       "column_num": "124"
     },
     {
@@ -709,7 +709,7 @@
     {
       "start_pos": "846",
       "end_pos": "846",
-      "column_header": "biology_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "bio_lvl_ii_sat_perf_students_std",
       "column_num": "132"
     },
     {
@@ -751,7 +751,7 @@
     {
       "start_pos": "876",
       "end_pos": "876",
-      "column_header": "english_i_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "eng_i_lvl_ii_sat_perf_students_std",
       "column_num": "140"
     },
     {
@@ -793,7 +793,7 @@
     {
       "start_pos": "906",
       "end_pos": "906",
-      "column_header": "english_ii_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "eng_ii_lvl_ii_sat_perf_students_std",
       "column_num": "148"
     },
     {
@@ -835,7 +835,7 @@
     {
       "start_pos": "936",
       "end_pos": "936",
-      "column_header": "u_s_history_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "u_s_hist_lvl_ii_sat_perf_students_std",
       "column_num": "156"
     },
     {

@@ -1269,13 +1269,13 @@
     {
       "start_pos": "2531",
       "end_pos": "2539",
-      "column_header": "previous_year_reading_language_arts_language_arts_county_district_campus_number",
+      "column_header": "py_rla_language_arts_cdc_num",
       "column_num": "203"
     },
     {
       "start_pos": "2540",
       "end_pos": "2540",
-      "column_header": "previous_year_reading_language_arts_language_arts_language_version",
+      "column_header": "py_rla_language_arts_lang_ver",
       "column_num": "204"
     },
     {
@@ -1293,13 +1293,13 @@
     {
       "start_pos": "2543",
       "end_pos": "2543",
-      "column_header": "previous_year_reading_language_arts_language_arts_approaches_grade_level",
+      "column_header": "py_rla_language_arts_approaches_gl",
       "column_num": "207"
     },
     {
       "start_pos": "2544",
       "end_pos": "2544",
-      "column_header": "previous_year_reading_language_arts_language_arts_masters_grade_level",
+      "column_header": "py_rla_language_arts_masters_gl",
       "column_num": "208"
     },
     {
@@ -1317,19 +1317,19 @@
     {
       "start_pos": "2551",
       "end_pos": "2552",
-      "column_header": "previous_year_reading_language_arts_language_arts_enrolled_grade",
+      "column_header": "py_rla_language_arts_enrolled_gr",
       "column_num": "211"
     },
     {
       "start_pos": "2555",
       "end_pos": "2555",
-      "column_header": "previous_year_reading_language_arts_language_arts_el_performance_measure",
+      "column_header": "py_rla_language_arts_el_perf_measure",
       "column_num": "212"
     },
     {
       "start_pos": "2556",
       "end_pos": "2560",
-      "column_header": "previous_year_reading_language_arts_language_arts_lexile_measure",
+      "column_header": "py_rla_language_arts_lexile_measure",
       "column_num": "213"
     },
     {
@@ -1533,7 +1533,7 @@
     {
       "start_pos": "2840",
       "end_pos": "2840",
-      "column_header": "previous_year_reading_language_arts_language_arts_meets_grade_level",
+      "column_header": "py_rla_language_arts_meets_gl",
       "column_num": "247"
     },
     {

@@ -33,6 +33,7 @@ Mapping files should not contain duplicate `column_header` values. Identifier
 fields should use the shared names `peims_id`, `local_student_id`, and
 `tx_unique_student_id`; portal access code fields should use
 `family_portal_unique_access_code` when present in the source layout.
+`column_header` values should also stay at or below 63 characters.
 
 ## Related References
 

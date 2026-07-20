@@ -1298,91 +1298,91 @@
     {
       "start_pos": "2251",
       "end_pos": "2259",
-      "column_header": "current_year_reading_language_arts_primary_administration_county_district_campus_number",
+      "column_header": "cy_rla_primary_admin_cdc_num",
       "column_num": "206"
     },
     {
       "start_pos": "2260",
       "end_pos": "2260",
-      "column_header": "current_year_reading_language_arts_primary_administration_language_version",
+      "column_header": "cy_rla_primary_admin_lang_ver",
       "column_num": "207"
     },
     {
       "start_pos": "2261",
       "end_pos": "2261",
-      "column_header": "current_year_reading_language_arts_primary_administration_test_version",
+      "column_header": "cy_rla_primary_admin_test_ver",
       "column_num": "208"
     },
     {
       "start_pos": "2262",
       "end_pos": "2262",
-      "column_header": "current_year_reading_language_arts_primary_administration_score_code",
+      "column_header": "cy_rla_primary_admin_score_cd",
       "column_num": "209"
     },
     {
       "start_pos": "2263",
       "end_pos": "2263",
-      "column_header": "current_year_reading_language_arts_primary_administration_approaches_grade_level",
+      "column_header": "cy_rla_primary_admin_approaches_gl",
       "column_num": "210"
     },
     {
       "start_pos": "2264",
       "end_pos": "2264",
-      "column_header": "current_year_reading_language_arts_primary_administration_masters_grade_level",
+      "column_header": "cy_rla_primary_admin_masters_gl",
       "column_num": "211"
     },
     {
       "start_pos": "2265",
       "end_pos": "2268",
-      "column_header": "current_year_reading_language_arts_primary_administration_scale_score",
+      "column_header": "cy_rla_primary_admin_scale_score",
       "column_num": "212"
     },
     {
       "start_pos": "2269",
       "end_pos": "2269",
-      "column_header": "current_year_reading_language_arts_primary_administration_staar_progress_measure",
+      "column_header": "cy_rla_primary_admin_staar_prog_measure",
       "column_num": "213"
     },
     {
       "start_pos": "2270",
       "end_pos": "2270",
-      "column_header": "current_year_reading_language_arts_primary_administration_el_performance_measure",
+      "column_header": "cy_rla_primary_admin_el_perf_measure",
       "column_num": "214"
     },
     {
       "start_pos": "2271",
       "end_pos": "2275",
-      "column_header": "current_year_reading_language_arts_primary_administration_lexile_measure",
+      "column_header": "cy_rla_primary_admin_lexile_measure",
       "column_num": "215"
     },
     {
       "start_pos": "2276",
       "end_pos": "2276",
-      "column_header": "current_year_reading_language_arts_primary_administration_meets_grade_level",
+      "column_header": "cy_rla_primary_admin_meets_gl",
       "column_num": "216"
     },
     {
       "start_pos": "2277",
       "end_pos": "2279",
-      "column_header": "current_year_reading_language_arts_primary_administration_percentile",
+      "column_header": "cy_rla_primary_admin_percentile",
       "column_num": "217"
     },
     {
       "start_pos": "2280",
       "end_pos": "2280",
-      "column_header": "current_year_reading_language_arts_primary_administration_test_information_indicator",
+      "column_header": "cy_rla_primary_admin_test_info_ind",
       "column_num": "218"
     },
     {
       "start_pos": "2311",
       "end_pos": "2319",
-      "column_header": "current_year_mathematics_primary_administration_county_district_campus_number",
+      "column_header": "cy_math_primary_admin_cdc_num",
       "column_num": "219"
     },
     {
       "start_pos": "2320",
       "end_pos": "2320",
-      "column_header": "current_year_mathematics_primary_administration_language_version",
+      "column_header": "cy_math_primary_admin_lang_ver",
       "column_num": "220"
     },
     {
@@ -1400,13 +1400,13 @@
     {
       "start_pos": "2323",
       "end_pos": "2323",
-      "column_header": "current_year_mathematics_primary_administration_approaches_grade_level",
+      "column_header": "cy_math_primary_admin_approaches_gl",
       "column_num": "223"
     },
     {
       "start_pos": "2324",
       "end_pos": "2324",
-      "column_header": "current_year_mathematics_primary_administration_masters_grade_level",
+      "column_header": "cy_math_primary_admin_masters_gl",
       "column_num": "224"
     },
     {
@@ -1418,19 +1418,19 @@
     {
       "start_pos": "2329",
       "end_pos": "2329",
-      "column_header": "current_year_mathematics_primary_administration_staar_progress_measure",
+      "column_header": "cy_math_primary_admin_staar_prog_measure",
       "column_num": "226"
     },
     {
       "start_pos": "2330",
       "end_pos": "2330",
-      "column_header": "current_year_mathematics_primary_administration_el_performance_measure",
+      "column_header": "cy_math_primary_admin_el_perf_measure",
       "column_num": "227"
     },
     {
       "start_pos": "2331",
       "end_pos": "2331",
-      "column_header": "current_year_mathematics_primary_administration_meets_grade_level",
+      "column_header": "cy_math_primary_admin_meets_gl",
       "column_num": "228"
     },
     {
@@ -1442,25 +1442,25 @@
     {
       "start_pos": "2335",
       "end_pos": "2339",
-      "column_header": "current_year_mathematics_primary_administration_quantile_measure",
+      "column_header": "cy_math_primary_admin_quantile_measure",
       "column_num": "230"
     },
     {
       "start_pos": "2340",
       "end_pos": "2340",
-      "column_header": "current_year_mathematics_primary_administration_test_information_indicator",
+      "column_header": "cy_math_primary_admin_test_info_ind",
       "column_num": "231"
     },
     {
       "start_pos": "2371",
       "end_pos": "2379",
-      "column_header": "current_year_social_studies_primary_administration_county_district_campus_number",
+      "column_header": "cy_soc_studies_primary_admin_cdc_num",
       "column_num": "232"
     },
     {
       "start_pos": "2380",
       "end_pos": "2380",
-      "column_header": "current_year_social_studies_primary_administration_language_version",
+      "column_header": "cy_soc_studies_primary_admin_lang_ver",
       "column_num": "233"
     },
     {
@@ -1478,13 +1478,13 @@
     {
       "start_pos": "2383",
       "end_pos": "2383",
-      "column_header": "current_year_social_studies_primary_administration_approaches_grade_level",
+      "column_header": "cy_soc_studies_primary_admin_approaches_gl",
       "column_num": "236"
     },
     {
       "start_pos": "2384",
       "end_pos": "2384",
-      "column_header": "current_year_social_studies_primary_administration_masters_grade_level",
+      "column_header": "cy_soc_studies_primary_admin_masters_gl",
       "column_num": "237"
     },
     {
@@ -1496,13 +1496,13 @@
     {
       "start_pos": "2389",
       "end_pos": "2389",
-      "column_header": "current_year_social_studies_primary_administration_el_performance_measure",
+      "column_header": "cy_soc_studies_primary_admin_el_perf_measure",
       "column_num": "239"
     },
     {
       "start_pos": "2390",
       "end_pos": "2390",
-      "column_header": "current_year_social_studies_primary_administration_meets_grade_level",
+      "column_header": "cy_soc_studies_primary_admin_meets_gl",
       "column_num": "240"
     },
     {
@@ -1514,13 +1514,13 @@
     {
       "start_pos": "2394",
       "end_pos": "2394",
-      "column_header": "current_year_social_studies_primary_administration_test_information_indicator",
+      "column_header": "cy_soc_studies_primary_admin_test_info_ind",
       "column_num": "242"
     },
     {
       "start_pos": "2401",
       "end_pos": "2409",
-      "column_header": "current_year_science_primary_administration_county_district_campus_number",
+      "column_header": "cy_sci_primary_admin_cdc_num",
       "column_num": "243"
     },
     {
@@ -1544,7 +1544,7 @@
     {
       "start_pos": "2413",
       "end_pos": "2413",
-      "column_header": "current_year_science_primary_administration_approaches_grade_level",
+      "column_header": "cy_sci_primary_admin_approaches_gl",
       "column_num": "247"
     },
     {
@@ -1562,7 +1562,7 @@
     {
       "start_pos": "2419",
       "end_pos": "2419",
-      "column_header": "current_year_science_primary_administration_el_performance_measure",
+      "column_header": "cy_sci_primary_admin_el_perf_measure",
       "column_num": "250"
     },
     {
@@ -1580,25 +1580,25 @@
     {
       "start_pos": "2424",
       "end_pos": "2424",
-      "column_header": "current_year_science_primary_administration_test_information_indicator",
+      "column_header": "cy_sci_primary_admin_test_info_ind",
       "column_num": "253"
     },
     {
       "start_pos": "2431",
       "end_pos": "2436",
-      "column_header": "current_year_reading_language_arts_primary_administration_reporting_category_scores",
+      "column_header": "cy_rla_primary_admin_reporting_cat_scores",
       "column_num": "254"
     },
     {
       "start_pos": "2437",
       "end_pos": "2438",
-      "column_header": "current_year_reading_language_arts_primary_administration_raw_score",
+      "column_header": "cy_rla_primary_admin_raw_score",
       "column_num": "255"
     },
     {
       "start_pos": "2451",
       "end_pos": "2458",
-      "column_header": "current_year_mathematics_primary_administration_reporting_category_scores",
+      "column_header": "cy_math_primary_admin_reporting_cat_scores",
       "column_num": "256"
     },
     {
