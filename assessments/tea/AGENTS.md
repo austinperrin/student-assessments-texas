@@ -28,3 +28,5 @@ without changing the broader project structure.
 - keep TEA-specific workflow assumptions out of non-TEA folders
 - preserve year-specific meaning differences instead of forcing cross-family
   uniformity
+- keep TEA `column_header` values within the shared 63-character limit unless a
+  family-specific instruction explicitly overrides it

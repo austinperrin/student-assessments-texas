@@ -493,13 +493,13 @@
     {
       "start_pos": "393",
       "end_pos": "393",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_phase_in_standard",
+      "column_header": "lvl_ii_sat_perf_phasein_std",
       "column_num": "88"
     },
     {
       "start_pos": "394",
       "end_pos": "394",
-      "column_header": "level_iii_advanced_academic_performance_at_the_phase_in_standard",
+      "column_header": "lvl_iii_adv_perf_phasein_std",
       "column_num": "89"
     },
     {
@@ -511,7 +511,7 @@
     {
       "start_pos": "397",
       "end_pos": "397",
-      "column_header": "level_ii_satisfactory_academic_performance_at_the_recommended_standard",
+      "column_header": "lvl_ii_sat_perf_rec_std",
       "column_num": "92"
     },
     {
@@ -601,7 +601,7 @@
     {
       "start_pos": "750",
       "end_pos": "750",
-      "column_header": "level_ii_satisfactory_academic_performance_at_recommended_standard",
+      "column_header": "lvl_ii_sat_perf_rec_std_0ed332",
       "column_num": "109"
     },
     {

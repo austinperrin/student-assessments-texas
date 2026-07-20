@@ -379,7 +379,7 @@
     {
       "start_pos": "253",
       "end_pos": "253",
-      "column_header": "braille_refreshable_braille_device_and_screen_reader_reading_language_arts",
+      "column_header": "braille_refreshable_device_screen_reader_rla",
       "column_num": "62"
     },
     {
@@ -559,7 +559,7 @@
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "braille_refreshable_braille_device_and_screen_reader_social_studies",
+      "column_header": "braille_refreshable_device_screen_reader_soc_studies",
       "column_num": "88"
     },
     {
@@ -745,27 +745,27 @@
     {
       "start_pos": "416",
       "end_pos": "416",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "rla_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "417",
       "end_pos": "417",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard"
+      "column_header": "rla_lvl_ii_sat_perf_phase2_std"
     },
     {
       "start_pos": "418",
       "end_pos": "418",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "rla_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "419",
       "end_pos": "419",
-      "column_header": "reading_language_arts_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "rla_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "420",
       "end_pos": "420",
-      "column_header": "reading_language_arts_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "rla_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "421",
@@ -815,17 +815,17 @@
     {
       "start_pos": "436",
       "end_pos": "436",
-      "column_header": "previous_year_reading_language_arts_staar_alternate_assessment_category"
+      "column_header": "py_rla_staar_alt_assessment_cat"
     },
     {
       "start_pos": "437",
       "end_pos": "437",
-      "column_header": "previous_year_reading_language_arts_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_rla_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "438",
       "end_pos": "438",
-      "column_header": "previous_year_reading_language_arts_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_rla_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "439",
@@ -955,27 +955,27 @@
     {
       "start_pos": "770",
       "end_pos": "770",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "math_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "771",
       "end_pos": "771",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard"
+      "column_header": "math_lvl_ii_sat_perf_phase2_std"
     },
     {
       "start_pos": "772",
       "end_pos": "772",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "math_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "773",
       "end_pos": "773",
-      "column_header": "mathematics_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "math_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "774",
       "end_pos": "774",
-      "column_header": "mathematics_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "math_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "775",
@@ -1030,12 +1030,12 @@
     {
       "start_pos": "791",
       "end_pos": "791",
-      "column_header": "mathematics_previous_year_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "math_py_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "792",
       "end_pos": "792",
-      "column_header": "mathematics_previous_year_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "math_py_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "793",
@@ -1140,22 +1140,22 @@
     {
       "start_pos": "1116",
       "end_pos": "1116",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "writing_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1117",
       "end_pos": "1117",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard"
+      "column_header": "writing_lvl_ii_sat_perf_phase2_std"
     },
     {
       "start_pos": "1118",
       "end_pos": "1118",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "writing_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1119",
       "end_pos": "1119",
-      "column_header": "writing_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "writing_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "1120",
@@ -1270,27 +1270,27 @@
     {
       "start_pos": "1518",
       "end_pos": "1518",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1519",
       "end_pos": "1519",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_phase2_std"
     },
     {
       "start_pos": "1520",
       "end_pos": "1520",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1521",
       "end_pos": "1521",
-      "column_header": "social_studies_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "soc_studies_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "1522",
       "end_pos": "1522",
-      "column_header": "social_studies_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "soc_studies_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "1523",
@@ -1390,22 +1390,22 @@
     {
       "start_pos": "1918",
       "end_pos": "1918",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_phase_in_1_standard"
+      "column_header": "sci_lvl_ii_sat_perf_phase1_std"
     },
     {
       "start_pos": "1919",
       "end_pos": "1919",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_phase_in_2_standard"
+      "column_header": "sci_lvl_ii_sat_perf_phase2_std"
     },
     {
       "start_pos": "1920",
       "end_pos": "1920",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_recommended_standard"
+      "column_header": "sci_lvl_ii_sat_perf_rec_std"
     },
     {
       "start_pos": "1921",
       "end_pos": "1921",
-      "column_header": "science_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "sci_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "1922",
@@ -1480,60 +1480,60 @@
     {
       "start_pos": "2251",
       "end_pos": "2259",
-      "column_header": "current_year_reading_language_arts_primary_administration_county_district_campus_number",
+      "column_header": "cy_rla_primary_admin_cdc_num",
       "column_num": "206"
     },
     {
       "start_pos": "2260",
       "end_pos": "2260",
-      "column_header": "current_year_reading_language_arts_primary_administration_language_version",
+      "column_header": "cy_rla_primary_admin_lang_ver",
       "column_num": "207"
     },
     {
       "start_pos": "2261",
       "end_pos": "2261",
-      "column_header": "current_year_reading_language_arts_primary_administration_test_version",
+      "column_header": "cy_rla_primary_admin_test_ver",
       "column_num": "208"
     },
     {
       "start_pos": "2262",
       "end_pos": "2262",
-      "column_header": "current_year_reading_language_arts_primary_administration_score_code",
+      "column_header": "cy_rla_primary_admin_score_cd",
       "column_num": "209"
     },
     {
       "start_pos": "2263",
       "end_pos": "2263",
-      "column_header": "current_year_reading_language_arts_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "cy_rla_primary_admin_lvl_ii_sat_perf_students_std",
       "column_num": "210"
     },
     {
       "start_pos": "2264",
       "end_pos": "2264",
-      "column_header": "current_year_reading_language_arts_primary_administration_level_iii_advanced_academic_performance",
+      "column_header": "cy_rla_primary_admin_lvl_iii_adv_perf",
       "column_num": "211"
     },
     {
       "start_pos": "2265",
       "end_pos": "2268",
-      "column_header": "current_year_reading_language_arts_primary_administration_scale_score",
+      "column_header": "cy_rla_primary_admin_scale_score",
       "column_num": "212"
     },
     {
       "start_pos": "2269",
       "end_pos": "2269",
-      "column_header": "current_year_reading_language_arts_primary_administration_staar_progress_measure",
+      "column_header": "cy_rla_primary_admin_staar_prog_measure",
       "column_num": "213"
     },
     {
       "start_pos": "2270",
       "end_pos": "2270",
-      "column_header": "current_year_reading_language_arts_primary_administration_ell_progress_measure"
+      "column_header": "cy_rla_primary_admin_ell_progress_measure"
     },
     {
       "start_pos": "2281",
       "end_pos": "2289",
-      "column_header": "current_year_reading_language_arts_may_retest_county_district_campus_number",
+      "column_header": "cy_rla_may_retest_cdc_num",
       "column_num": "219"
     },
     {
@@ -1557,13 +1557,13 @@
     {
       "start_pos": "2293",
       "end_pos": "2293",
-      "column_header": "current_year_reading_language_arts_may_retest_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "cy_rla_may_retest_lvl_ii_sat_perf_students_std",
       "column_num": "223"
     },
     {
       "start_pos": "2294",
       "end_pos": "2294",
-      "column_header": "current_year_reading_language_arts_may_retest_level_iii_advanced_academic_performance",
+      "column_header": "cy_rla_may_retest_lvl_iii_adv_perf",
       "column_num": "224"
     },
     {
@@ -1575,24 +1575,24 @@
     {
       "start_pos": "2299",
       "end_pos": "2299",
-      "column_header": "current_year_reading_language_arts_may_retest_staar_progress_measure",
+      "column_header": "cy_rla_may_retest_staar_prog_measure",
       "column_num": "226"
     },
     {
       "start_pos": "2300",
       "end_pos": "2300",
-      "column_header": "current_year_reading_language_arts_may_retest_ell_progress_measure"
+      "column_header": "cy_rla_may_retest_ell_progress_measure"
     },
     {
       "start_pos": "2311",
       "end_pos": "2319",
-      "column_header": "current_year_mathematics_primary_administration_county_district_campus_number",
+      "column_header": "cy_math_primary_admin_cdc_num",
       "column_num": "232"
     },
     {
       "start_pos": "2320",
       "end_pos": "2320",
-      "column_header": "current_year_mathematics_primary_administration_language_version",
+      "column_header": "cy_math_primary_admin_lang_ver",
       "column_num": "233"
     },
     {
@@ -1610,13 +1610,13 @@
     {
       "start_pos": "2323",
       "end_pos": "2323",
-      "column_header": "current_year_mathematics_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "cy_math_primary_admin_lvl_ii_sat_perf_students_std",
       "column_num": "236"
     },
     {
       "start_pos": "2324",
       "end_pos": "2324",
-      "column_header": "current_year_mathematics_primary_administration_level_iii_advanced_academic_performance",
+      "column_header": "cy_math_primary_admin_lvl_iii_adv_perf",
       "column_num": "237"
     },
     {
@@ -1628,17 +1628,17 @@
     {
       "start_pos": "2329",
       "end_pos": "2329",
-      "column_header": "current_year_mathematics_primary_administration_staar_progress_measure"
+      "column_header": "cy_math_primary_admin_staar_prog_measure"
     },
     {
       "start_pos": "2330",
       "end_pos": "2330",
-      "column_header": "current_year_mathematics_primary_administration_ell_progress_measure"
+      "column_header": "cy_math_primary_admin_ell_progress_measure"
     },
     {
       "start_pos": "2341",
       "end_pos": "2349",
-      "column_header": "current_year_mathematics_may_retest_county_district_campus_number"
+      "column_header": "cy_math_may_retest_cdc_num"
     },
     {
       "start_pos": "2350",
@@ -1658,12 +1658,12 @@
     {
       "start_pos": "2353",
       "end_pos": "2353",
-      "column_header": "current_year_mathematics_may_retest_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "cy_math_may_retest_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2354",
       "end_pos": "2354",
-      "column_header": "current_year_mathematics_may_retest_level_iii_advanced_academic_performance"
+      "column_header": "cy_math_may_retest_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2355",
@@ -1683,13 +1683,13 @@
     {
       "start_pos": "2371",
       "end_pos": "2379",
-      "column_header": "current_year_social_studies_primary_administration_county_district_campus_number",
+      "column_header": "cy_soc_studies_primary_admin_cdc_num",
       "column_num": "258"
     },
     {
       "start_pos": "2380",
       "end_pos": "2380",
-      "column_header": "current_year_social_studies_primary_administration_language_version",
+      "column_header": "cy_soc_studies_primary_admin_lang_ver",
       "column_num": "259"
     },
     {
@@ -1707,13 +1707,13 @@
     {
       "start_pos": "2383",
       "end_pos": "2383",
-      "column_header": "current_year_social_studies_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "cy_soc_studies_primary_admin_lvl_ii_sat_perf_students_std",
       "column_num": "262"
     },
     {
       "start_pos": "2384",
       "end_pos": "2384",
-      "column_header": "current_year_social_studies_primary_administration_level_iii_advanced_academic_performance",
+      "column_header": "cy_soc_studies_primary_admin_lvl_iii_adv_perf",
       "column_num": "263"
     },
     {
@@ -1725,12 +1725,12 @@
     {
       "start_pos": "2389",
       "end_pos": "2389",
-      "column_header": "current_year_social_studies_primary_administration_ell_progress_measure"
+      "column_header": "cy_soc_studies_primary_admin_ell_progress_measure"
     },
     {
       "start_pos": "2401",
       "end_pos": "2409",
-      "column_header": "current_year_science_primary_administration_county_district_campus_number",
+      "column_header": "cy_sci_primary_admin_cdc_num",
       "column_num": "269"
     },
     {
@@ -1754,13 +1754,13 @@
     {
       "start_pos": "2413",
       "end_pos": "2413",
-      "column_header": "current_year_science_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard",
+      "column_header": "cy_sci_primary_admin_lvl_ii_sat_perf_students_std",
       "column_num": "273"
     },
     {
       "start_pos": "2414",
       "end_pos": "2414",
-      "column_header": "current_year_science_primary_administration_level_iii_advanced_academic_performance",
+      "column_header": "cy_sci_primary_admin_lvl_iii_adv_perf",
       "column_num": "274"
     },
     {
@@ -1772,107 +1772,107 @@
     {
       "start_pos": "2419",
       "end_pos": "2419",
-      "column_header": "current_year_science_primary_administration_ell_progress_measure"
+      "column_header": "cy_sci_primary_admin_ell_progress_measure"
     },
     {
       "start_pos": "2501",
       "end_pos": "2509",
-      "column_header": "previous_year_reading_language_arts_primary_administration_county_district_campus_number"
+      "column_header": "py_rla_primary_admin_cdc_num"
     },
     {
       "start_pos": "2510",
       "end_pos": "2510",
-      "column_header": "previous_year_reading_language_arts_primary_administration_language_version"
+      "column_header": "py_rla_primary_admin_lang_ver"
     },
     {
       "start_pos": "2511",
       "end_pos": "2511",
-      "column_header": "previous_year_reading_language_arts_primary_administration_test_version"
+      "column_header": "py_rla_primary_admin_test_ver"
     },
     {
       "start_pos": "2512",
       "end_pos": "2512",
-      "column_header": "previous_year_reading_language_arts_primary_administration_score_code"
+      "column_header": "py_rla_primary_admin_score_cd"
     },
     {
       "start_pos": "2513",
       "end_pos": "2513",
-      "column_header": "previous_year_reading_language_arts_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_rla_primary_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2514",
       "end_pos": "2514",
-      "column_header": "previous_year_reading_language_arts_primary_administration_level_iii_advanced_academic_performance"
+      "column_header": "py_rla_primary_admin_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2515",
       "end_pos": "2518",
-      "column_header": "previous_year_reading_language_arts_primary_administration_scale_score"
+      "column_header": "py_rla_primary_admin_scale_score"
     },
     {
       "start_pos": "2519",
       "end_pos": "2520",
-      "column_header": "previous_year_reading_language_arts_primary_administration_tested_grade"
+      "column_header": "py_rla_primary_admin_tested_gr"
     },
     {
       "start_pos": "2521",
       "end_pos": "2522",
-      "column_header": "previous_year_reading_language_arts_primary_administration_enrolled_grade"
+      "column_header": "py_rla_primary_admin_enrolled_gr"
     },
     {
       "start_pos": "2531",
       "end_pos": "2539",
-      "column_header": "previous_year_reading_language_arts_spring_administration_county_district_campus_number"
+      "column_header": "py_rla_spring_admin_cdc_num"
     },
     {
       "start_pos": "2540",
       "end_pos": "2540",
-      "column_header": "previous_year_reading_language_arts_spring_administration_language_version"
+      "column_header": "py_rla_spring_admin_lang_ver"
     },
     {
       "start_pos": "2541",
       "end_pos": "2541",
-      "column_header": "previous_year_reading_language_arts_spring_administration_test_version"
+      "column_header": "py_rla_spring_admin_test_ver"
     },
     {
       "start_pos": "2542",
       "end_pos": "2542",
-      "column_header": "previous_year_reading_language_arts_spring_administration_score_code"
+      "column_header": "py_rla_spring_admin_score_cd"
     },
     {
       "start_pos": "2543",
       "end_pos": "2543",
-      "column_header": "previous_year_reading_language_arts_spring_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_rla_spring_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2544",
       "end_pos": "2544",
-      "column_header": "previous_year_reading_language_arts_spring_administration_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_rla_spring_admin_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "2545",
       "end_pos": "2548",
-      "column_header": "previous_year_reading_language_arts_spring_administration_scale_score"
+      "column_header": "py_rla_spring_admin_scale_score"
     },
     {
       "start_pos": "2549",
       "end_pos": "2550",
-      "column_header": "previous_year_reading_language_arts_spring_administration_tested_grade"
+      "column_header": "py_rla_spring_admin_tested_gr"
     },
     {
       "start_pos": "2551",
       "end_pos": "2552",
-      "column_header": "previous_year_reading_language_arts_spring_administration_enrolled_grade"
+      "column_header": "py_rla_spring_admin_enrolled_gr"
     },
     {
       "start_pos": "2553",
       "end_pos": "2553",
-      "column_header": "previous_year_reading_language_arts_spring_administration_staar_alternate_assessment_category"
+      "column_header": "py_rla_spring_admin_staar_alt_assessment_cat"
     },
     {
       "start_pos": "2561",
       "end_pos": "2569",
-      "column_header": "previous_year_reading_language_arts_may_retest_county_district_campus_number"
+      "column_header": "py_rla_may_retest_cdc_num"
     },
     {
       "start_pos": "2570",
@@ -1892,12 +1892,12 @@
     {
       "start_pos": "2573",
       "end_pos": "2573",
-      "column_header": "previous_year_reading_language_arts_may_retest_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_rla_may_retest_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2574",
       "end_pos": "2574",
-      "column_header": "previous_year_reading_language_arts_may_retest_level_iii_advanced_academic_performance"
+      "column_header": "py_rla_may_retest_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2575",
@@ -1917,22 +1917,22 @@
     {
       "start_pos": "2603",
       "end_pos": "2603",
-      "column_header": "previous_year_reading_language_arts_june_retest_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_rla_june_retest_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2604",
       "end_pos": "2604",
-      "column_header": "previous_year_reading_language_arts_june_retest_level_iii_advanced_academic_performance"
+      "column_header": "py_rla_june_retest_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2621",
       "end_pos": "2629",
-      "column_header": "previous_year_mathematics_primary_administration_county_district_campus_number"
+      "column_header": "py_math_primary_admin_cdc_num"
     },
     {
       "start_pos": "2630",
       "end_pos": "2630",
-      "column_header": "previous_year_mathematics_primary_administration_language_version"
+      "column_header": "py_math_primary_admin_lang_ver"
     },
     {
       "start_pos": "2631",
@@ -1947,12 +1947,12 @@
     {
       "start_pos": "2633",
       "end_pos": "2633",
-      "column_header": "previous_year_mathematics_primary_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_math_primary_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2634",
       "end_pos": "2634",
-      "column_header": "previous_year_mathematics_primary_administration_level_iii_advanced_academic_performance"
+      "column_header": "py_math_primary_admin_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2635",
@@ -1972,12 +1972,12 @@
     {
       "start_pos": "2651",
       "end_pos": "2659",
-      "column_header": "previous_year_mathematics_spring_administration_county_district_campus_number"
+      "column_header": "py_math_spring_admin_cdc_num"
     },
     {
       "start_pos": "2660",
       "end_pos": "2660",
-      "column_header": "previous_year_mathematics_spring_administration_language_version"
+      "column_header": "py_math_spring_admin_lang_ver"
     },
     {
       "start_pos": "2661",
@@ -1992,12 +1992,12 @@
     {
       "start_pos": "2663",
       "end_pos": "2663",
-      "column_header": "previous_year_mathematics_spring_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_math_spring_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2664",
       "end_pos": "2664",
-      "column_header": "previous_year_mathematics_spring_administration_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_math_spring_admin_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "2665",
@@ -2017,12 +2017,12 @@
     {
       "start_pos": "2673",
       "end_pos": "2673",
-      "column_header": "previous_year_mathematics_spring_administration_staar_alternate_assessment_category"
+      "column_header": "py_math_spring_admin_staar_alt_assessment_cat"
     },
     {
       "start_pos": "2681",
       "end_pos": "2689",
-      "column_header": "previous_year_mathematics_may_retest_county_district_campus_number"
+      "column_header": "py_math_may_retest_cdc_num"
     },
     {
       "start_pos": "2690",
@@ -2042,12 +2042,12 @@
     {
       "start_pos": "2693",
       "end_pos": "2693",
-      "column_header": "previous_year_mathematics_may_retest_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_math_may_retest_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2694",
       "end_pos": "2694",
-      "column_header": "previous_year_mathematics_may_retest_level_iii_advanced_academic_performance"
+      "column_header": "py_math_may_retest_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2695",
@@ -2067,7 +2067,7 @@
     {
       "start_pos": "2711",
       "end_pos": "2719",
-      "column_header": "previous_year_mathematics_june_retest_county_district_campus_number"
+      "column_header": "py_math_june_retest_cdc_num"
     },
     {
       "start_pos": "2720",
@@ -2087,12 +2087,12 @@
     {
       "start_pos": "2723",
       "end_pos": "2723",
-      "column_header": "previous_year_mathematics_june_retest_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_math_june_retest_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2724",
       "end_pos": "2724",
-      "column_header": "previous_year_mathematics_june_retest_level_iii_advanced_academic_performance"
+      "column_header": "py_math_june_retest_lvl_iii_adv_perf"
     },
     {
       "start_pos": "2725",
@@ -2112,7 +2112,7 @@
     {
       "start_pos": "2741",
       "end_pos": "2749",
-      "column_header": "previous_year_writing_spring_administration_county_district_campus_number"
+      "column_header": "py_writing_spring_admin_cdc_num"
     },
     {
       "start_pos": "2750",
@@ -2132,12 +2132,12 @@
     {
       "start_pos": "2753",
       "end_pos": "2753",
-      "column_header": "previous_year_writing_spring_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_writing_spring_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2754",
       "end_pos": "2754",
-      "column_header": "previous_year_writing_spring_administration_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_writing_spring_admin_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "2755",
@@ -2157,17 +2157,17 @@
     {
       "start_pos": "2763",
       "end_pos": "2763",
-      "column_header": "previous_year_writing_spring_administration_staar_alternate_assessment_category"
+      "column_header": "py_writing_spring_admin_staar_alt_assessment_cat"
     },
     {
       "start_pos": "2771",
       "end_pos": "2779",
-      "column_header": "previous_year_social_studies_spring_administration_county_district_campus_number"
+      "column_header": "py_soc_studies_spring_admin_cdc_num"
     },
     {
       "start_pos": "2780",
       "end_pos": "2780",
-      "column_header": "previous_year_social_studies_spring_administration_language_version"
+      "column_header": "py_soc_studies_spring_admin_lang_ver"
     },
     {
       "start_pos": "2781",
@@ -2182,12 +2182,12 @@
     {
       "start_pos": "2783",
       "end_pos": "2783",
-      "column_header": "previous_year_social_studies_spring_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_soc_studies_spring_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2784",
       "end_pos": "2784",
-      "column_header": "previous_year_social_studies_spring_administration_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_soc_studies_spring_admin_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "2785",
@@ -2202,17 +2202,17 @@
     {
       "start_pos": "2791",
       "end_pos": "2792",
-      "column_header": "previous_year_social_studies_spring_administration_enrolled_grade"
+      "column_header": "py_soc_studies_spring_admin_enrolled_gr"
     },
     {
       "start_pos": "2793",
       "end_pos": "2793",
-      "column_header": "previous_year_social_studies_spring_administration_staar_alternate_assessment_category"
+      "column_header": "py_soc_studies_spring_admin_staar_alt_assessment_cat"
     },
     {
       "start_pos": "2801",
       "end_pos": "2809",
-      "column_header": "previous_year_science_spring_administration_county_district_campus_number"
+      "column_header": "py_sci_spring_admin_cdc_num"
     },
     {
       "start_pos": "2810",
@@ -2232,12 +2232,12 @@
     {
       "start_pos": "2813",
       "end_pos": "2813",
-      "column_header": "previous_year_science_spring_administration_level_ii_satisfactory_academic_performance_at_the_students_standard"
+      "column_header": "py_sci_spring_admin_lvl_ii_sat_perf_students_std"
     },
     {
       "start_pos": "2814",
       "end_pos": "2814",
-      "column_header": "previous_year_science_spring_administration_level_iii_advanced_accomplished_academic_performance"
+      "column_header": "py_sci_spring_admin_lvl_iii_adv_accomp_perf"
     },
     {
       "start_pos": "2815",
@@ -2257,7 +2257,7 @@
     {
       "start_pos": "2823",
       "end_pos": "2823",
-      "column_header": "previous_year_science_spring_administration_staar_alternate_assessment_category"
+      "column_header": "py_sci_spring_admin_staar_alt_assessment_cat"
     },
     {
       "start_pos": "4000",

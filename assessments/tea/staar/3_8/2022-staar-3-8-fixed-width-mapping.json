@@ -1299,157 +1299,157 @@
     {
       "start_pos": "2501",
       "end_pos": "2509",
-      "column_header": "previous_year_reading_language_arts_primary_administration_county_district_campus_number",
+      "column_header": "py_rla_primary_admin_cdc_num",
       "column_num": "208"
     },
     {
       "start_pos": "2510",
       "end_pos": "2510",
-      "column_header": "previous_year_reading_language_arts_primary_administration_language_version",
+      "column_header": "py_rla_primary_admin_lang_ver",
       "column_num": "209"
     },
     {
       "start_pos": "2511",
       "end_pos": "2511",
-      "column_header": "previous_year_reading_language_arts_primary_administration_test_version",
+      "column_header": "py_rla_primary_admin_test_ver",
       "column_num": "210"
     },
     {
       "start_pos": "2512",
       "end_pos": "2512",
-      "column_header": "previous_year_reading_language_arts_primary_administration_score_code",
+      "column_header": "py_rla_primary_admin_score_cd",
       "column_num": "211"
     },
     {
       "start_pos": "2513",
       "end_pos": "2513",
-      "column_header": "previous_year_reading_language_arts_primary_administration_approaches_grade_level",
+      "column_header": "py_rla_primary_admin_approaches_gl",
       "column_num": "212"
     },
     {
       "start_pos": "2514",
       "end_pos": "2514",
-      "column_header": "previous_year_reading_language_arts_primary_administration_masters_grade_level",
+      "column_header": "py_rla_primary_admin_masters_gl",
       "column_num": "213"
     },
     {
       "start_pos": "2515",
       "end_pos": "2518",
-      "column_header": "previous_year_reading_language_arts_primary_administration_scale_score",
+      "column_header": "py_rla_primary_admin_scale_score",
       "column_num": "214"
     },
     {
       "start_pos": "2519",
       "end_pos": "2520",
-      "column_header": "previous_year_reading_language_arts_primary_administration_tested_grade",
+      "column_header": "py_rla_primary_admin_tested_gr",
       "column_num": "215"
     },
     {
       "start_pos": "2521",
       "end_pos": "2522",
-      "column_header": "previous_year_reading_language_arts_primary_administration_enrolled_grade",
+      "column_header": "py_rla_primary_admin_enrolled_gr",
       "column_num": "216"
     },
     {
       "start_pos": "2523",
       "end_pos": "2523",
-      "column_header": "previous_year_reading_language_arts_primary_administration_staar_progress_measure",
+      "column_header": "py_rla_primary_admin_staar_prog_measure",
       "column_num": "217"
     },
     {
       "start_pos": "2524",
       "end_pos": "2524",
-      "column_header": "previous_year_reading_language_arts_primary_administration_el_performance_measure",
+      "column_header": "py_rla_primary_admin_el_perf_measure",
       "column_num": "218"
     },
     {
       "start_pos": "2525",
       "end_pos": "2529",
-      "column_header": "previous_year_reading_language_arts_primary_administration_lexile_measure",
+      "column_header": "py_rla_primary_admin_lexile_measure",
       "column_num": "219"
     },
     {
       "start_pos": "2530",
       "end_pos": "2530",
-      "column_header": "previous_year_reading_language_arts_primary_administration_meets_grade_level",
+      "column_header": "py_rla_primary_admin_meets_gl",
       "column_num": "220"
     },
     {
       "start_pos": "2531",
       "end_pos": "2539",
-      "column_header": "previous_year_reading_language_arts_spring_administration_county_district_campus_number",
+      "column_header": "py_rla_spring_admin_cdc_num",
       "column_num": "221"
     },
     {
       "start_pos": "2540",
       "end_pos": "2540",
-      "column_header": "previous_year_reading_language_arts_spring_administration_language_version",
+      "column_header": "py_rla_spring_admin_lang_ver",
       "column_num": "222"
     },
     {
       "start_pos": "2541",
       "end_pos": "2541",
-      "column_header": "previous_year_reading_language_arts_spring_administration_test_version",
+      "column_header": "py_rla_spring_admin_test_ver",
       "column_num": "223"
     },
     {
       "start_pos": "2542",
       "end_pos": "2542",
-      "column_header": "previous_year_reading_language_arts_spring_administration_score_code",
+      "column_header": "py_rla_spring_admin_score_cd",
       "column_num": "224"
     },
     {
       "start_pos": "2543",
       "end_pos": "2543",
-      "column_header": "previous_year_reading_language_arts_spring_administration_approaches_grade_level",
+      "column_header": "py_rla_spring_admin_approaches_gl",
       "column_num": "225"
     },
     {
       "start_pos": "2544",
       "end_pos": "2544",
-      "column_header": "previous_year_reading_language_arts_spring_administration_masters_grade_level",
+      "column_header": "py_rla_spring_admin_masters_gl",
       "column_num": "226"
     },
     {
       "start_pos": "2545",
       "end_pos": "2548",
-      "column_header": "previous_year_reading_language_arts_spring_administration_scale_score",
+      "column_header": "py_rla_spring_admin_scale_score",
       "column_num": "227"
     },
     {
       "start_pos": "2549",
       "end_pos": "2550",
-      "column_header": "previous_year_reading_language_arts_spring_administration_tested_grade",
+      "column_header": "py_rla_spring_admin_tested_gr",
       "column_num": "228"
     },
     {
       "start_pos": "2551",
       "end_pos": "2552",
-      "column_header": "previous_year_reading_language_arts_spring_administration_enrolled_grade",
+      "column_header": "py_rla_spring_admin_enrolled_gr",
       "column_num": "229"
     },
     {
       "start_pos": "2555",
       "end_pos": "2555",
-      "column_header": "previous_year_reading_language_arts_spring_administration_el_performance_measure",
+      "column_header": "py_rla_spring_admin_el_perf_measure",
       "column_num": "230"
     },
     {
       "start_pos": "2556",
       "end_pos": "2560",
-      "column_header": "previous_year_reading_language_arts_spring_administration_lexile_measure",
+      "column_header": "py_rla_spring_admin_lexile_measure",
       "column_num": "231"
     },
     {
       "start_pos": "2621",
       "end_pos": "2629",
-      "column_header": "previous_year_mathematics_primary_administration_county_district_campus_number",
+      "column_header": "py_math_primary_admin_cdc_num",
       "column_num": "232"
     },
     {
       "start_pos": "2630",
       "end_pos": "2630",
-      "column_header": "previous_year_mathematics_primary_administration_language_version",
+      "column_header": "py_math_primary_admin_lang_ver",
       "column_num": "233"
     },
     {
@@ -1467,13 +1467,13 @@
     {
       "start_pos": "2633",
       "end_pos": "2633",
-      "column_header": "previous_year_mathematics_primary_administration_approaches_grade_level",
+      "column_header": "py_math_primary_admin_approaches_gl",
       "column_num": "236"
     },
     {
       "start_pos": "2634",
       "end_pos": "2634",
-      "column_header": "previous_year_mathematics_primary_administration_masters_grade_level",
+      "column_header": "py_math_primary_admin_masters_gl",
       "column_num": "237"
     },
     {
@@ -1497,37 +1497,37 @@
     {
       "start_pos": "2643",
       "end_pos": "2643",
-      "column_header": "previous_year_mathematics_primary_administration_staar_progress_measure",
+      "column_header": "py_math_primary_admin_staar_prog_measure",
       "column_num": "241"
     },
     {
       "start_pos": "2644",
       "end_pos": "2644",
-      "column_header": "previous_year_mathematics_primary_administration_el_performance_measure",
+      "column_header": "py_math_primary_admin_el_perf_measure",
       "column_num": "242"
     },
     {
       "start_pos": "2645",
       "end_pos": "2645",
-      "column_header": "previous_year_mathematics_primary_administration_meets_grade_level",
+      "column_header": "py_math_primary_admin_meets_gl",
       "column_num": "243"
     },
     {
       "start_pos": "2646",
       "end_pos": "2650",
-      "column_header": "previous_year_mathematics_primary_administration_quantile_measure",
+      "column_header": "py_math_primary_admin_quantile_measure",
       "column_num": "244"
     },
     {
       "start_pos": "2651",
       "end_pos": "2659",
-      "column_header": "previous_year_mathematics_spring_administration_county_district_campus_number",
+      "column_header": "py_math_spring_admin_cdc_num",
       "column_num": "245"
     },
     {
       "start_pos": "2660",
       "end_pos": "2660",
-      "column_header": "previous_year_mathematics_spring_administration_language_version",
+      "column_header": "py_math_spring_admin_lang_ver",
       "column_num": "246"
     },
     {
@@ -1545,13 +1545,13 @@
     {
       "start_pos": "2663",
       "end_pos": "2663",
-      "column_header": "previous_year_mathematics_spring_administration_approaches_grade_level",
+      "column_header": "py_math_spring_admin_approaches_gl",
       "column_num": "249"
     },
     {
       "start_pos": "2664",
       "end_pos": "2664",
-      "column_header": "previous_year_mathematics_spring_administration_masters_grade_level",
+      "column_header": "py_math_spring_admin_masters_gl",
       "column_num": "250"
     },
     {
@@ -1575,19 +1575,19 @@
     {
       "start_pos": "2675",
       "end_pos": "2675",
-      "column_header": "previous_year_mathematics_spring_administration_meets_grade_level",
+      "column_header": "py_math_spring_admin_meets_gl",
       "column_num": "254"
     },
     {
       "start_pos": "2676",
       "end_pos": "2680",
-      "column_header": "previous_year_mathematics_spring_administration_quantile_measure",
+      "column_header": "py_math_spring_admin_quantile_measure",
       "column_num": "255"
     },
     {
       "start_pos": "2741",
       "end_pos": "2749",
-      "column_header": "previous_year_writing_spring_administration_county_district_campus_number",
+      "column_header": "py_writing_spring_admin_cdc_num",
       "column_num": "256"
     },
     {
@@ -1611,7 +1611,7 @@
     {
       "start_pos": "2753",
       "end_pos": "2753",
-      "column_header": "previous_year_writing_spring_administration_approaches_grade_level",
+      "column_header": "py_writing_spring_admin_approaches_gl",
       "column_num": "260"
     },
     {
@@ -1647,19 +1647,19 @@
     {
       "start_pos": "2764",
       "end_pos": "2764",
-      "column_header": "previous_year_writing_spring_administration_el_performance_measure",
+      "column_header": "py_writing_spring_admin_el_perf_measure",
       "column_num": "266"
     },
     {
       "start_pos": "2771",
       "end_pos": "2779",
-      "column_header": "previous_year_social_studies_spring_administration_county_district_campus_number",
+      "column_header": "py_soc_studies_spring_admin_cdc_num",
       "column_num": "267"
     },
     {
       "start_pos": "2780",
       "end_pos": "2780",
-      "column_header": "previous_year_social_studies_spring_administration_language_version",
+      "column_header": "py_soc_studies_spring_admin_lang_ver",
       "column_num": "268"
     },
     {
@@ -1677,13 +1677,13 @@
     {
       "start_pos": "2783",
       "end_pos": "2783",
-      "column_header": "previous_year_social_studies_spring_administration_approaches_grade_level",
+      "column_header": "py_soc_studies_spring_admin_approaches_gl",
       "column_num": "271"
     },
     {
       "start_pos": "2784",
       "end_pos": "2784",
-      "column_header": "previous_year_social_studies_spring_administration_masters_grade_level",
+      "column_header": "py_soc_studies_spring_admin_masters_gl",
       "column_num": "272"
     },
     {
@@ -1701,25 +1701,25 @@
     {
       "start_pos": "2791",
       "end_pos": "2792",
-      "column_header": "previous_year_social_studies_spring_administration_enrolled_grade",
+      "column_header": "py_soc_studies_spring_admin_enrolled_gr",
       "column_num": "275"
     },
     {
       "start_pos": "2793",
       "end_pos": "2793",
-      "column_header": "previous_year_social_studies_spring_administration_meets_grade_level",
+      "column_header": "py_soc_studies_spring_admin_meets_gl",
       "column_num": "276"
     },
     {
       "start_pos": "2794",
       "end_pos": "2794",
-      "column_header": "previous_year_social_studies_spring_administration_el_performance_measure",
+      "column_header": "py_soc_studies_spring_admin_el_perf_measure",
       "column_num": "277"
     },
     {
       "start_pos": "2801",
       "end_pos": "2809",
-      "column_header": "previous_year_science_spring_administration_county_district_campus_number",
+      "column_header": "py_sci_spring_admin_cdc_num",
       "column_num": "278"
     },
     {
@@ -1743,7 +1743,7 @@
     {
       "start_pos": "2813",
       "end_pos": "2813",
-      "column_header": "previous_year_science_spring_administration_approaches_grade_level",
+      "column_header": "py_sci_spring_admin_approaches_gl",
       "column_num": "282"
     },
     {
@@ -1779,7 +1779,7 @@
     {
       "start_pos": "2824",
       "end_pos": "2824",
-      "column_header": "previous_year_science_spring_administration_el_performance_measure",
+      "column_header": "py_sci_spring_admin_el_perf_measure",
       "column_num": "288"
     },
     {
@@ -1791,7 +1791,7 @@
     {
       "start_pos": "2841",
       "end_pos": "2841",
-      "column_header": "previous_year_mathematics_el_performance_measure_additional_data",
+      "column_header": "py_math_el_perf_measure_additional_data",
       "column_num": "290"
     },
     {
