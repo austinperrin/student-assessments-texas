@@ -63,7 +63,7 @@
       ]
     },
     {
-      "regex": "^S[FP]_(?:1311|1512|1612)_EOC_\\d{6,9}_.+_V\\d{2}(?:\\.txt)?$",
+      "regex": "^S[FP]_(?:1311|1512|1612)_EOC_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
