@@ -101,6 +101,8 @@ year when the reviewed year's source is clear.
 
 ## Completion Criteria
 
-A family is complete when every represented year has a closed review record,
+A family is complete when every represented year has a closed review record
+or a program-owner-accepted block documented under the
+[workflow exception rules](./workflow.md#family-audit-lifecycle),
 all source gaps are documented, all confirmed findings have dispositions, and
 the family coverage entry links to remediation and verification where needed.

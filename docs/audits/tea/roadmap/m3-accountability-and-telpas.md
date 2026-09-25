@@ -64,5 +64,5 @@ multi-assessment, language-domain, and historical-result semantics.
 
 ## Next Step
 
-After the scheduled holiday buffer, proceed to
-[Milestone 4: Remaining Families](./m4-remaining-families.md).
+Proceed to [Milestone 4: Remaining Families](./m4-remaining-families.md)
+on the dates in the canonical roadmap schedule.

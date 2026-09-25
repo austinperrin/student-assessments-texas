@@ -9,6 +9,11 @@ Copy this section into the applicable review record.
 - Severity: low | medium | high | critical
 - Reviewer:
 - Verifier:
+- Disposition owner:
+- Target date:
+- Next review date (required for deferred, accepted-risk, or blocked):
+- Disposition reason:
+- Accepted by and acceptance date:
 - Mapping:
 - Parser:
 - Source document:
@@ -36,7 +41,10 @@ Describe the correction, further investigation, deferral, or accepted risk.
 
 ### Verification
 
-Record how a second reviewer reproduced or rejected the finding.
+Record how a second reviewer reproduced or rejected the finding, including
+the verifier identity, date, evidence, and conclusion. For high or critical
+severity, the verifier must differ from the original reviewer; confirmation
+requires that independent reproduction.
 
 ### Resolution
 

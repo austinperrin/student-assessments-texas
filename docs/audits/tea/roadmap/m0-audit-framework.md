@@ -1,15 +1,15 @@
 # Milestone 0: Audit Framework
 
-- Status: In Progress
+- Status: In Review
 - Estimate: 7 business days
 - Dependencies: none
 - Planned dates: 2026-09-24 through 2026-10-02
 
 ## Owners
 
-- Milestone owner: Program owner
-- Execution: Docs and standards reviewer
-- Review: Audit reviewer and verifier representatives
+- Milestone owner: Austin Perrin
+- Execution: Codex
+- Review: Austin Perrin
 
 ## Goal
 
@@ -21,7 +21,7 @@ can execute consistently without changing the assets under review.
 - [x] Confirm all TEA mapping families and represented years.
 - [x] Separate durable records from disposable `.tmp` evidence.
 - [x] Define audit and remediation as separate changes.
-- [ ] Confirm the baseline staffing and calendar assumptions.
+- [x] Confirm the baseline staffing and calendar assumptions as provisional.
 
 <a id="m0-phase-1"></a>
 
@@ -40,8 +40,8 @@ can execute consistently without changing the assets under review.
 
 ### Exit Criteria
 
-- [ ] A reviewer can create a complete record without inventing required fields.
-- [ ] High- and critical-severity verification requirements are unambiguous.
+- [x] A reviewer can create a complete record without inventing required fields.
+- [x] High- and critical-severity verification requirements are unambiguous.
 
 <a id="m0-phase-2"></a>
 
@@ -61,8 +61,8 @@ can execute consistently without changing the assets under review.
 
 ### Exit Criteria
 
-- [ ] Schedule, milestone files, and coverage have distinct ownership.
-- [ ] Every planned family appears in a milestone.
+- [x] Schedule, milestone files, and coverage have distinct ownership.
+- [x] Every planned family appears in a milestone.
 
 <a id="m0-phase-3"></a>
 
@@ -70,10 +70,10 @@ can execute consistently without changing the assets under review.
 
 ### Checklist
 
-- [ ] Walk through one hypothetical review and finding from start to closure.
-- [ ] Check all repository-relative links.
-- [ ] Run repository documentation validation.
-- [ ] Record reviewer feedback and resolve material ambiguity.
+- [x] Walk through one hypothetical review and finding from start to closure.
+- [x] Check all repository-relative links.
+- [x] Run repository documentation validation.
+- [x] Record reviewer feedback and resolve material ambiguity.
 
 ### Branch and PR Plan
 
@@ -83,15 +83,24 @@ can execute consistently without changing the assets under review.
 ### Exit Criteria
 
 - [ ] Framework PR is approved and ready to merge.
-- [ ] Pilot owners and assignments are recorded.
+- [x] Pilot owners and assignments are recorded.
 
 ## Milestone Review Checklist
 
 - [ ] All phase exit criteria are complete.
-- [ ] Roadmap dates and status match actual execution.
-- [ ] Coverage counts match the repository inventory.
-- [ ] Framework validation passes.
+- [x] Roadmap dates and status match actual execution.
+- [x] Coverage counts match the repository inventory.
+- [x] Framework validation passes.
 - [ ] Milestone status is set to `Completed` after merge.
+
+## Readiness Review
+
+The [2026-09-24 readiness review](../framework-readiness.md) records the
+repository baseline, inventory checks, hypothetical walkthrough, pilot inputs,
+and feedback resolutions. Austin Perrin owns the pilot and independent
+verification; Codex performs the initial review. Samples are unavailable and
+calendar assumptions remain provisional. Full lint passes; review/merge remain
+open on the follow-up branch `docs/tea-audit-readiness`.
 
 ## Next Step
 

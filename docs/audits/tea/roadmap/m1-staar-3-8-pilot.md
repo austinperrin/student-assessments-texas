@@ -7,9 +7,9 @@
 
 ## Owners
 
-- Milestone owner: Program owner
-- Execution: Assigned reviewer
-- Verification: Assigned verifier
+- Milestone owner: Austin Perrin
+- Execution: Codex
+- Verification: Austin Perrin (actual independent review required)
 
 ## Goal
 
@@ -20,9 +20,10 @@ measured effort.
 ## Milestone Pre-Checklist
 
 - [ ] Framework is merged and the templates are stable.
-- [ ] Reviewer and verifier assignments are recorded in coverage.
+- [x] Reviewer and verifier assignments are recorded in coverage.
 - [ ] Official and archived sources are inventoried for 2012-2026.
-- [ ] Available operational samples are identified without adding student data.
+- [x] Operational samples are confirmed unavailable; record this limitation in
+      each year review.
 - [ ] Create `audit/tea-staar-3-8` from the current `main`.
 - [ ] Initialize the family integration record and year sequence.
 

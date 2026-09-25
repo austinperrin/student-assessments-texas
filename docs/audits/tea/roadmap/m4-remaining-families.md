@@ -18,7 +18,7 @@ families without reducing the evidence standard for lower-volume work.
 
 ## Milestone Pre-Checklist
 
-- [ ] Reconfirm represented years after the holiday buffer.
+- [ ] Reconfirm represented years before this milestone begins.
 - [ ] Assign reviewers with relevant family context.
 - [ ] Record source or sample gaps before execution.
 

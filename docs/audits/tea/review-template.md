@@ -1,5 +1,9 @@
 # <Family> <Year> Audit Review
 
+When copying this template to `reviews/<family>/<year>.md`, change the
+finding-template link below to `../../finding-template.md` and rebase any other
+relative links for the destination folder.
+
 ## Review Metadata
 
 - Status: planned
@@ -11,12 +15,13 @@
 - Verifier:
 - Mapping scope:
 - Parser scope:
+- Parser baseline (tracked commit or local SHA-256 and provenance):
 - Operational sample scope:
 
 ## Sources
 
-| Archived source | Official source | Retrieval date | Agreement/status |
-| --------------- | --------------- | -------------- | ---------------- |
+| Archived source | Official source | Retrieval date | Version or SHA-256 | Agreement/status |
+| --------------- | --------------- | -------------- | ------------------ | ---------------- |
 
 ## Coverage
 
@@ -36,6 +41,10 @@ meaning.
 
 Record inaccessible sources, missing parsers, absent samples, and unresolved
 source interpretations.
+
+For each accepted block, record the affected review layer, evidence still
+missing, reason, owner, program-owner acceptance, and next review date. Keep
+incomplete layers explicitly blocked; acceptance does not mean they passed.
 
 ## Disposition Summary
 
