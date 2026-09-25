@@ -16,12 +16,12 @@
 ## Sources
 
 | Archived source | Official source | Retrieval date | Agreement/status |
-|---|---|---|---|
+| --------------- | --------------- | -------------- | ---------------- |
 
 ## Coverage
 
 | Review layer | Status | Evidence/notes |
-|---|---|---|
+| ------------ | ------ | -------------- |
 
 ## Findings
 
@@ -40,7 +40,7 @@ source interpretations.
 ## Disposition Summary
 
 | Finding | Status | Owner | Target | Remediation link |
-|---|---|---|---|---|
+| ------- | ------ | ----- | ------ | ---------------- |
 
 ## Sign-Off
 

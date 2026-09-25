@@ -23,6 +23,7 @@ multi-assessment, language-domain, and historical-result semantics.
 - [ ] Prior shared-concept findings are available to reviewers.
 
 <a id="m3-phase-1"></a>
+
 ## Phase 1: Consolidated Accountability
 
 - Family branch: `audit/tea-staar-consolidated`
@@ -34,6 +35,7 @@ multi-assessment, language-domain, and historical-result semantics.
   and the family PR is reviewable.
 
 <a id="m3-phase-2"></a>
+
 ## Phase 2: TELPAS 2012-2021
 
 - Family branch: `audit/tea-telpas`
@@ -43,6 +45,7 @@ multi-assessment, language-domain, and historical-result semantics.
 - Exit: all 10 year branches are merged into the TELPAS family branch.
 
 <a id="m3-phase-3"></a>
+
 ## Phase 3: TELPAS 2022-2026
 
 - Family branch: `audit/tea-telpas`

@@ -17,7 +17,7 @@ created only after the preceding year branch has merged into this family
 branch.
 
 | Order | Year | Year branch | Reviewer | Verifier | Status | Review record | Merge commit |
-|---:|---:|---|---|---|---|---|---|
+| ----: | ---: | ----------- | -------- | -------- | ------ | ------------- | ------------ |
 
 ## Family-Wide Reconciliation
 
@@ -28,7 +28,7 @@ patterns do not replace evidence in the affected year records.
 ## Finding Summary
 
 | Finding | Year | Severity | Status | Owner | Remediation link |
-|---|---:|---|---|---|---|
+| ------- | ---: | -------- | ------ | ----- | ---------------- |
 
 ## Limitations and Accepted Blocks
 

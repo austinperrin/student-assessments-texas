@@ -24,6 +24,7 @@ can execute consistently without changing the assets under review.
 - [ ] Confirm the baseline staffing and calendar assumptions.
 
 <a id="m0-phase-1"></a>
+
 ## Phase 1: Governance and Templates
 
 ### Checklist
@@ -43,6 +44,7 @@ can execute consistently without changing the assets under review.
 - [ ] High- and critical-severity verification requirements are unambiguous.
 
 <a id="m0-phase-2"></a>
+
 ## Phase 2: Roadmap and Workflow
 
 ### Checklist
@@ -63,6 +65,7 @@ can execute consistently without changing the assets under review.
 - [ ] Every planned family appears in a milestone.
 
 <a id="m0-phase-3"></a>
+
 ## Phase 3: Framework Review
 
 ### Checklist

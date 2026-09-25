@@ -27,6 +27,7 @@ measured effort.
 - [ ] Initialize the family integration record and year sequence.
 
 <a id="m1-phase-1"></a>
+
 ## Phase 1: 2022-2026
 
 ### Checklist
@@ -48,6 +49,7 @@ measured effort.
 - [ ] Every finding has evidence, status, severity, and owner.
 
 <a id="m1-phase-2"></a>
+
 ## Phase 2: 2017-2021
 
 ### Checklist
@@ -69,6 +71,7 @@ measured effort.
 - [ ] Cross-year observations are supported by year-specific evidence.
 
 <a id="m1-phase-3"></a>
+
 ## Phase 3: 2012-2016 and Rebaseline
 
 ### Checklist

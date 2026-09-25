@@ -23,6 +23,7 @@ close the audit with explicit downstream-data decisions and residual risks.
 - [ ] Program owner and approver availability is confirmed.
 
 <a id="m6-phase-1"></a>
+
 ## Phase 1: Prioritize Remediation
 
 - Branch: `docs/tea-audit-m6-remediation-plan`
@@ -33,6 +34,7 @@ close the audit with explicit downstream-data decisions and residual risks.
 - Exit: every confirmed open finding has an approved disposition.
 
 <a id="m6-phase-2"></a>
+
 ## Phase 2: Program Closeout
 
 - Branch: `docs/tea-audit-m6-closeout`

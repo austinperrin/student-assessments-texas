@@ -23,6 +23,7 @@ reviewed, while preserving legitimate year and family differences.
 - [ ] Open verification work has an assigned verifier.
 
 <a id="m5-phase-1"></a>
+
 ## Phase 1: Shared Concepts and Source Gaps
 
 - Branch: `docs/tea-audit-m5-shared-concepts`
@@ -32,6 +33,7 @@ reviewed, while preserving legitimate year and family differences.
 - Exit: each inconsistency is supported, rejected, or assigned for follow-up.
 
 <a id="m5-phase-2"></a>
+
 ## Phase 2: Findings and Coverage Reconciliation
 
 - Branch: `docs/tea-audit-m5-program-reconciliation`

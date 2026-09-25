@@ -34,19 +34,19 @@ family-wide reconciliation are complete.
 
 The program covers these 11 mapping families and 96 current mapping files:
 
-| Workstream | Family | Mapping files | Years represented |
-|---|---|---:|---|
-| A | STAAR grades 3-8 | 15 | 2012-2026 |
-| B | STAAR EOC | 15 | 2012-2026 |
-| C | STAAR Alternate 2 grades 3-8 | 10 | 2016-2019, 2021-2026 |
-| D | STAAR Alternate 2 EOC | 10 | 2016-2019, 2021-2026 |
-| E | STAAR consolidated accountability | 11 | 2014-2019, 2021-2025 |
-| F | STAAR interim | 3 | 2023, 2024, 2026 |
-| G | TELPAS | 15 | 2012-2026 |
-| H | TELPAS Alternate | 8 | 2019-2026 |
-| I | TFAR | 2 | 2024-2025 |
-| J | TTAP | 3 | 2023-2025 |
-| K | CRS custom | 4 | 2023-2026 |
+| Workstream | Family                            | Mapping files | Years represented    |
+| ---------- | --------------------------------- | ------------: | -------------------- |
+| A          | STAAR grades 3-8                  |            15 | 2012-2026            |
+| B          | STAAR EOC                         |            15 | 2012-2026            |
+| C          | STAAR Alternate 2 grades 3-8      |            10 | 2016-2019, 2021-2026 |
+| D          | STAAR Alternate 2 EOC             |            10 | 2016-2019, 2021-2026 |
+| E          | STAAR consolidated accountability |            11 | 2014-2019, 2021-2025 |
+| F          | STAAR interim                     |             3 | 2023, 2024, 2026     |
+| G          | TELPAS                            |            15 | 2012-2026            |
+| H          | TELPAS Alternate                  |             8 | 2019-2026            |
+| I          | TFAR                              |             2 | 2024-2025            |
+| J          | TTAP                              |             3 | 2023-2025            |
+| K          | CRS custom                        |             4 | 2023-2026            |
 
 Missing years are coverage facts to investigate; they are not automatically
 defects.

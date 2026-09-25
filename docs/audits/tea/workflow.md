@@ -23,13 +23,13 @@ year branch is created from that family branch and merges back into it after
 year-level review. When every represented year is complete, one family pull
 request merges the family audit branch into `main`.
 
-| Work | Branch pattern | Pull request target |
-|---|---|---|
-| Framework or roadmap | `docs/tea-audit-<topic>` | `main` |
-| Family audit integration | `audit/tea-<family>` | `main`, after all represented years close |
-| Single-year audit | `audit/tea-<family>-<year>` | `audit/tea-<family>` |
-| Finding verification | the open year branch; otherwise `audit/tea-<family>-<year>-verification` | family audit branch |
-| Mapping or parser correction | `fix/tea-<family>-<finding-or-years>` | `main` |
+| Work                         | Branch pattern                                                           | Pull request target                       |
+| ---------------------------- | ------------------------------------------------------------------------ | ----------------------------------------- |
+| Framework or roadmap         | `docs/tea-audit-<topic>`                                                 | `main`                                    |
+| Family audit integration     | `audit/tea-<family>`                                                     | `main`, after all represented years close |
+| Single-year audit            | `audit/tea-<family>-<year>`                                              | `audit/tea-<family>`                      |
+| Finding verification         | the open year branch; otherwise `audit/tea-<family>-<year>-verification` | family audit branch                       |
+| Mapping or parser correction | `fix/tea-<family>-<finding-or-years>`                                    | `main`                                    |
 
 Examples:
 

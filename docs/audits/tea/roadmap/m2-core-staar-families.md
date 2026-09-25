@@ -24,6 +24,7 @@ families, preserving each year's distinct layout and behavior.
 - [ ] Create each family branch from the current `main` when its phase begins.
 
 <a id="m2-phase-1"></a>
+
 ## Phase 1: STAAR EOC
 
 - Family branch: `audit/tea-staar-eoc`
@@ -35,6 +36,7 @@ families, preserving each year's distinct layout and behavior.
   and the family PR is reviewable.
 
 <a id="m2-phase-2"></a>
+
 ## Phase 2: STAAR Alternate 2 Grades 3-8
 
 - Family branch: `audit/tea-staar-alt2-3-8`
@@ -46,6 +48,7 @@ families, preserving each year's distinct layout and behavior.
   and the family PR is reviewable.
 
 <a id="m2-phase-3"></a>
+
 ## Phase 3: STAAR Alternate 2 EOC
 
 - Family branch: `audit/tea-staar-alt2-eoc`

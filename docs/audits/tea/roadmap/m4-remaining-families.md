@@ -23,6 +23,7 @@ families without reducing the evidence standard for lower-volume work.
 - [ ] Record source or sample gaps before execution.
 
 <a id="m4-phase-1"></a>
+
 ## Phase 1: TELPAS Alternate
 
 - Family branch: `audit/tea-telpas-alt`
@@ -34,6 +35,7 @@ families without reducing the evidence standard for lower-volume work.
   and the family PR is reviewable.
 
 <a id="m4-phase-2"></a>
+
 ## Phase 2: Interim, TFAR, and TTAP
 
 - Family branches: `audit/tea-staar-interim`, `audit/tea-tfar`, and
@@ -47,6 +49,7 @@ families without reducing the evidence standard for lower-volume work.
   reviewable.
 
 <a id="m4-phase-3"></a>
+
 ## Phase 3: CRS Custom
 
 - Family branch: `audit/tea-crs`
