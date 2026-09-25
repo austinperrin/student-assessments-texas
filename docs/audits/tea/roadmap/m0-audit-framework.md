@@ -1,6 +1,7 @@
 # Milestone 0: Audit Framework
 
-- Status: In Review
+- Status: Completed
+- Actual completion: 2026-09-24
 - Estimate: 7 business days
 - Dependencies: none
 - Planned dates: 2026-09-24 through 2026-10-02
@@ -82,16 +83,16 @@ can execute consistently without changing the assets under review.
 
 ### Exit Criteria
 
-- [ ] Framework PR is approved and ready to merge.
+- [x] Framework PR is approved and ready to merge.
 - [x] Pilot owners and assignments are recorded.
 
 ## Milestone Review Checklist
 
-- [ ] All phase exit criteria are complete.
+- [x] All phase exit criteria are complete.
 - [x] Roadmap dates and status match actual execution.
 - [x] Coverage counts match the repository inventory.
 - [x] Framework validation passes.
-- [ ] Milestone status is set to `Completed` after merge.
+- [x] Milestone status is set to `Completed` after merge.
 
 ## Readiness Review
 
@@ -99,8 +100,9 @@ The [2026-09-24 readiness review](../framework-readiness.md) records the
 repository baseline, inventory checks, hypothetical walkthrough, pilot inputs,
 and feedback resolutions. Austin Perrin owns the pilot and independent
 verification; Codex performs the initial review. Samples are unavailable and
-calendar assumptions remain provisional. Full lint passes; review/merge remain
-open on the follow-up branch `docs/tea-audit-readiness`.
+calendar assumptions remain provisional. Full lint and GitHub CI passed.
+PR #16 merged as `a48227f94faa57c29bfb8564e392015056c20f16`; Austin Perrin
+authorized the framework merge and pilot initialization in this session.
 
 ## Next Step
 

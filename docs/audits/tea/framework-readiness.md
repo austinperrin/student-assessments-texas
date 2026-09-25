@@ -7,7 +7,7 @@
 - Governing milestone: [M0](./roadmap/m0-audit-framework.md)
 - Scope: framework walkthrough, repository inventory, and pilot readiness.
 - Status: framework feedback resolved, pilot roles agreed, and full lint passed;
-  review/merge remain open. This is not a source/mapping audit or M0 sign-off.
+  framework review and merge are complete. This is not a source/mapping audit.
 
 ## Baseline Evidence
 
@@ -91,7 +91,7 @@ Confirmed by the program owner in this session:
   3-4 verifier hours per week are planning assumptions, not capacity commitments.
   Rebaseline after the pilot as required by M1.
 
-## Validation And Remaining Merge Gate
+## Validation And Framework Closeout
 
 System Node `v24.21.0` and npm `11.19.0` are available on PATH. After the
 user configured `https://registry.yarnpkg.com/`, the locked dependency restore
@@ -104,9 +104,14 @@ on PATH: Prettier accepts all matched files, and repository validation accepts
 96 mappings and 148 Markdown files. Separate checks confirm header uniqueness
 and the 63-character limit across all 96 mappings. `git diff --check` passes.
 
-M0 is In Review pending review and merge of the framework follow-up changes.
-After acceptance and merge, create the family branch from updated `main`,
-followed by the 2026 year branch. No year audit begins on this framework branch.
+M0 completed on 2026-09-24 after PR #16 merged as
+`a48227f94faa57c29bfb8564e392015056c20f16`. GitHub's Validate Repository
+workflow passed before merge. Codex completed the framework review; Austin
+Perrin authorized review, merge, and pilot initialization in this session.
+This acceptance does not constitute verification of any year-level finding.
+
+The family branch can now start from updated `main`, followed by the 2026 year
+branch. No year audit was performed on the framework branch.
 
 ## Pilot Handoff
 
@@ -127,6 +132,5 @@ order, as specified by [M1](./roadmap/m1-staar-3-8-pilot.md).
   Availability is not evidence that those parsers have been reviewed.
 - Operational samples: unavailable, as confirmed by the program owner.
 
-Next, complete M0 review/merge,
-and initialize the family and first year branches. No mapping or parser changes
+Next, initialize the family and first year branches. No mapping or parser changes
 were made, and no source, parser, or sample review layer is marked complete.
