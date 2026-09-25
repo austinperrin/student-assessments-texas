@@ -7,7 +7,7 @@ found.
 ## Baseline
 
 - [ ] Record repository commit and review date.
-- [ ] Identify the mapping, archived source, official URL, and parser.
+- [ ] Identify the mapping, archived source, and official URL.
 - [ ] Record source retrieval date and archive/online agreement.
 - [ ] Record missing, inaccessible, superseded, or ambiguous sources.
 
@@ -28,20 +28,9 @@ found.
 - [ ] Check for overlaps, unintended gaps, duplicate ranges, and spillover text.
 - [ ] Compare adjacent years only to locate changes requiring source review.
 
-## Parser Review
-
-- [ ] Confirm every parser field exists with the intended meaning that year.
-- [ ] Confirm current results are not populated from history fields.
-- [ ] Confirm student matching and administration joins are appropriate.
-- [ ] Confirm subjects, tested grade, language, and test version are handled.
-- [ ] Confirm score-code, participation, exclusion, and discrepancy behavior.
-- [ ] Confirm duplicate handling does not choose an unsupported winner.
-- [ ] Record years without parsers or without fields needed for a rule.
-
 ## Operational Evidence
 
 - [ ] Record available result-file samples and provenance.
-- [ ] Test confirmed parser rules in memory without changing source files.
 - [ ] Quantify affected records when possible.
 - [ ] Remove or de-identify student data from tracked audit evidence.
 - [ ] Record limitations when samples are unavailable.

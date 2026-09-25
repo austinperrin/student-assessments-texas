@@ -13,9 +13,8 @@
 
 ## Goal
 
-Audit the complete STAAR grades 3-8 history, validate the review framework on a
-known multi-record parser question, and rebaseline the remaining program from
-measured effort.
+Audit the complete STAAR grades 3-8 history, validate the review framework, and
+rebaseline the remaining program from measured effort.
 
 ## Milestone Pre-Checklist
 
@@ -33,7 +32,7 @@ measured effort.
 
 ### Checklist
 
-- [ ] Complete source/mapping, parser, and available-sample review for A3.
+- [ ] Complete source/mapping and available-sample review for A3.
 - [ ] Examine subject records, score codes, duplicates, and result eligibility.
 - [ ] Record candidates and independently verify high/critical findings.
 
@@ -56,7 +55,7 @@ measured effort.
 ### Checklist
 
 - [ ] Complete all review layers for A2.
-- [ ] Identify year-specific layout and parser behavior changes.
+- [ ] Identify year-specific layout changes.
 - [ ] Challenge assumptions learned from current-year files against each source.
 
 ### Branch and PR Plan

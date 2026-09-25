@@ -7,13 +7,13 @@ review-layer completion.
 
 ## Team Model
 
-| Role          | Responsibility                                                  |
-| ------------- | --------------------------------------------------------------- |
-| Program owner | Scope, sequence, assignments, dispositions, and rebaselining    |
-| Reviewer      | Source comparison, parser review, sample analysis, and evidence |
-| Verifier      | Independent reproduction and challenge of material findings     |
-| Remediator    | Confirmed mapping or parser corrections on separate branches    |
-| Approver      | Correction acceptance and downstream-data decision              |
+| Role          | Responsibility                                               |
+| ------------- | ------------------------------------------------------------ |
+| Program owner | Scope, sequence, assignments, dispositions, and rebaselining |
+| Reviewer      | Source comparison, sample analysis, and evidence             |
+| Verifier      | Independent reproduction and challenge of material findings  |
+| Remediator    | Confirmed mapping corrections on separate branches           |
+| Approver      | Correction acceptance and downstream-data decision           |
 
 One person may hold multiple roles. The reviewer and verifier should differ for
 high- and critical-severity findings. An accountable human owns consequential

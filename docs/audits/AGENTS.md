@@ -20,7 +20,7 @@ evidence-backed findings.
 - require an independent verifier for high- and critical-severity findings
 - keep extraction, screenshots, and other disposable evidence in `.tmp/audits/`
 - do not link tracked records to `.tmp` files
-- do not edit mappings or parsers in an audit-only change
+- do not edit mappings in an audit-only change
 - treat `tea/roadmap/index.md` as the canonical audit schedule and status view
 - preserve the legend-defined HTML color treatment when adding or changing
   roadmap status cells; do not introduce new status labels or colors casually
