@@ -17,7 +17,7 @@ branch. Assignment does not constitute completed review or verification.
 
 | Order | Year | Year branch                | Reviewer | Verifier      | Status  | Review record     | Merge commit |
 | ----: | ---: | -------------------------- | -------- | ------------- | ------- | ----------------- | ------------ |
-|     1 | 2026 | `audit/tea-staar-3-8-2026` | Codex    | Austin Perrin | closed  | [2026](./2026.md) | pending      |
+|     1 | 2026 | `audit/tea-staar-3-8-2026` | Codex    | Austin Perrin | closed  | [2026](./2026.md) | `46eec60`    |
 |     2 | 2025 | `audit/tea-staar-3-8-2025` | Codex    | Austin Perrin | planned | —                 | —            |
 |     3 | 2024 | `audit/tea-staar-3-8-2024` | Codex    | Austin Perrin | planned | —                 | —            |
 |     4 | 2023 | `audit/tea-staar-3-8-2023` | Codex    | Austin Perrin | planned | —                 | —            |
