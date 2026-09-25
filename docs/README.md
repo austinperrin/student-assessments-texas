@@ -17,6 +17,9 @@ of source reference documents.
 
 ## Documentation Areas
 
+- [Audits](./audits/README.md)
+  Source-fidelity audit plans, coverage, review records, and findings.
+
 - [overview/](./overview/)
   Project intent, navigation, and operational reference docs.
 - [standards/](./standards/)

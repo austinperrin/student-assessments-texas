@@ -19,6 +19,9 @@ workflow references, and local source-document archives live here under
 
 ## Current Sections
 
+- [Audits](./audits/README.md)
+  Durable audit plans, coverage, review evidence, and findings.
+
 - [Overview](./overview/)
   Project purpose, current scope, and long-term direction.
 - [Project Navigation](./overview/repository-navigation.md)
