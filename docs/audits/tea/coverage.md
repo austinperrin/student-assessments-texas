@@ -9,8 +9,8 @@ do not infer coverage from the roadmap schedule.
 
 The [framework readiness review](./framework-readiness.md) began on 2026-09-24.
 It validates inventory and audit prerequisites; no year-level review coverage
-is completed by that work. Full lint now passes, and M0 is In Review pending
-framework acceptance and merge.
+is completed by that work. Full lint and GitHub CI passed; M0 completed on
+2026-09-24 after framework PR #16 merged.
 
 Pilot assignments: Austin Perrin is program owner and independent verifier;
 Codex is reviewer. Operational samples are unavailable, as confirmed by the
