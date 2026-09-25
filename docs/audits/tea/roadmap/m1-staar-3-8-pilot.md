@@ -1,6 +1,7 @@
 # Milestone 1: STAAR Grades 3-8 Pilot
 
-- Status: Not Started
+- Status: In Progress
+- Actual start: 2026-09-25
 - Estimate: 45 business days
 - Dependencies: Milestone 0 completed
 - Planned dates: 2026-10-05 through 2026-12-04
@@ -19,13 +20,13 @@ measured effort.
 
 ## Milestone Pre-Checklist
 
-- [ ] Framework is merged and the templates are stable.
+- [x] Framework is merged and the templates are stable.
 - [x] Reviewer and verifier assignments are recorded in coverage.
 - [ ] Official and archived sources are inventoried for 2012-2026.
 - [x] Operational samples are confirmed unavailable; record this limitation in
       each year review.
-- [ ] Create `audit/tea-staar-3-8` from the current `main`.
-- [ ] Initialize the family integration record and year sequence.
+- [x] Create `audit/tea-staar-3-8` from the current `main`.
+- [x] Initialize the family integration record and year sequence.
 
 <a id="m1-phase-1"></a>
 
