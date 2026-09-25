@@ -15,7 +15,6 @@ Copy this section into the applicable review record.
 - Disposition reason:
 - Accepted by and acceptance date:
 - Mapping:
-- Parser:
 - Source document:
 - Official URL:
 - Source page/table:
@@ -28,7 +27,7 @@ State exactly what the source establishes.
 
 ### Current implementation
 
-Describe the mapping or parser behavior without proposing a fix.
+Describe the mapping behavior without proposing a fix.
 
 ### Impact
 

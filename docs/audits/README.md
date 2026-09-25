@@ -2,8 +2,8 @@
 
 This area contains durable plans, coverage records, review evidence, and closed
 findings for source-fidelity audits. Audit work is separate from remediation:
-reviewers record what the source says before changing canonical mappings,
-parsers, or documentation.
+reviewers record what the source says before changing canonical mappings or
+documentation.
 
 ## Contents
 

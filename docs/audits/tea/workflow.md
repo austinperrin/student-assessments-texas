@@ -11,7 +11,7 @@ review coverage. Review records and findings contain the supporting evidence.
 - A reviewer compares each year with its own source and records the evidence.
 - A verifier other than the original reviewer independently reproduces high-
   and critical-severity findings before they are confirmed.
-- A remediator changes mappings or parsers only after a finding is confirmed.
+- A remediator changes mappings only after a finding is confirmed.
 - Audit and remediation changes use separate branches and pull requests.
 - Only one year is audited on a year branch. Years within a family are merged
   into that family's audit branch one at a time.
@@ -24,13 +24,13 @@ year branch is created from that family branch and merges back into it after
 year-level review. When every represented year is complete, one family pull
 request merges the family audit branch into `main`.
 
-| Work                         | Branch pattern                                                           | Pull request target                       |
-| ---------------------------- | ------------------------------------------------------------------------ | ----------------------------------------- |
-| Framework or roadmap         | `docs/tea-audit-<topic>`                                                 | `main`                                    |
-| Family audit integration     | `audit/tea-<family>`                                                     | `main`, after all represented years close |
-| Single-year audit            | `audit/tea-<family>-<year>`                                              | `audit/tea-<family>`                      |
-| Finding verification         | the open year branch; otherwise `audit/tea-<family>-<year>-verification` | family audit branch                       |
-| Mapping or parser correction | `fix/tea-<family>-<finding-or-years>`                                    | `main`                                    |
+| Work                     | Branch pattern                                                           | Pull request target                       |
+| ------------------------ | ------------------------------------------------------------------------ | ----------------------------------------- |
+| Framework or roadmap     | `docs/tea-audit-<topic>`                                                 | `main`                                    |
+| Family audit integration | `audit/tea-<family>`                                                     | `main`, after all represented years close |
+| Single-year audit        | `audit/tea-<family>-<year>`                                              | `audit/tea-<family>`                      |
+| Finding verification     | the open year branch; otherwise `audit/tea-<family>-<year>-verification` | family audit branch                       |
+| Mapping correction       | `fix/tea-<family>-<finding-or-years>`                                    | `main`                                    |
 
 Examples:
 
@@ -49,7 +49,7 @@ year, even when adjacent years share a layout.
    milestone is ready.
 2. Add the family audit index and initialize its represented-year checklist.
 3. Create the first `audit/tea-<family>-<year>` branch from the family branch.
-4. Complete that year's source/mapping, parser, and available-sample review.
+4. Complete that year's source/mapping and available-sample review.
 5. Review the year branch and merge it into the family branch.
 6. Create the next year branch from the updated family branch and repeat.
 7. Reconcile family-wide findings, coverage, and cross-year observations on
@@ -65,9 +65,8 @@ year and family records. Merge that year record through its year branch and
 retain `blocked` for unfinished layers in coverage. Family sign-off must name
 these exceptions explicitly; never count them as completed review layers.
 
-Audit years in the order defined by the governing milestone. Starting with the
-most recent year is allowed when it helps validate current parser behavior, but
-the branch sequence must be recorded in the family audit index.
+Audit years in the order defined by the governing milestone. The branch
+sequence must be recorded in the family audit index.
 
 ## Tracked Record Layout
 
@@ -128,8 +127,7 @@ Before a year branch merges into its family branch, its review records:
 - verifier status and required follow-up
 
 The year review may close with confirmed findings still open when each one has
-an owner and disposition. It must not edit the mappings or parsers under
-review.
+an owner and disposition. It must not edit the mappings under review.
 
 ### Family Pull Request
 

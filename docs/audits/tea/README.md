@@ -2,8 +2,8 @@
 
 ## Objective
 
-Verify that every tracked TEA mapping and related parser represents the
-corresponding source layout accurately, and record enough evidence for another
+Verify that every tracked TEA mapping represents the corresponding source
+layout accurately, and record enough evidence for another
 reviewer to reproduce each conclusion.
 
 ## Program Navigation
@@ -53,13 +53,11 @@ defects.
 
 ## Review Layers
 
-Each family/year receives three separately recorded reviews:
+Each family/year receives two separately recorded reviews:
 
 1. **Source and mapping:** official URL, archived copy, version alignment,
    positions, lengths, titles, codes, blanks, order, and metadata.
-2. **Parser:** field references, joins, subject selection, score eligibility,
-   history/current-year separation, and duplicate handling.
-3. **Operational evidence:** representative delivered records when available,
+2. **Operational evidence:** representative delivered records when available,
    including edge cases. A missing sample is recorded as a limitation.
 
 ## Roles
@@ -87,8 +85,8 @@ names the owner, reason, and review date.
 - **Critical:** can associate results with the wrong student or materially alter
   high-stakes interpretation across many records.
 - **High:** can select, omit, or materially misinterpret results.
-- **Medium:** mapping meaning, range, metadata, or parser behavior is inaccurate
-  but the primary result remains usable.
+- **Medium:** mapping meaning, range, or metadata is inaccurate but the primary
+  result remains usable.
 - **Low:** documentation, normalization, or maintainability issue with limited
   operational effect.
 
