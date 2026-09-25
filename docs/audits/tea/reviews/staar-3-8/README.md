@@ -58,7 +58,7 @@ that limitation. No accepted blocks have been recorded.
 - [ ] Cross-year conclusions cite the affected year evidence.
 - [ ] Required independent verification is complete.
 - [ ] Confirmed findings have owners and dispositions.
-- [ ] The family pull request contains no mapping or parser corrections.
+- [ ] The family pull request contains no mapping corrections.
 - [ ] Repository validation passes.
 - [ ] Program owner approves merge to `main`.
 
