@@ -9,7 +9,8 @@ review coverage. Review records and findings contain the supporting evidence.
 
 - The program owner maintains roadmap status, assignments, and priorities.
 - A reviewer compares each year with its own source and records the evidence.
-- A verifier independently reproduces high- and critical-severity findings.
+- A verifier other than the original reviewer independently reproduces high-
+  and critical-severity findings before they are confirmed.
 - A remediator changes mappings or parsers only after a finding is confirmed.
 - Audit and remediation changes use separate branches and pull requests.
 - Only one year is audited on a year branch. Years within a family are merged
@@ -56,6 +57,13 @@ year, even when adjacent years share a layout.
 8. Open one family audit pull request from `audit/tea-<family>` to `main`.
 9. Merge only after every represented year is closed or has an explicitly
    accepted block with an owner and review date.
+
+For family closure, an accepted block is a documented exception to completed
+review, not a passing review layer. Record the affected year and layer, missing
+evidence, reason, owner, program-owner acceptance, and next review date in the
+year and family records. Merge that year record through its year branch and
+retain `blocked` for unfinished layers in coverage. Family sign-off must name
+these exceptions explicitly; never count them as completed review layers.
 
 Audit years in the order defined by the governing milestone. Starting with the
 most recent year is allowed when it helps validate current parser behavior, but
