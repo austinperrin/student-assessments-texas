@@ -54,5 +54,5 @@ close the audit with explicit downstream-data decisions and residual risks.
 ## Next Step
 
 Execute remediation through separate `fix/tea-*` branches and schedule a new
-audit milestone when source revisions, parser redesign, or operational evidence
-materially changes the conclusions.
+audit milestone when source revisions or operational evidence materially
+changes the conclusions.

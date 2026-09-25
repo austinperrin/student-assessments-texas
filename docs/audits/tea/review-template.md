@@ -14,8 +14,6 @@ relative links for the destination folder.
 - Reviewer:
 - Verifier:
 - Mapping scope:
-- Parser scope:
-- Parser baseline (tracked commit or local SHA-256 and provenance):
 - Operational sample scope:
 
 ## Sources
@@ -39,8 +37,8 @@ meaning.
 
 ## Limitations And Open Questions
 
-Record inaccessible sources, missing parsers, absent samples, and unresolved
-source interpretations.
+Record inaccessible sources, absent samples, and unresolved source
+interpretations.
 
 For each accepted block, record the affected review layer, evidence still
 missing, reason, owner, program-owner acceptance, and next review date. Keep

@@ -21,8 +21,8 @@ branch.
 
 ## Family-Wide Reconciliation
 
-Record supported layout eras, source gaps, parser behavior changes, and shared
-concepts found after the individual year records are compared. Cross-year
+Record supported layout eras, source gaps, and shared concepts found after the
+individual year records are compared. Cross-year
 patterns do not replace evidence in the affected year records.
 
 ## Finding Summary
@@ -43,7 +43,7 @@ required review date.
 - [ ] Cross-year conclusions cite the affected year evidence.
 - [ ] Required independent verification is complete.
 - [ ] Confirmed findings have owners and dispositions.
-- [ ] The family pull request contains no mapping or parser corrections.
+- [ ] The family pull request contains no mapping corrections.
 - [ ] Repository validation passes.
 - [ ] Program owner approves merge to `main`.
 

@@ -40,15 +40,15 @@ does not count toward coverage.
 
 1. After M0 acceptance, create the STAAR 3-8 family branch from current `main`,
    initialize its family record, and create its 2026 year branch.
-2. Record the repository commit, mapping, parser identity, source retrieval
-   date, and archived/online agreement in the year template.
+2. Record the repository commit, mapping, source retrieval date, and
+   archived/online agreement in the year template.
 3. If a source comparison suggests incorrect result eligibility, record a
    candidate using `TEA-STAAR38-2026-001`, exact source page and positions,
    observed implementation, and separately stated proposed disposition.
 4. If classified high or critical, obtain an independent verifier's reproduction
    before confirmation. An unverified candidate remains a candidate.
-5. Record parser and sample limitations separately. Missing samples do not
-   establish that parser behavior is correct or incorrect.
+5. Record sample limitations. Missing samples limit runtime and record-impact
+   conclusions.
 6. Give a confirmed finding an owner and disposition. Any correction uses a
    separate `fix/tea-*` branch and includes a historical-data decision.
 7. Close the year review only after its review requirements and dispositions
@@ -74,8 +74,8 @@ own evidence. Those responsibilities are distinct in the existing workflow.
   verifier other than the original reviewer and a recorded reproduction.
 - Schedule prose: removed the unsupported holiday-buffer references between
   M3 and M4. Planned dates remain unchanged.
-- Local inputs: year records now include parser baseline and source version/hash
-  fields so ignored local files are reproducible inputs.
+- Source inputs: year records now include source version/hash fields so source
+  evidence is reproducible.
 
 ## Agreed Pilot Assignments
 
@@ -85,8 +85,8 @@ Confirmed by the program owner in this session:
 - Reviewer: Codex.
 - Independent verifier: Austin Perrin. Assignment does not constitute completed
   verification; high/critical candidates require his actual review.
-- Operational samples: unavailable. Source and static parser review can proceed
-  once M0 closes; runtime and record-impact conclusions remain limited.
+- Operational samples: unavailable. Source review can proceed once M0 closes;
+  runtime and record-impact conclusions remain limited.
 - Staffing and calendar: provisional. The existing 10-12 reviewer hours and
   3-4 verifier hours per week are planning assumptions, not capacity commitments.
   Rebaseline after the pilot as required by M1.
@@ -124,13 +124,7 @@ order, as specified by [M1](./roadmap/m1-staar-3-8-pilot.md).
   `268062469be138f57ef413df7a6148717607137558a3d3c50b254e47936da774`.
 - Official URL is recorded in mapping metadata; retrieval and archive agreement
   remain pending for the year audit.
-- Local parser: `file_parsers/staar/3_8/2026-staar-3-8-focus-file-parser.sql`.
-  This directory is Git-ignored, so the repository commit does not identify its
-  contents. Its SHA-256 at review time is
-  `de4b531f396a756cef5417f8728b2ab9f90286ce778fdd454bb91fcf409f2ab7`.
-- Local parser inventory: 73 SQL files overall, including all 15 STAAR 3-8 years.
-  Availability is not evidence that those parsers have been reviewed.
 - Operational samples: unavailable, as confirmed by the program owner.
 
-Next, initialize the family and first year branches. No mapping or parser changes
-were made, and no source, parser, or sample review layer is marked complete.
+Next, initialize the family and first year branches. No mapping changes were
+made, and no source or sample review layer is marked complete.
