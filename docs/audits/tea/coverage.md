@@ -21,7 +21,7 @@ do not imply completed review or verification.
 
 | Workstream | Family                            | Represented years | Completed years | Family branch                  | Status      |
 | ---------- | --------------------------------- | ----------------: | --------------: | ------------------------------ | ----------- |
-| A          | STAAR grades 3-8                  |                15 |            0/15 | `audit/tea-staar-3-8`          | in-review   |
+| A          | STAAR grades 3-8                  |                15 |            1/15 | `audit/tea-staar-3-8`          | in-review   |
 | B          | STAAR EOC                         |                15 |            0/15 | `audit/tea-staar-eoc`          | not-started |
 | C          | STAAR Alternate 2 grades 3-8      |                10 |            0/10 | `audit/tea-staar-alt2-3-8`     | not-started |
 | D          | STAAR Alternate 2 EOC             |                10 |            0/10 | `audit/tea-staar-alt2-eoc`     | not-started |
@@ -55,7 +55,7 @@ pull request has merged into `main`.
 | A          | STAAR grades 3-8                  | 2023 | [mapping](../../../assessments/tea/staar/3_8/2023-staar-3-8-fixed-width-mapping.json)                                                 | not-started    | unavailable  | Codex      | Austin Perrin | planned     | â€”                                 |
 | A          | STAAR grades 3-8                  | 2024 | [mapping](../../../assessments/tea/staar/3_8/2024-staar-3-8-fixed-width-mapping.json)                                                 | not-started    | unavailable  | Codex      | Austin Perrin | planned     | â€”                                 |
 | A          | STAAR grades 3-8                  | 2025 | [mapping](../../../assessments/tea/staar/3_8/2025-staar-3-8-fixed-width-mapping.json)                                                 | not-started    | unavailable  | Codex      | Austin Perrin | planned     | â€”                                 |
-| A          | STAAR grades 3-8                  | 2026 | [mapping](../../../assessments/tea/staar/3_8/2026-staar-3-8-fixed-width-mapping.json)                                                 | in-review      | unavailable  | Codex      | Austin Perrin | in-review   | [2026](./reviews/staar-3-8/2026.md) |
+| A          | STAAR grades 3-8                  | 2026 | [mapping](../../../assessments/tea/staar/3_8/2026-staar-3-8-fixed-width-mapping.json)                                                 | complete       | unavailable  | Codex      | Austin Perrin | closed      | [2026](./reviews/staar-3-8/2026.md) |
 | B          | STAAR EOC                         | 2012 | [mapping](../../../assessments/tea/staar/eoc/2012-staar-eoc-fixed-width-mapping.json)                                                 | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                 |
 | B          | STAAR EOC                         | 2013 | [mapping](../../../assessments/tea/staar/eoc/2013-staar-eoc-fixed-width-mapping.json)                                                 | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                 |
 | B          | STAAR EOC                         | 2014 | [mapping](../../../assessments/tea/staar/eoc/2014-staar-eoc-fixed-width-mapping.json)                                                 | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                 |
