@@ -25,7 +25,7 @@ branch. Assignment does not constitute completed review or verification.
 |     6 | 2021 | `audit/tea-staar-3-8-2021` | Codex    | Austin Perrin | closed  | [2021](./2021.md) | `44e7364`    |
 |     7 | 2020 | `audit/tea-staar-3-8-2020` | Codex    | Austin Perrin | closed  | [2020](./2020.md) | `db03cf4`    |
 |     8 | 2019 | `audit/tea-staar-3-8-2019` | Codex    | Austin Perrin | closed  | [2019](./2019.md) | `ad0e995`    |
-|     9 | 2018 | `audit/tea-staar-3-8-2018` | Codex    | Austin Perrin | planned | —                 | —            |
+|     9 | 2018 | `audit/tea-staar-3-8-2018` | Codex    | Austin Perrin | closed  | [2018](./2018.md) | pending      |
 |    10 | 2017 | `audit/tea-staar-3-8-2017` | Codex    | Austin Perrin | planned | —                 | —            |
 |    11 | 2016 | `audit/tea-staar-3-8-2016` | Codex    | Austin Perrin | planned | —                 | —            |
 |    12 | 2015 | `audit/tea-staar-3-8-2015` | Codex    | Austin Perrin | planned | —                 | —            |
