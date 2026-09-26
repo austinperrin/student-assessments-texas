@@ -15,23 +15,23 @@
 Each year branch starts after the preceding year branch merges into this family
 branch. Assignment does not constitute completed review or verification.
 
-| Order | Year | Year branch                | Reviewer | Verifier      | Status  | Review record     | Merge commit |
-| ----: | ---: | -------------------------- | -------- | ------------- | ------- | ----------------- | ------------ |
-|     1 | 2026 | `audit/tea-staar-3-8-2026` | Codex    | Austin Perrin | closed  | [2026](./2026.md) | `46eec60`    |
-|     2 | 2025 | `audit/tea-staar-3-8-2025` | Codex    | Austin Perrin | closed  | [2025](./2025.md) | `9aba10b`    |
-|     3 | 2024 | `audit/tea-staar-3-8-2024` | Codex    | Austin Perrin | closed  | [2024](./2024.md) | `cf3a453`    |
-|     4 | 2023 | `audit/tea-staar-3-8-2023` | Codex    | Austin Perrin | closed  | [2023](./2023.md) | `5c1c895`    |
-|     5 | 2022 | `audit/tea-staar-3-8-2022` | Codex    | Austin Perrin | closed  | [2022](./2022.md) | `7df6bb6`    |
-|     6 | 2021 | `audit/tea-staar-3-8-2021` | Codex    | Austin Perrin | closed  | [2021](./2021.md) | `44e7364`    |
-|     7 | 2020 | `audit/tea-staar-3-8-2020` | Codex    | Austin Perrin | closed  | [2020](./2020.md) | `db03cf4`    |
-|     8 | 2019 | `audit/tea-staar-3-8-2019` | Codex    | Austin Perrin | closed  | [2019](./2019.md) | `ad0e995`    |
-|     9 | 2018 | `audit/tea-staar-3-8-2018` | Codex    | Austin Perrin | closed  | [2018](./2018.md) | `8808766`    |
-|    10 | 2017 | `audit/tea-staar-3-8-2017` | Codex    | Austin Perrin | closed  | [2017](./2017.md) | `4b5007e`    |
-|    11 | 2016 | `audit/tea-staar-3-8-2016` | Codex    | Austin Perrin | closed  | [2016](./2016.md) | `9b8a7b8`    |
-|    12 | 2015 | `audit/tea-staar-3-8-2015` | Codex    | Austin Perrin | closed  | [2015](./2015.md) | `8ad9596`    |
-|    13 | 2014 | `audit/tea-staar-3-8-2014` | Codex    | Austin Perrin | closed  | [2014](./2014.md) | `6a32310`    |
-|    14 | 2013 | `audit/tea-staar-3-8-2013` | Codex    | Austin Perrin | closed  | [2013](./2013.md) | `89c6bf7`    |
-|    15 | 2012 | `audit/tea-staar-3-8-2012` | Codex    | Austin Perrin | planned | —                 | —            |
+| Order | Year | Year branch                | Reviewer | Verifier      | Status | Review record     | Merge commit |
+| ----: | ---: | -------------------------- | -------- | ------------- | ------ | ----------------- | ------------ |
+|     1 | 2026 | `audit/tea-staar-3-8-2026` | Codex    | Austin Perrin | closed | [2026](./2026.md) | `46eec60`    |
+|     2 | 2025 | `audit/tea-staar-3-8-2025` | Codex    | Austin Perrin | closed | [2025](./2025.md) | `9aba10b`    |
+|     3 | 2024 | `audit/tea-staar-3-8-2024` | Codex    | Austin Perrin | closed | [2024](./2024.md) | `cf3a453`    |
+|     4 | 2023 | `audit/tea-staar-3-8-2023` | Codex    | Austin Perrin | closed | [2023](./2023.md) | `5c1c895`    |
+|     5 | 2022 | `audit/tea-staar-3-8-2022` | Codex    | Austin Perrin | closed | [2022](./2022.md) | `7df6bb6`    |
+|     6 | 2021 | `audit/tea-staar-3-8-2021` | Codex    | Austin Perrin | closed | [2021](./2021.md) | `44e7364`    |
+|     7 | 2020 | `audit/tea-staar-3-8-2020` | Codex    | Austin Perrin | closed | [2020](./2020.md) | `db03cf4`    |
+|     8 | 2019 | `audit/tea-staar-3-8-2019` | Codex    | Austin Perrin | closed | [2019](./2019.md) | `ad0e995`    |
+|     9 | 2018 | `audit/tea-staar-3-8-2018` | Codex    | Austin Perrin | closed | [2018](./2018.md) | `8808766`    |
+|    10 | 2017 | `audit/tea-staar-3-8-2017` | Codex    | Austin Perrin | closed | [2017](./2017.md) | `4b5007e`    |
+|    11 | 2016 | `audit/tea-staar-3-8-2016` | Codex    | Austin Perrin | closed | [2016](./2016.md) | `9b8a7b8`    |
+|    12 | 2015 | `audit/tea-staar-3-8-2015` | Codex    | Austin Perrin | closed | [2015](./2015.md) | `8ad9596`    |
+|    13 | 2014 | `audit/tea-staar-3-8-2014` | Codex    | Austin Perrin | closed | [2014](./2014.md) | `6a32310`    |
+|    14 | 2013 | `audit/tea-staar-3-8-2013` | Codex    | Austin Perrin | closed | [2013](./2013.md) | `89c6bf7`    |
+|    15 | 2012 | `audit/tea-staar-3-8-2012` | Codex    | Austin Perrin | closed | [2012](./2012.md) | pending      |
 
 ## Family-Wide Reconciliation
 
