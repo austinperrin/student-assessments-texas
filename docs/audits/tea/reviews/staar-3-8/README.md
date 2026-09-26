@@ -30,7 +30,7 @@ branch. Assignment does not constitute completed review or verification.
 |    11 | 2016 | `audit/tea-staar-3-8-2016` | Codex    | Austin Perrin | closed  | [2016](./2016.md) | `9b8a7b8`    |
 |    12 | 2015 | `audit/tea-staar-3-8-2015` | Codex    | Austin Perrin | closed  | [2015](./2015.md) | `8ad9596`    |
 |    13 | 2014 | `audit/tea-staar-3-8-2014` | Codex    | Austin Perrin | closed  | [2014](./2014.md) | `6a32310`    |
-|    14 | 2013 | `audit/tea-staar-3-8-2013` | Codex    | Austin Perrin | planned | —                 | —            |
+|    14 | 2013 | `audit/tea-staar-3-8-2013` | Codex    | Austin Perrin | closed  | [2013](./2013.md) | pending      |
 |    15 | 2012 | `audit/tea-staar-3-8-2012` | Codex    | Austin Perrin | planned | —                 | —            |
 
 ## Family-Wide Reconciliation
