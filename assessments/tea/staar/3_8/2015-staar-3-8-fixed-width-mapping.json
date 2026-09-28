@@ -408,13 +408,13 @@
     {
       "start_pos": "250",
       "end_pos": "250",
-      "column_header": "eoc_above_grade_writing",
+      "column_header": "instructional_level_writing",
       "column_num": "60"
     },
     {
       "start_pos": "251",
       "end_pos": "251",
-      "column_header": "eoc_above_grade_science",
+      "column_header": "instructional_level_science",
       "column_num": "61"
     },
     {
