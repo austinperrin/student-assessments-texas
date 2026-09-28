@@ -209,6 +209,12 @@
       "column_num": "22"
     },
     {
+      "start_pos": "107",
+      "end_pos": "107",
+      "column_header": "lep_indicator_code",
+      "column_num": "25"
+    },
+    {
       "start_pos": "108",
       "end_pos": "108",
       "column_header": "bilingual_indicator_code",
@@ -239,16 +245,34 @@
       "column_num": "28"
     },
     {
+      "start_pos": "122",
+      "end_pos": "122",
+      "column_header": "career_and_technical_ed_indicator_code",
+      "column_num": "34"
+    },
+    {
       "start_pos": "123",
       "end_pos": "131",
       "column_header": "local_student_id",
       "column_num": "29"
     },
     {
+      "start_pos": "132",
+      "end_pos": "140",
+      "column_header": "document_number",
+      "column_num": "36"
+    },
+    {
       "start_pos": "141",
       "end_pos": "142",
       "column_header": "enrolled_grade",
       "column_num": "30"
+    },
+    {
+      "start_pos": "143",
+      "end_pos": "143",
+      "column_header": "record_update_indicator",
+      "column_num": "38"
     },
     {
       "start_pos": "144",
@@ -401,22 +425,16 @@
       "column_num": "65"
     },
     {
-      "start_pos": "259",
-      "end_pos": "259",
-      "column_header": "text_to_speech_reading_language_arts",
+      "start_pos": "257",
+      "end_pos": "257",
+      "column_header": "linguistic_accommodations_reading_language_arts",
       "column_num": "66"
     },
     {
-      "start_pos": "262",
-      "end_pos": "262",
-      "column_header": "content_and_language_supports_reading_language_arts",
+      "start_pos": "258",
+      "end_pos": "258",
+      "column_header": "standardized_oral_administration_reading_language_arts",
       "column_num": "67"
-    },
-    {
-      "start_pos": "263",
-      "end_pos": "263",
-      "column_header": "asl_signed_videos_reading_language_arts",
-      "column_num": "68"
     },
     {
       "start_pos": "272",
@@ -455,46 +473,10 @@
       "column_num": "74"
     },
     {
-      "start_pos": "279",
-      "end_pos": "279",
-      "column_header": "text_to_speech_mathematics",
+      "start_pos": "278",
+      "end_pos": "278",
+      "column_header": "standardized_oral_administration_mathematics",
       "column_num": "75"
-    },
-    {
-      "start_pos": "282",
-      "end_pos": "282",
-      "column_header": "content_and_language_supports_mathematics",
-      "column_num": "76"
-    },
-    {
-      "start_pos": "283",
-      "end_pos": "283",
-      "column_header": "asl_signed_videos_mathematics",
-      "column_num": "77"
-    },
-    {
-      "start_pos": "286",
-      "end_pos": "286",
-      "column_header": "auto_text_to_speech_reading_language_arts",
-      "column_num": "85"
-    },
-    {
-      "start_pos": "287",
-      "end_pos": "287",
-      "column_header": "auto_text_to_speech_mathematics",
-      "column_num": "86"
-    },
-    {
-      "start_pos": "288",
-      "end_pos": "288",
-      "column_header": "auto_text_to_speech_social_studies",
-      "column_num": "87"
-    },
-    {
-      "start_pos": "289",
-      "end_pos": "289",
-      "column_header": "auto_text_to_speech_science",
-      "column_num": "88"
     },
     {
       "start_pos": "292",
@@ -527,30 +509,6 @@
       "column_num": "82"
     },
     {
-      "start_pos": "297",
-      "end_pos": "297",
-      "column_header": "text_to_speech_writing",
-      "column_num": "83"
-    },
-    {
-      "start_pos": "298",
-      "end_pos": "298",
-      "column_header": "asl_signed_videos_writing",
-      "column_num": "84"
-    },
-    {
-      "start_pos": "300",
-      "end_pos": "300",
-      "column_header": "content_and_language_supports_writing",
-      "column_num": "85"
-    },
-    {
-      "start_pos": "301",
-      "end_pos": "301",
-      "column_header": "spelling_assistance_writing",
-      "column_num": "86"
-    },
-    {
       "start_pos": "312",
       "end_pos": "312",
       "column_header": "designated_supports_social_studies",
@@ -581,22 +539,16 @@
       "column_num": "91"
     },
     {
-      "start_pos": "319",
-      "end_pos": "319",
-      "column_header": "text_to_speech_social_studies",
-      "column_num": "92"
+      "start_pos": "317",
+      "end_pos": "317",
+      "column_header": "linguistic_accommodations_social_studies",
+      "column_num": "88"
     },
     {
-      "start_pos": "322",
-      "end_pos": "322",
-      "column_header": "content_and_language_supports_social_studies",
-      "column_num": "93"
-    },
-    {
-      "start_pos": "323",
-      "end_pos": "323",
-      "column_header": "asl_signed_videos_social_studies",
-      "column_num": "94"
+      "start_pos": "318",
+      "end_pos": "318",
+      "column_header": "standardized_oral_administration_social_studies",
+      "column_num": "89"
     },
     {
       "start_pos": "332",
@@ -635,22 +587,10 @@
       "column_num": "100"
     },
     {
-      "start_pos": "339",
-      "end_pos": "339",
-      "column_header": "text_to_speech_science",
-      "column_num": "101"
-    },
-    {
-      "start_pos": "342",
-      "end_pos": "342",
-      "column_header": "content_and_language_supports_science",
-      "column_num": "102"
-    },
-    {
-      "start_pos": "343",
-      "end_pos": "343",
-      "column_header": "asl_signed_videos_science",
-      "column_num": "103"
+      "start_pos": "338",
+      "end_pos": "338",
+      "column_header": "standardized_oral_administration_science",
+      "column_num": "97"
     },
     {
       "start_pos": "351",
@@ -924,7 +864,7 @@
     },
     {
       "start_pos": "751",
-      "end_pos": "758",
+      "end_pos": "760",
       "column_header": "mathematics_reporting_category_scores"
     },
     {
@@ -1131,11 +1071,6 @@
       "start_pos": "1114",
       "end_pos": "1114",
       "column_header": "writing_test_version"
-    },
-    {
-      "start_pos": "1115",
-      "end_pos": "1115",
-      "column_header": "test_administration_mode_writing"
     },
     {
       "start_pos": "1116",
@@ -1915,6 +1850,30 @@
       "column_header": "previous_year_reading_language_arts_may_retest_enrolled_grade"
     },
     {
+      "start_pos": "2591",
+      "end_pos": "2599",
+      "column_header": "previous_year_reading_language_arts_june_retest_cdc_number",
+      "column_num": "369"
+    },
+    {
+      "start_pos": "2600",
+      "end_pos": "2600",
+      "column_header": "previous_year_reading_language_arts_june_language_version",
+      "column_num": "370"
+    },
+    {
+      "start_pos": "2601",
+      "end_pos": "2601",
+      "column_header": "previous_year_reading_language_arts_june_retest_test_version",
+      "column_num": "371"
+    },
+    {
+      "start_pos": "2602",
+      "end_pos": "2602",
+      "column_header": "previous_year_reading_language_arts_june_retest_score_code",
+      "column_num": "372"
+    },
+    {
       "start_pos": "2603",
       "end_pos": "2603",
       "column_header": "py_rla_june_retest_lvl_ii_sat_perf_students_std"
@@ -1923,6 +1882,24 @@
       "start_pos": "2604",
       "end_pos": "2604",
       "column_header": "py_rla_june_retest_lvl_iii_adv_perf"
+    },
+    {
+      "start_pos": "2605",
+      "end_pos": "2608",
+      "column_header": "previous_year_reading_language_arts_june_retest_scale_score",
+      "column_num": "375"
+    },
+    {
+      "start_pos": "2609",
+      "end_pos": "2610",
+      "column_header": "previous_year_reading_language_arts_june_retest_tested_grade",
+      "column_num": "376"
+    },
+    {
+      "start_pos": "2611",
+      "end_pos": "2612",
+      "column_header": "previous_year_reading_language_arts_june_retest_enrolled_grade",
+      "column_num": "377"
     },
     {
       "start_pos": "2621",
