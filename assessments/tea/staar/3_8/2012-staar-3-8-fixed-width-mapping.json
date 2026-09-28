@@ -224,7 +224,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -380,31 +380,31 @@
     {
       "start_pos": "252",
       "end_pos": "252",
-      "column_header": "designated_supports_reading_language_arts",
+      "column_header": "type_2_accommodation_reading_language_arts",
       "column_num": "60"
     },
     {
       "start_pos": "253",
       "end_pos": "253",
-      "column_header": "braille_refreshable_device_screen_reader_rla",
+      "column_header": "type_2_braille_reading_language_arts",
       "column_num": "61"
     },
     {
       "start_pos": "254",
       "end_pos": "254",
-      "column_header": "large_print_reading_language_arts",
+      "column_header": "type_2_large_print_reading_language_arts",
       "column_num": "62"
     },
     {
       "start_pos": "255",
       "end_pos": "255",
-      "column_header": "oral_administration_reading_language_arts",
+      "column_header": "type_2_oral_administration_reading_language_arts",
       "column_num": "63"
     },
     {
       "start_pos": "256",
       "end_pos": "256",
-      "column_header": "extra_day_reading_language_arts",
+      "column_header": "type_2_extra_time_to_end_of_day_reading_language_arts",
       "column_num": "64"
     },
     {
@@ -428,13 +428,13 @@
     {
       "start_pos": "262",
       "end_pos": "262",
-      "column_header": "content_and_language_supports_reading_language_arts",
+      "column_header": "reading_language_arts_clarification_of_word_meaning_in_english",
       "column_num": "69"
     },
     {
       "start_pos": "263",
       "end_pos": "263",
-      "column_header": "asl_signed_videos_reading_language_arts",
+      "column_header": "reading_language_arts_reading_aloud_of_text",
       "column_num": "70"
     },
     {
@@ -458,37 +458,37 @@
     {
       "start_pos": "272",
       "end_pos": "272",
-      "column_header": "designated_supports_mathematics",
+      "column_header": "type_2_accommodation_mathematics",
       "column_num": "75"
     },
     {
       "start_pos": "273",
       "end_pos": "273",
-      "column_header": "braille_mathematics",
+      "column_header": "type_2_braille_mathematics",
       "column_num": "76"
     },
     {
       "start_pos": "274",
       "end_pos": "274",
-      "column_header": "large_print_mathematics",
+      "column_header": "type_2_large_print_mathematics",
       "column_num": "77"
     },
     {
       "start_pos": "275",
       "end_pos": "275",
-      "column_header": "oral_administration_mathematics",
+      "column_header": "type_2_oral_administration_mathematics",
       "column_num": "78"
     },
     {
       "start_pos": "276",
       "end_pos": "276",
-      "column_header": "extra_day_mathematics",
+      "column_header": "type_2_extra_time_to_end_of_day_mathematics",
       "column_num": "79"
     },
     {
       "start_pos": "277",
       "end_pos": "277",
-      "column_header": "basic_calculator_mathematics",
+      "column_header": "type_3_accommodation_mathematics",
       "column_num": "80"
     },
     {
@@ -506,13 +506,13 @@
     {
       "start_pos": "282",
       "end_pos": "282",
-      "column_header": "content_and_language_supports_mathematics",
+      "column_header": "clarification_of_word_meaning_in_english_mathematics",
       "column_num": "84"
     },
     {
       "start_pos": "283",
       "end_pos": "283",
-      "column_header": "asl_signed_videos_mathematics",
+      "column_header": "reading_aloud_of_text_mathematics",
       "column_num": "85"
     },
     {
@@ -530,7 +530,7 @@
     {
       "start_pos": "286",
       "end_pos": "286",
-      "column_header": "auto_text_to_speech_reading_language_arts",
+      "column_header": "extra_time_to_end_of_day_mathematics",
       "column_num": "88"
     },
     {
@@ -542,43 +542,43 @@
     {
       "start_pos": "292",
       "end_pos": "292",
-      "column_header": "designated_supports_writing",
+      "column_header": "type_2_accommodation_writing",
       "column_num": "91"
     },
     {
       "start_pos": "293",
       "end_pos": "293",
-      "column_header": "braille_refreshable_braille_device_and_screen_reader_writing",
+      "column_header": "type_2_braille_writing",
       "column_num": "92"
     },
     {
       "start_pos": "294",
       "end_pos": "294",
-      "column_header": "large_print_writing",
+      "column_header": "type_2_large_print_writing",
       "column_num": "93"
     },
     {
       "start_pos": "295",
       "end_pos": "295",
-      "column_header": "extra_day_writing",
+      "column_header": "type_2_extra_time_to_end_of_day_writing",
       "column_num": "94"
     },
     {
       "start_pos": "296",
       "end_pos": "296",
-      "column_header": "oral_administration_writing",
+      "column_header": "type_3_accommodation_writing",
       "column_num": "95"
     },
     {
       "start_pos": "297",
       "end_pos": "297",
-      "column_header": "text_to_speech_writing",
+      "column_header": "type_3_extra_day_writing",
       "column_num": "96"
     },
     {
       "start_pos": "301",
       "end_pos": "301",
-      "column_header": "spelling_assistance_writing",
+      "column_header": "dictionary_writing",
       "column_num": "98"
     },
     {
@@ -620,31 +620,31 @@
     {
       "start_pos": "312",
       "end_pos": "312",
-      "column_header": "designated_supports_social_studies",
+      "column_header": "type_2_accommodation_social_studies",
       "column_num": "106"
     },
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "braille_refreshable_device_screen_reader_soc_studies",
+      "column_header": "type_2_braille_social_studies",
       "column_num": "107"
     },
     {
       "start_pos": "314",
       "end_pos": "314",
-      "column_header": "large_print_social_studies",
+      "column_header": "type_2_large_print_social_studies",
       "column_num": "108"
     },
     {
       "start_pos": "315",
       "end_pos": "315",
-      "column_header": "oral_administration_social_studies",
+      "column_header": "type_2_oral_administration_social_studies",
       "column_num": "109"
     },
     {
       "start_pos": "316",
       "end_pos": "316",
-      "column_header": "extra_day_social_studies",
+      "column_header": "type_2_extra_time_to_end_of_day_social_studies",
       "column_num": "110"
     },
     {
@@ -668,13 +668,13 @@
     {
       "start_pos": "322",
       "end_pos": "322",
-      "column_header": "content_and_language_supports_social_studies",
+      "column_header": "clarification_of_word_meaning_in_english_social_studies",
       "column_num": "115"
     },
     {
       "start_pos": "323",
       "end_pos": "323",
-      "column_header": "asl_signed_videos_social_studies",
+      "column_header": "reading_aloud_of_text_social_studies",
       "column_num": "116"
     },
     {
@@ -704,37 +704,37 @@
     {
       "start_pos": "332",
       "end_pos": "332",
-      "column_header": "designated_supports_science",
+      "column_header": "type_2_accommodation_science",
       "column_num": "122"
     },
     {
       "start_pos": "333",
       "end_pos": "333",
-      "column_header": "braille_science",
+      "column_header": "type_2_braille_science",
       "column_num": "123"
     },
     {
       "start_pos": "334",
       "end_pos": "334",
-      "column_header": "large_print_science",
+      "column_header": "type_2_large_print_science",
       "column_num": "124"
     },
     {
       "start_pos": "335",
       "end_pos": "335",
-      "column_header": "oral_administration_science",
+      "column_header": "type_2_oral_administration_science",
       "column_num": "125"
     },
     {
       "start_pos": "336",
       "end_pos": "336",
-      "column_header": "extra_day_science",
+      "column_header": "type_2_extra_time_to_end_of_day_science",
       "column_num": "126"
     },
     {
       "start_pos": "337",
       "end_pos": "337",
-      "column_header": "basic_calculator_science",
+      "column_header": "type_3_accommodation_science",
       "column_num": "127"
     },
     {
@@ -752,13 +752,13 @@
     {
       "start_pos": "342",
       "end_pos": "342",
-      "column_header": "content_and_language_supports_science",
+      "column_header": "clarification_of_word_meaning_in_english_science",
       "column_num": "131"
     },
     {
       "start_pos": "343",
       "end_pos": "343",
-      "column_header": "asl_signed_videos_science",
+      "column_header": "reading_aloud_of_text_science",
       "column_num": "132"
     },
     {
@@ -872,19 +872,19 @@
     {
       "start_pos": "416",
       "end_pos": "416",
-      "column_header": "rla_lvl_ii_sat_perf_phase1_std",
+      "column_header": "reading_language_arts_level_ii_satisfactory_phase_1_standard",
       "column_num": "154"
     },
     {
       "start_pos": "417",
       "end_pos": "417",
-      "column_header": "rla_lvl_iii_adv_accomp_perf",
+      "column_header": "reading_language_arts_level_iii_advanced_accomplished",
       "column_num": "155"
     },
     {
       "start_pos": "419",
       "end_pos": "419",
-      "column_header": "rla_lvl_ii_sat_perf_rec_std",
+      "column_header": "reading_language_arts_level_ii_satisfactory_recommended",
       "column_num": "157"
     },
     {
@@ -998,19 +998,19 @@
     {
       "start_pos": "770",
       "end_pos": "770",
-      "column_header": "math_lvl_ii_sat_perf_phase1_std",
+      "column_header": "mathematics_level_ii_satisfactory_phase_1_standard",
       "column_num": "180"
     },
     {
       "start_pos": "771",
       "end_pos": "771",
-      "column_header": "math_lvl_iii_adv_accomp_perf",
+      "column_header": "mathematics_level_iii_advanced_accomplished",
       "column_num": "181"
     },
     {
       "start_pos": "773",
       "end_pos": "773",
-      "column_header": "math_lvl_ii_sat_perf_rec_std",
+      "column_header": "mathematics_level_ii_satisfactory_recommended_standard",
       "column_num": "183"
     },
     {
@@ -1124,7 +1124,7 @@
     {
       "start_pos": "1116",
       "end_pos": "1116",
-      "column_header": "writing_lvl_ii_sat_perf_phase1_std",
+      "column_header": "writing_level_ii_satisfactory_phase_1_standard",
       "column_num": "206"
     },
     {
@@ -1136,7 +1136,7 @@
     {
       "start_pos": "1119",
       "end_pos": "1119",
-      "column_header": "writing_lvl_ii_sat_perf_rec_std",
+      "column_header": "writing_level_ii_satisfactory_recommended_standard",
       "column_num": "209"
     },
     {
@@ -1256,19 +1256,19 @@
     {
       "start_pos": "1518",
       "end_pos": "1518",
-      "column_header": "soc_studies_lvl_ii_sat_perf_phase1_std",
+      "column_header": "social_studies_level_ii_satisfactory_phase_1_standard",
       "column_num": "234"
     },
     {
       "start_pos": "1519",
       "end_pos": "1519",
-      "column_header": "soc_studies_lvl_iii_adv_accomp_perf",
+      "column_header": "social_studies_level_iii_advanced_accomplished",
       "column_num": "235"
     },
     {
       "start_pos": "1521",
       "end_pos": "1521",
-      "column_header": "soc_studies_lvl_ii_sat_perf_rec_std",
+      "column_header": "social_studies_level_ii_satisfactory_recommended_standard",
       "column_num": "237"
     },
     {
@@ -1376,7 +1376,7 @@
     {
       "start_pos": "1918",
       "end_pos": "1918",
-      "column_header": "sci_lvl_ii_sat_perf_phase1_std",
+      "column_header": "science_level_ii_satisfactory_phase_1_standard",
       "column_num": "260"
     },
     {
@@ -1388,7 +1388,7 @@
     {
       "start_pos": "1921",
       "end_pos": "1921",
-      "column_header": "sci_lvl_ii_sat_perf_rec_std",
+      "column_header": "science_level_ii_satisfactory_recommended_standard",
       "column_num": "263"
     },
     {
