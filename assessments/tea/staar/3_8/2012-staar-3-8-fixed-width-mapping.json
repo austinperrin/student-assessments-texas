@@ -231,16 +231,34 @@
       "column_num": "28"
     },
     {
+      "start_pos": "122",
+      "end_pos": "122",
+      "column_header": "career_and_technical_ed_indicator_code",
+      "column_num": "34"
+    },
+    {
       "start_pos": "123",
       "end_pos": "131",
       "column_header": "local_student_id",
       "column_num": "29"
     },
     {
+      "start_pos": "132",
+      "end_pos": "140",
+      "column_header": "document_number",
+      "column_num": "37"
+    },
+    {
       "start_pos": "141",
       "end_pos": "142",
       "column_header": "enrolled_grade",
       "column_num": "30"
+    },
+    {
+      "start_pos": "143",
+      "end_pos": "143",
+      "column_header": "record_update_indicator",
+      "column_num": "39"
     },
     {
       "start_pos": "144",
@@ -261,18 +279,6 @@
       "start_pos": "157",
       "end_pos": "162",
       "column_header": "family_portal_unique_access_code"
-    },
-    {
-      "start_pos": "163",
-      "end_pos": "163",
-      "column_header": "migrant_student_in_texas_migrant_interstate_program",
-      "column_num": "43"
-    },
-    {
-      "start_pos": "191",
-      "end_pos": "200",
-      "column_header": "tx_unique_student_id",
-      "column_num": "48"
     },
     {
       "start_pos": "201",
@@ -359,6 +365,12 @@
       "column_num": "67"
     },
     {
+      "start_pos": "251",
+      "end_pos": "251",
+      "column_header": "type_1_accommodation_reading_language_arts",
+      "column_num": "60"
+    },
+    {
       "start_pos": "252",
       "end_pos": "252",
       "column_header": "designated_supports_reading_language_arts",
@@ -389,10 +401,22 @@
       "column_num": "65"
     },
     {
-      "start_pos": "259",
-      "end_pos": "259",
-      "column_header": "text_to_speech_reading_language_arts",
+      "start_pos": "257",
+      "end_pos": "257",
+      "column_header": "type_3_accommodation_reading_language_arts",
       "column_num": "66"
+    },
+    {
+      "start_pos": "258",
+      "end_pos": "258",
+      "column_header": "type_3_extra_day_reading_language_arts",
+      "column_num": "67"
+    },
+    {
+      "start_pos": "261",
+      "end_pos": "261",
+      "column_header": "dictionary_reading_language_arts",
+      "column_num": "69"
     },
     {
       "start_pos": "262",
@@ -405,6 +429,24 @@
       "end_pos": "263",
       "column_header": "asl_signed_videos_reading_language_arts",
       "column_num": "68"
+    },
+    {
+      "start_pos": "264",
+      "end_pos": "264",
+      "column_header": "oral_translation_reading_language_arts",
+      "column_num": "72"
+    },
+    {
+      "start_pos": "265",
+      "end_pos": "265",
+      "column_header": "extra_time_to_end_of_day_reading_language_arts",
+      "column_num": "73"
+    },
+    {
+      "start_pos": "271",
+      "end_pos": "271",
+      "column_header": "type_1_accommodation_mathematics",
+      "column_num": "75"
     },
     {
       "start_pos": "272",
@@ -443,10 +485,16 @@
       "column_num": "74"
     },
     {
-      "start_pos": "279",
-      "end_pos": "279",
-      "column_header": "text_to_speech_mathematics",
-      "column_num": "75"
+      "start_pos": "278",
+      "end_pos": "278",
+      "column_header": "type_3_extra_day_mathematics",
+      "column_num": "82"
+    },
+    {
+      "start_pos": "281",
+      "end_pos": "281",
+      "column_header": "bilingual_dictionary_mathematics",
+      "column_num": "84"
     },
     {
       "start_pos": "282",
@@ -461,28 +509,28 @@
       "column_num": "77"
     },
     {
+      "start_pos": "284",
+      "end_pos": "284",
+      "column_header": "oral_translation_mathematics",
+      "column_num": "87"
+    },
+    {
+      "start_pos": "285",
+      "end_pos": "285",
+      "column_header": "bilingual_glossary_mathematics",
+      "column_num": "88"
+    },
+    {
       "start_pos": "286",
       "end_pos": "286",
       "column_header": "auto_text_to_speech_reading_language_arts",
       "column_num": "85"
     },
     {
-      "start_pos": "287",
-      "end_pos": "287",
-      "column_header": "auto_text_to_speech_mathematics",
-      "column_num": "86"
-    },
-    {
-      "start_pos": "288",
-      "end_pos": "288",
-      "column_header": "auto_text_to_speech_social_studies",
-      "column_num": "87"
-    },
-    {
-      "start_pos": "289",
-      "end_pos": "289",
-      "column_header": "auto_text_to_speech_science",
-      "column_num": "88"
+      "start_pos": "291",
+      "end_pos": "291",
+      "column_header": "type_1_accommodation_writing",
+      "column_num": "91"
     },
     {
       "start_pos": "292",
@@ -521,22 +569,46 @@
       "column_num": "83"
     },
     {
-      "start_pos": "298",
-      "end_pos": "298",
-      "column_header": "asl_signed_videos_writing",
-      "column_num": "84"
-    },
-    {
-      "start_pos": "300",
-      "end_pos": "300",
-      "column_header": "content_and_language_supports_writing",
-      "column_num": "85"
-    },
-    {
       "start_pos": "301",
       "end_pos": "301",
       "column_header": "spelling_assistance_writing",
       "column_num": "86"
+    },
+    {
+      "start_pos": "302",
+      "end_pos": "302",
+      "column_header": "clarification_of_word_meaning_in_english_writing",
+      "column_num": "100"
+    },
+    {
+      "start_pos": "303",
+      "end_pos": "303",
+      "column_header": "reading_aloud_of_text_writing",
+      "column_num": "101"
+    },
+    {
+      "start_pos": "304",
+      "end_pos": "304",
+      "column_header": "clarification_in_english_of_words_in_writing_prompt",
+      "column_num": "102"
+    },
+    {
+      "start_pos": "305",
+      "end_pos": "305",
+      "column_header": "oral_translation_writing",
+      "column_num": "103"
+    },
+    {
+      "start_pos": "306",
+      "end_pos": "306",
+      "column_header": "extra_time_to_end_of_day_writing",
+      "column_num": "104"
+    },
+    {
+      "start_pos": "311",
+      "end_pos": "311",
+      "column_header": "type_1_accommodation_social_studies",
+      "column_num": "106"
     },
     {
       "start_pos": "312",
@@ -569,10 +641,22 @@
       "column_num": "91"
     },
     {
-      "start_pos": "319",
-      "end_pos": "319",
-      "column_header": "text_to_speech_social_studies",
-      "column_num": "92"
+      "start_pos": "317",
+      "end_pos": "317",
+      "column_header": "type_3_accommodation_social_studies",
+      "column_num": "112"
+    },
+    {
+      "start_pos": "318",
+      "end_pos": "318",
+      "column_header": "type_3_extra_day_social_studies",
+      "column_num": "113"
+    },
+    {
+      "start_pos": "321",
+      "end_pos": "321",
+      "column_header": "bilingual_dictionary_social_studies",
+      "column_num": "115"
     },
     {
       "start_pos": "322",
@@ -585,6 +669,30 @@
       "end_pos": "323",
       "column_header": "asl_signed_videos_social_studies",
       "column_num": "94"
+    },
+    {
+      "start_pos": "324",
+      "end_pos": "324",
+      "column_header": "oral_translation_social_studies",
+      "column_num": "118"
+    },
+    {
+      "start_pos": "325",
+      "end_pos": "325",
+      "column_header": "bilingual_glossary_social_studies",
+      "column_num": "119"
+    },
+    {
+      "start_pos": "326",
+      "end_pos": "326",
+      "column_header": "extra_time_to_end_of_day_social_studies",
+      "column_num": "120"
+    },
+    {
+      "start_pos": "331",
+      "end_pos": "331",
+      "column_header": "type_1_accommodation_science",
+      "column_num": "122"
     },
     {
       "start_pos": "332",
@@ -623,10 +731,16 @@
       "column_num": "100"
     },
     {
-      "start_pos": "339",
-      "end_pos": "339",
-      "column_header": "text_to_speech_science",
-      "column_num": "101"
+      "start_pos": "338",
+      "end_pos": "338",
+      "column_header": "type_3_extra_day_science",
+      "column_num": "129"
+    },
+    {
+      "start_pos": "341",
+      "end_pos": "341",
+      "column_header": "bilingual_dictionary_science",
+      "column_num": "131"
     },
     {
       "start_pos": "342",
@@ -639,6 +753,24 @@
       "end_pos": "343",
       "column_header": "asl_signed_videos_science",
       "column_num": "103"
+    },
+    {
+      "start_pos": "344",
+      "end_pos": "344",
+      "column_header": "oral_translation_science",
+      "column_num": "134"
+    },
+    {
+      "start_pos": "345",
+      "end_pos": "345",
+      "column_header": "bilingual_glossary_science",
+      "column_num": "135"
+    },
+    {
+      "start_pos": "346",
+      "end_pos": "346",
+      "column_header": "extra_time_to_end_of_day_science",
+      "column_num": "136"
     },
     {
       "start_pos": "351",
@@ -1066,6 +1198,18 @@
       "column_header": "social_studies_staar_modified_form_number"
     },
     {
+      "start_pos": "1601",
+      "end_pos": "1652",
+      "column_header": "social_studies_item_reporting_category_numbers",
+      "column_num": "241"
+    },
+    {
+      "start_pos": "1653",
+      "end_pos": "1704",
+      "column_header": "social_studies_item_student_responses",
+      "column_num": "242"
+    },
+    {
       "start_pos": "1801",
       "end_pos": "1804",
       "column_header": "social_studies_reporting_category_assessed"
@@ -1154,6 +1298,18 @@
       "start_pos": "1923",
       "end_pos": "1924",
       "column_header": "science_staar_modified_form_number"
+    },
+    {
+      "start_pos": "2001",
+      "end_pos": "2054",
+      "column_header": "science_item_reporting_category_numbers",
+      "column_num": "267"
+    },
+    {
+      "start_pos": "2055",
+      "end_pos": "2108",
+      "column_header": "science_item_student_responses",
+      "column_num": "268"
     },
     {
       "start_pos": "2201",
