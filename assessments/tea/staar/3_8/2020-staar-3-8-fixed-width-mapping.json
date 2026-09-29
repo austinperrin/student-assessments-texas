@@ -1319,6 +1319,12 @@
       "column_num": "189"
     },
     {
+      "start_pos": "1901",
+      "end_pos": "1908",
+      "column_header": "science_reporting_category_scores",
+      "column_num": "241"
+    },
+    {
       "start_pos": "1909",
       "end_pos": "1910",
       "column_header": "science_raw_score",
@@ -2783,6 +2789,36 @@
       "column_num": "299"
     },
     {
+      "start_pos": "3011",
+      "end_pos": "3020",
+      "column_header": "tx_unique_staff_id_reading_language_arts",
+      "column_num": "508"
+    },
+    {
+      "start_pos": "3021",
+      "end_pos": "3030",
+      "column_header": "tx_unique_staff_id_mathematics",
+      "column_num": "509"
+    },
+    {
+      "start_pos": "3031",
+      "end_pos": "3040",
+      "column_header": "tx_unique_staff_id_science",
+      "column_num": "510"
+    },
+    {
+      "start_pos": "3041",
+      "end_pos": "3050",
+      "column_header": "tx_unique_staff_id_social_studies",
+      "column_num": "511"
+    },
+    {
+      "start_pos": "3051",
+      "end_pos": "3060",
+      "column_header": "tx_unique_staff_id_writing",
+      "column_num": "512"
+    },
+    {
       "start_pos": "3075",
       "end_pos": "3075",
       "column_header": "el_performance_measure_elpm_plan",
@@ -2811,6 +2847,18 @@
       "end_pos": "3082",
       "column_header": "current_year_telpas_parental_denial",
       "column_num": "304"
+    },
+    {
+      "start_pos": "3083",
+      "end_pos": "3083",
+      "column_header": "current_year_telpas_unschooled_asylee_refugee",
+      "column_num": "519"
+    },
+    {
+      "start_pos": "3084",
+      "end_pos": "3084",
+      "column_header": "current_year_telpas_students_interrupted_formal_education",
+      "column_num": "520"
     },
     {
       "start_pos": "3100",
@@ -2883,6 +2931,12 @@
       "end_pos": "3122",
       "column_header": "algebra_i_masters_grade_level",
       "column_num": "316"
+    },
+    {
+      "start_pos": "3123",
+      "end_pos": "3123",
+      "column_header": "algebra_i_staar_progress_measure",
+      "column_num": "531"
     },
     {
       "start_pos": "3124",
