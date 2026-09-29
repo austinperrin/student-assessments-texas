@@ -497,30 +497,6 @@
       "column_num": "77"
     },
     {
-      "start_pos": "286",
-      "end_pos": "286",
-      "column_header": "auto_text_to_speech_reading_language_arts",
-      "column_num": "85"
-    },
-    {
-      "start_pos": "287",
-      "end_pos": "287",
-      "column_header": "auto_text_to_speech_mathematics",
-      "column_num": "86"
-    },
-    {
-      "start_pos": "288",
-      "end_pos": "288",
-      "column_header": "auto_text_to_speech_social_studies",
-      "column_num": "87"
-    },
-    {
-      "start_pos": "289",
-      "end_pos": "289",
-      "column_header": "auto_text_to_speech_science",
-      "column_num": "88"
-    },
-    {
       "start_pos": "292",
       "end_pos": "292",
       "column_header": "designated_supports_writing",
