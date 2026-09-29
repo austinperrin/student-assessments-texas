@@ -605,6 +605,60 @@
       "column_num": "88"
     },
     {
+      "start_pos": "292",
+      "end_pos": "292",
+      "column_header": "designated_supports_writing",
+      "column_num": "89"
+    },
+    {
+      "start_pos": "293",
+      "end_pos": "293",
+      "column_header": "braille_refreshable_braille_device_screen_reader_writing",
+      "column_num": "90"
+    },
+    {
+      "start_pos": "294",
+      "end_pos": "294",
+      "column_header": "large_print_writing",
+      "column_num": "91"
+    },
+    {
+      "start_pos": "295",
+      "end_pos": "295",
+      "column_header": "extra_day_writing",
+      "column_num": "92"
+    },
+    {
+      "start_pos": "296",
+      "end_pos": "296",
+      "column_header": "oral_administration_writing",
+      "column_num": "93"
+    },
+    {
+      "start_pos": "297",
+      "end_pos": "297",
+      "column_header": "text_to_speech_writing",
+      "column_num": "94"
+    },
+    {
+      "start_pos": "298",
+      "end_pos": "298",
+      "column_header": "asl_signed_videos_writing",
+      "column_num": "95"
+    },
+    {
+      "start_pos": "300",
+      "end_pos": "300",
+      "column_header": "content_and_language_supports_writing",
+      "column_num": "97"
+    },
+    {
+      "start_pos": "301",
+      "end_pos": "301",
+      "column_header": "spelling_assistance_writing",
+      "column_num": "98"
+    },
+    {
       "start_pos": "312",
       "end_pos": "312",
       "column_header": "designated_supports_social_studies",
@@ -1071,6 +1125,96 @@
       "end_pos": "977",
       "column_header": "mathematics_badge_indicator",
       "column_num": "167"
+    },
+    {
+      "start_pos": "1101",
+      "end_pos": "1106",
+      "column_header": "writing_reporting_category_scores",
+      "column_num": "200"
+    },
+    {
+      "start_pos": "1107",
+      "end_pos": "1108",
+      "column_header": "writing_raw_score",
+      "column_num": "201"
+    },
+    {
+      "start_pos": "1109",
+      "end_pos": "1112",
+      "column_header": "writing_scale_score",
+      "column_num": "202"
+    },
+    {
+      "start_pos": "1113",
+      "end_pos": "1113",
+      "column_header": "writing_language_version",
+      "column_num": "203"
+    },
+    {
+      "start_pos": "1114",
+      "end_pos": "1114",
+      "column_header": "writing_test_version",
+      "column_num": "204"
+    },
+    {
+      "start_pos": "1115",
+      "end_pos": "1115",
+      "column_header": "test_administration_mode_writing",
+      "column_num": "205"
+    },
+    {
+      "start_pos": "1123",
+      "end_pos": "1123",
+      "column_header": "meets_grade_level_in_writing",
+      "column_num": "207"
+    },
+    {
+      "start_pos": "1124",
+      "end_pos": "1124",
+      "column_header": "approaches_grade_level_in_writing",
+      "column_num": "208"
+    },
+    {
+      "start_pos": "1125",
+      "end_pos": "1125",
+      "column_header": "masters_grade_level_in_writing",
+      "column_num": "209"
+    },
+    {
+      "start_pos": "1126",
+      "end_pos": "1126",
+      "column_header": "written_composition_score",
+      "column_num": "210"
+    },
+    {
+      "start_pos": "1154",
+      "end_pos": "1154",
+      "column_header": "el_performance_measure_writing",
+      "column_num": "212"
+    },
+    {
+      "start_pos": "1201",
+      "end_pos": "1230",
+      "column_header": "item_reporting_category_numbers_writing",
+      "column_num": "214"
+    },
+    {
+      "start_pos": "1241",
+      "end_pos": "1270",
+      "column_header": "item_student_responses_writing",
+      "column_num": "216"
+    },
+    {
+      "start_pos": "1281",
+      "end_pos": "1310",
+      "column_header": "item_correct_responses_writing",
+      "column_num": "218"
+    },
+    {
+      "start_pos": "1311",
+      "end_pos": "1313",
+      "column_header": "percentile_writing",
+      "column_num": "219"
     },
     {
       "start_pos": "1501",
