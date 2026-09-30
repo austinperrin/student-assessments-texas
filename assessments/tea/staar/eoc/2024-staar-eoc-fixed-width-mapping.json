@@ -19,7 +19,7 @@
           "label": "Summer 2024"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-staar-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2024-staar-eoc-data-file-format-0.pdf"
     }
   ],
   "filename_patterns": [
@@ -241,7 +241,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
@@ -1021,7 +1021,7 @@
     {
       "start_pos": "1219",
       "end_pos": "1219",
-      "column_header": "english_substitute_assessment",
+      "column_header": "english_i_substitute_assessment",
       "column_num": "192"
     },
     {
