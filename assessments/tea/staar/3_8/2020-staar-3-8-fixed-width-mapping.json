@@ -959,12 +959,6 @@
       "column_num": "166"
     },
     {
-      "start_pos": "759",
-      "end_pos": "760",
-      "column_header": "performance_level_indicator_mathematics",
-      "column_num": "167"
-    },
-    {
       "start_pos": "761",
       "end_pos": "762",
       "column_header": "mathematics_raw_score_00_99",
