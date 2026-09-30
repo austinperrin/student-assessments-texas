@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in-review
+- Status: closed
 - Family audit branch: `audit/tea-staar-3-8`
 - Base commit: `6577b326528bddb6f4e8f7eab21fd65667a999a1`
 - Milestone: [M1: STAAR grades 3-8 pilot](../../roadmap/m1-staar-3-8-pilot.md)
@@ -35,28 +35,28 @@ branch. Assignment does not constitute completed review or verification.
 
 ## Family-Wide Reconciliation
 
-Pending completion of all represented-year reviews. Cross-year observations
-will cite evidence from the applicable year records.
+All represented-year reviews and correction dispositions are complete. Each
+year record retains its source-specific evidence and remediation history.
 
 ## Finding Summary
 
-Five confirmed findings have been recorded for 2026. The 2025 review has six
-confirmed findings, including one independently verified high-severity
-finding. Remediation remains separate from this audit branch.
+All five 2026 findings and all six 2025 findings are corrected, independently
+verified where required, and closed. Earlier-year findings are recorded in
+their linked year review records.
 
-| Finding              | Year | Severity | Status    | Owner         | Remediation link |
-| -------------------- | ---: | -------- | --------- | ------------- | ---------------- |
-| TEA-STAAR38-2026-001 | 2026 | medium   | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2026-002 | 2026 | low      | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2026-003 | 2026 | low      | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2026-004 | 2026 | medium   | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2026-005 | 2026 | low      | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-001 | 2025 | high     | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-002 | 2025 | medium   | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-003 | 2025 | medium   | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-004 | 2025 | low      | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-005 | 2025 | low      | confirmed | Austin Perrin | —                |
-| TEA-STAAR38-2025-006 | 2025 | low      | confirmed | Austin Perrin | —                |
+| Finding              | Year | Severity | Status | Owner         | Remediation link                                                            |
+| -------------------- | ---: | -------- | ------ | ------------- | --------------------------------------------------------------------------- |
+| TEA-STAAR38-2026-001 | 2026 | medium   | closed | Austin Perrin | [PR #71](https://github.com/austinperrin/student-assessments-texas/pull/71) |
+| TEA-STAAR38-2026-002 | 2026 | low      | closed | Austin Perrin | [PR #71](https://github.com/austinperrin/student-assessments-texas/pull/71) |
+| TEA-STAAR38-2026-003 | 2026 | low      | closed | Austin Perrin | [PR #71](https://github.com/austinperrin/student-assessments-texas/pull/71) |
+| TEA-STAAR38-2026-004 | 2026 | medium   | closed | Austin Perrin | [PR #71](https://github.com/austinperrin/student-assessments-texas/pull/71) |
+| TEA-STAAR38-2026-005 | 2026 | low      | closed | Austin Perrin | [PR #71](https://github.com/austinperrin/student-assessments-texas/pull/71) |
+| TEA-STAAR38-2025-001 | 2025 | high     | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
+| TEA-STAAR38-2025-002 | 2025 | medium   | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
+| TEA-STAAR38-2025-003 | 2025 | medium   | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
+| TEA-STAAR38-2025-004 | 2025 | low      | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
+| TEA-STAAR38-2025-005 | 2025 | low      | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
+| TEA-STAAR38-2025-006 | 2025 | low      | closed | Austin Perrin | [PR #70](https://github.com/austinperrin/student-assessments-texas/pull/70) |
 
 ## Limitations and Accepted Blocks
 
@@ -65,20 +65,20 @@ that limitation. No accepted blocks have been recorded.
 
 ## Family Pull Request Checklist
 
-- [ ] Every represented year has a merged year branch.
-- [ ] Every year has a completed review record or accepted block.
-- [ ] Coverage agrees with the year records.
-- [ ] Cross-year conclusions cite the affected year evidence.
-- [ ] Required independent verification is complete.
-- [ ] Confirmed findings have owners and dispositions.
-- [ ] The family pull request contains no mapping corrections.
-- [ ] Repository validation passes.
-- [ ] Program owner approves merge to `main`.
+- [x] Every represented year has a merged year branch.
+- [x] Every year has a completed review record or accepted block.
+- [x] Coverage agrees with the year records.
+- [x] Cross-year conclusions cite the affected year evidence.
+- [x] Required independent verification is complete.
+- [x] Confirmed findings have owners and dispositions.
+- [x] The family pull request contains no mapping corrections.
+- [x] Repository validation passes.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
-- Family reviewer lead completed:
-- Family verifier lead completed:
-- Program owner accepted:
+- Family reviewer lead completed: Codex, 2026-09-30
+- Family verifier lead completed: Austin Perrin, 2026-09-30
+- Program owner accepted: Austin Perrin, 2026-09-30
 - Family pull request:
 - Merge commit:
