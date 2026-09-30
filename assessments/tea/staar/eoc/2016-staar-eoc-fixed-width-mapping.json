@@ -19,7 +19,7 @@
           "label": "Summer 2016"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2016-staar-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2016-staar-eoc-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -565,7 +565,7 @@
     {
       "start_pos": "417",
       "end_pos": "417",
-      "column_header": "ell_progess_measure",
+      "column_header": "ell_progress_measure",
       "column_num": "103"
     },
     {
