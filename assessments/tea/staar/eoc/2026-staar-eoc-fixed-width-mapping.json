@@ -19,7 +19,7 @@
           "label": "Summer 2026"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2026-eoc-data-file-layout.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2025-2026-eoc-data-file-layout-final-updated-tagged-new.pdf"
     }
   ],
   "filename_patterns": [
@@ -241,7 +241,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
@@ -847,31 +847,31 @@
     {
       "start_pos": "1026",
       "end_pos": "1027",
-      "column_header": "algebra_i_reporting_category_1",
+      "column_header": "algebra_i_reporting_category_1_raw_score",
       "column_num": "156"
     },
     {
       "start_pos": "1028",
       "end_pos": "1029",
-      "column_header": "algebra_i_reporting_category_2",
+      "column_header": "algebra_i_reporting_category_2_raw_score",
       "column_num": "157"
     },
     {
       "start_pos": "1030",
       "end_pos": "1031",
-      "column_header": "algebra_i_reporting_category_3",
+      "column_header": "algebra_i_reporting_category_3_raw_score",
       "column_num": "158"
     },
     {
       "start_pos": "1032",
       "end_pos": "1033",
-      "column_header": "algebra_i_reporting_category_4",
+      "column_header": "algebra_i_reporting_category_4_raw_score",
       "column_num": "159"
     },
     {
       "start_pos": "1034",
       "end_pos": "1035",
-      "column_header": "algebra_i_reporting_category_5",
+      "column_header": "algebra_i_reporting_category_5_raw_score",
       "column_num": "160"
     },
     {
@@ -1069,37 +1069,37 @@
     {
       "start_pos": "1226",
       "end_pos": "1227",
-      "column_header": "english_i_reporting_category_1",
+      "column_header": "english_i_reporting_category_1_raw_score",
       "column_num": "197"
     },
     {
       "start_pos": "1228",
       "end_pos": "1229",
-      "column_header": "english_i_reporting_category_2",
+      "column_header": "english_i_reporting_category_2_raw_score",
       "column_num": "198"
     },
     {
       "start_pos": "1230",
       "end_pos": "1231",
-      "column_header": "english_i_reporting_category_3",
+      "column_header": "english_i_reporting_category_3_raw_score",
       "column_num": "199"
     },
     {
       "start_pos": "1232",
       "end_pos": "1233",
-      "column_header": "english_i_reporting_category_4",
+      "column_header": "english_i_reporting_category_4_raw_score",
       "column_num": "200"
     },
     {
       "start_pos": "1234",
       "end_pos": "1235",
-      "column_header": "english_i_reporting_category_5",
+      "column_header": "english_i_reporting_category_5_raw_score",
       "column_num": "201"
     },
     {
       "start_pos": "1236",
       "end_pos": "1237",
-      "column_header": "english_i_reporting_category_6",
+      "column_header": "english_i_reporting_category_6_raw_score",
       "column_num": "202"
     },
     {
@@ -1195,37 +1195,37 @@
     {
       "start_pos": "1326",
       "end_pos": "1327",
-      "column_header": "english_ii_reporting_category_1",
+      "column_header": "english_ii_reporting_category_1_raw_score",
       "column_num": "222"
     },
     {
       "start_pos": "1328",
       "end_pos": "1329",
-      "column_header": "english_ii_reporting_category_2",
+      "column_header": "english_ii_reporting_category_2_raw_score",
       "column_num": "223"
     },
     {
       "start_pos": "1330",
       "end_pos": "1331",
-      "column_header": "english_ii_reporting_category_3",
+      "column_header": "english_ii_reporting_category_3_raw_score",
       "column_num": "224"
     },
     {
       "start_pos": "1332",
       "end_pos": "1333",
-      "column_header": "english_ii_reporting_category_4",
+      "column_header": "english_ii_reporting_category_4_raw_score",
       "column_num": "225"
     },
     {
       "start_pos": "1334",
       "end_pos": "1335",
-      "column_header": "english_ii_reporting_category_5",
+      "column_header": "english_ii_reporting_category_5_raw_score",
       "column_num": "226"
     },
     {
       "start_pos": "1336",
       "end_pos": "1337",
-      "column_header": "english_ii_reporting_category_6",
+      "column_header": "english_ii_reporting_category_6_raw_score",
       "column_num": "227"
     },
     {
@@ -1321,25 +1321,25 @@
     {
       "start_pos": "1426",
       "end_pos": "1427",
-      "column_header": "u_s_history_reporting_category_1",
+      "column_header": "u_s_history_reporting_category_1_raw_score",
       "column_num": "246"
     },
     {
       "start_pos": "1428",
       "end_pos": "1429",
-      "column_header": "u_s_history_reporting_category_2",
+      "column_header": "u_s_history_reporting_category_2_raw_score",
       "column_num": "247"
     },
     {
       "start_pos": "1430",
       "end_pos": "1431",
-      "column_header": "u_s_history_reporting_category_3",
+      "column_header": "u_s_history_reporting_category_3_raw_score",
       "column_num": "248"
     },
     {
       "start_pos": "1432",
       "end_pos": "1433",
-      "column_header": "u_s_history_reporting_category_4",
+      "column_header": "u_s_history_reporting_category_4_raw_score",
       "column_num": "249"
     },
     {
