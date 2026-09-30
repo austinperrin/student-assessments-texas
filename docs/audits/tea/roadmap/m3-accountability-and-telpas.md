@@ -13,48 +13,46 @@ multi-assessment, language-domain, and historical-result semantics.
 ## Owners
 
 - Milestone owner: Program owner
-- Execution: Assigned family reviewers
-- Verification: Assigned independent verifiers
+- Execution: Assigned Reviewer 1 teams
+- Verification: Assigned Reviewer 2 teams
 
 ## Milestone Pre-Checklist
 
 - [ ] Source inventories and assignments are current.
 - [ ] Holiday availability and verification capacity are confirmed.
-- [ ] Prior shared-concept findings are available to reviewers.
+- [ ] Distinct Reviewer 1 and Reviewer 2 assignments are recorded.
 
 <a id="m3-phase-1"></a>
 
 ## Phase 1: Consolidated Accountability
 
-- Family branch: `audit/tea-staar-consolidated`
-- Year branches: 2025 through 2021, then 2019 through 2014, one at a time
-- Final PR: `audit/tea-staar-consolidated` to `main`
+- Year branches: one independent `audit-fix/tea-staar-consolidated-<year>`
+  branch per represented year
+- Coordination PR: shared family and coverage closeout after the work wave
 - [ ] Complete all review layers for 11 represented years.
 - [ ] Check how multiple assessment families and administrations coexist.
-- Exit: all 11 year branches are merged, family reconciliation is complete,
-  and the family PR is reviewable.
+- Exit: all 11 year PRs and the coordination closeout are merged.
 
 <a id="m3-phase-2"></a>
 
 ## Phase 2: TELPAS 2012-2021
 
-- Family branch: `audit/tea-telpas`
-- Year branches for this phase: 2021 through 2012, one at a time
+- Year branches: one independent `audit-fix/tea-telpas-<year>` branch for
+  each represented 2012-2021 year
 - [ ] Complete all review layers for 10 years.
 - [ ] Verify domain, composite, proficiency, score-code, and history handling.
-- Exit: all 10 year branches are merged into the TELPAS family branch.
+- Exit: all 10 year PRs are approved and merged.
 
 <a id="m3-phase-3"></a>
 
 ## Phase 3: TELPAS 2022-2026
 
-- Family branch: `audit/tea-telpas`
-- Year branches for this phase: 2026 through 2022, one at a time
-- Final PR: `audit/tea-telpas` to `main`
+- Year branches: one independent `audit-fix/tea-telpas-<year>` branch for
+  each represented 2022-2026 year
+- Coordination PR: shared TELPAS and coverage closeout after the work wave
 - [ ] Complete all review layers for five years.
-- [ ] Reconcile layout transitions with earlier TELPAS evidence.
-- Exit: all 15 year branches are merged, family reconciliation is complete,
-  and the family PR is reviewable.
+- [ ] Confirm each layout independently from its assigned year's source.
+- Exit: all 15 year PRs and the TELPAS coordination closeout are merged.
 
 ## Milestone Review Checklist
 

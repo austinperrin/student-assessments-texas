@@ -26,9 +26,9 @@ reviews/
     2026.md
 ```
 
-A year branch adds or completes only its own `<year>.md`, associated findings,
-and that year's coverage row. Family-wide conclusions belong in the family
-`README.md` after all year branches have merged.
+A year branch adds or completes only its own `<year>.md` and associated
+findings. The coordinator updates coverage and the family `README.md` after a
+wave of independent year pull requests has merged.
 
 Do not create empty family directories in advance. Create each family folder
-on its family audit branch when that audit begins.
+when its first year work unit or coordination record begins.

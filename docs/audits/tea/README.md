@@ -15,8 +15,8 @@ reviewer to reproduce each conclusion.
 - [Coverage](./coverage.md): family-level completion and assignments
 - [Review checklist](./review-checklist.md): required checks for each package
 - [Review record template](./review-template.md): evidence and sign-off record
-- [Family audit template](./family-audit-template.md): year sequence,
-  reconciliation, and final family sign-off
+- [Family audit template](./family-audit-template.md): parallel work-unit
+  coordination and final family sign-off
 - [Review record layout](./reviews/README.md): tracked family and year record
   paths
 - [Finding template](./finding-template.md): stable finding evidence and
@@ -25,10 +25,9 @@ reviewer to reproduce each conclusion.
 The roadmap reports when work is planned and underway. Coverage reports what
 has actually been reviewed. Review records and findings support those claims.
 
-Each represented year has its own review record and branch. Those year
-branches merge one at a time into a family audit branch. The family branch
-merges into `main` through one pull request after all represented years and the
-family-wide reconciliation are complete.
+Each represented year has its own review record, branch, and pull request based
+on `main`. Independent years and families may run in parallel. A coordinator
+updates shared family, coverage, and roadmap records after a wave completes.
 
 ## Scope
 
@@ -63,18 +62,19 @@ Each family/year receives two separately recorded reviews:
 ## Roles
 
 - **Program owner:** maintains scope, priorities, and final dispositions.
-- **Reviewer:** performs the first source comparison and records evidence.
-- **Verifier:** reproduces findings and challenges unsupported conclusions.
-- **Remediator:** implements confirmed corrections in a separate change.
+- **Reviewer 1:** audits and corrects the complete year package and records
+  evidence and validation.
+- **Reviewer 2:** independently validates the final package and returns one
+  consolidated review.
 - **Approver:** accepts the correction and any downstream-data decision.
 
-One person may hold multiple roles, but the reviewer and verifier should differ
-for high- and critical-severity findings. AI reviewers may perform review and
-verification work; an accountable human owns consequential dispositions.
+Either reviewer may be human or AI, but Reviewer 1 and Reviewer 2 must be
+distinct for each work unit. An accountable human owns consequential
+dispositions.
 
 ## Finding States
 
-`candidate` -> `confirmed` or `rejected` -> `planned` -> `corrected` ->
+`candidate` -> `confirmed` or `rejected` -> `corrected` ->
 `verified` -> `closed`
 
 `deferred`, `accepted-risk`, and `blocked` are terminal only when the record
@@ -94,8 +94,8 @@ names the owner, reason, and review date.
 
 The current official TEA or Texas Assessments source governs active mappings.
 The matching archived PDF is compared with it. If they differ, record a source
-version finding before judging the mapping. Do not infer a field from a nearby
-year when the reviewed year's source is clear.
+version finding before judging the mapping. Do not inspect or infer from a
+nearby year during the year review.
 
 ## Completion Criteria
 

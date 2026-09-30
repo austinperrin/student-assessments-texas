@@ -1,6 +1,7 @@
 # TEA Audit Coverage
 
-Statuses: `not-started`, `planned`, `in-review`, `verification`, `remediation`,
+Statuses: `not-started`, `planned`, `reviewer-1-active`,
+`ready-for-reviewer-2`, `corrections-requested`, `approved`, `merged`,
 `closed`, or `blocked`.
 
 These work-level statuses are more detailed than the milestone statuses in the
@@ -12,30 +13,32 @@ It validates inventory and audit prerequisites; no year-level review coverage
 is completed by that work. Full lint and GitHub CI passed; M0 completed on
 2026-09-24 after framework PR #16 merged.
 
-Pilot assignments: Austin Perrin is program owner and independent verifier;
-Codex is reviewer. Operational samples are unavailable, as confirmed by the
+Pilot assignments: Austin Perrin is program owner and Reviewer 2; Codex is
+Reviewer 1. Operational samples are unavailable, as confirmed by the
 program owner. Staffing and calendar assumptions remain provisional. Assignments
 do not imply completed review or verification.
 
 ## Family Summary
 
-| Workstream | Family                            | Represented years | Completed years | Family branch                  | Status      |
-| ---------- | --------------------------------- | ----------------: | --------------: | ------------------------------ | ----------- |
-| A          | STAAR grades 3-8                  |                15 |           15/15 | `audit/tea-staar-3-8`          | complete    |
-| B          | STAAR EOC                         |                15 |            0/15 | `audit/tea-staar-eoc`          | not-started |
-| C          | STAAR Alternate 2 grades 3-8      |                10 |            0/10 | `audit/tea-staar-alt2-3-8`     | not-started |
-| D          | STAAR Alternate 2 EOC             |                10 |            0/10 | `audit/tea-staar-alt2-eoc`     | not-started |
-| E          | STAAR consolidated accountability |                11 |            0/11 | `audit/tea-staar-consolidated` | not-started |
-| F          | STAAR interim                     |                 3 |             0/3 | `audit/tea-staar-interim`      | not-started |
-| G          | TELPAS                            |                15 |            0/15 | `audit/tea-telpas`             | not-started |
-| H          | TELPAS Alternate                  |                 8 |             0/8 | `audit/tea-telpas-alt`         | not-started |
-| I          | TFAR                              |                 2 |             0/2 | `audit/tea-tfar`               | not-started |
-| J          | TTAP                              |                 3 |             0/3 | `audit/tea-ttap`               | not-started |
-| K          | CRS custom                        |                 4 |             0/4 | `audit/tea-crs`                | not-started |
+| Workstream | Family                            | Represented years | Completed years | Coordination branch                          | Status      |
+| ---------- | --------------------------------- | ----------------: | --------------: | -------------------------------------------- | ----------- |
+| A          | STAAR grades 3-8                  |                15 |           15/15 | `audit/tea-staar-3-8` (legacy)               | complete    |
+| B          | STAAR EOC                         |                15 |            0/15 | `docs/tea-audit-staar-eoc-closeout`          | not-started |
+| C          | STAAR Alternate 2 grades 3-8      |                10 |            0/10 | `docs/tea-audit-staar-alt2-3-8-closeout`     | not-started |
+| D          | STAAR Alternate 2 EOC             |                10 |            0/10 | `docs/tea-audit-staar-alt2-eoc-closeout`     | not-started |
+| E          | STAAR consolidated accountability |                11 |            0/11 | `docs/tea-audit-staar-consolidated-closeout` | not-started |
+| F          | STAAR interim                     |                 3 |             0/3 | `docs/tea-audit-staar-interim-closeout`      | not-started |
+| G          | TELPAS                            |                15 |            0/15 | `docs/tea-audit-telpas-closeout`             | not-started |
+| H          | TELPAS Alternate                  |                 8 |             0/8 | `docs/tea-audit-telpas-alt-closeout`         | not-started |
+| I          | TFAR                              |                 2 |             0/2 | `docs/tea-audit-tfar-closeout`               | not-started |
+| J          | TTAP                              |                 3 |             0/3 | `docs/tea-audit-ttap-closeout`               | not-started |
+| K          | CRS custom                        |                 4 |             0/4 | `docs/tea-audit-crs-closeout`                | not-started |
 
 A family is complete only when every represented year below is closed or has an
-accepted block, family-wide reconciliation is complete, and the family audit
-pull request has merged into `main`.
+accepted block and the coordinator's shared coverage and family closeout update
+has merged into `main`. The STAAR grades 3-8 branch documents the legacy pilot
+workflow; new work uses independent year branches described in
+[workflow.md](./workflow.md).
 
 ## Year Coverage
 

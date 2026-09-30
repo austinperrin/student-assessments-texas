@@ -1,9 +1,9 @@
 # Repository Audits
 
 This area contains durable plans, coverage records, review evidence, and closed
-findings for source-fidelity audits. Audit work is separate from remediation:
-reviewers record what the source says before changing canonical mappings or
-documentation.
+findings for source-fidelity audits. Each family/year is an independent work
+unit in which Reviewer 1 completes the audit and supported corrections before
+Reviewer 2 independently validates the final package.
 
 ## Contents
 
@@ -30,8 +30,9 @@ Keep disposable material under `.tmp/audits/`, including PDF text extraction,
 screenshots, ad hoc comparisons, and intermediate notes. Tracked audit records
 must not link to `.tmp` artifacts.
 
-## Audit And Remediation
+## Audit And Correction
 
-An audit pull request may add or update audit records but must not modify the
-assets being audited. Corrections belong in later remediation pull requests so
-the source finding and the proposed change can be reviewed independently.
+A year pull request contains the audit record, supported mapping corrections,
+resolutions, and validation for exactly one family/year. Multiple year work
+units may run in parallel from `main`. Shared coverage, family, and roadmap
+files are updated separately by the program coordinator after a work wave.

@@ -7,17 +7,16 @@ review-layer completion.
 
 ## Team Model
 
-| Role          | Responsibility                                               |
-| ------------- | ------------------------------------------------------------ |
-| Program owner | Scope, sequence, assignments, dispositions, and rebaselining |
-| Reviewer      | Source comparison, sample analysis, and evidence             |
-| Verifier      | Independent reproduction and challenge of material findings  |
-| Remediator    | Confirmed mapping corrections on separate branches           |
-| Approver      | Correction acceptance and downstream-data decision           |
+| Role          | Responsibility                                                   |
+| ------------- | ---------------------------------------------------------------- |
+| Program owner | Scope, assignments, dispositions, coordination, and rebaselining |
+| Reviewer 1    | Complete year audit, corrections, evidence, and validation       |
+| Reviewer 2    | Independent final-package review and consolidated response       |
+| Coordinator   | Shared coverage, family records, roadmap, and wave closeout      |
 
-One person may hold multiple roles. The reviewer and verifier should differ for
-high- and critical-severity findings. An accountable human owns consequential
-dispositions when AI reviewers contribute evidence.
+Either reviewer may be human or AI, but Reviewer 1 and Reviewer 2 must be
+distinct for a work unit. An accountable human owns consequential dispositions
+when AI reviewers contribute evidence.
 
 ## Planning Basis
 
@@ -49,34 +48,34 @@ rather than execution state.
 
 ## Schedule
 
-| Milestone                                                                  | Phase                                                                                    | Estimate | Planned start | Planned end | Actual start | Actual end | Variance        | Status                                           |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------: | ------------: | ----------: | -----------: | ---------: | --------------- | ------------------------------------------------ |
-| [M0: Audit framework](./m0-audit-framework.md)                             |                                                                                          |   7 days |    2026-09-24 |  2026-10-02 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
-|                                                                            | [P1: Governance and templates](./m0-audit-framework.md#m0-phase-1)                       |   3 days |    2026-09-24 |  2026-09-28 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
-|                                                                            | [P2: Roadmap and workflow](./m0-audit-framework.md#m0-phase-2)                           |   2 days |    2026-09-29 |  2026-09-30 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
-|                                                                            | [P3: Framework review](./m0-audit-framework.md#m0-phase-3)                               |   2 days |    2026-10-01 |  2026-10-02 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
-| [M1: STAAR grades 3-8 pilot](./m1-staar-3-8-pilot.md)                      |                                                                                          |  45 days |    2026-10-05 |  2026-12-04 |   2026-09-25 |        TBD | Started Early   | <span style="color: #ca8a04;">In Progress</span> |
-|                                                                            | [P1: 2022-2026](./m1-staar-3-8-pilot.md#m1-phase-1)                                      |  15 days |    2026-10-05 |  2026-10-23 |   2026-09-25 |        TBD | Started Early   | <span style="color: #ca8a04;">In Progress</span> |
-|                                                                            | [P2: 2017-2021](./m1-staar-3-8-pilot.md#m1-phase-2)                                      |  15 days |    2026-10-26 |  2026-11-13 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P3: 2012-2016 and rebaseline](./m1-staar-3-8-pilot.md#m1-phase-3)                       |  15 days |    2026-11-16 |  2026-12-04 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-| [M2: Core STAAR families](./m2-core-staar-families.md)                     |                                                                                          |  90 days |    2027-01-04 |  2027-05-07 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P1: STAAR EOC](./m2-core-staar-families.md#m2-phase-1)                                  |  40 days |    2027-01-04 |  2027-02-26 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P2: Alternate 2 grades 3-8](./m2-core-staar-families.md#m2-phase-2)                     |  25 days |    2027-03-01 |  2027-04-02 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P3: Alternate 2 EOC](./m2-core-staar-families.md#m2-phase-3)                            |  25 days |    2027-04-05 |  2027-05-07 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-| [M3: Accountability and TELPAS](./m3-accountability-and-telpas.md)         |                                                                                          |  65 days |    2027-05-10 |  2027-08-06 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P1: Consolidated accountability](./m3-accountability-and-telpas.md#m3-phase-1)          |  25 days |    2027-05-10 |  2027-06-11 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P2: TELPAS 2012-2021](./m3-accountability-and-telpas.md#m3-phase-2)                     |  25 days |    2027-06-14 |  2027-07-16 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P3: TELPAS 2022-2026](./m3-accountability-and-telpas.md#m3-phase-3)                     |  15 days |    2027-07-19 |  2027-08-06 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-| [M4: Remaining families](./m4-remaining-families.md)                       |                                                                                          |  45 days |    2027-08-09 |  2027-10-08 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P1: TELPAS Alternate](./m4-remaining-families.md#m4-phase-1)                            |  20 days |    2027-08-09 |  2027-09-03 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P2: Interim, TFAR, and TTAP](./m4-remaining-families.md#m4-phase-2)                     |  15 days |    2027-09-06 |  2027-09-24 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P3: CRS custom](./m4-remaining-families.md#m4-phase-3)                                  |  10 days |    2027-09-27 |  2027-10-08 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-| [M5: Cross-family verification](./m5-cross-family-verification.md)         |                                                                                          |  15 days |    2027-10-11 |  2027-10-29 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P1: Shared concepts and source gaps](./m5-cross-family-verification.md#m5-phase-1)      |   8 days |    2027-10-11 |  2027-10-20 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P2: Findings and coverage reconciliation](./m5-cross-family-verification.md#m5-phase-2) |   7 days |    2027-10-21 |  2027-10-29 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-| [M6: Remediation plan and closeout](./m6-remediation-plan-and-closeout.md) |                                                                                          |   5 days |    2027-11-01 |  2027-11-05 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P1: Prioritize remediation](./m6-remediation-plan-and-closeout.md#m6-phase-1)           |   3 days |    2027-11-01 |  2027-11-03 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
-|                                                                            | [P2: Program closeout](./m6-remediation-plan-and-closeout.md#m6-phase-2)                 |   2 days |    2027-11-04 |  2027-11-05 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| Milestone                                                          | Phase                                                                                    | Estimate | Planned start | Planned end | Actual start | Actual end | Variance        | Status                                           |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | -------: | ------------: | ----------: | -----------: | ---------: | --------------- | ------------------------------------------------ |
+| [M0: Audit framework](./m0-audit-framework.md)                     |                                                                                          |   7 days |    2026-09-24 |  2026-10-02 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
+|                                                                    | [P1: Governance and templates](./m0-audit-framework.md#m0-phase-1)                       |   3 days |    2026-09-24 |  2026-09-28 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
+|                                                                    | [P2: Roadmap and workflow](./m0-audit-framework.md#m0-phase-2)                           |   2 days |    2026-09-29 |  2026-09-30 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
+|                                                                    | [P3: Framework review](./m0-audit-framework.md#m0-phase-3)                               |   2 days |    2026-10-01 |  2026-10-02 |   2026-09-24 | 2026-09-24 | Completed Early | <span style="color: green;">Completed</span>     |
+| [M1: STAAR grades 3-8 pilot](./m1-staar-3-8-pilot.md)              |                                                                                          |  45 days |    2026-10-05 |  2026-12-04 |   2026-09-25 |        TBD | Started Early   | <span style="color: #ca8a04;">In Progress</span> |
+|                                                                    | [P1: 2022-2026](./m1-staar-3-8-pilot.md#m1-phase-1)                                      |  15 days |    2026-10-05 |  2026-10-23 |   2026-09-25 |        TBD | Started Early   | <span style="color: #ca8a04;">In Progress</span> |
+|                                                                    | [P2: 2017-2021](./m1-staar-3-8-pilot.md#m1-phase-2)                                      |  15 days |    2026-10-26 |  2026-11-13 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P3: 2012-2016 and rebaseline](./m1-staar-3-8-pilot.md#m1-phase-3)                       |  15 days |    2026-11-16 |  2026-12-04 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| [M2: Core STAAR families](./m2-core-staar-families.md)             |                                                                                          |  90 days |    2027-01-04 |  2027-05-07 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P1: STAAR EOC](./m2-core-staar-families.md#m2-phase-1)                                  |  40 days |    2027-01-04 |  2027-02-26 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P2: Alternate 2 grades 3-8](./m2-core-staar-families.md#m2-phase-2)                     |  25 days |    2027-03-01 |  2027-04-02 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P3: Alternate 2 EOC](./m2-core-staar-families.md#m2-phase-3)                            |  25 days |    2027-04-05 |  2027-05-07 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| [M3: Accountability and TELPAS](./m3-accountability-and-telpas.md) |                                                                                          |  65 days |    2027-05-10 |  2027-08-06 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P1: Consolidated accountability](./m3-accountability-and-telpas.md#m3-phase-1)          |  25 days |    2027-05-10 |  2027-06-11 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P2: TELPAS 2012-2021](./m3-accountability-and-telpas.md#m3-phase-2)                     |  25 days |    2027-06-14 |  2027-07-16 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P3: TELPAS 2022-2026](./m3-accountability-and-telpas.md#m3-phase-3)                     |  15 days |    2027-07-19 |  2027-08-06 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| [M4: Remaining families](./m4-remaining-families.md)               |                                                                                          |  45 days |    2027-08-09 |  2027-10-08 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P1: TELPAS Alternate](./m4-remaining-families.md#m4-phase-1)                            |  20 days |    2027-08-09 |  2027-09-03 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P2: Interim, TFAR, and TTAP](./m4-remaining-families.md#m4-phase-2)                     |  15 days |    2027-09-06 |  2027-09-24 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P3: CRS custom](./m4-remaining-families.md#m4-phase-3)                                  |  10 days |    2027-09-27 |  2027-10-08 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| [M5: Program verification](./m5-cross-family-verification.md)      |                                                                                          |  15 days |    2027-10-11 |  2027-10-29 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P1: Source gaps and exceptions](./m5-cross-family-verification.md#m5-phase-1)           |   8 days |    2027-10-11 |  2027-10-20 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P2: Findings and coverage reconciliation](./m5-cross-family-verification.md#m5-phase-2) |   7 days |    2027-10-21 |  2027-10-29 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+| [M6: Program closeout](./m6-remediation-plan-and-closeout.md)      |                                                                                          |   5 days |    2027-11-01 |  2027-11-05 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P1: Resolve remaining dispositions](./m6-remediation-plan-and-closeout.md#m6-phase-1)   |   3 days |    2027-11-01 |  2027-11-03 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
+|                                                                    | [P2: Program closeout](./m6-remediation-plan-and-closeout.md#m6-phase-2)                 |   2 days |    2027-11-04 |  2027-11-05 |          TBD |        TBD | TBD             | <span style="color: #b91c1c;">Not Started</span> |
 
 December 7-18, 2026 is reserved for pilot rebaselining, source preparation,
 and family assignments. No review work is planned for December 21, 2026
@@ -87,24 +86,22 @@ schedule resumes.
 
 - M0 and M1 are sequential because the pilot validates the framework.
 - M1 completion includes schedule rebaselining before M2 begins.
-- M2 through M4 are planned sequentially for the baseline staffing model.
-  The program owner may approve parallel family branches when independent
-  review capacity exists. Years within one family remain sequential.
+- M2 through M4 retain their planning groups, but independent family/year work
+  units may run in parallel whenever two-reviewer capacity exists.
 - M5 begins only after all represented years have a completed initial review or
   a documented block.
 - M6 begins only after coverage and finding records are reconciled.
-- Remediation may start after a family review closes; confirmed critical
-  findings do not wait for the full audit.
+- Corrections are completed in each year work unit before Reviewer 2 approval.
 
 ## Required Controls
 
 Every milestone contains:
 
 - a pre-checklist for scope and drift control
-- phase checklists sized for focused pull requests
+- phase checklists sized for parallel year work units
 - a branch and pull request plan
 - one year branch and review record per represented year
-- a family integration branch and final family pull request
+- a coordinator-owned shared-state closeout
 - review checks and exit criteria
 - a milestone-level reconciliation and sign-off
 
