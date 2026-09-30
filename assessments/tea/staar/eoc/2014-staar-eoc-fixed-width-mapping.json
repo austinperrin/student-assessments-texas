@@ -19,7 +19,7 @@
           "label": "Summer 2014"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2014-staar-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2014-staar-eoc-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -205,7 +205,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -283,7 +283,7 @@
     {
       "start_pos": "157",
       "end_pos": "162",
-      "column_header": "student_portal_unique_access_code",
+      "column_header": "family_portal_unique_access_code",
       "column_num": "42"
     },
     {
@@ -493,7 +493,7 @@
     {
       "start_pos": "406",
       "end_pos": "409",
-      "column_header": "previous_year_scale_score",
+      "column_header": "previous_year_scale_score_alternate_score",
       "column_num": "92"
     },
     {
@@ -517,7 +517,7 @@
     {
       "start_pos": "413",
       "end_pos": "413",
-      "column_header": "previous_year_level_ii_satisfactory_academic_performance",
+      "column_header": "py_lvl_ii_sat_perf_students_std",
       "column_num": "96"
     },
     {
@@ -535,7 +535,7 @@
     {
       "start_pos": "417",
       "end_pos": "417",
-      "column_header": "ell_progess_measure",
+      "column_header": "ell_progress_measure",
       "column_num": "99"
     },
     {
