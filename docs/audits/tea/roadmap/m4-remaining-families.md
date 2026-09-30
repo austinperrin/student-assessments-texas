@@ -13,8 +13,8 @@ families without reducing the evidence standard for lower-volume work.
 ## Owners
 
 - Milestone owner: Program owner
-- Execution: Assigned family reviewers
-- Verification: Assigned independent verifiers
+- Execution: Assigned Reviewer 1 teams
+- Verification: Assigned Reviewer 2 teams
 
 ## Milestone Pre-Checklist
 
@@ -26,39 +26,34 @@ families without reducing the evidence standard for lower-volume work.
 
 ## Phase 1: TELPAS Alternate
 
-- Family branch: `audit/tea-telpas-alt`
-- Year branches: 2026 through 2019, one at a time
-- Final PR: `audit/tea-telpas-alt` to `main`
+- Year branches: one independent `audit-fix/tea-telpas-alt-<year>` branch per
+  represented year
+- Coordination PR: shared family and coverage closeout after the work wave
 - [ ] Complete all review layers for eight years.
-- [ ] Compare related TELPAS concepts only where source meanings match.
-- Exit: all eight year branches are merged, family reconciliation is complete,
-  and the family PR is reviewable.
+- [ ] Confirm every concept independently from its assigned year's source.
+- Exit: all eight year PRs and the coordination closeout are merged.
 
 <a id="m4-phase-2"></a>
 
 ## Phase 2: Interim, TFAR, and TTAP
 
-- Family branches: `audit/tea-staar-interim`, `audit/tea-tfar`, and
-  `audit/tea-ttap`
-- Year branches: one branch per represented year, newest to oldest within each
-  family
-- Final PR: one family branch to `main` for each family
+- Year branches: one independent `audit-fix/tea-<family>-<year>` branch per
+  represented year
+- Coordination PRs: shared closeout for each family after its work wave
 - [ ] Audit each year in its own review record and branch.
 - [ ] Investigate missing years and distinguish expected absence from source gaps.
-- Exit: every year branch is merged and each of the three family PRs is
-  reviewable.
+- Exit: every year PR and each of the three coordination closeouts are merged.
 
 <a id="m4-phase-3"></a>
 
 ## Phase 3: CRS Custom
 
-- Family branch: `audit/tea-crs`
-- Year branches: 2026, 2025, 2024, and 2023, one at a time
-- Final PR: `audit/tea-crs` to `main`
+- Year branches: one independent `audit-fix/tea-crs-<year>` branch for 2023
+  through 2026
+- Coordination PR: shared CRS and coverage closeout after the work wave
 - [ ] Complete all review layers for four years.
 - [ ] Clearly separate custom-file conventions from statewide file assumptions.
-- Exit: all four year branches are merged, family reconciliation is complete,
-  and the family PR is reviewable.
+- Exit: all four year PRs and the coordination closeout are merged.
 
 ## Milestone Review Checklist
 

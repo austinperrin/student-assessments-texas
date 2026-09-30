@@ -1,178 +1,195 @@
 # TEA Audit Workflow
 
 This workflow governs the TEA assessment audit roadmap. The
-[roadmap index](./roadmap/index.md) owns schedule and status, milestone files
-own execution checklists, and [coverage.md](./coverage.md) records completed
-review coverage. Review records and findings contain the supporting evidence.
+[roadmap index](./roadmap/index.md) owns schedule and status, and
+[coverage.md](./coverage.md) records completed review coverage. Review records
+and findings contain the supporting evidence.
 
-## Working Model
+## Work-Unit Model
 
-- The program owner maintains roadmap status, assignments, and priorities.
-- A reviewer compares each year with its own source and records the evidence.
-- A verifier other than the original reviewer independently reproduces high-
-  and critical-severity findings before they are confirmed.
-- A remediator changes mappings only after a finding is confirmed.
-- Audit and remediation changes use separate branches and pull requests.
-- Only one year is audited on a year branch. Years within a family are merged
-  into that family's audit branch one at a time.
-- Different family branches may run in parallel when reviewers do not overlap.
+One work unit covers one mapping family and one reporting year. Every work unit
+has two distinct reviewers. Either role may be performed by a human or an AI.
 
-## Branch Model
+- **Reviewer 1** owns the complete year package: source review, findings,
+  corrections, resolutions, validation, and the pull request.
+- **Reviewer 2** independently checks the final mapping against that year's
+  source and returns one consolidated approval or correction request.
+- **Program owner** assigns work, resolves consequential dispositions, and
+  coordinates shared family and roadmap updates.
 
-Each family has an integration branch created from an up-to-date `main`. Each
-year branch is created from that family branch and merges back into it after
-year-level review. When every represented year is complete, one family pull
-request merges the family audit branch into `main`.
+Reviewer 1 and Reviewer 2 must not be the same person or agent for a work unit.
+Record each reviewer's identity and type. When AI performs a role, identify the
+agent or review session clearly enough to distinguish the two reviews.
 
-| Work                     | Branch pattern                                                           | Pull request target                       |
-| ------------------------ | ------------------------------------------------------------------------ | ----------------------------------------- |
-| Framework or roadmap     | `docs/tea-audit-<topic>`                                                 | `main`                                    |
-| Family audit integration | `audit/tea-<family>`                                                     | `main`, after all represented years close |
-| Single-year audit        | `audit/tea-<family>-<year>`                                              | `audit/tea-<family>`                      |
-| Finding verification     | the open year branch; otherwise `audit/tea-<family>-<year>-verification` | family audit branch                       |
-| Mapping correction       | `fix/tea-<family>-<finding-or-years>`                                    | `main`                                    |
+Reviewer 1 completes the full pass before handoff. Do not pause after each
+finding for confirmation. Reviewer 2 reports all corrections together when
+practical; Reviewer 1 applies them in one pass, and Reviewer 2 performs the
+final confirmation.
+
+## Source Isolation
+
+The assigned year's official source and matching archive are the evidence for
+that year's conclusions. Do not inspect another year's mapping or source to
+establish, suggest, or normalize a field during the year review. Shared naming
+rules may be applied only when the assigned year's source independently
+supports the same meaning.
+
+Cross-year analysis is a separate, explicitly authorized activity. It must not
+change a year conclusion without reopening that year against its own source.
+
+No tracked source-row manifest or dedicated source-to-mapping validator is
+required. Temporary extraction and working notes belong under `.tmp/audits/`
+and are not authoritative evidence.
+
+## Branch And Pull Request Model
+
+Create every year branch from an up-to-date `main`. A year branch is independent
+of other years, including years in the same family.
+
+| Work                                | Branch pattern                     | Pull request target |
+| ----------------------------------- | ---------------------------------- | ------------------- |
+| Framework or roadmap                | `docs/tea-audit-<topic>`           | `main`              |
+| Year audit and correction           | `audit-fix/tea-<family>-<year>`    | `main`              |
+| Coordinated family or wave closeout | `docs/tea-audit-<family>-closeout` | `main`              |
 
 Examples:
 
-- `audit/tea-staar-3-8`
-- `audit/tea-staar-3-8-2026`
-- `audit/tea-telpas-2021-verification`
-- `fix/tea-staar-3-8-2026-result-eligibility`
+- `audit-fix/tea-staar-eoc-2026`
+- `audit-fix/tea-telpas-2021`
+- `docs/tea-audit-staar-eoc-closeout`
 
-The family branch is an integration and reconciliation branch. Do not perform
-the year audit directly on it. A year branch contains exactly one reporting
-year, even when adjacent years share a layout.
+The year pull request may change only its year mapping, year review record,
+year-specific findings, and the matching source archive when needed. Reviewer 1
+may correct the mapping in the same pull request as the audit record.
 
-## Family Audit Lifecycle
+Shared files such as coverage summaries, family records, and roadmap milestones
+are owned by the program coordinator. Year branches do not edit them. The
+coordinator updates shared state once after a wave of year pull requests merges,
+which avoids conflicts between parallel teams.
 
-1. Create `audit/tea-<family>` from the current `main` after its prerequisite
-   milestone is ready.
-2. Add the family audit index and initialize its represented-year checklist.
-3. Create the first `audit/tea-<family>-<year>` branch from the family branch.
-4. Complete that year's source/mapping and available-sample review.
-5. Review the year branch and merge it into the family branch.
-6. Create the next year branch from the updated family branch and repeat.
-7. Reconcile family-wide findings, coverage, and cross-year observations on
-   the family branch after the final year merges.
-8. Open one family audit pull request from `audit/tea-<family>` to `main`.
-9. Merge only after every represented year is closed or has an explicitly
-   accepted block with an owner and review date.
+## Parallel Execution
 
-For family closure, an accepted block is a documented exception to completed
-review, not a passing review layer. Record the affected year and layer, missing
-evidence, reason, owner, program-owner acceptance, and next review date in the
-year and family records. Merge that year record through its year branch and
-retain `blocked` for unfinished layers in coverage. Family sign-off must name
-these exceptions explicitly; never count them as completed review layers.
+Multiple work units may run simultaneously across families and within a family.
+Each unit must have:
 
-Audit years in the order defined by the governing milestone. The branch
-sequence must be recorded in the family audit index.
+- a unique family/year assignment;
+- named Reviewer 1 and Reviewer 2;
+- a branch created from current `main`;
+- a single year review record and pull request; and
+- no edits to coordinator-owned shared files.
+
+Track active assignments in GitHub issues or project fields instead of a
+frequently edited repository registry. The same reviewer may work on multiple
+units, but nobody may verify their own work.
+
+## Year Work-Unit Lifecycle
+
+1. The program owner assigns the family/year and two distinct reviewers.
+2. Reviewer 1 creates the year branch from current `main` and records the
+   repository and source baselines.
+3. Reviewer 1 audits the entire source, applies all supported corrections,
+   resolves findings, runs validation, and opens one pull request.
+4. Reviewer 2 independently compares the final mapping with the same year's
+   source and submits one consolidated review.
+5. If corrections are requested, Reviewer 1 addresses them together and reruns
+   validation.
+6. Reviewer 2 confirms the final package, and required CI passes.
+7. Merge the year pull request to `main` and delete the branch.
+8. The coordinator updates shared coverage, family, and roadmap records after
+   the applicable wave completes.
+
+An accepted block is not a passing review. Record the affected layer, missing
+evidence, reason, owner, program-owner acceptance, and next review date. Keep
+the work unit `blocked` until the unfinished layer is completed or explicitly
+accepted under the program's exception policy.
 
 ## Tracked Record Layout
 
-Use `reviews/<family>/README.md` for the family integration record and
-`reviews/<family>/<year>.md` for each year review. For example, the STAAR
-grades 3-8 family uses:
+Use `reviews/<family>/README.md` for the coordinator-owned family record and
+`reviews/<family>/<year>.md` for each year work unit. For example:
 
 ```text
-reviews/staar-3-8/README.md
-reviews/staar-3-8/2026.md
-reviews/staar-3-8/2025.md
+reviews/staar-eoc/README.md
+reviews/staar-eoc/2026.md
+reviews/staar-eoc/2025.md
 ```
 
-The year branch updates its year record, its coverage row, and any findings
-created from that year's evidence. The family branch updates the family record,
-summary coverage, and roadmap state during reconciliation.
+The year branch updates only its year record and related finding evidence. The
+coordinator updates the family record, coverage, and roadmap during wave
+closeout.
 
-## Merge Strategy
+## Review Statuses
 
-- Each year branch uses a pull request whose base is the family branch.
-- Year branches merge into the family branch with a non-squash merge so the
-  year-level commits and review boundary remain visible.
-- The family pull request merges into `main` with a non-squash merge so the
-  individual year audit history remains visible on `main`.
-- Delete a year branch after it merges. Delete the family branch after the
-  family pull request merges.
-- Resolve family-branch drift before creating the next year branch. Do not
-  rebase or rewrite year commits after they have been reviewed.
+Use these work-unit statuses:
 
-This is a documented exception to any default squash preference for audit
-branches because retaining the one-year evidence trail is part of the audit
-control.
+`planned` -> `reviewer-1-active` -> `ready-for-reviewer-2` -> `approved` ->
+`merged`
 
-## Commit Naming
+Use `corrections-requested` when Reviewer 2 returns the package and `blocked`
+when required evidence or authority is unavailable. After corrections,
+Reviewer 1 returns the unit to `ready-for-reviewer-2`.
 
-Use the repository's conventional prefixes and keep each commit focused:
+Finding states remain evidence-focused:
 
-- `docs: record 2026 STAAR 3-8 audit`
-- `docs: verify STAAR38-2026-001`
-- `docs: close 2026 STAAR 3-8 audit`
-- `docs: reconcile STAAR 3-8 family audit`
-- `fix: apply 2026 STAAR 3-8 score eligibility rules`
+`candidate` -> `confirmed` or `rejected` -> `corrected` -> `verified` ->
+`closed`
 
-Do not introduce an `audit:` commit type unless the repository commit standard
-is changed separately.
+Use `deferred`, `accepted-risk`, or `blocked` only with an owner, reason, and
+next review date.
 
-## Audit Pull Request
+## Reviewer 1 Handoff
 
-### Year Branch Review
+Before requesting Reviewer 2 review, the pull request and year record must
+contain:
 
-Before a year branch merges into its family branch, its review records:
+- repository baseline, source URL, archive, retrieval date, and version;
+- the complete source and mapping coverage result;
+- every finding, correction, and resolution;
+- limitations and unavailable operational samples;
+- validation commands and results;
+- any historical-data or reprocessing decision; and
+- a statement that only the assigned year's source was used as audit evidence.
 
-- roadmap milestone and phase
-- repository baseline and source versions
-- the single year and review layers completed
-- findings by severity and status
-- limitations and unavailable operational samples
-- verifier status and required follow-up
+## Reviewer 2 Consolidated Review
 
-The year review may close with confirmed findings still open when each one has
-an owner and disposition. It must not edit the mappings under review.
+Reviewer 2 checks the source independently rather than merely confirming
+Reviewer 1's claims. Record one consolidated result containing:
 
-### Family Pull Request
+- items independently verified;
+- corrections requested, with source page and positions;
+- any newly discovered findings;
+- limitations or disagreements; and
+- final status: `approved`, `corrections-requested`, or `blocked`.
 
-The family pull request contains the accumulated year records plus family-wide
-reconciliation. Its description records:
+High- and critical-severity findings always require explicit independent
+reproduction. Lower-severity findings are still covered by the independent
+final-package review.
 
-- every represented year and year-branch merge
-- family coverage totals
-- confirmed, rejected, deferred, and blocked findings
-- cross-year conclusions and remaining limitations
-- remediation links already opened
-- reviewer, verifier, and program-owner sign-off
+## Validation And Merge Gates
 
-## Remediation Pull Request
+1. **Baseline gate:** repository commit, scope, reviewers, and sources are
+   recorded.
+2. **Reviewer 1 gate:** the full year is audited, supported corrections are
+   applied, findings are resolved, and validation passes.
+3. **Reviewer 2 gate:** an independent consolidated review is recorded.
+4. **Correction gate:** every requested correction is resolved or explicitly
+   blocked, and Reviewer 2 confirms the result.
+5. **Merge gate:** required CI passes and the pull request contains only the
+   assigned work-unit files.
+6. **Closeout gate:** the coordinator updates shared coverage and program state.
 
-A remediation pull request links the confirmed finding and records:
+Required repository checks include valid JSON, required mapping shape, string
+values, unique headers, the 63-character header limit, regex compilation where
+applicable, formatting, and lint. Direct PDF inspection remains required for
+ambiguous or wrapped source rows.
 
-- behavior before and after the change
-- exact source evidence supporting the correction
-- validation performed
-- effect on previously processed data
-- whether reprocessing is required, unnecessary, deferred, or unknown
+## Commit And Merge Guidance
 
-Critical findings may use an expedited remediation branch after independent
-confirmation. Coverage and finding records are updated when the correction is
-verified, not merely when code is merged.
+Use focused conventional commits, for example:
 
-## Review Gates
+- `fix: audit and correct 2026 STAAR EOC mapping`
+- `docs: record reviewer 2 approval for 2026 STAAR EOC`
+- `docs: close STAAR EOC audit wave`
 
-1. **Baseline gate:** repository commit, scope, and sources are recorded.
-2. **Candidate gate:** evidence identifies the source page and exact positions.
-3. **Confirmation gate:** the required verifier reproduces the comparison.
-4. **Remediation gate:** correction scope and downstream impact are accepted.
-5. **Merge gate:** required validation passes and unrelated files are absent.
-6. **Closure gate:** coverage, finding status, remediation link, and
-   reprocessing decision are recorded.
-
-## Status Updates
-
-Update the narrowest governing document in the same branch as the work:
-
-- update the review record as evidence is gathered
-- update coverage when a review layer is completed
-- update a milestone checklist when its exit evidence exists
-- update roadmap dates and status when work starts or completes
-
-Do not mark a milestone complete until every phase meets its exit criteria and
-the milestone review checklist is complete.
+Year pull requests merge directly to `main` using the repository's normal merge
+policy. Do not stack year branches or rewrite commits after Reviewer 2 approval.

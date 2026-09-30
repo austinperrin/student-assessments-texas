@@ -7,8 +7,8 @@ Copy this section into the applicable review record.
 
 - Status: candidate
 - Severity: low | medium | high | critical
-- Reviewer:
-- Verifier:
+- Reviewer 1:
+- Reviewer 2:
 - Disposition owner:
 - Target date:
 - Next review date (required for deferred, accepted-risk, or blocked):
@@ -38,16 +38,16 @@ evidence permits.
 
 Describe the correction, further investigation, deferral, or accepted risk.
 
-### Verification
+### Reviewer 2 Verification
 
-Record how a second reviewer reproduced or rejected the finding, including
-the verifier identity, date, evidence, and conclusion. For high or critical
-severity, the verifier must differ from the original reviewer; confirmation
-requires that independent reproduction.
+Record how Reviewer 2 independently reproduced or rejected the finding,
+including identity, reviewer type, date, evidence, and conclusion. Reviewer 2
+must be distinct from Reviewer 1. High- and critical-severity findings require
+explicit independent reproduction.
 
 ### Resolution
 
-- Remediation issue/PR:
+- Year audit-and-correction PR:
 - Correcting commit:
 - Validation:
 - Historical-data decision:

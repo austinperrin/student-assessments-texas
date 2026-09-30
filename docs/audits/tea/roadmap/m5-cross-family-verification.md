@@ -1,4 +1,4 @@
-# Milestone 5: Cross-Family Verification
+# Milestone 5: Program Verification
 
 - Status: Not Started
 - Estimate: 15 business days
@@ -7,14 +7,14 @@
 
 ## Goal
 
-Reconcile shared concepts and program records after every family has been
-reviewed, while preserving legitimate year and family differences.
+Reconcile program records after every family has been reviewed without using
+cross-year or cross-family comparisons as source evidence.
 
 ## Owners
 
 - Milestone owner: Program owner
-- Execution: Senior reviewer or cross-family review pair
-- Verification: Reviewers who did not author the affected family finding
+- Execution: Program coordinator
+- Verification: Reviewers who did not author the affected work-unit finding
 
 ## Milestone Pre-Checklist
 
@@ -24,13 +24,13 @@ reviewed, while preserving legitimate year and family differences.
 
 <a id="m5-phase-1"></a>
 
-## Phase 1: Shared Concepts and Source Gaps
+## Phase 1: Source Gaps And Exceptions
 
-- Branch: `docs/tea-audit-m5-shared-concepts`
-- [ ] Compare recurring identifiers and concepts across confirmed sources.
-- [ ] Review naming differences, score eligibility, history fields, and duplicates.
+- Branch: `docs/tea-audit-m5-source-gaps`
+- [ ] Inventory unresolved source gaps and accepted blocks.
+- [ ] Confirm each year conclusion cites only that year's source.
 - [ ] Reconcile missing, superseded, inaccessible, or conflicting sources.
-- Exit: each inconsistency is supported, rejected, or assigned for follow-up.
+- Exit: every source exception is resolved or assigned for follow-up.
 
 <a id="m5-phase-2"></a>
 
@@ -46,7 +46,7 @@ reviewed, while preserving legitimate year and family differences.
 ## Milestone Review Checklist
 
 - [ ] Both phase exits are complete.
-- [ ] No cross-family normalization overrides a documented meaning change.
+- [ ] No cross-year or cross-family comparison was used as year-level evidence.
 - [ ] All unresolved work has an owner and target.
 - [ ] Roadmap actual dates, variance, and status are updated.
 

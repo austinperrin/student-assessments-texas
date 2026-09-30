@@ -1,4 +1,4 @@
-# Milestone 6: Remediation Plan and Closeout
+# Milestone 6: Program Closeout
 
 - Status: Not Started
 - Estimate: 5 business days
@@ -7,28 +7,28 @@
 
 ## Goal
 
-Turn confirmed findings into an approved, ordered remediation backlog and
-close the audit with explicit downstream-data decisions and residual risks.
+Confirm that work-unit corrections and dispositions are complete, then close
+the audit with explicit downstream-data decisions and residual risks.
 
 ## Owners
 
 - Milestone owner: Program owner
-- Execution: Program owner and remediation leads
+- Execution: Program owner and coordinator
 - Approval: Accountable human approver
 
 ## Milestone Pre-Checklist
 
 - [ ] Confirmed findings and coverage are reconciled.
-- [ ] Existing remediation pull requests are linked.
+- [ ] Year audit-and-correction pull requests are linked.
 - [ ] Program owner and approver availability is confirmed.
 
 <a id="m6-phase-1"></a>
 
-## Phase 1: Prioritize Remediation
+## Phase 1: Resolve Remaining Dispositions
 
-- Branch: `docs/tea-audit-m6-remediation-plan`
-- [ ] Order work by severity, affected years, record volume, and data impact.
-- [ ] Define one correction branch/PR scope for each coherent change.
+- Branch: `docs/tea-audit-m6-dispositions`
+- [ ] Confirm every correction was completed in its year work unit.
+- [ ] Order any accepted blocks by severity and data impact.
 - [ ] Assign owners and target dates.
 - [ ] Record reprocessing as required, unnecessary, deferred, or unknown.
 - Exit: every confirmed open finding has an approved disposition.
@@ -47,12 +47,11 @@ close the audit with explicit downstream-data decisions and residual risks.
 ## Milestone Review Checklist
 
 - [ ] Both phase exits are complete.
-- [ ] Coverage links to final review records and relevant remediation.
+- [ ] Coverage links to final review records and year pull requests.
 - [ ] No confirmed finding lacks an owner or disposition.
 - [ ] Program status is `Completed` or exceptions have explicit review dates.
 
 ## Next Step
 
-Execute remediation through separate `fix/tea-*` branches and schedule a new
-audit milestone when source revisions or operational evidence materially
-changes the conclusions.
+Schedule a new audit work unit when source revisions or operational evidence
+materially changes a conclusion.

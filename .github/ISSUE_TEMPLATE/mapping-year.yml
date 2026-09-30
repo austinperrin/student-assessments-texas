@@ -34,6 +34,22 @@ body:
       description: Describe the requested mapping addition, cleanup, or validation work.
     validations:
       required: true
+  - type: input
+    id: reviewer_1
+    attributes:
+      label: Reviewer 1
+      description: Name the primary reviewer and identify whether they are human or AI.
+      placeholder: Name or agent/session (human or AI)
+    validations:
+      required: false
+  - type: input
+    id: reviewer_2
+    attributes:
+      label: Reviewer 2
+      description: Name the distinct independent reviewer and identify whether they are human or AI.
+      placeholder: Name or agent/session (human or AI)
+    validations:
+      required: false
   - type: textarea
     id: notes
     attributes:

@@ -1,56 +1,58 @@
-# <Family> Audit Integration Record
+# <Family> Audit Coordination Record
 
 ## Family Metadata
 
 - Status: planned
-- Family audit branch: `audit/tea-<family>`
-- Base commit:
 - Milestone:
 - Program owner:
-- Family reviewer lead:
-- Family verifier lead:
+- Coordinator:
+- Closeout branch: `docs/tea-audit-<family>-closeout`
 
-## Year Sequence
+## Parallel Work Units
 
-List every represented year in the order it will be audited. A year branch is
-created only after the preceding year branch has merged into this family
-branch.
+List every represented year. Work units may run concurrently and each year
+branch starts from `main`; no year depends on another year's branch.
 
-| Order | Year | Year branch | Reviewer | Verifier | Status | Review record | Merge commit |
-| ----: | ---: | ----------- | -------- | -------- | ------ | ------------- | ------------ |
+| Year | Year branch | Reviewer 1 | Type | Reviewer 2 | Type | Status | Review record | Pull request |
+| ---: | ----------- | ---------- | ---- | ---------- | ---- | ------ | ------------- | ------------ |
 
-## Family-Wide Reconciliation
+## Coordination Review
 
-Record supported layout eras, source gaps, and shared concepts found after the
-individual year records are compared. Cross-year
-patterns do not replace evidence in the affected year records.
+Confirm inventory, assignments, completed year records, accepted blocks, and
+coverage totals. This is an administrative closeout, not a cross-year source
+comparison. Another year's mapping or source must not be used as evidence for
+a year conclusion.
+
+Any separately authorized cross-year analysis must be recorded as its own scope
+and must reopen each affected year against that year's source before a mapping
+change is made.
 
 ## Finding Summary
 
-| Finding | Year | Severity | Status | Owner | Remediation link |
-| ------- | ---: | -------- | ------ | ----- | ---------------- |
+| Finding | Year | Severity | Status | Owner | Year pull request |
+| ------- | ---: | -------- | ------ | ----- | ----------------- |
 
-## Limitations and Accepted Blocks
+## Limitations And Accepted Blocks
 
 For each accepted block, record the affected year, reason, owner, approval, and
 required review date.
 
-## Family Pull Request Checklist
+## Coordinator Closeout Checklist
 
-- [ ] Every represented year has a merged year branch.
-- [ ] Every year has a completed review record or accepted block.
-- [ ] Coverage agrees with the year records.
-- [ ] Cross-year conclusions cite the affected year evidence.
+- [ ] Every represented year has an approved and merged work unit or an
+      accepted block.
+- [ ] Reviewer 1 and Reviewer 2 are distinct for every work unit.
+- [ ] Every year record includes source-isolation attestations.
+- [ ] Coverage agrees with the merged year records.
 - [ ] Required independent verification is complete.
-- [ ] Confirmed findings have owners and dispositions.
-- [ ] The family pull request contains no mapping corrections.
+- [ ] Confirmed findings have final resolutions or accepted blocks.
+- [ ] Shared coverage, family, and roadmap files are updated once for the wave.
 - [ ] Repository validation passes.
-- [ ] Program owner approves merge to `main`.
+- [ ] Program owner approves closeout.
 
 ## Sign-Off
 
-- Family reviewer lead completed:
-- Family verifier lead completed:
+- Coordinator completed:
 - Program owner accepted:
-- Family pull request:
+- Closeout pull request:
 - Merge commit:
