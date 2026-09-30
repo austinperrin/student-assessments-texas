@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -715,7 +715,7 @@
     {
       "start_pos": "1005",
       "end_pos": "1013",
-      "column_header": "algebra_i_county_district_campus_number",
+      "column_header": "algebra_i_county_district_campus_code",
       "column_num": "134"
     },
     {
@@ -817,7 +817,7 @@
     {
       "start_pos": "1105",
       "end_pos": "1113",
-      "column_header": "biology_county_district_campus_number",
+      "column_header": "biology_county_district_campus_code",
       "column_num": "153"
     },
     {
@@ -913,7 +913,7 @@
     {
       "start_pos": "1205",
       "end_pos": "1213",
-      "column_header": "english_i_county_district_campus_number",
+      "column_header": "english_i_county_district_campus_code",
       "column_num": "171"
     },
     {
@@ -1015,7 +1015,7 @@
     {
       "start_pos": "1305",
       "end_pos": "1313",
-      "column_header": "english_ii_county_district_campus_number",
+      "column_header": "english_ii_county_district_campus_code",
       "column_num": "190"
     },
     {
@@ -1123,7 +1123,7 @@
     {
       "start_pos": "1405",
       "end_pos": "1413",
-      "column_header": "u_s_history_county_district_campus_number",
+      "column_header": "u_s_history_county_district_campus_code",
       "column_num": "210"
     },
     {
