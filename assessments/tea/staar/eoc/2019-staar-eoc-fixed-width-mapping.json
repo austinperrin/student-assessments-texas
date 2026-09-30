@@ -19,7 +19,7 @@
           "label": "Summer 2019"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2019-staar-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2019-staar-eoc-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -427,7 +427,7 @@
     {
       "start_pos": "262",
       "end_pos": "262",
-      "column_header": "spell_check",
+      "column_header": "spelling_assistance",
       "column_num": "72"
     },
     {
@@ -1291,7 +1291,7 @@
     {
       "start_pos": "1622",
       "end_pos": "1622",
-      "column_header": "cy_telpas_sife",
+      "column_header": "current_year_telpas_sife",
       "column_num": "243"
     },
     {
