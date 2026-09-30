@@ -19,7 +19,7 @@
           "label": "Summer 2018"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-staar-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2018-staar-eoc-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -205,7 +205,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -409,7 +409,7 @@
     {
       "start_pos": "262",
       "end_pos": "262",
-      "column_header": "spell_check",
+      "column_header": "spelling_assistance",
       "column_num": "70"
     },
     {
@@ -655,7 +655,7 @@
     {
       "start_pos": "1005",
       "end_pos": "1013",
-      "column_header": "algebra_i_county_district_campus_number",
+      "column_header": "algebra_i_county_district_campus_code",
       "column_num": "125"
     },
     {
@@ -733,7 +733,7 @@
     {
       "start_pos": "1105",
       "end_pos": "1113",
-      "column_header": "biology_county_district_campus_number",
+      "column_header": "biology_county_district_campus_code",
       "column_num": "141"
     },
     {
@@ -805,7 +805,7 @@
     {
       "start_pos": "1205",
       "end_pos": "1213",
-      "column_header": "english_i_county_district_campus_number",
+      "column_header": "english_i_county_district_campus_code",
       "column_num": "155"
     },
     {
@@ -883,7 +883,7 @@
     {
       "start_pos": "1305",
       "end_pos": "1313",
-      "column_header": "english_ii_county_district_campus_number",
+      "column_header": "english_ii_county_district_campus_code",
       "column_num": "170"
     },
     {
@@ -967,7 +967,7 @@
     {
       "start_pos": "1405",
       "end_pos": "1413",
-      "column_header": "u_s_history_county_district_campus_number",
+      "column_header": "u_s_history_county_district_campus_code",
       "column_num": "187"
     },
     {
