@@ -205,7 +205,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -1229,154 +1229,178 @@
       "column_num": "252"
     },
     {
+      "start_pos": "2553",
+      "end_pos": "2553",
+      "column_header": "previous_year_reading_language_arts_on_track_to_level_ii",
+      "column_num": "254"
+    },
+    {
+      "start_pos": "2554",
+      "end_pos": "2554",
+      "column_header": "previous_year_reading_language_arts_progress_measure",
+      "column_num": "255"
+    },
+    {
       "start_pos": "2651",
       "end_pos": "2659",
       "column_header": "previous_year_mathematics_county_district_campus_number",
-      "column_num": "254"
+      "column_num": "257"
     },
     {
       "start_pos": "2662",
       "end_pos": "2662",
       "column_header": "previous_year_mathematics_score_code",
-      "column_num": "256"
+      "column_num": "259"
     },
     {
       "start_pos": "2663",
       "end_pos": "2663",
       "column_header": "py_math_lvl_ii_sat_perf",
-      "column_num": "257"
+      "column_num": "260"
     },
     {
       "start_pos": "2664",
       "end_pos": "2664",
       "column_header": "py_math_lvl_iii_accomp_perf",
-      "column_num": "258"
+      "column_num": "261"
     },
     {
       "start_pos": "2665",
       "end_pos": "2668",
       "column_header": "previous_year_mathematics_scale_score",
-      "column_num": "259"
+      "column_num": "262"
     },
     {
       "start_pos": "2669",
       "end_pos": "2670",
       "column_header": "previous_year_mathematics_tested_grade",
-      "column_num": "260"
+      "column_num": "263"
+    },
+    {
+      "start_pos": "2673",
+      "end_pos": "2673",
+      "column_header": "previous_year_mathematics_on_track_to_level_ii",
+      "column_num": "265"
+    },
+    {
+      "start_pos": "2674",
+      "end_pos": "2674",
+      "column_header": "previous_year_mathematics_progress_measure",
+      "column_num": "266"
     },
     {
       "start_pos": "2741",
       "end_pos": "2749",
       "column_header": "previous_year_writing_county_district_campus_number",
-      "column_num": "262"
+      "column_num": "268"
     },
     {
       "start_pos": "2752",
       "end_pos": "2752",
       "column_header": "previous_year_writing_score_code",
-      "column_num": "264"
+      "column_num": "270"
     },
     {
       "start_pos": "2753",
       "end_pos": "2753",
       "column_header": "py_writing_lvl_ii_sat_perf",
-      "column_num": "265"
+      "column_num": "271"
     },
     {
       "start_pos": "2754",
       "end_pos": "2754",
       "column_header": "py_writing_lvl_iii_accomp_perf",
-      "column_num": "266"
+      "column_num": "272"
     },
     {
       "start_pos": "2755",
       "end_pos": "2758",
       "column_header": "previous_year_writing_scale_score",
-      "column_num": "267"
+      "column_num": "273"
     },
     {
       "start_pos": "2759",
       "end_pos": "2760",
       "column_header": "previous_year_writing_tested_grade",
-      "column_num": "268"
+      "column_num": "274"
     },
     {
       "start_pos": "2771",
       "end_pos": "2779",
       "column_header": "previous_year_social_studies_county_district_campus_number",
-      "column_num": "270"
+      "column_num": "276"
     },
     {
       "start_pos": "2782",
       "end_pos": "2782",
       "column_header": "previous_year_social_studies_score_code",
-      "column_num": "272"
+      "column_num": "278"
     },
     {
       "start_pos": "2783",
       "end_pos": "2783",
       "column_header": "py_soc_studies_lvl_ii_sat_perf",
-      "column_num": "273"
+      "column_num": "279"
     },
     {
       "start_pos": "2784",
       "end_pos": "2784",
       "column_header": "py_soc_studies_lvl_iii_accomp_perf",
-      "column_num": "274"
+      "column_num": "280"
     },
     {
       "start_pos": "2785",
       "end_pos": "2788",
       "column_header": "previous_year_social_studies_scale_score",
-      "column_num": "275"
+      "column_num": "281"
     },
     {
       "start_pos": "2789",
       "end_pos": "2790",
       "column_header": "previous_year_social_studies_tested_grade",
-      "column_num": "276"
+      "column_num": "282"
     },
     {
       "start_pos": "2801",
       "end_pos": "2809",
       "column_header": "previous_year_science_county_district_campus_number",
-      "column_num": "278"
+      "column_num": "284"
     },
     {
       "start_pos": "2812",
       "end_pos": "2812",
       "column_header": "previous_year_science_score_code",
-      "column_num": "280"
+      "column_num": "286"
     },
     {
       "start_pos": "2813",
       "end_pos": "2813",
       "column_header": "py_sci_lvl_ii_sat_perf",
-      "column_num": "281"
+      "column_num": "287"
     },
     {
       "start_pos": "2814",
       "end_pos": "2814",
       "column_header": "py_sci_lvl_iii_accomp_perf",
-      "column_num": "282"
+      "column_num": "288"
     },
     {
       "start_pos": "2815",
       "end_pos": "2818",
       "column_header": "previous_year_science_scale_score",
-      "column_num": "283"
+      "column_num": "289"
     },
     {
       "start_pos": "2819",
       "end_pos": "2820",
       "column_header": "previous_year_science_tested_grade",
-      "column_num": "284"
+      "column_num": "290"
     },
     {
       "start_pos": "4000",
       "end_pos": "4000",
       "column_header": "period",
-      "column_num": "286"
+      "column_num": "292"
     }
   ]
 }
