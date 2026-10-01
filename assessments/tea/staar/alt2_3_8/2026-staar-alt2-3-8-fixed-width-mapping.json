@@ -11,7 +11,7 @@
           "label": "Spring 2026"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-staar-alt2-3-8-data-file-layout.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2026-staar-alt2-3-8-data-file-layout-updated.pdf"
     }
   ],
   "filename_patterns": [
@@ -39,9 +39,9 @@
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^S[FP]_(?:0426|2026)_3[-_]8ALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_0426_3-8ALT_(?:\\d{2}_Region\\d{2}|\\d{6}_.+)_V\\d{2}\\.zip$",
       "references": [
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],
@@ -217,7 +217,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
