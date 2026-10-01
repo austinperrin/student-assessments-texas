@@ -19,7 +19,7 @@
           "label": "Summer 2012"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2012-staar-eoc-assessments-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2012-staar-eoc-data-file-format-0.pdf"
     }
   ],
   "filename_patterns": [
@@ -205,7 +205,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -229,7 +229,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -283,7 +283,7 @@
     {
       "start_pos": "157",
       "end_pos": "162",
-      "column_header": "student_portal_unique_access_code",
+      "column_header": "family_portal_unique_access_code",
       "column_num": "42"
     },
     {
@@ -601,7 +601,7 @@
     {
       "start_pos": "750",
       "end_pos": "750",
-      "column_header": "lvl_ii_sat_perf_rec_std_0ed332",
+      "column_header": "level_ii_satisfactory_academic_performance_recommended_standard",
       "column_num": "109"
     },
     {
