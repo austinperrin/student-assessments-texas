@@ -11,18 +11,18 @@
           "label": "Spring 2016"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2016-staar-alt2-3-8-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/staaralt-2016datafrmt-3-8.pdf"
     }
   ],
   "filename_patterns": [
     {
-      "regex": "^SF_0416_ALT_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "regex": "^SF_0416_ALT_G0[3-8](?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
       ]
     },
     {
-      "regex": "^SF_0416_3-8ALT_G0[3-8](?:_.*)?(?:\\.txt)?$",
+      "regex": "^SF_0416_3-8ALT_G0[3-8](?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
       ]
@@ -35,11 +35,11 @@
       ]
     },
     {
-      "regex": "^SDR_STAAR_ALT_2016_\\d{8}(?:\\.txt)?$",
+      "regex": "^SDR_STAAR_ALT_2016_\\d{8}\\.dat$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^S[FP]_(?:0416|2016)_3[-_]8ALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_(?:0416|2016)_3[-_]8ALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
@@ -493,7 +493,7 @@
     {
       "start_pos": "661",
       "end_pos": "661",
-      "column_header": "provide_images_or_text_separately_reading_language_arts",
+      "column_header": "presentation_reading_language_arts",
       "column_num": "89"
     },
     {
@@ -517,7 +517,7 @@
     {
       "start_pos": "665",
       "end_pos": "665",
-      "column_header": "use_calculator_manipulatives_or_math_tools_rla",
+      "column_header": "calculator_reading_language_arts",
       "column_num": "93"
     },
     {
@@ -679,7 +679,7 @@
     {
       "start_pos": "1011",
       "end_pos": "1011",
-      "column_header": "provide_images_or_text_separately_mathematics",
+      "column_header": "presentation_mathematics",
       "column_num": "129"
     },
     {
@@ -703,7 +703,7 @@
     {
       "start_pos": "1015",
       "end_pos": "1015",
-      "column_header": "use_calculator_manipulatives_or_mathematics_tools_mathematics",
+      "column_header": "calculator_mathematics",
       "column_num": "133"
     },
     {
@@ -823,7 +823,7 @@
     {
       "start_pos": "1411",
       "end_pos": "1411",
-      "column_header": "provide_images_or_text_separately_writing",
+      "column_header": "presentation_writing",
       "column_num": "159"
     },
     {
@@ -847,7 +847,7 @@
     {
       "start_pos": "1415",
       "end_pos": "1415",
-      "column_header": "use_calculator_manipulatives_or_mathematics_tools_writing",
+      "column_header": "calculator_writing",
       "column_num": "163"
     },
     {
@@ -967,7 +967,7 @@
     {
       "start_pos": "1811",
       "end_pos": "1811",
-      "column_header": "provide_images_or_text_separately_social_studies",
+      "column_header": "presentation_social_studies",
       "column_num": "189"
     },
     {
@@ -991,7 +991,7 @@
     {
       "start_pos": "1815",
       "end_pos": "1815",
-      "column_header": "use_calculator_manipulatives_or_math_tools_soc_studies",
+      "column_header": "calculator_social_studies",
       "column_num": "193"
     },
     {
@@ -1111,7 +1111,7 @@
     {
       "start_pos": "2211",
       "end_pos": "2211",
-      "column_header": "provide_images_or_text_separately_science",
+      "column_header": "presentation_science",
       "column_num": "219"
     },
     {
@@ -1135,7 +1135,7 @@
     {
       "start_pos": "2215",
       "end_pos": "2215",
-      "column_header": "use_calculator_manipulatives_or_mathematics_tools_science",
+      "column_header": "calculator_science",
       "column_num": "223"
     },
     {
