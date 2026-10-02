@@ -11,7 +11,7 @@
           "label": "Spring 2017"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -19,7 +19,7 @@
       "regex": "^SF_1517_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
       ]
     },
     {
@@ -27,7 +27,7 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/",
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
       ]
     },
     {
@@ -35,14 +35,14 @@
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/",
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
       ]
     },
     {
       "regex": "^S[FP]_1517_EOCALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf",
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2017-staar-alt2-eoc-data-file-format.pdf"
       ]
     }
   ],
