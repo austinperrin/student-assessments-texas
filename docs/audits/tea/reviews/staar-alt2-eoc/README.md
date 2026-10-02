@@ -65,5 +65,5 @@ blocks.
 - Family reviewer lead completed: Codex, 2026-10-02
 - Year-level verification completed: 2026-10-02
 - Program owner accepted:
-- Family pull request:
+- Family pull request: [#110](https://github.com/austinperrin/student-assessments-texas/pull/110)
 - Merge commit:
