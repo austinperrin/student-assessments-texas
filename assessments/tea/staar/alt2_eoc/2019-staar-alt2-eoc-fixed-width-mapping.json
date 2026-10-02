@@ -11,7 +11,7 @@
           "label": "Spring 2019"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2019-staar-alt2-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/final-2019-staar-alternate-2-end-of-course.pdf"
     }
   ],
   "filename_patterns": [
@@ -178,7 +178,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -202,7 +202,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -244,7 +244,7 @@
     {
       "start_pos": "157",
       "end_pos": "162",
-      "column_header": "student_portal_unique_access_code",
+      "column_header": "family_portal_unique_access_code",
       "column_num": "40"
     },
     {
@@ -503,7 +503,7 @@
       "start_pos": "2000",
       "end_pos": "2000",
       "column_header": "period",
-      "column_num": "99"
+      "column_num": "100"
     }
   ]
 }
