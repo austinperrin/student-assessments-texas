@@ -11,32 +11,32 @@
           "label": "Spring 2018"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-staar-alt2-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/staaralt2-2018datafrmt-eoc.pdf"
     }
   ],
   "filename_patterns": [
     {
-      "regex": "^SF_1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.dat)?$",
+      "regex": "^SF_1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
       ]
     },
     {
-      "regex": "^SF_1518_EOCALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.dat)?$",
+      "regex": "^SF_1518_EOCALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])_ProductionExaminee_.*$",
+      "regex": "^1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])_ProductionExaminee_.*\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^S[FP]_1518_EOCALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.dat)?$",
+      "regex": "^S[FP]_1518_EOCALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
