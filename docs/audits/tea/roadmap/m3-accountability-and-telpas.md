@@ -28,10 +28,12 @@ multi-assessment, language-domain, and historical-result semantics.
 
 - Year branches: one independent `audit-fix/tea-staar-consolidated-<year>`
   branch per represented year
-- Coordination PR: shared family and coverage closeout after the work wave
+- Family branch: `audit/tea-staar-consolidated`; year PRs target this branch
+- Final family PR: shared family and coverage closeout to `main`
 - [ ] Complete all review layers for 11 represented years.
 - [ ] Check how multiple assessment families and administrations coexist.
-- Exit: all 11 year PRs and the coordination closeout are merged.
+- Exit: all 11 year PRs are merged into the family branch, then the completed
+  family PR is merged to `main`.
 
 <a id="m3-phase-2"></a>
 
@@ -39,9 +41,10 @@ multi-assessment, language-domain, and historical-result semantics.
 
 - Year branches: one independent `audit-fix/tea-telpas-<year>` branch for
   each represented 2012-2021 year
+- Family branch: `audit/tea-telpas`; year PRs target this branch
 - [ ] Complete all review layers for 10 years.
 - [ ] Verify domain, composite, proficiency, score-code, and history handling.
-- Exit: all 10 year PRs are approved and merged.
+- Exit: all 10 year PRs are approved and merged into the family branch.
 
 <a id="m3-phase-3"></a>
 
@@ -49,10 +52,12 @@ multi-assessment, language-domain, and historical-result semantics.
 
 - Year branches: one independent `audit-fix/tea-telpas-<year>` branch for
   each represented 2022-2026 year
-- Coordination PR: shared TELPAS and coverage closeout after the work wave
+- Family branch: `audit/tea-telpas`; year PRs target this branch
+- Final family PR: shared TELPAS and coverage closeout to `main`
 - [ ] Complete all review layers for five years.
 - [ ] Confirm each layout independently from its assigned year's source.
-- Exit: all 15 year PRs and the TELPAS coordination closeout are merged.
+- Exit: all 15 year PRs are merged into the family branch, then the completed
+  TELPAS family PR is merged to `main`.
 
 ## Milestone Review Checklist
 

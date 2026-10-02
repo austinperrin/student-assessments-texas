@@ -27,8 +27,9 @@ reviews/
 ```
 
 A year branch adds or completes only its own `<year>.md` and associated
-findings. The coordinator updates coverage and the family `README.md` after a
-wave of independent year pull requests has merged.
+findings, then merges into the family integration branch. After all year pull
+requests have merged there, the coordinator updates coverage and the family
+`README.md` before the family pull request merges to `main`.
 
 Do not create empty family directories in advance. Create each family folder
 when its first year work unit or coordination record begins.

@@ -29,10 +29,11 @@ evidence-backed findings.
 - update roadmap dates, the affected milestone, and coverage together when a
   schedule or scope change would otherwise make them disagree
 - use the branch and pull request boundaries in `tea/workflow.md`
-- create each year branch from current `main` and merge it directly to `main`
+- create one family integration branch from current `main`; create each year
+  branch from that family branch and merge it back into the family branch
 - allow independent family/year work units to run in parallel
 - keep one reporting year per branch, pull request, and review record
 - reserve coverage, family summaries, and roadmap files for a coordinator
-  closeout change after a wave of year pull requests merges
+  closeout change on the family branch after all year pull requests merge
 - do not add a tracked source-row manifest or require a dedicated
   source-to-mapping validator unless the program owner changes that decision

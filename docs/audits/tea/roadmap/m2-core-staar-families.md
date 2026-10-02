@@ -21,7 +21,8 @@ families, preserving each year's distinct layout and behavior.
 - [ ] Pilot process changes are merged.
 - [ ] Family/year inventories and missing-year facts are confirmed.
 - [ ] Review and verification assignments are recorded.
-- [ ] Create every assigned year branch independently from current `main`.
+- [ ] Create one integration branch per family from current `main`, then create
+      every assigned year branch from its family branch.
 
 <a id="m2-phase-1"></a>
 
@@ -29,10 +30,12 @@ families, preserving each year's distinct layout and behavior.
 
 - Year branches: one independent `audit-fix/tea-staar-eoc-<year>` branch per
   represented year
-- Coordination PR: shared family and coverage closeout after the work wave
+- Family branch: `audit/tea-staar-eoc`; year PRs target this branch
+- Final family PR: shared family and coverage closeout to `main`
 - [ ] Complete all review layers for 15 represented years.
 - [ ] Confirm EOC-specific rules against each assigned year's own source.
-- Exit: all 15 year PRs and the coordination closeout are merged.
+- Exit: all 15 year PRs are merged into the family branch, then the completed
+  family PR is merged to `main`.
 
 <a id="m2-phase-2"></a>
 
@@ -40,10 +43,12 @@ families, preserving each year's distinct layout and behavior.
 
 - Year branches: one independent `audit-fix/tea-staar-alt2-3-8-<year>`
   branch per represented year
-- Coordination PR: shared family and coverage closeout after the work wave
+- Family branch: `audit/tea-staar-alt2-3-8`; year PRs target this branch
+- Final family PR: shared family and coverage closeout to `main`
 - [ ] Complete all review layers for 10 represented years.
 - [ ] Record missing years as investigated coverage facts.
-- Exit: all 10 year PRs and the coordination closeout are merged.
+- Exit: all 10 year PRs are merged into the family branch, then the completed
+  family PR is merged to `main`.
 
 <a id="m2-phase-3"></a>
 
@@ -51,10 +56,12 @@ families, preserving each year's distinct layout and behavior.
 
 - Year branches: one independent `audit-fix/tea-staar-alt2-eoc-<year>`
   branch per represented year
-- Coordination PR: shared family and coverage closeout after the work wave
+- Family branch: `audit/tea-staar-alt2-eoc`; year PRs target this branch
+- Final family PR: shared family and coverage closeout to `main`
 - [ ] Complete all review layers for 10 represented years.
 - [ ] Confirm Alternate 2 concepts independently from each year's source.
-- Exit: all 10 year PRs and the coordination closeout are merged.
+- Exit: all 10 year PRs are merged into the family branch, then the completed
+  family PR is merged to `main`.
 
 ## Milestone Review Checklist
 
