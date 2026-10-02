@@ -58,8 +58,10 @@ families, preserving each year's distinct layout and behavior.
   branch per represented year
 - Family branch: `audit/tea-staar-alt2-eoc`; year PRs target this branch
 - Final family PR: shared family and coverage closeout to `main`
-- [ ] Complete all review layers for 10 represented years.
-- [ ] Confirm Alternate 2 concepts independently from each year's source.
+- [x] Complete all review layers for 10 represented years.
+- [x] Confirm Alternate 2 concepts independently from each year's source.
+- Actual review completion: 2026-10-02; final family PR pending program-owner
+  approval and merge to `main`.
 - Exit: all 10 year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
