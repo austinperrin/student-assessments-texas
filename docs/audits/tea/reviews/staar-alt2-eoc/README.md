@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: ready-for-family-review
+- Status: closed
 - Family audit branch: `audit/tea-staar-alt2-eoc`
 - Base commit: `0d5401a509bb64bfe5566206508e530108c59b13`
 - Milestone: [M2: Core STAAR families](../../roadmap/m2-core-staar-families.md)
@@ -58,12 +58,12 @@ blocks.
 - [x] Confirmed findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
 - [x] Repository validation passes on the family closeout head.
-- [ ] Program owner approves merge to `main`.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
 - Family reviewer lead completed: Codex, 2026-10-02
 - Year-level verification completed: 2026-10-02
-- Program owner accepted:
+- Program owner accepted: Austin Perrin, 2026-10-02
 - Family pull request: [#110](https://github.com/austinperrin/student-assessments-texas/pull/110)
-- Merge commit:
+- Merge commit: `fe1870b`
