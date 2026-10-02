@@ -28,10 +28,12 @@ families without reducing the evidence standard for lower-volume work.
 
 - Year branches: one independent `audit-fix/tea-telpas-alt-<year>` branch per
   represented year
-- Coordination PR: shared family and coverage closeout after the work wave
+- Family branch: `audit/tea-telpas-alt`; year PRs target this branch
+- Final family PR: shared family and coverage closeout to `main`
 - [ ] Complete all review layers for eight years.
 - [ ] Confirm every concept independently from its assigned year's source.
-- Exit: all eight year PRs and the coordination closeout are merged.
+- Exit: all eight year PRs are merged into the family branch, then the completed
+  family PR is merged to `main`.
 
 <a id="m4-phase-2"></a>
 
@@ -39,10 +41,13 @@ families without reducing the evidence standard for lower-volume work.
 
 - Year branches: one independent `audit-fix/tea-<family>-<year>` branch per
   represented year
-- Coordination PRs: shared closeout for each family after its work wave
+- Family branches: one `audit/tea-<family>` branch per family; year PRs target
+  the matching family branch
+- Final family PRs: shared closeout from each family branch to `main`
 - [ ] Audit each year in its own review record and branch.
 - [ ] Investigate missing years and distinguish expected absence from source gaps.
-- Exit: every year PR and each of the three coordination closeouts are merged.
+- Exit: every year PR is merged into its family branch, then each completed
+  family PR is merged to `main`.
 
 <a id="m4-phase-3"></a>
 
@@ -50,10 +55,12 @@ families without reducing the evidence standard for lower-volume work.
 
 - Year branches: one independent `audit-fix/tea-crs-<year>` branch for 2023
   through 2026
-- Coordination PR: shared CRS and coverage closeout after the work wave
+- Family branch: `audit/tea-crs`; year PRs target this branch
+- Final family PR: shared CRS and coverage closeout to `main`
 - [ ] Complete all review layers for four years.
 - [ ] Clearly separate custom-file conventions from statewide file assumptions.
-- Exit: all four year PRs and the coordination closeout are merged.
+- Exit: all four year PRs are merged into the family branch, then the completed
+  CRS family PR is merged to `main`.
 
 ## Milestone Review Checklist
 

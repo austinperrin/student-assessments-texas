@@ -43,29 +43,31 @@ and are not authoritative evidence.
 
 ## Branch And Pull Request Model
 
-Create every year branch from an up-to-date `main`. A year branch is independent
-of other years, including years in the same family.
+Create one family integration branch from an up-to-date `main`. Create every
+year branch from that family branch, and target every year pull request back to
+the family branch. A year branch remains an independent work unit and must not
+depend on another year's source or mapping evidence.
 
-| Work                                | Branch pattern                     | Pull request target |
-| ----------------------------------- | ---------------------------------- | ------------------- |
-| Framework or roadmap                | `docs/tea-audit-<topic>`           | `main`              |
-| Year audit and correction           | `audit-fix/tea-<family>-<year>`    | `main`              |
-| Coordinated family or wave closeout | `docs/tea-audit-<family>-closeout` | `main`              |
+| Work                      | Branch pattern                  | Pull request target  |
+| ------------------------- | ------------------------------- | -------------------- |
+| Framework or roadmap      | `docs/tea-audit-<topic>`        | `main`               |
+| Family integration        | `audit/tea-<family>`            | `main`               |
+| Year audit and correction | `audit-fix/tea-<family>-<year>` | `audit/tea-<family>` |
 
 Examples:
 
 - `audit-fix/tea-staar-eoc-2026`
 - `audit-fix/tea-telpas-2021`
-- `docs/tea-audit-staar-eoc-closeout`
+- `audit/tea-staar-eoc`
 
 The year pull request may change only its year mapping, year review record,
 year-specific findings, and the matching source archive when needed. Reviewer 1
 may correct the mapping in the same pull request as the audit record.
 
 Shared files such as coverage summaries, family records, and roadmap milestones
-are owned by the program coordinator. Year branches do not edit them. The
-coordinator updates shared state once after a wave of year pull requests merges,
-which avoids conflicts between parallel teams.
+are owned by the program coordinator. Year branches do not edit them. After all
+year pull requests merge into the family branch, the coordinator updates shared
+state once on that family branch before its final pull request to `main`.
 
 ## Parallel Execution
 
@@ -74,7 +76,7 @@ Each unit must have:
 
 - a unique family/year assignment;
 - named Reviewer 1 and Reviewer 2;
-- a branch created from current `main`;
+- a branch created from the assigned family integration branch;
 - a single year review record and pull request; and
 - no edits to coordinator-owned shared files.
 
@@ -85,8 +87,8 @@ units, but nobody may verify their own work.
 ## Year Work-Unit Lifecycle
 
 1. The program owner assigns the family/year and two distinct reviewers.
-2. Reviewer 1 creates the year branch from current `main` and records the
-   repository and source baselines.
+2. Reviewer 1 creates the year branch from the assigned family integration
+   branch and records the repository and source baselines.
 3. Reviewer 1 audits the entire source, applies all supported corrections,
    resolves findings, runs validation, and opens one pull request.
 4. Reviewer 2 independently compares the final mapping with the same year's
@@ -94,9 +96,12 @@ units, but nobody may verify their own work.
 5. If corrections are requested, Reviewer 1 addresses them together and reruns
    validation.
 6. Reviewer 2 confirms the final package, and required CI passes.
-7. Merge the year pull request to `main` and delete the branch.
-8. The coordinator updates shared coverage, family, and roadmap records after
-   the applicable wave completes.
+7. Merge the year pull request into the family integration branch without
+   squashing away the year work-unit boundary, then delete the year branch.
+8. After every represented year is approved and merged, the coordinator updates
+   shared coverage, family, and roadmap records on the family branch.
+9. Validate the integrated family branch, obtain program-owner approval, and
+   merge its final pull request to `main` using the repository's normal policy.
 
 An accepted block is not a passing review. Record the affected layer, missing
 evidence, reason, owner, program-owner acceptance, and next review date. Keep
@@ -115,8 +120,8 @@ reviews/staar-eoc/2025.md
 ```
 
 The year branch updates only its year record and related finding evidence. The
-coordinator updates the family record, coverage, and roadmap during wave
-closeout.
+coordinator updates the family record, coverage, and roadmap on the family
+branch during closeout.
 
 ## Review Statuses
 
@@ -174,9 +179,12 @@ final-package review.
 3. **Reviewer 2 gate:** an independent consolidated review is recorded.
 4. **Correction gate:** every requested correction is resolved or explicitly
    blocked, and Reviewer 2 confirms the result.
-5. **Merge gate:** required CI passes and the pull request contains only the
-   assigned work-unit files.
-6. **Closeout gate:** the coordinator updates shared coverage and program state.
+5. **Year merge gate:** required CI passes, the pull request contains only the
+   assigned work-unit files, and the PR targets the family branch.
+6. **Closeout gate:** every year is integrated and the coordinator updates
+   shared coverage and program state on the family branch.
+7. **Family merge gate:** integrated validation and program-owner approval pass
+   before the family pull request merges to `main`.
 
 Required repository checks include valid JSON, required mapping shape, string
 values, unique headers, the 63-character header limit, regex compilation where
@@ -191,5 +199,7 @@ Use focused conventional commits, for example:
 - `docs: record reviewer 2 approval for 2026 STAAR EOC`
 - `docs: close STAAR EOC audit wave`
 
-Year pull requests merge directly to `main` using the repository's normal merge
-policy. Do not stack year branches or rewrite commits after Reviewer 2 approval.
+Year pull requests merge into the family integration branch without squashing
+away their work-unit boundaries. Do not stack year branches or rewrite commits
+after Reviewer 2 approval. Only the completed family integration pull request
+merges to `main` using the repository's normal merge policy.

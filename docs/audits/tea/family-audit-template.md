@@ -6,12 +6,13 @@
 - Milestone:
 - Program owner:
 - Coordinator:
-- Closeout branch: `docs/tea-audit-<family>-closeout`
+- Family integration branch: `audit/tea-<family>`
 
 ## Parallel Work Units
 
 List every represented year. Work units may run concurrently and each year
-branch starts from `main`; no year depends on another year's branch.
+branch starts from the family integration branch; no year depends on another
+year's branch or evidence.
 
 | Year | Year branch | Reviewer 1 | Type | Reviewer 2 | Type | Status | Review record | Pull request |
 | ---: | ----------- | ---------- | ---- | ---------- | ---- | ------ | ------------- | ------------ |
@@ -39,14 +40,15 @@ required review date.
 
 ## Coordinator Closeout Checklist
 
-- [ ] Every represented year has an approved and merged work unit or an
-      accepted block.
+- [ ] Every represented year has an approved work unit merged into the family
+      branch or an accepted block.
 - [ ] Reviewer 1 and Reviewer 2 are distinct for every work unit.
 - [ ] Every year record includes source-isolation attestations.
 - [ ] Coverage agrees with the merged year records.
 - [ ] Required independent verification is complete.
 - [ ] Confirmed findings have final resolutions or accepted blocks.
-- [ ] Shared coverage, family, and roadmap files are updated once for the wave.
+- [ ] Shared coverage, family, and roadmap files are updated once on the family
+      branch.
 - [ ] Repository validation passes.
 - [ ] Program owner approves closeout.
 
@@ -54,5 +56,5 @@ required review date.
 
 - Coordinator completed:
 - Program owner accepted:
-- Closeout pull request:
+- Family pull request:
 - Merge commit:
