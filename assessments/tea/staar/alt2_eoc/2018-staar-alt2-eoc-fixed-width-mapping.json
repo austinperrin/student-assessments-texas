@@ -11,32 +11,32 @@
           "label": "Spring 2018"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-staar-alt2-eoc-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/staaralt2-2018datafrmt-eoc.pdf"
     }
   ],
   "filename_patterns": [
     {
-      "regex": "^SF_1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.txt)?$",
+      "regex": "^SF_1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide"
       ]
     },
     {
-      "regex": "^SF_1518_EOCALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?(?:\\.txt)?$",
+      "regex": "^SF_1518_EOCALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])(?:_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])_ProductionExaminee_.*$",
+      "regex": "^1518_ALT_([Aa]1|[Bb][Ii]|[Ee]1|[Ee]2|[Uu][Ss])_ProductionExaminee_.*\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^S[FP]_1518_EOCALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_1518_EOCALT_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
@@ -178,7 +178,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -202,62 +202,62 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
-      "column_num": "30"
+      "column_header": "gifted_and_talented_indicator_code",
+      "column_num": "31"
     },
     {
       "start_pos": "118",
       "end_pos": "118",
       "column_header": "at_risk_indicator_code",
-      "column_num": "31"
+      "column_num": "32"
     },
     {
       "start_pos": "122",
       "end_pos": "122",
       "column_header": "career_and_technical_ed_indicator_code",
-      "column_num": "33"
+      "column_num": "34"
     },
     {
       "start_pos": "123",
       "end_pos": "131",
       "column_header": "local_student_id",
-      "column_num": "34"
+      "column_num": "35"
     },
     {
       "start_pos": "144",
       "end_pos": "152",
       "column_header": "fall_2017_peims_county_district_campus_number",
-      "column_num": "36"
+      "column_num": "37"
     },
     {
       "start_pos": "153",
       "end_pos": "154",
       "column_header": "fall_2017_peims_crisis_code",
-      "column_num": "37"
+      "column_num": "38"
     },
     {
       "start_pos": "155",
       "end_pos": "156",
       "column_header": "fall_2017_peims_student_attribution_code",
-      "column_num": "38"
+      "column_num": "39"
     },
     {
       "start_pos": "157",
       "end_pos": "162",
-      "column_header": "student_portal_unique_access_code",
-      "column_num": "39"
+      "column_header": "family_portal_unique_access_code",
+      "column_num": "40"
     },
     {
       "start_pos": "163",
       "end_pos": "163",
       "column_header": "migrant_student_in_texas_migrant_interstate_program",
-      "column_num": "40"
+      "column_num": "41"
     },
     {
       "start_pos": "165",
       "end_pos": "165",
       "column_header": "fall_2017_peims_military_connected_student_code",
-      "column_num": "42"
+      "column_num": "43"
     },
     {
       "start_pos": "190",
@@ -269,43 +269,43 @@
       "start_pos": "191",
       "end_pos": "200",
       "column_header": "tx_unique_student_id",
-      "column_num": "44"
+      "column_num": "46"
     },
     {
       "start_pos": "201",
       "end_pos": "202",
       "column_header": "end_of_course_code",
-      "column_num": "45"
+      "column_num": "47"
     },
     {
       "start_pos": "203",
       "end_pos": "206",
       "column_header": "local_use",
-      "column_num": "46"
+      "column_num": "48"
     },
     {
       "start_pos": "215",
       "end_pos": "219",
       "column_header": "agency_use",
-      "column_num": "48"
+      "column_num": "50"
     },
     {
       "start_pos": "291",
       "end_pos": "291",
       "column_header": "score_code",
-      "column_num": "50"
+      "column_num": "52"
     },
     {
       "start_pos": "306",
       "end_pos": "306",
       "column_header": "test_version",
-      "column_num": "52"
+      "column_num": "54"
     },
     {
       "start_pos": "308",
       "end_pos": "308",
       "column_header": "translated_student_materials",
-      "column_num": "54"
+      "column_num": "56"
     },
     {
       "start_pos": "351",
@@ -341,13 +341,13 @@
       "start_pos": "400",
       "end_pos": "400",
       "column_header": "staar_alternate_2_progress_measure",
-      "column_num": "64"
+      "column_num": "66"
     },
     {
       "start_pos": "401",
       "end_pos": "401",
       "column_header": "on_track_to_level_ii_satisfactory_academic_performance",
-      "column_num": "65"
+      "column_num": "67"
     },
     {
       "start_pos": "402",
@@ -377,25 +377,25 @@
       "start_pos": "414",
       "end_pos": "414",
       "column_header": "previous_year_level_iii_accomplished_academic_performance",
-      "column_num": "77"
+      "column_num": "74"
     },
     {
       "start_pos": "415",
       "end_pos": "416",
       "column_header": "previous_year_grade_course",
-      "column_num": "78"
+      "column_num": "75"
     },
     {
       "start_pos": "701",
       "end_pos": "701",
       "column_header": "color_or_highlight",
-      "column_num": "74"
+      "column_num": "77"
     },
     {
       "start_pos": "702",
       "end_pos": "702",
       "column_header": "color_overlays",
-      "column_num": "75"
+      "column_num": "78"
     },
     {
       "start_pos": "704",
