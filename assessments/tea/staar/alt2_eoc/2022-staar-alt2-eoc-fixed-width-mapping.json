@@ -11,7 +11,7 @@
           "label": "Spring 2022"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-staar-alt2-eoc-student-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/tx-2022-staar-alternate2-eoc-reporting-student-data-file-layout.pdf"
     }
   ],
   "filename_patterns": [
@@ -202,7 +202,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -238,7 +238,7 @@
     {
       "start_pos": "157",
       "end_pos": "162",
-      "column_header": "student_portal_unique_access_code",
+      "column_header": "family_portal_unique_access_code",
       "column_num": "40"
     },
     {
