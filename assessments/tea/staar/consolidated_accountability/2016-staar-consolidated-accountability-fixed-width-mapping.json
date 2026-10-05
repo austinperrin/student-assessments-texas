@@ -349,13 +349,13 @@
     {
       "start_pos": "201",
       "end_pos": "204",
-      "column_header": "staar_end_of_course_2015_summer_eoc_cy_accountability_yr_7d833e",
+      "column_header": "staar_eoc_2015_summer_cy_administration_date",
       "column_num": "63"
     },
     {
       "start_pos": "205",
       "end_pos": "205",
-      "column_header": "staar_end_of_course_2015_summer_eoc_cy_accountability_yr_2aa222",
+      "column_header": "staar_eoc_2015_summer_cy_record_update_indicator",
       "column_num": "64"
     },
     {
@@ -865,13 +865,13 @@
     {
       "start_pos": "456",
       "end_pos": "459",
-      "column_header": "staar_end_of_course_2015_fall_eoc_cy_accountability_yr_a_6e762b",
+      "column_header": "staar_eoc_2015_fall_cy_administration_date",
       "column_num": "160"
     },
     {
       "start_pos": "460",
       "end_pos": "460",
-      "column_header": "staar_end_of_course_2015_fall_eoc_cy_accountability_yr_r_2a4168",
+      "column_header": "staar_eoc_2015_fall_cy_record_update_indicator",
       "column_num": "161"
     },
     {
@@ -1381,13 +1381,13 @@
     {
       "start_pos": "711",
       "end_pos": "714",
-      "column_header": "staar_end_of_course_2016_spring_eoc_cy_accountability_yr_297e86",
+      "column_header": "staar_eoc_2016_spring_cy_administration_date",
       "column_num": "257"
     },
     {
       "start_pos": "715",
       "end_pos": "715",
-      "column_header": "staar_end_of_course_2016_spring_eoc_cy_accountability_yr_c49db1",
+      "column_header": "staar_eoc_2016_spring_cy_record_update_indicator",
       "column_num": "258"
     },
     {
@@ -1897,7 +1897,7 @@
     {
       "start_pos": "896",
       "end_pos": "899",
-      "column_header": "staar_end_of_course_2014_summer_eoc_py_accountability_yr_89d7a1",
+      "column_header": "staar_eoc_2014_summer_py_administration_date",
       "column_num": "352"
     },
     {
@@ -2173,7 +2173,7 @@
     {
       "start_pos": "1081",
       "end_pos": "1084",
-      "column_header": "staar_end_of_course_2014_fall_eoc_py_accountability_yr_a_a2247b",
+      "column_header": "staar_eoc_2014_fall_py_administration_date",
       "column_num": "409"
     },
     {
@@ -2449,7 +2449,7 @@
     {
       "start_pos": "1266",
       "end_pos": "1269",
-      "column_header": "staar_end_of_course_2015_spring_eoc_py_accountability_yr_ad095e",
+      "column_header": "staar_eoc_2015_spring_py_administration_date",
       "column_num": "466"
     },
     {
@@ -3229,7 +3229,7 @@
     {
       "start_pos": "1704",
       "end_pos": "1707",
-      "column_header": "eoc_cum_hist_us_hist_first_time_subst_assess_submitted_a_8998c2",
+      "column_header": "eoc_cum_hist_us_hist_first_subst_assess_admin_date",
       "column_num": "626"
     },
     {
@@ -3361,7 +3361,7 @@
     {
       "start_pos": "1768",
       "end_pos": "1771",
-      "column_header": "eoc_cum_hist_eng_2_reading_first_doc_submitted_spring_ad_a66382",
+      "column_header": "eoc_cum_hist_eng_2_reading_first_submitted_admin_date",
       "column_num": "650"
     },
     {
@@ -3391,7 +3391,7 @@
     {
       "start_pos": "1779",
       "end_pos": "1782",
-      "column_header": "eoc_cum_hist_eng_2_writing_first_doc_submitted_spring_ad_2c3bf9",
+      "column_header": "eoc_cum_hist_eng_2_writing_first_submitted_admin_date",
       "column_num": "655"
     },
     {
