@@ -337,7 +337,7 @@
     {
       "start_pos": "163",
       "end_pos": "163",
-      "column_header": "other_peims_2016_tsds_peims_snapshot_unaccompanied_youth_0815dd",
+      "column_header": "other_peims_2016_snapshot_unaccompanied_youth_code",
       "column_num": "58"
     },
     {
@@ -355,13 +355,13 @@
     {
       "start_pos": "201",
       "end_pos": "204",
-      "column_header": "staar_end_of_course_2016_summer_eoc_cy_accountability_yr_cc4ae0",
+      "column_header": "eoc_2016_summer_administration_date",
       "column_num": "64"
     },
     {
       "start_pos": "205",
       "end_pos": "205",
-      "column_header": "staar_end_of_course_2016_summer_eoc_cy_accountability_yr_001c22",
+      "column_header": "eoc_2016_summer_record_update_indicator",
       "column_num": "65"
     },
     {
@@ -739,7 +739,7 @@
     {
       "start_pos": "440",
       "end_pos": "440",
-      "column_header": "staar_end_of_course_us_hist_approaches_grade_lvl_at_stud_4ecc02",
+      "column_header": "eoc_2016_summer_us_history_approaches_grade_level",
       "column_num": "146"
     },
     {
@@ -781,13 +781,13 @@
     {
       "start_pos": "456",
       "end_pos": "459",
-      "column_header": "staar_end_of_course_2016_fall_eoc_cy_accountability_yr_a_bac1da",
+      "column_header": "eoc_2016_fall_administration_date",
       "column_num": "156"
     },
     {
       "start_pos": "460",
       "end_pos": "460",
-      "column_header": "staar_end_of_course_2016_fall_eoc_cy_accountability_yr_r_7652e7",
+      "column_header": "eoc_2016_fall_record_update_indicator",
       "column_num": "157"
     },
     {
@@ -829,7 +829,7 @@
     {
       "start_pos": "485",
       "end_pos": "485",
-      "column_header": "staar_end_of_course_alg_1_approaches_grade_lvl_at_studen_e3fa02",
+      "column_header": "eoc_2016_fall_algebra_i_approaches_grade_level",
       "column_num": "166"
     },
     {
@@ -997,7 +997,7 @@
     {
       "start_pos": "555",
       "end_pos": "555",
-      "column_header": "staar_end_of_course_eng_1_approaches_grade_lvl_at_studen_696364",
+      "column_header": "eoc_2016_fall_english_i_approaches_grade_level",
       "column_num": "201"
     },
     {
@@ -1075,7 +1075,7 @@
     {
       "start_pos": "625",
       "end_pos": "625",
-      "column_header": "staar_end_of_course_eng_2_approaches_grade_lvl_at_studen_407cd4",
+      "column_header": "eoc_2016_fall_english_ii_approaches_grade_level",
       "column_num": "219"
     },
     {
@@ -1165,7 +1165,7 @@
     {
       "start_pos": "695",
       "end_pos": "695",
-      "column_header": "staar_end_of_course_us_hist_approaches_grade_lvl_at_stud_fa0ce9",
+      "column_header": "eoc_2016_fall_us_history_approaches_grade_level",
       "column_num": "238"
     },
     {
@@ -1207,13 +1207,13 @@
     {
       "start_pos": "711",
       "end_pos": "714",
-      "column_header": "staar_end_of_course_2017_spring_eoc_cy_accountability_yr_e484c9",
+      "column_header": "eoc_2017_spring_administration_date",
       "column_num": "248"
     },
     {
       "start_pos": "715",
       "end_pos": "715",
-      "column_header": "staar_end_of_course_2017_spring_eoc_cy_accountability_yr_e0a37c",
+      "column_header": "eoc_2017_spring_record_update_indicator",
       "column_num": "249"
     },
     {
@@ -1639,7 +1639,7 @@
     {
       "start_pos": "896",
       "end_pos": "899",
-      "column_header": "staar_end_of_course_2015_summer_eoc_py_accountability_yr_17e812",
+      "column_header": "eoc_2015_summer_administration_date",
       "column_num": "339"
     },
     {
@@ -1915,7 +1915,7 @@
     {
       "start_pos": "1081",
       "end_pos": "1084",
-      "column_header": "staar_end_of_course_2015_fall_eoc_py_accountability_yr_a_b39f3f",
+      "column_header": "eoc_2015_fall_administration_date",
       "column_num": "396"
     },
     {
@@ -2191,7 +2191,7 @@
     {
       "start_pos": "1266",
       "end_pos": "1269",
-      "column_header": "staar_end_of_course_2016_spring_eoc_py_accountability_yr_bf5bab",
+      "column_header": "eoc_2016_spring_administration_date",
       "column_num": "453"
     },
     {
@@ -2971,7 +2971,7 @@
     {
       "start_pos": "1704",
       "end_pos": "1707",
-      "column_header": "eoc_cum_hist_us_hist_first_time_subst_assess_submitted_a_8998c2",
+      "column_header": "eoc_history_us_history_first_substitute_assessment_date",
       "column_num": "613"
     },
     {
@@ -3013,7 +3013,7 @@
     {
       "start_pos": "1735",
       "end_pos": "1735",
-      "column_header": "eoc_cum_hist_us_hist_cum_hist_approaches_gl_students_std_98d2e2",
+      "column_header": "eoc_history_us_history_approaches_grade_level",
       "column_num": "621"
     },
     {
@@ -3043,25 +3043,25 @@
     {
       "start_pos": "1746",
       "end_pos": "1749",
-      "column_header": "eoc_cum_hist_eng_1_reading_first_doc_submitted_sp12_dec_4322f4",
+      "column_header": "eoc_history_english_i_reading_first_submitted_admin_date",
       "column_num": "627"
     },
     {
       "start_pos": "1750",
       "end_pos": "1750",
-      "column_header": "eoc_cum_hist_eng_1_reading_first_doc_submitted_sp12_dec_7b15e9",
+      "column_header": "eoc_history_english_i_reading_first_submitted_test_version",
       "column_num": "628"
     },
     {
       "start_pos": "1751",
       "end_pos": "1751",
-      "column_header": "eoc_cum_hist_eng_1_reading_first_doc_submitted_sp12_dec_3fd5a6",
+      "column_header": "eoc_history_english_i_reading_first_submitted_score_code",
       "column_num": "629"
     },
     {
       "start_pos": "1752",
       "end_pos": "1755",
-      "column_header": "eoc_cum_hist_eng_1_reading_first_doc_scored_sp12_dec13_a_00b647",
+      "column_header": "eoc_history_english_i_reading_first_scored_admin_date",
       "column_num": "630"
     },
     {
@@ -3073,25 +3073,25 @@
     {
       "start_pos": "1757",
       "end_pos": "1760",
-      "column_header": "eoc_cum_hist_eng_1_writing_first_doc_submitted_sp12_dec_43b4de",
+      "column_header": "eoc_history_english_i_writing_first_submitted_admin_date",
       "column_num": "632"
     },
     {
       "start_pos": "1761",
       "end_pos": "1761",
-      "column_header": "eoc_cum_hist_eng_1_writing_first_doc_submitted_sp12_dec_9a7d3e",
+      "column_header": "eoc_history_english_i_writing_first_submitted_test_version",
       "column_num": "633"
     },
     {
       "start_pos": "1762",
       "end_pos": "1762",
-      "column_header": "eoc_cum_hist_eng_1_writing_first_doc_submitted_sp12_dec_6889f2",
+      "column_header": "eoc_history_english_i_writing_first_submitted_score_code",
       "column_num": "634"
     },
     {
       "start_pos": "1763",
       "end_pos": "1766",
-      "column_header": "eoc_cum_hist_eng_1_writing_first_doc_scored_sp12_dec13_a_a1e0ec",
+      "column_header": "eoc_history_english_i_writing_first_scored_admin_date",
       "column_num": "635"
     },
     {
@@ -3103,25 +3103,25 @@
     {
       "start_pos": "1768",
       "end_pos": "1771",
-      "column_header": "eoc_cum_hist_eng_2_reading_first_doc_submitted_sp12_dec_12e83d",
+      "column_header": "eoc_history_english_ii_reading_first_submitted_admin_date",
       "column_num": "637"
     },
     {
       "start_pos": "1772",
       "end_pos": "1772",
-      "column_header": "eoc_cum_hist_eng_2_reading_first_doc_submitted_sp12_dec_68625f",
+      "column_header": "eoc_history_english_ii_reading_first_submitted_test_version",
       "column_num": "638"
     },
     {
       "start_pos": "1773",
       "end_pos": "1773",
-      "column_header": "eoc_cum_hist_eng_2_reading_first_doc_submitted_sp12_dec_87c30f",
+      "column_header": "eoc_history_english_ii_reading_first_submitted_score_code",
       "column_num": "639"
     },
     {
       "start_pos": "1774",
       "end_pos": "1777",
-      "column_header": "eoc_cum_hist_eng_2_reading_first_doc_scored_sp12_dec13_a_d6e0ad",
+      "column_header": "eoc_history_english_ii_reading_first_scored_admin_date",
       "column_num": "640"
     },
     {
@@ -3133,25 +3133,25 @@
     {
       "start_pos": "1779",
       "end_pos": "1782",
-      "column_header": "eoc_cum_hist_eng_2_writing_first_doc_submitted_sp12_dec_d50fdc",
+      "column_header": "eoc_history_english_ii_writing_first_submitted_admin_date",
       "column_num": "642"
     },
     {
       "start_pos": "1783",
       "end_pos": "1783",
-      "column_header": "eoc_cum_hist_eng_2_writing_first_doc_submitted_sp12_dec_e3096c",
+      "column_header": "eoc_history_english_ii_writing_first_submitted_test_version",
       "column_num": "643"
     },
     {
       "start_pos": "1784",
       "end_pos": "1784",
-      "column_header": "eoc_cum_hist_eng_2_writing_first_doc_submitted_sp12_dec_16c9ab",
+      "column_header": "eoc_history_english_ii_writing_first_submitted_score_code",
       "column_num": "644"
     },
     {
       "start_pos": "1785",
       "end_pos": "1788",
-      "column_header": "eoc_cum_hist_eng_2_writing_first_doc_scored_sp12_dec13_a_065fa4",
+      "column_header": "eoc_history_english_ii_writing_first_scored_admin_date",
       "column_num": "645"
     },
     {
@@ -3421,7 +3421,7 @@
     {
       "start_pos": "1901",
       "end_pos": "1901",
-      "column_header": "staar_gr_3_8_reading_approaches_grade_lvl_or_lvl_2_sat_a_f45760",
+      "column_header": "staar_3_8_reading_approaches_grade_level",
       "column_num": "700"
     },
     {
@@ -3443,1390 +3443,1420 @@
       "column_num": "704"
     },
     {
+      "start_pos": "1908",
+      "end_pos": "1908",
+      "column_header": "staar_3_8_primary_reading_above_grade",
+      "column_num": "705"
+    },
+    {
       "start_pos": "1909",
       "end_pos": "1910",
       "column_header": "staar_grades_3_8_reading_raw_score_2",
-      "column_num": "705"
+      "column_num": "706"
     },
     {
       "start_pos": "1911",
       "end_pos": "1911",
       "column_header": "staar_gr_3_8_reading_staar_or_staar_alt_2_progress_measure",
-      "column_num": "706"
+      "column_num": "707"
+    },
+    {
+      "start_pos": "1912",
+      "end_pos": "1912",
+      "column_header": "staar_3_8_primary_reading_ell_progress_measure",
+      "column_num": "708"
+    },
+    {
+      "start_pos": "1913",
+      "end_pos": "1913",
+      "column_header": "staar_3_8_primary_reading_accommodations_used",
+      "column_num": "709"
     },
     {
       "start_pos": "1916",
       "end_pos": "1924",
       "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_2",
-      "column_num": "708"
+      "column_num": "711"
     },
     {
       "start_pos": "1925",
       "end_pos": "1926",
       "column_header": "staar_grades_3_8_mathematics_tested_grade_2",
-      "column_num": "709"
+      "column_num": "712"
     },
     {
       "start_pos": "1927",
       "end_pos": "1927",
       "column_header": "staar_grades_3_8_mathematics_test_version_2",
-      "column_num": "710"
+      "column_num": "713"
     },
     {
       "start_pos": "1928",
       "end_pos": "1928",
       "column_header": "staar_grades_3_8_mathematics_language_2",
-      "column_num": "711"
+      "column_num": "714"
     },
     {
       "start_pos": "1929",
       "end_pos": "1929",
       "column_header": "staar_grades_3_8_mathematics_score_code_2",
-      "column_num": "712"
+      "column_num": "715"
     },
     {
       "start_pos": "1930",
       "end_pos": "1930",
       "column_header": "staar_grades_3_8_mathematics_score_code_default_2",
-      "column_num": "713"
+      "column_num": "716"
     },
     {
       "start_pos": "1932",
       "end_pos": "1935",
       "column_header": "staar_grades_3_8_mathematics_scale_score_2",
-      "column_num": "715"
+      "column_num": "718"
     },
     {
       "start_pos": "1936",
       "end_pos": "1936",
       "column_header": "staar_gr_3_8_math_approaches_grade_lvl_or_lvl_2_sat_acad_perf",
-      "column_num": "716"
+      "column_num": "719"
     },
     {
       "start_pos": "1939",
       "end_pos": "1939",
       "column_header": "staar_gr_3_8_math_meets_gl_or_lvl_2_sat_perf",
-      "column_num": "718"
+      "column_num": "721"
     },
     {
       "start_pos": "1940",
       "end_pos": "1940",
       "column_header": "staar_gr_3_8_math_masters_gl_or_lvl_3_accomp_perf",
-      "column_num": "719"
+      "column_num": "722"
     },
     {
       "start_pos": "1941",
       "end_pos": "1942",
       "column_header": "staar_grades_3_8_mathematics_enrolled_grade_2",
-      "column_num": "720"
+      "column_num": "723"
     },
     {
       "start_pos": "1943",
       "end_pos": "1943",
       "column_header": "staar_grades_3_8_mathematics_above_grade_2",
-      "column_num": "721"
+      "column_num": "724"
     },
     {
       "start_pos": "1944",
       "end_pos": "1945",
       "column_header": "staar_grades_3_8_mathematics_raw_score_2",
-      "column_num": "722"
+      "column_num": "725"
     },
     {
       "start_pos": "1946",
       "end_pos": "1946",
       "column_header": "staar_gr_3_8_math_staar_or_staar_alt_2_progress_measure",
-      "column_num": "723"
+      "column_num": "726"
     },
     {
       "start_pos": "1947",
       "end_pos": "1947",
       "column_header": "staar_grades_3_8_mathematics_ell_progress_measure_2",
-      "column_num": "724"
+      "column_num": "727"
     },
     {
       "start_pos": "1948",
       "end_pos": "1948",
       "column_header": "staar_grades_3_8_mathematics_accommodations_used_2",
-      "column_num": "725"
+      "column_num": "728"
     },
     {
       "start_pos": "1951",
       "end_pos": "1959",
       "column_header": "staar_grades_3_8_writing_county_district_campus_number",
-      "column_num": "727"
+      "column_num": "730"
     },
     {
       "start_pos": "1960",
       "end_pos": "1961",
       "column_header": "staar_grades_3_8_writing_tested_grade",
-      "column_num": "728"
+      "column_num": "731"
     },
     {
       "start_pos": "1962",
       "end_pos": "1962",
       "column_header": "staar_grades_3_8_writing_test_version",
-      "column_num": "729"
+      "column_num": "732"
     },
     {
       "start_pos": "1963",
       "end_pos": "1963",
       "column_header": "staar_grades_3_8_writing_language",
-      "column_num": "730"
+      "column_num": "733"
+    },
+    {
+      "start_pos": "1964",
+      "end_pos": "1964",
+      "column_header": "staar_3_8_primary_writing_score_code",
+      "column_num": "734"
+    },
+    {
+      "start_pos": "1965",
+      "end_pos": "1965",
+      "column_header": "staar_3_8_primary_writing_score_code_default",
+      "column_num": "735"
     },
     {
       "start_pos": "1967",
       "end_pos": "1970",
       "column_header": "staar_grades_3_8_writing_scale_score",
-      "column_num": "732"
+      "column_num": "737"
     },
     {
       "start_pos": "1971",
       "end_pos": "1971",
-      "column_header": "staar_gr_3_8_writing_approaches_grade_lvl_or_lvl_2_sat_a_d77598",
-      "column_num": "733"
+      "column_header": "staar_3_8_writing_approaches_grade_level",
+      "column_num": "738"
     },
     {
       "start_pos": "1974",
       "end_pos": "1974",
       "column_header": "staar_gr_3_8_writing_meets_gl_or_lvl_2_sat_perf",
-      "column_num": "735"
+      "column_num": "740"
     },
     {
       "start_pos": "1975",
       "end_pos": "1975",
       "column_header": "staar_gr_3_8_writing_masters_gl_or_lvl_3_accomp_perf",
-      "column_num": "736"
+      "column_num": "741"
     },
     {
       "start_pos": "1976",
       "end_pos": "1977",
       "column_header": "staar_grades_3_8_writing_enrolled_grade",
-      "column_num": "737"
+      "column_num": "742"
     },
     {
       "start_pos": "1979",
       "end_pos": "1979",
       "column_header": "staar_grades_3_8_writing_ell_progress_measure",
-      "column_num": "739"
+      "column_num": "744"
     },
     {
       "start_pos": "1980",
       "end_pos": "1980",
       "column_header": "staar_grades_3_8_writing_accommodations_used",
-      "column_num": "740"
+      "column_num": "745"
     },
     {
       "start_pos": "1986",
       "end_pos": "1994",
       "column_header": "staar_grades_3_8_social_studies_county_district_campus_number",
-      "column_num": "742"
+      "column_num": "747"
     },
     {
       "start_pos": "1995",
       "end_pos": "1996",
       "column_header": "staar_grades_3_8_social_studies_tested_grade",
-      "column_num": "743"
+      "column_num": "748"
     },
     {
       "start_pos": "1997",
       "end_pos": "1997",
       "column_header": "staar_grades_3_8_social_studies_test_version",
-      "column_num": "744"
+      "column_num": "749"
     },
     {
       "start_pos": "1998",
       "end_pos": "1998",
       "column_header": "staar_grades_3_8_social_studies_language",
-      "column_num": "745"
+      "column_num": "750"
     },
     {
       "start_pos": "1999",
       "end_pos": "1999",
       "column_header": "staar_grades_3_8_social_studies_score_code",
-      "column_num": "746"
+      "column_num": "751"
     },
     {
       "start_pos": "2000",
       "end_pos": "2000",
       "column_header": "staar_grades_3_8_social_studies_score_code_default",
-      "column_num": "747"
+      "column_num": "752"
     },
     {
       "start_pos": "2002",
       "end_pos": "2005",
       "column_header": "staar_grades_3_8_social_studies_scale_score",
-      "column_num": "749"
+      "column_num": "754"
     },
     {
       "start_pos": "2006",
       "end_pos": "2006",
-      "column_header": "staar_gr_3_8_social_studies_approaches_grade_lvl_or_lvl_b9b837",
-      "column_num": "750"
+      "column_header": "staar_3_8_social_studies_approaches_grade_level",
+      "column_num": "755"
     },
     {
       "start_pos": "2009",
       "end_pos": "2009",
       "column_header": "staar_gr_3_8_social_studies_meets_gl_or_lvl_2_sat_perf",
-      "column_num": "752"
+      "column_num": "757"
     },
     {
       "start_pos": "2010",
       "end_pos": "2010",
       "column_header": "staar_gr_3_8_social_studies_masters_gl_or_lvl_3_accomp_perf",
-      "column_num": "753"
+      "column_num": "758"
     },
     {
       "start_pos": "2011",
       "end_pos": "2012",
       "column_header": "staar_grades_3_8_social_studies_enrolled_grade",
-      "column_num": "754"
+      "column_num": "759"
     },
     {
       "start_pos": "2013",
       "end_pos": "2013",
       "column_header": "staar_grades_3_8_social_studies_above_grade",
-      "column_num": "755"
+      "column_num": "760"
     },
     {
       "start_pos": "2014",
       "end_pos": "2014",
       "column_header": "staar_grades_3_8_social_studies_ell_progress_measure",
-      "column_num": "756"
+      "column_num": "761"
     },
     {
       "start_pos": "2015",
       "end_pos": "2015",
       "column_header": "staar_grades_3_8_social_studies_accommodations_used",
-      "column_num": "757"
+      "column_num": "762"
     },
     {
       "start_pos": "2021",
       "end_pos": "2029",
       "column_header": "staar_grades_3_8_science_county_district_campus_number",
-      "column_num": "759"
+      "column_num": "764"
     },
     {
       "start_pos": "2030",
       "end_pos": "2031",
       "column_header": "staar_grades_3_8_science_tested_grade",
-      "column_num": "760"
+      "column_num": "765"
     },
     {
       "start_pos": "2032",
       "end_pos": "2032",
       "column_header": "staar_grades_3_8_science_test_version",
-      "column_num": "761"
+      "column_num": "766"
     },
     {
       "start_pos": "2033",
       "end_pos": "2033",
       "column_header": "staar_grades_3_8_science_language",
-      "column_num": "762"
+      "column_num": "767"
     },
     {
       "start_pos": "2034",
       "end_pos": "2034",
       "column_header": "staar_grades_3_8_science_score_code",
-      "column_num": "763"
+      "column_num": "768"
     },
     {
       "start_pos": "2035",
       "end_pos": "2035",
       "column_header": "staar_grades_3_8_science_score_code_default",
-      "column_num": "764"
+      "column_num": "769"
     },
     {
       "start_pos": "2037",
       "end_pos": "2040",
       "column_header": "staar_grades_3_8_science_scale_score",
-      "column_num": "766"
+      "column_num": "771"
     },
     {
       "start_pos": "2041",
       "end_pos": "2041",
       "column_header": "staar_gr_3_8_sci_approaches_grade_lvl_or_lvl_2_sat_acad_perf",
-      "column_num": "767"
+      "column_num": "772"
     },
     {
       "start_pos": "2044",
       "end_pos": "2044",
       "column_header": "staar_gr_3_8_sci_meets_gl_or_lvl_2_sat_perf",
-      "column_num": "769"
+      "column_num": "774"
     },
     {
       "start_pos": "2045",
       "end_pos": "2045",
       "column_header": "staar_gr_3_8_sci_masters_gl_or_lvl_3_accomp_perf",
-      "column_num": "770"
+      "column_num": "775"
     },
     {
       "start_pos": "2046",
       "end_pos": "2047",
       "column_header": "staar_grades_3_8_science_enrolled_grade",
-      "column_num": "771"
+      "column_num": "776"
     },
     {
       "start_pos": "2048",
       "end_pos": "2048",
       "column_header": "staar_grades_3_8_science_above_grade",
-      "column_num": "772"
+      "column_num": "777"
     },
     {
       "start_pos": "2049",
       "end_pos": "2049",
       "column_header": "staar_grades_3_8_science_ell_progress_measure",
-      "column_num": "773"
+      "column_num": "778"
     },
     {
       "start_pos": "2050",
       "end_pos": "2050",
       "column_header": "staar_grades_3_8_science_accommodations_used",
-      "column_num": "774"
+      "column_num": "779"
     },
     {
       "start_pos": "2056",
       "end_pos": "2059",
-      "column_header": "staar_gr_3_8_2017_gr_5_and_8_may_retest_cy_accountabilit_f63306",
-      "column_num": "776"
+      "column_header": "staar_3_8_2017_may_retest_administration_date",
+      "column_num": "781"
     },
     {
       "start_pos": "2060",
       "end_pos": "2060",
-      "column_header": "staar_gr_3_8_2017_gr_5_and_8_may_retest_cy_accountabilit_343f66",
-      "column_num": "777"
+      "column_header": "staar_3_8_2017_may_retest_record_update_indicator",
+      "column_num": "782"
     },
     {
       "start_pos": "2066",
       "end_pos": "2074",
       "column_header": "staar_grades_3_8_reading_county_district_campus_number_3",
-      "column_num": "779"
+      "column_num": "784"
     },
     {
       "start_pos": "2075",
       "end_pos": "2076",
       "column_header": "staar_grades_3_8_reading_tested_grade_3",
-      "column_num": "780"
+      "column_num": "785"
     },
     {
       "start_pos": "2077",
       "end_pos": "2077",
       "column_header": "staar_grades_3_8_reading_test_version_3",
-      "column_num": "781"
+      "column_num": "786"
     },
     {
       "start_pos": "2078",
       "end_pos": "2078",
       "column_header": "staar_grades_3_8_reading_language_3",
-      "column_num": "782"
+      "column_num": "787"
     },
     {
       "start_pos": "2079",
       "end_pos": "2079",
       "column_header": "staar_grades_3_8_reading_score_code_3",
-      "column_num": "783"
+      "column_num": "788"
     },
     {
       "start_pos": "2080",
       "end_pos": "2080",
       "column_header": "staar_grades_3_8_reading_score_code_default_3",
-      "column_num": "784"
+      "column_num": "789"
     },
     {
       "start_pos": "2082",
       "end_pos": "2085",
       "column_header": "staar_grades_3_8_reading_scale_score_3",
-      "column_num": "786"
+      "column_num": "791"
     },
     {
       "start_pos": "2086",
       "end_pos": "2086",
       "column_header": "staar_grades_3_8_reading_approaches_grade_level_2",
-      "column_num": "787"
+      "column_num": "792"
     },
     {
       "start_pos": "2089",
       "end_pos": "2089",
       "column_header": "staar_grades_3_8_reading_meets_grade_level_2",
-      "column_num": "789"
+      "column_num": "794"
     },
     {
       "start_pos": "2090",
       "end_pos": "2090",
       "column_header": "staar_grades_3_8_reading_masters_grade_level_2",
-      "column_num": "790"
+      "column_num": "795"
     },
     {
       "start_pos": "2091",
       "end_pos": "2092",
       "column_header": "staar_grades_3_8_reading_enrolled_grade_3",
-      "column_num": "791"
+      "column_num": "796"
     },
     {
       "start_pos": "2093",
       "end_pos": "2094",
       "column_header": "staar_grades_3_8_reading_raw_score_3",
-      "column_num": "792"
+      "column_num": "797"
     },
     {
       "start_pos": "2095",
       "end_pos": "2095",
       "column_header": "staar_grades_3_8_reading_staar_progress_measure_2",
-      "column_num": "793"
+      "column_num": "798"
     },
     {
       "start_pos": "2096",
       "end_pos": "2096",
       "column_header": "staar_grades_3_8_reading_ell_progress_measure_2",
-      "column_num": "794"
+      "column_num": "799"
     },
     {
       "start_pos": "2097",
       "end_pos": "2097",
       "column_header": "staar_grades_3_8_reading_accommodations_used_2",
-      "column_num": "795"
+      "column_num": "800"
     },
     {
       "start_pos": "2101",
       "end_pos": "2109",
       "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_3",
-      "column_num": "797"
+      "column_num": "802"
     },
     {
       "start_pos": "2110",
       "end_pos": "2111",
       "column_header": "staar_grades_3_8_mathematics_tested_grade_3",
-      "column_num": "798"
+      "column_num": "803"
     },
     {
       "start_pos": "2112",
       "end_pos": "2112",
       "column_header": "staar_grades_3_8_mathematics_test_version_3",
-      "column_num": "799"
+      "column_num": "804"
     },
     {
       "start_pos": "2113",
       "end_pos": "2113",
       "column_header": "staar_grades_3_8_mathematics_language_3",
-      "column_num": "800"
+      "column_num": "805"
     },
     {
       "start_pos": "2114",
       "end_pos": "2114",
       "column_header": "staar_grades_3_8_mathematics_score_code_3",
-      "column_num": "801"
+      "column_num": "806"
     },
     {
       "start_pos": "2115",
       "end_pos": "2115",
       "column_header": "staar_grades_3_8_mathematics_score_code_default_3",
-      "column_num": "802"
+      "column_num": "807"
     },
     {
       "start_pos": "2117",
       "end_pos": "2120",
       "column_header": "staar_grades_3_8_mathematics_scale_score_3",
-      "column_num": "804"
+      "column_num": "809"
     },
     {
       "start_pos": "2121",
       "end_pos": "2121",
       "column_header": "staar_grades_3_8_mathematics_approaches_grade_level_2",
-      "column_num": "805"
+      "column_num": "810"
     },
     {
       "start_pos": "2124",
       "end_pos": "2124",
       "column_header": "staar_grades_3_8_mathematics_meets_grade_level_2",
-      "column_num": "807"
+      "column_num": "812"
     },
     {
       "start_pos": "2125",
       "end_pos": "2125",
       "column_header": "staar_grades_3_8_mathematics_masters_grade_level_2",
-      "column_num": "808"
+      "column_num": "813"
     },
     {
       "start_pos": "2126",
       "end_pos": "2127",
       "column_header": "staar_grades_3_8_mathematics_enrolled_grade_3",
-      "column_num": "809"
+      "column_num": "814"
     },
     {
       "start_pos": "2128",
       "end_pos": "2129",
       "column_header": "staar_grades_3_8_mathematics_raw_score_3",
-      "column_num": "810"
+      "column_num": "815"
     },
     {
       "start_pos": "2130",
       "end_pos": "2130",
       "column_header": "staar_grades_3_8_mathematics_staar_progress_measure_2",
-      "column_num": "811"
+      "column_num": "816"
     },
     {
       "start_pos": "2131",
       "end_pos": "2131",
       "column_header": "staar_grades_3_8_mathematics_ell_progress_measure_3",
-      "column_num": "812"
+      "column_num": "817"
     },
     {
       "start_pos": "2132",
       "end_pos": "2132",
       "column_header": "staar_grades_3_8_mathematics_accommodations_used_3",
-      "column_num": "813"
+      "column_num": "818"
     },
     {
       "start_pos": "2136",
       "end_pos": "2139",
       "column_header": "staar_grades_3_8_mathematics_administration_date_2",
-      "column_num": "815"
+      "column_num": "820"
     },
     {
       "start_pos": "2146",
       "end_pos": "2154",
       "column_header": "staar_grades_3_8_reading_county_district_campus_number_4",
-      "column_num": "817"
+      "column_num": "822"
     },
     {
       "start_pos": "2155",
       "end_pos": "2156",
       "column_header": "staar_grades_3_8_reading_tested_grade_4",
-      "column_num": "818"
+      "column_num": "823"
     },
     {
       "start_pos": "2157",
       "end_pos": "2157",
       "column_header": "staar_grades_3_8_reading_test_version_4",
-      "column_num": "819"
+      "column_num": "824"
     },
     {
       "start_pos": "2158",
       "end_pos": "2158",
       "column_header": "staar_grades_3_8_reading_language_4",
-      "column_num": "820"
+      "column_num": "825"
     },
     {
       "start_pos": "2159",
       "end_pos": "2159",
       "column_header": "staar_grades_3_8_reading_score_code_4",
-      "column_num": "821"
+      "column_num": "826"
     },
     {
       "start_pos": "2161",
       "end_pos": "2164",
       "column_header": "staar_grades_3_8_reading_scale_score_4",
-      "column_num": "823"
+      "column_num": "828"
     },
     {
       "start_pos": "2165",
       "end_pos": "2165",
       "column_header": "staar_grades_3_8_reading_level_2_at_students_standard",
-      "column_num": "824"
+      "column_num": "829"
     },
     {
       "start_pos": "2166",
       "end_pos": "2166",
       "column_header": "staar_grades_3_8_reading_level_2_at_recommended_standard",
-      "column_num": "825"
+      "column_num": "830"
     },
     {
       "start_pos": "2167",
       "end_pos": "2167",
       "column_header": "staar_grades_3_8_reading_level_3_advanced_academic_performance",
-      "column_num": "826"
+      "column_num": "831"
     },
     {
       "start_pos": "2168",
       "end_pos": "2169",
       "column_header": "staar_grades_3_8_reading_enrolled_grade_4",
-      "column_num": "827"
+      "column_num": "832"
     },
     {
       "start_pos": "2176",
       "end_pos": "2184",
       "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_4",
-      "column_num": "829"
+      "column_num": "834"
     },
     {
       "start_pos": "2185",
       "end_pos": "2186",
       "column_header": "staar_grades_3_8_mathematics_tested_grade_4",
-      "column_num": "830"
+      "column_num": "835"
     },
     {
       "start_pos": "2187",
       "end_pos": "2187",
       "column_header": "staar_grades_3_8_mathematics_test_version_4",
-      "column_num": "831"
+      "column_num": "836"
     },
     {
       "start_pos": "2188",
       "end_pos": "2188",
       "column_header": "staar_grades_3_8_mathematics_language_4",
-      "column_num": "832"
+      "column_num": "837"
     },
     {
       "start_pos": "2189",
       "end_pos": "2189",
       "column_header": "staar_grades_3_8_mathematics_score_code_4",
-      "column_num": "833"
+      "column_num": "838"
     },
     {
       "start_pos": "2191",
       "end_pos": "2194",
       "column_header": "staar_grades_3_8_mathematics_scale_score_4",
-      "column_num": "835"
+      "column_num": "840"
     },
     {
       "start_pos": "2195",
       "end_pos": "2195",
       "column_header": "staar_grades_3_8_mathematics_level_2_at_students_standard",
-      "column_num": "836"
+      "column_num": "841"
     },
     {
       "start_pos": "2196",
       "end_pos": "2196",
       "column_header": "staar_grades_3_8_mathematics_level_2_at_recommended_standard",
-      "column_num": "837"
+      "column_num": "842"
     },
     {
       "start_pos": "2197",
       "end_pos": "2197",
       "column_header": "staar_gr_3_8_math_lvl_3_adv_acad_perf",
-      "column_num": "838"
+      "column_num": "843"
     },
     {
       "start_pos": "2198",
       "end_pos": "2199",
       "column_header": "staar_grades_3_8_mathematics_enrolled_grade_4",
-      "column_num": "839"
+      "column_num": "844"
     },
     {
       "start_pos": "2206",
       "end_pos": "2209",
       "column_header": "staar_grades_3_8_mathematics_administration_date_3",
-      "column_num": "841"
+      "column_num": "846"
     },
     {
       "start_pos": "2216",
       "end_pos": "2224",
       "column_header": "staar_grades_3_8_reading_county_district_campus_number_5",
-      "column_num": "843"
+      "column_num": "848"
     },
     {
       "start_pos": "2225",
       "end_pos": "2226",
       "column_header": "staar_grades_3_8_reading_tested_grade_5",
-      "column_num": "844"
+      "column_num": "849"
     },
     {
       "start_pos": "2227",
       "end_pos": "2227",
       "column_header": "staar_grades_3_8_reading_test_version_5",
-      "column_num": "845"
+      "column_num": "850"
     },
     {
       "start_pos": "2228",
       "end_pos": "2228",
       "column_header": "staar_grades_3_8_reading_language_5",
-      "column_num": "846"
+      "column_num": "851"
     },
     {
       "start_pos": "2229",
       "end_pos": "2229",
       "column_header": "staar_grades_3_8_reading_score_code_5",
-      "column_num": "847"
+      "column_num": "852"
     },
     {
       "start_pos": "2231",
       "end_pos": "2234",
       "column_header": "staar_grades_3_8_reading_scale_score_5",
-      "column_num": "849"
+      "column_num": "854"
     },
     {
       "start_pos": "2235",
       "end_pos": "2235",
       "column_header": "staar_grades_3_8_reading_level_2_at_students_standard_2",
-      "column_num": "850"
+      "column_num": "855"
     },
     {
       "start_pos": "2236",
       "end_pos": "2236",
       "column_header": "staar_grades_3_8_reading_level_2_at_recommended_standard_2",
-      "column_num": "851"
+      "column_num": "856"
     },
     {
       "start_pos": "2237",
       "end_pos": "2237",
       "column_header": "staar_gr_3_8_reading_lvl_3_adv_or_accomp_perf",
-      "column_num": "852"
+      "column_num": "857"
     },
     {
       "start_pos": "2238",
       "end_pos": "2239",
       "column_header": "staar_grades_3_8_reading_enrolled_grade_5",
-      "column_num": "853"
+      "column_num": "858"
     },
     {
       "start_pos": "2246",
       "end_pos": "2254",
       "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_5",
-      "column_num": "855"
+      "column_num": "860"
     },
     {
       "start_pos": "2255",
       "end_pos": "2256",
       "column_header": "staar_grades_3_8_mathematics_tested_grade_5",
-      "column_num": "856"
+      "column_num": "861"
     },
     {
       "start_pos": "2257",
       "end_pos": "2257",
       "column_header": "staar_grades_3_8_mathematics_test_version_5",
-      "column_num": "857"
+      "column_num": "862"
     },
     {
       "start_pos": "2258",
       "end_pos": "2258",
       "column_header": "staar_grades_3_8_mathematics_language_5",
-      "column_num": "858"
+      "column_num": "863"
     },
     {
       "start_pos": "2259",
       "end_pos": "2259",
       "column_header": "staar_grades_3_8_mathematics_score_code_5",
-      "column_num": "859"
+      "column_num": "864"
     },
     {
       "start_pos": "2261",
       "end_pos": "2264",
       "column_header": "staar_grades_3_8_mathematics_scale_score_5",
-      "column_num": "861"
+      "column_num": "866"
     },
     {
       "start_pos": "2265",
       "end_pos": "2265",
       "column_header": "staar_grades_3_8_mathematics_level_2_at_students_standard_2",
-      "column_num": "862"
+      "column_num": "867"
     },
     {
       "start_pos": "2266",
       "end_pos": "2266",
       "column_header": "staar_grades_3_8_mathematics_level_2_at_recommended_standard_2",
-      "column_num": "863"
+      "column_num": "868"
     },
     {
       "start_pos": "2267",
       "end_pos": "2267",
       "column_header": "staar_gr_3_8_math_lvl_3_adv_or_accomp_perf",
-      "column_num": "864"
+      "column_num": "869"
     },
     {
       "start_pos": "2268",
       "end_pos": "2269",
       "column_header": "staar_grades_3_8_mathematics_enrolled_grade_5",
-      "column_num": "865"
+      "column_num": "870"
     },
     {
       "start_pos": "2276",
       "end_pos": "2284",
       "column_header": "staar_grades_3_8_writing_county_district_campus_number_2",
-      "column_num": "867"
+      "column_num": "872"
     },
     {
       "start_pos": "2285",
       "end_pos": "2286",
       "column_header": "staar_grades_3_8_writing_tested_grade_2",
-      "column_num": "868"
+      "column_num": "873"
     },
     {
       "start_pos": "2287",
       "end_pos": "2287",
       "column_header": "staar_grades_3_8_writing_test_version_2",
-      "column_num": "869"
+      "column_num": "874"
     },
     {
       "start_pos": "2288",
       "end_pos": "2288",
       "column_header": "staar_grades_3_8_writing_language_2",
-      "column_num": "870"
+      "column_num": "875"
     },
     {
       "start_pos": "2289",
       "end_pos": "2289",
       "column_header": "staar_grades_3_8_writing_score_code",
-      "column_num": "871"
+      "column_num": "876"
     },
     {
       "start_pos": "2291",
       "end_pos": "2294",
       "column_header": "staar_grades_3_8_writing_scale_score_2",
-      "column_num": "873"
+      "column_num": "878"
     },
     {
       "start_pos": "2295",
       "end_pos": "2295",
       "column_header": "staar_grades_3_8_writing_level_2_at_students_standard",
-      "column_num": "874"
+      "column_num": "879"
     },
     {
       "start_pos": "2296",
       "end_pos": "2296",
       "column_header": "staar_grades_3_8_writing_level_2_at_recommended_standard",
-      "column_num": "875"
+      "column_num": "880"
     },
     {
       "start_pos": "2297",
       "end_pos": "2297",
       "column_header": "staar_gr_3_8_writing_lvl_3_adv_or_accomp_perf",
-      "column_num": "876"
+      "column_num": "881"
     },
     {
       "start_pos": "2298",
       "end_pos": "2299",
       "column_header": "staar_grades_3_8_writing_enrolled_grade_2",
-      "column_num": "877"
+      "column_num": "882"
     },
     {
       "start_pos": "2306",
       "end_pos": "2314",
       "column_header": "staar_grades_3_8_social_studies_county_district_campus_number_2",
-      "column_num": "879"
+      "column_num": "884"
     },
     {
       "start_pos": "2315",
       "end_pos": "2316",
       "column_header": "staar_grades_3_8_social_studies_tested_grade_2",
-      "column_num": "880"
+      "column_num": "885"
     },
     {
       "start_pos": "2317",
       "end_pos": "2317",
       "column_header": "staar_grades_3_8_social_studies_test_version_2",
-      "column_num": "881"
+      "column_num": "886"
     },
     {
       "start_pos": "2318",
       "end_pos": "2318",
       "column_header": "staar_grades_3_8_social_studies_language_2",
-      "column_num": "882"
+      "column_num": "887"
     },
     {
       "start_pos": "2319",
       "end_pos": "2319",
       "column_header": "staar_grades_3_8_social_studies_score_code_2",
-      "column_num": "883"
+      "column_num": "888"
     },
     {
       "start_pos": "2321",
       "end_pos": "2324",
       "column_header": "staar_grades_3_8_social_studies_scale_score_2",
-      "column_num": "885"
+      "column_num": "890"
     },
     {
       "start_pos": "2325",
       "end_pos": "2325",
       "column_header": "staar_grades_3_8_social_studies_level_2_at_students_standard",
-      "column_num": "886"
+      "column_num": "891"
     },
     {
       "start_pos": "2326",
       "end_pos": "2326",
       "column_header": "staar_grades_3_8_social_studies_level_2_at_recommended_standard",
-      "column_num": "887"
+      "column_num": "892"
     },
     {
       "start_pos": "2327",
       "end_pos": "2327",
       "column_header": "staar_gr_3_8_social_studies_lvl_3_adv_or_accomp_perf",
-      "column_num": "888"
+      "column_num": "893"
     },
     {
       "start_pos": "2328",
       "end_pos": "2329",
       "column_header": "staar_grades_3_8_social_studies_enrolled_grade_2",
-      "column_num": "889"
+      "column_num": "894"
     },
     {
       "start_pos": "2336",
       "end_pos": "2344",
       "column_header": "staar_grades_3_8_science_county_district_campus_number_2",
-      "column_num": "891"
+      "column_num": "896"
     },
     {
       "start_pos": "2345",
       "end_pos": "2346",
       "column_header": "staar_grades_3_8_science_tested_grade_2",
-      "column_num": "892"
+      "column_num": "897"
     },
     {
       "start_pos": "2347",
       "end_pos": "2347",
       "column_header": "staar_grades_3_8_science_test_version_2",
-      "column_num": "893"
+      "column_num": "898"
     },
     {
       "start_pos": "2348",
       "end_pos": "2348",
       "column_header": "staar_grades_3_8_science_language_2",
-      "column_num": "894"
+      "column_num": "899"
     },
     {
       "start_pos": "2349",
       "end_pos": "2349",
       "column_header": "staar_grades_3_8_science_score_code_2",
-      "column_num": "895"
+      "column_num": "900"
     },
     {
       "start_pos": "2351",
       "end_pos": "2354",
       "column_header": "staar_grades_3_8_science_scale_score_2",
-      "column_num": "897"
+      "column_num": "902"
     },
     {
       "start_pos": "2355",
       "end_pos": "2355",
       "column_header": "staar_grades_3_8_science_level_2_at_students_standard",
-      "column_num": "898"
+      "column_num": "903"
     },
     {
       "start_pos": "2356",
       "end_pos": "2356",
       "column_header": "staar_grades_3_8_science_level_2_at_recommended_standard",
-      "column_num": "899"
+      "column_num": "904"
     },
     {
       "start_pos": "2357",
       "end_pos": "2357",
       "column_header": "staar_gr_3_8_sci_lvl_3_adv_or_accomp_perf",
-      "column_num": "900"
+      "column_num": "905"
     },
     {
       "start_pos": "2358",
       "end_pos": "2359",
       "column_header": "staar_grades_3_8_science_enrolled_grade_2",
-      "column_num": "901"
+      "column_num": "906"
     },
     {
       "start_pos": "2366",
       "end_pos": "2369",
       "column_header": "staar_grades_3_8_science_administration_date",
-      "column_num": "903"
+      "column_num": "908"
     },
     {
       "start_pos": "2376",
       "end_pos": "2384",
       "column_header": "staar_grades_3_8_reading_county_district_campus_number_6",
-      "column_num": "905"
+      "column_num": "910"
     },
     {
       "start_pos": "2385",
       "end_pos": "2386",
       "column_header": "staar_grades_3_8_reading_tested_grade_6",
-      "column_num": "906"
+      "column_num": "911"
     },
     {
       "start_pos": "2387",
       "end_pos": "2387",
       "column_header": "staar_grades_3_8_reading_test_version_6",
-      "column_num": "907"
+      "column_num": "912"
     },
     {
       "start_pos": "2388",
       "end_pos": "2388",
       "column_header": "staar_grades_3_8_reading_language_6",
-      "column_num": "908"
+      "column_num": "913"
     },
     {
       "start_pos": "2389",
       "end_pos": "2389",
       "column_header": "staar_grades_3_8_reading_score_code_6",
-      "column_num": "909"
+      "column_num": "914"
     },
     {
       "start_pos": "2391",
       "end_pos": "2394",
       "column_header": "staar_grades_3_8_reading_scale_score_6",
-      "column_num": "911"
+      "column_num": "916"
     },
     {
       "start_pos": "2395",
       "end_pos": "2395",
       "column_header": "staar_grades_3_8_reading_level_2_at_students_standard_3",
-      "column_num": "912"
+      "column_num": "917"
     },
     {
       "start_pos": "2396",
       "end_pos": "2396",
       "column_header": "staar_grades_3_8_reading_level_2_at_recommended_standard_3",
-      "column_num": "913"
+      "column_num": "918"
     },
     {
       "start_pos": "2397",
       "end_pos": "2397",
       "column_header": "staar_gr_3_8_reading_lvl_3_adv_acad_perf_2",
-      "column_num": "914"
+      "column_num": "919"
     },
     {
       "start_pos": "2398",
       "end_pos": "2399",
       "column_header": "staar_grades_3_8_reading_enrolled_grade_6",
-      "column_num": "915"
+      "column_num": "920"
     },
     {
       "start_pos": "2406",
       "end_pos": "2414",
       "column_header": "staar_grades_3_8_mathematics_county_district_campus_number_6",
-      "column_num": "917"
+      "column_num": "922"
     },
     {
       "start_pos": "2415",
       "end_pos": "2416",
       "column_header": "staar_grades_3_8_mathematics_tested_grade_6",
-      "column_num": "918"
+      "column_num": "923"
     },
     {
       "start_pos": "2417",
       "end_pos": "2417",
       "column_header": "staar_grades_3_8_mathematics_test_version_6",
-      "column_num": "919"
+      "column_num": "924"
     },
     {
       "start_pos": "2418",
       "end_pos": "2418",
       "column_header": "staar_grades_3_8_mathematics_language_6",
-      "column_num": "920"
+      "column_num": "925"
     },
     {
       "start_pos": "2419",
       "end_pos": "2419",
       "column_header": "staar_grades_3_8_mathematics_score_code_6",
-      "column_num": "921"
+      "column_num": "926"
     },
     {
       "start_pos": "2421",
       "end_pos": "2424",
       "column_header": "staar_grades_3_8_mathematics_scale_score_6",
-      "column_num": "923"
+      "column_num": "928"
     },
     {
       "start_pos": "2425",
       "end_pos": "2425",
-      "column_header": "staar_gr_3_8_math_lvl_2_students_std_start_here_to_fix",
-      "column_num": "924"
+      "column_header": "staar_3_8_math_level_2_at_students_standard_3",
+      "column_num": "929"
     },
     {
       "start_pos": "2426",
       "end_pos": "2426",
       "column_header": "staar_grades_3_8_mathematics_level_2_at_recommended_standard_3",
-      "column_num": "925"
+      "column_num": "930"
     },
     {
       "start_pos": "2427",
       "end_pos": "2427",
       "column_header": "staar_gr_3_8_math_lvl_3_adv_acad_perf_2",
-      "column_num": "926"
+      "column_num": "931"
     },
     {
       "start_pos": "2428",
       "end_pos": "2429",
       "column_header": "staar_grades_3_8_mathematics_enrolled_grade_6",
-      "column_num": "927"
+      "column_num": "932"
     },
     {
       "start_pos": "2506",
       "end_pos": "2509",
       "column_header": "telpas_telpas_2017_cy_accountability_yr_admin_date",
-      "column_num": "930"
+      "column_num": "935"
     },
     {
       "start_pos": "2510",
       "end_pos": "2510",
       "column_header": "telpas_telpas_2017_cy_accountability_yr_record_update_ind",
-      "column_num": "931"
+      "column_num": "936"
     },
     {
       "start_pos": "2511",
       "end_pos": "2511",
       "column_header": "telpas_telpas_2017_cy_accountability_yr_unsch_asyl_or_ref",
-      "column_num": "932"
+      "column_num": "937"
     },
     {
       "start_pos": "2512",
       "end_pos": "2512",
       "column_header": "telpas_telpas_2017_cy_accountability_yr_sife",
-      "column_num": "933"
+      "column_num": "938"
     },
     {
       "start_pos": "2513",
       "end_pos": "2513",
       "column_header": "telpas_telpas_2017_cy_accountability_yr_years_in_us_schools",
-      "column_num": "934"
+      "column_num": "939"
     },
     {
       "start_pos": "2514",
       "end_pos": "2514",
       "column_header": "telpas_telpas_2017_current_accountability_year_parental_denial",
-      "column_num": "935"
+      "column_num": "940"
     },
     {
       "start_pos": "2531",
       "end_pos": "2531",
       "column_header": "telpas_reading_score_code",
-      "column_num": "937"
+      "column_num": "942"
     },
     {
       "start_pos": "2532",
       "end_pos": "2532",
       "column_header": "telpas_reading_telpas_proficiency_level",
-      "column_num": "938"
+      "column_num": "943"
     },
     {
       "start_pos": "2533",
       "end_pos": "2534",
       "column_header": "telpas_reading_grade",
-      "column_num": "939"
+      "column_num": "944"
     },
     {
       "start_pos": "2535",
       "end_pos": "2538",
       "column_header": "telpas_reading_scale_score",
-      "column_num": "940"
+      "column_num": "945"
     },
     {
       "start_pos": "2551",
       "end_pos": "2551",
       "column_header": "telpas_writing_score_code",
-      "column_num": "942"
+      "column_num": "947"
     },
     {
       "start_pos": "2552",
       "end_pos": "2552",
       "column_header": "telpas_writing_telpas_proficiency_level",
-      "column_num": "943"
+      "column_num": "948"
     },
     {
       "start_pos": "2553",
       "end_pos": "2554",
       "column_header": "telpas_writing_grade",
-      "column_num": "944"
+      "column_num": "949"
     },
     {
       "start_pos": "2561",
       "end_pos": "2561",
       "column_header": "telpas_listening_score_code",
-      "column_num": "946"
+      "column_num": "951"
     },
     {
       "start_pos": "2562",
       "end_pos": "2562",
       "column_header": "telpas_listening_telpas_proficiency_level",
-      "column_num": "947"
+      "column_num": "952"
     },
     {
       "start_pos": "2563",
       "end_pos": "2564",
       "column_header": "telpas_listening_grade",
-      "column_num": "948"
+      "column_num": "953"
     },
     {
       "start_pos": "2571",
       "end_pos": "2571",
       "column_header": "telpas_speaking_score_code",
-      "column_num": "950"
+      "column_num": "955"
     },
     {
       "start_pos": "2572",
       "end_pos": "2572",
       "column_header": "telpas_speaking_telpas_proficiency_level",
-      "column_num": "951"
+      "column_num": "956"
     },
     {
       "start_pos": "2573",
       "end_pos": "2574",
       "column_header": "telpas_speaking_grade",
-      "column_num": "952"
+      "column_num": "957"
     },
     {
       "start_pos": "2581",
       "end_pos": "2583",
       "column_header": "telpas_comprehension_and_comp_information_comprehension_score",
-      "column_num": "954"
+      "column_num": "959"
     },
     {
       "start_pos": "2584",
       "end_pos": "2586",
       "column_header": "telpas_comprehension_and_composite_information_composite_score",
-      "column_num": "955"
+      "column_num": "960"
     },
     {
       "start_pos": "2587",
       "end_pos": "2587",
       "column_header": "telpas_comprehension_and_composite_information_composite_rating",
-      "column_num": "956"
+      "column_num": "961"
     },
     {
       "start_pos": "2588",
       "end_pos": "2596",
       "column_header": "telpas_comprehension_and_comp_information_cdc_num",
-      "column_num": "957"
+      "column_num": "962"
     },
     {
       "start_pos": "2601",
       "end_pos": "2604",
       "column_header": "telpas_telpas_2016_py_accountability_yr_admin_date",
-      "column_num": "959"
+      "column_num": "964"
     },
     {
       "start_pos": "2611",
       "end_pos": "2611",
       "column_header": "telpas_reading_score_code_2",
-      "column_num": "961"
+      "column_num": "966"
     },
     {
       "start_pos": "2612",
       "end_pos": "2612",
       "column_header": "telpas_reading_telpas_proficiency_level_2",
-      "column_num": "962"
+      "column_num": "967"
     },
     {
       "start_pos": "2613",
       "end_pos": "2614",
       "column_header": "telpas_reading_grade_2",
-      "column_num": "963"
+      "column_num": "968"
     },
     {
       "start_pos": "2615",
       "end_pos": "2618",
       "column_header": "telpas_reading_scale_score_2",
-      "column_num": "964"
+      "column_num": "969"
     },
     {
       "start_pos": "2631",
       "end_pos": "2631",
       "column_header": "telpas_writing_score_code_2",
-      "column_num": "966"
+      "column_num": "971"
     },
     {
       "start_pos": "2632",
       "end_pos": "2632",
       "column_header": "telpas_writing_telpas_proficiency_level_2",
-      "column_num": "967"
+      "column_num": "972"
     },
     {
       "start_pos": "2633",
       "end_pos": "2634",
       "column_header": "telpas_writing_grade_2",
-      "column_num": "968"
+      "column_num": "973"
     },
     {
       "start_pos": "2641",
       "end_pos": "2641",
       "column_header": "telpas_listening_score_code_2",
-      "column_num": "970"
+      "column_num": "975"
     },
     {
       "start_pos": "2642",
       "end_pos": "2642",
       "column_header": "telpas_listening_telpas_proficiency_level_2",
-      "column_num": "971"
+      "column_num": "976"
     },
     {
       "start_pos": "2643",
       "end_pos": "2644",
       "column_header": "telpas_listening_grade_2",
-      "column_num": "972"
+      "column_num": "977"
     },
     {
       "start_pos": "2651",
       "end_pos": "2651",
       "column_header": "telpas_speaking_score_code_2",
-      "column_num": "974"
+      "column_num": "979"
     },
     {
       "start_pos": "2652",
       "end_pos": "2652",
       "column_header": "telpas_speaking_telpas_proficiency_level_2",
-      "column_num": "975"
+      "column_num": "980"
     },
     {
       "start_pos": "2653",
       "end_pos": "2654",
       "column_header": "telpas_speaking_grade_2",
-      "column_num": "976"
+      "column_num": "981"
     },
     {
       "start_pos": "2661",
       "end_pos": "2663",
       "column_header": "telpas_comprehension_and_comp_information_comprehension_score_2",
-      "column_num": "978"
+      "column_num": "983"
     },
     {
       "start_pos": "2664",
       "end_pos": "2666",
       "column_header": "telpas_comprehension_and_comp_information_comp_score_2",
-      "column_num": "979"
+      "column_num": "984"
     },
     {
       "start_pos": "2667",
       "end_pos": "2667",
       "column_header": "telpas_comprehension_and_comp_information_comp_rating_2",
-      "column_num": "980"
+      "column_num": "985"
     },
     {
       "start_pos": "2668",
       "end_pos": "2676",
       "column_header": "telpas_comprehension_and_comp_information_cdc_num_2",
-      "column_num": "981"
+      "column_num": "986"
     },
     {
       "start_pos": "2677",
       "end_pos": "2677",
       "column_header": "ell_pm_plan_ell_pm_plan_non_eng_1_or_2",
-      "column_num": "982"
+      "column_num": "987"
     },
     {
       "start_pos": "2678",
       "end_pos": "2678",
       "column_header": "ell_pm_plan_ell_pm_plan_eng_1_and_2",
-      "column_num": "983"
+      "column_num": "988"
     },
     {
       "start_pos": "2679",
       "end_pos": "2682",
       "column_header": "ell_pm_plan_yr_ell_pm_plan_det",
-      "column_num": "984"
+      "column_num": "989"
     },
     {
       "start_pos": "2683",
       "end_pos": "2683",
       "column_header": "ell_pm_plan_plan_yr_unsch_asyl_ref",
-      "column_num": "985"
+      "column_num": "990"
     },
     {
       "start_pos": "2684",
       "end_pos": "2684",
       "column_header": "ell_progress_measure_plan_plan_year_sife",
-      "column_num": "986"
+      "column_num": "991"
     },
     {
       "start_pos": "2685",
       "end_pos": "2685",
       "column_header": "ell_progress_measure_plan_plan_year_years_in_us_schools",
-      "column_num": "987"
+      "column_num": "992"
     },
     {
       "start_pos": "2686",
       "end_pos": "2686",
       "column_header": "ell_progress_measure_plan_plan_year_telpas_composite_rating",
-      "column_num": "988"
+      "column_num": "993"
     },
     {
       "start_pos": "2700",
       "end_pos": "2700",
       "column_header": "ell_progress_measure_plan_end_of_file",
-      "column_num": "990"
+      "column_num": "995"
     }
   ]
 }
