@@ -11,27 +11,27 @@
           "label": "Spring 2018"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2018-telpas-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2018-telpas-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
     {
-      "regex": "^SF_0318_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:_ProductionExaminee_.*)?(?:\\.txt)?$",
+      "regex": "^SF_0318_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:_ProductionExaminee_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^PF_0318_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:\\.txt)?$",
+      "regex": "^PF_0318_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])\\.dat$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^SDR_[Tt][Ee][Ll][Pp][Aa][Ss]_2018_\\d{8}(?:\\.txt)?$",
+      "regex": "^SDR_[Tt][Ee][Ll][Pp][Aa][Ss]_2018_\\d{8}\\.dat$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^S[FP]_(?:0318|2018)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_(?:0318|2018)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
@@ -173,7 +173,7 @@
     {
       "start_pos": "107",
       "end_pos": "107",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "25"
     },
     {
@@ -197,7 +197,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -233,31 +233,31 @@
     {
       "start_pos": "133",
       "end_pos": "133",
-      "column_header": "agency_use_e",
+      "column_header": "agency_use_a",
       "column_num": "39"
     },
     {
       "start_pos": "134",
       "end_pos": "134",
-      "column_header": "agency_use_e_pos_134",
+      "column_header": "agency_use_b",
       "column_num": "40"
     },
     {
       "start_pos": "135",
       "end_pos": "135",
-      "column_header": "agency_use_e_pos_135",
+      "column_header": "agency_use_c",
       "column_num": "41"
     },
     {
       "start_pos": "136",
       "end_pos": "136",
-      "column_header": "agency_use_e_pos_136",
+      "column_header": "agency_use_d",
       "column_num": "42"
     },
     {
       "start_pos": "137",
       "end_pos": "137",
-      "column_header": "agency_use_e_pos_137",
+      "column_header": "agency_use_e",
       "column_num": "43"
     },
     {
@@ -281,13 +281,13 @@
     {
       "start_pos": "155",
       "end_pos": "163",
-      "column_header": "county_district_campus_number_pos_155",
+      "column_header": "fall_2017_peims_county_district_campus_number",
       "column_num": "50"
     },
     {
       "start_pos": "174",
       "end_pos": "175",
-      "column_header": "fall_2017_tsds_peims_crisis_code_1",
+      "column_header": "fall_2017_peims_crisis_code",
       "column_num": "52"
     },
     {
@@ -329,31 +329,31 @@
     {
       "start_pos": "221",
       "end_pos": "221",
-      "column_header": "designated_supports",
+      "column_header": "listening_speaking_designated_supports",
       "column_num": "62"
     },
     {
       "start_pos": "222",
       "end_pos": "222",
-      "column_header": "extra_day",
+      "column_header": "listening_speaking_extra_day",
       "column_num": "63"
     },
     {
       "start_pos": "241",
       "end_pos": "241",
-      "column_header": "designated_supports_pos_241",
+      "column_header": "reading_designated_supports",
       "column_num": "65"
     },
     {
       "start_pos": "242",
       "end_pos": "242",
-      "column_header": "large_print",
+      "column_header": "reading_large_print",
       "column_num": "66"
     },
     {
       "start_pos": "243",
       "end_pos": "243",
-      "column_header": "extra_day_pos_243",
+      "column_header": "reading_extra_day",
       "column_num": "67"
     },
     {
@@ -407,7 +407,7 @@
     {
       "start_pos": "301",
       "end_pos": "306",
-      "column_header": "listening_reporting_category_score_reporting_category_1",
+      "column_header": "listening_reporting_category_scores",
       "column_num": "85"
     },
     {
@@ -449,7 +449,7 @@
     {
       "start_pos": "501",
       "end_pos": "504",
-      "column_header": "speaking_reporting_category_score_reporting_category_1",
+      "column_header": "speaking_reporting_category_scores",
       "column_num": "94"
     },
     {
@@ -491,7 +491,7 @@
     {
       "start_pos": "701",
       "end_pos": "706",
-      "column_header": "reading_reporting_category_score_reporting_category_1",
+      "column_header": "reading_reporting_category_scores",
       "column_num": "103"
     },
     {
