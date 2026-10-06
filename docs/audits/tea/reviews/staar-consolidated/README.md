@@ -60,5 +60,5 @@ explicitly archive-based. There are no accepted blocks.
 - Family reviewer lead completed: Codex, 2026-10-06
 - Year-level verification completed: 2026-10-06
 - Program owner accepted:
-- Family pull request:
+- Family pull request: [#124](https://github.com/austinperrin/student-assessments-texas/pull/124)
 - Merge commit:
