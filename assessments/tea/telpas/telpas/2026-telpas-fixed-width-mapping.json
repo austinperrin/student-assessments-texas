@@ -11,7 +11,7 @@
           "label": "Spring 2026"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2026-telpas-data-file-layout.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2026-telpas-data-file-layout.pdf"
     }
   ],
   "filename_patterns": [
@@ -31,9 +31,9 @@
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^S[FP]_(?:0326|2026)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_0326_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.txt$",
       "references": [
-        "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
+        "https://tea.texas.gov/data-reports/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
     }
   ],
@@ -209,7 +209,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
@@ -604,7 +604,7 @@
     },
     {
       "start_pos": "651",
-      "end_pos": "688",
+      "end_pos": "687",
       "column_header": "reading_points_possible_by_item",
       "column_num": "124"
     },
