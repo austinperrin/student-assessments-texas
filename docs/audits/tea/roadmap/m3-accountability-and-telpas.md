@@ -30,8 +30,10 @@ multi-assessment, language-domain, and historical-result semantics.
   branch per represented year
 - Family branch: `audit/tea-staar-consolidated`; year PRs target this branch
 - Final family PR: shared family and coverage closeout to `main`
-- [ ] Complete all review layers for 11 represented years.
-- [ ] Check how multiple assessment families and administrations coexist.
+- [x] Complete all review layers for 11 represented years.
+- [x] Check how multiple assessment families and administrations coexist.
+- Actual review completion: 2026-10-06; final family PR pending program-owner
+  approval and merge to `main`.
 - Exit: all 11 year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
