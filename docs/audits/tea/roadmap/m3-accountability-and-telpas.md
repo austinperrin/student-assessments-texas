@@ -32,8 +32,8 @@ multi-assessment, language-domain, and historical-result semantics.
 - Final family PR: shared family and coverage closeout to `main`
 - [x] Complete all review layers for 11 represented years.
 - [x] Check how multiple assessment families and administrations coexist.
-- Actual review completion: 2026-10-06; final family PR pending program-owner
-  approval and merge to `main`.
+- Actual completion: 2026-10-06; family PR #124 merged to `main` as
+  `d49780f`.
 - Exit: all 11 year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
