@@ -52,7 +52,7 @@ explicitly archive-based. There are no accepted blocks.
 - [x] Independent verification is complete.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
-- [ ] Repository validation passes on the family closeout head.
+- [x] Repository validation passes on the family closeout head.
 - [ ] Program owner approves merge to `main`.
 
 ## Sign-Off
