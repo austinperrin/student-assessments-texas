@@ -11,7 +11,7 @@
           "label": "Spring 2025"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-telpas-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2025-telpas-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
@@ -209,7 +209,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
@@ -1020,31 +1020,31 @@
       "start_pos": "1136",
       "end_pos": "1171",
       "column_header": "opportunity_key",
-      "column_num": "208"
+      "column_num": "207"
     },
     {
       "start_pos": "1172",
       "end_pos": "1180",
       "column_header": "test_result_id",
-      "column_num": "209"
+      "column_num": "208"
     },
     {
       "start_pos": "1181",
       "end_pos": "1181",
       "column_header": "non_participant_listening_speaking",
-      "column_num": "210"
+      "column_num": "209"
     },
     {
       "start_pos": "1182",
       "end_pos": "1182",
       "column_header": "non_participant_reading_writing",
-      "column_num": "211"
+      "column_num": "210"
     },
     {
       "start_pos": "1200",
       "end_pos": "1200",
       "column_header": "period",
-      "column_num": "213"
+      "column_num": "212"
     }
   ]
 }
