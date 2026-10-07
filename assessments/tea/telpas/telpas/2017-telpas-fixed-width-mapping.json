@@ -335,25 +335,25 @@
     {
       "start_pos": "219",
       "end_pos": "219",
-      "column_header": "ell_progress_measure_plan_for_subjects_other_than_english_i",
+      "column_header": "ell_progress_measure_plan_subjects_other_than_english_i_ii",
       "column_num": "64"
     },
     {
       "start_pos": "220",
       "end_pos": "220",
-      "column_header": "ell_progress_measure_plan_for_english_i_and_english_ii",
+      "column_header": "ell_progress_measure_plan_english_i_ii",
       "column_num": "65"
     },
     {
       "start_pos": "221",
       "end_pos": "221",
-      "column_header": "ell_progress_measure_qualification_for_subjects_other_than",
+      "column_header": "ell_progress_qualification_subjects_other_than_english_i_ii",
       "column_num": "66"
     },
     {
       "start_pos": "222",
       "end_pos": "222",
-      "column_header": "ell_progress_measure_qualification_for_english_i_and_english",
+      "column_header": "ell_progress_qualification_english_i_ii",
       "column_num": "67"
     },
     {
