@@ -191,7 +191,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "30"
     },
     {
@@ -203,7 +203,7 @@
     {
       "start_pos": "122",
       "end_pos": "122",
-      "column_header": "career_and_technical_ed_indicator_code_grades_6_12_ct",
+      "column_header": "career_and_technical_ed_indicator_code_grades_6_12",
       "column_num": "33"
     },
     {
@@ -215,7 +215,7 @@
     {
       "start_pos": "127",
       "end_pos": "131",
-      "column_header": "agency_use_e",
+      "column_header": "header_agency_use",
       "column_num": "35"
     },
     {
@@ -245,7 +245,7 @@
     {
       "start_pos": "155",
       "end_pos": "163",
-      "column_header": "county_district_campus_number_pos_155",
+      "column_header": "fall_2011_peims_county_district_campus_number",
       "column_num": "44"
     },
     {
@@ -263,7 +263,7 @@
     {
       "start_pos": "174",
       "end_pos": "175",
-      "column_header": "fall_2011_tsds_peims_crisis_code_1",
+      "column_header": "fall_2011_peims_crisis_code",
       "column_num": "47"
     },
     {
@@ -287,19 +287,19 @@
     {
       "start_pos": "201",
       "end_pos": "201",
-      "column_header": "type_1_accommodations_1",
+      "column_header": "type_1_accommodations",
       "column_num": "54"
     },
     {
       "start_pos": "202",
       "end_pos": "202",
-      "column_header": "type_2_accommodations_2",
+      "column_header": "type_2_accommodations",
       "column_num": "55"
     },
     {
       "start_pos": "203",
       "end_pos": "203",
-      "column_header": "type_3_accommodations_3",
+      "column_header": "type_3_accommodations",
       "column_num": "56"
     },
     {
@@ -311,7 +311,7 @@
     {
       "start_pos": "232",
       "end_pos": "232",
-      "column_header": "listening_score_code_pos_232",
+      "column_header": "listening_score_code_default",
       "column_num": "59"
     },
     {
@@ -329,7 +329,7 @@
     {
       "start_pos": "247",
       "end_pos": "247",
-      "column_header": "speaking_score_code_pos_247",
+      "column_header": "speaking_score_code_default",
       "column_num": "63"
     },
     {
@@ -347,7 +347,7 @@
     {
       "start_pos": "262",
       "end_pos": "262",
-      "column_header": "writing_score_code_pos_262",
+      "column_header": "writing_score_code_default",
       "column_num": "67"
     },
     {
@@ -365,7 +365,7 @@
     {
       "start_pos": "277",
       "end_pos": "277",
-      "column_header": "reading_score_code_pos_277",
+      "column_header": "reading_score_code_default",
       "column_num": "71"
     },
     {
@@ -377,91 +377,91 @@
     {
       "start_pos": "291",
       "end_pos": "291",
-      "column_header": "number_of_items_correct_for_reporting_category_1",
+      "column_header": "beginning_items_correct_reporting_category_1",
       "column_num": "74"
     },
     {
       "start_pos": "292",
       "end_pos": "292",
-      "column_header": "number_of_items_correct_for_reporting_categories_2_and_3",
+      "column_header": "beginning_items_correct_reporting_categories_2_and_3",
       "column_num": "75"
     },
     {
       "start_pos": "295",
       "end_pos": "296",
-      "column_header": "total_number_of_beginning_proficiency_level_items_correct",
+      "column_header": "beginning_proficiency_level_total_items_correct",
       "column_num": "77"
     },
     {
       "start_pos": "301",
       "end_pos": "301",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_301",
+      "column_header": "intermediate_items_correct_reporting_category_1",
       "column_num": "79"
     },
     {
       "start_pos": "302",
       "end_pos": "302",
-      "column_header": "number_of_items_correct_for_reporting_category_2",
+      "column_header": "intermediate_items_correct_reporting_category_2",
       "column_num": "80"
     },
     {
       "start_pos": "303",
       "end_pos": "303",
-      "column_header": "number_of_items_correct_for_reporting_category_3",
+      "column_header": "intermediate_items_correct_reporting_category_3",
       "column_num": "81"
     },
     {
       "start_pos": "305",
       "end_pos": "306",
-      "column_header": "total_number_of_intermediate_proficiency_level_items_correct",
+      "column_header": "intermediate_proficiency_level_total_items_correct",
       "column_num": "83"
     },
     {
       "start_pos": "311",
       "end_pos": "311",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_311",
+      "column_header": "advanced_items_correct_reporting_category_1",
       "column_num": "85"
     },
     {
       "start_pos": "312",
       "end_pos": "312",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_312",
+      "column_header": "advanced_items_correct_reporting_category_2",
       "column_num": "86"
     },
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_313",
+      "column_header": "advanced_items_correct_reporting_category_3",
       "column_num": "87"
     },
     {
       "start_pos": "315",
       "end_pos": "316",
-      "column_header": "total_number_of_advanced_proficiency_level_items_correct",
+      "column_header": "advanced_proficiency_level_total_items_correct",
       "column_num": "89"
     },
     {
       "start_pos": "321",
       "end_pos": "321",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_321",
+      "column_header": "advanced_high_items_correct_reporting_category_1",
       "column_num": "91"
     },
     {
       "start_pos": "322",
       "end_pos": "322",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_322",
+      "column_header": "advanced_high_items_correct_reporting_category_2",
       "column_num": "92"
     },
     {
       "start_pos": "323",
       "end_pos": "323",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_323",
+      "column_header": "advanced_high_items_correct_reporting_category_3",
       "column_num": "93"
     },
     {
       "start_pos": "325",
       "end_pos": "326",
-      "column_header": "total_number_of_advanced_high_proficiency_level_items_correct",
+      "column_header": "advanced_high_proficiency_level_total_items_correct",
       "column_num": "95"
     },
     {
@@ -507,10 +507,22 @@
       "column_num": "104"
     },
     {
+      "start_pos": "624",
+      "end_pos": "626",
+      "column_header": "telpas_comprehension_score",
+      "column_num": "105"
+    },
+    {
       "start_pos": "627",
       "end_pos": "629",
-      "column_header": "telpas_composite",
+      "column_header": "telpas_composite_score",
       "column_num": "106"
+    },
+    {
+      "start_pos": "630",
+      "end_pos": "630",
+      "column_header": "telpas_composite_rating",
+      "column_num": "107"
     },
     {
       "start_pos": "631",
@@ -521,212 +533,284 @@
     {
       "start_pos": "651",
       "end_pos": "652",
-      "column_header": "grade_2007",
+      "column_header": "grade_2004",
       "column_num": "110"
     },
     {
       "start_pos": "653",
       "end_pos": "661",
-      "column_header": "county_district_campus_number_2007",
+      "column_header": "county_district_campus_number_2004",
       "column_num": "111"
     },
     {
       "start_pos": "662",
       "end_pos": "662",
-      "column_header": "composite_rating_2007",
+      "column_header": "telpas_reading_rating_2004",
       "column_num": "112"
     },
     {
       "start_pos": "663",
       "end_pos": "663",
-      "column_header": "reading_score_code_2007",
+      "column_header": "score_code_2004",
       "column_num": "113"
     },
     {
       "start_pos": "664",
       "end_pos": "665",
-      "column_header": "grade_2008",
+      "column_header": "grade_2005",
       "column_num": "114"
     },
     {
       "start_pos": "666",
       "end_pos": "674",
-      "column_header": "county_district_campus_number_2008",
+      "column_header": "county_district_campus_number_2005",
       "column_num": "115"
     },
     {
       "start_pos": "675",
       "end_pos": "675",
-      "column_header": "composite_rating_2008",
+      "column_header": "telpas_composite_rating_2005",
       "column_num": "116"
     },
     {
       "start_pos": "676",
       "end_pos": "679",
-      "column_header": "reading_scale_score_2008",
+      "column_header": "rpte_scale_score_2005",
       "column_num": "117"
     },
     {
       "start_pos": "680",
       "end_pos": "680",
-      "column_header": "reading_proficiency_rating_2008",
+      "column_header": "rpte_proficiency_rating_2005",
       "column_num": "118"
     },
     {
       "start_pos": "681",
       "end_pos": "681",
-      "column_header": "reading_score_code_2008",
+      "column_header": "rpte_score_code_2005",
       "column_num": "119"
     },
     {
       "start_pos": "682",
       "end_pos": "683",
-      "column_header": "grade_2009",
+      "column_header": "grade_2006",
       "column_num": "120"
     },
     {
       "start_pos": "684",
       "end_pos": "692",
-      "column_header": "county_district_campus_number_2009",
+      "column_header": "county_district_campus_number_2006",
       "column_num": "121"
     },
     {
       "start_pos": "693",
       "end_pos": "693",
-      "column_header": "composite_rating_2009",
+      "column_header": "telpas_composite_rating_2006",
       "column_num": "122"
     },
     {
       "start_pos": "694",
       "end_pos": "697",
-      "column_header": "reading_scale_score_2009",
+      "column_header": "rpte_scale_score_2006",
       "column_num": "123"
     },
     {
       "start_pos": "698",
       "end_pos": "698",
-      "column_header": "reading_proficiency_rating_2009",
+      "column_header": "rpte_proficiency_rating_2006",
       "column_num": "124"
     },
     {
       "start_pos": "699",
       "end_pos": "699",
-      "column_header": "reading_score_code_2009",
+      "column_header": "rpte_score_code_2006",
       "column_num": "125"
     },
     {
       "start_pos": "700",
       "end_pos": "701",
-      "column_header": "grade_2010",
+      "column_header": "grade_2007",
       "column_num": "126"
     },
     {
       "start_pos": "702",
       "end_pos": "710",
-      "column_header": "county_district_campus_number_2010",
+      "column_header": "county_district_campus_number_2007",
       "column_num": "127"
     },
     {
       "start_pos": "711",
       "end_pos": "711",
-      "column_header": "composite_rating_2010",
+      "column_header": "telpas_composite_rating_2007",
       "column_num": "128"
     },
     {
       "start_pos": "712",
       "end_pos": "715",
-      "column_header": "reading_scale_score_2010",
+      "column_header": "rpte_scale_score_2007",
       "column_num": "129"
     },
     {
       "start_pos": "716",
       "end_pos": "716",
-      "column_header": "reading_proficiency_rating_2010",
+      "column_header": "rpte_proficiency_rating_2007",
       "column_num": "130"
     },
     {
       "start_pos": "717",
       "end_pos": "717",
-      "column_header": "reading_score_code_2010",
+      "column_header": "rpte_score_code_2007",
       "column_num": "131"
     },
     {
       "start_pos": "718",
       "end_pos": "719",
-      "column_header": "grade_2011",
+      "column_header": "grade_2008",
       "column_num": "132"
     },
     {
       "start_pos": "720",
       "end_pos": "728",
-      "column_header": "county_district_campus_number_2011",
+      "column_header": "county_district_campus_number_2008",
       "column_num": "133"
     },
     {
       "start_pos": "729",
       "end_pos": "729",
-      "column_header": "composite_rating_2011",
+      "column_header": "telpas_composite_rating_2008",
       "column_num": "134"
     },
     {
       "start_pos": "730",
       "end_pos": "733",
-      "column_header": "reading_scale_score_2011",
+      "column_header": "telpas_reading_scale_score_2008",
       "column_num": "135"
     },
     {
       "start_pos": "734",
       "end_pos": "734",
-      "column_header": "reading_proficiency_rating_2011",
+      "column_header": "telpas_reading_proficiency_rating_2008",
       "column_num": "136"
     },
     {
       "start_pos": "735",
       "end_pos": "735",
-      "column_header": "reading_score_code_2011",
+      "column_header": "telpas_reading_score_code_2008",
       "column_num": "137"
     },
     {
       "start_pos": "736",
       "end_pos": "737",
-      "column_header": "grade_pos_736",
+      "column_header": "grade_2009",
       "column_num": "138"
     },
     {
       "start_pos": "738",
       "end_pos": "746",
-      "column_header": "county_district_campus_number_pos_738",
+      "column_header": "county_district_campus_number_2009",
       "column_num": "139"
     },
     {
       "start_pos": "747",
       "end_pos": "747",
-      "column_header": "telpas_composite_rating_pos_747",
+      "column_header": "telpas_composite_rating_2009",
       "column_num": "140"
     },
     {
       "start_pos": "748",
       "end_pos": "751",
-      "column_header": "reading_scale_score_pos_748",
+      "column_header": "telpas_reading_scale_score_2009",
       "column_num": "141"
     },
     {
       "start_pos": "752",
       "end_pos": "752",
-      "column_header": "reading_proficiency_rating_pos_752",
+      "column_header": "telpas_reading_proficiency_rating_2009",
       "column_num": "142"
     },
     {
       "start_pos": "753",
       "end_pos": "753",
-      "column_header": "reading_score_code_pos_753",
+      "column_header": "telpas_reading_score_code_2009",
       "column_num": "143"
+    },
+    {
+      "start_pos": "754",
+      "end_pos": "755",
+      "column_header": "grade_2010",
+      "column_num": "144"
+    },
+    {
+      "start_pos": "756",
+      "end_pos": "764",
+      "column_header": "county_district_campus_number_2010",
+      "column_num": "145"
+    },
+    {
+      "start_pos": "765",
+      "end_pos": "765",
+      "column_header": "telpas_composite_rating_2010",
+      "column_num": "146"
+    },
+    {
+      "start_pos": "766",
+      "end_pos": "769",
+      "column_header": "telpas_reading_scale_score_2010",
+      "column_num": "147"
+    },
+    {
+      "start_pos": "770",
+      "end_pos": "770",
+      "column_header": "telpas_reading_proficiency_rating_2010",
+      "column_num": "148"
+    },
+    {
+      "start_pos": "771",
+      "end_pos": "771",
+      "column_header": "telpas_reading_score_code_2010",
+      "column_num": "149"
+    },
+    {
+      "start_pos": "772",
+      "end_pos": "773",
+      "column_header": "grade_2011",
+      "column_num": "150"
+    },
+    {
+      "start_pos": "774",
+      "end_pos": "782",
+      "column_header": "county_district_campus_number_2011",
+      "column_num": "151"
+    },
+    {
+      "start_pos": "783",
+      "end_pos": "783",
+      "column_header": "telpas_composite_rating_2011",
+      "column_num": "152"
+    },
+    {
+      "start_pos": "784",
+      "end_pos": "787",
+      "column_header": "telpas_reading_scale_score_2011",
+      "column_num": "153"
+    },
+    {
+      "start_pos": "788",
+      "end_pos": "788",
+      "column_header": "telpas_reading_proficiency_rating_2011",
+      "column_num": "154"
+    },
+    {
+      "start_pos": "789",
+      "end_pos": "789",
+      "column_header": "telpas_reading_score_code_2011",
+      "column_num": "155"
     },
     {
       "start_pos": "800",
       "end_pos": "800",
       "column_header": "period",
-      "column_num": "145"
+      "column_num": "157"
     }
   ]
 }
