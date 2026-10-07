@@ -1,6 +1,6 @@
 # Milestone 3: Accountability and TELPAS
 
-- Status: Not Started
+- Status: In Review
 - Estimate: 65 business days
 - Dependencies: Milestone 2 completed
 - Planned dates: 2027-05-10 through 2027-08-06
@@ -18,9 +18,9 @@ multi-assessment, language-domain, and historical-result semantics.
 
 ## Milestone Pre-Checklist
 
-- [ ] Source inventories and assignments are current.
-- [ ] Holiday availability and verification capacity are confirmed.
-- [ ] Distinct Reviewer 1 and Reviewer 2 assignments are recorded.
+- [x] Source inventories and assignments are current.
+- [x] Holiday availability and verification capacity are confirmed.
+- [x] Distinct Reviewer 1 and Reviewer 2 assignments are recorded.
 
 <a id="m3-phase-1"></a>
 
@@ -44,8 +44,9 @@ multi-assessment, language-domain, and historical-result semantics.
 - Year branches: one independent `audit-fix/tea-telpas-<year>` branch for
   each represented 2012-2021 year
 - Family branch: `audit/tea-telpas`; year PRs target this branch
-- [ ] Complete all review layers for 10 years.
-- [ ] Verify domain, composite, proficiency, score-code, and history handling.
+- [x] Complete all review layers for 10 years.
+- [x] Verify domain, composite, proficiency, score-code, and history handling.
+- Actual completion: 2026-10-07; all 10 year PRs merged into the family branch.
 - Exit: all 10 year PRs are approved and merged into the family branch.
 
 <a id="m3-phase-3"></a>
@@ -56,16 +57,17 @@ multi-assessment, language-domain, and historical-result semantics.
   each represented 2022-2026 year
 - Family branch: `audit/tea-telpas`; year PRs target this branch
 - Final family PR: shared TELPAS and coverage closeout to `main`
-- [ ] Complete all review layers for five years.
-- [ ] Confirm each layout independently from its assigned year's source.
+- [x] Complete all review layers for five years.
+- [x] Confirm each layout independently from its assigned year's source.
+- Actual completion: 2026-10-07; all five year PRs merged into the family branch.
 - Exit: all 15 year PRs are merged into the family branch, then the completed
   TELPAS family PR is merged to `main`.
 
 ## Milestone Review Checklist
 
-- [ ] All phase exits are complete or blocked with an owner and review date.
-- [ ] Coverage, review records, and findings agree.
-- [ ] Roadmap actual dates, variance, and status are updated.
+- [x] All phase exits are complete or blocked with an owner and review date.
+- [x] Coverage, review records, and findings agree.
+- [x] Roadmap actual dates, variance, and status are updated.
 
 ## Next Step
 
