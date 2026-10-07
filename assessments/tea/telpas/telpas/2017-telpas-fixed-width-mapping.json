@@ -11,27 +11,27 @@
           "label": "Spring 2017"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2017-telpas-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2017-telpas-data-file-format.pdf"
     }
   ],
   "filename_patterns": [
     {
-      "regex": "^SF_0317_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:_ProductionExaminee_.*)?(?:\\.txt)?$",
+      "regex": "^SF_0317_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:_ProductionExaminee_.*)?\\.dat$",
       "references": [
         "https://txassessmentdocs.atlassian.net/wiki/spaces/ODCCM/pages/4146626561/Student+Data+Request+SDR+User+Guide",
         "https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"
       ]
     },
     {
-      "regex": "^PF_0317_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])(?:\\.txt)?$",
+      "regex": "^PF_0317_[Tt][Ee][Ll][Pp][Aa][Ss]_(K|0?[1-9]|1[0-2])\\.dat$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^SDR_[Tt][Ee][Ll][Pp][Aa][Ss]_2017_\\d{8}(?:\\.txt)?$",
+      "regex": "^SDR_[Tt][Ee][Ll][Pp][Aa][Ss]_2017_\\d{8}\\.dat$",
       "references": ["https://kb.ondatasuite.com/knowledge-base/4-11-loading-sirs-files/"]
     },
     {
-      "regex": "^S[FP]_(?:0317|2017)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?(?:\\.txt)?$",
+      "regex": "^S[FP]_(?:0317|2017)_[Tt][Ee][Ll][Pp][Aa][Ss]_\\d{6,9}_.+_V\\d{2}(?:_\\d{8,14})?\\.dat$",
       "references": [
         "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-file-naming-convention.pdf"
       ]
@@ -191,7 +191,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "30"
     },
     {
@@ -227,31 +227,31 @@
     {
       "start_pos": "133",
       "end_pos": "133",
-      "column_header": "agency_use_e",
+      "column_header": "agency_use_a",
       "column_num": "38"
     },
     {
       "start_pos": "134",
       "end_pos": "134",
-      "column_header": "agency_use_e_pos_134",
+      "column_header": "agency_use_b",
       "column_num": "39"
     },
     {
       "start_pos": "135",
       "end_pos": "135",
-      "column_header": "agency_use_e_pos_135",
+      "column_header": "agency_use_c",
       "column_num": "40"
     },
     {
       "start_pos": "136",
       "end_pos": "136",
-      "column_header": "agency_use_e_pos_136",
+      "column_header": "agency_use_d",
       "column_num": "41"
     },
     {
       "start_pos": "137",
       "end_pos": "137",
-      "column_header": "agency_use_e_pos_137",
+      "column_header": "agency_use_e",
       "column_num": "42"
     },
     {
@@ -275,7 +275,7 @@
     {
       "start_pos": "155",
       "end_pos": "163",
-      "column_header": "county_district_campus_number_pos_155",
+      "column_header": "fall_2016_peims_county_district_campus_number",
       "column_num": "49"
     },
     {
@@ -317,19 +317,19 @@
     {
       "start_pos": "201",
       "end_pos": "201",
-      "column_header": "general_accommodations",
+      "column_header": "reading_general_accommodations",
       "column_num": "60"
     },
     {
       "start_pos": "202",
       "end_pos": "202",
-      "column_header": "large_print",
+      "column_header": "reading_large_print",
       "column_num": "61"
     },
     {
       "start_pos": "203",
       "end_pos": "203",
-      "column_header": "extra_day",
+      "column_header": "reading_extra_day",
       "column_num": "62"
     },
     {
@@ -365,25 +365,25 @@
     {
       "start_pos": "227",
       "end_pos": "227",
-      "column_header": "unschooled_asylee_refugee_pos_227",
+      "column_header": "plan_year_unschooled_asylee_refugee",
       "column_num": "69"
     },
     {
       "start_pos": "228",
       "end_pos": "228",
-      "column_header": "students_with_interrupted_formal_education_sife_pos_228",
+      "column_header": "plan_year_students_with_interrupted_formal_education_sife",
       "column_num": "70"
     },
     {
       "start_pos": "229",
       "end_pos": "229",
-      "column_header": "years_in_u_s_schools_pos_229",
+      "column_header": "plan_year_years_in_u_s_schools",
       "column_num": "71"
     },
     {
       "start_pos": "230",
       "end_pos": "230",
-      "column_header": "telpas_composite_rating",
+      "column_header": "plan_year_telpas_composite_rating",
       "column_num": "72"
     },
     {
@@ -437,13 +437,13 @@
     {
       "start_pos": "291",
       "end_pos": "291",
-      "column_header": "number_of_items_correct_for_reporting_category_1",
+      "column_header": "beginning_items_correct_reporting_category_1",
       "column_num": "89"
     },
     {
       "start_pos": "292",
       "end_pos": "292",
-      "column_header": "number_of_items_correct_for_reporting_categories_2_and_3",
+      "column_header": "beginning_items_correct_reporting_categories_2_and_3",
       "column_num": "90"
     },
     {
@@ -455,19 +455,19 @@
     {
       "start_pos": "301",
       "end_pos": "301",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_301",
+      "column_header": "intermediate_items_correct_reporting_category_1",
       "column_num": "94"
     },
     {
       "start_pos": "302",
       "end_pos": "302",
-      "column_header": "number_of_items_correct_for_reporting_category_2",
+      "column_header": "intermediate_items_correct_reporting_category_2",
       "column_num": "95"
     },
     {
       "start_pos": "303",
       "end_pos": "303",
-      "column_header": "number_of_items_correct_for_reporting_category_3",
+      "column_header": "intermediate_items_correct_reporting_category_3",
       "column_num": "96"
     },
     {
@@ -479,19 +479,19 @@
     {
       "start_pos": "311",
       "end_pos": "311",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_311",
+      "column_header": "advanced_items_correct_reporting_category_1",
       "column_num": "100"
     },
     {
       "start_pos": "312",
       "end_pos": "312",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_312",
+      "column_header": "advanced_items_correct_reporting_category_2",
       "column_num": "101"
     },
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_313",
+      "column_header": "advanced_items_correct_reporting_category_3",
       "column_num": "102"
     },
     {
@@ -503,19 +503,19 @@
     {
       "start_pos": "321",
       "end_pos": "321",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_321",
+      "column_header": "advanced_high_items_correct_reporting_category_1",
       "column_num": "106"
     },
     {
       "start_pos": "322",
       "end_pos": "322",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_322",
+      "column_header": "advanced_high_items_correct_reporting_category_2",
       "column_num": "107"
     },
     {
       "start_pos": "323",
       "end_pos": "323",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_323",
+      "column_header": "advanced_high_items_correct_reporting_category_3",
       "column_num": "108"
     },
     {
@@ -587,7 +587,7 @@
     {
       "start_pos": "630",
       "end_pos": "630",
-      "column_header": "telpas_composite_rating_pos_630",
+      "column_header": "telpas_composite_rating",
       "column_num": "122"
     },
     {
@@ -606,187 +606,187 @@
       "start_pos": "664",
       "end_pos": "665",
       "column_header": "grade_2012",
-      "column_num": "128"
+      "column_num": "127"
     },
     {
       "start_pos": "666",
       "end_pos": "674",
       "column_header": "county_district_campus_number_2012",
-      "column_num": "129"
+      "column_num": "128"
     },
     {
       "start_pos": "675",
       "end_pos": "675",
       "column_header": "composite_rating_2012",
-      "column_num": "131"
+      "column_num": "129"
     },
     {
       "start_pos": "676",
       "end_pos": "679",
       "column_header": "reading_scale_score_2012",
-      "column_num": "131"
+      "column_num": "130"
     },
     {
       "start_pos": "680",
       "end_pos": "680",
       "column_header": "reading_proficiency_rating_2012",
-      "column_num": "132"
+      "column_num": "131"
     },
     {
       "start_pos": "681",
       "end_pos": "681",
       "column_header": "reading_score_code_2012",
-      "column_num": "133"
+      "column_num": "132"
     },
     {
       "start_pos": "682",
       "end_pos": "683",
       "column_header": "grade_2013",
-      "column_num": "134"
+      "column_num": "133"
     },
     {
       "start_pos": "684",
       "end_pos": "692",
       "column_header": "county_district_campus_number_2013",
-      "column_num": "135"
+      "column_num": "134"
     },
     {
       "start_pos": "693",
       "end_pos": "693",
       "column_header": "composite_rating_2013",
-      "column_num": "137"
+      "column_num": "135"
     },
     {
       "start_pos": "694",
       "end_pos": "697",
       "column_header": "reading_scale_score_2013",
-      "column_num": "137"
+      "column_num": "136"
     },
     {
       "start_pos": "698",
       "end_pos": "698",
       "column_header": "reading_proficiency_rating_2013",
-      "column_num": "138"
+      "column_num": "137"
     },
     {
       "start_pos": "699",
       "end_pos": "699",
       "column_header": "reading_score_code_2013",
-      "column_num": "139"
+      "column_num": "138"
     },
     {
       "start_pos": "700",
       "end_pos": "701",
       "column_header": "grade_2014",
-      "column_num": "140"
+      "column_num": "139"
     },
     {
       "start_pos": "702",
       "end_pos": "710",
       "column_header": "county_district_campus_number_2014",
-      "column_num": "141"
+      "column_num": "140"
     },
     {
       "start_pos": "711",
       "end_pos": "711",
       "column_header": "composite_rating_2014",
-      "column_num": "143"
+      "column_num": "141"
     },
     {
       "start_pos": "712",
       "end_pos": "715",
       "column_header": "reading_scale_score_2014",
-      "column_num": "143"
+      "column_num": "142"
     },
     {
       "start_pos": "716",
       "end_pos": "716",
       "column_header": "reading_proficiency_rating_2014",
-      "column_num": "144"
+      "column_num": "143"
     },
     {
       "start_pos": "717",
       "end_pos": "717",
       "column_header": "reading_score_code_2014",
-      "column_num": "145"
+      "column_num": "144"
     },
     {
       "start_pos": "718",
       "end_pos": "719",
       "column_header": "grade_2015",
-      "column_num": "146"
+      "column_num": "145"
     },
     {
       "start_pos": "720",
       "end_pos": "728",
       "column_header": "county_district_campus_number_2015",
-      "column_num": "147"
+      "column_num": "146"
     },
     {
       "start_pos": "729",
       "end_pos": "729",
       "column_header": "composite_rating_2015",
-      "column_num": "149"
+      "column_num": "147"
     },
     {
       "start_pos": "730",
       "end_pos": "733",
       "column_header": "reading_scale_score_2015",
-      "column_num": "149"
+      "column_num": "148"
     },
     {
       "start_pos": "734",
       "end_pos": "734",
       "column_header": "reading_proficiency_rating_2015",
-      "column_num": "150"
+      "column_num": "149"
     },
     {
       "start_pos": "735",
       "end_pos": "735",
       "column_header": "reading_score_code_2015",
-      "column_num": "151"
+      "column_num": "150"
     },
     {
       "start_pos": "736",
       "end_pos": "737",
       "column_header": "grade_2016",
-      "column_num": "152"
+      "column_num": "151"
     },
     {
       "start_pos": "738",
       "end_pos": "746",
       "column_header": "county_district_campus_number_2016",
-      "column_num": "153"
+      "column_num": "152"
     },
     {
       "start_pos": "747",
       "end_pos": "747",
       "column_header": "composite_rating_2016",
-      "column_num": "155"
+      "column_num": "153"
     },
     {
       "start_pos": "748",
       "end_pos": "751",
       "column_header": "reading_scale_score_2016",
-      "column_num": "155"
+      "column_num": "154"
     },
     {
       "start_pos": "752",
       "end_pos": "752",
       "column_header": "reading_proficiency_rating_2016",
-      "column_num": "156"
+      "column_num": "155"
     },
     {
       "start_pos": "753",
       "end_pos": "753",
       "column_header": "reading_score_code_2016",
-      "column_num": "157"
+      "column_num": "156"
     },
     {
       "start_pos": "800",
       "end_pos": "800",
       "column_header": "period",
-      "column_num": "127"
+      "column_num": "158"
     }
   ]
 }
