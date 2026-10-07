@@ -191,7 +191,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "30"
     },
     {
@@ -203,7 +203,7 @@
     {
       "start_pos": "122",
       "end_pos": "122",
-      "column_header": "career_and_technical_ed_indicator_code_grades_6_12_ct",
+      "column_header": "career_and_technical_education_indicator_code",
       "column_num": "33"
     },
     {
@@ -227,19 +227,19 @@
     {
       "start_pos": "135",
       "end_pos": "135",
-      "column_header": "agency_use_e",
+      "column_header": "agency_use_column_c",
       "column_num": "38"
     },
     {
       "start_pos": "136",
       "end_pos": "136",
-      "column_header": "agency_use_e_pos_136",
+      "column_header": "agency_use_column_d",
       "column_num": "39"
     },
     {
       "start_pos": "137",
       "end_pos": "137",
-      "column_header": "agency_use_e_pos_137",
+      "column_header": "agency_use_column_e",
       "column_num": "40"
     },
     {
@@ -263,7 +263,7 @@
     {
       "start_pos": "155",
       "end_pos": "163",
-      "column_header": "county_district_campus_number_pos_155",
+      "column_header": "fall_2014_peims_county_district_campus_number",
       "column_num": "47"
     },
     {
@@ -281,7 +281,7 @@
     {
       "start_pos": "174",
       "end_pos": "175",
-      "column_header": "fall_2014_tsds_peims_crisis_code_1",
+      "column_header": "fall_2014_peims_crisis_code",
       "column_num": "50"
     },
     {
@@ -293,13 +293,13 @@
     {
       "start_pos": "181",
       "end_pos": "181",
-      "column_header": "rater_info_a_rater",
+      "column_header": "rater_info_a",
       "column_num": "53"
     },
     {
       "start_pos": "191",
       "end_pos": "191",
-      "column_header": "rater_info_b_rater",
+      "column_header": "rater_info_b",
       "column_num": "55"
     },
     {
@@ -329,7 +329,7 @@
     {
       "start_pos": "232",
       "end_pos": "232",
-      "column_header": "listening_score_code_pos_232",
+      "column_header": "listening_score_code_default",
       "column_num": "62"
     },
     {
@@ -347,7 +347,7 @@
     {
       "start_pos": "247",
       "end_pos": "247",
-      "column_header": "speaking_score_code_pos_247",
+      "column_header": "speaking_score_code_default",
       "column_num": "66"
     },
     {
@@ -365,7 +365,7 @@
     {
       "start_pos": "262",
       "end_pos": "262",
-      "column_header": "writing_score_code_pos_262",
+      "column_header": "writing_score_code_default",
       "column_num": "70"
     },
     {
@@ -383,7 +383,7 @@
     {
       "start_pos": "277",
       "end_pos": "277",
-      "column_header": "reading_score_code_pos_277",
+      "column_header": "reading_score_code_default",
       "column_num": "74"
     },
     {
@@ -395,13 +395,13 @@
     {
       "start_pos": "291",
       "end_pos": "291",
-      "column_header": "number_of_items_correct_for_reporting_category_1",
+      "column_header": "beginning_items_correct_reporting_category_1",
       "column_num": "77"
     },
     {
       "start_pos": "292",
       "end_pos": "292",
-      "column_header": "number_of_items_correct_for_reporting_categories_2_and_3",
+      "column_header": "beginning_items_correct_reporting_categories_2_and_3",
       "column_num": "78"
     },
     {
@@ -413,19 +413,19 @@
     {
       "start_pos": "301",
       "end_pos": "301",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_301",
+      "column_header": "intermediate_items_correct_reporting_category_1",
       "column_num": "82"
     },
     {
       "start_pos": "302",
       "end_pos": "302",
-      "column_header": "number_of_items_correct_for_reporting_category_2",
+      "column_header": "intermediate_items_correct_reporting_category_2",
       "column_num": "83"
     },
     {
       "start_pos": "303",
       "end_pos": "303",
-      "column_header": "number_of_items_correct_for_reporting_category_3",
+      "column_header": "intermediate_items_correct_reporting_category_3",
       "column_num": "84"
     },
     {
@@ -437,19 +437,19 @@
     {
       "start_pos": "311",
       "end_pos": "311",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_311",
+      "column_header": "advanced_items_correct_reporting_category_1",
       "column_num": "88"
     },
     {
       "start_pos": "312",
       "end_pos": "312",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_312",
+      "column_header": "advanced_items_correct_reporting_category_2",
       "column_num": "89"
     },
     {
       "start_pos": "313",
       "end_pos": "313",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_313",
+      "column_header": "advanced_items_correct_reporting_category_3",
       "column_num": "90"
     },
     {
@@ -461,19 +461,19 @@
     {
       "start_pos": "321",
       "end_pos": "321",
-      "column_header": "number_of_items_correct_for_reporting_category_1_pos_321",
+      "column_header": "advanced_high_items_correct_reporting_category_1",
       "column_num": "94"
     },
     {
       "start_pos": "322",
       "end_pos": "322",
-      "column_header": "number_of_items_correct_for_reporting_category_2_pos_322",
+      "column_header": "advanced_high_items_correct_reporting_category_2",
       "column_num": "95"
     },
     {
       "start_pos": "323",
       "end_pos": "323",
-      "column_header": "number_of_items_correct_for_reporting_category_3_pos_323",
+      "column_header": "advanced_high_items_correct_reporting_category_3",
       "column_num": "96"
     },
     {
@@ -569,25 +569,25 @@
     {
       "start_pos": "675",
       "end_pos": "675",
-      "column_header": "composite_rating_2010",
+      "column_header": "telpas_composite_rating_2010",
       "column_num": "117"
     },
     {
       "start_pos": "676",
       "end_pos": "679",
-      "column_header": "reading_scale_score_2010",
+      "column_header": "telpas_reading_scale_score_2010",
       "column_num": "118"
     },
     {
       "start_pos": "680",
       "end_pos": "680",
-      "column_header": "reading_proficiency_rating_2010",
+      "column_header": "telpas_reading_proficiency_rating_2010",
       "column_num": "119"
     },
     {
       "start_pos": "681",
       "end_pos": "681",
-      "column_header": "reading_score_code_2010",
+      "column_header": "telpas_reading_score_code_2010",
       "column_num": "120"
     },
     {
@@ -605,25 +605,25 @@
     {
       "start_pos": "693",
       "end_pos": "693",
-      "column_header": "composite_rating_2011",
+      "column_header": "telpas_composite_rating_2011",
       "column_num": "123"
     },
     {
       "start_pos": "694",
       "end_pos": "697",
-      "column_header": "reading_scale_score_2011",
+      "column_header": "telpas_reading_scale_score_2011",
       "column_num": "124"
     },
     {
       "start_pos": "698",
       "end_pos": "698",
-      "column_header": "reading_proficiency_rating_2011",
+      "column_header": "telpas_reading_proficiency_rating_2011",
       "column_num": "125"
     },
     {
       "start_pos": "699",
       "end_pos": "699",
-      "column_header": "reading_score_code_2011",
+      "column_header": "telpas_reading_score_code_2011",
       "column_num": "126"
     },
     {
@@ -641,25 +641,25 @@
     {
       "start_pos": "711",
       "end_pos": "711",
-      "column_header": "composite_rating_2012",
+      "column_header": "telpas_composite_rating_2012",
       "column_num": "129"
     },
     {
       "start_pos": "712",
       "end_pos": "715",
-      "column_header": "reading_scale_score_2012",
+      "column_header": "telpas_reading_scale_score_2012",
       "column_num": "130"
     },
     {
       "start_pos": "716",
       "end_pos": "716",
-      "column_header": "reading_proficiency_rating_2012",
+      "column_header": "telpas_reading_proficiency_rating_2012",
       "column_num": "131"
     },
     {
       "start_pos": "717",
       "end_pos": "717",
-      "column_header": "reading_score_code_2012",
+      "column_header": "telpas_reading_score_code_2012",
       "column_num": "132"
     },
     {
@@ -677,25 +677,25 @@
     {
       "start_pos": "729",
       "end_pos": "729",
-      "column_header": "composite_rating_2013",
+      "column_header": "telpas_composite_rating_2013",
       "column_num": "135"
     },
     {
       "start_pos": "730",
       "end_pos": "733",
-      "column_header": "reading_scale_score_2013",
+      "column_header": "telpas_reading_scale_score_2013",
       "column_num": "136"
     },
     {
       "start_pos": "734",
       "end_pos": "734",
-      "column_header": "reading_proficiency_rating_2013",
+      "column_header": "telpas_reading_proficiency_rating_2013",
       "column_num": "137"
     },
     {
       "start_pos": "735",
       "end_pos": "735",
-      "column_header": "reading_score_code_2013",
+      "column_header": "telpas_reading_score_code_2013",
       "column_num": "138"
     },
     {
@@ -713,25 +713,25 @@
     {
       "start_pos": "747",
       "end_pos": "747",
-      "column_header": "composite_rating_2014",
+      "column_header": "telpas_composite_rating_2014",
       "column_num": "141"
     },
     {
       "start_pos": "748",
       "end_pos": "751",
-      "column_header": "reading_scale_score_2014",
+      "column_header": "telpas_reading_scale_score_2014",
       "column_num": "142"
     },
     {
       "start_pos": "752",
       "end_pos": "752",
-      "column_header": "reading_proficiency_rating_2014",
+      "column_header": "telpas_reading_proficiency_rating_2014",
       "column_num": "143"
     },
     {
       "start_pos": "753",
       "end_pos": "753",
-      "column_header": "reading_score_code_2014",
+      "column_header": "telpas_reading_score_code_2014",
       "column_num": "144"
     },
     {
