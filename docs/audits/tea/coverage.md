@@ -28,7 +28,7 @@ do not imply completed review or verification.
 | D          | STAAR Alternate 2 EOC             |                10 |           10/10 | `audit/tea-staar-alt2-eoc`     | complete    |
 | E          | STAAR consolidated accountability |                11 |           11/11 | `audit/tea-staar-consolidated` | complete    |
 | F          | STAAR interim                     |                 3 |             0/3 | `audit/tea-staar-interim`      | not-started |
-| G          | TELPAS                            |                15 |           15/15 | `audit/tea-telpas`             | in-review   |
+| G          | TELPAS                            |                15 |           15/15 | `audit/tea-telpas`             | complete    |
 | H          | TELPAS Alternate                  |                 8 |             0/8 | `audit/tea-telpas-alt`         | not-started |
 | I          | TFAR                              |                 2 |             0/2 | `audit/tea-tfar`               | not-started |
 | J          | TTAP                              |                 3 |             0/3 | `audit/tea-ttap`               | not-started |
