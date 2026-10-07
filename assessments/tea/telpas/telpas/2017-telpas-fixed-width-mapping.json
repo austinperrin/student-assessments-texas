@@ -347,13 +347,13 @@
     {
       "start_pos": "221",
       "end_pos": "221",
-      "column_header": "ell_progress_qualification_subjects_other_than_english_i_ii",
+      "column_header": "ell_progress_measure_qualification_non_english_i_ii_subjects",
       "column_num": "66"
     },
     {
       "start_pos": "222",
       "end_pos": "222",
-      "column_header": "ell_progress_qualification_english_i_ii",
+      "column_header": "ell_progress_measure_qualification_english_i_ii",
       "column_num": "67"
     },
     {
