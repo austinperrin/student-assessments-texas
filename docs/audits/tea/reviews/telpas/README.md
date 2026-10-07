@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-telpas`
 - Base commit: `e66412e`
 - Milestone: [M3: Accountability and TELPAS](../../roadmap/m3-accountability-and-telpas.md)
@@ -55,12 +55,12 @@ online/archive comparison limitations. There are no accepted blocks.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
 - [x] Repository validation passes on the family closeout head.
-- [ ] Program owner approves merge to `main`.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
 - Family reviewer lead completed: Codex, 2026-10-07
 - Year-level verification completed: 2026-10-07
-- Program owner accepted: pending
+- Program owner accepted: Austin Perrin, 2026-10-07
 - Family pull request: [#141](https://github.com/austinperrin/student-assessments-texas/pull/141)
-- Merge commit: pending
+- Merge commit: `a9520f0`

@@ -1,6 +1,6 @@
 # Milestone 3: Accountability and TELPAS
 
-- Status: In Review
+- Status: Completed
 - Estimate: 65 business days
 - Dependencies: Milestone 2 completed
 - Planned dates: 2027-05-10 through 2027-08-06
@@ -68,6 +68,9 @@ multi-assessment, language-domain, and historical-result semantics.
 - [x] All phase exits are complete or blocked with an owner and review date.
 - [x] Coverage, review records, and findings agree.
 - [x] Roadmap actual dates, variance, and status are updated.
+
+Actual completion: 2026-10-07; TELPAS family PR #141 merged to `main` as
+`a9520f0`, completing all three milestone phases.
 
 ## Next Step
 
