@@ -11,7 +11,7 @@
           "label": "Spring 2024"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-telpas-alt-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2023-2024-telpas-alt-data-file-layout.pdf"
     }
   ],
   "filename_patterns": [
@@ -213,7 +213,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "32"
     },
     {
