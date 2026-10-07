@@ -203,7 +203,7 @@
     {
       "start_pos": "122",
       "end_pos": "122",
-      "column_header": "career_and_technical_education_indicator_code",
+      "column_header": "career_and_technical_education_indicator_code_grades_6_12",
       "column_num": "33"
     },
     {
@@ -515,7 +515,7 @@
     {
       "start_pos": "553",
       "end_pos": "622",
-      "column_header": "reading_student_item_response",
+      "column_header": "reading_student_item_response_correctness_indicator",
       "column_num": "106"
     },
     {
