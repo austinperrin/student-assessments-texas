@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-telpas-alt`
 - Base commit: `9d89b05`
 - Milestone: [M4: Remaining Families](../../roadmap/m4-remaining-families.md)
@@ -48,12 +48,12 @@ There are no accepted blocks.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
 - [x] Repository validation passes on the family closeout head.
-- [ ] Program owner approves merge to `main`.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
 - Family reviewer lead completed: Codex, 2026-10-08
 - Year-level verification completed: 2026-10-08
-- Program owner accepted: pending
+- Program owner accepted: Austin Perrin, 2026-10-08
 - Family pull request: [#151](https://github.com/austinperrin/student-assessments-texas/pull/151)
-- Merge commit: pending
+- Merge commit: `9d3e4b4`
