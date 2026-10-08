@@ -41,7 +41,7 @@ accepted blocks.
 - [x] Independent verification is complete.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
-- [ ] Repository validation passes on the family closeout head.
+- [x] Repository validation passes on the family closeout head.
 - [ ] Program owner approves merge to `main`.
 
 ## Sign-Off
@@ -49,5 +49,5 @@ accepted blocks.
 - Family reviewer lead completed: Codex, 2026-10-08
 - Year-level verification completed: 2026-10-08
 - Program owner accepted: pending
-- Family pull request: pending
+- Family pull request: [#156](https://github.com/austinperrin/student-assessments-texas/pull/156)
 - Merge commit: pending
