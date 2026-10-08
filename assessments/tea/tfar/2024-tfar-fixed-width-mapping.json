@@ -6,7 +6,7 @@
       "file_name": "2024-tfar-fixed-width-mapping.json",
       "school_year": "2023-2024",
       "administration_periods": [{ "code": "TFAR", "label": "2024 TFAR" }],
-      "pdf_url": "https://tea.texas.gov/student-assessment/assessment-initiatives/2024-tfar-data-file.pdf"
+      "pdf_url": "https://tea.texas.gov/assessment-and-accountability/assessment-initiatives/2023-2024-tfar-data-file-1.pdf"
     }
   ],
   "mapped_fields": [
@@ -163,7 +163,7 @@
     {
       "start_pos": "115",
       "end_pos": "115",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "26"
     },
     {
@@ -205,7 +205,7 @@
     {
       "start_pos": "130",
       "end_pos": "131",
-      "column_header": "enrolled_grade",
+      "column_header": "student_enrolled_grade_code",
       "column_num": "33"
     },
     {
@@ -235,7 +235,7 @@
     {
       "start_pos": "165",
       "end_pos": "168",
-      "column_header": "percent_correct",
+      "column_header": "test_percent_correct",
       "column_num": "38"
     },
     {
