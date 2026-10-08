@@ -201,7 +201,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -309,7 +309,7 @@
     {
       "start_pos": "179",
       "end_pos": "179",
-      "column_header": "fall_2018_tsds_peims_foster_care_code",
+      "column_header": "fall_2018_tsds_peims_foster_care_indicator_code",
       "column_num": "55"
     },
     {
@@ -454,25 +454,25 @@
       "start_pos": "905",
       "end_pos": "907",
       "column_header": "telpas_alternate_composite_score",
-      "column_num": "95"
+      "column_num": "96"
     },
     {
       "start_pos": "908",
       "end_pos": "908",
       "column_header": "telpas_alternate_composite_rating",
-      "column_num": "96"
+      "column_num": "97"
     },
     {
       "start_pos": "1180",
       "end_pos": "1199",
-      "column_header": "group_name",
-      "column_num": "98"
+      "column_header": "class_group_name",
+      "column_num": "99"
     },
     {
       "start_pos": "1200",
       "end_pos": "1200",
       "column_header": "period",
-      "column_num": "99"
+      "column_num": "100"
     }
   ]
 }
