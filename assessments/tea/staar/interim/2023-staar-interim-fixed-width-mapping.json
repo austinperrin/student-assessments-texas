@@ -265,247 +265,247 @@
       "start_pos": "506",
       "end_pos": "508",
       "column_header": "test_code",
-      "column_num": "43"
+      "column_num": "44"
     },
     {
       "start_pos": "509",
       "end_pos": "510",
       "column_header": "grade_level_tested",
-      "column_num": "44"
+      "column_num": "45"
     },
     {
       "start_pos": "511",
       "end_pos": "514",
       "column_header": "total_scale_score",
-      "column_num": "45"
+      "column_num": "46"
     },
     {
       "start_pos": "515",
       "end_pos": "584",
       "column_header": "item_student_responses_segment_1",
-      "column_num": "46"
+      "column_num": "47"
     },
     {
       "start_pos": "585",
       "end_pos": "604",
       "column_header": "item_student_responses_segment_2_high",
-      "column_num": "47"
+      "column_num": "48"
     },
     {
       "start_pos": "605",
       "end_pos": "624",
       "column_header": "item_student_responses_segment_3_medium",
-      "column_num": "48"
+      "column_num": "49"
     },
     {
       "start_pos": "625",
       "end_pos": "644",
       "column_header": "item_student_responses_segment_4_low",
-      "column_num": "49"
+      "column_num": "50"
     },
     {
       "start_pos": "645",
       "end_pos": "714",
       "column_header": "item_student_scores_segment_1",
-      "column_num": "50"
+      "column_num": "51"
     },
     {
       "start_pos": "715",
       "end_pos": "734",
       "column_header": "item_student_scores_segment_2_high",
-      "column_num": "51"
+      "column_num": "52"
     },
     {
       "start_pos": "735",
       "end_pos": "754",
       "column_header": "item_student_scores_segment_3_medium",
-      "column_num": "52"
+      "column_num": "53"
     },
     {
       "start_pos": "755",
       "end_pos": "774",
       "column_header": "item_student_scores_segment_4_low",
-      "column_num": "53"
+      "column_num": "54"
     },
     {
       "start_pos": "775",
       "end_pos": "777",
       "column_header": "probability_of_achieving_approaches_grade_level",
-      "column_num": "54"
+      "column_num": "55"
     },
     {
       "start_pos": "778",
       "end_pos": "780",
       "column_header": "probability_of_achieving_meets_grade_level",
-      "column_num": "55"
+      "column_num": "56"
     },
     {
       "start_pos": "781",
       "end_pos": "783",
       "column_header": "probability_of_achieving_masters_grade_level",
-      "column_num": "56"
+      "column_num": "57"
     },
     {
       "start_pos": "784",
       "end_pos": "785",
       "column_header": "reporting_category_1_raw_score",
-      "column_num": "57"
+      "column_num": "58"
     },
     {
       "start_pos": "786",
       "end_pos": "787",
       "column_header": "reporting_category_2_raw_score",
-      "column_num": "58"
+      "column_num": "59"
     },
     {
       "start_pos": "788",
       "end_pos": "789",
       "column_header": "reporting_category_3_raw_score",
-      "column_num": "59"
+      "column_num": "60"
     },
     {
       "start_pos": "790",
       "end_pos": "791",
       "column_header": "reporting_category_4_raw_score",
-      "column_num": "60"
+      "column_num": "61"
     },
     {
       "start_pos": "792",
       "end_pos": "793",
       "column_header": "reporting_category_5_raw_score",
-      "column_num": "61"
+      "column_num": "62"
     },
     {
       "start_pos": "794",
       "end_pos": "795",
       "column_header": "reporting_category_6_raw_score",
-      "column_num": "62"
+      "column_num": "63"
     },
     {
       "start_pos": "796",
       "end_pos": "801",
-      "column_header": "reporting_category_1",
-      "column_num": "63"
+      "column_header": "reporting_category_1_strength_weakness_indicator",
+      "column_num": "64"
     },
     {
       "start_pos": "802",
       "end_pos": "807",
-      "column_header": "reporting_category_2",
-      "column_num": "64"
+      "column_header": "reporting_category_2_strength_weakness_indicator",
+      "column_num": "65"
     },
     {
       "start_pos": "808",
       "end_pos": "813",
-      "column_header": "reporting_category_3",
-      "column_num": "65"
+      "column_header": "reporting_category_3_strength_weakness_indicator",
+      "column_num": "66"
     },
     {
       "start_pos": "814",
       "end_pos": "819",
-      "column_header": "reporting_category_4",
-      "column_num": "66"
+      "column_header": "reporting_category_4_strength_weakness_indicator",
+      "column_num": "67"
     },
     {
       "start_pos": "820",
       "end_pos": "825",
-      "column_header": "reporting_category_5",
-      "column_num": "67"
+      "column_header": "reporting_category_5_strength_weakness_indicator",
+      "column_num": "68"
     },
     {
       "start_pos": "826",
       "end_pos": "831",
-      "column_header": "reporting_category_6",
-      "column_num": "68"
+      "column_header": "reporting_category_6_strength_weakness_indicator",
+      "column_num": "69"
     },
     {
       "start_pos": "832",
       "end_pos": "832",
-      "column_header": "historical_reporting_category_1",
-      "column_num": "69"
+      "column_header": "historical_reporting_category_1_strength_weakness_indicator",
+      "column_num": "70"
     },
     {
       "start_pos": "833",
       "end_pos": "833",
-      "column_header": "historical_reporting_category_2",
-      "column_num": "70"
+      "column_header": "historical_reporting_category_2_strength_weakness_indicator",
+      "column_num": "71"
     },
     {
       "start_pos": "834",
       "end_pos": "834",
-      "column_header": "historical_reporting_category_3",
-      "column_num": "71"
+      "column_header": "historical_reporting_category_3_strength_weakness_indicator",
+      "column_num": "72"
     },
     {
       "start_pos": "835",
       "end_pos": "835",
-      "column_header": "historical_reporting_category_4",
-      "column_num": "72"
+      "column_header": "historical_reporting_category_4_strength_weakness_indicator",
+      "column_num": "73"
     },
     {
       "start_pos": "836",
       "end_pos": "836",
-      "column_header": "historical_reporting_category_5",
-      "column_num": "73"
+      "column_header": "historical_reporting_category_5_strength_weakness_indicator",
+      "column_num": "74"
     },
     {
       "start_pos": "837",
       "end_pos": "837",
-      "column_header": "historical_reporting_category_6",
-      "column_num": "74"
+      "column_header": "historical_reporting_category_6_strength_weakness_indicator",
+      "column_num": "75"
     },
     {
       "start_pos": "838",
       "end_pos": "1887",
       "column_header": "se_alignment_segment_1",
-      "column_num": "75"
+      "column_num": "76"
     },
     {
       "start_pos": "1888",
       "end_pos": "2187",
       "column_header": "se_alignment_segment_2_high",
-      "column_num": "76"
+      "column_num": "77"
     },
     {
       "start_pos": "2188",
       "end_pos": "2487",
       "column_header": "se_alignment_segment_3_medium",
-      "column_num": "77"
+      "column_num": "78"
     },
     {
       "start_pos": "2488",
       "end_pos": "2787",
       "column_header": "se_alignment_segment_4_low",
-      "column_num": "78"
+      "column_num": "79"
     },
     {
       "start_pos": "2788",
       "end_pos": "2789",
       "column_header": "overall_raw_score",
-      "column_num": "79"
+      "column_num": "80"
     },
     {
       "start_pos": "2790",
       "end_pos": "2790",
       "column_header": "overall_performance_level",
-      "column_num": "80"
+      "column_num": "81"
     },
     {
       "start_pos": "2791",
       "end_pos": "2826",
       "column_header": "opportunity_key",
-      "column_num": "81"
+      "column_num": "82"
     },
     {
       "start_pos": "2827",
       "end_pos": "2828",
       "column_header": "attempt",
-      "column_num": "82"
+      "column_num": "83"
     },
     {
       "start_pos": "2829",
       "end_pos": "2830",
       "column_header": "end_of_record",
-      "column_num": "83"
+      "column_num": "84"
     }
   ]
 }
