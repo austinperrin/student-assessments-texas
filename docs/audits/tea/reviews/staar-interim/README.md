@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-staar-interim`
 - Base commit: `0db580c`
 - Milestone: [M4: Remaining Families](../../roadmap/m4-remaining-families.md)
@@ -42,12 +42,12 @@ accepted blocks.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
 - [x] Repository validation passes on the family closeout head.
-- [ ] Program owner approves merge to `main`.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
 - Family reviewer lead completed: Codex, 2026-10-08
 - Year-level verification completed: 2026-10-08
-- Program owner accepted: pending
+- Program owner accepted: Austin Perrin, 2026-10-08
 - Family pull request: [#156](https://github.com/austinperrin/student-assessments-texas/pull/156)
-- Merge commit: pending
+- Merge commit: `d4128d1`
