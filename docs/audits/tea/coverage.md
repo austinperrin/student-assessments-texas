@@ -29,7 +29,7 @@ do not imply completed review or verification.
 | E          | STAAR consolidated accountability |                11 |           11/11 | `audit/tea-staar-consolidated` | complete    |
 | F          | STAAR interim                     |                 3 |             0/3 | `audit/tea-staar-interim`      | not-started |
 | G          | TELPAS                            |                15 |           15/15 | `audit/tea-telpas`             | complete    |
-| H          | TELPAS Alternate                  |                 8 |             8/8 | `audit/tea-telpas-alt`         | in-review   |
+| H          | TELPAS Alternate                  |                 8 |             8/8 | `audit/tea-telpas-alt`         | complete    |
 | I          | TFAR                              |                 2 |             0/2 | `audit/tea-tfar`               | not-started |
 | J          | TTAP                              |                 3 |             0/3 | `audit/tea-ttap`               | not-started |
 | K          | CRS custom                        |                 4 |             0/4 | `audit/tea-crs`                | not-started |
