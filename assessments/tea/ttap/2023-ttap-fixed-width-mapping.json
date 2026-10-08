@@ -163,7 +163,7 @@
     {
       "start_pos": "463",
       "end_pos": "463",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "26"
     },
     {
@@ -187,7 +187,7 @@
     {
       "start_pos": "467",
       "end_pos": "467",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "30"
     },
     {
@@ -247,13 +247,13 @@
     {
       "start_pos": "486",
       "end_pos": "486",
-      "column_header": "content_language",
+      "column_header": "content_language_accommodations",
       "column_num": "40"
     },
     {
       "start_pos": "487",
       "end_pos": "487",
-      "column_header": "braille_refreshable_braille_device",
+      "column_header": "braille_refreshable_braille_device_screen_reader_support",
       "column_num": "41"
     },
     {

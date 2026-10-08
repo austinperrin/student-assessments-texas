@@ -48,9 +48,14 @@ families without reducing the evidence standard for lower-volume work.
 - Final family PRs: shared closeout from each family branch to `main`
 - [ ] Audit each year in its own review record and branch.
 - [ ] Investigate missing years and distinguish expected absence from source gaps.
-- STAAR Interim completed 2026-10-08: all three represented year PRs were
-  approved and merged into `audit/tea-staar-interim`; the family closeout is in
-  review.
+- STAAR Interim completed 2026-10-08: all three represented year PRs and the
+  family closeout were approved and merged to `main`.
+- TTAP year-level work completed 2026-10-08: all three represented year PRs
+  were independently approved and merged into `audit/tea-ttap`; the family
+  closeout is in review.
+- TFAR remains open: 2025 is approved and merged into its family branch, while
+  2024 is blocked pending authoritative same-year positional evidence or an
+  explicit program-owner exception acceptance.
 - Exit: every year PR is merged into its family branch, then each completed
   family PR is merged to `main`.
 
