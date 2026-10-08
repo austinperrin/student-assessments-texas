@@ -27,7 +27,7 @@ do not imply completed review or verification.
 | C          | STAAR Alternate 2 grades 3-8      |                10 |            0/10 | `audit/tea-staar-alt2-3-8`     | not-started |
 | D          | STAAR Alternate 2 EOC             |                10 |           10/10 | `audit/tea-staar-alt2-eoc`     | complete    |
 | E          | STAAR consolidated accountability |                11 |           11/11 | `audit/tea-staar-consolidated` | complete    |
-| F          | STAAR interim                     |                 3 |             3/3 | `audit/tea-staar-interim`      | in-review   |
+| F          | STAAR interim                     |                 3 |             3/3 | `audit/tea-staar-interim`      | complete    |
 | G          | TELPAS                            |                15 |           15/15 | `audit/tea-telpas`             | complete    |
 | H          | TELPAS Alternate                  |                 8 |             8/8 | `audit/tea-telpas-alt`         | complete    |
 | I          | TFAR                              |                 2 |             0/2 | `audit/tea-tfar`               | not-started |
