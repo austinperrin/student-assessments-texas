@@ -5,7 +5,7 @@
       "date_created": "2026-05-08",
       "file_name": "2026-staar-interim-fixed-width-mapping.json",
       "school_year": "2025-2026",
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2025-2026-staar-interim-data-file-format.pdf"
+      "pdf_url": "https://legacycms.tea.texas.gov/student-assessment/student-assessment-results/staar-interim-data-file-format.pdf"
     }
   ],
   "mapped_fields": [
@@ -60,19 +60,19 @@
     {
       "start_pos": "242",
       "end_pos": "301",
-      "column_header": "last_name",
+      "column_header": "student_last_name",
       "column_num": "9"
     },
     {
       "start_pos": "302",
       "end_pos": "361",
-      "column_header": "first_name",
+      "column_header": "student_first_name",
       "column_num": "10"
     },
     {
       "start_pos": "362",
       "end_pos": "421",
-      "column_header": "middle_name",
+      "column_header": "student_middle_name",
       "column_num": "11"
     },
     {
@@ -132,37 +132,37 @@
     {
       "start_pos": "817",
       "end_pos": "822",
-      "column_header": "reporting_category_1",
+      "column_header": "reporting_category_1_strength_weakness_indicator",
       "column_num": "21"
     },
     {
       "start_pos": "823",
       "end_pos": "828",
-      "column_header": "reporting_category_2",
+      "column_header": "reporting_category_2_strength_weakness_indicator",
       "column_num": "22"
     },
     {
       "start_pos": "829",
       "end_pos": "834",
-      "column_header": "reporting_category_3",
+      "column_header": "reporting_category_3_strength_weakness_indicator",
       "column_num": "23"
     },
     {
       "start_pos": "835",
       "end_pos": "840",
-      "column_header": "reporting_category_4",
+      "column_header": "reporting_category_4_strength_weakness_indicator",
       "column_num": "24"
     },
     {
       "start_pos": "841",
       "end_pos": "846",
-      "column_header": "reporting_category_5",
+      "column_header": "reporting_category_5_strength_weakness_indicator",
       "column_num": "25"
     },
     {
       "start_pos": "847",
       "end_pos": "852",
-      "column_header": "reporting_category_6",
+      "column_header": "reporting_category_6_strength_weakness_indicator",
       "column_num": "26"
     },
     {
@@ -276,7 +276,7 @@
     {
       "start_pos": "2146",
       "end_pos": "2146",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "45"
     },
     {
@@ -336,13 +336,13 @@
     {
       "start_pos": "2165",
       "end_pos": "2165",
-      "column_header": "content_language",
+      "column_header": "content_language_accommodations",
       "column_num": "55"
     },
     {
       "start_pos": "2166",
       "end_pos": "2166",
-      "column_header": "braille_refreshable_braille_device",
+      "column_header": "braille_refreshable_braille_device_screen_reader_support",
       "column_num": "56"
     },
     {
