@@ -43,19 +43,19 @@
     {
       "start_pos": "48",
       "end_pos": "62",
-      "column_header": "last_name",
+      "column_header": "student_last_name",
       "column_num": "6"
     },
     {
       "start_pos": "63",
       "end_pos": "77",
-      "column_header": "first_name",
+      "column_header": "student_first_name",
       "column_num": "7"
     },
     {
       "start_pos": "78",
       "end_pos": "78",
-      "column_header": "middle_name",
+      "column_header": "student_middle_name",
       "column_num": "8"
     },
     {
@@ -175,7 +175,7 @@
     {
       "start_pos": "122",
       "end_pos": "122",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "28"
     },
     {
