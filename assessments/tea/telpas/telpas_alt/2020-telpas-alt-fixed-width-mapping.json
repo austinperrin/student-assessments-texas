@@ -11,7 +11,7 @@
           "label": "Spring 2020"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2020-telpas-alt-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/data-reports/student-assessment-results/2020-telpas-alternate-data-file.pdf"
     }
   ],
   "filename_patterns": [
@@ -201,7 +201,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
