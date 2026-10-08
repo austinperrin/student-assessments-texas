@@ -48,6 +48,7 @@ accepted blocks.
 
 - Family reviewer lead completed: Codex, 2026-10-08
 - Year-level verification completed: 2026-10-08
+- Family-level verification approved: External AI, 2026-10-08
 - Program owner accepted: pending
 - Family pull request: [#163](https://github.com/austinperrin/student-assessments-texas/pull/163)
 - Merge commit: pending
