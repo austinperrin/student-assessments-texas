@@ -1,6 +1,6 @@
 # Milestone 4: Remaining Families
 
-- Status: Not Started
+- Status: In Progress
 - Estimate: 45 business days
 - Dependencies: Milestone 3 completed
 - Planned dates: 2027-08-09 through 2027-10-08
@@ -18,9 +18,9 @@ families without reducing the evidence standard for lower-volume work.
 
 ## Milestone Pre-Checklist
 
-- [ ] Reconfirm represented years before this milestone begins.
-- [ ] Assign reviewers with relevant family context.
-- [ ] Record source or sample gaps before execution.
+- [x] Reconfirm represented years before this milestone begins.
+- [x] Assign reviewers with relevant family context.
+- [x] Record source or sample gaps before execution.
 
 <a id="m4-phase-1"></a>
 
@@ -30,8 +30,10 @@ families without reducing the evidence standard for lower-volume work.
   represented year
 - Family branch: `audit/tea-telpas-alt`; year PRs target this branch
 - Final family PR: shared family and coverage closeout to `main`
-- [ ] Complete all review layers for eight years.
-- [ ] Confirm every concept independently from its assigned year's source.
+- [x] Complete all review layers for eight years.
+- [x] Confirm every concept independently from its assigned year's source.
+- Actual completion: 2026-10-08; all eight year PRs merged into the family
+  branch.
 - Exit: all eight year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
