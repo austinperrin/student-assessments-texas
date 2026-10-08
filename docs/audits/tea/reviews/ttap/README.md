@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-ttap`
 - Base commit: `b6bedc2`
 - Milestone: [M4: Remaining Families](../../roadmap/m4-remaining-families.md)
@@ -51,4 +51,4 @@ accepted blocks.
 - Family-level verification approved: External AI, 2026-10-08
 - Program owner accepted: Austin Perrin, 2026-10-08
 - Family pull request: [#163](https://github.com/austinperrin/student-assessments-texas/pull/163)
-- Merge commit: pending
+- Merge commit: `cdbc471`
