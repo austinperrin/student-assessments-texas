@@ -114,43 +114,43 @@
     {
       "start_pos": "510",
       "end_pos": "529",
-      "column_header": "item_student_responses_segment_2",
+      "column_header": "item_student_responses_segment_2_high",
       "column_num": "18"
     },
     {
       "start_pos": "530",
       "end_pos": "549",
-      "column_header": "item_student_scores_segment_2",
+      "column_header": "item_student_scores_segment_2_high",
       "column_num": "19"
     },
     {
       "start_pos": "550",
       "end_pos": "569",
-      "column_header": "item_student_responses_segment_3",
+      "column_header": "item_student_responses_segment_3_medium",
       "column_num": "20"
     },
     {
       "start_pos": "570",
       "end_pos": "589",
-      "column_header": "item_student_scores_segment_3",
+      "column_header": "item_student_scores_segment_3_medium",
       "column_num": "21"
     },
     {
       "start_pos": "590",
       "end_pos": "609",
-      "column_header": "item_student_responses_segment_4",
+      "column_header": "item_student_responses_segment_4_low",
       "column_num": "22"
     },
     {
       "start_pos": "610",
       "end_pos": "629",
-      "column_header": "item_student_scores_segment_4",
+      "column_header": "item_student_scores_segment_4_low",
       "column_num": "23"
     },
     {
       "start_pos": "630",
       "end_pos": "670",
-      "column_header": "predicted_staar_performance",
+      "column_header": "predicted_staar_performance_level",
       "column_num": "24"
     },
     {
@@ -192,73 +192,73 @@
     {
       "start_pos": "683",
       "end_pos": "688",
-      "column_header": "reporting_category_1",
+      "column_header": "reporting_category_1_strength_weakness_indicator",
       "column_num": "31"
     },
     {
       "start_pos": "689",
       "end_pos": "694",
-      "column_header": "reporting_category_2",
+      "column_header": "reporting_category_2_strength_weakness_indicator",
       "column_num": "32"
     },
     {
       "start_pos": "695",
       "end_pos": "700",
-      "column_header": "reporting_category_3",
+      "column_header": "reporting_category_3_strength_weakness_indicator",
       "column_num": "33"
     },
     {
       "start_pos": "701",
       "end_pos": "706",
-      "column_header": "reporting_category_4",
+      "column_header": "reporting_category_4_strength_weakness_indicator",
       "column_num": "34"
     },
     {
       "start_pos": "707",
       "end_pos": "712",
-      "column_header": "reporting_category_5",
+      "column_header": "reporting_category_5_strength_weakness_indicator",
       "column_num": "35"
     },
     {
       "start_pos": "713",
       "end_pos": "718",
-      "column_header": "reporting_category_6",
+      "column_header": "reporting_category_6_strength_weakness_indicator",
       "column_num": "36"
     },
     {
       "start_pos": "719",
       "end_pos": "719",
-      "column_header": "historical_reporting_category_1",
+      "column_header": "historical_reporting_category_1_strength_weakness_indicator",
       "column_num": "37"
     },
     {
       "start_pos": "720",
       "end_pos": "720",
-      "column_header": "historical_reporting_category_2",
+      "column_header": "historical_reporting_category_2_strength_weakness_indicator",
       "column_num": "38"
     },
     {
       "start_pos": "721",
       "end_pos": "721",
-      "column_header": "historical_reporting_category_3",
+      "column_header": "historical_reporting_category_3_strength_weakness_indicator",
       "column_num": "39"
     },
     {
       "start_pos": "722",
       "end_pos": "722",
-      "column_header": "historical_reporting_category_4",
+      "column_header": "historical_reporting_category_4_strength_weakness_indicator",
       "column_num": "40"
     },
     {
       "start_pos": "723",
       "end_pos": "723",
-      "column_header": "historical_reporting_category_5",
+      "column_header": "historical_reporting_category_5_strength_weakness_indicator",
       "column_num": "41"
     },
     {
       "start_pos": "724",
       "end_pos": "724",
-      "column_header": "historical_reporting_category_6",
+      "column_header": "historical_reporting_category_6_strength_weakness_indicator",
       "column_num": "42"
     },
     {
@@ -270,19 +270,19 @@
     {
       "start_pos": "1250",
       "end_pos": "1549",
-      "column_header": "se_alignment_segment_2",
+      "column_header": "se_alignment_segment_2_high",
       "column_num": "44"
     },
     {
       "start_pos": "1550",
       "end_pos": "1849",
-      "column_header": "se_alignment_segment_3",
+      "column_header": "se_alignment_segment_3_medium",
       "column_num": "45"
     },
     {
       "start_pos": "1850",
       "end_pos": "2149",
-      "column_header": "se_alignment_segment_4",
+      "column_header": "se_alignment_segment_4_low",
       "column_num": "46"
     },
     {
@@ -372,7 +372,7 @@
     {
       "start_pos": "2181",
       "end_pos": "2181",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "61"
     },
     {
@@ -396,7 +396,7 @@
     {
       "start_pos": "2185",
       "end_pos": "2185",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "65"
     },
     {
@@ -456,13 +456,13 @@
     {
       "start_pos": "2204",
       "end_pos": "2204",
-      "column_header": "content_language",
+      "column_header": "content_language_accommodations",
       "column_num": "75"
     },
     {
       "start_pos": "2205",
       "end_pos": "2205",
-      "column_header": "braille_refreshable_braille_device",
+      "column_header": "braille_refreshable_braille_device_screen_reader_support",
       "column_num": "76"
     },
     {
