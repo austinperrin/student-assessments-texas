@@ -5,7 +5,12 @@
       "date_created": "2026-05-08",
       "file_name": "2024-ttap-fixed-width-mapping.json",
       "school_year": "2023-2024",
-      "administration_periods": [{ "code": "TTAP", "label": "2023-2024 TTAP" }],
+      "administration_periods": [
+        {
+          "code": "TTAP",
+          "label": "2023-2024 TTAP"
+        }
+      ],
       "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2023-2024-ttap-data-file-layout.pdf"
     }
   ],
@@ -145,7 +150,7 @@
     {
       "start_pos": "506",
       "end_pos": "546",
-      "column_header": "predicted_staar_performance",
+      "column_header": "predicted_staar_performance_level_beta",
       "column_num": "24"
     },
     {
@@ -421,169 +426,169 @@
     {
       "start_pos": "652",
       "end_pos": "671",
-      "column_header": "item_student_scores_segment_1",
+      "column_header": "item_student_scores_segment_1_router_landing_page",
       "column_num": "70"
     },
     {
       "start_pos": "672",
       "end_pos": "691",
-      "column_header": "points_possible_by_item_segment_1",
+      "column_header": "points_possible_by_item_segment_1_router_landing_page",
       "column_num": "71"
     },
     {
       "start_pos": "692",
       "end_pos": "711",
-      "column_header": "item_difficulty_segment_1",
+      "column_header": "item_difficulty_segment_1_router_landing_page",
       "column_num": "72"
     },
     {
       "start_pos": "712",
       "end_pos": "1011",
-      "column_header": "se_alignment_segment_1",
+      "column_header": "se_alignment_segment_1_router_landing_page",
       "column_num": "73"
     },
     {
       "start_pos": "1012",
       "end_pos": "1031",
-      "column_header": "item_student_scores_segment_2",
+      "column_header": "item_student_scores_segment_2_high",
       "column_num": "74"
     },
     {
       "start_pos": "1032",
       "end_pos": "1051",
-      "column_header": "points_possible_by_item_segment_2",
+      "column_header": "points_possible_by_item_segment_2_high",
       "column_num": "75"
     },
     {
       "start_pos": "1052",
       "end_pos": "1071",
-      "column_header": "item_difficulty_segment_2",
+      "column_header": "item_difficulty_segment_2_high",
       "column_num": "76"
     },
     {
       "start_pos": "1072",
       "end_pos": "1371",
-      "column_header": "se_alignment_segment_2",
+      "column_header": "se_alignment_segment_2_high",
       "column_num": "77"
     },
     {
       "start_pos": "1372",
       "end_pos": "1391",
-      "column_header": "item_student_scores_segment_3",
+      "column_header": "item_student_scores_segment_3_medium",
       "column_num": "78"
     },
     {
       "start_pos": "1392",
       "end_pos": "1411",
-      "column_header": "points_possible_by_item_segment_3",
+      "column_header": "points_possible_by_item_segment_3_medium",
       "column_num": "79"
     },
     {
       "start_pos": "1412",
       "end_pos": "1431",
-      "column_header": "item_difficulty_segment_3",
+      "column_header": "item_difficulty_segment_3_medium",
       "column_num": "80"
     },
     {
       "start_pos": "1432",
       "end_pos": "1731",
-      "column_header": "se_alignment_segment_3",
+      "column_header": "se_alignment_segment_3_medium",
       "column_num": "81"
     },
     {
       "start_pos": "1732",
       "end_pos": "1751",
-      "column_header": "item_student_scores_segment_4",
+      "column_header": "item_student_scores_segment_4_low",
       "column_num": "82"
     },
     {
       "start_pos": "1752",
       "end_pos": "1771",
-      "column_header": "points_possible_by_item_segment_4",
+      "column_header": "points_possible_by_item_segment_4_low",
       "column_num": "83"
     },
     {
       "start_pos": "1772",
       "end_pos": "1791",
-      "column_header": "item_difficulty_segment_4",
+      "column_header": "item_difficulty_segment_4_low",
       "column_num": "84"
     },
     {
       "start_pos": "1792",
       "end_pos": "2091",
-      "column_header": "se_alignment_segment_4",
+      "column_header": "se_alignment_segment_4_low",
       "column_num": "85"
     },
     {
       "start_pos": "2092",
       "end_pos": "2111",
-      "column_header": "item_student_scores_segment_5",
+      "column_header": "item_student_scores_segment_5_high",
       "column_num": "86"
     },
     {
       "start_pos": "2112",
       "end_pos": "2131",
-      "column_header": "points_possible_by_item_segment_5",
+      "column_header": "points_possible_by_item_segment_5_high",
       "column_num": "87"
     },
     {
       "start_pos": "2132",
       "end_pos": "2151",
-      "column_header": "item_difficulty_segment_5",
+      "column_header": "item_difficulty_segment_5_high",
       "column_num": "88"
     },
     {
       "start_pos": "2152",
       "end_pos": "2451",
-      "column_header": "se_alignment_segment_5",
+      "column_header": "se_alignment_segment_5_high",
       "column_num": "89"
     },
     {
       "start_pos": "2452",
       "end_pos": "2471",
-      "column_header": "item_student_scores_segment_6",
+      "column_header": "item_student_scores_segment_6_medium",
       "column_num": "90"
     },
     {
       "start_pos": "2472",
       "end_pos": "2491",
-      "column_header": "points_possible_by_item_segment_6",
+      "column_header": "points_possible_by_item_segment_6_medium",
       "column_num": "91"
     },
     {
       "start_pos": "2492",
       "end_pos": "2511",
-      "column_header": "item_difficulty_segment_6",
+      "column_header": "item_difficulty_segment_6_medium",
       "column_num": "92"
     },
     {
       "start_pos": "2512",
       "end_pos": "2811",
-      "column_header": "se_alignment_segment_6",
+      "column_header": "se_alignment_segment_6_medium",
       "column_num": "93"
     },
     {
       "start_pos": "2812",
       "end_pos": "2831",
-      "column_header": "item_student_scores_segment_7",
+      "column_header": "item_student_scores_segment_7_low",
       "column_num": "94"
     },
     {
       "start_pos": "2832",
       "end_pos": "2851",
-      "column_header": "points_possible_by_item_segment_7",
+      "column_header": "points_possible_by_item_segment_7_low",
       "column_num": "95"
     },
     {
       "start_pos": "2852",
       "end_pos": "2871",
-      "column_header": "item_difficulty_segment_7",
+      "column_header": "item_difficulty_segment_7_low",
       "column_num": "96"
     },
     {
       "start_pos": "2872",
       "end_pos": "3171",
-      "column_header": "se_alignment_segment_7",
+      "column_header": "se_alignment_segment_7_low",
       "column_num": "97"
     },
     {
@@ -667,7 +672,7 @@
     {
       "start_pos": "3201",
       "end_pos": "3201",
-      "column_header": "lep_indicator_code",
+      "column_header": "emergent_bilingual_indicator_code",
       "column_num": "111"
     },
     {
@@ -691,7 +696,7 @@
     {
       "start_pos": "3205",
       "end_pos": "3205",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "115"
     },
     {
@@ -727,13 +732,13 @@
     {
       "start_pos": "3220",
       "end_pos": "3220",
-      "column_header": "content_language",
+      "column_header": "content_language_accommodations",
       "column_num": "121"
     },
     {
       "start_pos": "3221",
       "end_pos": "3221",
-      "column_header": "braille_refreshable_braille_device",
+      "column_header": "braille_refreshable_braille_device_screen_reader_support",
       "column_num": "122"
     },
     {
