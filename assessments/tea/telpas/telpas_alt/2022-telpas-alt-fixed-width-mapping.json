@@ -11,7 +11,7 @@
           "label": "Spring 2022"
         }
       ],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2022-telpas-alternate-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/system/files/tx-telpas-alternate-2022-data-file-layout_0.pdf"
     }
   ],
   "filename_patterns": [
@@ -201,7 +201,7 @@
     {
       "start_pos": "117",
       "end_pos": "117",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "31"
     },
     {
@@ -351,13 +351,13 @@
     {
       "start_pos": "301",
       "end_pos": "302",
-      "column_header": "listening_reporting_category_1",
+      "column_header": "listening_reporting_category_1_score",
       "column_num": "69"
     },
     {
       "start_pos": "303",
       "end_pos": "304",
-      "column_header": "listening_reporting_category_2",
+      "column_header": "listening_reporting_category_2_score",
       "column_num": "70"
     },
     {
@@ -381,13 +381,13 @@
     {
       "start_pos": "501",
       "end_pos": "502",
-      "column_header": "speaking_reporting_category_1",
+      "column_header": "speaking_reporting_category_1_score",
       "column_num": "77"
     },
     {
       "start_pos": "503",
       "end_pos": "504",
-      "column_header": "speaking_reporting_category_2",
+      "column_header": "speaking_reporting_category_2_score",
       "column_num": "78"
     },
     {
@@ -411,19 +411,19 @@
     {
       "start_pos": "701",
       "end_pos": "702",
-      "column_header": "reading_reporting_category_1",
+      "column_header": "reading_reporting_category_1_score",
       "column_num": "84"
     },
     {
       "start_pos": "703",
       "end_pos": "704",
-      "column_header": "reading_reporting_category_2",
+      "column_header": "reading_reporting_category_2_score",
       "column_num": "85"
     },
     {
       "start_pos": "705",
       "end_pos": "706",
-      "column_header": "reading_reporting_category_3",
+      "column_header": "reading_reporting_category_3_score",
       "column_num": "86"
     },
     {
@@ -447,13 +447,13 @@
     {
       "start_pos": "753",
       "end_pos": "754",
-      "column_header": "writing_reporting_category_1",
+      "column_header": "writing_reporting_category_1_score",
       "column_num": "92"
     },
     {
       "start_pos": "755",
       "end_pos": "756",
-      "column_header": "writing_reporting_category_2",
+      "column_header": "writing_reporting_category_2_score",
       "column_num": "93"
     },
     {
