@@ -48,6 +48,9 @@ families without reducing the evidence standard for lower-volume work.
 - Final family PRs: shared closeout from each family branch to `main`
 - [ ] Audit each year in its own review record and branch.
 - [ ] Investigate missing years and distinguish expected absence from source gaps.
+- STAAR Interim completed 2026-10-08: all three represented year PRs were
+  approved and merged into `audit/tea-staar-interim`; the family closeout is in
+  review.
 - Exit: every year PR is merged into its family branch, then each completed
   family PR is merged to `main`.
 
