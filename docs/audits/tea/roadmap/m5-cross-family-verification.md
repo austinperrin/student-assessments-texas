@@ -19,8 +19,10 @@ cross-year or cross-family comparisons as source evidence.
 ## Milestone Pre-Checklist
 
 - [x] Coverage lists every represented year and review limitation.
-- [ ] Candidate, confirmed, rejected, and blocked findings are queryable.
-- [ ] Open verification work has an assigned verifier.
+- [x] Candidate, confirmed, rejected, and blocked findings are queryable in the
+      [program reconciliation](../program-reconciliation.md).
+- [x] Open verification work has an assigned verifier; no year verification
+      remains open.
 
 ## Pre-Work: Historical Coverage Reconciliation
 
@@ -57,11 +59,14 @@ on 2026-10-09. The Phase 1 exit is complete.
 ## Phase 2: Findings and Coverage Reconciliation
 
 - Branch: `docs/tea-audit-m5-program-reconciliation`
-- [ ] Confirm review records and coverage totals agree.
-- [ ] Confirm required independent verifications are complete.
-- [ ] Check finding IDs, severity, state, owner, and disposition.
-- [ ] Identify audit limitations that remain at closeout.
+- [x] Confirm review records and coverage totals agree.
+- [x] Confirm required independent verifications are complete.
+- [x] Check finding IDs, severity, state, owner, and disposition.
+- [x] Identify audit limitations that remain at closeout.
 - Exit: the audit evidence set is internally consistent and reviewable.
+
+Reviewer 1 completed the Phase 2 reconciliation on 2026-10-09. Independent
+Reviewer 2 confirmation is pending.
 
 ## Milestone Review Checklist
 
