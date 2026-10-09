@@ -37,8 +37,9 @@ families, preserving each year's distinct layout and behavior.
 - Actual completion: 2026-10-01. The approved year PRs merged directly to
   `main` under the legacy workflow; M5 pre-work records that integration in the
   [family record](../reviews/staar-eoc/README.md).
-- Exit: all 15 year PRs are merged into the family branch, then the completed
-  family PR is merged to `main`.
+- Exit: all 15 approved year PRs are merged directly to `main` under the legacy
+  workflow, and the family-level integration history is reconciled in the M5
+  pre-work record.
 
 <a id="m2-phase-2"></a>
 
@@ -54,8 +55,9 @@ families, preserving each year's distinct layout and behavior.
   `main` under the legacy workflow; 2020 is absent because the administration
   was canceled. M5 pre-work records the integration in the
   [family record](../reviews/staar-alt2-3-8/README.md).
-- Exit: all 10 year PRs are merged into the family branch, then the completed
-  family PR is merged to `main`.
+- Exit: all 10 approved year PRs are merged directly to `main` under the legacy
+  workflow, the canceled 2020 administration is documented, and the
+  family-level integration history is reconciled in the M5 pre-work record.
 
 <a id="m2-phase-3"></a>
 
