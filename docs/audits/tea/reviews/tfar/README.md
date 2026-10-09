@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-tfar`
 - Base commit: `b6bedc2`
 - Milestone: [M4: Remaining Families](../../roadmap/m4-remaining-families.md)
@@ -63,4 +63,4 @@ block is the only unresolved evidence layer in this family.
 - Program owner accepted the 2024 exception: Austin Perrin, 2026-10-09
 - Program owner accepted family merge: Austin Perrin, 2026-10-09
 - Family pull request: [#171](https://github.com/austinperrin/student-assessments-texas/pull/171)
-- Merge commit: pending
+- Merge commit: `e625d6c`
