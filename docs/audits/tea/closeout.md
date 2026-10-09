@@ -130,4 +130,4 @@ same-year source isolation, and receive independent Reviewer 2 verification.
 - Program-owner acceptance: Austin Perrin, 2026-10-09
 - Closeout pull request:
   [#177](https://github.com/austinperrin/student-assessments-texas/pull/177)
-- Merge commit: pending
+- Merge commit: `fb158eb`
