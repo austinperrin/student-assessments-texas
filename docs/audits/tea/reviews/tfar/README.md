@@ -48,7 +48,7 @@ block is the only unresolved evidence layer in this family.
 - [x] Independent verification or exception confirmation is complete.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
-- [ ] Repository validation passes on the family closeout head.
+- [x] Repository validation passes on the family closeout head.
 - [ ] Program owner approves merge to `main`.
 
 ## Sign-Off
@@ -57,5 +57,5 @@ block is the only unresolved evidence layer in this family.
 - Year-level verification completed: 2026-10-09
 - Program owner accepted the 2024 exception: Austin Perrin, 2026-10-09
 - Program owner accepted family merge: pending
-- Family pull request: pending
+- Family pull request: [#171](https://github.com/austinperrin/student-assessments-texas/pull/171)
 - Merge commit: pending
