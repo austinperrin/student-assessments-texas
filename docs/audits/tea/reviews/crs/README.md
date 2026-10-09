@@ -51,6 +51,7 @@ PDFs byte-match. There are no accepted blocks.
 
 - Family reviewer lead completed: Codex, 2026-10-09
 - Year-level verification completed: 2026-10-09
+- Family-level verification approved: External AI, 2026-10-09
 - Program owner accepted: pending
 - Family pull request: [#169](https://github.com/austinperrin/student-assessments-texas/pull/169)
 - Merge commit: pending
