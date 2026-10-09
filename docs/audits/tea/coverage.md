@@ -32,7 +32,7 @@ do not imply completed review or verification.
 | H          | TELPAS Alternate                  |                 8 |             8/8 | `audit/tea-telpas-alt`         | complete    |
 | I          | TFAR                              |                 2 |             0/2 | `audit/tea-tfar`               | not-started |
 | J          | TTAP                              |                 3 |             3/3 | `audit/tea-ttap`               | complete    |
-| K          | CRS custom                        |                 4 |             0/4 | `audit/tea-crs`                | not-started |
+| K          | CRS custom                        |                 4 |             4/4 | `audit/tea-crs`                | in-review   |
 
 A family is complete only when every represented year below is closed or has an
 accepted block, every year branch has merged into the family branch, and the
@@ -136,10 +136,10 @@ in [workflow.md](./workflow.md).
 | J          | TTAP                              | 2023 | [mapping](../../../assessments/tea/ttap/2023-ttap-fixed-width-mapping.json)                                                           | complete       | unavailable  | Codex      | External AI   | closed      | [review](./reviews/ttap/2023.md)               |
 | J          | TTAP                              | 2024 | [mapping](../../../assessments/tea/ttap/2024-ttap-fixed-width-mapping.json)                                                           | complete       | unavailable  | Codex      | External AI   | closed      | [review](./reviews/ttap/2024.md)               |
 | J          | TTAP                              | 2025 | [mapping](../../../assessments/tea/ttap/2025-ttap-fixed-width-mapping.json)                                                           | complete       | unavailable  | Codex      | External AI   | closed      | [review](./reviews/ttap/2025.md)               |
-| K          | CRS custom                        | 2023 | [mapping](../../../assessments/tea/crs/2023-crs-custom-fixed-width-mapping.json)                                                      | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                            |
-| K          | CRS custom                        | 2024 | [mapping](../../../assessments/tea/crs/2024-crs-custom-fixed-width-mapping.json)                                                      | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                            |
-| K          | CRS custom                        | 2025 | [mapping](../../../assessments/tea/crs/2025-crs-custom-fixed-width-mapping.json)                                                      | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                            |
-| K          | CRS custom                        | 2026 | [mapping](../../../assessments/tea/crs/2026-crs-custom-fixed-width-mapping.json)                                                      | not-started    | not-reviewed | Unassigned | Unassigned    | not-started | â€”                                            |
+| K          | CRS custom                        | 2023 | [mapping](../../../assessments/tea/crs/2023-crs-custom-fixed-width-mapping.json)                                                      | complete       | unavailable  | Codex      | External AI   | merged      | [review](./reviews/crs/2023.md)                |
+| K          | CRS custom                        | 2024 | [mapping](../../../assessments/tea/crs/2024-crs-custom-fixed-width-mapping.json)                                                      | complete       | unavailable  | Codex      | External AI   | merged      | [review](./reviews/crs/2024.md)                |
+| K          | CRS custom                        | 2025 | [mapping](../../../assessments/tea/crs/2025-crs-custom-fixed-width-mapping.json)                                                      | complete       | unavailable  | Codex      | External AI   | merged      | [review](./reviews/crs/2025.md)                |
+| K          | CRS custom                        | 2026 | [mapping](../../../assessments/tea/crs/2026-crs-custom-fixed-width-mapping.json)                                                      | complete       | unavailable  | Codex      | External AI   | merged      | [review](./reviews/crs/2026.md)                |
 
 Sample coverage records availability, not a requirement that protected result
 files be added to the repository. Use `unavailable` with a documented
