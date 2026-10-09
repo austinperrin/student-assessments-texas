@@ -1,6 +1,6 @@
 # Milestone 4: Remaining Families
 
-- Status: In Progress
+- Status: Completed
 - Estimate: 45 business days
 - Dependencies: Milestone 3 completed
 - Planned dates: 2027-08-09 through 2027-10-08
@@ -32,8 +32,8 @@ families without reducing the evidence standard for lower-volume work.
 - Final family PR: shared family and coverage closeout to `main`
 - [x] Complete all review layers for eight years.
 - [x] Confirm every concept independently from its assigned year's source.
-- Actual completion: 2026-10-08; all eight year PRs merged into the family
-  branch.
+- Actual completion: 2026-10-08; all eight year PRs and the family closeout
+  merged to `main`.
 - Exit: all eight year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
@@ -52,10 +52,10 @@ families without reducing the evidence standard for lower-volume work.
   family closeout were approved and merged to `main`.
 - TTAP completed 2026-10-08: all three represented year PRs and the family
   closeout were independently approved and merged to `main`.
-- TFAR year-level work completed 2026-10-09: 2025 was independently approved,
-  and 2024 was approved under the documented program-owner exception for its
-  source-unverifiable positional layer. Both year PRs are merged into
-  `audit/tea-tfar`; the family closeout is in review.
+- TFAR completed 2026-10-09: 2025 was independently approved, and 2024 was
+  approved under the documented program-owner exception for its
+  source-unverifiable positional layer. Both year PRs and the family closeout
+  merged to `main`.
 - Exit: every year PR is merged into its family branch, then each completed
   family PR is merged to `main`.
 
@@ -76,9 +76,13 @@ families without reducing the evidence standard for lower-volume work.
 
 ## Milestone Review Checklist
 
-- [ ] Every represented TEA mapping year has an initial review or documented block.
-- [ ] Smaller families remain independently traceable.
-- [ ] Roadmap actual dates, variance, and status are updated.
+- [x] Every represented TEA mapping year has an initial review or documented block.
+- [x] Smaller families remain independently traceable.
+- [x] Roadmap actual dates, variance, and status are updated.
+
+Actual completion: 2026-10-09. The TFAR 2024 positional-evidence block remains
+accepted with a required recheck by 2027-10-09 or earlier if authoritative
+same-year evidence or an operational sample becomes available.
 
 ## Next Step
 
