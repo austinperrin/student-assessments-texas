@@ -2,7 +2,7 @@
 
 ## Family Metadata
 
-- Status: in review
+- Status: closed
 - Family audit branch: `audit/tea-crs`
 - Base commit: `a92f802`
 - Milestone: [M4: Remaining Families](../../roadmap/m4-remaining-families.md)
@@ -54,4 +54,4 @@ PDFs byte-match. There are no accepted blocks.
 - Family-level verification approved: External AI, 2026-10-09
 - Program owner accepted: Austin Perrin, 2026-10-09
 - Family pull request: [#169](https://github.com/austinperrin/student-assessments-texas/pull/169)
-- Merge commit: pending
+- Merge commit: `2481c53`
