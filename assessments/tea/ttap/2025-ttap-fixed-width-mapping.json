@@ -6,7 +6,7 @@
       "file_name": "2025-ttap-fixed-width-mapping.json",
       "school_year": "2024-2025",
       "administration_periods": [{ "code": "TTAP", "label": "2024-2025 TTAP" }],
-      "pdf_url": "https://tea.texas.gov/student-assessment/student-assessment-results/2024-2025-ttap-data-file-format.pdf"
+      "pdf_url": "https://tea.texas.gov/assessment-and-accountability/assessment-initiatives/2024-2025-ttap-data-file-format.pdf"
     }
   ],
   "mapped_fields": [
@@ -619,7 +619,7 @@
     {
       "start_pos": "2891",
       "end_pos": "2891",
-      "column_header": "gifted_talented_indicator_code",
+      "column_header": "gifted_and_talented_indicator_code",
       "column_num": "103"
     },
     {
@@ -655,13 +655,13 @@
     {
       "start_pos": "2906",
       "end_pos": "2906",
-      "column_header": "content_language",
+      "column_header": "content_language_accommodations",
       "column_num": "109"
     },
     {
       "start_pos": "2907",
       "end_pos": "2907",
-      "column_header": "braille_refreshable_braille_device",
+      "column_header": "braille_refreshable_braille_device_screen_reader_support",
       "column_num": "110"
     },
     {

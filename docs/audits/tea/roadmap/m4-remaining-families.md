@@ -48,9 +48,13 @@ families without reducing the evidence standard for lower-volume work.
 - Final family PRs: shared closeout from each family branch to `main`
 - [ ] Audit each year in its own review record and branch.
 - [ ] Investigate missing years and distinguish expected absence from source gaps.
-- STAAR Interim completed 2026-10-08: all three represented year PRs were
-  approved and merged into `audit/tea-staar-interim`; the family closeout is in
-  review.
+- STAAR Interim completed 2026-10-08: all three represented year PRs and the
+  family closeout were approved and merged to `main`.
+- TTAP completed 2026-10-08: all three represented year PRs and the family
+  closeout were independently approved and merged to `main`.
+- TFAR remains open: 2025 is approved and merged into its family branch, while
+  2024 is blocked pending authoritative same-year positional evidence or an
+  explicit program-owner exception acceptance.
 - Exit: every year PR is merged into its family branch, then each completed
   family PR is merged to `main`.
 
@@ -62,8 +66,10 @@ families without reducing the evidence standard for lower-volume work.
   through 2026
 - Family branch: `audit/tea-crs`; year PRs target this branch
 - Final family PR: shared CRS and coverage closeout to `main`
-- [ ] Complete all review layers for four years.
-- [ ] Clearly separate custom-file conventions from statewide file assumptions.
+- [x] Complete all review layers for four years.
+- [x] Clearly separate custom-file conventions from statewide file assumptions.
+- CRS Custom completed 2026-10-09: all four represented year PRs and the family
+  closeout were independently approved and merged to `main`.
 - Exit: all four year PRs are merged into the family branch, then the completed
   CRS family PR is merged to `main`.
 
