@@ -25,6 +25,10 @@ internally continuous across positions 1–2158 with ordinals 1–45, but its
 numeric positions, ranges, and lengths remain source-unverified under the
 accepted exception below. No neighboring year was used as evidence.
 
+Before closeout, current `main` was merged into the family branch at `0592f26`.
+Its second parent is the CRS post-closeout merge `b98247b`, confirming that the
+completed CRS and TTAP work was preserved in the TFAR family pull request.
+
 ## Limitations and Accepted Blocks
 
 The 2024 same-year online PDF and matching local archive leave every Start,
@@ -49,13 +53,14 @@ block is the only unresolved evidence layer in this family.
 - [x] Findings have dispositions.
 - [x] The family closeout contains no new mapping corrections.
 - [x] Repository validation passes on the family closeout head.
-- [ ] Program owner approves merge to `main`.
+- [x] Program owner approves merge to `main`.
 
 ## Sign-Off
 
 - Family reviewer lead completed: Codex, 2026-10-09
 - Year-level verification completed: 2026-10-09
+- Family-level verification approved: External AI, 2026-10-09
 - Program owner accepted the 2024 exception: Austin Perrin, 2026-10-09
-- Program owner accepted family merge: pending
+- Program owner accepted family merge: Austin Perrin, 2026-10-09
 - Family pull request: [#171](https://github.com/austinperrin/student-assessments-texas/pull/171)
 - Merge commit: pending
