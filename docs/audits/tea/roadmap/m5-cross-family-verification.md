@@ -1,6 +1,6 @@
 # Milestone 5: Program Verification
 
-- Status: Not Started
+- Status: In Progress
 - Estimate: 15 business days
 - Dependencies: Milestones 1-4 completed or explicitly blocked
 - Planned dates: 2027-10-11 through 2027-10-29
@@ -18,9 +18,20 @@ cross-year or cross-family comparisons as source evidence.
 
 ## Milestone Pre-Checklist
 
-- [ ] Coverage lists every represented year and review limitation.
+- [x] Coverage lists every represented year and review limitation.
 - [ ] Candidate, confirmed, rejected, and blocked findings are queryable.
 - [ ] Open verification work has an assigned verifier.
+
+## Pre-Work: Historical Coverage Reconciliation
+
+- Branch: `docs/tea-audit-m5-prework-reconciliation`
+- [x] Reconcile the closed STAAR grades 3-8 family with M1 status.
+- [x] Reconcile all 15 approved STAAR EOC records and merged PRs with coverage.
+- [x] Reconcile all 10 approved STAAR Alternate 2 grades 3-8 records and merged
+      PRs with coverage, including canceled 2020.
+- [x] Record legacy direct-to-`main` integration without rewriting history as
+      family-branch integration.
+- [ ] Obtain independent review of the reconciled program state.
 
 <a id="m5-phase-1"></a>
 

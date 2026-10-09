@@ -1,6 +1,6 @@
 # Milestone 2: Core STAAR Families
 
-- Status: Not Started
+- Status: Completed
 - Estimate: 90 business days
 - Dependencies: Milestone 1 completed and roadmap rebaselined
 - Planned dates: 2027-01-04 through 2027-05-07
@@ -18,10 +18,10 @@ families, preserving each year's distinct layout and behavior.
 
 ## Milestone Pre-Checklist
 
-- [ ] Pilot process changes are merged.
-- [ ] Family/year inventories and missing-year facts are confirmed.
-- [ ] Review and verification assignments are recorded.
-- [ ] Create one integration branch per family from current `main`, then create
+- [x] Pilot process changes are merged.
+- [x] Family/year inventories and missing-year facts are confirmed.
+- [x] Review and verification assignments are recorded.
+- [x] Create one integration branch per family from current `main`, then create
       every assigned year branch from its family branch.
 
 <a id="m2-phase-1"></a>
@@ -32,8 +32,11 @@ families, preserving each year's distinct layout and behavior.
   represented year
 - Family branch: `audit/tea-staar-eoc`; year PRs target this branch
 - Final family PR: shared family and coverage closeout to `main`
-- [ ] Complete all review layers for 15 represented years.
-- [ ] Confirm EOC-specific rules against each assigned year's own source.
+- [x] Complete all review layers for 15 represented years.
+- [x] Confirm EOC-specific rules against each assigned year's own source.
+- Actual completion: 2026-10-01. The approved year PRs merged directly to
+  `main` under the legacy workflow; M5 pre-work records that integration in the
+  [family record](../reviews/staar-eoc/README.md).
 - Exit: all 15 year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
@@ -45,8 +48,12 @@ families, preserving each year's distinct layout and behavior.
   branch per represented year
 - Family branch: `audit/tea-staar-alt2-3-8`; year PRs target this branch
 - Final family PR: shared family and coverage closeout to `main`
-- [ ] Complete all review layers for 10 represented years.
-- [ ] Record missing years as investigated coverage facts.
+- [x] Complete all review layers for 10 represented years.
+- [x] Record missing years as investigated coverage facts.
+- Actual completion: 2026-10-01. The approved year PRs merged directly to
+  `main` under the legacy workflow; 2020 is absent because the administration
+  was canceled. M5 pre-work records the integration in the
+  [family record](../reviews/staar-alt2-3-8/README.md).
 - Exit: all 10 year PRs are merged into the family branch, then the completed
   family PR is merged to `main`.
 
@@ -67,10 +74,14 @@ families, preserving each year's distinct layout and behavior.
 
 ## Milestone Review Checklist
 
-- [ ] All three phase exits are complete.
-- [ ] Every year used only its assigned source as audit evidence.
-- [ ] Findings have owners and dispositions.
-- [ ] Roadmap actual dates, variance, and status are updated.
+- [x] All three phase exits are complete.
+- [x] Every year used only its assigned source as audit evidence.
+- [x] Findings have owners and dispositions.
+- [x] Roadmap actual dates, variance, and status are updated.
+
+Actual completion: 2026-10-02. M5 pre-work reconciled the previously stale M2
+status against the approved year records and merged PR history without
+reopening mapping conclusions.
 
 ## Next Step
 
