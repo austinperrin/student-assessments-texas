@@ -68,9 +68,8 @@ families without reducing the evidence standard for lower-volume work.
 - Final family PR: shared CRS and coverage closeout to `main`
 - [x] Complete all review layers for four years.
 - [x] Clearly separate custom-file conventions from statewide file assumptions.
-- CRS Custom year-level work completed 2026-10-09: all four represented year
-  PRs were independently approved and merged into `audit/tea-crs`; the family
-  closeout is in review.
+- CRS Custom completed 2026-10-09: all four represented year PRs and the family
+  closeout were independently approved and merged to `main`.
 - Exit: all four year PRs are merged into the family branch, then the completed
   CRS family PR is merged to `main`.
 
