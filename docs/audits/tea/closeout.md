@@ -1,6 +1,6 @@
 # TEA Fixed-Width Mapping Audit Closeout
 
-- Program status: In Review
+- Program status: Completed
 - Closeout prepared: 2026-10-09
 - Program owner: Austin Perrin
 - Coordinator: Codex
@@ -127,7 +127,7 @@ same-year source isolation, and receive independent Reviewer 2 verification.
 - Independent closeout review: External AI approved commit `0e717c3` in
   [PR #177](https://github.com/austinperrin/student-assessments-texas/pull/177),
   2026-10-09
-- Program-owner acceptance: pending
+- Program-owner acceptance: Austin Perrin, 2026-10-09
 - Closeout pull request:
   [#177](https://github.com/austinperrin/student-assessments-texas/pull/177)
 - Merge commit: pending
