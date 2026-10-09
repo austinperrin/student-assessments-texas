@@ -120,7 +120,7 @@
     {
       "start_pos": "241",
       "end_pos": "241",
-      "column_header": "native_hawaiian_other_pacific_islander_code",
+      "column_header": "native_hawaiian_pacific_islander_code",
       "column_num": "20"
     },
     {
@@ -288,31 +288,31 @@
     {
       "start_pos": "317",
       "end_pos": "346",
-      "column_header": "telpas_composite_rating",
+      "column_header": "telpas_and_telpas_alternate_composite_rating",
       "column_num": "53"
     },
     {
       "start_pos": "347",
       "end_pos": "376",
-      "column_header": "telpas_reading_proficiency_rating",
+      "column_header": "telpas_and_telpas_alternate_reading_proficiency_rating",
       "column_num": "54"
     },
     {
       "start_pos": "377",
       "end_pos": "406",
-      "column_header": "telpas_writing_proficiency_rating",
+      "column_header": "telpas_and_telpas_alternate_writing_proficiency_rating",
       "column_num": "55"
     },
     {
       "start_pos": "407",
       "end_pos": "436",
-      "column_header": "telpas_speaking_proficiency_rating",
+      "column_header": "telpas_and_telpas_alternate_speaking_proficiency_rating",
       "column_num": "56"
     },
     {
       "start_pos": "437",
       "end_pos": "466",
-      "column_header": "telpas_listening_proficiency_rating",
+      "column_header": "telpas_and_telpas_alternate_listening_proficiency_rating",
       "column_num": "57"
     },
     {
