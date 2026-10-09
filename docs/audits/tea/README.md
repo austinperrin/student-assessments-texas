@@ -13,6 +13,12 @@ reviewer to reproduce each conclusion.
 - [Workflow](./workflow.md): branch, commit, pull request, review-gate, and
   closure rules
 - [Coverage](./coverage.md): family-level completion and assignments
+- [Source gaps and exceptions](./source-gaps-and-exceptions.md): unresolved
+  source access limitations and accepted exceptions
+- [Program reconciliation](./program-reconciliation.md): final coverage,
+  verification, and finding-state reconciliation
+- [Dispositions](./dispositions.md): downstream and reprocessing decisions
+- [Closeout](./closeout.md): final outcome, residual risks, and restart triggers
 - [Review checklist](./review-checklist.md): required checks for each package
 - [Review record template](./review-template.md): evidence and sign-off record
 - [Family audit template](./family-audit-template.md): parallel work-unit

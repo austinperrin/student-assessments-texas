@@ -45,11 +45,15 @@ on 2026-10-09. The Phase 1 exit is complete.
 ## Phase 2: Program Closeout
 
 - Branch: `docs/tea-audit-m6-closeout`
-- [ ] Confirm family completion criteria or document accepted exceptions.
-- [ ] Record residual risks, blocked evidence, and future review triggers.
+- [x] Confirm family completion criteria or document accepted exceptions in the
+      [closeout record](../closeout.md).
+- [x] Record residual risks, blocked evidence, and future review triggers.
 - [ ] Update final actual dates, variance, and status.
 - [ ] Obtain program-owner acceptance.
 - Exit: the audit can be understood and resumed from tracked records alone.
+
+Reviewer 1 prepared the program closeout on 2026-10-09. Independent review and
+program-owner acceptance are pending.
 
 ## Milestone Review Checklist
 
