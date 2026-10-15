@@ -24,6 +24,10 @@ evidence-backed findings.
 - let Reviewer 1 audit, correct, resolve, and validate the entire year in one
   branch and pull request before Reviewer 2 begins the consolidated review
 - treat `tea/roadmap/index.md` as the canonical audit schedule and status view
+- establish family scope from an independently reviewed inventory of current
+  official discovery pages before treating repository coverage as complete
+- refresh that official-source inventory immediately before family closeout and
+  create work for any newly published or previously missed layout
 - preserve the legend-defined HTML color treatment when adding or changing
   roadmap status cells; do not introduce new status labels or colors casually
 - update roadmap dates, the affected milestone, and coverage together when a
@@ -35,5 +39,6 @@ evidence-backed findings.
 - keep one reporting year per branch, pull request, and review record
 - reserve coverage, family summaries, and roadmap files for a coordinator
   closeout change on the family branch after all year pull requests merge
-- do not add a tracked source-row manifest or require a dedicated
-  source-to-mapping validator unless the program owner changes that decision
+- do not add a tracked field-level source-row manifest or require a dedicated
+  source-to-mapping validator unless the program owner changes that decision;
+  the required family document/year inventory is not a source-row manifest

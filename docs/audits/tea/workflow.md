@@ -26,6 +26,34 @@ finding for confirmation. Reviewer 2 reports all corrections together when
 practical; Reviewer 1 applies them in one pass, and Reviewer 2 performs the
 final confirmation.
 
+## Family Scope Discovery
+
+Before creating year work units, build a durable family source inventory from
+the current official TEA or Texas Assessments pages. Start with the official
+family page and central data-file-format pages, not the repository's existing
+mappings or their stored URLs. Record the discovery page URLs, retrieval date,
+published or updated labels, every listed year and layout, and the direct
+official source URL using the
+[source inventory template](./source-inventory-template.md).
+
+Reconcile three sets in both directions:
+
+1. layouts listed by the official sources;
+2. mappings present in the repository; and
+3. PDFs present in the local source archive.
+
+An official layout without a mapping is required audit scope and must produce
+a planned work unit or tracked issue. A mapping without a discoverable official
+source is a source gap. A missing archive requires retrieval or a documented
+block. Record an evidence-backed disposition for every difference; absence
+from the repository is never evidence that an official layout is out of scope.
+
+A reviewer other than the inventory preparer must independently revisit the
+official discovery pages and confirm the enumerated years, layouts, direct
+links, and set differences. Counts alone are insufficient. Repeat this
+inventory check immediately before family closeout so sources published or
+revised during a long-running audit are not missed.
+
 ## Source Isolation
 
 The assigned year's official source and matching archive are the evidence for
@@ -37,9 +65,10 @@ supports the same meaning.
 Cross-year analysis is a separate, explicitly authorized activity. It must not
 change a year conclusion without reopening that year against its own source.
 
-No tracked source-row manifest or dedicated source-to-mapping validator is
-required. Temporary extraction and working notes belong under `.tmp/audits/`
-and are not authoritative evidence.
+The required family source inventory lists documents and years only. It does
+not change the rule that no tracked field-level source-row manifest or
+dedicated source-to-mapping validator is required. Temporary extraction and
+working notes belong under `.tmp/audits/` and are not authoritative evidence.
 
 ## Branch And Pull Request Model
 
@@ -86,22 +115,30 @@ units, but nobody may verify their own work.
 
 ## Year Work-Unit Lifecycle
 
-1. The program owner assigns the family/year and two distinct reviewers.
-2. Reviewer 1 creates the year branch from the assigned family integration
+1. The coordinator prepares the family source inventory, obtains its
+   independent review, and resolves or assigns every source-to-repository
+   difference.
+2. The program owner assigns every required family/year or layout work unit and
+   two distinct reviewers.
+3. Reviewer 1 creates the year branch from the assigned family integration
    branch and records the repository and source baselines.
-3. Reviewer 1 audits the entire source, applies all supported corrections,
+4. Reviewer 1 audits the entire source, applies all supported corrections,
    resolves findings, runs validation, and opens one pull request.
-4. Reviewer 2 independently compares the final mapping with the same year's
+5. Reviewer 2 independently compares the final mapping with the same year's
    source and submits one consolidated review.
-5. If corrections are requested, Reviewer 1 addresses them together and reruns
+6. If corrections are requested, Reviewer 1 addresses them together and reruns
    validation.
-6. Reviewer 2 confirms the final package, and required CI passes.
-7. Merge the year pull request into the family integration branch without
+7. Reviewer 2 confirms the final package, and required CI passes.
+8. Merge the year pull request into the family integration branch without
    squashing away the year work-unit boundary, then delete the year branch.
-8. After every represented year is approved and merged, the coordinator updates
-   shared coverage, family, and roadmap records on the family branch.
-9. Validate the integrated family branch, obtain program-owner approval, and
-   merge its final pull request to `main` using the repository's normal policy.
+9. Immediately before closeout, refresh and independently recheck the official
+   source inventory. Add work units for newly published or newly discovered
+   layouts.
+10. After every inventoried year is approved and merged or has an accepted
+    block, the coordinator updates shared coverage, family, and roadmap records
+    on the family branch.
+11. Validate the integrated family branch, obtain program-owner approval, and
+    merge its final pull request to `main` using the repository's normal policy.
 
 An accepted block is not a passing review. Record the affected layer, missing
 evidence, reason, owner, program-owner acceptance, and next review date. Keep
@@ -172,18 +209,23 @@ final-package review.
 
 ## Validation And Merge Gates
 
-1. **Baseline gate:** repository commit, scope, reviewers, and sources are
+1. **Scope gate:** an independently reviewed official-source inventory is
+   reconciled against repository mappings and archives, and every difference
+   has a disposition.
+2. **Baseline gate:** repository commit, scope, reviewers, and sources are
    recorded.
-2. **Reviewer 1 gate:** the full year is audited, supported corrections are
+3. **Reviewer 1 gate:** the full year is audited, supported corrections are
    applied, findings are resolved, and validation passes.
-3. **Reviewer 2 gate:** an independent consolidated review is recorded.
-4. **Correction gate:** every requested correction is resolved or explicitly
+4. **Reviewer 2 gate:** an independent consolidated review is recorded.
+5. **Correction gate:** every requested correction is resolved or explicitly
    blocked, and Reviewer 2 confirms the result.
-5. **Year merge gate:** required CI passes, the pull request contains only the
+6. **Year merge gate:** required CI passes, the pull request contains only the
    assigned work-unit files, and the PR targets the family branch.
-6. **Closeout gate:** every year is integrated and the coordinator updates
-   shared coverage and program state on the family branch.
-7. **Family merge gate:** integrated validation and program-owner approval pass
+7. **Closeout gate:** the refreshed official-source inventory has no
+   undispositioned difference, every inventoried year is integrated or has an
+   accepted block, and the coordinator updates shared coverage and program
+   state on the family branch.
+8. **Family merge gate:** integrated validation and program-owner approval pass
    before the family pull request merges to `main`.
 
 Required repository checks include valid JSON, required mapping shape, string
