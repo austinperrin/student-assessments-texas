@@ -32,6 +32,10 @@ item only when its evidence is recorded.
 - [ ] Verify each normalized header preserves the source meaning.
 - [ ] Verify acceptable values, notes, and administration-specific behavior.
 - [ ] Verify omitted blank fields explain `column_num` gaps.
+- [ ] Review every repeated `column_num`: confirm the same-year source
+      explicitly defines the mapped subfields and record that evidence.
+- [ ] Confirm opaque multi-byte source rows remain one mapping field rather
+      than being divided using another year's schema.
 - [ ] Verify metadata and filename patterns against this year's cited source.
 - [ ] Check boundaries around every suspected insertion or deletion.
 - [ ] Confirm valid JSON, required shape, and string values.

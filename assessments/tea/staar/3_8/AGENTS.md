@@ -61,6 +61,11 @@ Each `mapped_fields` entry should contain:
 - keep `column_header` values at or below 63 characters
 - remove note spillover, wrapped-title spillover, and OCR debris from field names
 - do not allow duplicate `column_header` values
+- map an opaque multi-byte source row as one field; split it into logical
+  subfields only when the same-year source explicitly names or defines those
+  subfields
+- when multiple mapping entries legitimately share one source-row
+  `column_num`, cite the same-year subfield evidence in the audit record
 
 ## Normalization Rules
 
