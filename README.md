@@ -141,7 +141,7 @@ Current TEA mapping coverage in the project:
 - `staar/consolidated_accountability`: `2014`-`2019`, `2021`-`2025`
 - `telpas/telpas`: `2012`-`2026`
 - `telpas/telpas_alt`: `2019`-`2026`
-- `tfar`: `2024`-`2025`
+- `tfar`: `2024`-`2026`
 - `ttap`: `2023`-`2025`
 - `crs`: `2023`-`2026`
 

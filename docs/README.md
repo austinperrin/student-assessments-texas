@@ -59,6 +59,7 @@ Examples:
 
 - `docs/source-archives/tea/2018/2018-staar-eoc-data-file-format.pdf`
 - `docs/source-archives/tea/2024/2024-tfar-data-file.pdf`
+- `docs/source-archives/tea/2026/2026-tfar-data-file-layout.pdf`
 
 The authoritative source link for each mapping file should remain the
 `metadata.pdf_url` value stored in the JSON. When a mapping file also defines
