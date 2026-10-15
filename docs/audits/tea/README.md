@@ -20,6 +20,8 @@ reviewer to reproduce each conclusion.
 - [Dispositions](./dispositions.md): downstream and reprocessing decisions
 - [Closeout](./closeout.md): final outcome, residual risks, and restart triggers
 - [Review checklist](./review-checklist.md): required checks for each package
+- [Source inventory template](./source-inventory-template.md): required
+  official-source discovery and reconciliation record for each family
 - [Review record template](./review-template.md): evidence and sign-off record
 - [Family audit template](./family-audit-template.md): parallel work-unit
   coordination and final family sign-off
@@ -53,8 +55,12 @@ The program covers these 11 mapping families and 96 current mapping files:
 | J          | TTAP                              |             3 | 2023-2025            |
 | K          | CRS custom                        |             4 | 2023-2026            |
 
-Missing years are coverage facts to investigate; they are not automatically
-defects.
+This table is the repository baseline, not proof of complete source coverage.
+Before a family audit begins, inventory the years currently published on the
+official TEA or Texas Assessments family and data-format pages and reconcile
+that inventory with the repository. Missing years are coverage facts to
+investigate; they are not automatically defects, but every difference must have
+a recorded disposition before year work begins or the family closes.
 
 ## Review Layers
 
@@ -108,5 +114,7 @@ nearby year during the year review.
 A family is complete when every represented year has a closed review record
 or a program-owner-accepted block documented under the
 [workflow exception rules](./workflow.md#family-audit-lifecycle),
+the independently reviewed official-source inventory has no undispositioned
+differences from the repository inventory,
 all source gaps are documented, all confirmed findings have dispositions, and
 the family coverage entry links to remediation and verification where needed.

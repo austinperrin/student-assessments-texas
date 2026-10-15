@@ -3,6 +3,18 @@
 Use one review record and one pull request per family/year work unit. Check an
 item only when its evidence is recorded.
 
+## Family Scope Discovery
+
+- [ ] Inventory the current official family page and central data-format pages
+      without deriving the source list from repository mappings.
+- [ ] Record discovery-page URLs, retrieval dates, update labels, every listed
+      year/layout, and every direct source URL.
+- [ ] Compare official layouts, repository mappings, and local archives in both
+      directions.
+- [ ] Record an evidence-backed disposition for every difference.
+- [ ] Obtain independent review of the enumerated sources and differences.
+- [ ] Create a work unit or issue for every official layout without a mapping.
+
 ## Assignment And Baseline
 
 - [ ] Record two distinct reviewers and whether each is human or AI.
@@ -57,6 +69,10 @@ item only when its evidence is recorded.
 - [ ] Reviewer 2 has approved the final package.
 - [ ] Required repository validation and CI pass.
 - [ ] The pull request contains only the assigned work-unit files.
-- [ ] Merge the year pull request directly to `main`.
+- [ ] Merge the year pull request into the family integration branch.
 - [ ] The coordinator updates coverage, family records, and roadmap state after
       the applicable wave.
+- [ ] Immediately before family closeout, refresh and independently recheck the
+      official source inventory.
+- [ ] Confirm every inventoried layout is mapped and reviewed or has an accepted
+      block; no undispositioned difference remains.

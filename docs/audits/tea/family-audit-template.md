@@ -8,6 +8,22 @@
 - Coordinator:
 - Family integration branch: `audit/tea-<family>`
 
+## Official Source Inventory
+
+- Inventory record:
+- Inventory date:
+- Prepared by:
+- Independent reviewer:
+- Official layout count:
+- Repository mapping count:
+- Local archive count:
+- Undispositioned differences:
+
+Create the inventory from official family and data-format landing pages using
+the [source inventory template](./source-inventory-template.md). Do not derive
+it from the repository's existing mappings. Refresh and independently review
+it again immediately before closeout.
+
 ## Parallel Work Units
 
 List every represented year. Work units may run concurrently and each year
@@ -40,8 +56,12 @@ required review date.
 
 ## Coordinator Closeout Checklist
 
-- [ ] Every represented year has an approved work unit merged into the family
+- [ ] The refreshed official-source inventory has independent approval and no
+      undispositioned differences.
+- [ ] Every inventoried year has an approved work unit merged into the family
       branch or an accepted block.
+- [ ] Every official layout absent from the initial repository inventory was
+      added as a work unit or given an evidence-backed disposition.
 - [ ] Reviewer 1 and Reviewer 2 are distinct for every work unit.
 - [ ] Every year record includes source-isolation attestations.
 - [ ] Coverage agrees with the merged year records.
