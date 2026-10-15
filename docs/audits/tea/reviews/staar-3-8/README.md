@@ -38,6 +38,23 @@ branch. Assignment does not constitute completed review or verification.
 All represented-year reviews and correction dispositions are complete. Each
 year record retains its source-specific evidence and remediation history.
 
+### 2026-10-15 post-closeout reconciliation
+
+The coordinator refreshed the official-source inventory against the current
+[TEA data-file-format page](https://tea.texas.gov/data-reports/student-assessment-results/data-file-formats)
+and [TEA archive](https://tea.texas.gov/data-reports/student-assessment-results/data-file-formats-archive).
+STAAR grades 3-8 remains represented for every year from 2012 through 2026;
+the refresh found no newly published or missing family year requiring another
+work unit.
+
+Post-closeout findings `TEA-STAAR38-2020-012`,
+`TEA-STAAR38-2020-013`, `TEA-STAAR38-2021-010`,
+`TEA-STAAR38-2021-011`, and `TEA-STAAR38-2021-012` are corrected,
+independently verified, and closed in the linked 2020 and 2021 records. Shared
+coverage still reports 15/15 completed years. The repository-wide mapping
+validator now rejects duplicate `column_num` values as well as duplicate
+`column_header` values.
+
 ## Finding Summary
 
 All five 2026 findings and all six 2025 findings are corrected, independently

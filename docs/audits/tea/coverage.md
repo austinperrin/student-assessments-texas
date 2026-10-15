@@ -18,6 +18,11 @@ Reviewer 1. Operational samples are unavailable, as confirmed by the
 program owner. Staffing and calendar assumptions remain provisional. Assignments
 do not imply completed review or verification.
 
+Post-closeout reconciliation on 2026-10-15 confirmed that the reopened 2020
+and 2021 STAAR grades 3-8 findings passed independent verification and returned
+to `closed`. The family total remains 15/15, and the linked year records contain
+the governing post-closeout evidence.
+
 ## Family Summary
 
 | Workstream | Family                            | Represented years | Completed years | Family integration branch      | Status   |

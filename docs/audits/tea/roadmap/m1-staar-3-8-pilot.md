@@ -106,6 +106,13 @@ rebaseline the remaining program from measured effort.
 Actual completion: 2026-09-30. M5 pre-work reconciled this roadmap status to
 the closed 15/15 family record; no mapping conclusion was reopened.
 
+Post-closeout work on 2026-10-15 corrected and independently verified opaque
+source-row granularity and omitted-field findings in the 2020 and 2021
+mappings. A coordinator refresh of the current TEA data-file-format and archive
+pages confirmed that the represented STAAR grades 3-8 source inventory remains
+2012-2026 with no additional year work unit. Coverage and the family record
+remain closed at 15/15.
+
 ## Next Step
 
 Proceed to [Milestone 2: Core STAAR Families](./m2-core-staar-families.md).
