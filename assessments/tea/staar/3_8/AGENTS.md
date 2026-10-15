@@ -64,8 +64,9 @@ Each `mapped_fields` entry should contain:
 - map an opaque multi-byte source row as one field; split it into logical
   subfields only when the same-year source explicitly names or defines those
   subfields
-- when multiple mapping entries legitimately share one source-row
-  `column_num`, cite the same-year subfield evidence in the audit record
+- keep `column_num` values unique within each mapping; an explicitly subdivided
+  source row must use a representation that preserves this repository-wide
+  uniqueness contract
 
 ## Normalization Rules
 

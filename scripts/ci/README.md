@@ -7,7 +7,8 @@ Current scripts:
 - `validate_repo.py`
   Runs the baseline repository validation suite.
 - `validate_mappings.py`
-  Validates mapping JSON structure and shared field rules.
+  Validates mapping JSON structure and shared field rules, including unique
+  `column_header` and `column_num` values within each mapping.
 - `validate_docs.py`
   Validates documentation path portability and repo-relative links.
 
