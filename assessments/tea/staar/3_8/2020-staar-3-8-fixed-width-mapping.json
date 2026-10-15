@@ -702,20 +702,8 @@
     },
     {
       "start_pos": "401",
-      "end_pos": "402",
-      "column_header": "reading_language_arts_reporting_category_1_score",
-      "column_num": "134"
-    },
-    {
-      "start_pos": "403",
-      "end_pos": "404",
-      "column_header": "reading_language_arts_reporting_category_2_score",
-      "column_num": "134"
-    },
-    {
-      "start_pos": "405",
       "end_pos": "406",
-      "column_header": "performance_level_indicator_reading_language_arts",
+      "column_header": "reading_language_arts_reporting_category_scores",
       "column_num": "134"
     },
     {
@@ -852,26 +840,8 @@
     },
     {
       "start_pos": "751",
-      "end_pos": "752",
-      "column_header": "mathematics_reporting_category_1_score",
-      "column_num": "166"
-    },
-    {
-      "start_pos": "753",
-      "end_pos": "754",
-      "column_header": "mathematics_reporting_category_2_score",
-      "column_num": "166"
-    },
-    {
-      "start_pos": "755",
-      "end_pos": "756",
-      "column_header": "mathematics_reporting_category_3_score",
-      "column_num": "166"
-    },
-    {
-      "start_pos": "757",
       "end_pos": "758",
-      "column_header": "mathematics_reporting_category_4_score",
+      "column_header": "mathematics_reporting_category_scores",
       "column_num": "166"
     },
     {
@@ -1104,26 +1074,8 @@
     },
     {
       "start_pos": "1501",
-      "end_pos": "1502",
-      "column_header": "social_studies_reporting_category_1_score",
-      "column_num": "221"
-    },
-    {
-      "start_pos": "1503",
-      "end_pos": "1504",
-      "column_header": "social_studies_reporting_category_2_score",
-      "column_num": "221"
-    },
-    {
-      "start_pos": "1505",
-      "end_pos": "1506",
-      "column_header": "social_studies_reporting_category_3_score",
-      "column_num": "221"
-    },
-    {
-      "start_pos": "1507",
       "end_pos": "1508",
-      "column_header": "social_studies_reporting_category_4_score",
+      "column_header": "social_studies_reporting_category_scores",
       "column_num": "221"
     },
     {
@@ -2760,32 +2712,8 @@
     },
     {
       "start_pos": "3102",
-      "end_pos": "3103",
-      "column_header": "algebra_i_reporting_category_1_raw_score",
-      "column_num": "524"
-    },
-    {
-      "start_pos": "3104",
-      "end_pos": "3105",
-      "column_header": "algebra_i_reporting_category_2_raw_score",
-      "column_num": "524"
-    },
-    {
-      "start_pos": "3106",
-      "end_pos": "3107",
-      "column_header": "algebra_i_reporting_category_3_raw_score",
-      "column_num": "524"
-    },
-    {
-      "start_pos": "3108",
-      "end_pos": "3109",
-      "column_header": "algebra_i_reporting_category_4_raw_score",
-      "column_num": "524"
-    },
-    {
-      "start_pos": "3110",
       "end_pos": "3111",
-      "column_header": "algebra_i_reporting_category_5_raw_score",
+      "column_header": "algebra_i_reporting_category_scores",
       "column_num": "524"
     },
     {

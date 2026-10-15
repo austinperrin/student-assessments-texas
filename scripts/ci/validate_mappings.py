@@ -56,6 +56,8 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
 
     seen_headers: set[str] = set()
     duplicate_headers: set[str] = set()
+    seen_column_nums: set[str] = set()
+    duplicate_column_nums: set[str] = set()
     for idx, field in enumerate(mapped_fields):
         if not isinstance(field, dict):
             errors.append(f"{path}: mapped_fields[{idx}] must be an object")
@@ -69,6 +71,10 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
         numeric_values: dict[str, int] = {}
         if "column_num" in field and not isinstance(column_num, str):
             errors.append(f"{path}: mapped_fields[{idx}].column_num must be a string when present")
+        elif isinstance(column_num, str) and column_num.strip():
+            if column_num in seen_column_nums:
+                duplicate_column_nums.add(column_num)
+            seen_column_nums.add(column_num)
 
         for key in ["start_pos", "end_pos", "column_num"]:
             value = field.get(key)
@@ -98,6 +104,12 @@ def validate_mapped_fields(path: Path, mapped_fields: list[dict], errors: list[s
 
     for header in sorted(duplicate_headers):
         errors.append(f"{path}: duplicate column_header '{header}'")
+
+    for column_num in sorted(
+        duplicate_column_nums,
+        key=lambda value: (0, int(value)) if value.isdigit() else (1, value),
+    ):
+        errors.append(f"{path}: duplicate column_num '{column_num}'")
 
 
 def validate_filename_patterns(path: Path, filename_patterns: object, errors: list[str]) -> None:
