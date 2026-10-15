@@ -24,6 +24,7 @@ Examples:
 
 - `2024-tfar-fixed-width-mapping.json`
 - `2025-tfar-fixed-width-mapping.json`
+- `2026-tfar-fixed-width-mapping.json`
 
 ## Required JSON Structure
 
@@ -94,7 +95,7 @@ Each `mapped_fields` entry should contain:
 Use PowerShell to confirm a file parses:
 
 ```powershell
-Get-Content 'assessments/tea/tfar/2025-tfar-fixed-width-mapping.json' | ConvertFrom-Json | Out-Null
+Get-Content 'assessments/tea/tfar/2026-tfar-fixed-width-mapping.json' | ConvertFrom-Json | Out-Null
 ```
 
 For all files in this family:
