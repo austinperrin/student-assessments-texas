@@ -28,7 +28,9 @@ including both current and historic layouts.
 - [repository-navigation.md](./repository-navigation.md)
   Guide to the major project areas and how to move between them.
 - [scripts-and-commands.md](./scripts-and-commands.md)
-  Command glossary for the active automation surface.
+  Concise command index for the active automation surface.
+- [../runbooks/README.md](../runbooks/README.md)
+  Authoritative operating procedures for recurring workflows.
 - [../index.md](../index.md)
   Central docs index.
 

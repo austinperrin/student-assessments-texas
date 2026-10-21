@@ -45,6 +45,8 @@ If you are trying to understand validation or tooling:
 
 - start at [../../scripts/README.md](../../scripts/README.md)
 - then review [scripts-and-commands.md](./scripts-and-commands.md)
+- follow the command entry to its procedure under
+  [../runbooks/](../runbooks/README.md)
 - then use [../../scripts/ci/README.md](../../scripts/ci/README.md) for CI
   validation details
 
@@ -63,6 +65,8 @@ The documentation system follows a few navigation rules:
 - links should remain repo-relative and machine-portable
 - human-facing docs should explain responsibility and entrypoints, not just list
   files
+- recurring operational workflows should have one authoritative runbook;
+  indexes and implementation docs should link to it instead of duplicating it
 - family-specific guidance should stay close to the family folder rather than
   being buried in central docs
 - when a vendor has multiple distinct delivered result-file families, that
@@ -73,4 +77,8 @@ The documentation system follows a few navigation rules:
 - [README.md](./README.md)
   Project purpose and scope.
 - [scripts-and-commands.md](./scripts-and-commands.md)
-  Command glossary for the active automation surface.
+  Command index for the active automation surface.
+- [../runbooks/README.md](../runbooks/README.md)
+  Authoritative operating procedures for recurring workflows.
+- [../standards/documentation.md](../standards/documentation.md)
+  Documentation ownership and maintenance standards.

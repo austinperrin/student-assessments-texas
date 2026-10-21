@@ -27,12 +27,16 @@ workflow references, and local source-document archives live here under
 - [Project Navigation](./overview/repository-navigation.md)
   Top-level navigation guide and project area responsibilities.
 - [Scripts And Commands Reference](./overview/scripts-and-commands.md)
-  Quick glossary for project entrypoints, sorter terms, and common command
-  patterns.
+  Concise index of project entrypoints and their owning documentation.
+- [Runbooks](./runbooks/README.md)
+  Authoritative procedures for recurring workflows, including verification and
+  recovery guidance.
 - [Roadmap](./roadmap/)
   Milestone-level view of project growth and scaffolding priorities.
 - [Standards](./standards/)
   Human-readable project standards for coding, commits, scripts, and ADR usage.
+- [Documentation Standards](./standards/documentation.md)
+  Ownership, reference direction, runbook content, and change requirements.
 - [ADRs](./adr/)
   Architecture Decision Records for durable project and platform decisions.
 - [Source Archives](./source-archives/)

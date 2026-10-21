@@ -43,11 +43,13 @@ categories that do not fit this project yet.
 ## Navigation
 
 - [../docs/overview/scripts-and-commands.md](../docs/overview/scripts-and-commands.md)
-  Full glossary of project commands and sorter terminology.
+  Concise index of project commands and their owning documentation.
+- [../docs/runbooks/README.md](../docs/runbooks/README.md)
+  Authoritative operating procedures, verification, and recovery guidance.
 - [ci/README.md](./ci/README.md)
   CI validation tooling and repo checks.
 - [mappings/README.md](./mappings/README.md)
-  Sorter, merger, and mapping-maintenance workflows.
+  Sorter and merger implementation and contributor notes.
 - [../README.md](../README.md)
   Project overview and working expectations.
 

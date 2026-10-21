@@ -13,7 +13,9 @@ of source reference documents.
 - [overview/repository-navigation.md](./overview/repository-navigation.md)
   Navigation guide for major project areas and their responsibilities.
 - [overview/scripts-and-commands.md](./overview/scripts-and-commands.md)
-  Script glossary and common command patterns.
+  Concise command index linked to authoritative procedures.
+- [runbooks/README.md](./runbooks/README.md)
+  Task-oriented operating procedures, verification, and recovery guidance.
 
 ## Documentation Areas
 
@@ -24,6 +26,8 @@ of source reference documents.
   Project intent, navigation, and operational reference docs.
 - [standards/](./standards/)
   Human-readable standards for coding, commits, scripts, and ADR usage.
+- [runbooks/](./runbooks/)
+  Authoritative procedures for recurring human-operated workflows.
 - [roadmap/](./roadmap/)
   Milestone-level project evolution and priority tracking.
 - [adr/](./adr/)

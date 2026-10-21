@@ -163,7 +163,9 @@ entrypoints are:
 - [docs/overview/repository-navigation.md](./docs/overview/repository-navigation.md)
   Navigation guide for the top-level project areas and documentation system.
 - [docs/overview/scripts-and-commands.md](./docs/overview/scripts-and-commands.md)
-  Script glossary and common command patterns.
+  Concise script index linked to authoritative operating procedures.
+- [docs/runbooks/README.md](./docs/runbooks/README.md)
+  Task-oriented operating procedures, verification, and recovery guidance.
 - [docs/standards/](./docs/standards/)
   Human-readable project standards.
 - [docs/roadmap/index.md](./docs/roadmap/index.md)
@@ -188,10 +190,10 @@ Validation and automation are documented in
 - `npm run lint`
 - `python scripts/mappings/sort_tea_assessments.py`
 - `python scripts/mappings/merge_tea_assessment_files.py`
-  Supports `--include-archives` and optional `--unique` row deduplication.
 
-The sorter and merger workflows are documented in
-[scripts/mappings/README.md](./scripts/mappings/README.md).
+The sorter and merger workflows are documented in the
+[TEA processing runbooks](./docs/runbooks/README.md). Implementation and test
+details live in [scripts/mappings/README.md](./scripts/mappings/README.md).
 
 ## Working Expectations
 
@@ -210,3 +212,4 @@ For shared project standards and workflow expectations, see:
 - [docs/standards/coding-standards.md](./docs/standards/coding-standards.md)
 - [docs/standards/commits.md](./docs/standards/commits.md)
 - [docs/standards/scripts.md](./docs/standards/scripts.md)
+- [docs/standards/documentation.md](./docs/standards/documentation.md)
