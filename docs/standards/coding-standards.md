@@ -39,6 +39,8 @@ Do not normalize fields across years when TEA changed the field concept rather t
 - keep documentation portable across users and environments
 - prefer concise explanations with examples when needed
 - keep human-facing docs focused on how the repo works, not on internal scratch process
+- follow [documentation.md](./documentation.md) for content ownership, runbooks,
+  and reference direction
 
 ## Working Standards
 

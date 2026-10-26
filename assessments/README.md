@@ -38,8 +38,8 @@ When useful, the default structure should read as:
 - [../README.md](../README.md)
   Project overview and validation entrypoints.
 - [../docs/index.md](../docs/index.md)
-  Documentation system index.
-- [../docs/source-archives/](../docs/source-archives/)
+  Primary learning and task-navigation hub.
+- [../docs/source-archives/README.md](../docs/source-archives/README.md)
   Shared local archive root for vendor-specific source documents.
 - [../configs/README.md](../configs/README.md)
   Shared schema and configuration references used by the corpus.

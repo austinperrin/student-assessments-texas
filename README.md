@@ -19,8 +19,7 @@ As the corpus expands, the default organizational model is:
 - [assessments/](./assessments/)
   Assessment mappings grouped by vendor or source system.
 - [docs/index.md](./docs/index.md)
-  Documentation index for standards, roadmap, ADRs, workflow references, and
-  the TEA source-document archive.
+  Primary learning and task-navigation hub for the repository.
 - [scripts/](./scripts/)
   Shared automation for validation, sorting, merging, and project
   maintenance.
@@ -155,22 +154,25 @@ Notes:
 
 ## Documentation System
 
-The documentation hub is [docs/index.md](./docs/index.md). The most useful
-entrypoints are:
+The [Documentation Hub](./docs/index.md) provides a first-visit learning path
+and task-specific routes. Use it instead of browsing the documentation tree.
+The major destinations are:
 
 - [docs/overview/README.md](./docs/overview/README.md)
   Project purpose and long-term direction.
 - [docs/overview/repository-navigation.md](./docs/overview/repository-navigation.md)
   Navigation guide for the top-level project areas and documentation system.
 - [docs/overview/scripts-and-commands.md](./docs/overview/scripts-and-commands.md)
-  Script glossary and common command patterns.
-- [docs/standards/](./docs/standards/)
+  Concise script index linked to authoritative operating procedures.
+- [docs/runbooks/README.md](./docs/runbooks/README.md)
+  Task-oriented operating procedures, verification, and recovery guidance.
+- [docs/standards/README.md](./docs/standards/README.md)
   Human-readable project standards.
 - [docs/roadmap/index.md](./docs/roadmap/index.md)
   Milestone-level project roadmap.
 - [docs/adr/README.md](./docs/adr/README.md)
   Architecture Decision Record guidance.
-- [docs/source-archives/](./docs/source-archives/)
+- [docs/source-archives/README.md](./docs/source-archives/README.md)
   Shared local archive root for vendor-specific source documents.
 
 The local archive is for maintenance and reference. The official online TEA or
@@ -188,10 +190,10 @@ Validation and automation are documented in
 - `npm run lint`
 - `python scripts/mappings/sort_tea_assessments.py`
 - `python scripts/mappings/merge_tea_assessment_files.py`
-  Supports `--include-archives` and optional `--unique` row deduplication.
 
-The sorter and merger workflows are documented in
-[scripts/mappings/README.md](./scripts/mappings/README.md).
+The sorter and merger workflows are documented in the
+[TEA processing runbooks](./docs/runbooks/README.md). Implementation and test
+details live in [scripts/mappings/README.md](./scripts/mappings/README.md).
 
 ## Working Expectations
 
@@ -210,3 +212,4 @@ For shared project standards and workflow expectations, see:
 - [docs/standards/coding-standards.md](./docs/standards/coding-standards.md)
 - [docs/standards/commits.md](./docs/standards/commits.md)
 - [docs/standards/scripts.md](./docs/standards/scripts.md)
+- [docs/standards/documentation.md](./docs/standards/documentation.md)

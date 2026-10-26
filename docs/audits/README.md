@@ -17,6 +17,10 @@ Reviewer 2 independently validates the final package.
 - [TEA audit roadmap](./tea/roadmap/index.md)
 - [TEA audit workflow](./tea/workflow.md)
 
+Start with the audit program overview, then use the workflow and checklist for
+an active review. Coverage and the roadmap report program state; templates and
+review records support individual work units.
+
 ## Record Boundary
 
 Track material needed to understand, verify, resume, and close an audit:
@@ -36,3 +40,12 @@ A year pull request contains the audit record, supported mapping corrections,
 resolutions, and validation for exactly one family/year. Multiple year work
 units may run in parallel from `main`. Shared coverage, family, and roadmap
 files are updated separately by the program coordinator after a work wave.
+
+## Related Navigation
+
+- [Documentation Hub](../index.md)
+  Repository-wide learning and task paths.
+- [Assessment corpus](../../assessments/README.md)
+  Canonical mappings being audited.
+- [Source archives](../source-archives/README.md)
+  Local source material used during review.

@@ -1,275 +1,54 @@
 # Mapping Scripts
 
-This folder stores mapping-specific automation.
+This folder contains mapping-specific automation and its tests. Operator-facing
+procedures live in `docs/runbooks/`; this page focuses on implementation and
+contributor navigation.
 
-Use this area for scripts that normalize, audit, scaffold, sort, merge, or
-otherwise assist with assessment mapping maintenance outside the top-level CI
-entrypoints.
+## Entrypoints
 
-For a repository-wide command glossary, see
-[docs/overview/scripts-and-commands.md](../../docs/overview/scripts-and-commands.md).
+- `sort_tea_assessments.py`
+  Thin entrypoint for the TEA sorter.
+- `sort_archive_outputs.py`
+  Sorter wrapper that selects archive output.
+- `merge_tea_assessment_files.py`
+  Thin entrypoint for the TEA merger.
 
-## Current Scripts
+## Reusable Modules
 
-- `python scripts/mappings/sort_tea_assessments.py [input_dir]`
-  Sorts TEA assessment files into assessment buckets using mapping
-  `filename_patterns`.
-- `python scripts/mappings/sort_archive_outputs.py [input_dir]`
-  Runs the same sorter in archive-output mode by default.
-- `python scripts/mappings/merge_tea_assessment_files.py [input_dir]`
-  Merges matched fixed-width files into one `.txt` output per assessment
-  bucket.
+- `lib/tea_assessment_sorter.py`
+  Argument parsing, mapping-pattern loading, recursive archive processing,
+  classification, output management, run artifacts, and the sorter `main`.
+- `lib/tea_assessment_merger.py`
+  Argument parsing, recursive input processing, byte-preserving concatenation,
+  row deduplication, bundled output, run artifacts, and the merger `main`.
 
-The reusable sorter logic lives in `scripts/mappings/lib/tea_assessment_sorter.py`.
-The reusable merger logic lives in `scripts/mappings/lib/tea_assessment_merger.py`.
+## Tests
 
-## Sorter
+- `test_tea_assessment_sorter.py`
+- `test_tea_assessment_merger.py`
 
-### Default workflow
-
-Run the sorter from the repo root:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py
-```
-
-By default it uses:
-
-- input: `.tmp/uploads/tea/`
-- output runs: `.tmp/exports/tea/<run_timestamp>/`
-- processed source inputs: `.tmp/exports/tea/<run_timestamp>/processed_files/`
-- input mode: `loose`
-- output mode: `directory`
-- grouping: `assessment-by-year`
-
-You can also point it at another `.tmp` subdirectory:
+Run the mapping-script tests from the repository root with the available Python
+interpreter:
 
 ```powershell
-python scripts/mappings/sort_tea_assessments.py .tmp/my-batch
+python -m unittest discover -s scripts/mappings -p "test_tea_assessment_*.py"
 ```
 
-### Common examples
+Changes to classification, archive handling, naming, deduplication, output
+layout, or CLI behavior should include corresponding tests.
 
-Sort only loose files into directories by assessment and year:
+## Documentation Ownership
 
-```powershell
-python scripts/mappings/sort_tea_assessments.py
-```
+- [Sort TEA assessment files](../../docs/runbooks/tea/sort-assessment-files.md)
+  owns sorter defaults, options, examples, side effects, and verification.
+- [Merge TEA assessment files](../../docs/runbooks/tea/merge-assessment-files.md)
+  owns merger defaults, options, examples, side effects, and verification.
+- [Troubleshoot TEA processing](../../docs/runbooks/tea/troubleshoot-processing.md)
+  owns diagnosis and safe rerun guidance.
+- [Scripts and commands index](../../docs/overview/scripts-and-commands.md)
+  provides the concise repository-wide entrypoint list.
 
-Sort loose files and archive contents into directories by assessment and year:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode all
-```
-
-Sort only archive contents into directories by assessment and year:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode archive
-```
-
-Sort loose files and archive contents into archive outputs by assessment and year:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode all --output-mode archive
-```
-
-Sort loose files and also package the full `outputs/` directory into one zip file:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --zip-outputs
-```
-
-Sort loose files into directories by assessment across all years:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --grouping assessment
-```
-
-Use the archive-output wrapper instead of passing `--output-mode archive`:
-
-```powershell
-python scripts/mappings/sort_archive_outputs.py --input-mode all
-```
-
-### Option glossary
-
-- `--input-mode loose`
-  Process only top-level non-archive files from the input directory.
-- `--input-mode archive`
-  Process only top-level `.zip` files from the input directory, including
-  nested archives recursively.
-- `--input-mode all`
-  Process both loose files and top-level `.zip` files.
-- `--output-mode directory`
-  Write each output bucket as a plain directory.
-- `--output-mode archive`
-  Write each output bucket as a `.zip` archive.
-- `--grouping assessment-by-year`
-  Keep year-specific output buckets such as `2026-staar-eoc` or
-  `2025-telpas-alt`.
-- `--grouping assessment`
-  Collapse all years into assessment-family buckets such as `staar/eoc` or
-  `telpas/telpas_alt`.
-- `--keep-extracted`
-  Keep extracted working files in the run directory for debugging.
-- `--include-archives`
-  Compatibility shortcut for `--input-mode all`.
-- `--zip-outputs`
-  Package everything created in `outputs/` into one `.zip` file.
-- `--zip-output-name`
-  Override the `--zip-outputs` archive file name.
-
-### Behavior
-
-- input directories must live under `.tmp/`
-- nested `.zip` files are processed recursively when archive inputs are enabled
-- files are matched against every mapping JSON under `assessments/tea/` that
-  exposes `filename_patterns`
-- matching is deterministic and produces one output bucket per selected
-  grouping rule
-- `assessment-by-year` buckets are flat names such as `2026-staar-3-8/` or
-  `2026-staar-3-8.zip`
-- `assessment` buckets can be nested paths such as `staar/eoc/` or
-  `staar/eoc.zip`
-- assessment outputs are flat within each bucket and contain only final file
-  names
-- metadata output preserves one source-folder level using
-  `<source_folder_name>/<metadata_file_name>`
-- files that match no mapping `filename_patterns` are written to `unsorted`
-  output in the selected mode
-- once a run completes, processed source files are moved out of uploads so the
-  default workflow is safe to run multiple times per day
-- processed inputs for each run live beside `outputs/` inside the same
-  timestamped export folder
-- `--zip-outputs` adds a single archive such as
-  `outputs/tea-assessment-outputs-<run_timestamp>.zip` that bundles the
-  generated output files for that run
-
-### Run artifacts
-
-Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
-
-- sorted output directories or archives, depending on `--output-mode`
-- `processed_files/` with the moved source uploads for that specific run
-- `metadata` output when known metadata files are found
-- `unsorted` output when unmatched files remain
-- `summary-<run_timestamp>.json`
-- `run-<run_timestamp>.log`
-
-`summary-<run_timestamp>.json` and the run log include:
-
-- input mode, output mode, and grouping
-- processed source archives
-- processed loose files
-- nested archives encountered
-- created output buckets
-- metadata files and unmatched files
-- total output bucket count created by the run
-- start time, end time, and total execution time
-
-### Performance and debugging
-
-- the default loose-file path is straightforward and avoids archive extraction
-- archive input processing uses a streaming path that writes file contents
-  directly from source archives into output buckets where possible
-- use `--keep-extracted` only when you need extracted working files for
-  debugging, since that path keeps more on-disk artifacts and is slower
-
-## Merge Tool
-
-### Default workflow
-
-Run the merger from the repo root:
-
-```powershell
-python scripts/mappings/merge_tea_assessment_files.py
-```
-
-By default it uses:
-
-- input: `.tmp/uploads/tea/`
-- output runs: `.tmp/exports/tea/<run_timestamp>/`
-- processed source inputs: `.tmp/exports/tea/<run_timestamp>/processed_files/`
-
-You can also point it at another `.tmp` subdirectory:
-
-```powershell
-python scripts/mappings/merge_tea_assessment_files.py .tmp/my-batch
-```
-
-To also include archive `.zip` files from the base input directory:
-
-```powershell
-python scripts/mappings/merge_tea_assessment_files.py --include-archives
-```
-
-By default the merger keeps only the first occurrence of each logical row in
-every merged output.
-
-The legacy `--unique` flag is still accepted for compatibility, but it is now
-redundant because deduplication is already on by default.
-
-To keep duplicate rows instead:
-
-```powershell
-python scripts/mappings/merge_tea_assessment_files.py --allow-duplicates
-```
-
-To also package the merged outputs into one zip file:
-
-```powershell
-python scripts/mappings/merge_tea_assessment_files.py --zip-outputs
-```
-
-### Behavior
-
-- input directories must live under `.tmp/`
-- top-level non-`.zip` files in the input directory are processed by default
-- top-level `.zip` files are ignored by default and can be included with
-  `--include-archives`
-- when `--include-archives` is used, both loose files and top-level `.zip`
-  files directly inside the input directory are processed
-- nested `.zip` files are processed recursively
-- files are matched against every mapping JSON under `assessments/tea/` that
-  exposes `filename_patterns`
-- matching is deterministic and produces one merged output text file per
-  mapping file, for example `2026-staar-3-8.txt`
-- merged outputs preserve source bytes exactly; the tool concatenates matched
-  file contents without adding separators or extra newlines
-- row-level deduplication is the default behavior for merged outputs
-- `--unique` is retained as a compatibility flag and keeps the default
-  deduplication behavior enabled
-- `--allow-duplicates` keeps all rows, including duplicates, instead of
-  deduplicating by logical row
-- `--zip-outputs` packages the merged outputs in `outputs/` into a single
-  archive such as `tea-assessment-outputs-<run_timestamp>.zip`
-- when `--zip-outputs` is used, the merged `.txt` files are written inside that
-  archive and `outputs/` contains only the single bundled zip file
-- known metadata files and unmatched files are excluded from merged outputs and
-  are recorded in run artifacts instead
-- once a run completes, processed source files are moved out of uploads so the
-  default workflow is safe to run multiple times per day
-- processed inputs for each run live beside `outputs/` inside the same
-  timestamped export folder
-
-### Run artifacts
-
-Each run creates a timestamped folder under `.tmp/exports/tea/` containing:
-
-- merged assessment text files
-- optional bundled zip output when `--zip-outputs` is used
-- `processed_files/` with the moved source uploads for that specific run
-- `summary-<run_timestamp>.json`
-- `run-<run_timestamp>.log`
-
-`summary-<run_timestamp>.json` and the run log include:
-
-- processed source archives
-- processed loose files
-- nested archives encountered
-- created merged output files
-- written rows and skipped duplicate rows
-- metadata files and unmatched files
-- ambiguous multi-match classifications
-- start time, end time, and total execution time
+When a human-facing argument or behavior changes, update parser help, tests, and
+the owning runbook in the same change. Follow the
+[script standards](../../docs/standards/scripts.md) and
+[documentation standards](../../docs/standards/documentation.md).

@@ -48,3 +48,12 @@ for the initial example.
 - [0002: College Board Vendor Structure](./0002-collegeboard-vendor-structure.md)
 - [0003: NWEA Vendor Structure](./0003-nwea-vendor-structure.md)
 - [0004: i-Ready Vendor Structure](./0004-iready-vendor-structure.md)
+
+## Related Navigation
+
+- [Documentation Hub](../index.md)
+  Repository-wide learning and task paths.
+- [ADR standards](../standards/adr.md)
+  Rules for deciding, writing, and maintaining ADRs.
+- [Repository roadmap](../roadmap/index.md)
+  Planned repository evolution that may require durable decisions.

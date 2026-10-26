@@ -31,8 +31,7 @@ best entrypoint for navigating it.
 If you are trying to understand the project:
 
 - start at [../../README.md](../../README.md)
-- move to [../README.md](../README.md)
-- then use [../index.md](../index.md)
+- follow the learning path in the [Documentation Hub](../index.md)
 
 If you are trying to work on mappings:
 
@@ -45,12 +44,14 @@ If you are trying to understand validation or tooling:
 
 - start at [../../scripts/README.md](../../scripts/README.md)
 - then review [scripts-and-commands.md](./scripts-and-commands.md)
+- follow the command entry to its procedure under
+  [../runbooks/](../runbooks/README.md)
 - then use [../../scripts/ci/README.md](../../scripts/ci/README.md) for CI
   validation details
 
 If you are trying to understand policies and durable decisions:
 
-- use [../standards/](../standards/)
+- use the [standards index](../standards/README.md)
 - review [../roadmap/index.md](../roadmap/index.md)
 - check [../adr/README.md](../adr/README.md)
 
@@ -63,6 +64,8 @@ The documentation system follows a few navigation rules:
 - links should remain repo-relative and machine-portable
 - human-facing docs should explain responsibility and entrypoints, not just list
   files
+- recurring operational workflows should have one authoritative runbook;
+  indexes and implementation docs should link to it instead of duplicating it
 - family-specific guidance should stay close to the family folder rather than
   being buried in central docs
 - when a vendor has multiple distinct delivered result-file families, that
@@ -70,7 +73,13 @@ The documentation system follows a few navigation rules:
 
 ## Related References
 
+- [Documentation Hub](../index.md)
+  Primary learning and task-navigation entrypoint.
 - [README.md](./README.md)
   Project purpose and scope.
 - [scripts-and-commands.md](./scripts-and-commands.md)
-  Command glossary for the active automation surface.
+  Command index for the active automation surface.
+- [../runbooks/README.md](../runbooks/README.md)
+  Authoritative operating procedures for recurring workflows.
+- [../standards/documentation.md](../standards/documentation.md)
+  Documentation ownership and maintenance standards.

@@ -23,3 +23,12 @@ Keep the TEA archive content in a shared vendor-specific subfolder under
   convention
 - keep local PDF file names stable and aligned with the current TEA source
   document semantics
+
+## Related Navigation
+
+- [Source archives](../README.md)
+  Vendor archive index and shared archive rules.
+- [TEA assessments](../../../assessments/tea/README.md)
+  Canonical TEA mapping-family navigation.
+- [TEA audit program](../../audits/tea/README.md)
+  Source-fidelity workflow and evidence.

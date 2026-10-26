@@ -1,109 +1,47 @@
-# Scripts And Commands Reference
+# Scripts And Commands Index
 
-This page is the quick-reference glossary for repository entrypoints, common
-commands, and sorter terminology.
+This page is the concise index of repository entrypoints. Operational defaults,
+options, examples, side effects, verification, and recovery guidance live in
+the linked runbooks.
 
-## Command glossary
+## Repository Maintenance
 
 - `npm run format`
-  Formats tracked repository docs, JSON, and config files with Prettier.
+  Formats repository-managed documentation, JSON, and configuration files.
 - `npm run format:check`
   Checks formatting without rewriting files.
 - `npm run lint:format`
   Runs the formatting gate used by CI.
-- `npm run lint`
-  Runs the formatting gate plus the repository validation suite.
 - `npm run lint:repo`
   Runs `python scripts/ci/validate_repo.py`.
+- `npm run lint`
+  Runs the formatting gate and repository validation suite.
+- `npm run commitlint -- --edit <path>`
+  Validates a commit-message file against the repository convention.
 - `python scripts/ci/validate_repo.py`
-  Validates repository structure, documentation, mappings, and other shared
-  repo rules.
+  Validates repository structure, documentation, and mappings.
+
+`npm run prepare` installs the repository's Husky hooks automatically during
+normal npm installation; it is not a routine operator command.
+
+## TEA Assessment Processing
+
 - `python scripts/mappings/sort_tea_assessments.py [input_dir]`
-  Sorts matched TEA assessment files into output buckets using configurable
-  input mode, output mode, and grouping.
+  Classifies files into output buckets while keeping source files separate.
+  See [Sort TEA assessment files](../runbooks/tea/sort-assessment-files.md).
 - `python scripts/mappings/sort_archive_outputs.py [input_dir]`
-  Runs the sorter with archive output selected by default.
+  Runs the same sorter with per-bucket archive output selected.
+  See [Sort TEA assessment files](../runbooks/tea/sort-assessment-files.md).
 - `python scripts/mappings/merge_tea_assessment_files.py [input_dir]`
-  Merges matched TEA assessment files into one `.txt` output per mapping file,
-  with optional `--unique` row deduplication.
+  Combines matched content into one text output per mapping bucket.
+  See [Merge TEA assessment files](../runbooks/tea/merge-assessment-files.md).
 
-## Sorter defaults
+For unexpected classifications, missing output, or safe rerun guidance, see
+[Troubleshoot TEA processing](../runbooks/tea/troubleshoot-processing.md).
 
-The main sorter defaults are:
+## Contributor References
 
-- input directory: `.tmp/uploads/tea/`
-- input mode: `loose`
-- output mode: `directory`
-- grouping: `assessment-by-year`
-- output root: `.tmp/exports/tea/`
-- processed inputs root: `.tmp/processed_files/tea/`
-
-## Sorter option glossary
-
-- `input mode`
-  Controls which source items are eligible for sorting.
-- `output mode`
-  Controls whether each bucket is written as a directory or archive.
-- `grouping`
-  Controls whether outputs stay year-specific or collapse all years into one
-  assessment bucket.
-- `loose`
-  Process only top-level non-archive files from the input directory.
-- `archive`
-  Process top-level `.zip` files from the input directory and recurse through
-  nested archives.
-- `all`
-  Process both loose files and top-level archives.
-- `directory`
-  Write each output bucket as a normal directory.
-- `assessment-by-year`
-  Write year-specific output buckets such as `2026-staar-eoc`.
-- `assessment`
-  Write assessment-family buckets such as `staar/eoc` that combine all years.
-
-## Sorter command patterns
-
-Sort only loose files into year-specific directories:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py
-```
-
-Sort both loose files and archive contents into year-specific directories:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode all
-```
-
-Sort only archive contents into year-specific directories:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode archive
-```
-
-Sort both loose files and archive contents into year-specific archives:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --input-mode all --output-mode archive
-```
-
-Sort loose files into assessment buckets that combine all years:
-
-```powershell
-python scripts/mappings/sort_tea_assessments.py --grouping assessment
-```
-
-Use the archive-output wrapper:
-
-```powershell
-python scripts/mappings/sort_archive_outputs.py --input-mode all
-```
-
-## Notes
-
-- `--include-archives` is still accepted by the sorter as a compatibility
-  shortcut for `--input-mode all`.
-- The merger currently keeps its older archive-selection model and does not yet
-  support the sorter's new grouping or output-mode concepts.
-- The merger's `--unique` option deduplicates rows within each merged output
-  while preserving the first occurrence encountered during processing.
+- [Script standards](../standards/scripts.md)
+- [Documentation standards](../standards/documentation.md)
+- [Scripts implementation overview](../../scripts/README.md)
+- [Mapping scripts implementation notes](../../scripts/mappings/README.md)

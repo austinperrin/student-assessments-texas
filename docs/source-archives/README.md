@@ -11,13 +11,13 @@ added.
 
 ## Current Subdirectories
 
-- `tea/`
+- [TEA](./tea/)
   TEA and Texas Assessments source document archives.
-- `collegeboard/`
+- [College Board](./collegeboard/)
   College Board delivery-family and product-format archives.
-- `iready/`
+- [i-Ready](./iready/)
   i-Ready source references and export-family archive scaffolding.
-- `nwea/`
+- [NWEA](./nwea/)
   NWEA assessment-family and export-format archives.
 
 ## Usage
@@ -44,3 +44,12 @@ added.
   `docs/source-archives/nwea/map_growth/data_exports/`
 - add new vendor folders under `docs/source-archives/` rather than creating
   archive directories directly under `docs/`
+
+## Related Navigation
+
+- [Documentation Hub](../index.md)
+  Repository-wide learning and task paths.
+- [Assessment corpus](../../assessments/README.md)
+  Mapping families supported by these sources.
+- [Repository audits](../audits/README.md)
+  Durable source-fidelity review records.

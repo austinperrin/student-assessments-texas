@@ -30,6 +30,23 @@ and `scripts/lib/` when those workflows exist.
 - exit `0` on success and non-zero on failure
 - print actionable error output
 - support `--help` when the script interface is intended for repeated human use
+- keep parser help text accurate for every public option and default
+
+## Workflow Documentation
+
+Recurring human-operated scripts with inputs, side effects, generated artifacts,
+or recovery considerations should have an authoritative runbook under
+`docs/runbooks/`.
+
+- command indexes should link to runbooks instead of duplicating option lists
+- implementation READMEs should focus on code organization, tests, and
+  contributor guidance
+- runbooks should document defaults, complete option sets, examples, outputs,
+  side effects, verification, and safe reruns
+- CLI changes must update parser help, tests, and the owning runbook together
+
+See [documentation.md](./documentation.md) for documentation ownership and
+reference-direction rules.
 
 ## Current Bias
 
