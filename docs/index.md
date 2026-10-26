@@ -1,82 +1,91 @@
-﻿# Docs Index
+# Documentation Hub
 
-This folder is the main navigation index for the project's human-facing
-documentation system.
+This is the primary entrypoint for learning and using the repository. Choose a
+path based on what you need to do rather than browsing the folder tree.
 
-The current assessment corpus lives under
-[../assessments/](../assessments/), while standards, ADRs, roadmap material,
-workflow references, and local source-document archives live here under
-`docs/`.
+## First Visit
 
-## Primary Entry Points
+Read these pages in order:
 
-- [README.md](./README.md)
-  Documentation system overview.
-- [overview/README.md](./overview/README.md)
-  Project purpose and long-term direction.
-- [overview/repository-navigation.md](./overview/repository-navigation.md)
-  Guide to the top-level project areas and how they fit together.
+1. [Project overview](./overview/README.md)
+   Understand the repository's purpose, current scope, and planned direction.
+2. [Repository navigation](./overview/repository-navigation.md)
+   Learn what belongs in each major project area.
+3. [Assessment corpus](../assessments/README.md)
+   Explore mappings by vendor, delivery family, assessment variant, and year.
+4. [Standards](./standards/README.md)
+   Review the shared rules before changing mappings, documentation, or tools.
 
-## Current Sections
+## Choose A Task
 
-- [Audits](./audits/README.md)
-  Durable audit plans, coverage, review evidence, and findings.
+### Operate the TEA processing tools
 
-- [Overview](./overview/)
-  Project purpose, current scope, and long-term direction.
-- [Project Navigation](./overview/repository-navigation.md)
-  Top-level navigation guide and project area responsibilities.
-- [Scripts And Commands Reference](./overview/scripts-and-commands.md)
-  Concise index of project entrypoints and their owning documentation.
+1. Use the [command index](./overview/scripts-and-commands.md) to select an
+   entrypoint.
+2. Follow the authoritative [runbook](./runbooks/README.md) for preparation,
+   options, side effects, verification, and recovery.
+3. Use [mapping script implementation notes](../scripts/mappings/README.md) only
+   when changing the code or tests.
+
+### Maintain an assessment mapping
+
+1. Start at the [assessment corpus](../assessments/README.md) and navigate to the
+   closest family `README.md`.
+2. Review the [coding and mapping standards](./standards/coding-standards.md).
+3. Find the governing material in the
+   [source archive](./source-archives/README.md), while treating the current
+   official online source as authoritative.
+4. Run the validation described by the family guidance and project standards.
+
+### Audit TEA source fidelity
+
+1. Start at [Repository audits](./audits/README.md).
+2. Follow the [TEA audit program](./audits/tea/README.md).
+3. Use its workflow, checklist, templates, coverage, and review records rather
+   than creating a separate audit process.
+
+### Change repository structure or policy
+
+1. Review the [standards index](./standards/README.md).
+2. Check existing [architecture decisions](./adr/README.md).
+3. Review the [repository roadmap](./roadmap/index.md).
+4. Record a new ADR when the decision has durable structural consequences.
+
+## Documentation Map
+
+- [Overview](./overview/README.md)
+  Project purpose, repository navigation, and command index.
 - [Runbooks](./runbooks/README.md)
-  Authoritative procedures for recurring workflows, including verification and
-  recovery guidance.
-- [Roadmap](./roadmap/)
-  Milestone-level view of project growth and scaffolding priorities.
-- [Standards](./standards/)
-  Human-readable project standards for coding, commits, scripts, and ADR usage.
-- [Documentation Standards](./standards/documentation.md)
-  Ownership, reference direction, runbook content, and change requirements.
-- [ADRs](./adr/)
-  Architecture Decision Records for durable project and platform decisions.
-- [Source Archives](./source-archives/)
-  Shared local archive root for vendor-specific source documents.
-- [TEA Source Archive](./source-archives/tea/)
-  TEA and Texas Assessments source document archives.
-- [College Board Data File Formats Archive](./source-archives/collegeboard/)
-  Local archive for College Board source-format documents, grouped by
-  delivery/reporting family where appropriate.
-- [i-Ready Source Archive](./source-archives/iready/)
-  Local archive for i-Ready source references and export-family scaffolding.
-- [NWEA Source Archive](./source-archives/nwea/)
-  Local archive for NWEA MAP Suite source references and export-format
-  materials.
-- [GitHub Workflow Overview](../.github/overview.md)
-  Workflow automation and contribution-template overview.
+  Authoritative procedures for recurring operations.
+- [Standards](./standards/README.md)
+  Durable rules for mappings, scripts, documentation, commits, and ADRs.
+- [Assessment mappings](../assessments/README.md)
+  Canonical mapping corpus and family-level maintenance guidance.
+- [Source archives](./source-archives/README.md)
+  Local copies of vendor source material organized by vendor and delivery
+  family or year as appropriate.
+- [Audits](./audits/README.md)
+  Source-fidelity programs, evidence, coverage, and findings.
+- [Architecture decisions](./adr/README.md)
+  Durable structural decisions and their rationale.
+- [Roadmap](./roadmap/index.md)
+  Repository evolution and planned work.
+- [GitHub workflows](../.github/overview.md)
+  CI automation and contribution templates.
 
-## Archive Layout
+## Where Information Belongs
 
-The TEA source archive is organized into year folders under
-`docs/source-archives/tea/`:
+| Information                   | Authoritative location                  |
+| ----------------------------- | --------------------------------------- |
+| Project purpose and structure | `docs/overview/`                        |
+| Commands available            | `docs/overview/scripts-and-commands.md` |
+| How to perform an operation   | `docs/runbooks/`                        |
+| Durable working rules         | `docs/standards/`                       |
+| Mapping-family specifics      | nearest `assessments/**/README.md`      |
+| AI-agent guidance             | nearest `AGENTS.md`                     |
+| Official-source local copies  | `docs/source-archives/`                 |
+| Audit evidence and status     | `docs/audits/`                          |
+| Structural decision rationale | `docs/adr/`                             |
 
-- [2012](./source-archives/tea/2012/)
-- [2013](./source-archives/tea/2013/)
-- [2014](./source-archives/tea/2014/)
-- [2015](./source-archives/tea/2015/)
-- [2016](./source-archives/tea/2016/)
-- [2017](./source-archives/tea/2017/)
-- [2018](./source-archives/tea/2018/)
-- [2019](./source-archives/tea/2019/)
-- [2020](./source-archives/tea/2020/)
-- [2021](./source-archives/tea/2021/)
-- [2022](./source-archives/tea/2022/)
-- [2023](./source-archives/tea/2023/)
-- [2024](./source-archives/tea/2024/)
-- [2025](./source-archives/tea/2025/)
-- [2026](./source-archives/tea/2026/)
-
-Other vendors should add their own archive folders under
-`docs/source-archives/` and may choose a delivery-family, product, or year
-layout as appropriate for the assessment workflow.
-
-This area can expand over time to include non-PDF reference material without mixing it directly into the TEA PDF archive.
+See the [documentation standard](./standards/documentation.md) for ownership and
+cross-reference rules.

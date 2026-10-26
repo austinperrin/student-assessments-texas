@@ -19,8 +19,7 @@ As the corpus expands, the default organizational model is:
 - [assessments/](./assessments/)
   Assessment mappings grouped by vendor or source system.
 - [docs/index.md](./docs/index.md)
-  Documentation index for standards, roadmap, ADRs, workflow references, and
-  the TEA source-document archive.
+  Primary learning and task-navigation hub for the repository.
 - [scripts/](./scripts/)
   Shared automation for validation, sorting, merging, and project
   maintenance.
@@ -155,8 +154,9 @@ Notes:
 
 ## Documentation System
 
-The documentation hub is [docs/index.md](./docs/index.md). The most useful
-entrypoints are:
+The [Documentation Hub](./docs/index.md) provides a first-visit learning path
+and task-specific routes. Use it instead of browsing the documentation tree.
+The major destinations are:
 
 - [docs/overview/README.md](./docs/overview/README.md)
   Project purpose and long-term direction.
@@ -166,13 +166,13 @@ entrypoints are:
   Concise script index linked to authoritative operating procedures.
 - [docs/runbooks/README.md](./docs/runbooks/README.md)
   Task-oriented operating procedures, verification, and recovery guidance.
-- [docs/standards/](./docs/standards/)
+- [docs/standards/README.md](./docs/standards/README.md)
   Human-readable project standards.
 - [docs/roadmap/index.md](./docs/roadmap/index.md)
   Milestone-level project roadmap.
 - [docs/adr/README.md](./docs/adr/README.md)
   Architecture Decision Record guidance.
-- [docs/source-archives/](./docs/source-archives/)
+- [docs/source-archives/README.md](./docs/source-archives/README.md)
   Shared local archive root for vendor-specific source documents.
 
 The local archive is for maintenance and reference. The official online TEA or

@@ -53,3 +53,12 @@ Status: `Planned`
 
 Scaffolding should be added early when it reduces future churn, but heavyweight
 framework choices should wait until the repository has a concrete need for them.
+
+## Related Navigation
+
+- [Documentation Hub](../index.md)
+  Repository-wide learning and task paths.
+- [Architecture decisions](../adr/README.md)
+  Durable decisions and their rationale.
+- [Standards](../standards/README.md)
+  Shared rules governing current work.

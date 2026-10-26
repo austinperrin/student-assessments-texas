@@ -31,8 +31,7 @@ best entrypoint for navigating it.
 If you are trying to understand the project:
 
 - start at [../../README.md](../../README.md)
-- move to [../README.md](../README.md)
-- then use [../index.md](../index.md)
+- follow the learning path in the [Documentation Hub](../index.md)
 
 If you are trying to work on mappings:
 
@@ -52,7 +51,7 @@ If you are trying to understand validation or tooling:
 
 If you are trying to understand policies and durable decisions:
 
-- use [../standards/](../standards/)
+- use the [standards index](../standards/README.md)
 - review [../roadmap/index.md](../roadmap/index.md)
 - check [../adr/README.md](../adr/README.md)
 
@@ -74,6 +73,8 @@ The documentation system follows a few navigation rules:
 
 ## Related References
 
+- [Documentation Hub](../index.md)
+  Primary learning and task-navigation entrypoint.
 - [README.md](./README.md)
   Project purpose and scope.
 - [scripts-and-commands.md](./scripts-and-commands.md)

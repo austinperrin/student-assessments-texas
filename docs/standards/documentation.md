@@ -36,6 +36,23 @@ project README -> command index -> runbook -> implementation README and code
 When a short summary must repeat a fact, link to its authoritative page and
 avoid details likely to change, such as a default value or output path.
 
+## Navigation And Learning Paths
+
+Use `docs/index.md` as the primary documentation hub. It should help readers
+choose a task and follow a recommended sequence instead of reproducing the
+repository tree.
+
+- the project `README.md` should route readers to the documentation hub
+- every major documentation area should have a `README.md` or index that states
+  its purpose and links back to the hub or its parent index
+- indexes should organize links by reader goal or workflow before listing raw
+  files
+- a reader should be able to move from overview, to governing standard or
+  procedure, to implementation details without searching the repository
+- large inventories belong in their owning section, not in the documentation
+  hub
+- use meaningful link labels that describe the destination or task
+
 ## Runbook Expectations
 
 Create a runbook for a recurring human-operated workflow when it has meaningful
